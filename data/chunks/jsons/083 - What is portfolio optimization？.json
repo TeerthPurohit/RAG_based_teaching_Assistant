@@ -1,0 +1,96 @@
+{
+    "chunks": [
+        {
+            "number": "083",
+            "title": "What is portfolio optimization？",
+            "start": 0.0,
+            "end": 5.0,
+            "text": "Your final project in this mini-course is to create a portfolio optimizer."
+        },
+        {
+            "number": "083",
+            "title": "What is portfolio optimization？",
+            "start": 5.0,
+            "end": 9.0,
+            "text": "That might sound like a tough problem, but you've already got the tools to do it."
+        },
+        {
+            "number": "083",
+            "title": "What is portfolio optimization？",
+            "start": 9.0,
+            "end": 13.0,
+            "text": "In this short lesson, we're going to lay the groundwork to help you know"
+        },
+        {
+            "number": "083",
+            "title": "What is portfolio optimization？",
+            "start": 13.0,
+            "end": 17.0,
+            "text": "what portfolio optimization is and how to build one."
+        },
+        {
+            "number": "083",
+            "title": "What is portfolio optimization？",
+            "start": 17.0,
+            "end": 20.0,
+            "text": "First, what is portfolio optimization?"
+        },
+        {
+            "number": "083",
+            "title": "What is portfolio optimization？",
+            "start": 20.0,
+            "end": 24.0,
+            "text": "Given a set of assets and a time period,"
+        },
+        {
+            "number": "083",
+            "title": "What is portfolio optimization？",
+            "start": 24.0,
+            "end": 29.0,
+            "text": "find an allocation of funds to assets that maximizes performance."
+        },
+        {
+            "number": "083",
+            "title": "What is portfolio optimization？",
+            "start": 29.0,
+            "end": 31.0,
+            "text": "What is performance?"
+        },
+        {
+            "number": "083",
+            "title": "What is portfolio optimization？",
+            "start": 31.0,
+            "end": 35.0,
+            "text": "We could choose from a number of metrics including cumulative return,"
+        },
+        {
+            "number": "083",
+            "title": "What is portfolio optimization？",
+            "start": 35.0,
+            "end": 41.0,
+            "text": "volatility or risk, and risk-adjusted return, which is Sharpe ratio."
+        },
+        {
+            "number": "083",
+            "title": "What is portfolio optimization？",
+            "start": 41.0,
+            "end": 45.0,
+            "text": "You can use any criteria you like, but for this assignment,"
+        },
+        {
+            "number": "083",
+            "title": "What is portfolio optimization？",
+            "start": 45.0,
+            "end": 47.0,
+            "text": "we're going to focus on Sharpe ratio."
+        },
+        {
+            "number": "083",
+            "title": "What is portfolio optimization？",
+            "start": 47.0,
+            "end": 52.0,
+            "text": "Now, let me show you how to use a minimizer to optimize a portfolio."
+        }
+    ],
+    "text": "Your final project in this mini-course is to create a portfolio optimizer. That might sound like a tough problem, but you've already got the tools to do it. In this short lesson, we're going to lay the groundwork to help you know what portfolio optimization is and how to build one. First, what is portfolio optimization? Given a set of assets and a time period, find an allocation of funds to assets that maximizes performance. What is performance? We could choose from a number of metrics including cumulative return, volatility or risk, and risk-adjusted return, which is Sharpe ratio. You can use any criteria you like, but for this assignment, we're going to focus on Sharpe ratio. Now, let me show you how to use a minimizer to optimize a portfolio."
+}

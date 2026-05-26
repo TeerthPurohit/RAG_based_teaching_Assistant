@@ -1,0 +1,97 @@
+{
+    "title": "Price forecasting demo",
+    "number": "170",
+    "chunks": [
+        {
+            "title": "Price forecasting demo",
+            "number": "170",
+            "start": 0.5,
+            "end": 18.8,
+            "text": "Now let me show you how we use these very same algorithms in a real application. This is a cloud-based application called QuantDesk. It was developed by a company I co-founded called Lucentia Research. Now, the way it works is over on the left here, there are various list of stocks that you can choose from."
+        },
+        {
+            "title": "Price forecasting demo",
+            "number": "170",
+            "start": 18.8,
+            "end": 44.0,
+            "text": "I've chosen Dow Jones, and when you click on that, you can see the list of stocks that make up that group of stocks. There are any number of ways that you can list particular stocks you're interested in looking at. Now, over here are our forecasting options. And this is how we tell the machine learning algorithm which factors we want to use,"
+        },
+        {
+            "title": "Price forecasting demo",
+            "number": "170",
+            "start": 44.0,
+            "end": 59.3,
+            "text": "how far in the future do we want to predict, and so on. We're using right now the default model. And what that is is that's the list of factors that we think are important for making a future price prediction. So we can click here and see what those factors are."
+        },
+        {
+            "title": "Price forecasting demo",
+            "number": "170",
+            "start": 59.3,
+            "end": 74.3,
+            "text": "This is the list of factors that we're using now. So it turns out that these factors are determined using another machine learning algorithm. We use a genetic algorithm for discovering these. That's a subject for a different lecture."
+        },
+        {
+            "title": "Price forecasting demo",
+            "number": "170",
+            "start": 74.3,
+            "end": 90.7,
+            "text": "But anyhow, these are the list of factors considered at present. Now let's do a one week forecast. Well, let's make it a one month forecast. And let's use three months of data. So we're going to be looking back three months at all these factors."
+        },
+        {
+            "title": "Price forecasting demo",
+            "number": "170",
+            "start": 90.7,
+            "end": 108.6,
+            "text": "We're going to be, when we roll back time, we're able to see the future price of these stocks. So we can see how those factors presumably affected the future price. So let's do a forecast and see what the result looks like. So this area here is the forecast for Apple."
+        },
+        {
+            "title": "Price forecasting demo",
+            "number": "170",
+            "start": 108.6,
+            "end": 128.9,
+            "text": "This is the historical price looking back the last three months. And this is the forecast future price. So that line is indicating that we think it's going to go up. And this arc line above and below is our confidence interval. We also report that data in a tabular format up here."
+        },
+        {
+            "title": "Price forecasting demo",
+            "number": "170",
+            "start": 128.9,
+            "end": 150.4,
+            "text": "So this is the current price. This is the forecast change in price and the forecast percentage change. So our system thinks that from today, Apple is going to go up about 2.5%. Now we also report some other information over here. We report what we call confidence and backtest score."
+        },
+        {
+            "title": "Price forecasting demo",
+            "number": "170",
+            "start": 150.4,
+            "end": 172.3,
+            "text": "Confidence refers to when we find those k nearest neighbors, how diverse are the y's that comes back? So k is the number of neighbors. And when we look at all those neighbors that are the closest to the values of the quantities that Apple has today, we find the 30 closest ones."
+        },
+        {
+            "title": "Price forecasting demo",
+            "number": "170",
+            "start": 172.3,
+            "end": 188.7,
+            "text": "And we look at the standard deviation among all those 30. If they're very close, we're confident in our prediction. If they're spread apart, we're less confident. So you can see here, American Express has a more confident prediction. And we rate this by a number of stars, by the way,"
+        },
+        {
+            "title": "Price forecasting demo",
+            "number": "170",
+            "start": 188.7,
+            "end": 207.8,
+            "text": "where five stars represent our most confident estimates. And one star, of course, our least confident. So our system thinks that American Express is going to go down by 0.9% over the next month. It's got a high confidence. And it's also got a high backtest score."
+        },
+        {
+            "title": "Price forecasting demo",
+            "number": "170",
+            "start": 207.8,
+            "end": 228.0,
+            "text": "So what's this backtest score? What we do is we roll back time and we look over all this last three months. And look forward one month and we see how accurate all those predictions were over the last three months. The more accurate those were, the higher ranking we get there."
+        },
+        {
+            "title": "Price forecasting demo",
+            "number": "170",
+            "start": 228.0,
+            "end": 263.0,
+            "text": "So this is just an example of how we can use these same tools to make predictions in a live, real system. And this is using, behind the scenes, the same software that you're learning in this class. So there's what happens 2 months ahead of us, we think, like Education and Education, or the high number eight minutes 8 gives me the right answer out."
+        }
+    ]
+}

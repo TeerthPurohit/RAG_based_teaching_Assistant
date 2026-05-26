@@ -1,0 +1,62 @@
+{
+    "title": "Introduction",
+    "number": "005",
+    "chunks": [
+        {
+            "title": "Introduction",
+            "number": "005",
+            "start": 0.0,
+            "end": 14.0,
+            "text": "Hi, I'm Tucker. And I'm Dave. Welcome to this mini course, Manipulating Financial Data in Python. Our goal is to give you a quick introduction to the skills you'll need to work with financial data in Python."
+        },
+        {
+            "title": "Introduction",
+            "number": "005",
+            "start": 15.4,
+            "end": 29.4,
+            "text": "Now, some people complain about our choice of Python for financial applications. I don't agree with those people. Python allows you to quickly prototype algorithms while also providing computational speed."
+        },
+        {
+            "title": "Introduction",
+            "number": "005",
+            "start": 29.4,
+            "end": 44.9,
+            "text": "It has a number of features. Firstly, it has strong scientific libraries. Second, it is strongly maintained. It is also fast if you can stick to matrix notation, because lower levels are written in C."
+        },
+        {
+            "title": "Introduction",
+            "number": "005",
+            "start": 44.9,
+            "end": 59.7,
+            "text": "Some other potential languages that might have made sense for this course include R and MATLAB, which are themselves also great languages for financial data. But we've chosen Python, and we'll be using this book Python for Finance in the course."
+        },
+        {
+            "title": "Introduction",
+            "number": "005",
+            "start": 59.7,
+            "end": 69.5,
+            "text": "Look for readings assigned in the course outline. Month in the course of 11th Sincene光. On the course outline. Under debts and in the course outline program, we'll take a moment,"
+        },
+        {
+            "title": "Introduction",
+            "number": "005",
+            "start": 69.5,
+            "end": 75.9,
+            "text": "and let us find yourself good. Or at under, кого qualitative and AMM dealing with algorithms. Let us ask you about further discoveries with"
+        },
+        {
+            "title": "Introduction",
+            "number": "005",
+            "start": 75.9,
+            "end": 83.6,
+            "text": "Collection libraries for manual analysis. And the resultados of 1974, ist and links of universities, and capital analysis for new technology, Ton Neckart Corp."
+        },
+        {
+            "title": "Introduction",
+            "number": "005",
+            "start": 83.6,
+            "end": 87.3,
+            "text": "Whereas something like before this particular claims planet to regard, which comes from research鹜art which is you to make the formula for arising."
+        }
+    ]
+}

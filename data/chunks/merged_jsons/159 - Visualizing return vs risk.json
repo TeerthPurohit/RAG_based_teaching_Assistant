@@ -1,0 +1,34 @@
+{
+    "title": "Visualizing return vs risk",
+    "number": "159",
+    "chunks": [
+        {
+            "title": "Visualizing return vs risk",
+            "number": "159",
+            "start": 0.3,
+            "end": 18.3,
+            "text": "Now, as you've probably heard over and over and over again, there's no reward without risk. And we often want to consider multiple stocks together and evaluate their risk versus return. So one way we can do that is plot them on a scatter plot where"
+        },
+        {
+            "title": "Visualizing return vs risk",
+            "number": "159",
+            "start": 18.3,
+            "end": 41.3,
+            "text": "each dot here represents one stock. So risk is along this axis, return is along this axis. So for instance, this stock here has higher risk but about the same return as this stock. And then for comparison, this stock here has shown historically about the same"
+        },
+        {
+            "title": "Visualizing return vs risk",
+            "number": "159",
+            "start": 41.3,
+            "end": 63.6,
+            "text": "risk as this stock but it's got a much higher return. Now we can build a portfolio by combining multiple assets like the various stocks I've got plotted here and weighting each asset by a particular weight. that represents its allocation within the portfolio. So each stock has a weight and when combined all together,"
+        },
+        {
+            "title": "Visualizing return vs risk",
+            "number": "159",
+            "start": 63.6,
+            "end": 75.9,
+            "text": "we end up with a portfolio that has properties of each of the stocks. It's typically got a risk somewhere in the middle there and a return somewhere in the middle."
+        }
+    ]
+}

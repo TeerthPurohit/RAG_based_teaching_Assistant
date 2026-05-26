@@ -1,0 +1,96 @@
+{
+    "chunks": [
+        {
+            "number": "015",
+            "title": "Pandas dataframe recap",
+            "start": 0.5,
+            "end": 6.6,
+            "text": "Okay, in this lesson, we're going to dive into how do we fill a data frame"
+        },
+        {
+            "number": "015",
+            "title": "Pandas dataframe recap",
+            "start": 6.6,
+            "end": 8.7,
+            "text": "with the data that we want."
+        },
+        {
+            "number": "015",
+            "title": "Pandas dataframe recap",
+            "start": 8.7,
+            "end": 13.2,
+            "text": "And we're also going to touch upon a couple issues that we had that"
+        },
+        {
+            "number": "015",
+            "title": "Pandas dataframe recap",
+            "start": 13.2,
+            "end": 15.6,
+            "text": "were pointed out in the previous lesson."
+        },
+        {
+            "number": "015",
+            "title": "Pandas dataframe recap",
+            "start": 15.6,
+            "end": 20.1,
+            "text": "For instance, remember when we had that issue that the dates were actually"
+        },
+        {
+            "number": "015",
+            "title": "Pandas dataframe recap",
+            "start": 20.1,
+            "end": 22.6,
+            "text": "in the reverse order when we loaded them in?"
+        },
+        {
+            "number": "015",
+            "title": "Pandas dataframe recap",
+            "start": 22.6,
+            "end": 24.1,
+            "text": "We're going to fix that."
+        },
+        {
+            "number": "015",
+            "title": "Pandas dataframe recap",
+            "start": 24.1,
+            "end": 26.7,
+            "text": "We're going to fix a couple other things too."
+        },
+        {
+            "number": "015",
+            "title": "Pandas dataframe recap",
+            "start": 26.7,
+            "end": 32.0,
+            "text": "Okay, just to refresh your memory, here's the kind of stuff that goes in a data frame."
+        },
+        {
+            "number": "015",
+            "title": "Pandas dataframe recap",
+            "start": 32.0,
+            "end": 36.6,
+            "text": "Our columns are the particular symbols of stocks that we're interested in,"
+        },
+        {
+            "number": "015",
+            "title": "Pandas dataframe recap",
+            "start": 36.6,
+            "end": 39.1,
+            "text": "and our rows are dates."
+        },
+        {
+            "number": "015",
+            "title": "Pandas dataframe recap",
+            "start": 39.1,
+            "end": 43.5,
+            "text": "So time goes from the top of the data frame down to the bottom,"
+        },
+        {
+            "number": "015",
+            "title": "Pandas dataframe recap",
+            "start": 43.5,
+            "end": 45.5,
+            "text": "and symbols from left to right."
+        }
+    ],
+    "text": "Okay, in this lesson, we're going to dive into how do we fill a data frame with the data that we want. And we're also going to touch upon a couple issues that we had that were pointed out in the previous lesson. For instance, remember when we had that issue that the dates were actually in the reverse order when we loaded them in? We're going to fix that. We're going to fix a couple other things too. Okay, just to refresh your memory, here's the kind of stuff that goes in a data frame. Our columns are the particular symbols of stocks that we're interested in, and our rows are dates. So time goes from the top of the data frame down to the bottom, and symbols from left to right."
+}

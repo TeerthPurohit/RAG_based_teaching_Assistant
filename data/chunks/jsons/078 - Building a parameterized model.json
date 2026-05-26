@@ -1,0 +1,334 @@
+{
+    "chunks": [
+        {
+            "number": "078",
+            "title": "Building a parameterized model",
+            "start": 0.3,
+            "end": 2.2,
+            "text": "Now we're going to do something really cool."
+        },
+        {
+            "number": "078",
+            "title": "Building a parameterized model",
+            "start": 2.2,
+            "end": 6.8,
+            "text": "I'm going to show you how to build a parameterized model from data."
+        },
+        {
+            "number": "078",
+            "title": "Building a parameterized model",
+            "start": 6.8,
+            "end": 9.4,
+            "text": "What do I mean by parameterized model?"
+        },
+        {
+            "number": "078",
+            "title": "Building a parameterized model",
+            "start": 9.4,
+            "end": 13.3,
+            "text": "This is an example of a parameterized model that you're probably familiar with"
+        },
+        {
+            "number": "078",
+            "title": "Building a parameterized model",
+            "start": 13.3,
+            "end": 14.6,
+            "text": "from algebra."
+        },
+        {
+            "number": "078",
+            "title": "Building a parameterized model",
+            "start": 14.6,
+            "end": 21.8,
+            "text": "It's a function of x and it has these two parameters, m and b."
+        },
+        {
+            "number": "078",
+            "title": "Building a parameterized model",
+            "start": 21.8,
+            "end": 26.5,
+            "text": "In fact, as you're probably aware, this is the equation of a line."
+        },
+        {
+            "number": "078",
+            "title": "Building a parameterized model",
+            "start": 26.5,
+            "end": 30.9,
+            "text": "So m and b are the parameters of that line."
+        },
+        {
+            "number": "078",
+            "title": "Building a parameterized model",
+            "start": 30.9,
+            "end": 36.0,
+            "text": "Now for convenience in our code, instead of using m and b,"
+        },
+        {
+            "number": "078",
+            "title": "Building a parameterized model",
+            "start": 36.0,
+            "end": 42.5,
+            "text": "I'm going to use c0 and c1 just to be consistent."
+        },
+        {
+            "number": "078",
+            "title": "Building a parameterized model",
+            "start": 43.6,
+            "end": 45.9,
+            "text": "Let me motivate this with an example."
+        },
+        {
+            "number": "078",
+            "title": "Building a parameterized model",
+            "start": 45.9,
+            "end": 48.7,
+            "text": "Let's suppose we have some data from an experiment."
+        },
+        {
+            "number": "078",
+            "title": "Building a parameterized model",
+            "start": 48.7,
+            "end": 53.0,
+            "text": "Now this can work for many sorts of experiments, but for now,"
+        },
+        {
+            "number": "078",
+            "title": "Building a parameterized model",
+            "start": 53.0,
+            "end": 56.3,
+            "text": "let's assume we've taken some measurements of humidity."
+        },
+        {
+            "number": "078",
+            "title": "Building a parameterized model",
+            "start": 56.3,
+            "end": 60.0,
+            "text": "And we've observed on those particular days we measure the humidity,"
+        },
+        {
+            "number": "078",
+            "title": "Building a parameterized model",
+            "start": 60.0,
+            "end": 61.6,
+            "text": "how much it rains."
+        },
+        {
+            "number": "078",
+            "title": "Building a parameterized model",
+            "start": 61.6,
+            "end": 66.1,
+            "text": "So each dot here represents one day and one sample of data."
+        },
+        {
+            "number": "078",
+            "title": "Building a parameterized model",
+            "start": 66.1,
+            "end": 71.3,
+            "text": "So on this date, it was this humid and it rained that much."
+        },
+        {
+            "number": "078",
+            "title": "Building a parameterized model",
+            "start": 71.3,
+            "end": 75.5,
+            "text": "Now we probably have lots more data, one for each day."
+        },
+        {
+            "number": "078",
+            "title": "Building a parameterized model",
+            "start": 75.5,
+            "end": 79.5,
+            "text": "When we look at this data, we see there's a kind of relationship here."
+        },
+        {
+            "number": "078",
+            "title": "Building a parameterized model",
+            "start": 79.5,
+            "end": 83.9,
+            "text": "And our intuition is maybe that it could be fitted by a line."
+        },
+        {
+            "number": "078",
+            "title": "Building a parameterized model",
+            "start": 83.9,
+            "end": 89.5,
+            "text": "Just sort of by eyeballing it, it looks like the line might look about like that."
+        },
+        {
+            "number": "078",
+            "title": "Building a parameterized model",
+            "start": 89.5,
+            "end": 97.8,
+            "text": "And so our parameters here, coefficient 0 is equivalent to the slope here."
+        },
+        {
+            "number": "078",
+            "title": "Building a parameterized model",
+            "start": 97.8,
+            "end": 102.1,
+            "text": "And coefficient 1 is the y-intercept."
+        },
+        {
+            "number": "078",
+            "title": "Building a parameterized model",
+            "start": 102.1,
+            "end": 111.2,
+            "text": "So our task is to find c sub 0 and c sub 1 that provide the equation for"
+        },
+        {
+            "number": "078",
+            "title": "Building a parameterized model",
+            "start": 111.2,
+            "end": 113.7,
+            "text": "this line that best fits the data."
+        },
+        {
+            "number": "078",
+            "title": "Building a parameterized model",
+            "start": 113.7,
+            "end": 119.4,
+            "text": "The question here is, how do we reframe this problem so"
+        },
+        {
+            "number": "078",
+            "title": "Building a parameterized model",
+            "start": 119.4,
+            "end": 122.4,
+            "text": "that it makes sense for our minimizer?"
+        },
+        {
+            "number": "078",
+            "title": "Building a parameterized model",
+            "start": 122.4,
+            "end": 124.9,
+            "text": "What is it we're trying to minimize?"
+        },
+        {
+            "number": "078",
+            "title": "Building a parameterized model",
+            "start": 126.7,
+            "end": 131.6,
+            "text": "So restating the problem, suppose we have our original data points here."
+        },
+        {
+            "number": "078",
+            "title": "Building a parameterized model",
+            "start": 132.7,
+            "end": 138.4,
+            "text": "And we're trying to discover the equation of a line that best fits those points."
+        },
+        {
+            "number": "078",
+            "title": "Building a parameterized model",
+            "start": 138.4,
+            "end": 143.4,
+            "text": "Suppose this blue line is a candidate line and we want to evaluate it."
+        },
+        {
+            "number": "078",
+            "title": "Building a parameterized model",
+            "start": 143.4,
+            "end": 145.2,
+            "text": "Is this good or bad?"
+        },
+        {
+            "number": "078",
+            "title": "Building a parameterized model",
+            "start": 145.2,
+            "end": 152.7,
+            "text": "So the equation for that line is our first coefficient times x plus the second coefficient."
+        },
+        {
+            "number": "078",
+            "title": "Building a parameterized model",
+            "start": 154.3,
+            "end": 162.5,
+            "text": "And what the minimizer is going to do is it's going to vary this c 0 and c 1"
+        },
+        {
+            "number": "078",
+            "title": "Building a parameterized model",
+            "start": 162.5,
+            "end": 167.3,
+            "text": "to try and minimize something."
+        },
+        {
+            "number": "078",
+            "title": "Building a parameterized model",
+            "start": 167.3,
+            "end": 175.4,
+            "text": "And so we have to come up with an equation that gets lower in value as this line"
+        },
+        {
+            "number": "078",
+            "title": "Building a parameterized model",
+            "start": 175.4,
+            "end": 176.5,
+            "text": "better fits the data."
+        },
+        {
+            "number": "078",
+            "title": "Building a parameterized model",
+            "start": 177.7,
+            "end": 180.4,
+            "text": "What should we use for that equation?"
+        },
+        {
+            "number": "078",
+            "title": "Building a parameterized model",
+            "start": 180.4,
+            "end": 184.0,
+            "text": "So here's one step towards solving this problem."
+        },
+        {
+            "number": "078",
+            "title": "Building a parameterized model",
+            "start": 184.0,
+            "end": 187.5,
+            "text": "We can take a look at each one of our original data points and"
+        },
+        {
+            "number": "078",
+            "title": "Building a parameterized model",
+            "start": 187.5,
+            "end": 193.3,
+            "text": "observe how far away it is from this line that we're evaluating."
+        },
+        {
+            "number": "078",
+            "title": "Building a parameterized model",
+            "start": 193.3,
+            "end": 197.2,
+            "text": "Let's call each of these distances e."
+        },
+        {
+            "number": "078",
+            "title": "Building a parameterized model",
+            "start": 197.2,
+            "end": 201.1,
+            "text": "So e sub 0 is that one."
+        },
+        {
+            "number": "078",
+            "title": "Building a parameterized model",
+            "start": 201.1,
+            "end": 202.8,
+            "text": "e sub 1 is that one."
+        },
+        {
+            "number": "078",
+            "title": "Building a parameterized model",
+            "start": 202.8,
+            "end": 207.0,
+            "text": "Can we come up with an equation in terms of e or"
+        },
+        {
+            "number": "078",
+            "title": "Building a parameterized model",
+            "start": 207.0,
+            "end": 210.5,
+            "text": "error that gets us to this solution?"
+        }
+    ],
+    "text": "Now we're going to do something really cool. I'm going to show you how to build a parameterized model from data. What do I mean by parameterized model? This is an example of a parameterized model that you're probably familiar with from algebra. It's a function of x and it has these two parameters, m and b. In fact, as you're probably aware, this is the equation of a line. So m and b are the parameters of that line. Now for convenience in our code, instead of using m and b, I'm going to use c0 and c1 just to be consistent. Let me motivate this with an example. Let's suppose we have some data from an experiment. Now this can work for many sorts of experiments, but for now, let's assume we've taken some measurements of humidity. And we've observed on those particular days we measure the humidity, how much it rains. So each dot here represents one day and one sample of data. So on this date, it was this humid and it rained that much. Now we probably have lots more data, one for each day. When we look at this data, we see there's a kind of relationship here. And our intuition is maybe that it could be fitted by a line. Just sort of by eyeballing it, it looks like the line might look about like that. And so our parameters here, coefficient 0 is equivalent to the slope here. And coefficient 1 is the y-intercept. So our task is to find c sub 0 and c sub 1 that provide the equation for this line that best fits the data. The question here is, how do we reframe this problem so that it makes sense for our minimizer? What is it we're trying to minimize? So restating the problem, suppose we have our original data points here. And we're trying to discover the equation of a line that best fits those points. Suppose this blue line is a candidate line and we want to evaluate it. Is this good or bad? So the equation for that line is our first coefficient times x plus the second coefficient. And what the minimizer is going to do is it's going to vary this c 0 and c 1 to try and minimize something. And so we have to come up with an equation that gets lower in value as this line better fits the data. What should we use for that equation? So here's one step towards solving this problem. We can take a look at each one of our original data points and observe how far away it is from this line that we're evaluating. Let's call each of these distances e. So e sub 0 is that one. e sub 1 is that one. Can we come up with an equation in terms of e or error that gets us to this solution?"
+}

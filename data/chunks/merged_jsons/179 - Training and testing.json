@@ -1,0 +1,69 @@
+{
+    "title": "Training and testing",
+    "number": "179",
+    "chunks": [
+        {
+            "title": "Training and testing",
+            "number": "179",
+            "start": 0.4,
+            "end": 18.2,
+            "text": "Consider now the data that we're going to use. We're going to have features that we've computed. These are things like Bollinger Bands and Momentum and Price Change and things like that. We're going to use these features to try and predict prices or price changes."
+        },
+        {
+            "title": "Training and testing",
+            "number": "179",
+            "start": 18.2,
+            "end": 38.5,
+            "text": "So this is our x data, and if we've got multiple features, we've got multiple dimensions in x. So this might be x1, x2, x3, and so on. And this is our y data, which we're trying to predict. In order to evaluate our learning algorithms in a scientific manner,"
+        },
+        {
+            "title": "Training and testing",
+            "number": "179",
+            "start": 38.5,
+            "end": 57.7,
+            "text": "we need to split this data into at least two sections. A training section and a testing section. If we trained over the same data that we tested over, the results would be suspicious because we should obviously be able to do very well if we test over the same data we train on."
+        },
+        {
+            "title": "Training and testing",
+            "number": "179",
+            "start": 57.7,
+            "end": 76.7,
+            "text": "This procedure of separating testing and training data from one another is called out of sample testing. This is a very important and essential technique. We'll call the x data that we use for training, x train, and the y data that we use for training, y train."
+        },
+        {
+            "title": "Training and testing",
+            "number": "179",
+            "start": 76.7,
+            "end": 98.0,
+            "text": "Similarly, the data we'll test on will be split into x and y sections, x test, and y test. So the general idea here is it will take our x train data and our y train data, run that through our machine learning algorithm, which might be linear regression or KNN, to generate a model."
+        },
+        {
+            "title": "Training and testing",
+            "number": "179",
+            "start": 98.0,
+            "end": 119.5,
+            "text": "We can then test the accuracy of that model using this data. So the input to the model is x test. So we plug that x data into the model and out comes something, some kind of y. And the question is, is that y equal to this y,"
+        },
+        {
+            "title": "Training and testing",
+            "number": "179",
+            "start": 119.5,
+            "end": 137.8,
+            "text": "which we know is ground truth. So the more closely the model outputs a y that reflects this x test data, the more accurate the model is. Something that I didn't mention is that in this class, our data is time oriented."
+        },
+        {
+            "title": "Training and testing",
+            "number": "179",
+            "start": 137.8,
+            "end": 157.3,
+            "text": "So as we move downward, we're going forward in time. So we typically split the data up according to time. So we train our model on older data and test it on newer data. It's generally frowned upon to do the reverse. You might argue, well, this data is different than that data."
+        },
+        {
+            "title": "Training and testing",
+            "number": "179",
+            "start": 157.3,
+            "end": 169.4,
+            "text": "It's still out of sample, but there are certain look ahead biases that can occur if you were to train on later data and test on earlier data."
+        }
+    ]
+}

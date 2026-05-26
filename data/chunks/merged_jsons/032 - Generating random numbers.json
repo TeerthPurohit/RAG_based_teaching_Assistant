@@ -1,0 +1,69 @@
+{
+    "title": "Generating random numbers",
+    "number": "032",
+    "chunks": [
+        {
+            "title": "Generating random numbers",
+            "number": "032",
+            "start": 0.0,
+            "end": 26.0,
+            "text": "NumPy also comes with a bunch of handy functions to generate arrays filled with random values. These functions are defined in NumPy's random module. The random function generates uniformly sampled floating point values between 0 and 1, with 0 inclusive and 1 exclusive. More formally, we can say that it generates values in the half open interval 0.0 and 1.0."
+        },
+        {
+            "title": "Generating random numbers",
+            "number": "032",
+            "start": 26.0,
+            "end": 44.0,
+            "text": "Let's go ahead and print this. Here is the generated array with 5 rows and 4 columns. Note that we pass the array shape as a tuple. A slightly variant of this function is rand, which directly accepts a sequence of numbers as arguments instead of a tuple."
+        },
+        {
+            "title": "Generating random numbers",
+            "number": "032",
+            "start": 44.0,
+            "end": 70.0,
+            "text": "It is otherwise equivalent. Observe that we directly pass the values of the rows and columns to the function and did not define a tuple. Here it is the array with same shape as before, 5 rows and 4 columns. NumPy provides this to achieve a greater compatibility with the more established MATLAB syntax. We however recommend using a more consistent NumPy function that explicitly accepts a shape tuple."
+        },
+        {
+            "title": "Generating random numbers",
+            "number": "032",
+            "start": 70.0,
+            "end": 91.0,
+            "text": "Now both the function rand and random sample uniformly from the range 0 and 1. What if you wanted to sample from a different distribution? To sample from a Gaussian or normal distribution, we can use the normal function. We call the normal function from numpy.random and pass the shape of the array we require. Let's run this."
+        },
+        {
+            "title": "Generating random numbers",
+            "number": "032",
+            "start": 91.0,
+            "end": 111.0,
+            "text": "The code produced a 2 into 3 array of random numbers with a standard normal distribution. That is 0 mean and unit standard deviation. You can change the mean and the standard deviation as well. Let's see how to do that. We change the mean to 50 and standard deviation to 10."
+        },
+        {
+            "title": "Generating random numbers",
+            "number": "032",
+            "start": 111.0,
+            "end": 142.0,
+            "text": "Now let's see the output. Notice that the values are centered around 50. To generate integers, we can use the randint function in one of the several ways. Passing two values, 0 and 10 will notify randint to generate a single integer between the range 0 and 10. We can also specify randint how many integers do we want between 0 and 10 by specifying the size attribute and giving it a value."
+        },
+        {
+            "title": "Generating random numbers",
+            "number": "032",
+            "start": 142.0,
+            "end": 163.0,
+            "text": "So this statement will give us a 1d array of five integers between the range 0 and 10. Going forward with that, we can pass a tuple value to the attribute size, which will create a 2d array with all the values between the range 0 and 10. Now let's see the output. These are the single random integers between the range 0 and 10."
+        },
+        {
+            "title": "Generating random numbers",
+            "number": "032",
+            "start": 163.0,
+            "end": 191.0,
+            "text": "Next, we created a 1d array with five values. Note that we mentioned the number of values needed in the one dimensional array with the parameter size. Passing a tuple to the size parameter gave us a 2d values. And also note that all the values of the array are between 0 and 10. Check out the other random sampling routines on the NumPy website for more distribution and usage variations."
+        },
+        {
+            "title": "Generating random numbers",
+            "number": "032",
+            "start": 191.0,
+            "end": 219.3,
+            "text": "Find the link in the instructor's notes. Х owocций Node is an easy way to find a cutting base overall system and using 2d elements. crude"
+        }
+    ]
+}

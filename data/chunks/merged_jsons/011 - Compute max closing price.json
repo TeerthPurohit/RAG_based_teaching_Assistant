@@ -1,0 +1,41 @@
+{
+    "title": "Compute max closing price",
+    "number": "011",
+    "chunks": [
+        {
+            "title": "Compute max closing price",
+            "number": "011",
+            "start": 0.0,
+            "end": 17.5,
+            "text": "Now let's do some more processing on the data frame. We can start with finding the maximum closing value for each of the stock Apple and IBM. So here's the code. The test run function simply loops over two symbols, Apple and"
+        },
+        {
+            "title": "Compute max closing price",
+            "number": "011",
+            "start": 17.5,
+            "end": 39.8,
+            "text": "IBM, and will print the maximum closing value of each of the stock. Let's call the function getMaxClose along with the symbol. Here's the function that will compute the maximum closing value. Let's see what getMaxClose function does. The first step would be to read in the CSV into the data frame."
+        },
+        {
+            "title": "Compute max closing price",
+            "number": "011",
+            "start": 39.8,
+            "end": 59.9,
+            "text": "The next step would be to get only the closing values from the entire data frame. Which means we have to extract the column close. This is how you do it. df square brackets pass the parameter of the column name that is close. Make sure you include the inverted commas."
+        },
+        {
+            "title": "Compute max closing price",
+            "number": "011",
+            "start": 59.9,
+            "end": 78.1,
+            "text": "The last step is to calculate the maximum value and it is as simple as calling the max function over the extracted data. Let's go ahead and print this. Here's your output. The max close for the Apple is 680.44 and"
+        },
+        {
+            "title": "Compute max closing price",
+            "number": "011",
+            "start": 78.1,
+            "end": 81.9,
+            "text": "the max close for the IBM is 209.5."
+        }
+    ]
+}

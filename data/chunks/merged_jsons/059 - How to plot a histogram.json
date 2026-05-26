@@ -1,0 +1,55 @@
+{
+    "title": "How to plot a histogram",
+    "number": "059",
+    "chunks": [
+        {
+            "title": "How to plot a histogram",
+            "number": "059",
+            "start": 0.2,
+            "end": 14.5,
+            "text": "I recently read a post on Humans of New York page, and this woman mentioned in an interview that programming is magic. It allows us to make things with words. Isn't that true? So let's create our own magic."
+        },
+        {
+            "title": "How to plot a histogram",
+            "number": "059",
+            "start": 14.5,
+            "end": 35.2,
+            "text": "Let's make histogram. Firstly, let's check out the ingredients needed to make histogram of daily returns. To calculate daily returns, we need to get stock prices first. To start with, we get stock prices for the SPY for a period of three years. Next step is to calculate daily return."
+        },
+        {
+            "title": "How to plot a histogram",
+            "number": "059",
+            "start": 35.2,
+            "end": 54.6,
+            "text": "This is similar to what we saw in lesson four. Now we call this function and pass our data frame to it. We also plot the daily return value by passing the daily return data frame to our plot data function. This graph shows the prices of the SPY stock over three years."
+        },
+        {
+            "title": "How to plot a histogram",
+            "number": "059",
+            "start": 54.6,
+            "end": 70.4,
+            "text": "And this is the daily return graph for SPY. Now we have our base ready. So let's make our histogram. And after five lessons, you must have guessed that even this can be done in just one line. Here is our histogram."
+        },
+        {
+            "title": "How to plot a histogram",
+            "number": "059",
+            "start": 70.4,
+            "end": 83.2,
+            "text": "Professor explained the concept about bins. We did not mention the number of bins while plotting the histogram. The default number of bins is 10. If you look closely, you will observe 10 set of ranges. Can you see this?"
+        },
+        {
+            "title": "How to plot a histogram",
+            "number": "059",
+            "start": 83.2,
+            "end": 103.7,
+            "text": "One, two, three, four, and so on. If you count, there would be 10. But as usual, Python is flexible and allows us to change the number of bins using the bin keyword. We inform the histogram function that we need 20 bins by passing a parameter bins and assigning it a value 20."
+        },
+        {
+            "title": "How to plot a histogram",
+            "number": "059",
+            "start": 103.7,
+            "end": 122.3,
+            "text": "Now let's check our changed histogram. Notice that the width of each bar has reduced and the number of bars has increased. If you read this graph, it would say that there are approximately 300 values which lie near zero. Next, we compute some statistics on the daily return."
+        }
+    ]
+}

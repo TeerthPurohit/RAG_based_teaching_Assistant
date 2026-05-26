@@ -1,0 +1,61 @@
+{
+    "chunks": [
+        {
+            "number": "027",
+            "title": "What is NumPy",
+            "start": 0.5,
+            "end": 4.9,
+            "text": "In this lesson we're going to learn about the NumPy numerical library."
+        },
+        {
+            "number": "027",
+            "title": "What is NumPy",
+            "start": 4.9,
+            "end": 10.4,
+            "text": "NumPy is a Python library that acts as a wrapper around underlying C and"
+        },
+        {
+            "number": "027",
+            "title": "What is NumPy",
+            "start": 10.4,
+            "end": 11.9,
+            "text": "Fortran code."
+        },
+        {
+            "number": "027",
+            "title": "What is NumPy",
+            "start": 11.9,
+            "end": 14.9,
+            "text": "Because of that, it's very, very fast."
+        },
+        {
+            "number": "027",
+            "title": "What is NumPy",
+            "start": 14.9,
+            "end": 19.5,
+            "text": "NumPy focuses on matrices, which are called ND arrays."
+        },
+        {
+            "number": "027",
+            "title": "What is NumPy",
+            "start": 19.5,
+            "end": 23.4,
+            "text": "The syntax is very similar to MATLAB, so if you've used MATLAB before,"
+        },
+        {
+            "number": "027",
+            "title": "What is NumPy",
+            "start": 23.4,
+            "end": 25.3,
+            "text": "it'll look familiar to you."
+        },
+        {
+            "number": "027",
+            "title": "What is NumPy",
+            "start": 25.3,
+            "end": 29.9,
+            "text": "And NumPy is one of the important reasons people use Python for financial research."
+        }
+    ],
+    "text": "In this lesson we're going to learn about the NumPy numerical library. NumPy is a Python library that acts as a wrapper around underlying C and Fortran code. Because of that, it's very, very fast. NumPy focuses on matrices, which are called ND arrays. The syntax is very similar to MATLAB, so if you've used MATLAB before, it'll look familiar to you. And NumPy is one of the important reasons people use Python for financial research."
+}

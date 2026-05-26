@@ -1,0 +1,243 @@
+{
+    "chunks": [
+        {
+            "number": "102",
+            "title": "Mechanics of short selling  Entry",
+            "start": 0.4,
+            "end": 4.8,
+            "text": "Okay, I'm going to step you now through the mechanics of short selling."
+        },
+        {
+            "number": "102",
+            "title": "Mechanics of short selling  Entry",
+            "start": 4.8,
+            "end": 6.8,
+            "text": "Pay attention, because it's complicated."
+        },
+        {
+            "number": "102",
+            "title": "Mechanics of short selling  Entry",
+            "start": 9.0,
+            "end": 11.7,
+            "text": "Okay, let's imagine the following scenario."
+        },
+        {
+            "number": "102",
+            "title": "Mechanics of short selling  Entry",
+            "start": 11.7,
+            "end": 16.4,
+            "text": "You want to take a short position in IBM, and"
+        },
+        {
+            "number": "102",
+            "title": "Mechanics of short selling  Entry",
+            "start": 16.4,
+            "end": 19.9,
+            "text": "IBM is currently selling at $100."
+        },
+        {
+            "number": "102",
+            "title": "Mechanics of short selling  Entry",
+            "start": 19.9,
+            "end": 22.2,
+            "text": "That's the current market price."
+        },
+        {
+            "number": "102",
+            "title": "Mechanics of short selling  Entry",
+            "start": 22.2,
+            "end": 25.9,
+            "text": "Joe holds 100 shares of IBM."
+        },
+        {
+            "number": "102",
+            "title": "Mechanics of short selling  Entry",
+            "start": 25.9,
+            "end": 28.4,
+            "text": "He likes IBM, he wants to hold on to it."
+        },
+        {
+            "number": "102",
+            "title": "Mechanics of short selling  Entry",
+            "start": 28.4,
+            "end": 33.2,
+            "text": "But he's willing to lend you those shares of IBM."
+        },
+        {
+            "number": "102",
+            "title": "Mechanics of short selling  Entry",
+            "start": 33.2,
+            "end": 37.0,
+            "text": "In fact, Joe's broker will take care of that for him."
+        },
+        {
+            "number": "102",
+            "title": "Mechanics of short selling  Entry",
+            "start": 37.0,
+            "end": 39.9,
+            "text": "He may not even know that he's lending you the shares."
+        },
+        {
+            "number": "102",
+            "title": "Mechanics of short selling  Entry",
+            "start": 39.9,
+            "end": 43.5,
+            "text": "Let's suppose Lisa thinks that IBM is going to go up, and"
+        },
+        {
+            "number": "102",
+            "title": "Mechanics of short selling  Entry",
+            "start": 43.5,
+            "end": 45.7,
+            "text": "she wants to buy IBM."
+        },
+        {
+            "number": "102",
+            "title": "Mechanics of short selling  Entry",
+            "start": 45.7,
+            "end": 49.1,
+            "text": "So, you want to sell IBM short."
+        },
+        {
+            "number": "102",
+            "title": "Mechanics of short selling  Entry",
+            "start": 49.1,
+            "end": 50.9,
+            "text": "You don't own any shares of it."
+        },
+        {
+            "number": "102",
+            "title": "Mechanics of short selling  Entry",
+            "start": 50.9,
+            "end": 53.8,
+            "text": "Lisa wants to buy IBM."
+        },
+        {
+            "number": "102",
+            "title": "Mechanics of short selling  Entry",
+            "start": 53.8,
+            "end": 55.6,
+            "text": "She thinks it's going to go up."
+        },
+        {
+            "number": "102",
+            "title": "Mechanics of short selling  Entry",
+            "start": 55.6,
+            "end": 57.3,
+            "text": "So here's what happens."
+        },
+        {
+            "number": "102",
+            "title": "Mechanics of short selling  Entry",
+            "start": 57.3,
+            "end": 61.4,
+            "text": "You borrow that 100 shares from Joe."
+        },
+        {
+            "number": "102",
+            "title": "Mechanics of short selling  Entry",
+            "start": 61.4,
+            "end": 67.5,
+            "text": "Now that you have those shares, you can turn around and sell them to Lisa."
+        },
+        {
+            "number": "102",
+            "title": "Mechanics of short selling  Entry",
+            "start": 67.5,
+            "end": 71.8,
+            "text": "And in exchange for those 100 shares that you gave Lisa,"
+        },
+        {
+            "number": "102",
+            "title": "Mechanics of short selling  Entry",
+            "start": 71.8,
+            "end": 75.9,
+            "text": "she gives you 100 times $100, or $10,000."
+        },
+        {
+            "number": "102",
+            "title": "Mechanics of short selling  Entry",
+            "start": 75.9,
+            "end": 79.1,
+            "text": "So, let me recap that."
+        },
+        {
+            "number": "102",
+            "title": "Mechanics of short selling  Entry",
+            "start": 79.1,
+            "end": 81.1,
+            "text": "You want to sell IBM short."
+        },
+        {
+            "number": "102",
+            "title": "Mechanics of short selling  Entry",
+            "start": 81.1,
+            "end": 83.8,
+            "text": "Joe has 100 shares of IBM."
+        },
+        {
+            "number": "102",
+            "title": "Mechanics of short selling  Entry",
+            "start": 83.8,
+            "end": 86.1,
+            "text": "Lisa wants to buy IBM."
+        },
+        {
+            "number": "102",
+            "title": "Mechanics of short selling  Entry",
+            "start": 86.1,
+            "end": 90.9,
+            "text": "So, you borrow those 100 shares from Joe, you immediately turn around and"
+        },
+        {
+            "number": "102",
+            "title": "Mechanics of short selling  Entry",
+            "start": 90.9,
+            "end": 93.5,
+            "text": "sell them to Lisa, and you get $10,000."
+        },
+        {
+            "number": "102",
+            "title": "Mechanics of short selling  Entry",
+            "start": 93.5,
+            "end": 100.5,
+            "text": "The result of this transaction, after everything settles, is you have $10,000 in"
+        },
+        {
+            "number": "102",
+            "title": "Mechanics of short selling  Entry",
+            "start": 100.5,
+            "end": 105.7,
+            "text": "your account, but you owe Joe 100 shares of stock."
+        },
+        {
+            "number": "102",
+            "title": "Mechanics of short selling  Entry",
+            "start": 105.7,
+            "end": 108.7,
+            "text": "And of course, Lisa has 100 shares of stock and so on."
+        },
+        {
+            "number": "102",
+            "title": "Mechanics of short selling  Entry",
+            "start": 108.7,
+            "end": 116.8,
+            "text": "Now, the problem sort of arises here that Joe may decide he wants his 100 shares back."
+        },
+        {
+            "number": "102",
+            "title": "Mechanics of short selling  Entry",
+            "start": 116.8,
+            "end": 121.7,
+            "text": "What you'll have to do is go buy them from someone and then give them back to Joe."
+        },
+        {
+            "number": "102",
+            "title": "Mechanics of short selling  Entry",
+            "start": 121.7,
+            "end": 123.7,
+            "text": "Now, let's deal with that a little bit later."
+        }
+    ],
+    "text": "Okay, I'm going to step you now through the mechanics of short selling. Pay attention, because it's complicated. Okay, let's imagine the following scenario. You want to take a short position in IBM, and IBM is currently selling at $100. That's the current market price. Joe holds 100 shares of IBM. He likes IBM, he wants to hold on to it. But he's willing to lend you those shares of IBM. In fact, Joe's broker will take care of that for him. He may not even know that he's lending you the shares. Let's suppose Lisa thinks that IBM is going to go up, and she wants to buy IBM. So, you want to sell IBM short. You don't own any shares of it. Lisa wants to buy IBM. She thinks it's going to go up. So here's what happens. You borrow that 100 shares from Joe. Now that you have those shares, you can turn around and sell them to Lisa. And in exchange for those 100 shares that you gave Lisa, she gives you 100 times $100, or $10,000. So, let me recap that. You want to sell IBM short. Joe has 100 shares of IBM. Lisa wants to buy IBM. So, you borrow those 100 shares from Joe, you immediately turn around and sell them to Lisa, and you get $10,000. The result of this transaction, after everything settles, is you have $10,000 in your account, but you owe Joe 100 shares of stock. And of course, Lisa has 100 shares of stock and so on. Now, the problem sort of arises here that Joe may decide he wants his 100 shares back. What you'll have to do is go buy them from someone and then give them back to Joe. Now, let's deal with that a little bit later."
+}

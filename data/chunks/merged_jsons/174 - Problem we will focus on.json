@@ -1,0 +1,41 @@
+{
+    "title": "Problem we will focus on",
+    "number": "174",
+    "chunks": [
+        {
+            "title": "Problem we will focus on",
+            "number": "174",
+            "start": 0.3,
+            "end": 18.8,
+            "text": "I'm going to take a moment here now to talk about the problem we're going to focus on for the rest of this class. We're going to look at a certain period of data, train our models over that period, and then make forecasts and trade over some other period. So here's our historical data."
+        },
+        {
+            "title": "Problem we will focus on",
+            "number": "174",
+            "start": 18.8,
+            "end": 44.1,
+            "text": "We're going to use the period of 2009 as our data to train our model. You'll be implementing several machine learning algorithms to create different models, and we'll be comparing them one against the other. Then we'll test over the years 2010 and 2011. So those testing values will become our x, which will push through the model to"
+        },
+        {
+            "title": "Problem we will focus on",
+            "number": "174",
+            "start": 44.1,
+            "end": 60.0,
+            "text": "create a y or a forecast. And using this forecast, you'll generate an orders.txt file, which you can push through your market simulator. We'll see how that strategy performs, measure its sharp ratio and its total return and so on."
+        },
+        {
+            "title": "Problem we will focus on",
+            "number": "174",
+            "start": 60.0,
+            "end": 76.3,
+            "text": "And that way we'll be able to compare different machine learning algorithms that generate these orders. That's it for this lesson, our introduction to machine learning and how it works at hedge funds and other financial institutions. I will see you online again soon."
+        },
+        {
+            "title": "Problem we will focus on",
+            "number": "174",
+            "start": 76.3,
+            "end": 76.8,
+            "text": "Bye bye."
+        }
+    ]
+}

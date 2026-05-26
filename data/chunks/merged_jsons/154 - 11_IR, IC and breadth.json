@@ -1,0 +1,48 @@
+{
+    "title": "11_IR, IC and breadth",
+    "number": "154",
+    "chunks": [
+        {
+            "title": "11_IR, IC and breadth",
+            "number": "154",
+            "start": 0.4,
+            "end": 24.3,
+            "text": "Before I introduce the fundamental law, I've got to define a few terms. Let's start with information ratio. So recall, the return on our portfolio for a particular day is equal to the market component of the return, which is beta for that portfolio, times the return on the market for that day, plus this residual return."
+        },
+        {
+            "title": "11_IR, IC and breadth",
+            "number": "154",
+            "start": 24.3,
+            "end": 43.5,
+            "text": "Another way to look at that is to say that this component of the return is due to the market, and this component is due to the skill of the fund manager. Remember, alpha is about skill. Now, we want to focus on the skill component. In other words, what is the fund manager bringing to the table?"
+        },
+        {
+            "title": "11_IR, IC and breadth",
+            "number": "154",
+            "start": 43.5,
+            "end": 62.0,
+            "text": "And we can calculate the Sharpe ratio, essentially, of this component, just like we can calculate the Sharpe ratio of an entire portfolio. But we can focus on this skill component, and essentially the Sharpe ratio of this skill component is the information ratio. It works like this."
+        },
+        {
+            "title": "11_IR, IC and breadth",
+            "number": "154",
+            "start": 62.0,
+            "end": 83.0,
+            "text": "So the information ratio is the mean of all of the alpha components divided by the standard deviation of the alpha components. So this is our reward component. That's our risk component. And by the way, this is calculated by looking back historically at the daily values of"
+        },
+        {
+            "title": "11_IR, IC and breadth",
+            "number": "154",
+            "start": 83.0,
+            "end": 107.3,
+            "text": "alpha, and we take the mean and the standard deviation of them over time. You can find these by finding beta for the portfolio, calculating what the market return component was for each day. And then the difference is this residual or skill. So that's how you can compute historically the value of this information ratio."
+        },
+        {
+            "title": "11_IR, IC and breadth",
+            "number": "154",
+            "start": 107.3,
+            "end": 128.6,
+            "text": "Now by the way, this information ratio applies in many different cases, not just in this fundamental law case. People use information ratio as a measure of manager performance all the time. It's fair to say that information ratio is essentially a Sharpe ratio of excess return, this part that's due to skill."
+        }
+    ]
+}

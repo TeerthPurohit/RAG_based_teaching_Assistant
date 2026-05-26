@@ -1,0 +1,236 @@
+{
+    "chunks": [
+        {
+            "number": "074",
+            "title": "What is an optimizer",
+            "start": 0.3,
+            "end": 3.4,
+            "text": "In this lesson, we're going to look at optimizers."
+        },
+        {
+            "number": "074",
+            "title": "What is an optimizer",
+            "start": 3.4,
+            "end": 9.2,
+            "text": "Optimizers sound scary, but they're really cool and really fun."
+        },
+        {
+            "number": "074",
+            "title": "What is an optimizer",
+            "start": 9.2,
+            "end": 13.5,
+            "text": "I'm going to show you all kinds of neat things you can do with optimizers."
+        },
+        {
+            "number": "074",
+            "title": "What is an optimizer",
+            "start": 13.5,
+            "end": 14.9,
+            "text": "What is an optimizer?"
+        },
+        {
+            "number": "074",
+            "title": "What is an optimizer",
+            "start": 14.9,
+            "end": 19.6,
+            "text": "An optimizer is an algorithm that can do the following things."
+        },
+        {
+            "number": "074",
+            "title": "What is an optimizer",
+            "start": 19.6,
+            "end": 24.3,
+            "text": "Optimizers can be used to find minimum values for functions."
+        },
+        {
+            "number": "074",
+            "title": "What is an optimizer",
+            "start": 24.3,
+            "end": 34.8,
+            "text": "So say you have a function like f of x equals x squared plus x cubed plus 5 or"
+        },
+        {
+            "number": "074",
+            "title": "What is an optimizer",
+            "start": 34.8,
+            "end": 36.5,
+            "text": "something like that."
+        },
+        {
+            "number": "074",
+            "title": "What is an optimizer",
+            "start": 36.5,
+            "end": 43.7,
+            "text": "An optimizer can find for what value of x is this overall function minimized."
+        },
+        {
+            "number": "074",
+            "title": "What is an optimizer",
+            "start": 43.7,
+            "end": 47.4,
+            "text": "Another thing that optimizers can do is find the parameters for"
+        },
+        {
+            "number": "074",
+            "title": "What is an optimizer",
+            "start": 47.4,
+            "end": 50.7,
+            "text": "parameterized models from data."
+        },
+        {
+            "number": "074",
+            "title": "What is an optimizer",
+            "start": 50.7,
+            "end": 55.9,
+            "text": "So we might have some data from some experiment and"
+        },
+        {
+            "number": "074",
+            "title": "What is an optimizer",
+            "start": 55.9,
+            "end": 62.1,
+            "text": "we can use optimizers to find a polynomial fit to that data."
+        },
+        {
+            "number": "074",
+            "title": "What is an optimizer",
+            "start": 62.1,
+            "end": 65.4,
+            "text": "And that's actually one thing we're going to learn in this lesson."
+        },
+        {
+            "number": "074",
+            "title": "What is an optimizer",
+            "start": 65.4,
+            "end": 72.3,
+            "text": "Finally, we can use an optimizer to refine allocations to stocks and portfolios."
+        },
+        {
+            "number": "074",
+            "title": "What is an optimizer",
+            "start": 72.3,
+            "end": 73.6,
+            "text": "So what does that mean?"
+        },
+        {
+            "number": "074",
+            "title": "What is an optimizer",
+            "start": 73.6,
+            "end": 79.4,
+            "text": "Well that means for instance, you can decide what percentage of funds should be"
+        },
+        {
+            "number": "074",
+            "title": "What is an optimizer",
+            "start": 79.4,
+            "end": 83.3,
+            "text": "allocated to each stock using an optimizer."
+        },
+        {
+            "number": "074",
+            "title": "What is an optimizer",
+            "start": 83.3,
+            "end": 85.0,
+            "text": "How do we use an optimizer?"
+        },
+        {
+            "number": "074",
+            "title": "What is an optimizer",
+            "start": 85.0,
+            "end": 88.0,
+            "text": "It's really just as simple as three key steps."
+        },
+        {
+            "number": "074",
+            "title": "What is an optimizer",
+            "start": 88.0,
+            "end": 93.4,
+            "text": "First thing you need to do is define a function that you want to minimize."
+        },
+        {
+            "number": "074",
+            "title": "What is an optimizer",
+            "start": 93.4,
+            "end": 101.5,
+            "text": "As an example, you might use something like f of x is equal to x squared plus 0.5."
+        },
+        {
+            "number": "074",
+            "title": "What is an optimizer",
+            "start": 101.5,
+            "end": 106.9,
+            "text": "You define that in Python and then the minimizer will call this function many,"
+        },
+        {
+            "number": "074",
+            "title": "What is an optimizer",
+            "start": 106.9,
+            "end": 116.2,
+            "text": "many times as it tries to find the minimum value for x that causes this function overall to be smallest."
+        },
+        {
+            "number": "074",
+            "title": "What is an optimizer",
+            "start": 116.2,
+            "end": 123.8,
+            "text": "You also need to start with an initial guess for x that you think might be close to the solution to the problem."
+        },
+        {
+            "number": "074",
+            "title": "What is an optimizer",
+            "start": 123.8,
+            "end": 129.6,
+            "text": "If you don't really know, then you can choose a random value or just some standard value."
+        },
+        {
+            "number": "074",
+            "title": "What is an optimizer",
+            "start": 129.6,
+            "end": 135.0,
+            "text": "But then the optimizer starts with that guess and it repeatedly, again,"
+        },
+        {
+            "number": "074",
+            "title": "What is an optimizer",
+            "start": 135.0,
+            "end": 141.7,
+            "text": "it repeatedly calls a function, tests different values, and narrows in on the solution."
+        },
+        {
+            "number": "074",
+            "title": "What is an optimizer",
+            "start": 141.7,
+            "end": 146.1,
+            "text": "Finally, you call the optimizer with these parameters and"
+        },
+        {
+            "number": "074",
+            "title": "What is an optimizer",
+            "start": 146.1,
+            "end": 149.0,
+            "text": "stand back while it searches for the minimum."
+        },
+        {
+            "number": "074",
+            "title": "What is an optimizer",
+            "start": 149.0,
+            "end": 163.6,
+            "text": "From the flash basin."
+        },
+        {
+            "number": "074",
+            "title": "What is an optimizer",
+            "start": 163.6,
+            "end": 168.3,
+            "text": "Do not help."
+        },
+        {
+            "number": "074",
+            "title": "What is an optimizer",
+            "start": 168.3,
+            "end": 176.3,
+            "text": "Feel theaptist."
+        }
+    ],
+    "text": "In this lesson, we're going to look at optimizers. Optimizers sound scary, but they're really cool and really fun. I'm going to show you all kinds of neat things you can do with optimizers. What is an optimizer? An optimizer is an algorithm that can do the following things. Optimizers can be used to find minimum values for functions. So say you have a function like f of x equals x squared plus x cubed plus 5 or something like that. An optimizer can find for what value of x is this overall function minimized. Another thing that optimizers can do is find the parameters for parameterized models from data. So we might have some data from some experiment and we can use optimizers to find a polynomial fit to that data. And that's actually one thing we're going to learn in this lesson. Finally, we can use an optimizer to refine allocations to stocks and portfolios. So what does that mean? Well that means for instance, you can decide what percentage of funds should be allocated to each stock using an optimizer. How do we use an optimizer? It's really just as simple as three key steps. First thing you need to do is define a function that you want to minimize. As an example, you might use something like f of x is equal to x squared plus 0.5. You define that in Python and then the minimizer will call this function many, many times as it tries to find the minimum value for x that causes this function overall to be smallest. You also need to start with an initial guess for x that you think might be close to the solution to the problem. If you don't really know, then you can choose a random value or just some standard value. But then the optimizer starts with that guess and it repeatedly, again, it repeatedly calls a function, tests different values, and narrows in on the solution. Finally, you call the optimizer with these parameters and stand back while it searches for the minimum. From the flash basin. Do not help. Feel theaptist."
+}

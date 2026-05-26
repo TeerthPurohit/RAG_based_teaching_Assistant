@@ -1,0 +1,180 @@
+{
+    "chunks": [
+        {
+            "number": "209",
+            "title": "Creating the State",
+            "start": 0.3,
+            "end": 6.0,
+            "text": "So an important consideration in what we're doing here is that our state is a"
+        },
+        {
+            "number": "209",
+            "title": "Creating the State",
+            "start": 6.0,
+            "end": 8.8,
+            "text": "single number, it's an integer."
+        },
+        {
+            "number": "209",
+            "title": "Creating the State",
+            "start": 8.8,
+            "end": 12.6,
+            "text": "That way we can address it in a table, in our Q table."
+        },
+        {
+            "number": "209",
+            "title": "Creating the State",
+            "start": 12.6,
+            "end": 16.0,
+            "text": "It is certainly the case that some reinforcement learning methods are able"
+        },
+        {
+            "number": "209",
+            "title": "Creating the State",
+            "start": 16.0,
+            "end": 19.3,
+            "text": "to treat the state as a continuous value."
+        },
+        {
+            "number": "209",
+            "title": "Creating the State",
+            "start": 19.3,
+            "end": 23.0,
+            "text": "But just to get started here, let's use state as an integer so"
+        },
+        {
+            "number": "209",
+            "title": "Creating the State",
+            "start": 23.0,
+            "end": 25.6,
+            "text": "we can work more easily with the data."
+        },
+        {
+            "number": "209",
+            "title": "Creating the State",
+            "start": 25.6,
+            "end": 28.9,
+            "text": "Now, we have to do a little bit of work to get our state to an integer."
+        },
+        {
+            "number": "209",
+            "title": "Creating the State",
+            "start": 28.9,
+            "end": 31.4,
+            "text": "And here is the general way to do it."
+        },
+        {
+            "number": "209",
+            "title": "Creating the State",
+            "start": 31.4,
+            "end": 35.1,
+            "text": "Our first step is to discretize each factor."
+        },
+        {
+            "number": "209",
+            "title": "Creating the State",
+            "start": 35.1,
+            "end": 38.2,
+            "text": "It's a weird word, I'll explain it in a moment."
+        },
+        {
+            "number": "209",
+            "title": "Creating the State",
+            "start": 38.2,
+            "end": 43.8,
+            "text": "But it essentially means convert that real number into an integer."
+        },
+        {
+            "number": "209",
+            "title": "Creating the State",
+            "start": 43.8,
+            "end": 48.3,
+            "text": "Next is to combine all of those integers together into a single number."
+        },
+        {
+            "number": "209",
+            "title": "Creating the State",
+            "start": 48.3,
+            "end": 51.9,
+            "text": "We're assuming that we're using a discrete state space."
+        },
+        {
+            "number": "209",
+            "title": "Creating the State",
+            "start": 51.9,
+            "end": 55.3,
+            "text": "And that means more or less that our overall state is going to be this one"
+        },
+        {
+            "number": "209",
+            "title": "Creating the State",
+            "start": 55.3,
+            "end": 59.4,
+            "text": "integer that represents at once all of our factors."
+        },
+        {
+            "number": "209",
+            "title": "Creating the State",
+            "start": 59.4,
+            "end": 63.8,
+            "text": "So consider that we have four factors and each one is a real number."
+        },
+        {
+            "number": "209",
+            "title": "Creating the State",
+            "start": 63.8,
+            "end": 70.6,
+            "text": "Now we have separately beforehand figured out how to discretize each one of these factors."
+        },
+        {
+            "number": "209",
+            "title": "Creating the State",
+            "start": 70.6,
+            "end": 78.6,
+            "text": "So we run each of these factors through their individual discretizers and we get an integer."
+        },
+        {
+            "number": "209",
+            "title": "Creating the State",
+            "start": 78.6,
+            "end": 83.4,
+            "text": "Now I've happened to select integers between 0 and 9."
+        },
+        {
+            "number": "209",
+            "title": "Creating the State",
+            "start": 83.4,
+            "end": 91.2,
+            "text": "But you can have larger ranges, you know, for instance, 0 to 20 or 0 to 100 even."
+        },
+        {
+            "number": "209",
+            "title": "Creating the State",
+            "start": 91.2,
+            "end": 97.4,
+            "text": "It's easy if we just go from 0 to 9 because then we can stack them together into a number."
+        },
+        {
+            "number": "209",
+            "title": "Creating the State",
+            "start": 97.4,
+            "end": 101.5,
+            "text": "But it's not too hard to think of algorithms that would enable you to combine"
+        },
+        {
+            "number": "209",
+            "title": "Creating the State",
+            "start": 101.5,
+            "end": 104.9,
+            "text": "larger ranges of integers together."
+        },
+        {
+            "number": "209",
+            "title": "Creating the State",
+            "start": 104.9,
+            "end": 111.6,
+            "text": "In this case we're just able to stack them one after the other into our overall discretized state."
+        }
+    ],
+    "text": "So an important consideration in what we're doing here is that our state is a single number, it's an integer. That way we can address it in a table, in our Q table. It is certainly the case that some reinforcement learning methods are able to treat the state as a continuous value. But just to get started here, let's use state as an integer so we can work more easily with the data. Now, we have to do a little bit of work to get our state to an integer. And here is the general way to do it. Our first step is to discretize each factor. It's a weird word, I'll explain it in a moment. But it essentially means convert that real number into an integer. Next is to combine all of those integers together into a single number. We're assuming that we're using a discrete state space. And that means more or less that our overall state is going to be this one integer that represents at once all of our factors. So consider that we have four factors and each one is a real number. Now we have separately beforehand figured out how to discretize each one of these factors. So we run each of these factors through their individual discretizers and we get an integer. Now I've happened to select integers between 0 and 9. But you can have larger ranges, you know, for instance, 0 to 20 or 0 to 100 even. It's easy if we just go from 0 to 9 because then we can stack them together into a number. But it's not too hard to think of algorithms that would enable you to combine larger ranges of integers together. In this case we're just able to stack them one after the other into our overall discretized state."
+}

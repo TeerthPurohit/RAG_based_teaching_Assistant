@@ -1,0 +1,215 @@
+{
+    "chunks": [
+        {
+            "number": "149",
+            "title": "Coin flip casino  risk 1",
+            "start": 0.2,
+            "end": 3.6,
+            "text": "There's a number of ways that we might consider risk in this scenario."
+        },
+        {
+            "number": "149",
+            "title": "Coin flip casino  risk 1",
+            "start": 3.6,
+            "end": 9.4,
+            "text": "Let's look at first this idea of what's the chance that you might lose it all."
+        },
+        {
+            "number": "149",
+            "title": "Coin flip casino  risk 1",
+            "start": 9.4,
+            "end": 13.6,
+            "text": "So you put out your bets on the thousand tables, the coins are flipped."
+        },
+        {
+            "number": "149",
+            "title": "Coin flip casino  risk 1",
+            "start": 13.6,
+            "end": 16.7,
+            "text": "In that event, what's the chance you lose all of your money?"
+        },
+        {
+            "number": "149",
+            "title": "Coin flip casino  risk 1",
+            "start": 17.9,
+            "end": 22.2,
+            "text": "In the single bet case where you put all of your money on a single table and"
+        },
+        {
+            "number": "149",
+            "title": "Coin flip casino  risk 1",
+            "start": 22.2,
+            "end": 25.8,
+            "text": "the outcome is determined by the flip of a single coin, remember,"
+        },
+        {
+            "number": "149",
+            "title": "Coin flip casino  risk 1",
+            "start": 25.8,
+            "end": 31.5,
+            "text": "even though it's biased in your favor, there still is a 49% chance it'll come out against you."
+        },
+        {
+            "number": "149",
+            "title": "Coin flip casino  risk 1",
+            "start": 31.5,
+            "end": 37.3,
+            "text": "So if you put all your money on a single table for one coin,"
+        },
+        {
+            "number": "149",
+            "title": "Coin flip casino  risk 1",
+            "start": 37.3,
+            "end": 41.5,
+            "text": "there's a 49% chance that you'll lose all of it."
+        },
+        {
+            "number": "149",
+            "title": "Coin flip casino  risk 1",
+            "start": 41.5,
+            "end": 42.4,
+            "text": "That's pretty high."
+        },
+        {
+            "number": "149",
+            "title": "Coin flip casino  risk 1",
+            "start": 42.4,
+            "end": 44.4,
+            "text": "I mean, consider that in the context of, you know,"
+        },
+        {
+            "number": "149",
+            "title": "Coin flip casino  risk 1",
+            "start": 44.4,
+            "end": 48.2,
+            "text": "would you put your savings account on a single bet like that?"
+        },
+        {
+            "number": "149",
+            "title": "Coin flip casino  risk 1",
+            "start": 48.2,
+            "end": 50.2,
+            "text": "Now, I want you to think a little bit."
+        },
+        {
+            "number": "149",
+            "title": "Coin flip casino  risk 1",
+            "start": 50.2,
+            "end": 55.8,
+            "text": "Consider the multibet case where we put one token on each of the 1,000 tables."
+        },
+        {
+            "number": "149",
+            "title": "Coin flip casino  risk 1",
+            "start": 55.8,
+            "end": 61.6,
+            "text": "So there's 1,000 coin flips and our return is determined by the result of all"
+        },
+        {
+            "number": "149",
+            "title": "Coin flip casino  risk 1",
+            "start": 61.6,
+            "end": 64.4,
+            "text": "those individual 1,000 coin flips."
+        },
+        {
+            "number": "149",
+            "title": "Coin flip casino  risk 1",
+            "start": 64.4,
+            "end": 67.6,
+            "text": "What is the chance that we would lose it all in that case?"
+        },
+        {
+            "number": "149",
+            "title": "Coin flip casino  risk 1",
+            "start": 67.6,
+            "end": 73.5,
+            "text": "Well, the answer to that is that it's the probability that we lose on the first table"
+        },
+        {
+            "number": "149",
+            "title": "Coin flip casino  risk 1",
+            "start": 73.5,
+            "end": 79.7,
+            "text": "times the probability that we lose on the second table times the probability we lose on the third."
+        },
+        {
+            "number": "149",
+            "title": "Coin flip casino  risk 1",
+            "start": 79.7,
+            "end": 86.5,
+            "text": "And as you can see, we do this for all of the 1,000 tables and multiply those probabilities altogether."
+        },
+        {
+            "number": "149",
+            "title": "Coin flip casino  risk 1",
+            "start": 86.5,
+            "end": 92.0,
+            "text": "And that's the probability we would lose everything in that multibet scenario."
+        },
+        {
+            "number": "149",
+            "title": "Coin flip casino  risk 1",
+            "start": 92.0,
+            "end": 95.3,
+            "text": "That is a very, very small number."
+        },
+        {
+            "number": "149",
+            "title": "Coin flip casino  risk 1",
+            "start": 95.3,
+            "end": 100.1,
+            "text": "It's 0.49 to the 1,000th power."
+        },
+        {
+            "number": "149",
+            "title": "Coin flip casino  risk 1",
+            "start": 100.1,
+            "end": 101.1,
+            "text": "How small is it?"
+        },
+        {
+            "number": "149",
+            "title": "Coin flip casino  risk 1",
+            "start": 101.1,
+            "end": 104.2,
+            "text": "Let's try and calculate it on a calculator."
+        },
+        {
+            "number": "149",
+            "title": "Coin flip casino  risk 1",
+            "start": 104.2,
+            "end": 108.5,
+            "text": "So it's 0.49 raised to the 1,000th power."
+        },
+        {
+            "number": "149",
+            "title": "Coin flip casino  risk 1",
+            "start": 108.5,
+            "end": 110.7,
+            "text": "Let's see how small that is."
+        },
+        {
+            "number": "149",
+            "title": "Coin flip casino  risk 1",
+            "start": 110.7,
+            "end": 114.3,
+            "text": "It's so small, it's not even a number."
+        },
+        {
+            "number": "149",
+            "title": "Coin flip casino  risk 1",
+            "start": 114.3,
+            "end": 115.9,
+            "text": "That's how small it is."
+        },
+        {
+            "number": "149",
+            "title": "Coin flip casino  risk 1",
+            "start": 115.9,
+            "end": 118.1,
+            "text": "Okay, let's look at another way to evaluate risk."
+        }
+    ],
+    "text": "There's a number of ways that we might consider risk in this scenario. Let's look at first this idea of what's the chance that you might lose it all. So you put out your bets on the thousand tables, the coins are flipped. In that event, what's the chance you lose all of your money? In the single bet case where you put all of your money on a single table and the outcome is determined by the flip of a single coin, remember, even though it's biased in your favor, there still is a 49% chance it'll come out against you. So if you put all your money on a single table for one coin, there's a 49% chance that you'll lose all of it. That's pretty high. I mean, consider that in the context of, you know, would you put your savings account on a single bet like that? Now, I want you to think a little bit. Consider the multibet case where we put one token on each of the 1,000 tables. So there's 1,000 coin flips and our return is determined by the result of all those individual 1,000 coin flips. What is the chance that we would lose it all in that case? Well, the answer to that is that it's the probability that we lose on the first table times the probability that we lose on the second table times the probability we lose on the third. And as you can see, we do this for all of the 1,000 tables and multiply those probabilities altogether. And that's the probability we would lose everything in that multibet scenario. That is a very, very small number. It's 0.49 to the 1,000th power. How small is it? Let's try and calculate it on a calculator. So it's 0.49 raised to the 1,000th power. Let's see how small that is. It's so small, it's not even a number. That's how small it is. Okay, let's look at another way to evaluate risk."
+}

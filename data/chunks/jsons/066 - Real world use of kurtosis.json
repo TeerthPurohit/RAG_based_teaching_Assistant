@@ -1,0 +1,117 @@
+{
+    "chunks": [
+        {
+            "number": "066",
+            "title": "Real world use of kurtosis",
+            "start": 0.0,
+            "end": 5.0,
+            "text": "As you have seen in this lesson, the distribution of daily returns for stocks and the market"
+        },
+        {
+            "number": "066",
+            "title": "Real world use of kurtosis",
+            "start": 5.0,
+            "end": 7.0,
+            "text": "look very similar to a Gaussian."
+        },
+        {
+            "number": "066",
+            "title": "Real world use of kurtosis",
+            "start": 7.0,
+            "end": 13.0,
+            "text": "This property persists when we look at weekly, monthly, and annual returns as well."
+        },
+        {
+            "number": "066",
+            "title": "Real world use of kurtosis",
+            "start": 13.0,
+            "end": 18.0,
+            "text": "If they were really Gaussian, we'd say the returns were normally distributed."
+        },
+        {
+            "number": "066",
+            "title": "Real world use of kurtosis",
+            "start": 18.0,
+            "end": 23.0,
+            "text": "In many cases in financial research, we assume the returns are normally distributed."
+        },
+        {
+            "number": "066",
+            "title": "Real world use of kurtosis",
+            "start": 23.0,
+            "end": 29.0,
+            "text": "But this can be dangerous because it ignores kurtosis, or the probability in the tails."
+        },
+        {
+            "number": "066",
+            "title": "Real world use of kurtosis",
+            "start": 29.0,
+            "end": 34.0,
+            "text": "In the early 2000s, investment banks built bonds based on mortgages."
+        },
+        {
+            "number": "066",
+            "title": "Real world use of kurtosis",
+            "start": 34.0,
+            "end": 39.0,
+            "text": "They assumed that the distribution of returns for these mortgages was normally distributed."
+        },
+        {
+            "number": "066",
+            "title": "Real world use of kurtosis",
+            "start": 39.0,
+            "end": 44.0,
+            "text": "On that basis, they were able to show that these bonds had a very low probability of default."
+        },
+        {
+            "number": "066",
+            "title": "Real world use of kurtosis",
+            "start": 44.0,
+            "end": 46.0,
+            "text": "But they made two mistakes."
+        },
+        {
+            "number": "066",
+            "title": "Real world use of kurtosis",
+            "start": 46.0,
+            "end": 51.0,
+            "text": "First, they assumed that the return of each of these mortgages was independent."
+        },
+        {
+            "number": "066",
+            "title": "Real world use of kurtosis",
+            "start": 51.0,
+            "end": 54.0,
+            "text": "And two, that this return would be normally distributed."
+        },
+        {
+            "number": "066",
+            "title": "Real world use of kurtosis",
+            "start": 54.0,
+            "end": 59.0,
+            "text": "Both of these assumptions proved to be wrong as massive numbers of home loans"
+        },
+        {
+            "number": "066",
+            "title": "Real world use of kurtosis",
+            "start": 59.0,
+            "end": 61.0,
+            "text": "defaulted on their mortgages."
+        },
+        {
+            "number": "066",
+            "title": "Real world use of kurtosis",
+            "start": 61.0,
+            "end": 65.0,
+            "text": "It was these defaults that precipitated the Great Recession of 2008."
+        },
+        {
+            "number": "066",
+            "title": "Real world use of kurtosis",
+            "start": 65.0,
+            "end": 93.3,
+            "text": "Ever since this was being originated by a"
+        }
+    ],
+    "text": "As you have seen in this lesson, the distribution of daily returns for stocks and the market look very similar to a Gaussian. This property persists when we look at weekly, monthly, and annual returns as well. If they were really Gaussian, we'd say the returns were normally distributed. In many cases in financial research, we assume the returns are normally distributed. But this can be dangerous because it ignores kurtosis, or the probability in the tails. In the early 2000s, investment banks built bonds based on mortgages. They assumed that the distribution of returns for these mortgages was normally distributed. On that basis, they were able to show that these bonds had a very low probability of default. But they made two mistakes. First, they assumed that the return of each of these mortgages was independent. And two, that this return would be normally distributed. Both of these assumptions proved to be wrong as massive numbers of home loans defaulted on their mortgages. It was these defaults that precipitated the Great Recession of 2008. Ever since this was being originated by a"
+}

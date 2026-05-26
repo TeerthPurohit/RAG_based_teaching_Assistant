@@ -1,0 +1,41 @@
+{
+    "title": "The fundamental law",
+    "number": "156",
+    "chunks": [
+        {
+            "title": "The fundamental law",
+            "number": "156",
+            "start": 0.4,
+            "end": 21.6,
+            "text": "Now that we've introduced these factors and defined them, we're now able to describe the fundamental law as expressed by Richard Grinold. And it's simple, it's just this. He was able to show mathematically that information ratio is equal to information coefficient times the square root of breadth."
+        },
+        {
+            "title": "The fundamental law",
+            "number": "156",
+            "start": 21.6,
+            "end": 44.1,
+            "text": "I'm going to just present it without proof here and encourage you to go look at Grinold's book if you're interested for more detail. So performance of the manager or the fund is due to the skill at making predictions times the square root of breadth. So that means, for instance, that yes, you may be very skilled,"
+        },
+        {
+            "title": "The fundamental law",
+            "number": "156",
+            "start": 44.1,
+            "end": 68.9,
+            "text": "but you've got to have opportunities to invest in order to operationalize your skill. Now if you want to improve your performance, you can either focus on improving your skill or focus on improving your breadth. Sometimes it turns out that it's a lot easier to increase breadth by finding additional stocks that you might look at or additional markets."
+        },
+        {
+            "title": "The fundamental law",
+            "number": "156",
+            "start": 68.9,
+            "end": 89.1,
+            "text": "You might have some commodity trading strategy that works great. You can increase your breadth by looking at additional commodities. However, the strength of this increase, in other words, as you increase breadth, the overall performance only increases as the square root of that breadth. So it tapers off after some amount of time."
+        },
+        {
+            "title": "The fundamental law",
+            "number": "156",
+            "start": 89.1,
+            "end": 98.5,
+            "text": "It turns out though that it's very, very hard to improve your skill. So that is why, for instance, folks often focus on the breadth component of this equation."
+        }
+    ]
+}

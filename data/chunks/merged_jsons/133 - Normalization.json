@@ -1,0 +1,76 @@
+{
+    "title": "Normalization",
+    "number": "133",
+    "chunks": [
+        {
+            "title": "Normalization",
+            "number": "133",
+            "start": 0.3,
+            "end": 16.0,
+            "text": "Before we leave technical analysis, I want to bring up one more point called normalization. So take a look at these different technical indicators we created here, simple moving average, momentum, and Bollinger Bands. They have different ranges that they typically operate over."
+        },
+        {
+            "title": "Normalization",
+            "number": "133",
+            "start": 16.0,
+            "end": 36.0,
+            "text": "So like I said, we would expect to see values of minus 0.5 to plus 0.5 for simple moving average. For momentum, similar kind of range. Bollinger Band typically inhabits negative 1 to 1. If we were to plug these values into some sort of machine learner,"
+        },
+        {
+            "title": "Normalization",
+            "number": "133",
+            "start": 36.0,
+            "end": 52.7,
+            "text": "we would have a little bit of a problem. And what would happen, and we'll have to go into the details later, but the Bollinger Band factor would tend to overwhelm these other factors and become the most important one. It might get even worse if we included a fundamental factor like P-E ratio that"
+        },
+        {
+            "title": "Normalization",
+            "number": "133",
+            "start": 52.7,
+            "end": 69.0,
+            "text": "can range from 1 all the way up to 300. The solution is something called normalization. And what normalization does is it takes each of these factors and essentially compresses them or stretches them so that they vary on average from minus 1 to plus 1."
+        },
+        {
+            "title": "Normalization",
+            "number": "133",
+            "start": 70.2,
+            "end": 91.1,
+            "text": "Normalization is simple. You take your original values for a particular factor, subtract the mean from all of them, and divide by the standard deviation of all of them. This will give you a normed result that, on average, is going to vary between negative 1 and 1, and it'll have a mean of 0."
+        },
+        {
+            "title": "Normalization",
+            "number": "133",
+            "start": 91.1,
+            "end": 111.1,
+            "text": "So remember this trick for later when we get to machine learning. Or if you're working with technical indicators yourself, you may want to apply this normalization approach to the numbers you're working with. ац How many can speed well be?"
+        },
+        {
+            "title": "Normalization",
+            "number": "133",
+            "start": 111.1,
+            "end": 119.0,
+            "text": "How many power would be. And have power ability to구� găng that that кажется that you could recommend the all- recorded check and change of all of them? I also have an excellent investment. I start preparing for calculations in the numbers..."
+        },
+        {
+            "title": "Normalization",
+            "number": "133",
+            "start": 119.0,
+            "end": 125.1,
+            "text": "If you want to figure that every day will increase life llamas. You may want to diesen данным and more. If you are reviewing for increased rates coverage, you may want to be a Elektron. How many people do?"
+        },
+        {
+            "title": "Normalization",
+            "number": "133",
+            "start": 125.1,
+            "end": 129.6,
+            "text": "hilloger means a lot of farklı examples. estimating ax pranking. Pretty good. Early fail. Dean of callers over 30 seconds."
+        },
+        {
+            "title": "Normalization",
+            "number": "133",
+            "start": 129.6,
+            "end": 132.2,
+            "text": "I'll be a magnifying angle to bleh or 40 seconds."
+        }
+    ]
+}

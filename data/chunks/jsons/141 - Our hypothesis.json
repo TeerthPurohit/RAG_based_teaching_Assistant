@@ -1,0 +1,47 @@
+{
+    "chunks": [
+        {
+            "number": "141",
+            "title": "Our hypothesis",
+            "start": 0.0,
+            "end": 4.6,
+            "text": "We haven't stated these explicitly, but we've been operating under some assumptions."
+        },
+        {
+            "number": "141",
+            "title": "Our hypothesis",
+            "start": 5.3,
+            "end": 9.7,
+            "text": "For technical analysis, we assume that there is information in historical price and volume data"
+        },
+        {
+            "number": "141",
+            "title": "Our hypothesis",
+            "start": 9.7,
+            "end": 13.0,
+            "text": "that we can discover and exploit in advance of the market."
+        },
+        {
+            "number": "141",
+            "title": "Our hypothesis",
+            "start": 13.6,
+            "end": 18.0,
+            "text": "For fundamental analysis, we assume there is information in fundamental data, like earnings,"
+        },
+        {
+            "number": "141",
+            "title": "Our hypothesis",
+            "start": 18.4,
+            "end": 21.6,
+            "text": "that can be exploited and traded upon in advance of the market."
+        },
+        {
+            "number": "141",
+            "title": "Our hypothesis",
+            "start": 22.1,
+            "end": 25.3,
+            "text": "The efficient markets hypothesis says we're wrong about both."
+        }
+    ],
+    "text": "We haven't stated these explicitly, but we've been operating under some assumptions. For technical analysis, we assume that there is information in historical price and volume data that we can discover and exploit in advance of the market. For fundamental analysis, we assume there is information in fundamental data, like earnings, that can be exploited and traded upon in advance of the market. The efficient markets hypothesis says we're wrong about both."
+}

@@ -1,0 +1,83 @@
+{
+    "title": "Arithmetic operations",
+    "number": "041",
+    "chunks": [
+        {
+            "title": "Arithmetic operations",
+            "number": "041",
+            "start": 0.4,
+            "end": 17.3,
+            "text": "Arithmetic operation on arrays are always applied element wise. Let's start with simple multiplication operation. Here we define a simple array so that we can easily track the changes. This will multiply each element by two. Let's check the output."
+        },
+        {
+            "title": "Arithmetic operations",
+            "number": "041",
+            "start": 18.5,
+            "end": 37.8,
+            "text": "When using arithmetic operation, a new array is created and the values are stored in that array. So our original array A still holds the same values. And this is our new array which we get after multiplying array A by two. Observe that it is element wise multiplication."
+        },
+        {
+            "title": "Arithmetic operations",
+            "number": "041",
+            "start": 37.8,
+            "end": 58.1,
+            "text": "Let's try division. Here we use the division operation to divide each element of array A by two. Let's check the output. Observe that when you divide one by two, you get a value zero over here instead of 0.5. This is because both the array and the divisor are integers."
+        },
+        {
+            "title": "Arithmetic operations",
+            "number": "041",
+            "start": 58.1,
+            "end": 77.8,
+            "text": "If we would do 2.0 instead of 2, you will get float values. Keep this point in mind before performing division in general. That is int divided by int will give you an integer output. To get float values, you need at least the numerator or the denominator to be a float value."
+        },
+        {
+            "title": "Arithmetic operations",
+            "number": "041",
+            "start": 77.8,
+            "end": 93.1,
+            "text": "Let's check the output. Observe that we could successfully get a floating point value instead of 0. How about arithmetic operation using two arrays? We will start with addition. We create another array B with these values."
+        },
+        {
+            "title": "Arithmetic operations",
+            "number": "041",
+            "start": 93.1,
+            "end": 111.4,
+            "text": "Now let's just add A and B using the plus operator. As mentioned, this is element wise. This is our new array A plus B. One important thing to note here is that the shape of A and B should be similar. Before the operation A plus B."
+        },
+        {
+            "title": "Arithmetic operations",
+            "number": "041",
+            "start": 111.4,
+            "end": 129.7,
+            "text": "Else it will throw error. Similar to the addition, you can perform subtraction. Now let's move ahead with multiplying two arrays. This is interesting because unlike other many matrix languages, multiplication operator when used with two array will not give you matrix product,"
+        },
+        {
+            "title": "Arithmetic operations",
+            "number": "041",
+            "start": 129.7,
+            "end": 152.7,
+            "text": "but will do element wise multiplication. That is, element at position 0,0 in array A is multiplied only with the element at position 0,0 in B. Let's print the multiplication of matrix A and B. Can you observe element wise multiplication? But the next question would be, what about matrix multiplication?"
+        },
+        {
+            "title": "Arithmetic operations",
+            "number": "041",
+            "start": 152.7,
+            "end": 169.3,
+            "text": "How do you achieve that? Like for everything numpy has a function. It has function called dot, which performs matrix multiplication. Similar to multiplication, division of two arrays can be performed. Just include division operators between the two arrays."
+        },
+        {
+            "title": "Arithmetic operations",
+            "number": "041",
+            "start": 169.3,
+            "end": 186.1,
+            "text": "Let's check the output. As seen before, since array A and B are integers, we get the final array in the form of integers as well. If you want to see floating values, convert one of the arrays to float. Well that's all for now."
+        },
+        {
+            "title": "Arithmetic operations",
+            "number": "041",
+            "start": 186.1,
+            "end": 186.9,
+            "text": "Keep practicing."
+        }
+    ]
+}

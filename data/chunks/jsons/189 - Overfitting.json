@@ -1,0 +1,250 @@
+{
+    "chunks": [
+        {
+            "number": "189",
+            "title": "Overfitting",
+            "start": 0.2,
+            "end": 4.1,
+            "text": "I've mentioned overfitting before, but I haven't yet defined it."
+        },
+        {
+            "number": "189",
+            "title": "Overfitting",
+            "start": 4.1,
+            "end": 7.4,
+            "text": "Before we could define it and I could give you an example,"
+        },
+        {
+            "number": "189",
+            "title": "Overfitting",
+            "start": 7.4,
+            "end": 9.8,
+            "text": "we needed to have a definition of error."
+        },
+        {
+            "number": "189",
+            "title": "Overfitting",
+            "start": 9.8,
+            "end": 12.0,
+            "text": "Let me now show you what I mean."
+        },
+        {
+            "number": "189",
+            "title": "Overfitting",
+            "start": 12.0,
+            "end": 16.2,
+            "text": "Let's consider parameterized polynomial models where we can,"
+        },
+        {
+            "number": "189",
+            "title": "Overfitting",
+            "start": 16.2,
+            "end": 21.4,
+            "text": "one at a time, add additional factors like x, x squared, x cubed, x to the fourth,"
+        },
+        {
+            "number": "189",
+            "title": "Overfitting",
+            "start": 21.4,
+            "end": 22.3,
+            "text": "and so on."
+        },
+        {
+            "number": "189",
+            "title": "Overfitting",
+            "start": 22.3,
+            "end": 27.8,
+            "text": "Let's create a graph where we have along the horizontal axis degrees of freedom,"
+        },
+        {
+            "number": "189",
+            "title": "Overfitting",
+            "start": 27.8,
+            "end": 31.5,
+            "text": "or d, the degree of our polynomial."
+        },
+        {
+            "number": "189",
+            "title": "Overfitting",
+            "start": 31.5,
+            "end": 35.1,
+            "text": "And vertically here, we'll have the error of our model."
+        },
+        {
+            "number": "189",
+            "title": "Overfitting",
+            "start": 35.1,
+            "end": 41.0,
+            "text": "So let's measure error as we increase d on our training set."
+        },
+        {
+            "number": "189",
+            "title": "Overfitting",
+            "start": 41.0,
+            "end": 46.5,
+            "text": "So when d is smallest, our error is greatest."
+        },
+        {
+            "number": "189",
+            "title": "Overfitting",
+            "start": 46.5,
+            "end": 51.9,
+            "text": "And as we increase d, our error drops and drops and drops."
+        },
+        {
+            "number": "189",
+            "title": "Overfitting",
+            "start": 51.9,
+            "end": 56.0,
+            "text": "In other words, we're fitting the data in sample better and better."
+        },
+        {
+            "number": "189",
+            "title": "Overfitting",
+            "start": 56.0,
+            "end": 62.4,
+            "text": "When finally we get to n, where we have as many parameters in our model as we do have"
+        },
+        {
+            "number": "189",
+            "title": "Overfitting",
+            "start": 62.4,
+            "end": 66.2,
+            "text": "items in our data set, our error gets all the way down to zero."
+        },
+        {
+            "number": "189",
+            "title": "Overfitting",
+            "start": 66.2,
+            "end": 69.0,
+            "text": "This is in sample error."
+        },
+        {
+            "number": "189",
+            "title": "Overfitting",
+            "start": 69.0,
+            "end": 72.4,
+            "text": "Now let's add a similar line for out of sample error."
+        },
+        {
+            "number": "189",
+            "title": "Overfitting",
+            "start": 72.4,
+            "end": 76.3,
+            "text": "Remember that we expect our out of sample error to always be greater than or"
+        },
+        {
+            "number": "189",
+            "title": "Overfitting",
+            "start": 76.3,
+            "end": 78.5,
+            "text": "equal to in sample error."
+        },
+        {
+            "number": "189",
+            "title": "Overfitting",
+            "start": 78.5,
+            "end": 80.7,
+            "text": "The curve will look something like this."
+        },
+        {
+            "number": "189",
+            "title": "Overfitting",
+            "start": 80.7,
+            "end": 85.9,
+            "text": "It'll start out at maximum error about the same as our in sample line."
+        },
+        {
+            "number": "189",
+            "title": "Overfitting",
+            "start": 85.9,
+            "end": 90.2,
+            "text": "And as we go down, it'll begin to diverge like this."
+        },
+        {
+            "number": "189",
+            "title": "Overfitting",
+            "start": 90.2,
+            "end": 93.7,
+            "text": "Now in this region, both our in sample and"
+        },
+        {
+            "number": "189",
+            "title": "Overfitting",
+            "start": 93.7,
+            "end": 97.3,
+            "text": "out of sample errors are still decreasing."
+        },
+        {
+            "number": "189",
+            "title": "Overfitting",
+            "start": 97.3,
+            "end": 102.4,
+            "text": "But eventually we'll reach a point where our out of sample error begins to increase."
+        },
+        {
+            "number": "189",
+            "title": "Overfitting",
+            "start": 102.4,
+            "end": 105.7,
+            "text": "In fact, it may increase strongly."
+        },
+        {
+            "number": "189",
+            "title": "Overfitting",
+            "start": 105.7,
+            "end": 113.6,
+            "text": "In this area as we increase degrees of freedom, our in sample error is decreasing."
+        },
+        {
+            "number": "189",
+            "title": "Overfitting",
+            "start": 113.6,
+            "end": 117.3,
+            "text": "But our out of sample error is increasing."
+        },
+        {
+            "number": "189",
+            "title": "Overfitting",
+            "start": 117.3,
+            "end": 119.6,
+            "text": "And that's how we define overfitting."
+        },
+        {
+            "number": "189",
+            "title": "Overfitting",
+            "start": 119.6,
+            "end": 122.5,
+            "text": "This is the region where overfitting is occurring."
+        },
+        {
+            "number": "189",
+            "title": "Overfitting",
+            "start": 122.5,
+            "end": 124.4,
+            "text": "So let me state that again."
+        },
+        {
+            "number": "189",
+            "title": "Overfitting",
+            "start": 124.4,
+            "end": 126.7,
+            "text": "In sample error is decreasing."
+        },
+        {
+            "number": "189",
+            "title": "Overfitting",
+            "start": 126.7,
+            "end": 129.9,
+            "text": "Out of sample error is increasing."
+        },
+        {
+            "number": "189",
+            "title": "Overfitting",
+            "start": 129.9,
+            "end": 133.1,
+            "text": "When we have those two together, it's overfitting."
+        }
+    ],
+    "text": "I've mentioned overfitting before, but I haven't yet defined it. Before we could define it and I could give you an example, we needed to have a definition of error. Let me now show you what I mean. Let's consider parameterized polynomial models where we can, one at a time, add additional factors like x, x squared, x cubed, x to the fourth, and so on. Let's create a graph where we have along the horizontal axis degrees of freedom, or d, the degree of our polynomial. And vertically here, we'll have the error of our model. So let's measure error as we increase d on our training set. So when d is smallest, our error is greatest. And as we increase d, our error drops and drops and drops. In other words, we're fitting the data in sample better and better. When finally we get to n, where we have as many parameters in our model as we do have items in our data set, our error gets all the way down to zero. This is in sample error. Now let's add a similar line for out of sample error. Remember that we expect our out of sample error to always be greater than or equal to in sample error. The curve will look something like this. It'll start out at maximum error about the same as our in sample line. And as we go down, it'll begin to diverge like this. Now in this region, both our in sample and out of sample errors are still decreasing. But eventually we'll reach a point where our out of sample error begins to increase. In fact, it may increase strongly. In this area as we increase degrees of freedom, our in sample error is decreasing. But our out of sample error is increasing. And that's how we define overfitting. This is the region where overfitting is occurring. So let me state that again. In sample error is decreasing. Out of sample error is increasing. When we have those two together, it's overfitting."
+}

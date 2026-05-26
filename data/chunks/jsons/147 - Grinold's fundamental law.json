@@ -1,0 +1,201 @@
+{
+    "chunks": [
+        {
+            "number": "147",
+            "title": "Grinold's fundamental law",
+            "start": 0.3,
+            "end": 7.0,
+            "text": "In the 1980s, Richard Grinold was seeking a method of relating performance,"
+        },
+        {
+            "number": "147",
+            "title": "Grinold's fundamental law",
+            "start": 7.0,
+            "end": 9.9,
+            "text": "skill, and breadth in investing."
+        },
+        {
+            "number": "147",
+            "title": "Grinold's fundamental law",
+            "start": 9.9,
+            "end": 13.5,
+            "text": "So for instance, you might be a very skilled investor,"
+        },
+        {
+            "number": "147",
+            "title": "Grinold's fundamental law",
+            "start": 13.5,
+            "end": 16.8,
+            "text": "meaning that you can pick stocks well."
+        },
+        {
+            "number": "147",
+            "title": "Grinold's fundamental law",
+            "start": 16.8,
+            "end": 22.6,
+            "text": "But you might not have many opportunities or breadth to exercise that skill."
+        },
+        {
+            "number": "147",
+            "title": "Grinold's fundamental law",
+            "start": 22.6,
+            "end": 28.5,
+            "text": "So Grinold felt that there must be some equation whereby we could combine"
+        },
+        {
+            "number": "147",
+            "title": "Grinold's fundamental law",
+            "start": 28.5,
+            "end": 32.5,
+            "text": "skill and breadth to create an estimate of performance."
+        },
+        {
+            "number": "147",
+            "title": "Grinold's fundamental law",
+            "start": 32.5,
+            "end": 37.3,
+            "text": "He developed a relationship he called the fundamental law of active portfolio"
+        },
+        {
+            "number": "147",
+            "title": "Grinold's fundamental law",
+            "start": 37.3,
+            "end": 38.4,
+            "text": "management."
+        },
+        {
+            "number": "147",
+            "title": "Grinold's fundamental law",
+            "start": 38.4,
+            "end": 42.2,
+            "text": "I'm going to state it here at the beginning of the lesson and"
+        },
+        {
+            "number": "147",
+            "title": "Grinold's fundamental law",
+            "start": 42.2,
+            "end": 44.8,
+            "text": "then spend the rest of the lesson trying to justify it and"
+        },
+        {
+            "number": "147",
+            "title": "Grinold's fundamental law",
+            "start": 44.8,
+            "end": 47.0,
+            "text": "show you why it makes sense."
+        },
+        {
+            "number": "147",
+            "title": "Grinold's fundamental law",
+            "start": 47.0,
+            "end": 48.4,
+            "text": "And here's his expression."
+        },
+        {
+            "number": "147",
+            "title": "Grinold's fundamental law",
+            "start": 48.4,
+            "end": 52.6,
+            "text": "Performance is equal to skill times the square root of breadth."
+        },
+        {
+            "number": "147",
+            "title": "Grinold's fundamental law",
+            "start": 53.8,
+            "end": 57.6,
+            "text": "So we need some measure of skill and some measure of breadth."
+        },
+        {
+            "number": "147",
+            "title": "Grinold's fundamental law",
+            "start": 57.6,
+            "end": 62.2,
+            "text": "So if you want to improve your performance, you can improve skill."
+        },
+        {
+            "number": "147",
+            "title": "Grinold's fundamental law",
+            "start": 62.2,
+            "end": 64.8,
+            "text": "Or you can find more and"
+        },
+        {
+            "number": "147",
+            "title": "Grinold's fundamental law",
+            "start": 64.8,
+            "end": 71.6,
+            "text": "more applications or methods or opportunities for applying that skill."
+        },
+        {
+            "number": "147",
+            "title": "Grinold's fundamental law",
+            "start": 71.6,
+            "end": 75.4,
+            "text": "So as an example, breadth might relate to how many stocks you invest in."
+        },
+        {
+            "number": "147",
+            "title": "Grinold's fundamental law",
+            "start": 75.4,
+            "end": 78.0,
+            "text": "And skill relates to your skill at choosing them."
+        },
+        {
+            "number": "147",
+            "title": "Grinold's fundamental law",
+            "start": 79.1,
+            "end": 83.5,
+            "text": "So again, you can invest either in improving your skill or improving your breadth."
+        },
+        {
+            "number": "147",
+            "title": "Grinold's fundamental law",
+            "start": 83.5,
+            "end": 88.6,
+            "text": "So performance is summarized in something called information ratio, which is very"
+        },
+        {
+            "number": "147",
+            "title": "Grinold's fundamental law",
+            "start": 88.6,
+            "end": 91.7,
+            "text": "much like the Sharpe ratio that we've discussed before."
+        },
+        {
+            "number": "147",
+            "title": "Grinold's fundamental law",
+            "start": 91.7,
+            "end": 96.7,
+            "text": "But it refers to the Sharpe ratio of excess returns."
+        },
+        {
+            "number": "147",
+            "title": "Grinold's fundamental law",
+            "start": 96.7,
+            "end": 104.5,
+            "text": "In other words, the manner in which the portfolio manager is exceeding the market's performance."
+        },
+        {
+            "number": "147",
+            "title": "Grinold's fundamental law",
+            "start": 104.5,
+            "end": 108.8,
+            "text": "Skill is summarized in something called information coefficient."
+        },
+        {
+            "number": "147",
+            "title": "Grinold's fundamental law",
+            "start": 108.8,
+            "end": 113.0,
+            "text": "And breadth is just how many trading opportunities we have."
+        },
+        {
+            "number": "147",
+            "title": "Grinold's fundamental law",
+            "start": 113.0,
+            "end": 116.0,
+            "text": "Okay, so we'll expand on this more and more as we go through the lesson."
+        }
+    ],
+    "text": "In the 1980s, Richard Grinold was seeking a method of relating performance, skill, and breadth in investing. So for instance, you might be a very skilled investor, meaning that you can pick stocks well. But you might not have many opportunities or breadth to exercise that skill. So Grinold felt that there must be some equation whereby we could combine skill and breadth to create an estimate of performance. He developed a relationship he called the fundamental law of active portfolio management. I'm going to state it here at the beginning of the lesson and then spend the rest of the lesson trying to justify it and show you why it makes sense. And here's his expression. Performance is equal to skill times the square root of breadth. So we need some measure of skill and some measure of breadth. So if you want to improve your performance, you can improve skill. Or you can find more and more applications or methods or opportunities for applying that skill. So as an example, breadth might relate to how many stocks you invest in. And skill relates to your skill at choosing them. So again, you can invest either in improving your skill or improving your breadth. So performance is summarized in something called information ratio, which is very much like the Sharpe ratio that we've discussed before. But it refers to the Sharpe ratio of excess returns. In other words, the manner in which the portfolio manager is exceeding the market's performance. Skill is summarized in something called information coefficient. And breadth is just how many trading opportunities we have. Okay, so we'll expand on this more and more as we go through the lesson."
+}

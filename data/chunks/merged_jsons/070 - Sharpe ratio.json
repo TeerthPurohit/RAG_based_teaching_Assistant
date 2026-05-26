@@ -1,0 +1,62 @@
+{
+    "title": "Sharpe ratio",
+    "number": "070",
+    "chunks": [
+        {
+            "title": "Sharpe ratio",
+            "number": "070",
+            "start": 0.3,
+            "end": 24.8,
+            "text": "Sharpe ratio is a metric that adjusts return for risk. And it enables us in a quantitative way to assess each of these example compared portfolios. So Sharpe ratio will show us, for instance, that in this case ABC is better because it has about the same volatility as XYZ but higher return."
+        },
+        {
+            "title": "Sharpe ratio",
+            "number": "070",
+            "start": 24.8,
+            "end": 46.8,
+            "text": "If it were to assess these two, even though they both have the same return, it'll say XYZ is better because it's got lower risk. And finally, in this case where these two are very close and it's hard for us as humans to determine which one is better, Sharpe ratio will give us a number that will help us determine between the two."
+        },
+        {
+            "title": "Sharpe ratio",
+            "number": "070",
+            "start": 46.8,
+            "end": 70.8,
+            "text": "So with regard to the numbers that Sharpe ratio ends up providing us, all else being equal, lower risk is better, higher return is better. Sharpe ratio also considers something called the risk free rate of return. That's the interest rate you would get on your money if you put it in a risk free asset like a bank account or a short term treasury."
+        },
+        {
+            "title": "Sharpe ratio",
+            "number": "070",
+            "start": 70.8,
+            "end": 97.8,
+            "text": "The reason that it includes this number is we always need to consider, gee, maybe this asset we've got isn't performing as well as the return I would get if I just put it in the bank. Now, lately, as of mid 2015, the risk free rate of return is about zero. In other words, if you were to put your money in the bank or"
+        },
+        {
+            "title": "Sharpe ratio",
+            "number": "070",
+            "start": 97.8,
+            "end": 120.8,
+            "text": "to buy very short term treasury bonds, that's the interest rate they would pay you. And this is why lately folks have put so much money into the stock market because you can't make money putting your money in the bank these days. The Sharpe ratio is named for William Sharpe and he developed something called the Sharpe ratio that accounts for all of these."
+        },
+        {
+            "title": "Sharpe ratio",
+            "number": "070",
+            "start": 120.8,
+            "end": 137.8,
+            "text": "Now think about what the form of that equation would look like. . . . ."
+        },
+        {
+            "title": "Sharpe ratio",
+            "number": "070",
+            "start": 137.8,
+            "end": 145.8,
+            "text": ". . . . ."
+        },
+        {
+            "title": "Sharpe ratio",
+            "number": "070",
+            "start": 145.8,
+            "end": 148.8,
+            "text": ". ."
+        }
+    ]
+}

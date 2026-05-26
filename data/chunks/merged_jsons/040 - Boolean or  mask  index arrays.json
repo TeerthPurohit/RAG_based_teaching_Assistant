@@ -1,0 +1,48 @@
+{
+    "title": "Boolean or  mask  index arrays",
+    "number": "040",
+    "chunks": [
+        {
+            "title": "Boolean or  mask  index arrays",
+            "number": "040",
+            "start": 0.0,
+            "end": 15.9,
+            "text": "Next, we will be working with Boolean arrays. In simple terms, arrays with values true and false. This can also be used for indexing. Indexing using Boolean arrays is very different as compared to index arrays we learned previously."
+        },
+        {
+            "title": "Boolean or  mask  index arrays",
+            "number": "040",
+            "start": 15.9,
+            "end": 35.0,
+            "text": "Imagine a situation where we want to get all the values from an array, which is less than mean of the entire array. The first step to solve this problem would be to calculate the mean. Consider a two dimensional array. As we learned before, we will calculate the mean using the mean attribute of the array a."
+        },
+        {
+            "title": "Boolean or  mask  index arrays",
+            "number": "040",
+            "start": 35.0,
+            "end": 54.3,
+            "text": "Let's check what the mean is. According to our problem, we want all the values from the array which is less than mean. Mean is 14.2. You can imagine that the solution would contain values 10, 10 again, 5, 0, 0 again, 2, and so on and so forth."
+        },
+        {
+            "title": "Boolean or  mask  index arrays",
+            "number": "040",
+            "start": 54.3,
+            "end": 77.0,
+            "text": "If you need all these values, one way is to run the for loop over the array and get them. But using NumPy masking, we do this in one single line. To read this operation, it would be for each value in array a, compare it with the mean. If it is less, we retain the value. Let's check the output."
+        },
+        {
+            "title": "Boolean or  mask  index arrays",
+            "number": "040",
+            "start": 77.0,
+            "end": 99.5,
+            "text": "Here is the values which we expected in the form of list. Now to go ahead with this concept, we can also replace these values with the mean value. We just assign the mean value to masking operation we performed before. Let's see the output. Observe that all the values previously less than mean have been replaced by the mean."
+        },
+        {
+            "title": "Boolean or  mask  index arrays",
+            "number": "040",
+            "start": 99.5,
+            "end": 106.4,
+            "text": "This is one of the important operation that shows the power of the NumPy and justifies its extensive use throughout."
+        }
+    ]
+}

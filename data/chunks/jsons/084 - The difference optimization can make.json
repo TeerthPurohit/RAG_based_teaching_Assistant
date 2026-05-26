@@ -1,0 +1,187 @@
+{
+    "chunks": [
+        {
+            "number": "084",
+            "title": "The difference optimization can make",
+            "start": 0.3,
+            "end": 5.3,
+            "text": "As an example, consider this portfolio where we have Google, Apple, Gold, and"
+        },
+        {
+            "number": "084",
+            "title": "The difference optimization can make",
+            "start": 5.3,
+            "end": 9.1,
+            "text": "Exxon from the beginning of 2010 to the end of 2010."
+        },
+        {
+            "number": "084",
+            "title": "The difference optimization can make",
+            "start": 10.4,
+            "end": 13.8,
+            "text": "This is what the performance of that portfolio would look like in the blue"
+        },
+        {
+            "number": "084",
+            "title": "The difference optimization can make",
+            "start": 13.8,
+            "end": 18.9,
+            "text": "line if we had an equal allocation to each asset."
+        },
+        {
+            "number": "084",
+            "title": "The difference optimization can make",
+            "start": 18.9,
+            "end": 23.6,
+            "text": "So we gave 25% to each of those stocks at the beginning, and"
+        },
+        {
+            "number": "084",
+            "title": "The difference optimization can make",
+            "start": 23.6,
+            "end": 26.6,
+            "text": "then we observed at the end the total performance."
+        },
+        {
+            "number": "084",
+            "title": "The difference optimization can make",
+            "start": 26.6,
+            "end": 31.7,
+            "text": "And we include here a chart for S&P 500 for comparison."
+        },
+        {
+            "number": "084",
+            "title": "The difference optimization can make",
+            "start": 31.7,
+            "end": 35.0,
+            "text": "Now this is a unoptimized portfolio."
+        },
+        {
+            "number": "084",
+            "title": "The difference optimization can make",
+            "start": 35.0,
+            "end": 38.8,
+            "text": "Here's what it would look like if we optimized for sharp ratio."
+        },
+        {
+            "number": "084",
+            "title": "The difference optimization can make",
+            "start": 38.8,
+            "end": 42.9,
+            "text": "Look at that, look how much higher performance we get compared to our benchmark"
+        },
+        {
+            "number": "084",
+            "title": "The difference optimization can make",
+            "start": 42.9,
+            "end": 44.8,
+            "text": "S&P 500."
+        },
+        {
+            "number": "084",
+            "title": "The difference optimization can make",
+            "start": 44.8,
+            "end": 50.2,
+            "text": "And observe over here the allocations to the assets."
+        },
+        {
+            "number": "084",
+            "title": "The difference optimization can make",
+            "start": 50.2,
+            "end": 57.0,
+            "text": "60% goes to gold, 40% to Apple, and none to Google or Exxon."
+        },
+        {
+            "number": "084",
+            "title": "The difference optimization can make",
+            "start": 57.0,
+            "end": 62.0,
+            "text": "Now, one thing to emphasize here is this is looking back in time."
+        },
+        {
+            "number": "084",
+            "title": "The difference optimization can make",
+            "start": 62.0,
+            "end": 66.3,
+            "text": "So we're looking back historically what happened in 2010 and"
+        },
+        {
+            "number": "084",
+            "title": "The difference optimization can make",
+            "start": 66.3,
+            "end": 71.0,
+            "text": "observing at the beginning of 2010 if we knew what we knew now,"
+        },
+        {
+            "number": "084",
+            "title": "The difference optimization can make",
+            "start": 71.0,
+            "end": 73.1,
+            "text": "how should we best allocate?"
+        },
+        {
+            "number": "084",
+            "title": "The difference optimization can make",
+            "start": 73.1,
+            "end": 80.8,
+            "text": "So there's a question as to how much this can help our portfolio going forward."
+        },
+        {
+            "number": "084",
+            "title": "The difference optimization can make",
+            "start": 80.8,
+            "end": 82.8,
+            "text": "And I'll give you that answer ahead of time."
+        },
+        {
+            "number": "084",
+            "title": "The difference optimization can make",
+            "start": 82.8,
+            "end": 90.0,
+            "text": "Indeed, when we optimize for sharp ratio, hold that portfolio, rebalance."
+        },
+        {
+            "number": "084",
+            "title": "The difference optimization can make",
+            "start": 90.0,
+            "end": 94.8,
+            "text": "In other words, re-optimize for sharp ratio and continue that month by month."
+        },
+        {
+            "number": "084",
+            "title": "The difference optimization can make",
+            "start": 94.8,
+            "end": 99.7,
+            "text": "We very often, most frequently see that that improves the performance of"
+        },
+        {
+            "number": "084",
+            "title": "The difference optimization can make",
+            "start": 99.7,
+            "end": 103.3,
+            "text": "the portfolio versus just an equal allocation."
+        },
+        {
+            "number": "084",
+            "title": "The difference optimization can make",
+            "start": 103.3,
+            "end": 107.7,
+            "text": "But I do want to observe that this is computing back in time."
+        },
+        {
+            "number": "084",
+            "title": "The difference optimization can make",
+            "start": 107.7,
+            "end": 112.0,
+            "text": "So yes, of course, we can find a better portfolio."
+        },
+        {
+            "number": "084",
+            "title": "The difference optimization can make",
+            "start": 112.0,
+            "end": 114.9,
+            "text": "But indeed, it helps going forward as well."
+        }
+    ],
+    "text": "As an example, consider this portfolio where we have Google, Apple, Gold, and Exxon from the beginning of 2010 to the end of 2010. This is what the performance of that portfolio would look like in the blue line if we had an equal allocation to each asset. So we gave 25% to each of those stocks at the beginning, and then we observed at the end the total performance. And we include here a chart for S&P 500 for comparison. Now this is a unoptimized portfolio. Here's what it would look like if we optimized for sharp ratio. Look at that, look how much higher performance we get compared to our benchmark S&P 500. And observe over here the allocations to the assets. 60% goes to gold, 40% to Apple, and none to Google or Exxon. Now, one thing to emphasize here is this is looking back in time. So we're looking back historically what happened in 2010 and observing at the beginning of 2010 if we knew what we knew now, how should we best allocate? So there's a question as to how much this can help our portfolio going forward. And I'll give you that answer ahead of time. Indeed, when we optimize for sharp ratio, hold that portfolio, rebalance. In other words, re-optimize for sharp ratio and continue that month by month. We very often, most frequently see that that improves the performance of the portfolio versus just an equal allocation. But I do want to observe that this is computing back in time. So yes, of course, we can find a better portfolio. But indeed, it helps going forward as well."
+}

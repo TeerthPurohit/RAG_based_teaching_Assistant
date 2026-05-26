@@ -1,0 +1,187 @@
+{
+    "chunks": [
+        {
+            "number": "193",
+            "title": "Bagging example",
+            "start": 0.1,
+            "end": 5.0,
+            "text": "So suppose this is some example data and we're going to create a bunch of"
+        },
+        {
+            "number": "193",
+            "title": "Bagging example",
+            "start": 5.0,
+            "end": 7.1,
+            "text": "one nearest neighbor models."
+        },
+        {
+            "number": "193",
+            "title": "Bagging example",
+            "start": 7.1,
+            "end": 11.8,
+            "text": "We first have to select randomly some of our data to go into the first bag."
+        },
+        {
+            "number": "193",
+            "title": "Bagging example",
+            "start": 11.8,
+            "end": 16.1,
+            "text": "So I'm going to circle some of these points randomly that represent the data for"
+        },
+        {
+            "number": "193",
+            "title": "Bagging example",
+            "start": 16.1,
+            "end": 17.9,
+            "text": "our first model."
+        },
+        {
+            "number": "193",
+            "title": "Bagging example",
+            "start": 17.9,
+            "end": 20.6,
+            "text": "So we randomly selected some of these points."
+        },
+        {
+            "number": "193",
+            "title": "Bagging example",
+            "start": 20.6,
+            "end": 22.7,
+            "text": "Now let's show what that model looks like."
+        },
+        {
+            "number": "193",
+            "title": "Bagging example",
+            "start": 22.7,
+            "end": 27.4,
+            "text": "So this zigzagging orange line here represents what that one nearest"
+        },
+        {
+            "number": "193",
+            "title": "Bagging example",
+            "start": 27.4,
+            "end": 32.0,
+            "text": "neighbor model would look like, and yes to me it looks like it's overfitting."
+        },
+        {
+            "number": "193",
+            "title": "Bagging example",
+            "start": 32.0,
+            "end": 34.3,
+            "text": "But that's just our first model."
+        },
+        {
+            "number": "193",
+            "title": "Bagging example",
+            "start": 34.3,
+            "end": 37.4,
+            "text": "Then we draw some more data and we have another model."
+        },
+        {
+            "number": "193",
+            "title": "Bagging example",
+            "start": 37.4,
+            "end": 42.2,
+            "text": "So our other model, model two, is somewhat overfitting as well."
+        },
+        {
+            "number": "193",
+            "title": "Bagging example",
+            "start": 42.2,
+            "end": 47.6,
+            "text": "Let's consider now a ensemble model where we combine the results of these two."
+        },
+        {
+            "number": "193",
+            "title": "Bagging example",
+            "start": 47.6,
+            "end": 52.9,
+            "text": "And at each point where we query, remember what we do is we take the mean of the two models."
+        },
+        {
+            "number": "193",
+            "title": "Bagging example",
+            "start": 52.9,
+            "end": 60.1,
+            "text": "So you can see already as this blue curve is a bit more smooth than the individual models,"
+        },
+        {
+            "number": "193",
+            "title": "Bagging example",
+            "start": 60.1,
+            "end": 61.9,
+            "text": "we're beginning to get something better."
+        },
+        {
+            "number": "193",
+            "title": "Bagging example",
+            "start": 61.9,
+            "end": 63.7,
+            "text": "But let's add some more models."
+        },
+        {
+            "number": "193",
+            "title": "Bagging example",
+            "start": 63.7,
+            "end": 68.1,
+            "text": "So I've drawn over here a couple more one nearest neighbor models."
+        },
+        {
+            "number": "193",
+            "title": "Bagging example",
+            "start": 68.1,
+            "end": 71.7,
+            "text": "And you can see each one of them individually sort of overfit."
+        },
+        {
+            "number": "193",
+            "title": "Bagging example",
+            "start": 71.7,
+            "end": 78.1,
+            "text": "But if we now sample at each individual spot across here and"
+        },
+        {
+            "number": "193",
+            "title": "Bagging example",
+            "start": 78.1,
+            "end": 81.3,
+            "text": "take the average across all of them, we get something that's much more smooth."
+        },
+        {
+            "number": "193",
+            "title": "Bagging example",
+            "start": 81.3,
+            "end": 83.5,
+            "text": "So here's what our ensemble looks like."
+        },
+        {
+            "number": "193",
+            "title": "Bagging example",
+            "start": 83.5,
+            "end": 85.7,
+            "text": "And as you can see, it's much more smooth."
+        },
+        {
+            "number": "193",
+            "title": "Bagging example",
+            "start": 85.7,
+            "end": 89.9,
+            "text": "Of course, I hand drew it so you could accuse me of smoothing it by hand."
+        },
+        {
+            "number": "193",
+            "title": "Bagging example",
+            "start": 89.9,
+            "end": 95.9,
+            "text": "Anyways, the point here is that you can build an ensemble that is much more smooth than any"
+        },
+        {
+            "number": "193",
+            "title": "Bagging example",
+            "start": 95.9,
+            "end": 98.1,
+            "text": "of the individual learners by themselves."
+        }
+    ],
+    "text": "So suppose this is some example data and we're going to create a bunch of one nearest neighbor models. We first have to select randomly some of our data to go into the first bag. So I'm going to circle some of these points randomly that represent the data for our first model. So we randomly selected some of these points. Now let's show what that model looks like. So this zigzagging orange line here represents what that one nearest neighbor model would look like, and yes to me it looks like it's overfitting. But that's just our first model. Then we draw some more data and we have another model. So our other model, model two, is somewhat overfitting as well. Let's consider now a ensemble model where we combine the results of these two. And at each point where we query, remember what we do is we take the mean of the two models. So you can see already as this blue curve is a bit more smooth than the individual models, we're beginning to get something better. But let's add some more models. So I've drawn over here a couple more one nearest neighbor models. And you can see each one of them individually sort of overfit. But if we now sample at each individual spot across here and take the average across all of them, we get something that's much more smooth. So here's what our ensemble looks like. And as you can see, it's much more smooth. Of course, I hand drew it so you could accuse me of smoothing it by hand. Anyways, the point here is that you can build an ensemble that is much more smooth than any of the individual learners by themselves."
+}

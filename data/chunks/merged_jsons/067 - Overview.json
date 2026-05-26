@@ -1,0 +1,20 @@
+{
+    "title": "Overview",
+    "number": "067",
+    "chunks": [
+        {
+            "title": "Overview",
+            "number": "067",
+            "start": 0.0,
+            "end": 28.7,
+            "text": "Up until this point, we've been computing statistics about individual stocks. We're going to shift now to computing statistics on portfolios. We're going to focus on some of the most important statistics that are used to evaluate the performance of portfolios and, accordingly, portfolio managers. We'll define a portfolio as an allocation of funds to a set of stocks. For the moment, we're going to follow a buy-and-hold strategy where we invest in a set of stocks with a certain allocation"
+        },
+        {
+            "title": "Overview",
+            "number": "067",
+            "start": 28.7,
+            "end": 34.8,
+            "text": "and then observe how things go moving forward. We'll assume the allocations sum to 1.0."
+        }
+    ]
+}

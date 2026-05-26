@@ -1,0 +1,62 @@
+{
+    "title": "Computing rolling statistics",
+    "number": "048",
+    "chunks": [
+        {
+            "title": "Computing rolling statistics",
+            "number": "048",
+            "start": 0.4,
+            "end": 17.8,
+            "text": "For working with time series data, pandas provide a number of functions to compute moving statistics. We use rolling mean function to compute the rolling mean of the SPY. Note that rolling mean is not a data frame method, but it is a function with the pandas library."
+        },
+        {
+            "title": "Computing rolling statistics",
+            "number": "048",
+            "start": 17.8,
+            "end": 35.9,
+            "text": "So we wouldn't be able to call df.rolling mean. Instead we pass in a set of values for which rolling mean has to be calculated as the first parameter. Now let's code for this. Firstly, let's get SPY data in our data frame for the year 2012."
+        },
+        {
+            "title": "Computing rolling statistics",
+            "number": "048",
+            "start": 35.9,
+            "end": 51.2,
+            "text": "We also go ahead and plot the SPY data. Notice that we retain the matplotlib axis object so that we can add to it later on. Next we call the rolling mean function from pandas library and pass in two parameters."
+        },
+        {
+            "title": "Computing rolling statistics",
+            "number": "048",
+            "start": 51.2,
+            "end": 64.4,
+            "text": "As explained before, the first parameter would be the values for which the rolling mean has to be calculated. Hence we pass our data frame containing SPY values. The next parameter is the window size for"
+        },
+        {
+            "title": "Computing rolling statistics",
+            "number": "048",
+            "start": 64.4,
+            "end": 78.8,
+            "text": "which the mean will be calculated. We use a period of 20 days. This will return a series consisting of the rolling mean. It is always good to visualize the rolling mean. So we plot the series using the plot function."
+        },
+        {
+            "title": "Computing rolling statistics",
+            "number": "048",
+            "start": 78.8,
+            "end": 100.9,
+            "text": "This time while plotting the rolling mean, we pass in the matplotlib axis object so that it gets added to the existing plot. Notice that we specified a label is equal to rolling mean. This will be used to create a plot legend. Let's add the legend and some axis labels to our plot."
+        },
+        {
+            "title": "Computing rolling statistics",
+            "number": "048",
+            "start": 100.9,
+            "end": 117.9,
+            "text": "So here we add our legend to the upper left corner of the plot. Add the X label and the Y label. Finally, we are all set to view the plot. Observe that the rolling mean has missing initial values. The reason is that we defined a window period of 20 days."
+        },
+        {
+            "title": "Computing rolling statistics",
+            "number": "048",
+            "start": 117.9,
+            "end": 134.7,
+            "text": "So the first 20 days there are no values. Also notice how it follows the movement of the raw prices and is also less spiky."
+        }
+    ]
+}

@@ -1,0 +1,159 @@
+{
+    "chunks": [
+        {
+            "number": "184",
+            "title": "Metric 1  RMS error",
+            "start": 0.2,
+            "end": 4.0,
+            "text": "I've shown you some graphs that suggest the ways the models can fit the data more or"
+        },
+        {
+            "number": "184",
+            "title": "Metric 1  RMS error",
+            "start": 4.0,
+            "end": 8.4,
+            "text": "less closely, but let's have a more formal definition of this matching."
+        },
+        {
+            "number": "184",
+            "title": "Metric 1  RMS error",
+            "start": 8.4,
+            "end": 9.8,
+            "text": "It's called error."
+        },
+        {
+            "number": "184",
+            "title": "Metric 1  RMS error",
+            "start": 9.8,
+            "end": 13.2,
+            "text": "A standard way to measure error is called RMS error."
+        },
+        {
+            "number": "184",
+            "title": "Metric 1  RMS error",
+            "start": 13.2,
+            "end": 15.4,
+            "text": "Let me show you how to calculate this."
+        },
+        {
+            "number": "184",
+            "title": "Metric 1  RMS error",
+            "start": 15.4,
+            "end": 20.4,
+            "text": "Let's suppose we use this data, which are these green points, to build a model."
+        },
+        {
+            "number": "184",
+            "title": "Metric 1  RMS error",
+            "start": 20.4,
+            "end": 23.4,
+            "text": "Let's say it's a linear model like this."
+        },
+        {
+            "number": "184",
+            "title": "Metric 1  RMS error",
+            "start": 23.4,
+            "end": 29.3,
+            "text": "We can assess the model at each real data point, for instance at this data point,"
+        },
+        {
+            "number": "184",
+            "title": "Metric 1  RMS error",
+            "start": 29.3,
+            "end": 35.1,
+            "text": "and measure the difference between the y value of the data point and the model."
+        },
+        {
+            "number": "184",
+            "title": "Metric 1  RMS error",
+            "start": 35.1,
+            "end": 38.2,
+            "text": "And this difference is error."
+        },
+        {
+            "number": "184",
+            "title": "Metric 1  RMS error",
+            "start": 38.2,
+            "end": 41.2,
+            "text": "Now we've got an error at every single one of these data points."
+        },
+        {
+            "number": "184",
+            "title": "Metric 1  RMS error",
+            "start": 41.2,
+            "end": 47.6,
+            "text": "And what we do to measure root mean squared error is to take the error at each one of"
+        },
+        {
+            "number": "184",
+            "title": "Metric 1  RMS error",
+            "start": 47.6,
+            "end": 54.1,
+            "text": "these points, square it, add them together, take the average, and take the square root of that."
+        },
+        {
+            "number": "184",
+            "title": "Metric 1  RMS error",
+            "start": 54.1,
+            "end": 58.2,
+            "text": "So that sounds kind of complicated, but here's what it looks like."
+        },
+        {
+            "number": "184",
+            "title": "Metric 1  RMS error",
+            "start": 58.2,
+            "end": 60.6,
+            "text": "Y test minus Y predict."
+        },
+        {
+            "number": "184",
+            "title": "Metric 1  RMS error",
+            "start": 60.6,
+            "end": 64.3,
+            "text": "So Y test are the actual values of the data."
+        },
+        {
+            "number": "184",
+            "title": "Metric 1  RMS error",
+            "start": 64.3,
+            "end": 67.9,
+            "text": "Y predict are what our model predicted."
+        },
+        {
+            "number": "184",
+            "title": "Metric 1  RMS error",
+            "start": 67.9,
+            "end": 73.8,
+            "text": "We take that difference at each point, that's this difference, square it,"
+        },
+        {
+            "number": "184",
+            "title": "Metric 1  RMS error",
+            "start": 73.8,
+            "end": 79.0,
+            "text": "sum all those together, divide by the number of points, and take the square root."
+        },
+        {
+            "number": "184",
+            "title": "Metric 1  RMS error",
+            "start": 79.0,
+            "end": 81.1,
+            "text": "And that's our root mean squared error."
+        },
+        {
+            "number": "184",
+            "title": "Metric 1  RMS error",
+            "start": 81.1,
+            "end": 87.1,
+            "text": "And what this is an approximation of really is sort of the average error here."
+        },
+        {
+            "number": "184",
+            "title": "Metric 1  RMS error",
+            "start": 87.1,
+            "end": 91.4,
+            "text": "But we end up emphasizing larger errors a bit more."
+        }
+    ],
+    "text": "I've shown you some graphs that suggest the ways the models can fit the data more or less closely, but let's have a more formal definition of this matching. It's called error. A standard way to measure error is called RMS error. Let me show you how to calculate this. Let's suppose we use this data, which are these green points, to build a model. Let's say it's a linear model like this. We can assess the model at each real data point, for instance at this data point, and measure the difference between the y value of the data point and the model. And this difference is error. Now we've got an error at every single one of these data points. And what we do to measure root mean squared error is to take the error at each one of these points, square it, add them together, take the average, and take the square root of that. So that sounds kind of complicated, but here's what it looks like. Y test minus Y predict. So Y test are the actual values of the data. Y predict are what our model predicted. We take that difference at each point, that's this difference, square it, sum all those together, divide by the number of points, and take the square root. And that's our root mean squared error. And what this is an approximation of really is sort of the average error here. But we end up emphasizing larger errors a bit more."
+}

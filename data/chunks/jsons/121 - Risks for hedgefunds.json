@@ -1,0 +1,54 @@
+{
+    "chunks": [
+        {
+            "number": "121",
+            "title": "Risks for hedgefunds",
+            "start": 0.0,
+            "end": 4.4,
+            "text": "A typical hedge fund develops methods to find stocks they think will perform well."
+        },
+        {
+            "number": "121",
+            "title": "Risks for hedgefunds",
+            "start": 4.4,
+            "end": 9.4,
+            "text": "The informational edge that they're seeking is usually market relative,"
+        },
+        {
+            "number": "121",
+            "title": "Risks for hedgefunds",
+            "start": 9.4,
+            "end": 14.5,
+            "text": "meaning they're looking for stocks that will go up more than the market if the market goes up,"
+        },
+        {
+            "number": "121",
+            "title": "Risks for hedgefunds",
+            "start": 14.5,
+            "end": 18.5,
+            "text": "or stocks that will go down less than the market if the market goes down."
+        },
+        {
+            "number": "121",
+            "title": "Risks for hedgefunds",
+            "start": 18.5,
+            "end": 23.6,
+            "text": "If this information they have is reliable, they can take advantage of the CAPM"
+        },
+        {
+            "number": "121",
+            "title": "Risks for hedgefunds",
+            "start": 23.6,
+            "end": 25.8,
+            "text": "to virtually guarantee positive return."
+        },
+        {
+            "number": "121",
+            "title": "Risks for hedgefunds",
+            "start": 25.8,
+            "end": 28.9,
+            "text": "In this lesson, I'll show you how all of that works."
+        }
+    ],
+    "text": "A typical hedge fund develops methods to find stocks they think will perform well. The informational edge that they're seeking is usually market relative, meaning they're looking for stocks that will go up more than the market if the market goes up, or stocks that will go down less than the market if the market goes down. If this information they have is reliable, they can take advantage of the CAPM to virtually guarantee positive return. In this lesson, I'll show you how all of that works."
+}

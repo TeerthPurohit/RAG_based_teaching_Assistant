@@ -1,0 +1,62 @@
+{
+    "title": "Cumulative returns",
+    "number": "050",
+    "chunks": [
+        {
+            "title": "Cumulative returns",
+            "number": "050",
+            "start": 0.3,
+            "end": 21.4,
+            "text": "One last important statistic on a stock that's important is called cumulative returns. So let's consider S&P 500 again back in 2012. Now in 2012, the S&P 500 started the year at $125 and it ended the year at $142."
+        },
+        {
+            "title": "Cumulative returns",
+            "number": "050",
+            "start": 21.4,
+            "end": 41.0,
+            "text": "When you listen to the news, you hear things like for the year 2012, S&P 500 gained 13.6%. That is cumulative return. You don't hear them say, over 2012, S&P 500 went from 125 to 142. So how do you calculate these cumulative returns?"
+        },
+        {
+            "title": "Cumulative returns",
+            "number": "050",
+            "start": 41.0,
+            "end": 55.3,
+            "text": "It's really easy. Here's the equation. The cumulative return for a particular day, T, is just today's price divided by the price at the beginning. So price of zero is over here."
+        },
+        {
+            "title": "Cumulative returns",
+            "number": "050",
+            "start": 55.3,
+            "end": 76.2,
+            "text": "And the price of any particular day, you know, say would be here. And we can calculate the value like this. Now the cumulative return for the whole period is where T is this last day. So let's consider the example we've got here. To calculate the cumulative return for this whole year, it's the price at the end,"
+        },
+        {
+            "title": "Cumulative returns",
+            "number": "050",
+            "start": 76.2,
+            "end": 105.0,
+            "text": "divided by the price at the beginning, minus 1. Turns out 142 divided by 125 is 1.136. Minus 1 gives us 0.136, which is equal to 13.6%. So our cumulative return for the ETF SPY was 13.6%. We can calculate and chart cumulative returns just like we did earlier for"
+        },
+        {
+            "title": "Cumulative returns",
+            "number": "050",
+            "start": 105.0,
+            "end": 120.6,
+            "text": "daily returns. Except now the plot is showing us the cumulative return, of course, instead of the daily return. Note that the shape of the chart is, you know, the same as the price chart. It's just now it's normalized."
+        },
+        {
+            "title": "Cumulative returns",
+            "number": "050",
+            "start": 120.6,
+            "end": 139.0,
+            "text": "And in fact, this equation is exactly our normalization equation. So that is how to calculate and plot cumulative returns. We're not going to have Dave show you how to do that. You're on your own there. Now that you know how to do daily returns, it shouldn't be too tough."
+        },
+        {
+            "title": "Cumulative returns",
+            "number": "050",
+            "start": 139.0,
+            "end": 141.3,
+            "text": "Okay, that's it for this lesson. We'll see you again soon."
+        }
+    ]
+}

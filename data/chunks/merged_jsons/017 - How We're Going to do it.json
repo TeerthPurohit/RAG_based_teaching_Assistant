@@ -1,0 +1,48 @@
+{
+    "title": "How We're Going to do it",
+    "number": "017",
+    "chunks": [
+        {
+            "title": "How We're Going to do it",
+            "number": "017",
+            "start": 0.4,
+            "end": 20.3,
+            "text": "Now here's how we're going to build that data frame. All right, we start by constructing an empty data frame that has all the dates we're potentially interested in. And Dave will show you the syntax for doing that later on in the lesson. We'll call this DF1 for data frame one, of course."
+        },
+        {
+            "title": "How We're Going to do it",
+            "number": "017",
+            "start": 20.3,
+            "end": 40.8,
+            "text": "Now we want to load this data frame up with a column of data for SPY, for IBM, for Google, and Gold. And I'm going to show you step by step how we do that. Okay, so we separately read in SPY. And again, Dave will show you how to do that."
+        },
+        {
+            "title": "How We're Going to do it",
+            "number": "017",
+            "start": 40.8,
+            "end": 59.9,
+            "text": "Now when we read SPY, we get all the potential dates and all the prices that go with that. And in this case, we're loading adjusted close data. Note that there's many more dates here than there are here. And this is our target data frame that we loaded with the particular dates"
+        },
+        {
+            "title": "How We're Going to do it",
+            "number": "017",
+            "start": 59.9,
+            "end": 81.2,
+            "text": "that we're interested in. One other thing to mention that I didn't mention before is these two days are weekend days. So you can go ahead and check your calendar and go back to 2010 and see if I'm right. Interesting thing or just, you know, obvious thing about weekends is the markets are not open on weekends."
+        },
+        {
+            "title": "How We're Going to do it",
+            "number": "017",
+            "start": 81.2,
+            "end": 109.5,
+            "text": "So if you compare this with this, look, in our SPY history, we don't have the 23rd and the 24th because SPY did not trade that day. So we've got a little bit of a mismatch there that we need to deal with. And this actually is one of the important reasons that we use SPY as a reference. Because if SPY traded, it meant the market was open."
+        },
+        {
+            "title": "How We're Going to do it",
+            "number": "017",
+            "start": 109.5,
+            "end": 119.2,
+            "text": "And if the market was open, SPY traded. So SPY, the S&P 500 ETF, is our reference for many, many things."
+        }
+    ]
+}

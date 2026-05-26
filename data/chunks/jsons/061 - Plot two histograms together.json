@@ -1,0 +1,180 @@
+{
+    "chunks": [
+        {
+            "number": "061",
+            "title": "Plot two histograms together",
+            "start": 0.0,
+            "end": 5.2,
+            "text": "I'm back again, this time with a really small segment."
+        },
+        {
+            "number": "061",
+            "title": "Plot two histograms together",
+            "start": 5.2,
+            "end": 7.6,
+            "text": "We need to plot two histograms."
+        },
+        {
+            "number": "061",
+            "title": "Plot two histograms together",
+            "start": 7.6,
+            "end": 11.4,
+            "text": "So first, we read the values for two stocks."
+        },
+        {
+            "number": "061",
+            "title": "Plot two histograms together",
+            "start": 11.4,
+            "end": 16.6,
+            "text": "We get data for two stocks, which is SPY and XORM."
+        },
+        {
+            "number": "061",
+            "title": "Plot two histograms together",
+            "start": 16.6,
+            "end": 21.4,
+            "text": "We also go ahead and compute daily returns for each of the stock."
+        },
+        {
+            "number": "061",
+            "title": "Plot two histograms together",
+            "start": 21.4,
+            "end": 25.9,
+            "text": "Note that our daily return data frame will have daily return values for"
+        },
+        {
+            "number": "061",
+            "title": "Plot two histograms together",
+            "start": 25.9,
+            "end": 28.0,
+            "text": "each of the stock prices."
+        },
+        {
+            "number": "061",
+            "title": "Plot two histograms together",
+            "start": 28.0,
+            "end": 33.0,
+            "text": "Now like before, we just call histogram function on the daily return data frame."
+        },
+        {
+            "number": "061",
+            "title": "Plot two histograms together",
+            "start": 33.0,
+            "end": 35.3,
+            "text": "And let's see what happens."
+        },
+        {
+            "number": "061",
+            "title": "Plot two histograms together",
+            "start": 35.3,
+            "end": 37.6,
+            "text": "We keep the bins count to be 20."
+        },
+        {
+            "number": "061",
+            "title": "Plot two histograms together",
+            "start": 37.6,
+            "end": 39.6,
+            "text": "Now let's run this."
+        },
+        {
+            "number": "061",
+            "title": "Plot two histograms together",
+            "start": 39.6,
+            "end": 42.2,
+            "text": "Okay, so we got two subplots."
+        },
+        {
+            "number": "061",
+            "title": "Plot two histograms together",
+            "start": 42.2,
+            "end": 47.2,
+            "text": "But we go ahead one step and plot them on the same x and y axis."
+        },
+        {
+            "number": "061",
+            "title": "Plot two histograms together",
+            "start": 47.2,
+            "end": 51.8,
+            "text": "So that we can compare the histogram of SPY and XORM."
+        },
+        {
+            "number": "061",
+            "title": "Plot two histograms together",
+            "start": 51.8,
+            "end": 55.7,
+            "text": "To get two histograms on the same x and y axis,"
+        },
+        {
+            "number": "061",
+            "title": "Plot two histograms together",
+            "start": 55.7,
+            "end": 61.5,
+            "text": "we call the histogram function separately on each of the stocks daily return values."
+        },
+        {
+            "number": "061",
+            "title": "Plot two histograms together",
+            "start": 61.5,
+            "end": 67.6,
+            "text": "We also add the label parameter so that we can differentiate between the histogram of"
+        },
+        {
+            "number": "061",
+            "title": "Plot two histograms together",
+            "start": 67.6,
+            "end": 69.6,
+            "text": "the SPY and XORM."
+        },
+        {
+            "number": "061",
+            "title": "Plot two histograms together",
+            "start": 69.6,
+            "end": 71.4,
+            "text": "Now let's run this."
+        },
+        {
+            "number": "061",
+            "title": "Plot two histograms together",
+            "start": 71.4,
+            "end": 72.4,
+            "text": "Here we go."
+        },
+        {
+            "number": "061",
+            "title": "Plot two histograms together",
+            "start": 72.4,
+            "end": 78.1,
+            "text": "We get two histogram of SPY and XORM on the same x and y axis."
+        },
+        {
+            "number": "061",
+            "title": "Plot two histograms together",
+            "start": 78.1,
+            "end": 86.2,
+            "text": "Now you can compare the histogram and see that the tails of XORM is thin as compared to the SPY."
+        },
+        {
+            "number": "061",
+            "title": "Plot two histograms together",
+            "start": 86.2,
+            "end": 88.3,
+            "text": "That's it for this coding segment."
+        },
+        {
+            "number": "061",
+            "title": "Plot two histograms together",
+            "start": 88.3,
+            "end": 89.8,
+            "text": "I will be back soon."
+        },
+        {
+            "number": "061",
+            "title": "Plot two histograms together",
+            "start": 89.8,
+            "end": 90.8,
+            "text": "Over to you professor."
+        }
+    ],
+    "text": "I'm back again, this time with a really small segment. We need to plot two histograms. So first, we read the values for two stocks. We get data for two stocks, which is SPY and XORM. We also go ahead and compute daily returns for each of the stock. Note that our daily return data frame will have daily return values for each of the stock prices. Now like before, we just call histogram function on the daily return data frame. And let's see what happens. We keep the bins count to be 20. Now let's run this. Okay, so we got two subplots. But we go ahead one step and plot them on the same x and y axis. So that we can compare the histogram of SPY and XORM. To get two histograms on the same x and y axis, we call the histogram function separately on each of the stocks daily return values. We also add the label parameter so that we can differentiate between the histogram of the SPY and XORM. Now let's run this. Here we go. We get two histogram of SPY and XORM on the same x and y axis. Now you can compare the histogram and see that the tails of XORM is thin as compared to the SPY. That's it for this coding segment. I will be back soon. Over to you professor."
+}

@@ -1,0 +1,69 @@
+{
+    "title": "The order book",
+    "number": "097",
+    "chunks": [
+        {
+            "title": "The order book",
+            "number": "097",
+            "start": 0.4,
+            "end": 22.5,
+            "text": "A key construct at most exchanges is something called the order book. Each exchange keeps an order book for every stock that they buy or sell. And here's how it works. Let's suppose you've just issued an order to buy 100 shares of IBM with a limit price of $99.95."
+        },
+        {
+            "title": "The order book",
+            "number": "097",
+            "start": 22.5,
+            "end": 40.2,
+            "text": "And let's suppose for the moment that this arrives at the New York Stock Exchange. And so far today, nobody's put in any orders. So your order is the first one, and they'll use it as the basis to start building their order book. So yours is the first entry in the order book, and"
+        },
+        {
+            "title": "The order book",
+            "number": "097",
+            "start": 40.2,
+            "end": 60.1,
+            "text": "it simply shows somebody has bid $99.95 for 100 shares of stock. And this is public knowledge. People can view this and see, okay, there's interest in buying shares of this stock. Now, they don't know who has made this bid."
+        },
+        {
+            "title": "The order book",
+            "number": "097",
+            "start": 60.1,
+            "end": 77.5,
+            "text": "The exchange knows that it's you that's made that bid. But they see that there's interest in 100 shares. Now, others may send in orders like yours. And this number just keeps getting larger depending on how many orders come in. When this is displayed publicly, people just see that, okay,"
+        },
+        {
+            "title": "The order book",
+            "number": "097",
+            "start": 77.5,
+            "end": 100.8,
+            "text": "there's interest maybe from various people in 1000 shares of IBM at 99.95. So far, nothing's been bought or sold yet though, because we don't have anybody willing to sell. Well, let's suppose a sell order comes in. Sell IBM, 1000 shares, limit of $100."
+        },
+        {
+            "title": "The order book",
+            "number": "097",
+            "start": 100.8,
+            "end": 120.7,
+            "text": "Well, there's nobody willing to buy 1000 shares at $100. So the exchange again is going to have to add this order to its order book. And this will be our first ask. We've got now our first ask as part of our order book. Now, let's say more and more orders come in and"
+        },
+        {
+            "title": "The order book",
+            "number": "097",
+            "start": 120.7,
+            "end": 139.6,
+            "text": "it flushes out our order book a bit. Here's our order book as it's flushed out a bit as orders have come in. We've got a number of asks, which are requests to sell stocks. And a number of bids, which are requests to buy. Suppose now we get a market order to buy 100 shares of stock."
+        },
+        {
+            "title": "The order book",
+            "number": "097",
+            "start": 139.6,
+            "end": 161.4,
+            "text": "Here's our new order, and here's what happens. The exchange looks at its order book and it sees, yes, we have lots of shares for sale here. We have to give the client the lowest price. So we'll give that client 100 shares of these that are priced at $100."
+        },
+        {
+            "title": "The order book",
+            "number": "097",
+            "start": 161.4,
+            "end": 173.2,
+            "text": "So that means now we've only got 900 left here. We take that 100, give that to the client who put in the order, and this is the state now of our order book after that transaction."
+        }
+    ]
+}

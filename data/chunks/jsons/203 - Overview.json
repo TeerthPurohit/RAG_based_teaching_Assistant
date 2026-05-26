@@ -1,0 +1,54 @@
+{
+    "chunks": [
+        {
+            "number": "203",
+            "title": "Overview",
+            "start": 0.0,
+            "end": 3.0,
+            "text": "This lesson is about Q-Learning."
+        },
+        {
+            "number": "203",
+            "title": "Overview",
+            "start": 3.0,
+            "end": 7.0,
+            "text": "Recall that Q-Learning is a model-free approach,"
+        },
+        {
+            "number": "203",
+            "title": "Overview",
+            "start": 7.0,
+            "end": 14.0,
+            "text": "meaning that it does not know about or use models of the transitions T or the rewards R."
+        },
+        {
+            "number": "203",
+            "title": "Overview",
+            "start": 14.0,
+            "end": 21.0,
+            "text": "Instead, Q-Learning builds a table of utility values as the agent interacts with the world."
+        },
+        {
+            "number": "203",
+            "title": "Overview",
+            "start": 21.0,
+            "end": 29.0,
+            "text": "These Q-values can be used at each step to select the best action based on what it has learned so far."
+        },
+        {
+            "number": "203",
+            "title": "Overview",
+            "start": 29.0,
+            "end": 35.0,
+            "text": "The fantastic thing about Q-Learning is that it is guaranteed to provide an optimal policy."
+        },
+        {
+            "number": "203",
+            "title": "Overview",
+            "start": 35.0,
+            "end": 38.0,
+            "text": "There is a hitch, however, that we'll cover later."
+        }
+    ],
+    "text": "This lesson is about Q-Learning. Recall that Q-Learning is a model-free approach, meaning that it does not know about or use models of the transitions T or the rewards R. Instead, Q-Learning builds a table of utility values as the agent interacts with the world. These Q-values can be used at each step to select the best action based on what it has learned so far. The fantastic thing about Q-Learning is that it is guaranteed to provide an optimal policy. There is a hitch, however, that we'll cover later."
+}

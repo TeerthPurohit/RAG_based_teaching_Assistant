@@ -1,0 +1,173 @@
+{
+    "chunks": [
+        {
+            "number": "016",
+            "title": "Problems to Solve",
+            "start": 0.5,
+            "end": 4.7,
+            "text": "So, in order to get to a data frame like this, we've got a couple problems to"
+        },
+        {
+            "number": "016",
+            "title": "Problems to Solve",
+            "start": 4.7,
+            "end": 6.9,
+            "text": "solve, and we're going to solve them in this lesson."
+        },
+        {
+            "number": "016",
+            "title": "Problems to Solve",
+            "start": 8.0,
+            "end": 13.1,
+            "text": "So one of the first issues is we want to be able to read in particular date ranges."
+        },
+        {
+            "number": "016",
+            "title": "Problems to Solve",
+            "start": 13.1,
+            "end": 18.0,
+            "text": "So if you remember from the last lesson, we just read all of it in."
+        },
+        {
+            "number": "016",
+            "title": "Problems to Solve",
+            "start": 18.0,
+            "end": 20.0,
+            "text": "But what if we just want to read in a certain part of it?"
+        },
+        {
+            "number": "016",
+            "title": "Problems to Solve",
+            "start": 20.0,
+            "end": 27.6,
+            "text": "You know, instead of from 1995 to 2012, what if we want, say, just 2010 to 2012?"
+        },
+        {
+            "number": "016",
+            "title": "Problems to Solve",
+            "start": 27.6,
+            "end": 30.4,
+            "text": "Well, we've got to figure out how to solve that."
+        },
+        {
+            "number": "016",
+            "title": "Problems to Solve",
+            "start": 30.4,
+            "end": 33.1,
+            "text": "Something that's very special about Pandas, and"
+        },
+        {
+            "number": "016",
+            "title": "Problems to Solve",
+            "start": 33.1,
+            "end": 40.3,
+            "text": "one of the things that makes it very powerful, is that we can index the rows by dates."
+        },
+        {
+            "number": "016",
+            "title": "Problems to Solve",
+            "start": 40.3,
+            "end": 46.1,
+            "text": "We don't have to just use a single number like zero, for instance."
+        },
+        {
+            "number": "016",
+            "title": "Problems to Solve",
+            "start": 46.1,
+            "end": 49.5,
+            "text": "We need to be able to read in multiple stocks."
+        },
+        {
+            "number": "016",
+            "title": "Problems to Solve",
+            "start": 49.5,
+            "end": 53.5,
+            "text": "Instead of just, say, having one, we want to have SPY, IBM,"
+        },
+        {
+            "number": "016",
+            "title": "Problems to Solve",
+            "start": 53.5,
+            "end": 56.0,
+            "text": "Google, and Gold all at once."
+        },
+        {
+            "number": "016",
+            "title": "Problems to Solve",
+            "start": 57.6,
+            "end": 60.3,
+            "text": "We need to be able to align dates."
+        },
+        {
+            "number": "016",
+            "title": "Problems to Solve",
+            "start": 60.3,
+            "end": 67.0,
+            "text": "For instance, if GLD traded on particular days and SPY traded on particular days,"
+        },
+        {
+            "number": "016",
+            "title": "Problems to Solve",
+            "start": 67.0,
+            "end": 72.0,
+            "text": "we want to make sure that those line up so that for each row,"
+        },
+        {
+            "number": "016",
+            "title": "Problems to Solve",
+            "start": 72.0,
+            "end": 78.1,
+            "text": "we have the correct information for each equity on that particular date."
+        },
+        {
+            "number": "016",
+            "title": "Problems to Solve",
+            "start": 78.1,
+            "end": 83.1,
+            "text": "Finally, we need to undo that problem that we discovered in the last lesson."
+        },
+        {
+            "number": "016",
+            "title": "Problems to Solve",
+            "start": 83.1,
+            "end": 88.2,
+            "text": "Namely, that these dates and the files we read them from are in reverse order."
+        },
+        {
+            "number": "016",
+            "title": "Problems to Solve",
+            "start": 88.2,
+            "end": 92.5,
+            "text": "So we want to be sure we have them in the right order when we're processing them."
+        },
+        {
+            "number": "016",
+            "title": "Problems to Solve",
+            "start": 92.5,
+            "end": 95.8,
+            "text": "So these are the tasks we're going to dig into in this lesson."
+        },
+        {
+            "number": "016",
+            "title": "Problems to Solve",
+            "start": 95.8,
+            "end": 103.3,
+            "text": "."
+        },
+        {
+            "number": "016",
+            "title": "Problems to Solve",
+            "start": 103.3,
+            "end": 106.3,
+            "text": "."
+        },
+        {
+            "number": "016",
+            "title": "Problems to Solve",
+            "start": 106.3,
+            "end": 109.3,
+            "text": "."
+        }
+    ],
+    "text": "So, in order to get to a data frame like this, we've got a couple problems to solve, and we're going to solve them in this lesson. So one of the first issues is we want to be able to read in particular date ranges. So if you remember from the last lesson, we just read all of it in. But what if we just want to read in a certain part of it? You know, instead of from 1995 to 2012, what if we want, say, just 2010 to 2012? Well, we've got to figure out how to solve that. Something that's very special about Pandas, and one of the things that makes it very powerful, is that we can index the rows by dates. We don't have to just use a single number like zero, for instance. We need to be able to read in multiple stocks. Instead of just, say, having one, we want to have SPY, IBM, Google, and Gold all at once. We need to be able to align dates. For instance, if GLD traded on particular days and SPY traded on particular days, we want to make sure that those line up so that for each row, we have the correct information for each equity on that particular date. Finally, we need to undo that problem that we discovered in the last lesson. Namely, that these dates and the files we read them from are in reverse order. So we want to be sure we have them in the right order when we're processing them. So these are the tasks we're going to dig into in this lesson. . . ."
+}

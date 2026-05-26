@@ -1,0 +1,173 @@
+{
+    "chunks": [
+        {
+            "number": "119",
+            "title": "Implications of CAPM",
+            "start": 0.3,
+            "end": 3.3,
+            "text": "Let's summarize now the implications of cap M."
+        },
+        {
+            "number": "119",
+            "title": "Implications of CAPM",
+            "start": 3.3,
+            "end": 5.5,
+            "text": "Let's start first with the equation."
+        },
+        {
+            "number": "119",
+            "title": "Implications of CAPM",
+            "start": 5.5,
+            "end": 10.6,
+            "text": "So the cap M tells us that the expected return on our portfolio is the beta of"
+        },
+        {
+            "number": "119",
+            "title": "Implications of CAPM",
+            "start": 10.6,
+            "end": 15.7,
+            "text": "the portfolio times the return on the market plus alpha of the portfolio."
+        },
+        {
+            "number": "119",
+            "title": "Implications of CAPM",
+            "start": 15.7,
+            "end": 17.7,
+            "text": "The first point, an important point,"
+        },
+        {
+            "number": "119",
+            "title": "Implications of CAPM",
+            "start": 17.7,
+            "end": 22.9,
+            "text": "is that alpha is random and the expected value of alpha is 0."
+        },
+        {
+            "number": "119",
+            "title": "Implications of CAPM",
+            "start": 22.9,
+            "end": 26.6,
+            "text": "So that excludes alpha from our toolbox of ways to make money."
+        },
+        {
+            "number": "119",
+            "title": "Implications of CAPM",
+            "start": 26.6,
+            "end": 28.6,
+            "text": "What's left?"
+        },
+        {
+            "number": "119",
+            "title": "Implications of CAPM",
+            "start": 28.6,
+            "end": 33.2,
+            "text": "So the only way we can beat the market now is by cleverly choosing beta."
+        },
+        {
+            "number": "119",
+            "title": "Implications of CAPM",
+            "start": 33.2,
+            "end": 38.1,
+            "text": "So that when the market is going up, we choose a positive beta."
+        },
+        {
+            "number": "119",
+            "title": "Implications of CAPM",
+            "start": 38.1,
+            "end": 42.6,
+            "text": "And when the market's going down, we choose a lower or even negative beta."
+        },
+        {
+            "number": "119",
+            "title": "Implications of CAPM",
+            "start": 42.6,
+            "end": 47.4,
+            "text": "So cap M says the only way we can beat the market is with high beta in"
+        },
+        {
+            "number": "119",
+            "title": "Implications of CAPM",
+            "start": 47.4,
+            "end": 50.6,
+            "text": "up markets and low beta in down markets."
+        },
+        {
+            "number": "119",
+            "title": "Implications of CAPM",
+            "start": 50.6,
+            "end": 53.4,
+            "text": "The only problem with that is the efficient markets hypothesis."
+        },
+        {
+            "number": "119",
+            "title": "Implications of CAPM",
+            "start": 53.4,
+            "end": 56.0,
+            "text": "We haven't covered that yet, but it's coming soon."
+        },
+        {
+            "number": "119",
+            "title": "Implications of CAPM",
+            "start": 56.0,
+            "end": 60.2,
+            "text": "But anyways, the efficient markets hypothesis says you can't predict the market."
+        },
+        {
+            "number": "119",
+            "title": "Implications of CAPM",
+            "start": 60.2,
+            "end": 64.2,
+            "text": "So these avenues are not available to you either."
+        },
+        {
+            "number": "119",
+            "title": "Implications of CAPM",
+            "start": 65.3,
+            "end": 70.2,
+            "text": "So all these things taken together say that you can't beat the market."
+        },
+        {
+            "number": "119",
+            "title": "Implications of CAPM",
+            "start": 70.2,
+            "end": 74.4,
+            "text": "If the capital assets pricing model is true, we can't beat the market."
+        },
+        {
+            "number": "119",
+            "title": "Implications of CAPM",
+            "start": 74.4,
+            "end": 77.0,
+            "text": "Now, I don't believe that."
+        },
+        {
+            "number": "119",
+            "title": "Implications of CAPM",
+            "start": 77.0,
+            "end": 81.8,
+            "text": "And this whole course is about ways that you can potentially beat the market."
+        },
+        {
+            "number": "119",
+            "title": "Implications of CAPM",
+            "start": 81.8,
+            "end": 84.1,
+            "text": "So we're going to get to those eventually."
+        },
+        {
+            "number": "119",
+            "title": "Implications of CAPM",
+            "start": 84.1,
+            "end": 88.7,
+            "text": "But we had to present the capital assets pricing model as a framework in which"
+        },
+        {
+            "number": "119",
+            "title": "Implications of CAPM",
+            "start": 88.7,
+            "end": 90.1,
+            "text": "to consider all these other things."
+        }
+    ],
+    "text": "Let's summarize now the implications of cap M. Let's start first with the equation. So the cap M tells us that the expected return on our portfolio is the beta of the portfolio times the return on the market plus alpha of the portfolio. The first point, an important point, is that alpha is random and the expected value of alpha is 0. So that excludes alpha from our toolbox of ways to make money. What's left? So the only way we can beat the market now is by cleverly choosing beta. So that when the market is going up, we choose a positive beta. And when the market's going down, we choose a lower or even negative beta. So cap M says the only way we can beat the market is with high beta in up markets and low beta in down markets. The only problem with that is the efficient markets hypothesis. We haven't covered that yet, but it's coming soon. But anyways, the efficient markets hypothesis says you can't predict the market. So these avenues are not available to you either. So all these things taken together say that you can't beat the market. If the capital assets pricing model is true, we can't beat the market. Now, I don't believe that. And this whole course is about ways that you can potentially beat the market. So we're going to get to those eventually. But we had to present the capital assets pricing model as a framework in which to consider all these other things."
+}

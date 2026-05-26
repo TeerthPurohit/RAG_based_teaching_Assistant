@@ -1,0 +1,55 @@
+{
+    "title": "Create an exmpty data frame",
+    "number": "019",
+    "chunks": [
+        {
+            "title": "Create an exmpty data frame",
+            "number": "019",
+            "start": 0.3,
+            "end": 14.8,
+            "text": "Let's try to build the data frame Professor outlined. Starting with the things we need to populate the data frame with are, firstly dates. We use Panda's date range method, which takes two parameters, that is start and end date."
+        },
+        {
+            "title": "Create an exmpty data frame",
+            "number": "019",
+            "start": 16.0,
+            "end": 37.0,
+            "text": "For this code, we will take a small date range, that is from 22nd Jan 2010 to 26th Jan 2010. We then call the date range function as I mentioned before, passing two parameters, start date and the end date. Let's run this code to see what variable dates has in it."
+        },
+        {
+            "title": "Create an exmpty data frame",
+            "number": "019",
+            "start": 38.2,
+            "end": 58.0,
+            "text": "The output you see is not a list of strings, but a list of date time index objects. Now what do you mean by date time index object? Let's extract the first element of this list. You can get the first element of the list by writing date square bracket zero."
+        },
+        {
+            "title": "Create an exmpty data frame",
+            "number": "019",
+            "start": 58.0,
+            "end": 77.1,
+            "text": "Now let's go ahead and run this code. This is the first element of the list, which is a date time index object. The trailing zero zeros for each object is the default timestamp. The index for a stock data only consists of dates."
+        },
+        {
+            "title": "Create an exmpty data frame",
+            "number": "019",
+            "start": 77.1,
+            "end": 96.9,
+            "text": "So we can ignore the timestamps for now. Next we define an empty data frame, df1, with these dates as index. We use the parameter index to supply the dates. Note that without this parameter, the data frame will have an index of integers 0, 1, 2 as seen before."
+        },
+        {
+            "title": "Create an exmpty data frame",
+            "number": "019",
+            "start": 97.8,
+            "end": 115.0,
+            "text": "Let's print this now. So here's your data frame, df1. It's an empty data frame with no columns. However, as we pass the index parameter, we have index as dates. And you can see that it's a date time index object."
+        },
+        {
+            "title": "Create an exmpty data frame",
+            "number": "019",
+            "start": 115.0,
+            "end": 117.2,
+            "text": "Two major steps have now been completed."
+        }
+    ]
+}

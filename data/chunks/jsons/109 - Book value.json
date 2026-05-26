@@ -1,0 +1,236 @@
+{
+    "chunks": [
+        {
+            "number": "109",
+            "title": "Book value",
+            "start": 0.4,
+            "end": 2.9,
+            "text": "Now, if you recall from the beginning of the lesson,"
+        },
+        {
+            "number": "109",
+            "title": "Book value",
+            "start": 2.9,
+            "end": 6.4,
+            "text": "we talked about three major ways to estimate value."
+        },
+        {
+            "number": "109",
+            "title": "Book value",
+            "start": 7.4,
+            "end": 11.1,
+            "text": "One is intrinsic value, which we just covered."
+        },
+        {
+            "number": "109",
+            "title": "Book value",
+            "start": 11.1,
+            "end": 14.2,
+            "text": "Another is book value, which we're going to cover now."
+        },
+        {
+            "number": "109",
+            "title": "Book value",
+            "start": 14.2,
+            "end": 16.8,
+            "text": "And the other is market capitalization."
+        },
+        {
+            "number": "109",
+            "title": "Book value",
+            "start": 16.8,
+            "end": 19.6,
+            "text": "So let's take a look at book value."
+        },
+        {
+            "number": "109",
+            "title": "Book value",
+            "start": 19.6,
+            "end": 22.6,
+            "text": "Here's a classic definition of book value."
+        },
+        {
+            "number": "109",
+            "title": "Book value",
+            "start": 22.6,
+            "end": 24.9,
+            "text": "It's total assets of the company."
+        },
+        {
+            "number": "109",
+            "title": "Book value",
+            "start": 24.9,
+            "end": 29.6,
+            "text": "In other words, things like property that is owned and so on."
+        },
+        {
+            "number": "109",
+            "title": "Book value",
+            "start": 29.6,
+            "end": 33.8,
+            "text": "Minus intangible assets and liabilities."
+        },
+        {
+            "number": "109",
+            "title": "Book value",
+            "start": 33.8,
+            "end": 38.3,
+            "text": "So intangible assets are things that are difficult to put a price on."
+        },
+        {
+            "number": "109",
+            "title": "Book value",
+            "start": 38.3,
+            "end": 43.8,
+            "text": "They're things like the value of a brand or a patent or so on."
+        },
+        {
+            "number": "109",
+            "title": "Book value",
+            "start": 43.8,
+            "end": 46.2,
+            "text": "Liabilities are a little bit easier to calculate."
+        },
+        {
+            "number": "109",
+            "title": "Book value",
+            "start": 46.2,
+            "end": 49.0,
+            "text": "Those are just things like loans that are owed and so on."
+        },
+        {
+            "number": "109",
+            "title": "Book value",
+            "start": 49.0,
+            "end": 53.4,
+            "text": "So let's consider what is the book value for an example company."
+        },
+        {
+            "number": "109",
+            "title": "Book value",
+            "start": 53.4,
+            "end": 56.4,
+            "text": "Let's say the company owns four factories and"
+        },
+        {
+            "number": "109",
+            "title": "Book value",
+            "start": 56.4,
+            "end": 59.9,
+            "text": "that each of these factories is worth about $10 million."
+        },
+        {
+            "number": "109",
+            "title": "Book value",
+            "start": 59.9,
+            "end": 63.4,
+            "text": "These are assets and altogether they're worth about $40 million."
+        },
+        {
+            "number": "109",
+            "title": "Book value",
+            "start": 64.9,
+            "end": 69.4,
+            "text": "Suppose this company also holds three very important patents and"
+        },
+        {
+            "number": "109",
+            "title": "Book value",
+            "start": 69.4,
+            "end": 71.4,
+            "text": "each patent is valued at about $5 million."
+        },
+        {
+            "number": "109",
+            "title": "Book value",
+            "start": 71.4,
+            "end": 76.4,
+            "text": "The value of these patents is about $15 million."
+        },
+        {
+            "number": "109",
+            "title": "Book value",
+            "start": 76.4,
+            "end": 80.9,
+            "text": "But these are intangible assets that are hard to price exactly."
+        },
+        {
+            "number": "109",
+            "title": "Book value",
+            "start": 80.9,
+            "end": 86.2,
+            "text": "Finally, suppose this company has one large loan."
+        },
+        {
+            "number": "109",
+            "title": "Book value",
+            "start": 86.2,
+            "end": 89.7,
+            "text": "This would be under the liabilities column of $10 million."
+        },
+        {
+            "number": "109",
+            "title": "Book value",
+            "start": 89.7,
+            "end": 95.1,
+            "text": "If we follow this rule that book values total assets."
+        },
+        {
+            "number": "109",
+            "title": "Book value",
+            "start": 95.1,
+            "end": 101.8,
+            "text": "So total assets are this 40 million plus the 15 million or 55 million."
+        },
+        {
+            "number": "109",
+            "title": "Book value",
+            "start": 101.8,
+            "end": 105.0,
+            "text": "Minus intangible assets."
+        },
+        {
+            "number": "109",
+            "title": "Book value",
+            "start": 105.0,
+            "end": 109.3,
+            "text": "So we just don't count these intangible assets."
+        },
+        {
+            "number": "109",
+            "title": "Book value",
+            "start": 109.3,
+            "end": 111.1,
+            "text": "And liabilities."
+        },
+        {
+            "number": "109",
+            "title": "Book value",
+            "start": 111.1,
+            "end": 116.9,
+            "text": "So all together, we've got our total assets minus intangible assets,"
+        },
+        {
+            "number": "109",
+            "title": "Book value",
+            "start": 116.9,
+            "end": 118.8,
+            "text": "which is 40 million."
+        },
+        {
+            "number": "109",
+            "title": "Book value",
+            "start": 118.8,
+            "end": 121.9,
+            "text": "And liabilities minus this 10 million."
+        },
+        {
+            "number": "109",
+            "title": "Book value",
+            "start": 121.9,
+            "end": 125.8,
+            "text": "So in this case, this company's book value is 30 million."
+        }
+    ],
+    "text": "Now, if you recall from the beginning of the lesson, we talked about three major ways to estimate value. One is intrinsic value, which we just covered. Another is book value, which we're going to cover now. And the other is market capitalization. So let's take a look at book value. Here's a classic definition of book value. It's total assets of the company. In other words, things like property that is owned and so on. Minus intangible assets and liabilities. So intangible assets are things that are difficult to put a price on. They're things like the value of a brand or a patent or so on. Liabilities are a little bit easier to calculate. Those are just things like loans that are owed and so on. So let's consider what is the book value for an example company. Let's say the company owns four factories and that each of these factories is worth about $10 million. These are assets and altogether they're worth about $40 million. Suppose this company also holds three very important patents and each patent is valued at about $5 million. The value of these patents is about $15 million. But these are intangible assets that are hard to price exactly. Finally, suppose this company has one large loan. This would be under the liabilities column of $10 million. If we follow this rule that book values total assets. So total assets are this 40 million plus the 15 million or 55 million. Minus intangible assets. So we just don't count these intangible assets. And liabilities. So all together, we've got our total assets minus intangible assets, which is 40 million. And liabilities minus this 10 million. So in this case, this company's book value is 30 million."
+}

@@ -1,0 +1,104 @@
+{
+    "title": "Join SPY data",
+    "number": "020",
+    "chunks": [
+        {
+            "title": "Join SPY data",
+            "number": "020",
+            "start": 0.7,
+            "end": 19.7,
+            "text": "Continuing on, let's read the CSV file for SPY. In DFSpy, a temporary data frame. The next step is the heart of building the final data frame. We combine the empty data frame, DF1, with the temporary data frame, DFSpy."
+        },
+        {
+            "title": "Join SPY data",
+            "number": "020",
+            "start": 19.7,
+            "end": 40.4,
+            "text": "We use the join function of the data frame for this purpose. Let's do it. DataFrame.join does a left join by default. So if we write a.join b, it will retain all the rows from a, but only those rows from b whose index values are present in a's index."
+        },
+        {
+            "title": "Join SPY data",
+            "number": "020",
+            "start": 40.4,
+            "end": 60.4,
+            "text": "For the remaining rows, that is the index values not present in b, pandas introduce nans. So in this case, all the rows from the DF1 will be retained. And we will get all the values for the prices from DFSpy for the given range we defined above."
+        },
+        {
+            "title": "Join SPY data",
+            "number": "020",
+            "start": 60.4,
+            "end": 82.8,
+            "text": "So in our case, all the rows from the DF1 would be retained. And only those rows of DFSpy, which is present in DF1, will be retained. This will give us all the prices for the stock SPY in the defined date range. Let's use print DF1 after the join step to make it clear."
+        },
+        {
+            "title": "Join SPY data",
+            "number": "020",
+            "start": 82.8,
+            "end": 95.4,
+            "text": "You should expect to see all the values of SPY for the given dates. Observe the output. We did not get any values from the DFSPY. What do you think? What could be the reason?"
+        },
+        {
+            "title": "Join SPY data",
+            "number": "020",
+            "start": 95.4,
+            "end": 117.3,
+            "text": "Let's print DFSPY to investigate, commenting out the join lines. So let's see what DFSPY has. We told pandas to join DF1 and DFSPY. But DFSPY has an index of integers, which is not the same as the dates index that DF1 uses."
+        },
+        {
+            "title": "Join SPY data",
+            "number": "020",
+            "start": 118.4,
+            "end": 137.0,
+            "text": "We fix this by informing the read CSV function that the date column in the CSV file should be used as index. We do this by using the index call parameter. Make sure you give the correct column name. We also want the dates present in the data frame to be converted into date,"
+        },
+        {
+            "title": "Join SPY data",
+            "number": "020",
+            "start": 137.0,
+            "end": 153.8,
+            "text": "time, index objects. This can be done by setting the value for the parseDates parameter to true. Let's see if this works. Notice that the date column is now being used as the index. There is no separate integer index on the left."
+        },
+        {
+            "title": "Join SPY data",
+            "number": "020",
+            "start": 154.9,
+            "end": 179.4,
+            "text": "Now let's see what the resulting join data frame looks like by uncommenting these lines. But before that, let's add some more parameters to the read CSV function. Note that we are interested in just two columns, which is the date and the adjusted clause. We can get rid of the other columns by using the use call parameter of the read CSV."
+        },
+        {
+            "title": "Join SPY data",
+            "number": "020",
+            "start": 179.4,
+            "end": 205.5,
+            "text": "We pass a list of column name we are interested in, which are date and adjusted clause. Now let's see what's there in DF1. You see now we have just the adjusted clause for the SPY for a given date range. Also observe that weekend dates have NAN value. Before we go ahead, let's understand that CSV has NAN as string."
+        },
+        {
+            "title": "Join SPY data",
+            "number": "020",
+            "start": 205.5,
+            "end": 223.2,
+            "text": "So we need to tell the read CSV that NAN should be interpreted as not a number. This is how you indicate it. One last step. We just want the dates on which SPY traded. So we can add more stocks based on these dates."
+        },
+        {
+            "title": "Join SPY data",
+            "number": "020",
+            "start": 223.2,
+            "end": 244.0,
+            "text": "Let's drop the rows where SPY is NAN. For this, we use the dropNay function. DF1.dropNay will drop all the rows which has NAN values for the SPY. Let's go ahead and print this. Now we have built a clean data frame filled with SPY data."
+        },
+        {
+            "title": "Join SPY data",
+            "number": "020",
+            "start": 244.0,
+            "end": 263.8,
+            "text": "Using a selected date range and keeping only the dates that SPY traded on. side is of course a speed and the times we can download the login base down. Over the Ryanplate frame will drop it with VS SPY over trim. So that's nice! Portra S quella parte Ok."
+        },
+        {
+            "title": "Join SPY data",
+            "number": "020",
+            "start": 263.8,
+            "end": 276.8,
+            "text": "So that's why we have talked about video videos or episode content, includes collecting dropsosc boa casi. So save that list of tips for the present."
+        }
+    ]
+}

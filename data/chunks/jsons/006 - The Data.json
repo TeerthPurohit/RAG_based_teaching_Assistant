@@ -1,0 +1,229 @@
+{
+    "chunks": [
+        {
+            "number": "006",
+            "title": "The Data",
+            "start": 0.3,
+            "end": 4.0,
+            "text": "Our objective in this class is to get you up and running quickly,"
+        },
+        {
+            "number": "006",
+            "title": "The Data",
+            "start": 4.0,
+            "end": 8.4,
+            "text": "to show you some real data and some code you can use to view it and"
+        },
+        {
+            "number": "006",
+            "title": "The Data",
+            "start": 8.4,
+            "end": 13.6,
+            "text": "manipulate it, and just give you a feeling that you know what's going on."
+        },
+        {
+            "number": "006",
+            "title": "The Data",
+            "start": 13.6,
+            "end": 20.3,
+            "text": "So we're going to take you from examples of raw data all the way to visualization."
+        },
+        {
+            "number": "006",
+            "title": "The Data",
+            "start": 20.3,
+            "end": 22.7,
+            "text": "Now let's get started with the data."
+        },
+        {
+            "number": "006",
+            "title": "The Data",
+            "start": 22.7,
+            "end": 29.2,
+            "text": "In this class we're going to work almost entirely with data that comes from CSV"
+        },
+        {
+            "number": "006",
+            "title": "The Data",
+            "start": 29.2,
+            "end": 30.4,
+            "text": "files."
+        },
+        {
+            "number": "006",
+            "title": "The Data",
+            "start": 30.4,
+            "end": 34.0,
+            "text": "CSV files are plain text."
+        },
+        {
+            "number": "006",
+            "title": "The Data",
+            "start": 34.0,
+            "end": 39.9,
+            "text": "The C stands for comma, S stands for separated V is values."
+        },
+        {
+            "number": "006",
+            "title": "The Data",
+            "start": 39.9,
+            "end": 42.6,
+            "text": "So comma separated values."
+        },
+        {
+            "number": "006",
+            "title": "The Data",
+            "start": 42.6,
+            "end": 46.8,
+            "text": "Let me show you an example of what might be in a CSV file."
+        },
+        {
+            "number": "006",
+            "title": "The Data",
+            "start": 46.8,
+            "end": 51.2,
+            "text": "Most CSV files start with a header line."
+        },
+        {
+            "number": "006",
+            "title": "The Data",
+            "start": 51.2,
+            "end": 57.0,
+            "text": "In this example, this is a CSV file that's telling us about weather conditions."
+        },
+        {
+            "number": "006",
+            "title": "The Data",
+            "start": 57.0,
+            "end": 60.8,
+            "text": "So we've got a, we've got temperature, pressure, and humidity."
+        },
+        {
+            "number": "006",
+            "title": "The Data",
+            "start": 60.8,
+            "end": 65.4,
+            "text": "And that tells us what information is in the columns that are to follow."
+        },
+        {
+            "number": "006",
+            "title": "The Data",
+            "start": 65.4,
+            "end": 71.2,
+            "text": "Following our header line, we have lines or rows of data."
+        },
+        {
+            "number": "006",
+            "title": "The Data",
+            "start": 71.2,
+            "end": 73.2,
+            "text": "So these numbers here make up our data."
+        },
+        {
+            "number": "006",
+            "title": "The Data",
+            "start": 73.2,
+            "end": 80.3,
+            "text": "Again, header row and rows of data where each data element is separated by a comma."
+        },
+        {
+            "number": "006",
+            "title": "The Data",
+            "start": 80.3,
+            "end": 84.9,
+            "text": "Now the files that we're going to be working with, the stock data files,"
+        },
+        {
+            "number": "006",
+            "title": "The Data",
+            "start": 84.9,
+            "end": 90.3,
+            "text": "have thousands of lines and many more columns as well."
+        },
+        {
+            "number": "006",
+            "title": "The Data",
+            "start": 90.3,
+            "end": 98.0,
+            "text": "Our objective for this lesson is to show you how to read in data like this,"
+        },
+        {
+            "number": "006",
+            "title": "The Data",
+            "start": 98.0,
+            "end": 103.9,
+            "text": "focus say on one column or another, and create a plot from that data."
+        },
+        {
+            "number": "006",
+            "title": "The Data",
+            "start": 103.9,
+            "end": 107.4,
+            "text": "Okay, so now you've seen an example with weather."
+        },
+        {
+            "number": "006",
+            "title": "The Data",
+            "start": 107.4,
+            "end": 109.3,
+            "text": "Let's start thinking about stocks."
+        },
+        {
+            "number": "006",
+            "title": "The Data",
+            "start": 109.3,
+            "end": 111.5,
+            "text": "Some think about stocks than two is the way to read the poem."
+        },
+        {
+            "number": "006",
+            "title": "The Data",
+            "start": 113.9,
+            "end": 115.7,
+            "text": "Muchas times when parse the poem."
+        },
+        {
+            "number": "006",
+            "title": "The Data",
+            "start": 115.7,
+            "end": 116.3,
+            "text": "argument."
+        },
+        {
+            "number": "006",
+            "title": "The Data",
+            "start": 116.3,
+            "end": 118.9,
+            "text": "itation."
+        },
+        {
+            "number": "006",
+            "title": "The Data",
+            "start": 118.9,
+            "end": 121.0,
+            "text": "одно."
+        },
+        {
+            "number": "006",
+            "title": "The Data",
+            "start": 121.0,
+            "end": 124.9,
+            "text": "著色情報."
+        },
+        {
+            "number": "006",
+            "title": "The Data",
+            "start": 124.9,
+            "end": 129.1,
+            "text": "You can� you a fact."
+        },
+        {
+            "number": "006",
+            "title": "The Data",
+            "start": 129.1,
+            "end": 135.7,
+            "text": "Never identify your reference how to read in the sea."
+        }
+    ],
+    "text": "Our objective in this class is to get you up and running quickly, to show you some real data and some code you can use to view it and manipulate it, and just give you a feeling that you know what's going on. So we're going to take you from examples of raw data all the way to visualization. Now let's get started with the data. In this class we're going to work almost entirely with data that comes from CSV files. CSV files are plain text. The C stands for comma, S stands for separated V is values. So comma separated values. Let me show you an example of what might be in a CSV file. Most CSV files start with a header line. In this example, this is a CSV file that's telling us about weather conditions. So we've got a, we've got temperature, pressure, and humidity. And that tells us what information is in the columns that are to follow. Following our header line, we have lines or rows of data. So these numbers here make up our data. Again, header row and rows of data where each data element is separated by a comma. Now the files that we're going to be working with, the stock data files, have thousands of lines and many more columns as well. Our objective for this lesson is to show you how to read in data like this, focus say on one column or another, and create a plot from that data. Okay, so now you've seen an example with weather. Let's start thinking about stocks. Some think about stocks than two is the way to read the poem. Muchas times when parse the poem. argument.itation.одно.著色情報. You can� you a fact. Never identify your reference how to read in the sea."
+}

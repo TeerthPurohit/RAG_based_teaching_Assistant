@@ -1,0 +1,334 @@
+{
+    "chunks": [
+        {
+            "number": "101",
+            "title": "Additional order types",
+            "start": 0.3,
+            "end": 3.6,
+            "text": "Now you may have heard of other types of orders besides just buy and"
+        },
+        {
+            "number": "101",
+            "title": "Additional order types",
+            "start": 3.6,
+            "end": 5.6,
+            "text": "sell, market and limit."
+        },
+        {
+            "number": "101",
+            "title": "Additional order types",
+            "start": 5.6,
+            "end": 10.4,
+            "text": "It turns out though that the exchanges only execute these types of orders."
+        },
+        {
+            "number": "101",
+            "title": "Additional order types",
+            "start": 10.4,
+            "end": 12.8,
+            "text": "They don't execute those other types."
+        },
+        {
+            "number": "101",
+            "title": "Additional order types",
+            "start": 12.8,
+            "end": 16.9,
+            "text": "Well, you might wonder, okay, how do those other types of orders come into being?"
+        },
+        {
+            "number": "101",
+            "title": "Additional order types",
+            "start": 16.9,
+            "end": 20.0,
+            "text": "These other types of orders are implemented by your broker."
+        },
+        {
+            "number": "101",
+            "title": "Additional order types",
+            "start": 20.0,
+            "end": 23.0,
+            "text": "The way that works is you enter this order type, and"
+        },
+        {
+            "number": "101",
+            "title": "Additional order types",
+            "start": 23.0,
+            "end": 26.1,
+            "text": "I'll give you a couple examples in just a second."
+        },
+        {
+            "number": "101",
+            "title": "Additional order types",
+            "start": 26.1,
+            "end": 30.4,
+            "text": "The broker holds that order and watches the market until the conditions that you"
+        },
+        {
+            "number": "101",
+            "title": "Additional order types",
+            "start": 30.4,
+            "end": 32.0,
+            "text": "specified are met."
+        },
+        {
+            "number": "101",
+            "title": "Additional order types",
+            "start": 32.0,
+            "end": 33.8,
+            "text": "And then when those conditions are met,"
+        },
+        {
+            "number": "101",
+            "title": "Additional order types",
+            "start": 33.8,
+            "end": 36.8,
+            "text": "the broker sends your order to the market accordingly."
+        },
+        {
+            "number": "101",
+            "title": "Additional order types",
+            "start": 36.8,
+            "end": 38.3,
+            "text": "So here are some examples."
+        },
+        {
+            "number": "101",
+            "title": "Additional order types",
+            "start": 38.3,
+            "end": 41.5,
+            "text": "Stop loss is a kind of order where you say,"
+        },
+        {
+            "number": "101",
+            "title": "Additional order types",
+            "start": 41.5,
+            "end": 46.1,
+            "text": "when the stock drops to a certain price, I want you to sell it."
+        },
+        {
+            "number": "101",
+            "title": "Additional order types",
+            "start": 46.1,
+            "end": 50.8,
+            "text": "Stop gain, similarly, when the stock reaches a certain higher price,"
+        },
+        {
+            "number": "101",
+            "title": "Additional order types",
+            "start": 50.8,
+            "end": 52.7,
+            "text": "I want you to sell it."
+        },
+        {
+            "number": "101",
+            "title": "Additional order types",
+            "start": 52.7,
+            "end": 57.5,
+            "text": "A trailing stop is a combination of stop loss, but"
+        },
+        {
+            "number": "101",
+            "title": "Additional order types",
+            "start": 57.5,
+            "end": 62.6,
+            "text": "also an automatically changing value for when that criteria is met."
+        },
+        {
+            "number": "101",
+            "title": "Additional order types",
+            "start": 62.6,
+            "end": 66.7,
+            "text": "So for instance, you might have this trailing stop remain, say,"
+        },
+        {
+            "number": "101",
+            "title": "Additional order types",
+            "start": 66.7,
+            "end": 68.4,
+            "text": "10 cents behind the price."
+        },
+        {
+            "number": "101",
+            "title": "Additional order types",
+            "start": 68.4,
+            "end": 72.8,
+            "text": "So as the price goes up, the value at which you would want to sell the stock"
+        },
+        {
+            "number": "101",
+            "title": "Additional order types",
+            "start": 72.8,
+            "end": 74.6,
+            "text": "goes up along with the price."
+        },
+        {
+            "number": "101",
+            "title": "Additional order types",
+            "start": 74.6,
+            "end": 77.9,
+            "text": "But when it drops down below, then that stop loss is triggered."
+        },
+        {
+            "number": "101",
+            "title": "Additional order types",
+            "start": 77.9,
+            "end": 84.7,
+            "text": "But probably the most important and most impactful kind of order the brokers"
+        },
+        {
+            "number": "101",
+            "title": "Additional order types",
+            "start": 84.7,
+            "end": 88.1,
+            "text": "implement for you is something called selling short."
+        },
+        {
+            "number": "101",
+            "title": "Additional order types",
+            "start": 88.1,
+            "end": 93.2,
+            "text": "What selling short allows you to do is take a negative position on a stock."
+        },
+        {
+            "number": "101",
+            "title": "Additional order types",
+            "start": 93.2,
+            "end": 98.9,
+            "text": "In other words, you sell a stock short if you believe its price is going to go down."
+        },
+        {
+            "number": "101",
+            "title": "Additional order types",
+            "start": 98.9,
+            "end": 102.9,
+            "text": "Keep in mind here, we're selling stock we don't even own."
+        },
+        {
+            "number": "101",
+            "title": "Additional order types",
+            "start": 102.9,
+            "end": 104.7,
+            "text": "So how is that possible?"
+        },
+        {
+            "number": "101",
+            "title": "Additional order types",
+            "start": 104.7,
+            "end": 108.5,
+            "text": "Well, again, it's possible because the broker facilitates it for you."
+        },
+        {
+            "number": "101",
+            "title": "Additional order types",
+            "start": 108.5,
+            "end": 110.6,
+            "text": "And I'll explain how in just a minute."
+        },
+        {
+            "number": "101",
+            "title": "Additional order types",
+            "start": 110.6,
+            "end": 114.6,
+            "text": "How does it look like these kicking crad is gonna make"
+        },
+        {
+            "number": "101",
+            "title": "Additional order types",
+            "start": 114.6,
+            "end": 115.4,
+            "text": "progress."
+        },
+        {
+            "number": "101",
+            "title": "Additional order types",
+            "start": 115.4,
+            "end": 116.7,
+            "text": "There are things that can be said."
+        },
+        {
+            "number": "101",
+            "title": "Additional order types",
+            "start": 116.7,
+            "end": 119.0,
+            "text": "Give them some��고 big crad is up on stone."
+        },
+        {
+            "number": "101",
+            "title": "Additional order types",
+            "start": 119.0,
+            "end": 120.5,
+            "text": "And they're gonna make even more negative."
+        },
+        {
+            "number": "101",
+            "title": "Additional order types",
+            "start": 120.5,
+            "end": 121.4,
+            "text": "Okay."
+        },
+        {
+            "number": "101",
+            "title": "Additional order types",
+            "start": 121.4,
+            "end": 123.8,
+            "text": "And then to kind of shape in here in this book's gente,"
+        },
+        {
+            "number": "101",
+            "title": "Additional order types",
+            "start": 123.8,
+            "end": 126.1,
+            "text": "green potential financing by aเชeto Brian Machper wild"
+        },
+        {
+            "number": "101",
+            "title": "Additional order types",
+            "start": 126.1,
+            "end": 128.5,
+            "text": "you know you're gonna make a move like this one of them"
+        },
+        {
+            "number": "101",
+            "title": "Additional order types",
+            "start": 128.5,
+            "end": 131.1,
+            "text": "in that, in which of these little circumstances,"
+        },
+        {
+            "number": "101",
+            "title": "Additional order types",
+            "start": 131.1,
+            "end": 133.0,
+            "text": "you know you being above the current institutions."
+        },
+        {
+            "number": "101",
+            "title": "Additional order types",
+            "start": 133.0,
+            "end": 134.4,
+            "text": "And so up to you in this group a name which one of them"
+        },
+        {
+            "number": "101",
+            "title": "Additional order types",
+            "start": 134.4,
+            "end": 136.1,
+            "text": "is known as a workshop."
+        },
+        {
+            "number": "101",
+            "title": "Additional order types",
+            "start": 136.1,
+            "end": 138.2,
+            "text": "But eventually you can see it where it's called"
+        },
+        {
+            "number": "101",
+            "title": "Additional order types",
+            "start": 138.2,
+            "end": 140.1,
+            "text": "and as you can develop it's ready."
+        }
+    ],
+    "text": "Now you may have heard of other types of orders besides just buy and sell, market and limit. It turns out though that the exchanges only execute these types of orders. They don't execute those other types. Well, you might wonder, okay, how do those other types of orders come into being? These other types of orders are implemented by your broker. The way that works is you enter this order type, and I'll give you a couple examples in just a second. The broker holds that order and watches the market until the conditions that you specified are met. And then when those conditions are met, the broker sends your order to the market accordingly. So here are some examples. Stop loss is a kind of order where you say, when the stock drops to a certain price, I want you to sell it. Stop gain, similarly, when the stock reaches a certain higher price, I want you to sell it. A trailing stop is a combination of stop loss, but also an automatically changing value for when that criteria is met. So for instance, you might have this trailing stop remain, say, 10 cents behind the price. So as the price goes up, the value at which you would want to sell the stock goes up along with the price. But when it drops down below, then that stop loss is triggered. But probably the most important and most impactful kind of order the brokers implement for you is something called selling short. What selling short allows you to do is take a negative position on a stock. In other words, you sell a stock short if you believe its price is going to go down. Keep in mind here, we're selling stock we don't even own. So how is that possible? Well, again, it's possible because the broker facilitates it for you. And I'll explain how in just a minute. How does it look like these kicking crad is gonna make progress. There are things that can be said. Give them some��고 big crad is up on stone. And they're gonna make even more negative. Okay. And then to kind of shape in here in this book's gente, green potential financing by aเชeto Brian Machper wild you know you're gonna make a move like this one of them in that, in which of these little circumstances, you know you being above the current institutions. And so up to you in this group a name which one of them is known as a workshop. But eventually you can see it where it's called and as you can develop it's ready."
+}

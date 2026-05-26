@@ -1,0 +1,222 @@
+{
+    "chunks": [
+        {
+            "number": "036",
+            "title": "How fast is NumPy？",
+            "start": 0.4,
+            "end": 3.9,
+            "text": "Now when we know how to time an operation in Python,"
+        },
+        {
+            "number": "036",
+            "title": "How fast is NumPy？",
+            "start": 3.9,
+            "end": 6.5,
+            "text": "let's check how fast NumPy is."
+        },
+        {
+            "number": "036",
+            "title": "How fast is NumPy？",
+            "start": 6.5,
+            "end": 10.5,
+            "text": "Let's define a really large array so that the time taken for"
+        },
+        {
+            "number": "036",
+            "title": "How fast is NumPy？",
+            "start": 10.5,
+            "end": 13.3,
+            "text": "the operation will be significant to compare."
+        },
+        {
+            "number": "036",
+            "title": "How fast is NumPy？",
+            "start": 13.3,
+            "end": 18.1,
+            "text": "So here is a large array of 1000 rows and 10,000 columns."
+        },
+        {
+            "number": "036",
+            "title": "How fast is NumPy？",
+            "start": 18.1,
+            "end": 22.4,
+            "text": "Before I go ahead, I would like to mention that this is just a demo code to"
+        },
+        {
+            "number": "036",
+            "title": "How fast is NumPy？",
+            "start": 22.4,
+            "end": 24.5,
+            "text": "show the speed of NumPy."
+        },
+        {
+            "number": "036",
+            "title": "How fast is NumPy？",
+            "start": 24.5,
+            "end": 28.6,
+            "text": "So I will be giving a high level explanation of this code."
+        },
+        {
+            "number": "036",
+            "title": "How fast is NumPy？",
+            "start": 28.6,
+            "end": 34.2,
+            "text": "Moving ahead, we will be comparing how to compute mean of the array using NumPy"
+        },
+        {
+            "number": "036",
+            "title": "How fast is NumPy？",
+            "start": 34.2,
+            "end": 36.6,
+            "text": "and using standard iteration."
+        },
+        {
+            "number": "036",
+            "title": "How fast is NumPy？",
+            "start": 36.6,
+            "end": 41.3,
+            "text": "Here is the manual mean function which computes the mean of the values in the defined"
+        },
+        {
+            "number": "036",
+            "title": "How fast is NumPy？",
+            "start": 41.3,
+            "end": 42.3,
+            "text": "array."
+        },
+        {
+            "number": "036",
+            "title": "How fast is NumPy？",
+            "start": 42.3,
+            "end": 47.6,
+            "text": "We iterate over each row and for each row, iterate over each column."
+        },
+        {
+            "number": "036",
+            "title": "How fast is NumPy？",
+            "start": 47.6,
+            "end": 51.0,
+            "text": "We then sum present all the values throughout the array."
+        },
+        {
+            "number": "036",
+            "title": "How fast is NumPy？",
+            "start": 51.0,
+            "end": 55.8,
+            "text": "Finally, we divide by the size of the array and hence we get the mean."
+        },
+        {
+            "number": "036",
+            "title": "How fast is NumPy？",
+            "start": 55.8,
+            "end": 61.7,
+            "text": "In case of using NumPy for calculating the mean, we just write array.mean to get"
+        },
+        {
+            "number": "036",
+            "title": "How fast is NumPy？",
+            "start": 61.7,
+            "end": 63.2,
+            "text": "the mean of the entire array."
+        },
+        {
+            "number": "036",
+            "title": "How fast is NumPy？",
+            "start": 64.3,
+            "end": 69.2,
+            "text": "How long function will just compute the time each method takes."
+        },
+        {
+            "number": "036",
+            "title": "How fast is NumPy？",
+            "start": 69.2,
+            "end": 72.3,
+            "text": "Now let's check what's the time difference."
+        },
+        {
+            "number": "036",
+            "title": "How fast is NumPy？",
+            "start": 72.3,
+            "end": 74.1,
+            "text": "Do you see the difference?"
+        },
+        {
+            "number": "036",
+            "title": "How fast is NumPy？",
+            "start": 74.1,
+            "end": 79.3,
+            "text": "This is the time taken by the numpy.mean function to calculate the mean of the entire"
+        },
+        {
+            "number": "036",
+            "title": "How fast is NumPy？",
+            "start": 79.3,
+            "end": 79.9,
+            "text": "array."
+        },
+        {
+            "number": "036",
+            "title": "How fast is NumPy？",
+            "start": 79.9,
+            "end": 83.1,
+            "text": "And remember the size of the array are in thousands."
+        },
+        {
+            "number": "036",
+            "title": "How fast is NumPy？",
+            "start": 83.1,
+            "end": 89.2,
+            "text": "On the other hand, the time taken by the manual method of iteration is about five seconds."
+        },
+        {
+            "number": "036",
+            "title": "How fast is NumPy？",
+            "start": 89.2,
+            "end": 92.3,
+            "text": "Hence proved, NumPy is super fast."
+        },
+        {
+            "number": "036",
+            "title": "How fast is NumPy？",
+            "start": 92.3,
+            "end": 96.6,
+            "text": "We also compute the rate of how fast the NumPy is."
+        },
+        {
+            "number": "036",
+            "title": "How fast is NumPy？",
+            "start": 96.6,
+            "end": 98.2,
+            "text": "And the numbers are crazy."
+        },
+        {
+            "number": "036",
+            "title": "How fast is NumPy？",
+            "start": 98.2,
+            "end": 103.0,
+            "text": "It's about 290 times faster than the manual for the loops."
+        },
+        {
+            "number": "036",
+            "title": "How fast is NumPy？",
+            "start": 103.0,
+            "end": 109.4,
+            "text": "Observe that NumPy not only makes the code more cleaner as compared to the manual method,"
+        },
+        {
+            "number": "036",
+            "title": "How fast is NumPy？",
+            "start": 109.4,
+            "end": 113.0,
+            "text": "but is about 290 times faster than other method."
+        },
+        {
+            "number": "036",
+            "title": "How fast is NumPy？",
+            "start": 113.0,
+            "end": 114.6,
+            "text": "Don't you think it's just awesome?"
+        }
+    ],
+    "text": "Now when we know how to time an operation in Python, let's check how fast NumPy is. Let's define a really large array so that the time taken for the operation will be significant to compare. So here is a large array of 1000 rows and 10,000 columns. Before I go ahead, I would like to mention that this is just a demo code to show the speed of NumPy. So I will be giving a high level explanation of this code. Moving ahead, we will be comparing how to compute mean of the array using NumPy and using standard iteration. Here is the manual mean function which computes the mean of the values in the defined array. We iterate over each row and for each row, iterate over each column. We then sum present all the values throughout the array. Finally, we divide by the size of the array and hence we get the mean. In case of using NumPy for calculating the mean, we just write array.mean to get the mean of the entire array. How long function will just compute the time each method takes. Now let's check what's the time difference. Do you see the difference? This is the time taken by the numpy.mean function to calculate the mean of the entire array. And remember the size of the array are in thousands. On the other hand, the time taken by the manual method of iteration is about five seconds. Hence proved, NumPy is super fast. We also compute the rate of how fast the NumPy is. And the numbers are crazy. It's about 290 times faster than the manual for the loops. Observe that NumPy not only makes the code more cleaner as compared to the manual method, but is about 290 times faster than other method. Don't you think it's just awesome?"
+}

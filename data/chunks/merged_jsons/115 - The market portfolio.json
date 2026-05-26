@@ -1,0 +1,76 @@
+{
+    "title": "The market portfolio",
+    "number": "115",
+    "chunks": [
+        {
+            "title": "The market portfolio",
+            "number": "115",
+            "start": 0.4,
+            "end": 17.8,
+            "text": "So a concept that's important to the capital assets pricing model is this thing called the market portfolio. Now what is that exactly? When someone refers to the market, what they're usually referring to is an index that broadly covers a large set of stocks."
+        },
+        {
+            "title": "The market portfolio",
+            "number": "115",
+            "start": 17.8,
+            "end": 42.1,
+            "text": "In the US, best example of that is the S&P 500. The S&P 500 represents the 500 largest companies that are traded on exchanges, and that index changes each day according to the prices of all of its components. There's similar indexes in the United Kingdom, Japan, any country or"
+        },
+        {
+            "title": "The market portfolio",
+            "number": "115",
+            "start": 42.1,
+            "end": 67.9,
+            "text": "large market has indexes that represent this. Now these indexes are composed of many, many individual stocks, and the market portfolio is a combination of those stocks and a certain weighting. Most of the important indexes are what we call cap weighted. And what that means is the individual weight of each stock in the portfolio is"
+        },
+        {
+            "title": "The market portfolio",
+            "number": "115",
+            "start": 67.9,
+            "end": 86.9,
+            "text": "set according to that stock's market cap. So market cap, if you recall, stands for market capitalization. And it's simply the number of shares available for the stock times its price. So to calculate the weight for any particular stock, you take its market cap and"
+        },
+        {
+            "title": "The market portfolio",
+            "number": "115",
+            "start": 86.9,
+            "end": 112.0,
+            "text": "divide it by the sum of the market caps of all the stocks. Now if you think back to my example of the CEO living on an island, building his product, and there being many islands in an ocean. And when market forces rise or fall that affect all of the islands, you can think of these large indexes essentially as being an ocean."
+        },
+        {
+            "title": "The market portfolio",
+            "number": "115",
+            "start": 112.0,
+            "end": 133.8,
+            "text": "Now within each of these oceans, if you like, there are a number of sectors. For instance, in the US we typically break the market into ten different sectors. I list four of them here. Energy, technology, manufacturing, finance, and so on. And these are essentially the islands."
+        },
+        {
+            "title": "The market portfolio",
+            "number": "115",
+            "start": 133.8,
+            "end": 153.6,
+            "text": "So if some malaise occurs to, say, energy stocks, you can think of that as something bad happening to the energy island. These things might be, you know, Saudi Arabia is pumping more oil. So the cost of oil is going to go down. That usually would have a negative impact on energy."
+        },
+        {
+            "title": "The market portfolio",
+            "number": "115",
+            "start": 153.6,
+            "end": 177.9,
+            "text": "So the energy island would be negatively impacted. Same thing with these other sectors, the main point here being that positive and negative news can affect each of these sectors individually without necessarily affecting the others. So it's not unusual to break up these large markets into individual sectors."
+        },
+        {
+            "title": "The market portfolio",
+            "number": "115",
+            "start": 177.9,
+            "end": 199.3,
+            "text": "Now just recapping before we depart. When we talk about the market portfolio, in this class we're almost always talking about the S&P 500. And that market portfolio consists of 500 stocks, the largest stocks in the US, that are traded publicly with a weighting set like this."
+        },
+        {
+            "title": "The market portfolio",
+            "number": "115",
+            "start": 199.3,
+            "end": 225.1,
+            "text": "One thing to keep in mind is some stocks have surprisingly large weightings. For instance, Apple and Exxon, each are about 5% of the S&P 500. So those two stocks have a strong effect on what happens to this index. There are smaller stocks that, you know, comprise, say, only a tenth of a percent of the overall effect on this market."
+        }
+    ]
+}

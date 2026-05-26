@@ -1,0 +1,48 @@
+{
+    "title": "Creating NumPy arrays",
+    "number": "030",
+    "chunks": [
+        {
+            "title": "Creating NumPy arrays",
+            "number": "030",
+            "start": 0.3,
+            "end": 17.1,
+            "text": "You can access the underlining NumPy array within a pandas data frame using the values property. But you can also create NumPy arrays from scratch. There are many ways to create an array. Let's start with creating a one dimensional array from known values."
+        },
+        {
+            "title": "Creating NumPy arrays",
+            "number": "030",
+            "start": 17.1,
+            "end": 33.0,
+            "text": "NumPy has an array function which can convert most array like objects into an ndarray. What do you mean by ndarray is n dimensional array. Let's see how this works for Python list. To start with, we need to import the library NumPy and"
+        },
+        {
+            "title": "Creating NumPy arrays",
+            "number": "030",
+            "start": 33.0,
+            "end": 54.6,
+            "text": "we rename it as np for the ease of use. Next, we simply call a function np.array and pass a list which has value 234. Note that this function can take as input a list, a tuple, or other sequence. Check out the documentation for the array function and ndarray type for"
+        },
+        {
+            "title": "Creating NumPy arrays",
+            "number": "030",
+            "start": 54.6,
+            "end": 70.6,
+            "text": "more information. Now let's see the output. The output you see here is not a list, but it is an array. Let's go ahead and create a 2d array. Now, if you want to create a 2d array, we simply pass in a sequence of sequences"
+        },
+        {
+            "title": "Creating NumPy arrays",
+            "number": "030",
+            "start": 70.6,
+            "end": 86.3,
+            "text": "to this function. Each tuple enclosed in round parenthesis serves as one row in the resulting array. We could also have passed a list of list. This is called sequence of sequences. Let's go ahead and print it."
+        },
+        {
+            "title": "Creating NumPy arrays",
+            "number": "030",
+            "start": 86.3,
+            "end": 111.4,
+            "text": "Here is the output. And as expected, there are 2 rows and 3 columns. This function is mainly useful when you have a list of sequence of values and nellID command."
+        }
+    ]
+}

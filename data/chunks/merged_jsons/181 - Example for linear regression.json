@@ -1,0 +1,55 @@
+{
+    "title": "Example for linear regression",
+    "number": "181",
+    "chunks": [
+        {
+            "title": "Example for linear regression",
+            "number": "181",
+            "start": 0.3,
+            "end": 19.0,
+            "text": "Now I'm going to show you some pseudo code for how you might implement this API for a linear regression learner. So we define our class as linreg learner. And this first method init with underscores on either side is the constructor. The constructor is really easy."
+        },
+        {
+            "title": "Example for linear regression",
+            "number": "181",
+            "start": 19.0,
+            "end": 37.2,
+            "text": "For the linear regression learner, we actually don't have to do anything when we instantiate an instance of the learner. So we just use pass, which means do nothing. Our training method takes an x and a y. And remember, x can be multidimensional."
+        },
+        {
+            "title": "Example for linear regression",
+            "number": "181",
+            "start": 37.2,
+            "end": 58.4,
+            "text": "And what it's doing is, it should take this x data and this y data and fit a line to it. So it's trying to find an m and a b. So the job of the train method is to find that linear equation, or the parameters for that linear equation, m and b. So here on the left hand side, we have self.m,"
+        },
+        {
+            "title": "Example for linear regression",
+            "number": "181",
+            "start": 58.4,
+            "end": 90.3,
+            "text": "which means the m goes to the local instance and b to the local instance. And you're allowed to use any number of linear regression algorithms at your disposal as part of SciPy and NumPy. So go Google and find which one you want to use here and just stuff its output into m and b. Finally, query is passed in x and it's supposed to compute the predicted y given that x."
+        },
+        {
+            "title": "Example for linear regression",
+            "number": "181",
+            "start": 90.3,
+            "end": 109.5,
+            "text": "And remember, this is potentially a list of x's and it can also be multidimensional. So anyways, it's very simple. You just multiply that x times m and add b and return y. Boom, that's it. In short, this is literally how short your linreg learner can be."
+        },
+        {
+            "title": "Example for linear regression",
+            "number": "181",
+            "start": 109.5,
+            "end": 131.5,
+            "text": "Now, the KNN API is going to look exactly the same. And the reason for that is if we have the same API, we can easily mix and match and try training and querying with the different algorithms and see how they compare. Okay, that is it for regression. I'll see you at the next lesson."
+        },
+        {
+            "title": "Example for linear regression",
+            "number": "181",
+            "start": 131.5,
+            "end": 132.4,
+            "text": "Have a great day."
+        }
+    ]
+}

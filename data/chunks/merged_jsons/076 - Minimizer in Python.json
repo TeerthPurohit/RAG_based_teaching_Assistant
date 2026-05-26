@@ -1,0 +1,76 @@
+{
+    "title": "Minimizer in Python",
+    "number": "076",
+    "chunks": [
+        {
+            "title": "Minimizer in Python",
+            "number": "076",
+            "start": 0.3,
+            "end": 22.6,
+            "text": "Let's try that same example function now in Python code. So up here we have our normal imports. Here is where we define the function. And again, we're simply using x minus 1.5 squared plus 0.5. Now within this function, we're going to go ahead and"
+        },
+        {
+            "title": "Minimizer in Python",
+            "number": "076",
+            "start": 22.6,
+            "end": 35.1,
+            "text": "print what the value is when we get called. It just is a little bit handier so that we can see what exactly is going on. But you don't have to have that of course. And then we return y."
+        },
+        {
+            "title": "Minimizer in Python",
+            "number": "076",
+            "start": 35.1,
+            "end": 61.0,
+            "text": "Now this is going to be the function that we're going to ask SciPy or in particular the optimizer to minimize for us. And by the way, we've included this optimize package as spo. So scipy.optimize as spo. This is our call now to the optimizer or the minimizer."
+        },
+        {
+            "title": "Minimizer in Python",
+            "number": "076",
+            "start": 61.0,
+            "end": 80.9,
+            "text": "Before we call it, we first set our guess value to be 2.0. And we're using the function minimize. So we call spo.minimize. F, that's our function here. So we're saying minimizer, please minimize, find the minimum for this function."
+        },
+        {
+            "title": "Minimizer in Python",
+            "number": "076",
+            "start": 80.9,
+            "end": 106.0,
+            "text": "X guess is our guess. Method is we're directing minimize to use a particular minimizing algorithm. We'll talk a little bit about that a little bit later. But this is one of those particular algorithms that happens to work pretty nicely. We send it one more option here, disp, which is true."
+        },
+        {
+            "title": "Minimizer in Python",
+            "number": "076",
+            "start": 106.0,
+            "end": 122.4,
+            "text": "Which means we just want it to be verbose about things that it discovers. Anyways, that's it. That calls the minimizer. The minimizer repeatedly calls our function and finds the minimum value. Then it prints out those results."
+        },
+        {
+            "title": "Minimizer in Python",
+            "number": "076",
+            "start": 122.4,
+            "end": 150.0,
+            "text": "Let's try a test run and see what happens. Remember in our function that we wanted to minimize, we explicitly printed x and y. So here you can see each time it gets called, it prints these values out. And so the minimizer is repeatedly calling that function f and it's printing these things out. So it gets called initially with an x of 2 and it discovers that the value is 0.75."
+        },
+        {
+            "title": "Minimizer in Python",
+            "number": "076",
+            "start": 150.0,
+            "end": 180.8,
+            "text": "Then a value slightly greater than 2, a value slightly less than 2. And the minimizer very quickly converges on 1.5 as the answer. And here it prints out those values, finds the minimum at 1.5 with a value of 0.5 there. So pretty efficient and effective discovery of the minimization. I added a few more lines of code here, which I'll highlight merely to plot the answer."
+        },
+        {
+            "title": "Minimizer in Python",
+            "number": "076",
+            "start": 180.8,
+            "end": 204.8,
+            "text": "So all the rest of the code is the same, but let's take a look now if we plot it as well. So same result as before, but nice plot with our minimum identified right here. So that is how to code up a minimizer. It's really very easy and really powerful. Let's look at it a little bit further."
+        },
+        {
+            "title": "Minimizer in Python",
+            "number": "076",
+            "start": 204.8,
+            "end": 209.8,
+            "text": "Let's look at it a little bit further."
+        }
+    ]
+}

@@ -1,0 +1,250 @@
+{
+    "chunks": [
+        {
+            "number": "037",
+            "title": "Accessing array elements",
+            "start": 0.3,
+            "end": 3.0,
+            "text": "Accessing array elements is straightforward."
+        },
+        {
+            "number": "037",
+            "title": "Accessing array elements",
+            "start": 3.0,
+            "end": 6.6,
+            "text": "You can access a particular element by referring to its row and"
+        },
+        {
+            "number": "037",
+            "title": "Accessing array elements",
+            "start": 6.6,
+            "end": 9.3,
+            "text": "column number inside the square brackets."
+        },
+        {
+            "number": "037",
+            "title": "Accessing array elements",
+            "start": 9.3,
+            "end": 12.4,
+            "text": "The first integer over here denotes to the row number and"
+        },
+        {
+            "number": "037",
+            "title": "Accessing array elements",
+            "start": 12.4,
+            "end": 15.9,
+            "text": "the second integer denotes to the column number."
+        },
+        {
+            "number": "037",
+            "title": "Accessing array elements",
+            "start": 15.9,
+            "end": 19.9,
+            "text": "Let's see which element do we get at position ."
+        },
+        {
+            "number": "037",
+            "title": "Accessing array elements",
+            "start": 19.9,
+            "end": 25.4,
+            "text": "Observe that the element which we get actually belongs to the fourth row and"
+        },
+        {
+            "number": "037",
+            "title": "Accessing array elements",
+            "start": 25.4,
+            "end": 27.0,
+            "text": "the third column."
+        },
+        {
+            "number": "037",
+            "title": "Accessing array elements",
+            "start": 27.0,
+            "end": 31.2,
+            "text": "But note that the row and the column indexing start from zero."
+        },
+        {
+            "number": "037",
+            "title": "Accessing array elements",
+            "start": 31.2,
+            "end": 35.7,
+            "text": "Hence, if you want an element of the fourth row and third column,"
+        },
+        {
+            "number": "037",
+            "title": "Accessing array elements",
+            "start": 35.7,
+            "end": 39.7,
+            "text": "you pass the parameter as we did, that is 3,2."
+        },
+        {
+            "number": "037",
+            "title": "Accessing array elements",
+            "start": 39.7,
+            "end": 41.9,
+            "text": "Now let's do some interesting stuff."
+        },
+        {
+            "number": "037",
+            "title": "Accessing array elements",
+            "start": 41.9,
+            "end": 44.6,
+            "text": "Accessing elements in ranges."
+        },
+        {
+            "number": "037",
+            "title": "Accessing array elements",
+            "start": 44.6,
+            "end": 50.4,
+            "text": "If I would want to access elements from first through third column in the 0th row,"
+        },
+        {
+            "number": "037",
+            "title": "Accessing array elements",
+            "start": 50.4,
+            "end": 52.4,
+            "text": "here is how I would do it."
+        },
+        {
+            "number": "037",
+            "title": "Accessing array elements",
+            "start": 52.4,
+            "end": 56.9,
+            "text": "This operation is called slicing, as explained before using data frame."
+        },
+        {
+            "number": "037",
+            "title": "Accessing array elements",
+            "start": 56.9,
+            "end": 59.3,
+            "text": "Let's read out the slicing operation."
+        },
+        {
+            "number": "037",
+            "title": "Accessing array elements",
+            "start": 59.3,
+            "end": 67.0,
+            "text": "For the 0th row, get values from first through third column, excluding the third column."
+        },
+        {
+            "number": "037",
+            "title": "Accessing array elements",
+            "start": 67.0,
+            "end": 68.0,
+            "text": "Now let's run this."
+        },
+        {
+            "number": "037",
+            "title": "Accessing array elements",
+            "start": 69.3,
+            "end": 70.9,
+            "text": "So here's the output."
+        },
+        {
+            "number": "037",
+            "title": "Accessing array elements",
+            "start": 70.9,
+            "end": 76.6,
+            "text": "For the 0th row, first through the third column, excluding the third column."
+        },
+        {
+            "number": "037",
+            "title": "Accessing array elements",
+            "start": 76.6,
+            "end": 78.6,
+            "text": "This was just column slicing."
+        },
+        {
+            "number": "037",
+            "title": "Accessing array elements",
+            "start": 78.6,
+            "end": 83.4,
+            "text": "We can combine row and column slicing and get a subset of the array."
+        },
+        {
+            "number": "037",
+            "title": "Accessing array elements",
+            "start": 83.4,
+            "end": 90.0,
+            "text": "If I would like to access the top left corner of the array, I would do this as follows."
+        },
+        {
+            "number": "037",
+            "title": "Accessing array elements",
+            "start": 90.0,
+            "end": 96.2,
+            "text": "We can combine row and column slicing and get the subset of the array."
+        },
+        {
+            "number": "037",
+            "title": "Accessing array elements",
+            "start": 96.2,
+            "end": 104.3,
+            "text": "Here is the top left corner, which has elements at position 00, 01, 10, and 11."
+        },
+        {
+            "number": "037",
+            "title": "Accessing array elements",
+            "start": 104.3,
+            "end": 109.8,
+            "text": "One last interesting thing in slicing, which I would like to bring in front of you."
+        },
+        {
+            "number": "037",
+            "title": "Accessing array elements",
+            "start": 109.8,
+            "end": 111.6,
+            "text": "You see a lot of numbers over here."
+        },
+        {
+            "number": "037",
+            "title": "Accessing array elements",
+            "start": 111.6,
+            "end": 114.0,
+            "text": "So let's break it down and read it."
+        },
+        {
+            "number": "037",
+            "title": "Accessing array elements",
+            "start": 114.0,
+            "end": 120.0,
+            "text": "The three numbers separated by the colon, this is not accessing the third axis."
+        },
+        {
+            "number": "037",
+            "title": "Accessing array elements",
+            "start": 120.0,
+            "end": 130.0,
+            "text": "But a slicing of the form n is to m is to t will give you values in the range n before m, but in steps of size t."
+        },
+        {
+            "number": "037",
+            "title": "Accessing array elements",
+            "start": 130.0,
+            "end": 139.4,
+            "text": "Hence, this statement will give you values of the column 0, skip the values of the column 1, and then give the values of the column 2."
+        },
+        {
+            "number": "037",
+            "title": "Accessing array elements",
+            "start": 139.4,
+            "end": 140.8,
+            "text": "Let's run this."
+        },
+        {
+            "number": "037",
+            "title": "Accessing array elements",
+            "start": 140.8,
+            "end": 146.2,
+            "text": "As explained, you get the 0th and the second column with all the rows."
+        },
+        {
+            "number": "037",
+            "title": "Accessing array elements",
+            "start": 146.2,
+            "end": 148.4,
+            "text": "Seems like magic, right?"
+        }
+    ],
+    "text": "Accessing array elements is straightforward. You can access a particular element by referring to its row and column number inside the square brackets. The first integer over here denotes to the row number and the second integer denotes to the column number. Let's see which element do we get at position . Observe that the element which we get actually belongs to the fourth row and the third column. But note that the row and the column indexing start from zero. Hence, if you want an element of the fourth row and third column, you pass the parameter as we did, that is 3,2. Now let's do some interesting stuff. Accessing elements in ranges. If I would want to access elements from first through third column in the 0th row, here is how I would do it. This operation is called slicing, as explained before using data frame. Let's read out the slicing operation. For the 0th row, get values from first through third column, excluding the third column. Now let's run this. So here's the output. For the 0th row, first through the third column, excluding the third column. This was just column slicing. We can combine row and column slicing and get a subset of the array. If I would like to access the top left corner of the array, I would do this as follows. We can combine row and column slicing and get the subset of the array. Here is the top left corner, which has elements at position 00, 01, 10, and 11. One last interesting thing in slicing, which I would like to bring in front of you. You see a lot of numbers over here. So let's break it down and read it. The three numbers separated by the colon, this is not accessing the third axis. But a slicing of the form n is to m is to t will give you values in the range n before m, but in steps of size t. Hence, this statement will give you values of the column 0, skip the values of the column 1, and then give the values of the column 2. Let's run this. As explained, you get the 0th and the second column with all the rows. Seems like magic, right?"
+}

@@ -1,0 +1,20 @@
+{
+    "title": "Overview",
+    "number": "190",
+    "chunks": [
+        {
+            "title": "Overview",
+            "number": "190",
+            "start": 0.0,
+            "end": 28.0,
+            "text": "In 1988, Michael Kearns and Leslie Valiant posed the following question. Can a set of weak learners be combined to create a single, strong learner? One answer to that question came in 2009. Back in 2006, Netflix offered a $1 million prize for a machine learning algorithm that could do 10% better than their own algorithm at predicting which movies their customers would like to see."
+        },
+        {
+            "title": "Overview",
+            "number": "190",
+            "start": 28.0,
+            "end": 42.0,
+            "text": "The prize was not awarded until three years later, in 2009. The winning algorithm was not a single algorithm, but a combination of several, or an ensemble. This lesson is about ensemble learners."
+        }
+    ]
+}

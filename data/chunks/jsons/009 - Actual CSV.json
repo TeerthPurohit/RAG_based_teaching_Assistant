@@ -1,0 +1,47 @@
+{
+    "chunks": [
+        {
+            "number": "009",
+            "title": "Actual CSV",
+            "start": 0.2,
+            "end": 1.6,
+            "text": "Thank you professor."
+        },
+        {
+            "number": "009",
+            "title": "Actual CSV",
+            "start": 1.6,
+            "end": 3.7,
+            "text": "Hey everyone, this is Dev here."
+        },
+        {
+            "number": "009",
+            "title": "Actual CSV",
+            "start": 3.7,
+            "end": 9.5,
+            "text": "So here's an example of what the data looks like that professor was talking about."
+        },
+        {
+            "number": "009",
+            "title": "Actual CSV",
+            "start": 9.5,
+            "end": 13.4,
+            "text": "This is basically a comma separated file as you can see."
+        },
+        {
+            "number": "009",
+            "title": "Actual CSV",
+            "start": 13.4,
+            "end": 17.6,
+            "text": "And as you observe that the CSV is in the reverse order."
+        },
+        {
+            "number": "009",
+            "title": "Actual CSV",
+            "start": 17.6,
+            "end": 20.2,
+            "text": "But soon we will teach you how to fix that."
+        }
+    ],
+    "text": "Thank you professor. Hey everyone, this is Dev here. So here's an example of what the data looks like that professor was talking about. This is basically a comma separated file as you can see. And as you observe that the CSV is in the reverse order. But soon we will teach you how to fix that."
+}

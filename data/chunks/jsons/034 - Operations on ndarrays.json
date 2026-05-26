@@ -1,0 +1,369 @@
+{
+    "chunks": [
+        {
+            "number": "034",
+            "title": "Operations on ndarrays",
+            "start": 0.6,
+            "end": 6.2,
+            "text": "Next you will see how to perform various mathematical operations on ndarrays."
+        },
+        {
+            "number": "034",
+            "title": "Operations on ndarrays",
+            "start": 6.2,
+            "end": 9.4,
+            "text": "Let's use a random array of integers."
+        },
+        {
+            "number": "034",
+            "title": "Operations on ndarrays",
+            "start": 9.4,
+            "end": 14.1,
+            "text": "Let's create an array with shape five rows and four columns."
+        },
+        {
+            "number": "034",
+            "title": "Operations on ndarrays",
+            "start": 14.1,
+            "end": 15.9,
+            "text": "Let's see the output."
+        },
+        {
+            "number": "034",
+            "title": "Operations on ndarrays",
+            "start": 15.9,
+            "end": 19.8,
+            "text": "So here's an array with five rows, four columns, and"
+        },
+        {
+            "number": "034",
+            "title": "Operations on ndarrays",
+            "start": 19.8,
+            "end": 23.3,
+            "text": "all the values between the range zero and ten."
+        },
+        {
+            "number": "034",
+            "title": "Operations on ndarrays",
+            "start": 23.3,
+            "end": 28.5,
+            "text": "Note how we used seed the random number generator with a constant to get"
+        },
+        {
+            "number": "034",
+            "title": "Operations on ndarrays",
+            "start": 28.5,
+            "end": 31.2,
+            "text": "the same sequence of numbers every time."
+        },
+        {
+            "number": "034",
+            "title": "Operations on ndarrays",
+            "start": 31.2,
+            "end": 35.3,
+            "text": "Let's run again and see if the output remains the same."
+        },
+        {
+            "number": "034",
+            "title": "Operations on ndarrays",
+            "start": 35.3,
+            "end": 39.5,
+            "text": "You can see that we have the same values for the array."
+        },
+        {
+            "number": "034",
+            "title": "Operations on ndarrays",
+            "start": 39.5,
+            "end": 46.4,
+            "text": "Summing all the elements in an array is as simple as calling the function sum on the array."
+        },
+        {
+            "number": "034",
+            "title": "Operations on ndarrays",
+            "start": 46.4,
+            "end": 49.9,
+            "text": "Here is our array a and we call the sum function on it."
+        },
+        {
+            "number": "034",
+            "title": "Operations on ndarrays",
+            "start": 49.9,
+            "end": 51.0,
+            "text": "Let's check the output."
+        },
+        {
+            "number": "034",
+            "title": "Operations on ndarrays",
+            "start": 52.1,
+            "end": 57.0,
+            "text": "This is our array and this is sum of all the elements present in the array,"
+        },
+        {
+            "number": "034",
+            "title": "Operations on ndarrays",
+            "start": 57.0,
+            "end": 59.3,
+            "text": "which comes out to be 79."
+        },
+        {
+            "number": "034",
+            "title": "Operations on ndarrays",
+            "start": 59.3,
+            "end": 62.9,
+            "text": "We can also sum in a specific direction of the array."
+        },
+        {
+            "number": "034",
+            "title": "Operations on ndarrays",
+            "start": 62.9,
+            "end": 67.3,
+            "text": "What I mean by direction is along rows or columns."
+        },
+        {
+            "number": "034",
+            "title": "Operations on ndarrays",
+            "start": 67.3,
+            "end": 70.0,
+            "text": "NumPy gives this direction a special name."
+        },
+        {
+            "number": "034",
+            "title": "Operations on ndarrays",
+            "start": 70.0,
+            "end": 71.6,
+            "text": "It is called axis."
+        },
+        {
+            "number": "034",
+            "title": "Operations on ndarrays",
+            "start": 71.6,
+            "end": 77.9,
+            "text": "Axis is equal to zero signifies rows and axis is equal to one indicates columns."
+        },
+        {
+            "number": "034",
+            "title": "Operations on ndarrays",
+            "start": 77.9,
+            "end": 81.7,
+            "text": "Remember this terminology as you will use it frequently."
+        },
+        {
+            "number": "034",
+            "title": "Operations on ndarrays",
+            "start": 81.7,
+            "end": 84.2,
+            "text": "Let's code to make things clear."
+        },
+        {
+            "number": "034",
+            "title": "Operations on ndarrays",
+            "start": 84.2,
+            "end": 89.6,
+            "text": "Passing the parameter axis along with the specific value will give you the sum along"
+        },
+        {
+            "number": "034",
+            "title": "Operations on ndarrays",
+            "start": 89.6,
+            "end": 90.8,
+            "text": "that axis."
+        },
+        {
+            "number": "034",
+            "title": "Operations on ndarrays",
+            "start": 90.8,
+            "end": 94.3,
+            "text": "To understand this, let's first see the output."
+        },
+        {
+            "number": "034",
+            "title": "Operations on ndarrays",
+            "start": 94.3,
+            "end": 99.5,
+            "text": "To get the sum of each column, we pass the value to the axis attribute as zero."
+        },
+        {
+            "number": "034",
+            "title": "Operations on ndarrays",
+            "start": 99.5,
+            "end": 103.9,
+            "text": "And to get the sum of the rows, we pass the value as one."
+        },
+        {
+            "number": "034",
+            "title": "Operations on ndarrays",
+            "start": 103.9,
+            "end": 109.1,
+            "text": "To understand this, imagine if you wanted to sum the values of each column,"
+        },
+        {
+            "number": "034",
+            "title": "Operations on ndarrays",
+            "start": 109.1,
+            "end": 111.1,
+            "text": "what would you iterate on?"
+        },
+        {
+            "number": "034",
+            "title": "Operations on ndarrays",
+            "start": 111.1,
+            "end": 117.0,
+            "text": "You would say something like for each column, sum all the values of each row of that column."
+        },
+        {
+            "number": "034",
+            "title": "Operations on ndarrays",
+            "start": 117.0,
+            "end": 120.1,
+            "text": "So you would essentially iterate over the rows."
+        },
+        {
+            "number": "034",
+            "title": "Operations on ndarrays",
+            "start": 120.1,
+            "end": 127.0,
+            "text": "Hence we pass axis equal to zero to compute column sums and similarly axis equal to one for"
+        },
+        {
+            "number": "034",
+            "title": "Operations on ndarrays",
+            "start": 127.0,
+            "end": 128.4,
+            "text": "row sums."
+        },
+        {
+            "number": "034",
+            "title": "Operations on ndarrays",
+            "start": 128.4,
+            "end": 133.0,
+            "text": "Observe the output when we pass axis equal to zero."
+        },
+        {
+            "number": "034",
+            "title": "Operations on ndarrays",
+            "start": 133.0,
+            "end": 135.0,
+            "text": "We get four values."
+        },
+        {
+            "number": "034",
+            "title": "Operations on ndarrays",
+            "start": 135.0,
+            "end": 137.6,
+            "text": "These are basically the sum of each columns."
+        },
+        {
+            "number": "034",
+            "title": "Operations on ndarrays",
+            "start": 137.6,
+            "end": 144.4,
+            "text": "And when we pass axis equal to one, we get five values which are sum of each rows."
+        },
+        {
+            "number": "034",
+            "title": "Operations on ndarrays",
+            "start": 144.4,
+            "end": 152.0,
+            "text": "Let's go ahead and try some basic operation like finding minimum, maximum and mean of an array."
+        },
+        {
+            "number": "034",
+            "title": "Operations on ndarrays",
+            "start": 152.0,
+            "end": 158.7,
+            "text": "So if I want minimum along columns, I have to go through each row of each column."
+        },
+        {
+            "number": "034",
+            "title": "Operations on ndarrays",
+            "start": 158.7,
+            "end": 163.4,
+            "text": "So axis equal to zero to get the minimum of each column."
+        },
+        {
+            "number": "034",
+            "title": "Operations on ndarrays",
+            "start": 163.4,
+            "end": 170.9,
+            "text": "To get the maximum of each row, similarly we call a max function and pass axis equal to one."
+        },
+        {
+            "number": "034",
+            "title": "Operations on ndarrays",
+            "start": 170.9,
+            "end": 178.2,
+            "text": "Just calling a dot mean that is array dot mean will give us the mean of the entire array."
+        },
+        {
+            "number": "034",
+            "title": "Operations on ndarrays",
+            "start": 178.2,
+            "end": 183.8,
+            "text": "Of course we can get mean along each axis as we did for max and min."
+        },
+        {
+            "number": "034",
+            "title": "Operations on ndarrays",
+            "start": 183.8,
+            "end": 185.3,
+            "text": "Observe the output."
+        },
+        {
+            "number": "034",
+            "title": "Operations on ndarrays",
+            "start": 185.3,
+            "end": 189.4,
+            "text": "Minimum of the first column is one which is showed over here."
+        },
+        {
+            "number": "034",
+            "title": "Operations on ndarrays",
+            "start": 189.4,
+            "end": 193.3,
+            "text": "This value is essentially minimum of the first column."
+        },
+        {
+            "number": "034",
+            "title": "Operations on ndarrays",
+            "start": 193.3,
+            "end": 197.6,
+            "text": "This is of second, this is of third and this is of fourth."
+        },
+        {
+            "number": "034",
+            "title": "Operations on ndarrays",
+            "start": 197.6,
+            "end": 203.4,
+            "text": "Similarly for maximum of the each row, you can observe that for the first row the maximum"
+        },
+        {
+            "number": "034",
+            "title": "Operations on ndarrays",
+            "start": 203.4,
+            "end": 205.7,
+            "text": "is five and it is shown here."
+        },
+        {
+            "number": "034",
+            "title": "Operations on ndarrays",
+            "start": 205.7,
+            "end": 213.1,
+            "text": "The mean of all the elements is 3.95 which is calculated using the mean function."
+        },
+        {
+            "number": "034",
+            "title": "Operations on ndarrays",
+            "start": 213.1,
+            "end": 216.5,
+            "text": "There are many more functions which you can experiment with."
+        },
+        {
+            "number": "034",
+            "title": "Operations on ndarrays",
+            "start": 216.5,
+            "end": 219.1,
+            "text": "Check the documentation link in the instructor's notes."
+        }
+    ],
+    "text": "Next you will see how to perform various mathematical operations on ndarrays. Let's use a random array of integers. Let's create an array with shape five rows and four columns. Let's see the output. So here's an array with five rows, four columns, and all the values between the range zero and ten. Note how we used seed the random number generator with a constant to get the same sequence of numbers every time. Let's run again and see if the output remains the same. You can see that we have the same values for the array. Summing all the elements in an array is as simple as calling the function sum on the array. Here is our array a and we call the sum function on it. Let's check the output. This is our array and this is sum of all the elements present in the array, which comes out to be 79. We can also sum in a specific direction of the array. What I mean by direction is along rows or columns. NumPy gives this direction a special name. It is called axis. Axis is equal to zero signifies rows and axis is equal to one indicates columns. Remember this terminology as you will use it frequently. Let's code to make things clear. Passing the parameter axis along with the specific value will give you the sum along that axis. To understand this, let's first see the output. To get the sum of each column, we pass the value to the axis attribute as zero. And to get the sum of the rows, we pass the value as one. To understand this, imagine if you wanted to sum the values of each column, what would you iterate on? You would say something like for each column, sum all the values of each row of that column. So you would essentially iterate over the rows. Hence we pass axis equal to zero to compute column sums and similarly axis equal to one for row sums. Observe the output when we pass axis equal to zero. We get four values. These are basically the sum of each columns. And when we pass axis equal to one, we get five values which are sum of each rows. Let's go ahead and try some basic operation like finding minimum, maximum and mean of an array. So if I want minimum along columns, I have to go through each row of each column. So axis equal to zero to get the minimum of each column. To get the maximum of each row, similarly we call a max function and pass axis equal to one. Just calling a dot mean that is array dot mean will give us the mean of the entire array. Of course we can get mean along each axis as we did for max and min. Observe the output. Minimum of the first column is one which is showed over here. This value is essentially minimum of the first column. This is of second, this is of third and this is of fourth. Similarly for maximum of the each row, you can observe that for the first row the maximum is five and it is shown here. The mean of all the elements is 3.95 which is calculated using the mean function. There are many more functions which you can experiment with. Check the documentation link in the instructor's notes."
+}

@@ -1,0 +1,34 @@
+{
+    "title": "Q Learning Recap",
+    "number": "211",
+    "chunks": [
+        {
+            "title": "Q Learning Recap",
+            "number": "211",
+            "start": 0.8,
+            "end": 17.4,
+            "text": "Okay, let's recap what we've learned about Q-Learning. First, let's consider what it takes to build a model. First step is define states, actions, and rewards. So states are combinations of our features. Actions are buy, sell, do nothing."
+        },
+        {
+            "title": "Q Learning Recap",
+            "number": "211",
+            "start": 17.4,
+            "end": 32.7,
+            "text": "And rewards are some type of return. Next, you choose the training period. And you iterate over that training period and update your Q-Table on each iteration. When you reach the end of that training period,"
+        },
+        {
+            "title": "Q Learning Recap",
+            "number": "211",
+            "start": 32.7,
+            "end": 48.7,
+            "text": "you backtest to see how good the model is. And you go back and repeat until the model quits getting better. Once it's converged, you stop, you've got your model. Testing the model is simple."
+        },
+        {
+            "title": "Q Learning Recap",
+            "number": "211",
+            "start": 48.7,
+            "end": 59.8,
+            "text": "You just backtest it on later data. Remember, we're always training on one set of data and then testing on later data. And that's it. I hope you enjoyed the lesson."
+        }
+    ]
+}

@@ -1,0 +1,369 @@
+{
+    "chunks": [
+        {
+            "number": "161",
+            "title": "The importance of covariance",
+            "start": 0.2,
+            "end": 3.2,
+            "text": "So to illustrate the importance of covariance,"
+        },
+        {
+            "number": "161",
+            "title": "The importance of covariance",
+            "start": 3.2,
+            "end": 6.6,
+            "text": "we're going to take a look at a couple different stocks here."
+        },
+        {
+            "number": "161",
+            "title": "The importance of covariance",
+            "start": 6.6,
+            "end": 8.5,
+            "text": "These are pretend, of course."
+        },
+        {
+            "number": "161",
+            "title": "The importance of covariance",
+            "start": 8.5,
+            "end": 12.6,
+            "text": "So here's one, ABC, it's gone up 10%."
+        },
+        {
+            "number": "161",
+            "title": "The importance of covariance",
+            "start": 12.6,
+            "end": 17.2,
+            "text": "Here's another stock, GHI, it's also gone up 10%."
+        },
+        {
+            "number": "161",
+            "title": "The importance of covariance",
+            "start": 17.2,
+            "end": 22.8,
+            "text": "But notice it tends to zig when ABC zags."
+        },
+        {
+            "number": "161",
+            "title": "The importance of covariance",
+            "start": 22.8,
+            "end": 26.5,
+            "text": "So it's not going in lockstep with ABC."
+        },
+        {
+            "number": "161",
+            "title": "The importance of covariance",
+            "start": 26.5,
+            "end": 30.3,
+            "text": "Finally, here's our last stock that we'll take a look at, DEF."
+        },
+        {
+            "number": "161",
+            "title": "The importance of covariance",
+            "start": 30.3,
+            "end": 35.0,
+            "text": "Note how it goes almost in lockstep with ABC."
+        },
+        {
+            "number": "161",
+            "title": "The importance of covariance",
+            "start": 35.0,
+            "end": 38.5,
+            "text": "So three stocks, two that move together very similarly and"
+        },
+        {
+            "number": "161",
+            "title": "The importance of covariance",
+            "start": 38.5,
+            "end": 41.8,
+            "text": "one that moves opposite them sometimes."
+        },
+        {
+            "number": "161",
+            "title": "The importance of covariance",
+            "start": 41.8,
+            "end": 45.4,
+            "text": "Yet they've all provided about 10% return."
+        },
+        {
+            "number": "161",
+            "title": "The importance of covariance",
+            "start": 45.4,
+            "end": 52.6,
+            "text": "What is the best portfolio we can build by combining these three different stocks?"
+        },
+        {
+            "number": "161",
+            "title": "The importance of covariance",
+            "start": 52.6,
+            "end": 56.2,
+            "text": "So let's consider their covariance or how they move together for a moment."
+        },
+        {
+            "number": "161",
+            "title": "The importance of covariance",
+            "start": 56.2,
+            "end": 61.0,
+            "text": "So ABC and DEF move very similarly."
+        },
+        {
+            "number": "161",
+            "title": "The importance of covariance",
+            "start": 61.0,
+            "end": 66.9,
+            "text": "And if we were to measure their covariance, and this is the covariance of daily returns,"
+        },
+        {
+            "number": "161",
+            "title": "The importance of covariance",
+            "start": 66.9,
+            "end": 69.4,
+            "text": "which if you're just looking at one stock versus another,"
+        },
+        {
+            "number": "161",
+            "title": "The importance of covariance",
+            "start": 69.4,
+            "end": 75.4,
+            "text": "that's the same as the correlation coefficient of their daily returns."
+        },
+        {
+            "number": "161",
+            "title": "The importance of covariance",
+            "start": 75.4,
+            "end": 80.0,
+            "text": "So 0.9 means that they move very closely to one another."
+        },
+        {
+            "number": "161",
+            "title": "The importance of covariance",
+            "start": 80.0,
+            "end": 86.5,
+            "text": "Now if we were to look at the covariance of daily returns of ABC and GHI,"
+        },
+        {
+            "number": "161",
+            "title": "The importance of covariance",
+            "start": 86.5,
+            "end": 91.4,
+            "text": "we would find that they actually have a negative correlation."
+        },
+        {
+            "number": "161",
+            "title": "The importance of covariance",
+            "start": 91.4,
+            "end": 96.6,
+            "text": "In other words, when ABC goes up, GHI tends to go down."
+        },
+        {
+            "number": "161",
+            "title": "The importance of covariance",
+            "start": 96.6,
+            "end": 103.1,
+            "text": "So they actually have a negative correlation or a negative covariance."
+        },
+        {
+            "number": "161",
+            "title": "The importance of covariance",
+            "start": 103.1,
+            "end": 107.9,
+            "text": "Whereas ABC and DEF have a positive covariance."
+        },
+        {
+            "number": "161",
+            "title": "The importance of covariance",
+            "start": 107.9,
+            "end": 111.1,
+            "text": "Again now, what's the best way to blend these together?"
+        },
+        {
+            "number": "161",
+            "title": "The importance of covariance",
+            "start": 111.1,
+            "end": 113.1,
+            "text": "So let's consider a couple of different portfolios,"
+        },
+        {
+            "number": "161",
+            "title": "The importance of covariance",
+            "start": 113.1,
+            "end": 116.6,
+            "text": "which are just weightings on these different assets."
+        },
+        {
+            "number": "161",
+            "title": "The importance of covariance",
+            "start": 116.6,
+            "end": 122.4,
+            "text": "Let's look first at one that is 50% ABC and 50% DEF."
+        },
+        {
+            "number": "161",
+            "title": "The importance of covariance",
+            "start": 122.4,
+            "end": 124.1,
+            "text": "So what's that one going to look like?"
+        },
+        {
+            "number": "161",
+            "title": "The importance of covariance",
+            "start": 124.1,
+            "end": 126.7,
+            "text": "Well, they both move very similarly."
+        },
+        {
+            "number": "161",
+            "title": "The importance of covariance",
+            "start": 126.7,
+            "end": 130.3,
+            "text": "So this portfolio is going to track the two of them together."
+        },
+        {
+            "number": "161",
+            "title": "The importance of covariance",
+            "start": 130.3,
+            "end": 133.9,
+            "text": "So the performance of this portfolio is going to look something like this."
+        },
+        {
+            "number": "161",
+            "title": "The importance of covariance",
+            "start": 133.9,
+            "end": 134.7,
+            "text": "So that's fine."
+        },
+        {
+            "number": "161",
+            "title": "The importance of covariance",
+            "start": 134.7,
+            "end": 139.6,
+            "text": "It ends up returning 10%, just like the two major assets that it holds."
+        },
+        {
+            "number": "161",
+            "title": "The importance of covariance",
+            "start": 139.6,
+            "end": 144.2,
+            "text": "But there's no real advantage in blending these two assets because it just has the"
+        },
+        {
+            "number": "161",
+            "title": "The importance of covariance",
+            "start": 144.2,
+            "end": 148.9,
+            "text": "same volatility as each one of them by themselves."
+        },
+        {
+            "number": "161",
+            "title": "The importance of covariance",
+            "start": 148.9,
+            "end": 151.1,
+            "text": "So what if we try something a little bit different?"
+        },
+        {
+            "number": "161",
+            "title": "The importance of covariance",
+            "start": 151.1,
+            "end": 155.9,
+            "text": "What if we take 25% of ABC, 25% of DEF?"
+        },
+        {
+            "number": "161",
+            "title": "The importance of covariance",
+            "start": 155.9,
+            "end": 161.7,
+            "text": "So that's going to give us this same motion that we saw here when we combined those two."
+        },
+        {
+            "number": "161",
+            "title": "The importance of covariance",
+            "start": 161.7,
+            "end": 164.9,
+            "text": "But we put the rest of it in GHI."
+        },
+        {
+            "number": "161",
+            "title": "The importance of covariance",
+            "start": 164.9,
+            "end": 169.0,
+            "text": "So now we're combining an anti-correlated asset with these other two."
+        },
+        {
+            "number": "161",
+            "title": "The importance of covariance",
+            "start": 169.0,
+            "end": 171.5,
+            "text": "So what's this portfolio going to look like?"
+        },
+        {
+            "number": "161",
+            "title": "The importance of covariance",
+            "start": 171.5,
+            "end": 178.3,
+            "text": "Well, it's going to be a nice blend of them with very low volatility."
+        },
+        {
+            "number": "161",
+            "title": "The importance of covariance",
+            "start": 178.3,
+            "end": 181.7,
+            "text": "Because when one zigs, the other zags."
+        },
+        {
+            "number": "161",
+            "title": "The importance of covariance",
+            "start": 181.7,
+            "end": 185.3,
+            "text": "So this portfolio will also have a 10% return."
+        },
+        {
+            "number": "161",
+            "title": "The importance of covariance",
+            "start": 185.3,
+            "end": 187.5,
+            "text": "But look how smooth it is."
+        },
+        {
+            "number": "161",
+            "title": "The importance of covariance",
+            "start": 187.5,
+            "end": 191.4,
+            "text": "And that's because we're blending anti-correlated assets together."
+        },
+        {
+            "number": "161",
+            "title": "The importance of covariance",
+            "start": 191.4,
+            "end": 197.8,
+            "text": "So we get the same return but lower volatility than any asset by itself."
+        },
+        {
+            "number": "161",
+            "title": "The importance of covariance",
+            "start": 197.8,
+            "end": 202.3,
+            "text": "So all these assets by themselves had significant volatility."
+        },
+        {
+            "number": "161",
+            "title": "The importance of covariance",
+            "start": 202.3,
+            "end": 205.7,
+            "text": "But when we put them together, we reduced volatility significantly."
+        },
+        {
+            "number": "161",
+            "title": "The importance of covariance",
+            "start": 206.9,
+            "end": 211.0,
+            "text": "That's the magic of what Markowitz provided."
+        },
+        {
+            "number": "161",
+            "title": "The importance of covariance",
+            "start": 211.0,
+            "end": 213.2,
+            "text": "And we'll look a little bit more at that in just a moment."
+        }
+    ],
+    "text": "So to illustrate the importance of covariance, we're going to take a look at a couple different stocks here. These are pretend, of course. So here's one, ABC, it's gone up 10%. Here's another stock, GHI, it's also gone up 10%. But notice it tends to zig when ABC zags. So it's not going in lockstep with ABC. Finally, here's our last stock that we'll take a look at, DEF. Note how it goes almost in lockstep with ABC. So three stocks, two that move together very similarly and one that moves opposite them sometimes. Yet they've all provided about 10% return. What is the best portfolio we can build by combining these three different stocks? So let's consider their covariance or how they move together for a moment. So ABC and DEF move very similarly. And if we were to measure their covariance, and this is the covariance of daily returns, which if you're just looking at one stock versus another, that's the same as the correlation coefficient of their daily returns. So 0.9 means that they move very closely to one another. Now if we were to look at the covariance of daily returns of ABC and GHI, we would find that they actually have a negative correlation. In other words, when ABC goes up, GHI tends to go down. So they actually have a negative correlation or a negative covariance. Whereas ABC and DEF have a positive covariance. Again now, what's the best way to blend these together? So let's consider a couple of different portfolios, which are just weightings on these different assets. Let's look first at one that is 50% ABC and 50% DEF. So what's that one going to look like? Well, they both move very similarly. So this portfolio is going to track the two of them together. So the performance of this portfolio is going to look something like this. So that's fine. It ends up returning 10%, just like the two major assets that it holds. But there's no real advantage in blending these two assets because it just has the same volatility as each one of them by themselves. So what if we try something a little bit different? What if we take 25% of ABC, 25% of DEF? So that's going to give us this same motion that we saw here when we combined those two. But we put the rest of it in GHI. So now we're combining an anti-correlated asset with these other two. So what's this portfolio going to look like? Well, it's going to be a nice blend of them with very low volatility. Because when one zigs, the other zags. So this portfolio will also have a 10% return. But look how smooth it is. And that's because we're blending anti-correlated assets together. So we get the same return but lower volatility than any asset by itself. So all these assets by themselves had significant volatility. But when we put them together, we reduced volatility significantly. That's the magic of what Markowitz provided. And we'll look a little bit more at that in just a moment."
+}

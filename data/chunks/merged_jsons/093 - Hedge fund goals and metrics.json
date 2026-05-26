@@ -1,0 +1,118 @@
+{
+    "title": "Hedge fund goals and metrics",
+    "number": "093",
+    "chunks": [
+        {
+            "title": "Hedge fund goals and metrics",
+            "number": "093",
+            "start": 0.5,
+            "end": 18.7,
+            "text": "So when an investor is considering a particular hedge fund, they want to know what are the goals for the hedge fund. And they'll also want to know the results of certain metrics. Let's take a look at goals first. Now you might say, of course my goal is to make money."
+        },
+        {
+            "title": "Hedge fund goals and metrics",
+            "number": "093",
+            "start": 18.7,
+            "end": 34.6,
+            "text": "Well, it's a little bit finer than that or a little bit more subtle than that. There are of course other potential goals, but these two are the primary types of goals that hedge funds go after. One type is to beat a benchmark. What does that mean?"
+        },
+        {
+            "title": "Hedge fund goals and metrics",
+            "number": "093",
+            "start": 35.9,
+            "end": 54.4,
+            "text": "Let's suppose for instance that you've got a strategy that looks at the stocks that are in the S&P 500. There's 500 of them of course. And you're especially smart at picking out the good ones. So you might build a hedge fund whose goal is to beat the S&P 500"
+        },
+        {
+            "title": "Hedge fund goals and metrics",
+            "number": "093",
+            "start": 54.4,
+            "end": 79.3,
+            "text": "index as a benchmark because you're wise at selecting among all those which stocks are going to outperform. And of course the overall index has the good stocks and the bad stocks. So you're going to do better because you picked the specific good ones. An important component of the beat a benchmark model is that many benchmarks,"
+        },
+        {
+            "title": "Hedge fund goals and metrics",
+            "number": "093",
+            "start": 79.3,
+            "end": 103.8,
+            "text": "like the stock market as a whole, for which S&P 500 is a good representative, go down. And it is of course natural that a portfolio consisted of stocks from this index might go down as well. So even though both the index and the fund go down, you can outperform the index by going down less."
+        },
+        {
+            "title": "Hedge fund goals and metrics",
+            "number": "093",
+            "start": 103.8,
+            "end": 128.3,
+            "text": "So this kind of fund that is tagged against a benchmark can still meet performance goals if it goes down so long as that index is going down more. That brings us to absolute return funds. Their goal is to provide positive return no matter what. These funds are usually long short, which means they make positive bets in stocks they"
+        },
+        {
+            "title": "Hedge fund goals and metrics",
+            "number": "093",
+            "start": 128.3,
+            "end": 147.8,
+            "text": "think are going to go up. And they make negative bets in stocks they're going to go down. We'll talk about shorting a little bit later. In any case, their objective is to make slow, gradual, positive return no matter what. Often these types of funds don't make the same percentage gains as the B to benchmark"
+        },
+        {
+            "title": "Hedge fund goals and metrics",
+            "number": "093",
+            "start": 147.8,
+            "end": 174.6,
+            "text": "fund, but they have very low drawdowns. In other words, when the market takes a big hit, they often don't. The next question is, well, how do we measure how well that fund is meeting those goals? We talked about these metrics in the mini-course, Manipulating Financial Data in Python. But we'll repeat it just a little bit here to remind you."
+        },
+        {
+            "title": "Hedge fund goals and metrics",
+            "number": "093",
+            "start": 174.6,
+            "end": 200.6,
+            "text": "And also to bring those folks up to speed who didn't necessarily have that previous course. Cumulative return is a measure of, you know, given the amount of funds I started with, how much more did I end up with after a certain period of time. So suppose we have an NDA array of values of our portfolio, where zero is the first value and minus one is the very last one."
+        },
+        {
+            "title": "Hedge fund goals and metrics",
+            "number": "093",
+            "start": 200.6,
+            "end": 222.9,
+            "text": "We can easily compute cumulative return by dividing that last value by the first value and subtracting one. So for instance, if we made 20% over a year, this would end up being 0.2. Volatility is a measure of how rapidly and aggressively the portfolio goes up and down in value."
+        },
+        {
+            "title": "Hedge fund goals and metrics",
+            "number": "093",
+            "start": 222.9,
+            "end": 241.4,
+            "text": "And of course, lower volatility is better. Volatility is simply measured as the standard deviation of daily returns. The last factor here, which is a measure of the ratio of risk to reward, is typically measured using Sharpe ratio. And the Sharpe ratio is calculated like this."
+        },
+        {
+            "title": "Hedge fund goals and metrics",
+            "number": "093",
+            "start": 242.6,
+            "end": 266.6,
+            "text": "Sharpe ratio is also sometimes called risk-adjusted reward. So you can consider that to be reward divided by risk. Our reward is our average daily return minus the risk-free rate. And our risk is simply a measure of that standard deviation of daily returns or volatility."
+        },
+        {
+            "title": "Hedge fund goals and metrics",
+            "number": "093",
+            "start": 266.6,
+            "end": 286.3,
+            "text": "We multiply that ratio by the square root of 252. That is how many trading days there are in a year. And remember, we're always working with daily returns. So that's why we use this 252 number. So recapping, hedge funds have goals, typically either to beat a particular"
+        },
+        {
+            "title": "Hedge fund goals and metrics",
+            "number": "093",
+            "start": 286.3,
+            "end": 305.7,
+            "text": "benchmark or to gain absolute return. And then metrics by which we judge how well they accomplish those goals. So cumulative return, how much did they make over a period of time? Volatility, how volatile were they over that time? And then risk-adjusted reward or Sharpe ratio."
+        },
+        {
+            "title": "Hedge fund goals and metrics",
+            "number": "093",
+            "start": 305.7,
+            "end": 332.0,
+            "text": "One thing I want to mention before I leave this topic with regard to benchmarks is the benchmark you choose should depend on the expertise you have. So let's suppose you're an expert in Eastern Europe and you're great at picking stocks in emerging markets in Eastern Europe. You should select some benchmark that represents that similar kind of investing."
+        },
+        {
+            "title": "Hedge fund goals and metrics",
+            "number": "093",
+            "start": 332.0,
+            "end": 348.8,
+            "text": "And there are indexes that represent emerging markets in Eastern Europe. There are also other funds whose values you might use as a benchmark. Or let's say your expertise is in banks. You might choose an index for the baking industry and show that you can beat that."
+        }
+    ]
+}

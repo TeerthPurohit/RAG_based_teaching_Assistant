@@ -1,0 +1,55 @@
+{
+    "title": "Arrays with initial values",
+    "number": "031",
+    "chunks": [
+        {
+            "title": "Arrays with initial values",
+            "number": "031",
+            "start": 0.0,
+            "end": 19.6,
+            "text": "NumPy also offers several functions to create empty arrays with initial values. For certain computations, these help avoid growing arrays incrementally, which can be an expensive operation. Let's start with creating an empty array. The empty function takes the shape of the array as input."
+        },
+        {
+            "title": "Arrays with initial values",
+            "number": "031",
+            "start": 19.6,
+            "end": 36.9,
+            "text": "The shape can be defined as a single integer, as we did over here, for creating a one dimensional array or a sequence of integers denoting the size in each dimension. For a two dimensional array, a sequence of two integers is needed. That is the number of rows and the number of columns."
+        },
+        {
+            "title": "Arrays with initial values",
+            "number": "031",
+            "start": 36.9,
+            "end": 56.3,
+            "text": "For this example, we will create an empty array with five rows and four columns, passing in a tuple with values five and four. So here I pass a tuple with values five and four. In case you need a three dimensional array or any greater number of dimensions, you can just add another number to the sequence."
+        },
+        {
+            "title": "Arrays with initial values",
+            "number": "031",
+            "start": 56.3,
+            "end": 74.3,
+            "text": "This will give you a three dimensional array with depth of three and each depth having five rows and four columns. For this lesson, we will only work with two dimensional arrays. Now let's check the output. Strange, the empty array is not actually empty."
+        },
+        {
+            "title": "Arrays with initial values",
+            "number": "031",
+            "start": 74.3,
+            "end": 93.5,
+            "text": "What happens is that when we call numpy.empty to create an array, the elements of the array retain whatever values were present in the corresponding memory location. These are effectively random values that depend on the state of the computer's memory. Also observe that by default, the elements are the floating points."
+        },
+        {
+            "title": "Arrays with initial values",
+            "number": "031",
+            "start": 94.6,
+            "end": 115.8,
+            "text": "Next we create an array full of ones. Like the empty function, we pass in the number of rows and columns as a sequence. To create an array full of ones, you call the one function and pass the sequence, which has number of rows and number of columns. You can expect this time to have an array of five rows and four columns with all the values"
+        },
+        {
+            "title": "Arrays with initial values",
+            "number": "031",
+            "start": 115.8,
+            "end": 125.5,
+            "text": "equal to one. Let's go ahead and check this. Here it is. An array with five rows, four columns and all the values of the array equal to one."
+        }
+    ]
+}

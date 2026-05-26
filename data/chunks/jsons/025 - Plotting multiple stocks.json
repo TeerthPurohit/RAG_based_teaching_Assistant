@@ -1,0 +1,236 @@
+{
+    "chunks": [
+        {
+            "number": "025",
+            "title": "Plotting multiple stocks",
+            "start": 0.2,
+            "end": 6.0,
+            "text": "Carly Fiorina rightly states that the goal is to turn data into information and"
+        },
+        {
+            "number": "025",
+            "title": "Plotting multiple stocks",
+            "start": 6.0,
+            "end": 7.6,
+            "text": "information into insight."
+        },
+        {
+            "number": "025",
+            "title": "Plotting multiple stocks",
+            "start": 7.6,
+            "end": 11.1,
+            "text": "So let's better understand the data by improving our plots."
+        },
+        {
+            "number": "025",
+            "title": "Plotting multiple stocks",
+            "start": 11.1,
+            "end": 14.8,
+            "text": "We will need the matplotlib library for this purpose."
+        },
+        {
+            "number": "025",
+            "title": "Plotting multiple stocks",
+            "start": 14.8,
+            "end": 19.4,
+            "text": "Specifically, we import the matplotlib piplot and"
+        },
+        {
+            "number": "025",
+            "title": "Plotting multiple stocks",
+            "start": 19.4,
+            "end": 23.2,
+            "text": "rename it as plt for ease of use."
+        },
+        {
+            "number": "025",
+            "title": "Plotting multiple stocks",
+            "start": 23.2,
+            "end": 26.2,
+            "text": "First, let's define a trivial plot function."
+        },
+        {
+            "number": "025",
+            "title": "Plotting multiple stocks",
+            "start": 26.2,
+            "end": 32.6,
+            "text": "We define a plot data function which will essentially plot the contents of the data frame."
+        },
+        {
+            "number": "025",
+            "title": "Plotting multiple stocks",
+            "start": 32.6,
+            "end": 34.8,
+            "text": "We pass a data frame to it and"
+        },
+        {
+            "number": "025",
+            "title": "Plotting multiple stocks",
+            "start": 34.8,
+            "end": 38.4,
+            "text": "use its plot function to plot all the data in it."
+        },
+        {
+            "number": "025",
+            "title": "Plotting multiple stocks",
+            "start": 38.4,
+            "end": 40.4,
+            "text": "Let's see the output."
+        },
+        {
+            "number": "025",
+            "title": "Plotting multiple stocks",
+            "start": 40.4,
+            "end": 42.6,
+            "text": "Remember, to see the graph,"
+        },
+        {
+            "number": "025",
+            "title": "Plotting multiple stocks",
+            "start": 42.6,
+            "end": 47.2,
+            "text": "we have to call the show function from the matplotlib library."
+        },
+        {
+            "number": "025",
+            "title": "Plotting multiple stocks",
+            "start": 47.2,
+            "end": 50.4,
+            "text": "Observe that x axis has dates and"
+        },
+        {
+            "number": "025",
+            "title": "Plotting multiple stocks",
+            "start": 50.4,
+            "end": 55.0,
+            "text": "y axis has prices for all the four stocks."
+        },
+        {
+            "number": "025",
+            "title": "Plotting multiple stocks",
+            "start": 55.0,
+            "end": 57.1,
+            "text": "The graph still looks incomplete."
+        },
+        {
+            "number": "025",
+            "title": "Plotting multiple stocks",
+            "start": 57.1,
+            "end": 61.9,
+            "text": "We need to add details like give a name or title to the graph,"
+        },
+        {
+            "number": "025",
+            "title": "Plotting multiple stocks",
+            "start": 61.9,
+            "end": 63.6,
+            "text": "add x and y axis labels."
+        },
+        {
+            "number": "025",
+            "title": "Plotting multiple stocks",
+            "start": 64.7,
+            "end": 69.0,
+            "text": "We will give name to the graph by passing in parameter title."
+        },
+        {
+            "number": "025",
+            "title": "Plotting multiple stocks",
+            "start": 69.0,
+            "end": 71.1,
+            "text": "This should be customizable."
+        },
+        {
+            "number": "025",
+            "title": "Plotting multiple stocks",
+            "start": 71.1,
+            "end": 76.3,
+            "text": "And here we pass the value of the title to the parameter title of the data frame."
+        },
+        {
+            "number": "025",
+            "title": "Plotting multiple stocks",
+            "start": 76.3,
+            "end": 82.1,
+            "text": "For x and y axis labels, we need a handler to the plot which the data frame generates."
+        },
+        {
+            "number": "025",
+            "title": "Plotting multiple stocks",
+            "start": 82.1,
+            "end": 85.8,
+            "text": "The output of df.plot is such a handler."
+        },
+        {
+            "number": "025",
+            "title": "Plotting multiple stocks",
+            "start": 85.8,
+            "end": 88.2,
+            "text": "You can imagine it as an object."
+        },
+        {
+            "number": "025",
+            "title": "Plotting multiple stocks",
+            "start": 88.2,
+            "end": 91.3,
+            "text": "We name it ax for axis."
+        },
+        {
+            "number": "025",
+            "title": "Plotting multiple stocks",
+            "start": 91.3,
+            "end": 97.0,
+            "text": "Now we call set xlabel and set ylabel on this object to give the x and"
+        },
+        {
+            "number": "025",
+            "title": "Plotting multiple stocks",
+            "start": 97.0,
+            "end": 99.8,
+            "text": "y axis some meaningful labels."
+        },
+        {
+            "number": "025",
+            "title": "Plotting multiple stocks",
+            "start": 99.8,
+            "end": 106.0,
+            "text": "The desired label are passed as a parameter to the function set underscore xlabel and"
+        },
+        {
+            "number": "025",
+            "title": "Plotting multiple stocks",
+            "start": 106.0,
+            "end": 108.1,
+            "text": "set underscore ylabel."
+        },
+        {
+            "number": "025",
+            "title": "Plotting multiple stocks",
+            "start": 108.1,
+            "end": 116.2,
+            "text": "Remember that set xlabel and set ylabel are the function of the object that we got from df.plot."
+        },
+        {
+            "number": "025",
+            "title": "Plotting multiple stocks",
+            "start": 116.2,
+            "end": 122.6,
+            "text": "You can also use the font size parameter in df.plot to make the graph more readable."
+        },
+        {
+            "number": "025",
+            "title": "Plotting multiple stocks",
+            "start": 122.6,
+            "end": 125.1,
+            "text": "Now let's see the modified plot."
+        },
+        {
+            "number": "025",
+            "title": "Plotting multiple stocks",
+            "start": 125.1,
+            "end": 130.9,
+            "text": "So here's your detailed plot with xlabel, ylabel and a title."
+        }
+    ],
+    "text": "Carly Fiorina rightly states that the goal is to turn data into information and information into insight. So let's better understand the data by improving our plots. We will need the matplotlib library for this purpose. Specifically, we import the matplotlib piplot and rename it as plt for ease of use. First, let's define a trivial plot function. We define a plot data function which will essentially plot the contents of the data frame. We pass a data frame to it and use its plot function to plot all the data in it. Let's see the output. Remember, to see the graph, we have to call the show function from the matplotlib library. Observe that x axis has dates and y axis has prices for all the four stocks. The graph still looks incomplete. We need to add details like give a name or title to the graph, add x and y axis labels. We will give name to the graph by passing in parameter title. This should be customizable. And here we pass the value of the title to the parameter title of the data frame. For x and y axis labels, we need a handler to the plot which the data frame generates. The output of df.plot is such a handler. You can imagine it as an object. We name it ax for axis. Now we call set xlabel and set ylabel on this object to give the x and y axis some meaningful labels. The desired label are passed as a parameter to the function set underscore xlabel and set underscore ylabel. Remember that set xlabel and set ylabel are the function of the object that we got from df.plot. You can also use the font size parameter in df.plot to make the graph more readable. Now let's see the modified plot. So here's your detailed plot with xlabel, ylabel and a title."
+}

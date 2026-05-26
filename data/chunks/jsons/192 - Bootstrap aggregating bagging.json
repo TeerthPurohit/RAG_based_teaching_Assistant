@@ -1,0 +1,299 @@
+{
+    "chunks": [
+        {
+            "number": "192",
+            "title": "Bootstrap aggregating bagging",
+            "start": 0.3,
+            "end": 3.5,
+            "text": "There's another way we can build an ensemble of learners."
+        },
+        {
+            "number": "192",
+            "title": "Bootstrap aggregating bagging",
+            "start": 3.5,
+            "end": 8.2,
+            "text": "We can build them using the same learning algorithm, but"
+        },
+        {
+            "number": "192",
+            "title": "Bootstrap aggregating bagging",
+            "start": 8.2,
+            "end": 11.5,
+            "text": "train each learner on a different set of the data."
+        },
+        {
+            "number": "192",
+            "title": "Bootstrap aggregating bagging",
+            "start": 11.5,
+            "end": 15.7,
+            "text": "This is what's called bootstrap aggregating or bagging."
+        },
+        {
+            "number": "192",
+            "title": "Bootstrap aggregating bagging",
+            "start": 15.7,
+            "end": 20.2,
+            "text": "It was invented by Bremen in the late 80s, early 90s."
+        },
+        {
+            "number": "192",
+            "title": "Bootstrap aggregating bagging",
+            "start": 20.2,
+            "end": 22.2,
+            "text": "Here's how bagging works."
+        },
+        {
+            "number": "192",
+            "title": "Bootstrap aggregating bagging",
+            "start": 22.2,
+            "end": 26.2,
+            "text": "So what we do is we create a number of subsets of the data."
+        },
+        {
+            "number": "192",
+            "title": "Bootstrap aggregating bagging",
+            "start": 26.2,
+            "end": 30.9,
+            "text": "I've drawn little bags here to represent bags of data."
+        },
+        {
+            "number": "192",
+            "title": "Bootstrap aggregating bagging",
+            "start": 30.9,
+            "end": 35.3,
+            "text": "And each one of these is a subset of the original data."
+        },
+        {
+            "number": "192",
+            "title": "Bootstrap aggregating bagging",
+            "start": 35.3,
+            "end": 37.3,
+            "text": "Now, how do we collect these?"
+        },
+        {
+            "number": "192",
+            "title": "Bootstrap aggregating bagging",
+            "start": 37.3,
+            "end": 39.5,
+            "text": "Well, we do it randomly."
+        },
+        {
+            "number": "192",
+            "title": "Bootstrap aggregating bagging",
+            "start": 39.5,
+            "end": 46.2,
+            "text": "So for this subset that contains n prime values,"
+        },
+        {
+            "number": "192",
+            "title": "Bootstrap aggregating bagging",
+            "start": 46.2,
+            "end": 51.5,
+            "text": "and our original data set contains n different instances,"
+        },
+        {
+            "number": "192",
+            "title": "Bootstrap aggregating bagging",
+            "start": 51.5,
+            "end": 58.4,
+            "text": "we grab n prime of them at random with replacement from this original data."
+        },
+        {
+            "number": "192",
+            "title": "Bootstrap aggregating bagging",
+            "start": 58.4,
+            "end": 65.0,
+            "text": "So what with replacement means is, let's say we had, say, these values."
+        },
+        {
+            "number": "192",
+            "title": "Bootstrap aggregating bagging",
+            "start": 65.0,
+            "end": 68.8,
+            "text": "We might grab this one and put it in our bag."
+        },
+        {
+            "number": "192",
+            "title": "Bootstrap aggregating bagging",
+            "start": 68.8,
+            "end": 72.4,
+            "text": "We might randomly grab this one and put it in our bag."
+        },
+        {
+            "number": "192",
+            "title": "Bootstrap aggregating bagging",
+            "start": 72.4,
+            "end": 74.7,
+            "text": "But each time we grab randomly,"
+        },
+        {
+            "number": "192",
+            "title": "Bootstrap aggregating bagging",
+            "start": 74.7,
+            "end": 78.5,
+            "text": "we randomly choose across the whole collection of data."
+        },
+        {
+            "number": "192",
+            "title": "Bootstrap aggregating bagging",
+            "start": 78.5,
+            "end": 82.3,
+            "text": "So we might choose this one again and put it in the bag."
+        },
+        {
+            "number": "192",
+            "title": "Bootstrap aggregating bagging",
+            "start": 82.3,
+            "end": 87.9,
+            "text": "So this one and this one are really the same one, and they're repeated twice."
+        },
+        {
+            "number": "192",
+            "title": "Bootstrap aggregating bagging",
+            "start": 87.9,
+            "end": 88.7,
+            "text": "And that's okay."
+        },
+        {
+            "number": "192",
+            "title": "Bootstrap aggregating bagging",
+            "start": 88.7,
+            "end": 91.0,
+            "text": "That's what with replacement means."
+        },
+        {
+            "number": "192",
+            "title": "Bootstrap aggregating bagging",
+            "start": 91.0,
+            "end": 97.0,
+            "text": "So we create altogether m of these groups or bags."
+        },
+        {
+            "number": "192",
+            "title": "Bootstrap aggregating bagging",
+            "start": 97.0,
+            "end": 103.2,
+            "text": "And each one of them contains n prime different data instances chosen at random"
+        },
+        {
+            "number": "192",
+            "title": "Bootstrap aggregating bagging",
+            "start": 103.2,
+            "end": 104.7,
+            "text": "with replacement."
+        },
+        {
+            "number": "192",
+            "title": "Bootstrap aggregating bagging",
+            "start": 104.7,
+            "end": 106.7,
+            "text": "Let's note these things."
+        },
+        {
+            "number": "192",
+            "title": "Bootstrap aggregating bagging",
+            "start": 106.7,
+            "end": 111.0,
+            "text": "So n is the number of training instances in our original data."
+        },
+        {
+            "number": "192",
+            "title": "Bootstrap aggregating bagging",
+            "start": 111.0,
+            "end": 116.4,
+            "text": "n prime is the number of instances that we put in each bag."
+        },
+        {
+            "number": "192",
+            "title": "Bootstrap aggregating bagging",
+            "start": 116.4,
+            "end": 119.6,
+            "text": "And m is the number of bags."
+        },
+        {
+            "number": "192",
+            "title": "Bootstrap aggregating bagging",
+            "start": 119.6,
+            "end": 127.4,
+            "text": "We almost always want n prime to be less than n, usually about 60%."
+        },
+        {
+            "number": "192",
+            "title": "Bootstrap aggregating bagging",
+            "start": 127.4,
+            "end": 133.4,
+            "text": "So each of these bags has about 60% as many training instances as our original data."
+        },
+        {
+            "number": "192",
+            "title": "Bootstrap aggregating bagging",
+            "start": 133.4,
+            "end": 135.5,
+            "text": "But that's just a rule of thumb."
+        },
+        {
+            "number": "192",
+            "title": "Bootstrap aggregating bagging",
+            "start": 135.5,
+            "end": 141.5,
+            "text": "Now we use each of these collections of data to train a different model."
+        },
+        {
+            "number": "192",
+            "title": "Bootstrap aggregating bagging",
+            "start": 141.5,
+            "end": 147.8,
+            "text": "We have now m different models, each one trained on a little bit of different data."
+        },
+        {
+            "number": "192",
+            "title": "Bootstrap aggregating bagging",
+            "start": 147.8,
+            "end": 152.0,
+            "text": "And just like when we have an ensemble of different learning algorithms,"
+        },
+        {
+            "number": "192",
+            "title": "Bootstrap aggregating bagging",
+            "start": 152.0,
+            "end": 156.2,
+            "text": "here we have an ensemble of different models, we query in the same way."
+        },
+        {
+            "number": "192",
+            "title": "Bootstrap aggregating bagging",
+            "start": 156.2,
+            "end": 161.7,
+            "text": "We query each model with the same x and we collect all of their outputs."
+        },
+        {
+            "number": "192",
+            "title": "Bootstrap aggregating bagging",
+            "start": 161.7,
+            "end": 165.8,
+            "text": "We take the y output of each model, take their mean, and boom,"
+        },
+        {
+            "number": "192",
+            "title": "Bootstrap aggregating bagging",
+            "start": 165.8,
+            "end": 168.4,
+            "text": "that's our y for the ensemble."
+        },
+        {
+            "number": "192",
+            "title": "Bootstrap aggregating bagging",
+            "start": 168.4,
+            "end": 172.7,
+            "text": "Now keep in mind, we can wrap this in a single API,"
+        },
+        {
+            "number": "192",
+            "title": "Bootstrap aggregating bagging",
+            "start": 172.7,
+            "end": 178.6,
+            "text": "just like that API you wrapped your linreg learner in and your KNN learner in."
+        }
+    ],
+    "text": "There's another way we can build an ensemble of learners. We can build them using the same learning algorithm, but train each learner on a different set of the data. This is what's called bootstrap aggregating or bagging. It was invented by Bremen in the late 80s, early 90s. Here's how bagging works. So what we do is we create a number of subsets of the data. I've drawn little bags here to represent bags of data. And each one of these is a subset of the original data. Now, how do we collect these? Well, we do it randomly. So for this subset that contains n prime values, and our original data set contains n different instances, we grab n prime of them at random with replacement from this original data. So what with replacement means is, let's say we had, say, these values. We might grab this one and put it in our bag. We might randomly grab this one and put it in our bag. But each time we grab randomly, we randomly choose across the whole collection of data. So we might choose this one again and put it in the bag. So this one and this one are really the same one, and they're repeated twice. And that's okay. That's what with replacement means. So we create altogether m of these groups or bags. And each one of them contains n prime different data instances chosen at random with replacement. Let's note these things. So n is the number of training instances in our original data. n prime is the number of instances that we put in each bag. And m is the number of bags. We almost always want n prime to be less than n, usually about 60%. So each of these bags has about 60% as many training instances as our original data. But that's just a rule of thumb. Now we use each of these collections of data to train a different model. We have now m different models, each one trained on a little bit of different data. And just like when we have an ensemble of different learning algorithms, here we have an ensemble of different models, we query in the same way. We query each model with the same x and we collect all of their outputs. We take the y output of each model, take their mean, and boom, that's our y for the ensemble. Now keep in mind, we can wrap this in a single API, just like that API you wrapped your linreg learner in and your KNN learner in."
+}

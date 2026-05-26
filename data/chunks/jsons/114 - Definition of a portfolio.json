@@ -1,0 +1,222 @@
+{
+    "chunks": [
+        {
+            "number": "114",
+            "title": "Definition of a portfolio",
+            "start": 0.4,
+            "end": 4.9,
+            "text": "Before we launch into details of the capital assets pricing model,"
+        },
+        {
+            "number": "114",
+            "title": "Definition of a portfolio",
+            "start": 4.9,
+            "end": 7.1,
+            "text": "we have to lay down a little bit of groundwork."
+        },
+        {
+            "number": "114",
+            "title": "Definition of a portfolio",
+            "start": 7.1,
+            "end": 10.5,
+            "text": "Let's start with the definition of a portfolio."
+        },
+        {
+            "number": "114",
+            "title": "Definition of a portfolio",
+            "start": 10.5,
+            "end": 14.4,
+            "text": "A portfolio is a weighted set of assets."
+        },
+        {
+            "number": "114",
+            "title": "Definition of a portfolio",
+            "start": 14.4,
+            "end": 18.8,
+            "text": "So as an example, let's suppose you've got a portfolio that's got three"
+        },
+        {
+            "number": "114",
+            "title": "Definition of a portfolio",
+            "start": 18.8,
+            "end": 22.4,
+            "text": "different assets in it, Apple, Google, and Oracle."
+        },
+        {
+            "number": "114",
+            "title": "Definition of a portfolio",
+            "start": 22.4,
+            "end": 25.8,
+            "text": "And if you look at the entire value of your portfolio,"
+        },
+        {
+            "number": "114",
+            "title": "Definition of a portfolio",
+            "start": 25.8,
+            "end": 32.0,
+            "text": "let's suppose that 60% of it is in Apple, 20% is in Google, and 20% is in Oracle."
+        },
+        {
+            "number": "114",
+            "title": "Definition of a portfolio",
+            "start": 33.2,
+            "end": 38.1,
+            "text": "If we consider this as a set of weights, that means we've got 0.6 in Apple,"
+        },
+        {
+            "number": "114",
+            "title": "Definition of a portfolio",
+            "start": 38.1,
+            "end": 42.4,
+            "text": "0.2 in Google, and 0.3 in Oracle."
+        },
+        {
+            "number": "114",
+            "title": "Definition of a portfolio",
+            "start": 42.4,
+            "end": 47.6,
+            "text": "So the first part of our definition of a portfolio is that W sub i is the"
+        },
+        {
+            "number": "114",
+            "title": "Definition of a portfolio",
+            "start": 47.6,
+            "end": 49.8,
+            "text": "proportion of funds that are in S at i."
+        },
+        {
+            "number": "114",
+            "title": "Definition of a portfolio",
+            "start": 49.8,
+            "end": 56.4,
+            "text": "We require that the sum of all these W sub i's is equal to 1."
+        },
+        {
+            "number": "114",
+            "title": "Definition of a portfolio",
+            "start": 56.4,
+            "end": 59.5,
+            "text": "In other words, they add up to 100%."
+        },
+        {
+            "number": "114",
+            "title": "Definition of a portfolio",
+            "start": 59.5,
+            "end": 65.6,
+            "text": "Now sometimes for leveraged portfolios that we're not going to cover in this class,"
+        },
+        {
+            "number": "114",
+            "title": "Definition of a portfolio",
+            "start": 65.6,
+            "end": 68.7,
+            "text": "this number might be greater than 1."
+        },
+        {
+            "number": "114",
+            "title": "Definition of a portfolio",
+            "start": 68.7,
+            "end": 71.1,
+            "text": "But skip that for now."
+        },
+        {
+            "number": "114",
+            "title": "Definition of a portfolio",
+            "start": 71.1,
+            "end": 75.1,
+            "text": "We do allow that you might short some stocks."
+        },
+        {
+            "number": "114",
+            "title": "Definition of a portfolio",
+            "start": 75.1,
+            "end": 79.2,
+            "text": "So for instance, let's suppose you shorted Google."
+        },
+        {
+            "number": "114",
+            "title": "Definition of a portfolio",
+            "start": 80.9,
+            "end": 84.6,
+            "text": "Your allocation there would be minus 0.2."
+        },
+        {
+            "number": "114",
+            "title": "Definition of a portfolio",
+            "start": 84.6,
+            "end": 87.9,
+            "text": "So let's refine this equation a little bit and"
+        },
+        {
+            "number": "114",
+            "title": "Definition of a portfolio",
+            "start": 87.9,
+            "end": 92.7,
+            "text": "require that the sum of the absolute values of the weights is equal to 1."
+        },
+        {
+            "number": "114",
+            "title": "Definition of a portfolio",
+            "start": 92.7,
+            "end": 95.6,
+            "text": "So some of them might be short, some of them might be long."
+        },
+        {
+            "number": "114",
+            "title": "Definition of a portfolio",
+            "start": 95.6,
+            "end": 100.0,
+            "text": "But if you add up the absolute value of their weights, we require that to be 1.0."
+        },
+        {
+            "number": "114",
+            "title": "Definition of a portfolio",
+            "start": 100.0,
+            "end": 102.9,
+            "text": "So now that we've defined what a portfolio is, let's think for"
+        },
+        {
+            "number": "114",
+            "title": "Definition of a portfolio",
+            "start": 102.9,
+            "end": 107.0,
+            "text": "a moment about what will the returns on a portfolio look like."
+        },
+        {
+            "number": "114",
+            "title": "Definition of a portfolio",
+            "start": 107.0,
+            "end": 109.4,
+            "text": "So it's a simple equation really."
+        },
+        {
+            "number": "114",
+            "title": "Definition of a portfolio",
+            "start": 109.4,
+            "end": 115.8,
+            "text": "It's the sum for each asset of the weight of that asset in the portfolio"
+        },
+        {
+            "number": "114",
+            "title": "Definition of a portfolio",
+            "start": 115.8,
+            "end": 119.6,
+            "text": "times the return for that day of the asset."
+        },
+        {
+            "number": "114",
+            "title": "Definition of a portfolio",
+            "start": 119.6,
+            "end": 122.3,
+            "text": "We just add all those up one by one, and boom,"
+        },
+        {
+            "number": "114",
+            "title": "Definition of a portfolio",
+            "start": 122.3,
+            "end": 124.4,
+            "text": "that's the return on the portfolio for that day."
+        }
+    ],
+    "text": "Before we launch into details of the capital assets pricing model, we have to lay down a little bit of groundwork. Let's start with the definition of a portfolio. A portfolio is a weighted set of assets. So as an example, let's suppose you've got a portfolio that's got three different assets in it, Apple, Google, and Oracle. And if you look at the entire value of your portfolio, let's suppose that 60% of it is in Apple, 20% is in Google, and 20% is in Oracle. If we consider this as a set of weights, that means we've got 0.6 in Apple, 0.2 in Google, and 0.3 in Oracle. So the first part of our definition of a portfolio is that W sub i is the proportion of funds that are in S at i. We require that the sum of all these W sub i's is equal to 1. In other words, they add up to 100%. Now sometimes for leveraged portfolios that we're not going to cover in this class, this number might be greater than 1. But skip that for now. We do allow that you might short some stocks. So for instance, let's suppose you shorted Google. Your allocation there would be minus 0.2. So let's refine this equation a little bit and require that the sum of the absolute values of the weights is equal to 1. So some of them might be short, some of them might be long. But if you add up the absolute value of their weights, we require that to be 1.0. So now that we've defined what a portfolio is, let's think for a moment about what will the returns on a portfolio look like. So it's a simple equation really. It's the sum for each asset of the weight of that asset in the portfolio times the return for that day of the asset. We just add all those up one by one, and boom, that's the return on the portfolio for that day."
+}

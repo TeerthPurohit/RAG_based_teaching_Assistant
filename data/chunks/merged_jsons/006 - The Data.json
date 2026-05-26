@@ -1,0 +1,55 @@
+{
+    "title": "The Data",
+    "number": "006",
+    "chunks": [
+        {
+            "title": "The Data",
+            "number": "006",
+            "start": 0.3,
+            "end": 22.7,
+            "text": "Our objective in this class is to get you up and running quickly, to show you some real data and some code you can use to view it and manipulate it, and just give you a feeling that you know what's going on. So we're going to take you from examples of raw data all the way to visualization. Now let's get started with the data."
+        },
+        {
+            "title": "The Data",
+            "number": "006",
+            "start": 22.7,
+            "end": 42.6,
+            "text": "In this class we're going to work almost entirely with data that comes from CSV files. CSV files are plain text. The C stands for comma, S stands for separated V is values. So comma separated values."
+        },
+        {
+            "title": "The Data",
+            "number": "006",
+            "start": 42.6,
+            "end": 65.4,
+            "text": "Let me show you an example of what might be in a CSV file. Most CSV files start with a header line. In this example, this is a CSV file that's telling us about weather conditions. So we've got a, we've got temperature, pressure, and humidity. And that tells us what information is in the columns that are to follow."
+        },
+        {
+            "title": "The Data",
+            "number": "006",
+            "start": 65.4,
+            "end": 90.3,
+            "text": "Following our header line, we have lines or rows of data. So these numbers here make up our data. Again, header row and rows of data where each data element is separated by a comma. Now the files that we're going to be working with, the stock data files, have thousands of lines and many more columns as well."
+        },
+        {
+            "title": "The Data",
+            "number": "006",
+            "start": 90.3,
+            "end": 111.5,
+            "text": "Our objective for this lesson is to show you how to read in data like this, focus say on one column or another, and create a plot from that data. Okay, so now you've seen an example with weather. Let's start thinking about stocks. Some think about stocks than two is the way to read the poem."
+        },
+        {
+            "title": "The Data",
+            "number": "006",
+            "start": 113.9,
+            "end": 124.9,
+            "text": "Muchas times when parse the poem. argument. itation. одно. 著色情報."
+        },
+        {
+            "title": "The Data",
+            "number": "006",
+            "start": 124.9,
+            "end": 135.7,
+            "text": "You can� you a fact. Never identify your reference how to read in the sea."
+        }
+    ]
+}

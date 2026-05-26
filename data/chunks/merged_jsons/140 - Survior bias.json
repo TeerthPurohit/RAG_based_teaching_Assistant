@@ -1,0 +1,34 @@
+{
+    "title": "Survior bias",
+    "number": "140",
+    "chunks": [
+        {
+            "title": "Survior bias",
+            "number": "140",
+            "start": 0.4,
+            "end": 25.1,
+            "text": "One of the things we do in this class is to simulate strategies that we might develop. We roll back time and pretend that we traded on certain dates according to certain signals. And we see what the result of our strategy might have been. Now to do that, you have to start with some universe of stocks. One of the most common universes is the S&P 500. When you simulate your trading, you roll back time"
+        },
+        {
+            "title": "Survior bias",
+            "number": "140",
+            "start": 25.1,
+            "end": 51.6,
+            "text": "and you look at that universe of stocks. You apply your algorithm to choose which of stocks you might buy. A very common mistake that people make is that they look at the membership of that universe as of today. Then they go back in time and they use that list of stocks for their strategy. So let's suppose we go back in time, we take the current list of the S&P 500 and we run our strategy and our"
+        },
+        {
+            "title": "Survior bias",
+            "number": "140",
+            "start": 51.6,
+            "end": 87.4,
+            "text": "strategy is just doing great. I'm going to call that the biased strategy. So why is that biased? Well, we're selecting from stocks way back here that we knew were existing over here. So there's a built-in bias that these stocks are going to do well because they weathered the storm here. Now consider what if we used the S&P 500 as it was back in 2007. So a lot of the stocks from back then did just fine. They survived. But"
+        },
+        {
+            "title": "Survior bias",
+            "number": "140",
+            "start": 87.4,
+            "end": 145.1,
+            "text": "a lot didn't. 68 stocks from the S&P 500 died. They completely went away from 2007 to 2009. So if you applied the same strategy that appears to be so awesome but you use the real members of the S&P 500, from back then, you're probably going to have a significantly lower performance. And the difference between these two is the bias. The lesson learned is to use survivor bias-free data. And that's available from a number of providers. It's not usually free but it's not necessarily that expensive either. But if you do it, you can see it. You'll avoid this sort of false optimism for a strategy that you develop. Okay, that's it for dealing with data. I hope you found the lesson useful and we'll see you again soon. Bye bye. ."
+        }
+    ]
+}

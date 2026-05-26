@@ -1,0 +1,34 @@
+{
+    "title": "Summary",
+    "number": "195",
+    "chunks": [
+        {
+            "title": "Summary",
+            "number": "195",
+            "start": 0.1,
+            "end": 20.2,
+            "text": "Before we finish this lesson, I wanted to summarize things and tell you how this all fits into machine learning for trading. The first thing to point out here is that bagging and boosting are just methods for taking existing learners and essentially wrapping them in this meta algorithm that converts your"
+        },
+        {
+            "title": "Summary",
+            "number": "195",
+            "start": 20.2,
+            "end": 40.4,
+            "text": "existing learner into an ensemble. And you should use the same API to call your ensemble that you would have earlier been using to call an individual learner. So externally to whatever part of your program is calling the learner, it doesn't know that underneath there you're doing boosting or bagging."
+        },
+        {
+            "title": "Summary",
+            "number": "195",
+            "start": 40.4,
+            "end": 57.3,
+            "text": "Your resulting learner is also likely to have lower error and reduced overfitage. So to summarize, boosting and bagging are not new algorithms in and of themselves. They're meta algorithms that let you wrap your underlying learning algorithms into something that's better."
+        },
+        {
+            "title": "Summary",
+            "number": "195",
+            "start": 57.3,
+            "end": 60.9,
+            "text": "Okay, that's it for this lesson. I will see you again soon. Bye bye."
+        }
+    ]
+}

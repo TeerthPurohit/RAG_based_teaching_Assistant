@@ -1,0 +1,117 @@
+{
+    "chunks": [
+        {
+            "number": "158",
+            "title": "What is risk",
+            "start": 0.2,
+            "end": 4.7,
+            "text": "If we're going to find a portfolio or an allocation of assets to different"
+        },
+        {
+            "number": "158",
+            "title": "What is risk",
+            "start": 4.7,
+            "end": 9.3,
+            "text": "stocks that minimizes risk, we have to pause for a moment and"
+        },
+        {
+            "number": "158",
+            "title": "What is risk",
+            "start": 9.3,
+            "end": 11.8,
+            "text": "consider what is risk."
+        },
+        {
+            "number": "158",
+            "title": "What is risk",
+            "start": 11.8,
+            "end": 17.4,
+            "text": "Let's consider two stocks, XYZ here, that's gone up about 10%."
+        },
+        {
+            "number": "158",
+            "title": "What is risk",
+            "start": 17.4,
+            "end": 19.6,
+            "text": "But as you can see, it's been very volatile."
+        },
+        {
+            "number": "158",
+            "title": "What is risk",
+            "start": 19.6,
+            "end": 23.2,
+            "text": "Here's the historical price of another stock, ABC."
+        },
+        {
+            "number": "158",
+            "title": "What is risk",
+            "start": 23.2,
+            "end": 26.7,
+            "text": "It also went up 10% over the same time period."
+        },
+        {
+            "number": "158",
+            "title": "What is risk",
+            "start": 26.7,
+            "end": 29.4,
+            "text": "But as you can see, it was less volatile."
+        },
+        {
+            "number": "158",
+            "title": "What is risk",
+            "start": 29.4,
+            "end": 33.2,
+            "text": "So it's this volatility that we use as a measure of risk."
+        },
+        {
+            "number": "158",
+            "title": "What is risk",
+            "start": 33.2,
+            "end": 38.0,
+            "text": "And that is simply the standard deviation of historical daily returns."
+        },
+        {
+            "number": "158",
+            "title": "What is risk",
+            "start": 38.0,
+            "end": 42.4,
+            "text": "Again, in this case, risk is measured as volatility or"
+        },
+        {
+            "number": "158",
+            "title": "What is risk",
+            "start": 42.4,
+            "end": 45.6,
+            "text": "standard deviation of historical daily returns."
+        },
+        {
+            "number": "158",
+            "title": "What is risk",
+            "start": 45.6,
+            "end": 49.8,
+            "text": "That's the standard view of risk in most finance texts."
+        },
+        {
+            "number": "158",
+            "title": "What is risk",
+            "start": 49.8,
+            "end": 53.6,
+            "text": "There are other ways to view risk that we touch upon here and"
+        },
+        {
+            "number": "158",
+            "title": "What is risk",
+            "start": 53.6,
+            "end": 55.1,
+            "text": "there through this course."
+        },
+        {
+            "number": "158",
+            "title": "What is risk",
+            "start": 55.1,
+            "end": 59.1,
+            "text": "But the key is standard deviation of daily returns."
+        }
+    ],
+    "text": "If we're going to find a portfolio or an allocation of assets to different stocks that minimizes risk, we have to pause for a moment and consider what is risk. Let's consider two stocks, XYZ here, that's gone up about 10%. But as you can see, it's been very volatile. Here's the historical price of another stock, ABC. It also went up 10% over the same time period. But as you can see, it was less volatile. So it's this volatility that we use as a measure of risk. And that is simply the standard deviation of historical daily returns. Again, in this case, risk is measured as volatility or standard deviation of historical daily returns. That's the standard view of risk in most finance texts. There are other ways to view risk that we touch upon here and there through this course. But the key is standard deviation of daily returns."
+}

@@ -1,0 +1,159 @@
+{
+    "chunks": [
+        {
+            "number": "178",
+            "title": "Kernel regression",
+            "start": 0.8,
+            "end": 6.2,
+            "text": "So again, the correct response for this query is to take the mean of the k,"
+        },
+        {
+            "number": "178",
+            "title": "Kernel regression",
+            "start": 6.2,
+            "end": 11.8,
+            "text": "where k is equal to 3, nearest neighbors, take the mean of their y value,"
+        },
+        {
+            "number": "178",
+            "title": "Kernel regression",
+            "start": 11.8,
+            "end": 15.9,
+            "text": "and that gives us a value somewhere about like there."
+        },
+        {
+            "number": "178",
+            "title": "Kernel regression",
+            "start": 15.9,
+            "end": 22.0,
+            "text": "If we were to repeat this process at many, many points along the x axis,"
+        },
+        {
+            "number": "178",
+            "title": "Kernel regression",
+            "start": 22.0,
+            "end": 24.8,
+            "text": "we'd end up with a model that looks like this."
+        },
+        {
+            "number": "178",
+            "title": "Kernel regression",
+            "start": 24.8,
+            "end": 30.4,
+            "text": "What's nice about it is it fits the data over here where it's curving this way,"
+        },
+        {
+            "number": "178",
+            "title": "Kernel regression",
+            "start": 30.4,
+            "end": 33.6,
+            "text": "fits the data over here where it's curving that way, and"
+        },
+        {
+            "number": "178",
+            "title": "Kernel regression",
+            "start": 33.6,
+            "end": 37.5,
+            "text": "it interpolates nicely and smoothly between all the data points."
+        },
+        {
+            "number": "178",
+            "title": "Kernel regression",
+            "start": 37.5,
+            "end": 42.4,
+            "text": "There are a number of methods like this that keep the data around,"
+        },
+        {
+            "number": "178",
+            "title": "Kernel regression",
+            "start": 42.4,
+            "end": 46.1,
+            "text": "and when they make a query, they consult the data to find the answer."
+        },
+        {
+            "number": "178",
+            "title": "Kernel regression",
+            "start": 46.1,
+            "end": 49.7,
+            "text": "The most famous of these methods is k-nearest neighbor, but"
+        },
+        {
+            "number": "178",
+            "title": "Kernel regression",
+            "start": 49.7,
+            "end": 52.6,
+            "text": "there are others such as kernel regression."
+        },
+        {
+            "number": "178",
+            "title": "Kernel regression",
+            "start": 52.6,
+            "end": 58.5,
+            "text": "The main way that KNN differs from kernel regression is that in kernel regression,"
+        },
+        {
+            "number": "178",
+            "title": "Kernel regression",
+            "start": 58.5,
+            "end": 63.7,
+            "text": "we weight the contributions of each of the nearest data points according to"
+        },
+        {
+            "number": "178",
+            "title": "Kernel regression",
+            "start": 63.7,
+            "end": 67.2,
+            "text": "how distant they are, whereas with KNN,"
+        },
+        {
+            "number": "178",
+            "title": "Kernel regression",
+            "start": 67.2,
+            "end": 71.0,
+            "text": "each data point that we consider gets essentially an equal weight."
+        },
+        {
+            "number": "178",
+            "title": "Kernel regression",
+            "start": 71.0,
+            "end": 75.9,
+            "text": "We've covered now parametric models where our goal is to find parameters like M and"
+        },
+        {
+            "number": "178",
+            "title": "Kernel regression",
+            "start": 75.9,
+            "end": 80.1,
+            "text": "B, and we toss the data away, and then just use M and"
+        },
+        {
+            "number": "178",
+            "title": "Kernel regression",
+            "start": 80.1,
+            "end": 83.2,
+            "text": "B later to make our queries."
+        },
+        {
+            "number": "178",
+            "title": "Kernel regression",
+            "start": 83.2,
+            "end": 86.0,
+            "text": "And here I've shown you nonparametric or"
+        },
+        {
+            "number": "178",
+            "title": "Kernel regression",
+            "start": 86.0,
+            "end": 89.7,
+            "text": "instance-based methods where we keep the data and"
+        },
+        {
+            "number": "178",
+            "title": "Kernel regression",
+            "start": 89.7,
+            "end": 91.5,
+            "text": "we consult it when we make a query."
+        }
+    ],
+    "text": "So again, the correct response for this query is to take the mean of the k, where k is equal to 3, nearest neighbors, take the mean of their y value, and that gives us a value somewhere about like there. If we were to repeat this process at many, many points along the x axis, we'd end up with a model that looks like this. What's nice about it is it fits the data over here where it's curving this way, fits the data over here where it's curving that way, and it interpolates nicely and smoothly between all the data points. There are a number of methods like this that keep the data around, and when they make a query, they consult the data to find the answer. The most famous of these methods is k-nearest neighbor, but there are others such as kernel regression. The main way that KNN differs from kernel regression is that in kernel regression, we weight the contributions of each of the nearest data points according to how distant they are, whereas with KNN, each data point that we consider gets essentially an equal weight. We've covered now parametric models where our goal is to find parameters like M and B, and we toss the data away, and then just use M and B later to make our queries. And here I've shown you nonparametric or instance-based methods where we keep the data and we consult it when we make a query."
+}

@@ -1,0 +1,41 @@
+{
+    "title": "Dividends",
+    "number": "138",
+    "chunks": [
+        {
+            "title": "Dividends",
+            "number": "138",
+            "start": 0.3,
+            "end": 19.5,
+            "text": "Now, remember earlier when we were talking about stock value, or I should say company value, and we looked at a way to compute company value based on dividends. So companies pay regularly, many companies, not all, dividends to their owners."
+        },
+        {
+            "title": "Dividends",
+            "number": "138",
+            "start": 19.5,
+            "end": 40.6,
+            "text": "And this can be worth a lot of money. So a stock that's priced at, say, around $100 can very often pay up to $1 or $2 per year in dividends, or 1 or 2%. Some stocks pay even more than that. Now dividends can have a significant effect on what happens to the actual price"
+        },
+        {
+            "title": "Dividends",
+            "number": "138",
+            "start": 40.6,
+            "end": 60.8,
+            "text": "of a stock, and here's why. Suppose this stock is trading at about $100, and they announce on this date, in the future, we're going to pay a $1 dividend. So for every share of stock that you own, you'll get $1. What do you think is going to happen to the price of this stock between now and"
+        },
+        {
+            "title": "Dividends",
+            "number": "138",
+            "start": 60.8,
+            "end": 78.2,
+            "text": "the date of that dividend? Let me give you a little bit more information that might make things simpler. Let's suppose that the consensus on the value of the company, by whatever means you've determined that consensus, is that the company is worth $100 per share."
+        },
+        {
+            "title": "Dividends",
+            "number": "138",
+            "start": 78.2,
+            "end": 108.9,
+            "text": "So on this date, when we get that $1 dividend, we're going to have one share of a company that people think is worth $100 per share, and we will have $1. So on this date, we'll have one share of a company supposedly worth $100 and $1. So think about it, what prices will we see this stock converge to on the day before the dividend is paid and the day the dividend is paid?"
+        }
+    ]
+}

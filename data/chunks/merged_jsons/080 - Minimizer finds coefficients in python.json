@@ -1,0 +1,118 @@
+{
+    "title": "Minimizer finds coefficients in python",
+    "number": "080",
+    "chunks": [
+        {
+            "title": "Minimizer finds coefficients in python",
+            "number": "080",
+            "start": 0.3,
+            "end": 22.6,
+            "text": "Now we'll look at some example code that can fit a line to data that's given. Remember, we're using a optimizer to do this. And first thing we have to do is describe for the optimizer what is the function it's trying to minimize. So we'll call this function error and"
+        },
+        {
+            "title": "Minimizer finds coefficients in python",
+            "number": "080",
+            "start": 22.6,
+            "end": 47.3,
+            "text": "it takes two parameters, line and data. Line is just two coefficients, C0 and C1. And data is just a list of data, of course. We've got some nice comments here that explain it. But really, our error is expressed simply in this single equation."
+        },
+        {
+            "title": "Minimizer finds coefficients in python",
+            "number": "080",
+            "start": 47.3,
+            "end": 71.3,
+            "text": "We have the value of the actual data at each point here, minus the estimate that the line we're currently looking at would give at that same point. So we use the zero coefficient and the one coefficient times the x value of the data at that point. So we take those differences and square it."
+        },
+        {
+            "title": "Minimizer finds coefficients in python",
+            "number": "080",
+            "start": 71.3,
+            "end": 98.8,
+            "text": "And that's our error function, and that's what we're trying to minimize. We've added some code now to illustrate how to use the minimizer to find the equation of the line. We start with our original line that the minimizer doesn't know. So it's our secret, but we're testing it to see if the minimizer can discover the equation of this line. Here's the equation for our line."
+        },
+        {
+            "title": "Minimizer finds coefficients in python",
+            "number": "080",
+            "start": 98.8,
+            "end": 122.4,
+            "text": "It's just a two element array. It'll have a slope of four, so coefficient zero is four, and a y intercept of two, so coefficient one of two. Here we generate x and y values. Again, keep in mind our minimizer doesn't know these, but we're just generating them so we can look at them. And we're plotting it for looking at it later."
+        },
+        {
+            "title": "Minimizer finds coefficients in python",
+            "number": "080",
+            "start": 122.4,
+            "end": 159.4,
+            "text": "We take that original line and we use from numpy the random function to add some noise to it. So at each point along the x axis where we have data, we add some noise. So now we've got our original line plus some noise, and we're going to challenge our minimizer to find the equation for that original line even though there's noise. We wrote a separate function, fit line, that takes the data and the error function we defined"
+        },
+        {
+            "title": "Minimizer finds coefficients in python",
+            "number": "080",
+            "start": 159.4,
+            "end": 179.4,
+            "text": "and finds the equation for that line. Here's fit line that does that for us. Two parameters, the data, so remember this is noisy data that is approximately a line. In other words, we took our original line and added noise to it. And the error function or the function we're trying to minimize."
+        },
+        {
+            "title": "Minimizer finds coefficients in python",
+            "number": "080",
+            "start": 179.4,
+            "end": 196.3,
+            "text": "We have some nice comments here that tell us what those are. But now we just follow the steps like we've talked about before. We start with an initial guess. Here our initial guess is a slope of zero and a mean of the rest of the data as our y-intercept."
+        },
+        {
+            "title": "Minimizer finds coefficients in python",
+            "number": "080",
+            "start": 196.3,
+            "end": 214.6,
+            "text": "It could be anything really, but that is a reasonable guess. We plot the initial guess so we have something to look at, and I'll show you that later. But here really is the meat of the function. You've seen it before. So we call our minimize function with the error function."
+        },
+        {
+            "title": "Minimizer finds coefficients in python",
+            "number": "080",
+            "start": 214.6,
+            "end": 233.1,
+            "text": "In other words, this is the function we're trying to minimize. Our initial guess. And this is a parameter you haven't seen before. But this is a way by which we can pass the data to our error function. This is the method that we're going to use."
+        },
+        {
+            "title": "Minimizer finds coefficients in python",
+            "number": "080",
+            "start": 233.1,
+            "end": 253.7,
+            "text": "And finally, although it goes off the end here, we'll set display to true, which will mean we'll get to see any information as it goes along. So that's it. I mean, really, the key here for this is this minimize call right here. And then it returns the result."
+        },
+        {
+            "title": "Minimizer finds coefficients in python",
+            "number": "080",
+            "start": 255.2,
+            "end": 271.0,
+            "text": "So let's run it and see what we get. There was some additional code that I skipped over that generated this plot. You can look at that on your own, of course. Okay, let's take a look. Our original line is this blue line."
+        },
+        {
+            "title": "Minimizer finds coefficients in python",
+            "number": "080",
+            "start": 272.1,
+            "end": 296.8,
+            "text": "Of course, the minimizer doesn't know anything about that. These green dots are our noisy data where we just added noise values to the blue line. Now, we're asking our optimizer, okay, find the equation of the line that best fits this data. And the metric you're trying to minimize is error."
+        },
+        {
+            "title": "Minimizer finds coefficients in python",
+            "number": "080",
+            "start": 297.5,
+            "end": 319.1,
+            "text": "So we passed it an initial guess here of this purple line and this data. So that's all it knows right now is this initial guess of a purple line and this data. And then it iterates and tries different slopes and different y-intercepts until finally it converges to this red line. And that's the solution."
+        },
+        {
+            "title": "Minimizer finds coefficients in python",
+            "number": "080",
+            "start": 319.1,
+            "end": 338.9,
+            "text": "And I think it looks pretty decent. We can check it here. So if you look in the code, you'll see that our real line had a slope of 4 and a y-intercept of 0.5. So it got 4.17 and 0.64."
+        },
+        {
+            "title": "Minimizer finds coefficients in python",
+            "number": "080",
+            "start": 338.9,
+            "end": 350.6,
+            "text": "Not exactly. But if you look at the data, you can see that it's pretty hard to know exactly what the underlying line would look like. So I think our equation solver did a pretty good job."
+        }
+    ]
+}

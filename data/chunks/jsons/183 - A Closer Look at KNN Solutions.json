@@ -1,0 +1,243 @@
+{
+    "chunks": [
+        {
+            "number": "183",
+            "title": "A Closer Look at KNN Solutions",
+            "start": 0.2,
+            "end": 5.2,
+            "text": "As we begin now looking at how to evaluate various machine learning algorithms,"
+        },
+        {
+            "number": "183",
+            "title": "A Closer Look at KNN Solutions",
+            "start": 5.2,
+            "end": 10.7,
+            "text": "let's start back with K and N and look a little more closely at the sorts of"
+        },
+        {
+            "number": "183",
+            "title": "A Closer Look at KNN Solutions",
+            "start": 10.7,
+            "end": 12.4,
+            "text": "solutions it provides."
+        },
+        {
+            "number": "183",
+            "title": "A Closer Look at KNN Solutions",
+            "start": 12.4,
+            "end": 14.6,
+            "text": "Let's start with our training data."
+        },
+        {
+            "number": "183",
+            "title": "A Closer Look at KNN Solutions",
+            "start": 14.6,
+            "end": 18.2,
+            "text": "And remember, we've got pairs of x and y."
+        },
+        {
+            "number": "183",
+            "title": "A Closer Look at KNN Solutions",
+            "start": 18.2,
+            "end": 21.5,
+            "text": "So each one of these dots represents one training tuple."
+        },
+        {
+            "number": "183",
+            "title": "A Closer Look at KNN Solutions",
+            "start": 21.5,
+            "end": 24.6,
+            "text": "And I'm just making this data up, of course."
+        },
+        {
+            "number": "183",
+            "title": "A Closer Look at KNN Solutions",
+            "start": 24.6,
+            "end": 29.2,
+            "text": "Let's suppose we were going to query this K and N model over in this region."
+        },
+        {
+            "number": "183",
+            "title": "A Closer Look at KNN Solutions",
+            "start": 30.0,
+            "end": 32.5,
+            "text": "Say right here at this point."
+        },
+        {
+            "number": "183",
+            "title": "A Closer Look at KNN Solutions",
+            "start": 32.5,
+            "end": 37.3,
+            "text": "Well, the nearest three, let's use K equals three here."
+        },
+        {
+            "number": "183",
+            "title": "A Closer Look at KNN Solutions",
+            "start": 37.3,
+            "end": 39.2,
+            "text": "The nearest three are going to be these."
+        },
+        {
+            "number": "183",
+            "title": "A Closer Look at KNN Solutions",
+            "start": 40.5,
+            "end": 45.8,
+            "text": "And remember, we take the mean of their value to get the value at that query point."
+        },
+        {
+            "number": "183",
+            "title": "A Closer Look at KNN Solutions",
+            "start": 45.8,
+            "end": 51.5,
+            "text": "So if we query from here all the way to about here, our model,"
+        },
+        {
+            "number": "183",
+            "title": "A Closer Look at KNN Solutions",
+            "start": 51.5,
+            "end": 54.1,
+            "text": "it's going to take the mean y value of those."
+        },
+        {
+            "number": "183",
+            "title": "A Closer Look at KNN Solutions",
+            "start": 54.1,
+            "end": 58.1,
+            "text": "So the output of our model is going to look something like this."
+        },
+        {
+            "number": "183",
+            "title": "A Closer Look at KNN Solutions",
+            "start": 58.1,
+            "end": 62.3,
+            "text": "And notice it gives the same value at all these points."
+        },
+        {
+            "number": "183",
+            "title": "A Closer Look at KNN Solutions",
+            "start": 62.3,
+            "end": 70.0,
+            "text": "Eventually, as we query from left to right, we get to a point where this one gets dropped out."
+        },
+        {
+            "number": "183",
+            "title": "A Closer Look at KNN Solutions",
+            "start": 71.1,
+            "end": 73.5,
+            "text": "And this one gets added in."
+        },
+        {
+            "number": "183",
+            "title": "A Closer Look at KNN Solutions",
+            "start": 73.5,
+            "end": 80.1,
+            "text": "And at that point, we'll have a sudden drop about like that in the model."
+        },
+        {
+            "number": "183",
+            "title": "A Closer Look at KNN Solutions",
+            "start": 80.1,
+            "end": 82.7,
+            "text": "And we continue on like this."
+        },
+        {
+            "number": "183",
+            "title": "A Closer Look at KNN Solutions",
+            "start": 82.7,
+            "end": 85.7,
+            "text": "We'll have another drop like that."
+        },
+        {
+            "number": "183",
+            "title": "A Closer Look at KNN Solutions",
+            "start": 85.7,
+            "end": 90.4,
+            "text": "If we query our model now from left to right in very, very tiny increments,"
+        },
+        {
+            "number": "183",
+            "title": "A Closer Look at KNN Solutions",
+            "start": 90.4,
+            "end": 93.1,
+            "text": "we'll get the result that looks something like this."
+        },
+        {
+            "number": "183",
+            "title": "A Closer Look at KNN Solutions",
+            "start": 93.1,
+            "end": 97.4,
+            "text": "Note that indeed there are sort of jump points here."
+        },
+        {
+            "number": "183",
+            "title": "A Closer Look at KNN Solutions",
+            "start": 97.4,
+            "end": 101.1,
+            "text": "Some nice things about this are that it's not overfitting the data."
+        },
+        {
+            "number": "183",
+            "title": "A Closer Look at KNN Solutions",
+            "start": 101.1,
+            "end": 103.6,
+            "text": "In other words, it's not tagging each point."
+        },
+        {
+            "number": "183",
+            "title": "A Closer Look at KNN Solutions",
+            "start": 103.6,
+            "end": 111.6,
+            "text": "A negative aspect though is at the ends there, we have these horizontal lines that are no longer changing."
+        },
+        {
+            "number": "183",
+            "title": "A Closer Look at KNN Solutions",
+            "start": 111.6,
+            "end": 118.6,
+            "text": "Or essentially, this model is not able to extrapolate like we might if we had a parametric model."
+        },
+        {
+            "number": "183",
+            "title": "A Closer Look at KNN Solutions",
+            "start": 118.6,
+            "end": 120.6,
+            "text": "If you don't remember, it's an ROBERT that you do not"
+        },
+        {
+            "number": "183",
+            "title": "A Closer Look at KNN Solutions",
+            "start": 120.6,
+            "end": 125.6,
+            "text": "that may be a MAS Lagric that remain red, and you'll have to appears."
+        },
+        {
+            "number": "183",
+            "title": "A Closer Look at KNN Solutions",
+            "start": 125.6,
+            "end": 130.0,
+            "text": "So we therefore Rivera became a Gina Fakirula, which who is also at the end."
+        },
+        {
+            "number": "183",
+            "title": "A Closer Look at KNN Solutions",
+            "start": 130.0,
+            "end": 134.1,
+            "text": "So do we have 2 or 3 bets that we dump the belt, but itself is fine."
+        },
+        {
+            "number": "183",
+            "title": "A Closer Look at KNN Solutions",
+            "start": 134.1,
+            "end": 135.7,
+            "text": "So do we have two best settings?"
+        },
+        {
+            "number": "183",
+            "title": "A Closer Look at KNN Solutions",
+            "start": 135.7,
+            "end": 142.0,
+            "text": "That your White Abgeordnay feels like an Indian with a Tree of Whoo嗎?"
+        }
+    ],
+    "text": "As we begin now looking at how to evaluate various machine learning algorithms, let's start back with K and N and look a little more closely at the sorts of solutions it provides. Let's start with our training data. And remember, we've got pairs of x and y. So each one of these dots represents one training tuple. And I'm just making this data up, of course. Let's suppose we were going to query this K and N model over in this region. Say right here at this point. Well, the nearest three, let's use K equals three here. The nearest three are going to be these. And remember, we take the mean of their value to get the value at that query point. So if we query from here all the way to about here, our model, it's going to take the mean y value of those. So the output of our model is going to look something like this. And notice it gives the same value at all these points. Eventually, as we query from left to right, we get to a point where this one gets dropped out. And this one gets added in. And at that point, we'll have a sudden drop about like that in the model. And we continue on like this. We'll have another drop like that. If we query our model now from left to right in very, very tiny increments, we'll get the result that looks something like this. Note that indeed there are sort of jump points here. Some nice things about this are that it's not overfitting the data. In other words, it's not tagging each point. A negative aspect though is at the ends there, we have these horizontal lines that are no longer changing. Or essentially, this model is not able to extrapolate like we might if we had a parametric model. If you don't remember, it's an ROBERT that you do not that may be a MAS Lagric that remain red, and you'll have to appears. So we therefore Rivera became a Gina Fakirula, which who is also at the end. So do we have 2 or 3 bets that we dump the belt, but itself is fine. So do we have two best settings? That your White Abgeordnay feels like an Indian with a Tree of Whoo嗎?"
+}

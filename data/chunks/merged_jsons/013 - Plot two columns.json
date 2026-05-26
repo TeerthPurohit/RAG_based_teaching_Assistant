@@ -1,0 +1,34 @@
+{
+    "title": "Plot two columns",
+    "number": "013",
+    "chunks": [
+        {
+            "title": "Plot two columns",
+            "number": "013",
+            "start": 0.3,
+            "end": 20.6,
+            "text": "I'll sign off by showing you some power of pandas. We are about to plot two columns simultaneously on one graph. That is close and adjusted close for the Apple stock. Don't worry about how to extract multiple columns from the data frame. But intuitively, you use a double square brackets and"
+        },
+        {
+            "title": "Plot two columns",
+            "number": "013",
+            "start": 20.6,
+            "end": 36.4,
+            "text": "pass the two column names that is close and adjusted close. We go ahead and plot this. Here's the graph. You can observe two lines, one is blue, which corresponds to close, and one is green, which corresponds to adjusted close."
+        },
+        {
+            "title": "Plot two columns",
+            "number": "013",
+            "start": 36.4,
+            "end": 51.3,
+            "text": "Observe that we did not write code to print the legend or give color to each of the graph lines. This is the power of the Python pandas. The blue line correspond to the close value and the green line corresponds to the adjusted close values."
+        },
+        {
+            "title": "Plot two columns",
+            "number": "013",
+            "start": 51.3,
+            "end": 58.2,
+            "text": "You will learn in the further lesson why there is a difference. That's all for now. I'll see you in the next lesson. Happy coding."
+        }
+    ]
+}

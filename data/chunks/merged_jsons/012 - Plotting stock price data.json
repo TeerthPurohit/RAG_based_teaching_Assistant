@@ -1,0 +1,34 @@
+{
+    "title": "Plotting stock price data",
+    "number": "012",
+    "chunks": [
+        {
+            "title": "Plotting stock price data",
+            "number": "012",
+            "start": 0.4,
+            "end": 15.2,
+            "text": "Now let's do some plotting. It's easy to plot data in the data frame. Here's how you plot Apple's adjusted close. First, let's call a library that would help us to do this. We import a library named matplotlib."
+        },
+        {
+            "title": "Plotting stock price data",
+            "number": "012",
+            "start": 15.2,
+            "end": 44.4,
+            "text": "Do not worry about the details, you will learn them eventually in the further lessons. But to plot the adjacent close, we first need the adjacent close data from the data frame. And as you learned in the previous video, we can slice over the column using the square brackets. Plotting the adjacent close is as simple as calling a plot function. To show the plot on your screen, we need to add one more line, and that is plot.show."
+        },
+        {
+            "title": "Plotting stock price data",
+            "number": "012",
+            "start": 44.4,
+            "end": 63.8,
+            "text": "Now let's run this code. Here's your first graph. You can observe there is no x-axis label, no y-axis label, no header. Also, the data is printed in the reverse order since the CSV is in the reverse order. So the Apple prices are not moving down, they are just printed inversely."
+        },
+        {
+            "title": "Plotting stock price data",
+            "number": "012",
+            "start": 63.8,
+            "end": 78.5,
+            "text": "In the coming lessons, you will learn how to fix it. As of now, enjoy the power of the Python pandas that can plot information using just one line of code. Get ready to plot some data by yourself. I'll be back with a quiz."
+        }
+    ]
+}

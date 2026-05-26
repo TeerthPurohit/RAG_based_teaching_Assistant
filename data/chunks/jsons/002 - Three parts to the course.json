@@ -1,0 +1,152 @@
+{
+    "chunks": [
+        {
+            "number": "002",
+            "title": "Three parts to the course",
+            "start": 0.2,
+            "end": 3.8,
+            "text": "The overall course is broken into three mini courses."
+        },
+        {
+            "number": "002",
+            "title": "Three parts to the course",
+            "start": 3.8,
+            "end": 7.5,
+            "text": "The first one is Manipulating Financial Data in Python."
+        },
+        {
+            "number": "002",
+            "title": "Three parts to the course",
+            "start": 7.5,
+            "end": 12.2,
+            "text": "In this first mini course, we show you how to read historical financial data into Python"
+        },
+        {
+            "number": "002",
+            "title": "Three parts to the course",
+            "start": 12.2,
+            "end": 15.1,
+            "text": "and manipulate it using powerful statistical algorithms."
+        },
+        {
+            "number": "002",
+            "title": "Three parts to the course",
+            "start": 15.1,
+            "end": 17.8,
+            "text": "The second one is Computational Investing."
+        },
+        {
+            "number": "002",
+            "title": "Three parts to the course",
+            "start": 17.8,
+            "end": 21.2,
+            "text": "In this second mini course, we show you the algorithms, methods, and"
+        },
+        {
+            "number": "002",
+            "title": "Three parts to the course",
+            "start": 21.2,
+            "end": 26.6,
+            "text": "models used by hedge funds and investment banks to manipulate and work with financial data."
+        },
+        {
+            "number": "002",
+            "title": "Three parts to the course",
+            "start": 26.6,
+            "end": 29.7,
+            "text": "And the last one is Learning Algorithms for Trading."
+        },
+        {
+            "number": "002",
+            "title": "Three parts to the course",
+            "start": 29.7,
+            "end": 32.7,
+            "text": "In this last mini course, we pull everything together."
+        },
+        {
+            "number": "002",
+            "title": "Three parts to the course",
+            "start": 32.7,
+            "end": 36.6,
+            "text": "We take what you learned in the first two mini courses, show you how to take that data,"
+        },
+        {
+            "number": "002",
+            "title": "Three parts to the course",
+            "start": 36.6,
+            "end": 40.3,
+            "text": "and use it with machine learning algorithms like Q-learning and"
+        },
+        {
+            "number": "002",
+            "title": "Three parts to the course",
+            "start": 40.3,
+            "end": 43.1,
+            "text": "random forests to build trading algorithms."
+        },
+        {
+            "number": "002",
+            "title": "Three parts to the course",
+            "start": 43.1,
+            "end": 45.7,
+            "text": "Now, our goal is that after you complete this course,"
+        },
+        {
+            "number": "002",
+            "title": "Three parts to the course",
+            "start": 45.7,
+            "end": 48.8,
+            "text": "you'll be equipped to join a trading system development team,"
+        },
+        {
+            "number": "002",
+            "title": "Three parts to the course",
+            "start": 48.8,
+            "end": 51.1,
+            "text": "say at a hedge fund or an investment bank."
+        },
+        {
+            "number": "002",
+            "title": "Three parts to the course",
+            "start": 51.1,
+            "end": 57.0,
+            "text": "But I wanna emphasize that you shouldn't immediately begin automatic trading."
+        },
+        {
+            "number": "002",
+            "title": "Three parts to the course",
+            "start": 57.0,
+            "end": 59.7,
+            "text": "This course is just a starting point to teach you some of the things"
+        },
+        {
+            "number": "002",
+            "title": "Three parts to the course",
+            "start": 59.7,
+            "end": 60.7,
+            "text": "that you need to do that well."
+        },
+        {
+            "number": "002",
+            "title": "Three parts to the course",
+            "start": 60.7,
+            "end": 62.7,
+            "text": "But again, it's just a starting point."
+        },
+        {
+            "number": "002",
+            "title": "Three parts to the course",
+            "start": 62.7,
+            "end": 66.7,
+            "text": "."
+        },
+        {
+            "number": "002",
+            "title": "Three parts to the course",
+            "start": 66.7,
+            "end": 68.7,
+            "text": "."
+        }
+    ],
+    "text": "The overall course is broken into three mini courses. The first one is Manipulating Financial Data in Python. In this first mini course, we show you how to read historical financial data into Python and manipulate it using powerful statistical algorithms. The second one is Computational Investing. In this second mini course, we show you the algorithms, methods, and models used by hedge funds and investment banks to manipulate and work with financial data. And the last one is Learning Algorithms for Trading. In this last mini course, we pull everything together. We take what you learned in the first two mini courses, show you how to take that data, and use it with machine learning algorithms like Q-learning and random forests to build trading algorithms. Now, our goal is that after you complete this course, you'll be equipped to join a trading system development team, say at a hedge fund or an investment bank. But I wanna emphasize that you shouldn't immediately begin automatic trading. This course is just a starting point to teach you some of the things that you need to do that well. But again, it's just a starting point. . ."
+}

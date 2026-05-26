@@ -1,0 +1,306 @@
+{
+    "chunks": [
+        {
+            "number": "097",
+            "title": "The order book",
+            "start": 0.4,
+            "end": 6.0,
+            "text": "A key construct at most exchanges is something called the order book."
+        },
+        {
+            "number": "097",
+            "title": "The order book",
+            "start": 6.0,
+            "end": 12.2,
+            "text": "Each exchange keeps an order book for every stock that they buy or sell."
+        },
+        {
+            "number": "097",
+            "title": "The order book",
+            "start": 12.2,
+            "end": 14.2,
+            "text": "And here's how it works."
+        },
+        {
+            "number": "097",
+            "title": "The order book",
+            "start": 14.2,
+            "end": 19.2,
+            "text": "Let's suppose you've just issued an order to buy 100 shares of IBM"
+        },
+        {
+            "number": "097",
+            "title": "The order book",
+            "start": 19.2,
+            "end": 22.5,
+            "text": "with a limit price of $99.95."
+        },
+        {
+            "number": "097",
+            "title": "The order book",
+            "start": 22.5,
+            "end": 27.2,
+            "text": "And let's suppose for the moment that this arrives at the New York Stock Exchange."
+        },
+        {
+            "number": "097",
+            "title": "The order book",
+            "start": 27.2,
+            "end": 31.2,
+            "text": "And so far today, nobody's put in any orders."
+        },
+        {
+            "number": "097",
+            "title": "The order book",
+            "start": 31.2,
+            "end": 33.6,
+            "text": "So your order is the first one, and"
+        },
+        {
+            "number": "097",
+            "title": "The order book",
+            "start": 33.6,
+            "end": 37.2,
+            "text": "they'll use it as the basis to start building their order book."
+        },
+        {
+            "number": "097",
+            "title": "The order book",
+            "start": 37.2,
+            "end": 40.2,
+            "text": "So yours is the first entry in the order book, and"
+        },
+        {
+            "number": "097",
+            "title": "The order book",
+            "start": 40.2,
+            "end": 46.9,
+            "text": "it simply shows somebody has bid $99.95 for 100 shares of stock."
+        },
+        {
+            "number": "097",
+            "title": "The order book",
+            "start": 46.9,
+            "end": 49.9,
+            "text": "And this is public knowledge."
+        },
+        {
+            "number": "097",
+            "title": "The order book",
+            "start": 49.9,
+            "end": 52.7,
+            "text": "People can view this and see, okay,"
+        },
+        {
+            "number": "097",
+            "title": "The order book",
+            "start": 52.7,
+            "end": 55.8,
+            "text": "there's interest in buying shares of this stock."
+        },
+        {
+            "number": "097",
+            "title": "The order book",
+            "start": 55.8,
+            "end": 60.1,
+            "text": "Now, they don't know who has made this bid."
+        },
+        {
+            "number": "097",
+            "title": "The order book",
+            "start": 60.1,
+            "end": 63.1,
+            "text": "The exchange knows that it's you that's made that bid."
+        },
+        {
+            "number": "097",
+            "title": "The order book",
+            "start": 63.1,
+            "end": 65.8,
+            "text": "But they see that there's interest in 100 shares."
+        },
+        {
+            "number": "097",
+            "title": "The order book",
+            "start": 65.8,
+            "end": 68.9,
+            "text": "Now, others may send in orders like yours."
+        },
+        {
+            "number": "097",
+            "title": "The order book",
+            "start": 68.9,
+            "end": 74.5,
+            "text": "And this number just keeps getting larger depending on how many orders come in."
+        },
+        {
+            "number": "097",
+            "title": "The order book",
+            "start": 74.5,
+            "end": 77.5,
+            "text": "When this is displayed publicly, people just see that, okay,"
+        },
+        {
+            "number": "097",
+            "title": "The order book",
+            "start": 77.5,
+            "end": 85.6,
+            "text": "there's interest maybe from various people in 1000 shares of IBM at 99.95."
+        },
+        {
+            "number": "097",
+            "title": "The order book",
+            "start": 85.6,
+            "end": 88.6,
+            "text": "So far, nothing's been bought or sold yet though,"
+        },
+        {
+            "number": "097",
+            "title": "The order book",
+            "start": 88.6,
+            "end": 93.4,
+            "text": "because we don't have anybody willing to sell."
+        },
+        {
+            "number": "097",
+            "title": "The order book",
+            "start": 93.4,
+            "end": 96.1,
+            "text": "Well, let's suppose a sell order comes in."
+        },
+        {
+            "number": "097",
+            "title": "The order book",
+            "start": 96.1,
+            "end": 100.8,
+            "text": "Sell IBM, 1000 shares, limit of $100."
+        },
+        {
+            "number": "097",
+            "title": "The order book",
+            "start": 100.8,
+            "end": 107.0,
+            "text": "Well, there's nobody willing to buy 1000 shares at $100."
+        },
+        {
+            "number": "097",
+            "title": "The order book",
+            "start": 107.0,
+            "end": 110.8,
+            "text": "So the exchange again is going to have to add this order to its order book."
+        },
+        {
+            "number": "097",
+            "title": "The order book",
+            "start": 110.8,
+            "end": 112.5,
+            "text": "And this will be our first ask."
+        },
+        {
+            "number": "097",
+            "title": "The order book",
+            "start": 114.0,
+            "end": 118.6,
+            "text": "We've got now our first ask as part of our order book."
+        },
+        {
+            "number": "097",
+            "title": "The order book",
+            "start": 118.6,
+            "end": 120.7,
+            "text": "Now, let's say more and more orders come in and"
+        },
+        {
+            "number": "097",
+            "title": "The order book",
+            "start": 120.7,
+            "end": 123.1,
+            "text": "it flushes out our order book a bit."
+        },
+        {
+            "number": "097",
+            "title": "The order book",
+            "start": 123.1,
+            "end": 126.7,
+            "text": "Here's our order book as it's flushed out a bit as orders have come in."
+        },
+        {
+            "number": "097",
+            "title": "The order book",
+            "start": 126.7,
+            "end": 131.1,
+            "text": "We've got a number of asks, which are requests to sell stocks."
+        },
+        {
+            "number": "097",
+            "title": "The order book",
+            "start": 131.1,
+            "end": 133.3,
+            "text": "And a number of bids, which are requests to buy."
+        },
+        {
+            "number": "097",
+            "title": "The order book",
+            "start": 134.3,
+            "end": 139.6,
+            "text": "Suppose now we get a market order to buy 100 shares of stock."
+        },
+        {
+            "number": "097",
+            "title": "The order book",
+            "start": 139.6,
+            "end": 142.5,
+            "text": "Here's our new order, and here's what happens."
+        },
+        {
+            "number": "097",
+            "title": "The order book",
+            "start": 142.5,
+            "end": 147.2,
+            "text": "The exchange looks at its order book and it sees, yes,"
+        },
+        {
+            "number": "097",
+            "title": "The order book",
+            "start": 147.2,
+            "end": 149.9,
+            "text": "we have lots of shares for sale here."
+        },
+        {
+            "number": "097",
+            "title": "The order book",
+            "start": 149.9,
+            "end": 153.4,
+            "text": "We have to give the client the lowest price."
+        },
+        {
+            "number": "097",
+            "title": "The order book",
+            "start": 153.4,
+            "end": 161.4,
+            "text": "So we'll give that client 100 shares of these that are priced at $100."
+        },
+        {
+            "number": "097",
+            "title": "The order book",
+            "start": 161.4,
+            "end": 165.7,
+            "text": "So that means now we've only got 900 left here."
+        },
+        {
+            "number": "097",
+            "title": "The order book",
+            "start": 165.7,
+            "end": 169.9,
+            "text": "We take that 100, give that to the client who put in the order, and"
+        },
+        {
+            "number": "097",
+            "title": "The order book",
+            "start": 169.9,
+            "end": 173.2,
+            "text": "this is the state now of our order book after that transaction."
+        }
+    ],
+    "text": "A key construct at most exchanges is something called the order book. Each exchange keeps an order book for every stock that they buy or sell. And here's how it works. Let's suppose you've just issued an order to buy 100 shares of IBM with a limit price of $99.95. And let's suppose for the moment that this arrives at the New York Stock Exchange. And so far today, nobody's put in any orders. So your order is the first one, and they'll use it as the basis to start building their order book. So yours is the first entry in the order book, and it simply shows somebody has bid $99.95 for 100 shares of stock. And this is public knowledge. People can view this and see, okay, there's interest in buying shares of this stock. Now, they don't know who has made this bid. The exchange knows that it's you that's made that bid. But they see that there's interest in 100 shares. Now, others may send in orders like yours. And this number just keeps getting larger depending on how many orders come in. When this is displayed publicly, people just see that, okay, there's interest maybe from various people in 1000 shares of IBM at 99.95. So far, nothing's been bought or sold yet though, because we don't have anybody willing to sell. Well, let's suppose a sell order comes in. Sell IBM, 1000 shares, limit of $100. Well, there's nobody willing to buy 1000 shares at $100. So the exchange again is going to have to add this order to its order book. And this will be our first ask. We've got now our first ask as part of our order book. Now, let's say more and more orders come in and it flushes out our order book a bit. Here's our order book as it's flushed out a bit as orders have come in. We've got a number of asks, which are requests to sell stocks. And a number of bids, which are requests to buy. Suppose now we get a market order to buy 100 shares of stock. Here's our new order, and here's what happens. The exchange looks at its order book and it sees, yes, we have lots of shares for sale here. We have to give the client the lowest price. So we'll give that client 100 shares of these that are priced at $100. So that means now we've only got 900 left here. We take that 100, give that to the client who put in the order, and this is the state now of our order book after that transaction."
+}

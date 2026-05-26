@@ -1,0 +1,41 @@
+{
+    "title": "Arbitrage Pricing Theory",
+    "number": "120",
+    "chunks": [
+        {
+            "title": "Arbitrage Pricing Theory",
+            "number": "120",
+            "start": 0.0,
+            "end": 18.6,
+            "text": "Now, before we close, there's one other thing I want to touch on. It's called arbitrage pricing theory. Arbitrage pricing theory was developed by Stephen Ross and first published in 1976. So Dr. Ross observed the CAPM as it was, but he said, look,"
+        },
+        {
+            "title": "Arbitrage Pricing Theory",
+            "number": "120",
+            "start": 18.6,
+            "end": 37.3,
+            "text": "we have this single beta that represents a particular stock's relationship to the market. Maybe really we ought to have multiple betas. The CAPM is really only allowing us to consider a stock in the entire ocean. And his idea, if you continue the sort of analogy we've been doing in this class,"
+        },
+        {
+            "title": "Arbitrage Pricing Theory",
+            "number": "120",
+            "start": 37.3,
+            "end": 59.3,
+            "text": "is that we ought to consider the different islands. In other words, a particular stock might have exposure to different aspects of the market. So the stock might have some exposure to finance. So we could compute the component of return due to finance by the beta with regard to finance and the return for finance of that day."
+        },
+        {
+            "title": "Arbitrage Pricing Theory",
+            "number": "120",
+            "start": 60.4,
+            "end": 85.2,
+            "text": "So we could compute for each stock, for each sector, an individual beta. And so his assertion was that by breaking out the betas into these different factors, we could get a more accurate forecast of what the return's going to look like. And of course, we still have our alpha over here. We're not going to use APT in this class."
+        },
+        {
+            "title": "Arbitrage Pricing Theory",
+            "number": "120",
+            "start": 85.2,
+            "end": 97.6,
+            "text": "But since we've been going forward with this analogy of oceans and islands and so on, I wanted to bring it to your attention because I thought you might find it interesting. Okay, that's it for the capital assets pricing model. I'll see you again soon."
+        }
+    ]
+}

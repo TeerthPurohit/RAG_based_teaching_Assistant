@@ -1,0 +1,76 @@
+{
+    "title": "Additional order types",
+    "number": "101",
+    "chunks": [
+        {
+            "title": "Additional order types",
+            "number": "101",
+            "start": 0.3,
+            "end": 16.9,
+            "text": "Now you may have heard of other types of orders besides just buy and sell, market and limit. It turns out though that the exchanges only execute these types of orders. They don't execute those other types. Well, you might wonder, okay, how do those other types of orders come into being?"
+        },
+        {
+            "title": "Additional order types",
+            "number": "101",
+            "start": 16.9,
+            "end": 32.0,
+            "text": "These other types of orders are implemented by your broker. The way that works is you enter this order type, and I'll give you a couple examples in just a second. The broker holds that order and watches the market until the conditions that you specified are met."
+        },
+        {
+            "title": "Additional order types",
+            "number": "101",
+            "start": 32.0,
+            "end": 46.1,
+            "text": "And then when those conditions are met, the broker sends your order to the market accordingly. So here are some examples. Stop loss is a kind of order where you say, when the stock drops to a certain price, I want you to sell it."
+        },
+        {
+            "title": "Additional order types",
+            "number": "101",
+            "start": 46.1,
+            "end": 66.7,
+            "text": "Stop gain, similarly, when the stock reaches a certain higher price, I want you to sell it. A trailing stop is a combination of stop loss, but also an automatically changing value for when that criteria is met. So for instance, you might have this trailing stop remain, say,"
+        },
+        {
+            "title": "Additional order types",
+            "number": "101",
+            "start": 66.7,
+            "end": 84.7,
+            "text": "10 cents behind the price. So as the price goes up, the value at which you would want to sell the stock goes up along with the price. But when it drops down below, then that stop loss is triggered. But probably the most important and most impactful kind of order the brokers"
+        },
+        {
+            "title": "Additional order types",
+            "number": "101",
+            "start": 84.7,
+            "end": 104.7,
+            "text": "implement for you is something called selling short. What selling short allows you to do is take a negative position on a stock. In other words, you sell a stock short if you believe its price is going to go down. Keep in mind here, we're selling stock we don't even own. So how is that possible?"
+        },
+        {
+            "title": "Additional order types",
+            "number": "101",
+            "start": 104.7,
+            "end": 116.7,
+            "text": "Well, again, it's possible because the broker facilitates it for you. And I'll explain how in just a minute. How does it look like these kicking crad is gonna make progress. There are things that can be said."
+        },
+        {
+            "title": "Additional order types",
+            "number": "101",
+            "start": 116.7,
+            "end": 126.1,
+            "text": "Give them some��고 big crad is up on stone. And they're gonna make even more negative. Okay. And then to kind of shape in here in this book's gente, green potential financing by aเชeto Brian Machper wild"
+        },
+        {
+            "title": "Additional order types",
+            "number": "101",
+            "start": 126.1,
+            "end": 136.1,
+            "text": "you know you're gonna make a move like this one of them in that, in which of these little circumstances, you know you being above the current institutions. And so up to you in this group a name which one of them is known as a workshop."
+        },
+        {
+            "title": "Additional order types",
+            "number": "101",
+            "start": 136.1,
+            "end": 140.1,
+            "text": "But eventually you can see it where it's called and as you can develop it's ready."
+        }
+    ]
+}

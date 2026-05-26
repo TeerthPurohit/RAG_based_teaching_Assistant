@@ -1,0 +1,62 @@
+{
+    "title": "Pandas Dataframe",
+    "number": "008",
+    "chunks": [
+        {
+            "title": "Pandas Dataframe",
+            "number": "008",
+            "start": 0.4,
+            "end": 24.5,
+            "text": "We're going to make heavy use of a library called Pandas. This library was created by Wes McKinney at a hedge fund called AQR. It's used at many hedge funds and by many people in the finance industry. One of the key components of Pandas is something called the data frame. And I'm going to show you a little bit about what that looks like."
+        },
+        {
+            "title": "Pandas Dataframe",
+            "number": "008",
+            "start": 24.5,
+            "end": 46.2,
+            "text": "So this is the basic layout of a data frame. We have our symbols along the top. So our columns represent symbols in the stock market like SPY, which is an ETF representing the S&P 500, AAPL, the symbol for Apple, GOOG, Google, GLD for gold."
+        },
+        {
+            "title": "Pandas Dataframe",
+            "number": "008",
+            "start": 47.7,
+            "end": 71.0,
+            "text": "And the rows are the dates over time. So we go back as far as 2000 and come all the way up to 2015. So again, symbols from left to right, one column for each symbol, and time coming down like this. So here's our data frame fleshed out with a little bit of data."
+        },
+        {
+            "title": "Pandas Dataframe",
+            "number": "008",
+            "start": 71.0,
+            "end": 98.0,
+            "text": "I made up some of these numbers, so don't, it's not intended to be gospel truth. But notice how we have, let's say this is closing prices. So we see these numbers for SPY, Apple, Google, and GLD. Now, there are some special or unusual values here. NAN, that stands for not a number."
+        },
+        {
+            "title": "Pandas Dataframe",
+            "number": "008",
+            "start": 98.0,
+            "end": 120.8,
+            "text": "And that's Python's way of saying, hey, I don't know, I don't have information for this. The reason you see those values here is back in 2000, Google did not exist as a publicly traded company, and neither did the ETF GLD. Now these NAN values can cause problems, and"
+        },
+        {
+            "title": "Pandas Dataframe",
+            "number": "008",
+            "start": 120.8,
+            "end": 144.8,
+            "text": "we'll be talking about those in a later session. Now as I said, this might represent closing prices. But pandas can also handle additional data in a sort of three dimensional sense. So you can have a data frame that represents, you know, again in columns, our particular symbols, and in rows, dates."
+        },
+        {
+            "title": "Pandas Dataframe",
+            "number": "008",
+            "start": 144.8,
+            "end": 168.4,
+            "text": "This one can be close. We can have another one that has, for the same stocks and the same dates, volume on those dates, and adjusted close, and so on. So pandas is a very flexible way to read in, manipulate, and plot data. Now I've shown you kind of at a high level what this data looks like,"
+        },
+        {
+            "title": "Pandas Dataframe",
+            "number": "008",
+            "start": 168.4,
+            "end": 183.3,
+            "text": "and what pandas looks like. I'm going to hand it over to Dave now, and she's going to show you some real live examples with pandas. She's going to show you how to read this data in, and plot it, and so on. So here's over to you, Dave."
+        }
+    ]
+}

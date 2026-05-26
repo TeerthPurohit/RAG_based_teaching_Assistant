@@ -1,0 +1,40 @@
+{
+    "chunks": [
+        {
+            "number": "042",
+            "title": "Learning more_1",
+            "start": 0.0,
+            "end": 5.9,
+            "text": "All the operations and functions explained in this lesson are those which will help you perform computation."
+        },
+        {
+            "number": "042",
+            "title": "Learning more_1",
+            "start": 6.6,
+            "end": 8.2,
+            "text": "But there is a lot more to learn."
+        },
+        {
+            "number": "042",
+            "title": "Learning more_1",
+            "start": 8.6,
+            "end": 10.3,
+            "text": "Check out the link in the instructor notes."
+        },
+        {
+            "number": "042",
+            "title": "Learning more_1",
+            "start": 10.7,
+            "end": 13.0,
+            "text": "I will meet you in the next lesson with some more coding."
+        },
+        {
+            "number": "042",
+            "title": "Learning more_1",
+            "start": 13.5,
+            "end": 15.6,
+            "text": "Happy coding with Python and NumPy till then."
+        }
+    ],
+    "text": "All the operations and functions explained in this lesson are those which will help you perform computation. But there is a lot more to learn. Check out the link in the instructor notes. I will meet you in the next lesson with some more coding. Happy coding with Python and NumPy till then."
+}

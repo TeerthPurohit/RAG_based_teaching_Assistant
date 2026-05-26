@@ -1,0 +1,82 @@
+{
+    "chunks": [
+        {
+            "number": "177",
+            "title": "K nearest neighbor",
+            "start": 0.4,
+            "end": 2.2,
+            "text": "There's another approach."
+        },
+        {
+            "number": "177",
+            "title": "K nearest neighbor",
+            "start": 2.2,
+            "end": 8.4,
+            "text": "It's a data centric approach or instance based approach where we keep the data and"
+        },
+        {
+            "number": "177",
+            "title": "K nearest neighbor",
+            "start": 8.4,
+            "end": 10.5,
+            "text": "we use it when we make a query."
+        },
+        {
+            "number": "177",
+            "title": "K nearest neighbor",
+            "start": 10.5,
+            "end": 12.0,
+            "text": "So here's an example."
+        },
+        {
+            "number": "177",
+            "title": "K nearest neighbor",
+            "start": 12.0,
+            "end": 17.8,
+            "text": "Let's suppose our barometric pressure has gone down by five millimeters."
+        },
+        {
+            "number": "177",
+            "title": "K nearest neighbor",
+            "start": 17.8,
+            "end": 21.4,
+            "text": "And we want to consult our model to see how much it's going to rain today."
+        },
+        {
+            "number": "177",
+            "title": "K nearest neighbor",
+            "start": 21.4,
+            "end": 25.0,
+            "text": "So our query here is at negative five millimeters."
+        },
+        {
+            "number": "177",
+            "title": "K nearest neighbor",
+            "start": 25.0,
+            "end": 28.0,
+            "text": "And let's suppose that k is equal to three."
+        },
+        {
+            "number": "177",
+            "title": "K nearest neighbor",
+            "start": 28.0,
+            "end": 34.8,
+            "text": "So we will find the three nearest historical data points to this query."
+        },
+        {
+            "number": "177",
+            "title": "K nearest neighbor",
+            "start": 34.8,
+            "end": 40.6,
+            "text": "And those are one, two, three."
+        },
+        {
+            "number": "177",
+            "title": "K nearest neighbor",
+            "start": 40.6,
+            "end": 44.8,
+            "text": "And we'll use them to estimate how much it's going to rain today."
+        }
+    ],
+    "text": "There's another approach. It's a data centric approach or instance based approach where we keep the data and we use it when we make a query. So here's an example. Let's suppose our barometric pressure has gone down by five millimeters. And we want to consult our model to see how much it's going to rain today. So our query here is at negative five millimeters. And let's suppose that k is equal to three. So we will find the three nearest historical data points to this query. And those are one, two, three. And we'll use them to estimate how much it's going to rain today."
+}

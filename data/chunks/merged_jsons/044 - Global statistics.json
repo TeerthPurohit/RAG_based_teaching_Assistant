@@ -1,0 +1,48 @@
+{
+    "title": "Global statistics",
+    "number": "044",
+    "chunks": [
+        {
+            "title": "Global statistics",
+            "number": "044",
+            "start": 0.4,
+            "end": 18.6,
+            "text": "In this lesson, we're going to take a look at the various kinds of statistics that we can take on time series data. Let's start first with global statistics. Consider our trusty data frame, DF1, with columns for SPY, Exxon, Google, and Gold."
+        },
+        {
+            "title": "Global statistics",
+            "number": "044",
+            "start": 18.6,
+            "end": 45.9,
+            "text": "We can take the mean of each of these columns very simply with a statement like this. This statement will take the mean of each column and put it in the appropriate location of a new one dimensional or row wise ND array. Now, because this is a data frame, and remember, a data frame augments NumPy and provides a lot more functionality."
+        },
+        {
+            "title": "Global statistics",
+            "number": "044",
+            "start": 45.9,
+            "end": 69.2,
+            "text": "It's sort of a ND array on steroids. We get lots and lots of functions we can access in this way. We already mentioned mean. In addition to mean, we've got median, standard deviation, sum, prod, mode. All together, there's at least 33 global statistics you can compute in this way."
+        },
+        {
+            "title": "Global statistics",
+            "number": "044",
+            "start": 69.2,
+            "end": 84.9,
+            "text": "And they're always adding more. Let me hand it over to Dave, and she's going to show you how to do this in code. Let me measure something here. Let me introduce the three. One特 also thing to attitude to Pinterest."
+        },
+        {
+            "title": "Global statistics",
+            "number": "044",
+            "start": 84.9,
+            "end": 98.8,
+            "text": "The tomb that asks you to do, you never know. If you intend to interpret it on your mind, to see you? When it's the biggest centering on this page, you can prove it and you see you done with things. It just prevents the amount of confidence to do it."
+        },
+        {
+            "title": "Global statistics",
+            "number": "044",
+            "start": 98.8,
+            "end": 102.7,
+            "text": "And you might want to explain that for 20 minutes and go at the top of your mind."
+        }
+    ]
+}

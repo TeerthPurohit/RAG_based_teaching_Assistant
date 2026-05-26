@@ -1,0 +1,20 @@
+{
+    "title": "Putting it all together_1",
+    "number": "073",
+    "chunks": [
+        {
+            "title": "Putting it all together_1",
+            "number": "073",
+            "start": 0.0,
+            "end": 29.0,
+            "text": "Now you know how to compute daily portfolio values, and from there, important portfolio statistics. The main ones we're going to focus on are cumulative return, average daily return, standard deviation of daily return, or risk, and sharp ratio. These are the key factors most people focus on when evaluating the performance of a portfolio. The assignment associated with this lesson is for you to build a function that can calculate these values automatically."
+        },
+        {
+            "title": "Putting it all together_1",
+            "number": "073",
+            "start": 29.0,
+            "end": 33.0,
+            "text": "You've got what you need to build this, so have at it."
+        }
+    ]
+}

@@ -1,0 +1,131 @@
+{
+    "chunks": [
+        {
+            "number": "035",
+            "title": "Timing python operations",
+            "start": 0.3,
+            "end": 4.0,
+            "text": "We claim that NumPy is fast, very fast."
+        },
+        {
+            "number": "035",
+            "title": "Timing python operations",
+            "start": 4.0,
+            "end": 5.6,
+            "text": "So let's confirm this."
+        },
+        {
+            "number": "035",
+            "title": "Timing python operations",
+            "start": 5.6,
+            "end": 9.7,
+            "text": "But before that, we need to learn how to time a particular operation."
+        },
+        {
+            "number": "035",
+            "title": "Timing python operations",
+            "start": 9.7,
+            "end": 12.5,
+            "text": "We need to import a library for that."
+        },
+        {
+            "number": "035",
+            "title": "Timing python operations",
+            "start": 12.5,
+            "end": 17.2,
+            "text": "We import the time library to help us know how fast our operation is."
+        },
+        {
+            "number": "035",
+            "title": "Timing python operations",
+            "start": 17.2,
+            "end": 20.8,
+            "text": "We use the time function from the imported library."
+        },
+        {
+            "number": "035",
+            "title": "Timing python operations",
+            "start": 20.8,
+            "end": 24.4,
+            "text": "The idea is to capture the time snapshot before the operation and"
+        },
+        {
+            "number": "035",
+            "title": "Timing python operations",
+            "start": 24.4,
+            "end": 28.8,
+            "text": "then again capture the time snapshot after the operation is performed."
+        },
+        {
+            "number": "035",
+            "title": "Timing python operations",
+            "start": 28.8,
+            "end": 31.1,
+            "text": "We then subtract the two times."
+        },
+        {
+            "number": "035",
+            "title": "Timing python operations",
+            "start": 31.1,
+            "end": 32.4,
+            "text": "Simple right?"
+        },
+        {
+            "number": "035",
+            "title": "Timing python operations",
+            "start": 32.4,
+            "end": 34.0,
+            "text": "Let's check the code."
+        },
+        {
+            "number": "035",
+            "title": "Timing python operations",
+            "start": 34.0,
+            "end": 38.2,
+            "text": "Here we will check how much time a Python print statement takes."
+        },
+        {
+            "number": "035",
+            "title": "Timing python operations",
+            "start": 38.2,
+            "end": 41.4,
+            "text": "So we capture the time before the print statement and"
+        },
+        {
+            "number": "035",
+            "title": "Timing python operations",
+            "start": 41.4,
+            "end": 45.1,
+            "text": "then record the time after the print operation is performed."
+        },
+        {
+            "number": "035",
+            "title": "Timing python operations",
+            "start": 45.1,
+            "end": 48.5,
+            "text": "Then finally subtract t2 minus t1."
+        },
+        {
+            "number": "035",
+            "title": "Timing python operations",
+            "start": 48.5,
+            "end": 50.5,
+            "text": "Let's run the code now."
+        },
+        {
+            "number": "035",
+            "title": "Timing python operations",
+            "start": 50.5,
+            "end": 53.7,
+            "text": "Here we get the time taken by a print statement."
+        },
+        {
+            "number": "035",
+            "title": "Timing python operations",
+            "start": 53.7,
+            "end": 55.6,
+            "text": "Oh, the number is really very small."
+        }
+    ],
+    "text": "We claim that NumPy is fast, very fast. So let's confirm this. But before that, we need to learn how to time a particular operation. We need to import a library for that. We import the time library to help us know how fast our operation is. We use the time function from the imported library. The idea is to capture the time snapshot before the operation and then again capture the time snapshot after the operation is performed. We then subtract the two times. Simple right? Let's check the code. Here we will check how much time a Python print statement takes. So we capture the time before the print statement and then record the time after the print operation is performed. Then finally subtract t2 minus t1. Let's run the code now. Here we get the time taken by a print statement. Oh, the number is really very small."
+}

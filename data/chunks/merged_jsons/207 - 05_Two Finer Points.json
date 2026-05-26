@@ -1,0 +1,41 @@
+{
+    "title": "05_Two Finer Points",
+    "number": "207",
+    "chunks": [
+        {
+            "title": "05_Two Finer Points",
+            "number": "207",
+            "start": 0.4,
+            "end": 21.4,
+            "text": "There are two finer points that I wanted to mention about Q-Learning. The first is that the success of Q-Learning depends to some extent, well, to a large extent, on exploration. So we need to explore as much of the state and action space as possible. One way to accomplish this is with randomness."
+        },
+        {
+            "title": "05_Two Finer Points",
+            "number": "207",
+            "start": 21.4,
+            "end": 41.5,
+            "text": "And the way we can interject that fairly easily, in the step of Q-Learning, where we are selecting an action, we flip a coin and randomly decide if we're going to randomly choose an action. So that means really two flips of the coin. The first is, are we going to choose a random action, or"
+        },
+        {
+            "title": "05_Two Finer Points",
+            "number": "207",
+            "start": 41.5,
+            "end": 59.8,
+            "text": "are we just going to pick the action with the highest Q value? Then, if we decide, okay, we're going to choose an action randomly, now we need to flip the coin again to choose which of those actions we're going to select. Typical way to implement this is to set this probability at about 0.3 or"
+        },
+        {
+            "title": "05_Two Finer Points",
+            "number": "207",
+            "start": 59.8,
+            "end": 84.6,
+            "text": "something at the beginning of learning. And then over each iteration to slowly make it smaller and smaller and smaller until eventually we essentially don't choose random actions at all. What we gain here is when we're choosing these random actions fairly frequently, is we're forcing the system to explore and try different actions in different states."
+        },
+        {
+            "title": "05_Two Finer Points",
+            "number": "207",
+            "start": 84.6,
+            "end": 91.3,
+            "text": "And it also causes us to arrive at different states that we might not otherwise arrive at if we didn't try those random actions."
+        }
+    ]
+}

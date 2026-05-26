@@ -1,0 +1,55 @@
+{
+    "title": "Overfitting",
+    "number": "189",
+    "chunks": [
+        {
+            "title": "Overfitting",
+            "number": "189",
+            "start": 0.2,
+            "end": 16.2,
+            "text": "I've mentioned overfitting before, but I haven't yet defined it. Before we could define it and I could give you an example, we needed to have a definition of error. Let me now show you what I mean. Let's consider parameterized polynomial models where we can,"
+        },
+        {
+            "title": "Overfitting",
+            "number": "189",
+            "start": 16.2,
+            "end": 35.1,
+            "text": "one at a time, add additional factors like x, x squared, x cubed, x to the fourth, and so on. Let's create a graph where we have along the horizontal axis degrees of freedom, or d, the degree of our polynomial. And vertically here, we'll have the error of our model."
+        },
+        {
+            "title": "Overfitting",
+            "number": "189",
+            "start": 35.1,
+            "end": 62.4,
+            "text": "So let's measure error as we increase d on our training set. So when d is smallest, our error is greatest. And as we increase d, our error drops and drops and drops. In other words, we're fitting the data in sample better and better. When finally we get to n, where we have as many parameters in our model as we do have"
+        },
+        {
+            "title": "Overfitting",
+            "number": "189",
+            "start": 62.4,
+            "end": 78.5,
+            "text": "items in our data set, our error gets all the way down to zero. This is in sample error. Now let's add a similar line for out of sample error. Remember that we expect our out of sample error to always be greater than or equal to in sample error."
+        },
+        {
+            "title": "Overfitting",
+            "number": "189",
+            "start": 78.5,
+            "end": 97.3,
+            "text": "The curve will look something like this. It'll start out at maximum error about the same as our in sample line. And as we go down, it'll begin to diverge like this. Now in this region, both our in sample and out of sample errors are still decreasing."
+        },
+        {
+            "title": "Overfitting",
+            "number": "189",
+            "start": 97.3,
+            "end": 119.6,
+            "text": "But eventually we'll reach a point where our out of sample error begins to increase. In fact, it may increase strongly. In this area as we increase degrees of freedom, our in sample error is decreasing. But our out of sample error is increasing. And that's how we define overfitting."
+        },
+        {
+            "title": "Overfitting",
+            "number": "189",
+            "start": 119.6,
+            "end": 133.1,
+            "text": "This is the region where overfitting is occurring. So let me state that again. In sample error is decreasing. Out of sample error is increasing. When we have those two together, it's overfitting."
+        }
+    ]
+}

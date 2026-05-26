@@ -1,0 +1,180 @@
+{
+    "chunks": [
+        {
+            "number": "165",
+            "title": "The ML problem",
+            "start": 0.4,
+            "end": 4.7,
+            "text": "Scientists like to talk about the algorithms they build in terms of the"
+        },
+        {
+            "number": "165",
+            "title": "The ML problem",
+            "start": 4.7,
+            "end": 6.9,
+            "text": "problems that they solve."
+        },
+        {
+            "number": "165",
+            "title": "The ML problem",
+            "start": 6.9,
+            "end": 9.6,
+            "text": "So this mini course is about machine learning, and"
+        },
+        {
+            "number": "165",
+            "title": "The ML problem",
+            "start": 9.6,
+            "end": 13.3,
+            "text": "let's think about the problem that machine learning solves."
+        },
+        {
+            "number": "165",
+            "title": "The ML problem",
+            "start": 13.3,
+            "end": 17.7,
+            "text": "In most cases, machine learning algorithms are focused on building a model."
+        },
+        {
+            "number": "165",
+            "title": "The ML problem",
+            "start": 17.7,
+            "end": 19.1,
+            "text": "What's a model?"
+        },
+        {
+            "number": "165",
+            "title": "The ML problem",
+            "start": 19.1,
+            "end": 23.4,
+            "text": "A model is something that takes in observations, like this x here,"
+        },
+        {
+            "number": "165",
+            "title": "The ML problem",
+            "start": 23.4,
+            "end": 27.2,
+            "text": "run it through some sort of process, and provide a y."
+        },
+        {
+            "number": "165",
+            "title": "The ML problem",
+            "start": 27.2,
+            "end": 33.9,
+            "text": "So this y is typically a prediction, and the x is some sort of observation of the world."
+        },
+        {
+            "number": "165",
+            "title": "The ML problem",
+            "start": 33.9,
+            "end": 42.4,
+            "text": "Examples might be, for us, x are some features of stocks, and y is a future price."
+        },
+        {
+            "number": "165",
+            "title": "The ML problem",
+            "start": 42.4,
+            "end": 45.9,
+            "text": "There are many other uses of machine learning models."
+        },
+        {
+            "number": "165",
+            "title": "The ML problem",
+            "start": 45.9,
+            "end": 47.8,
+            "text": "That's just one of them."
+        },
+        {
+            "number": "165",
+            "title": "The ML problem",
+            "start": 47.8,
+            "end": 50.2,
+            "text": "X can be multidimensional."
+        },
+        {
+            "number": "165",
+            "title": "The ML problem",
+            "start": 50.2,
+            "end": 54.6,
+            "text": "In other words, there might be multiple factors that we're considering."
+        },
+        {
+            "number": "165",
+            "title": "The ML problem",
+            "start": 54.6,
+            "end": 59.2,
+            "text": "It might be Bollinger Bands, P-E ratio, and so on."
+        },
+        {
+            "number": "165",
+            "title": "The ML problem",
+            "start": 59.2,
+            "end": 62.6,
+            "text": "Y is typically single dimension, and"
+        },
+        {
+            "number": "165",
+            "title": "The ML problem",
+            "start": 62.6,
+            "end": 66.9,
+            "text": "just represents that single dimension prediction that we're trying to make."
+        },
+        {
+            "number": "165",
+            "title": "The ML problem",
+            "start": 66.9,
+            "end": 71.6,
+            "text": "Now, there are lots of models that people have built that don't use machine learning at all."
+        },
+        {
+            "number": "165",
+            "title": "The ML problem",
+            "start": 71.6,
+            "end": 75.7,
+            "text": "One example is the Black-Scholes model that predicts option prices."
+        },
+        {
+            "number": "165",
+            "title": "The ML problem",
+            "start": 75.7,
+            "end": 82.5,
+            "text": "There are many other types of models that predict things that people build not using"
+        },
+        {
+            "number": "165",
+            "title": "The ML problem",
+            "start": 82.5,
+            "end": 86.6,
+            "text": "machine learning, but they develop mathematical formulas."
+        },
+        {
+            "number": "165",
+            "title": "The ML problem",
+            "start": 86.6,
+            "end": 90.2,
+            "text": "But of course, with machine learning, we're trying to use data."
+        },
+        {
+            "number": "165",
+            "title": "The ML problem",
+            "start": 90.2,
+            "end": 95.2,
+            "text": "So the machine learning process is to take historical data,"
+        },
+        {
+            "number": "165",
+            "title": "The ML problem",
+            "start": 95.2,
+            "end": 100.1,
+            "text": "run it through a machine learning algorithm of some sort to generate the model."
+        },
+        {
+            "number": "165",
+            "title": "The ML problem",
+            "start": 100.1,
+            "end": 107.6,
+            "text": "Then at runtime, or when we need to use the model, we push x's in it and y's come out."
+        }
+    ],
+    "text": "Scientists like to talk about the algorithms they build in terms of the problems that they solve. So this mini course is about machine learning, and let's think about the problem that machine learning solves. In most cases, machine learning algorithms are focused on building a model. What's a model? A model is something that takes in observations, like this x here, run it through some sort of process, and provide a y. So this y is typically a prediction, and the x is some sort of observation of the world. Examples might be, for us, x are some features of stocks, and y is a future price. There are many other uses of machine learning models. That's just one of them. X can be multidimensional. In other words, there might be multiple factors that we're considering. It might be Bollinger Bands, P-E ratio, and so on. Y is typically single dimension, and just represents that single dimension prediction that we're trying to make. Now, there are lots of models that people have built that don't use machine learning at all. One example is the Black-Scholes model that predicts option prices. There are many other types of models that predict things that people build not using machine learning, but they develop mathematical formulas. But of course, with machine learning, we're trying to use data. So the machine learning process is to take historical data, run it through a machine learning algorithm of some sort to generate the model. Then at runtime, or when we need to use the model, we push x's in it and y's come out."
+}

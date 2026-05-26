@@ -1,0 +1,104 @@
+{
+    "title": "How orders get to the exchange",
+    "number": "099",
+    "chunks": [
+        {
+            "title": "How orders get to the exchange",
+            "number": "099",
+            "start": 0.4,
+            "end": 19.4,
+            "text": "We've talked about what orders are, and we've talked about what happens to them when they get to the exchange. Let's talk now about how do the orders get to the exchange from you. Well, here you are with your laptop connected to the internet, and you've just entered an order to buy some stock."
+        },
+        {
+            "title": "How orders get to the exchange",
+            "number": "099",
+            "start": 19.4,
+            "end": 38.2,
+            "text": "Your buy order goes over the internet to your broker. Your broker in turn is connected to several exchanges, and the broker determines where to route your order based on information it knows about the exchanges. Let's suppose the exchanges we're looking at are New York Stock Exchange, NASDAQ, and"
+        },
+        {
+            "title": "How orders get to the exchange",
+            "number": "099",
+            "start": 38.2,
+            "end": 53.6,
+            "text": "BATS. For the stock that you want to buy, each one of these exchanges has its own order book. Your broker has a computer located at each exchange, and it queries the computer, say, hey, look at the order book, tell me what the prices are there."
+        },
+        {
+            "title": "How orders get to the exchange",
+            "number": "099",
+            "start": 53.6,
+            "end": 68.5,
+            "text": "Queries that at all the exchanges. Your broker gathers and examines that information, and based on that, routes your order to the exchange that has the best price. Let's say that's New York Stock Exchange. Your order enters the exchange, gets executed, and"
+        },
+        {
+            "title": "How orders get to the exchange",
+            "number": "099",
+            "start": 68.5,
+            "end": 88.9,
+            "text": "the price comes back to your broker and forwarded back to you, and you get a confirmation. Now, it turns out that because this is happening constantly all the time, there's multiple brokers, hundreds of thousands, millions of people making orders, that the order books at each of these exchanges tends to be pretty similar."
+        },
+        {
+            "title": "How orders get to the exchange",
+            "number": "099",
+            "start": 88.9,
+            "end": 104.8,
+            "text": "In other words, the prices don't differ much between one or another. And it's this sort of pressure that keeps prices the same across these different exchanges. Let's consider another scenario. Suppose there's another client of this same brokerage, Joe, and"
+        },
+        {
+            "title": "How orders get to the exchange",
+            "number": "099",
+            "start": 104.8,
+            "end": 119.2,
+            "text": "that Joe wants to sell some stock. Well, the brokerage can observe, hey, I've got some clients who want to sell, some clients who want to buy. I can just make that exchange internally, and I don't even need to go to the exchanges."
+        },
+        {
+            "title": "How orders get to the exchange",
+            "number": "099",
+            "start": 119.2,
+            "end": 137.5,
+            "text": "This can be advantageous for the broker, because a broker doesn't have to pay, now, fees to the exchanges for this transaction to occur. However, according to the law, both the seller and the buyer have to get prices that are at least as good as they would have gotten if they had gone to an exchange."
+        },
+        {
+            "title": "How orders get to the exchange",
+            "number": "099",
+            "start": 137.5,
+            "end": 155.3,
+            "text": "And eventually, at the end of the day, this transaction has to be registered with one of the exchanges. Usually it's recorded at the exchange where that particular stock is homed. Let's consider one more example. In this case, Lisa also wants to sell some stock, but"
+        },
+        {
+            "title": "How orders get to the exchange",
+            "number": "099",
+            "start": 155.3,
+            "end": 176.1,
+            "text": "she uses a different broker than you do. There's one more kind of entity out there called a dark pool that acts as an intermediary between brokerages and exchanges. So the dark pool is looking at the order books of the various exchanges, and they're often making predictions about which direction stocks are going to go."
+        },
+        {
+            "title": "How orders get to the exchange",
+            "number": "099",
+            "start": 176.1,
+            "end": 194.3,
+            "text": "They actually pay the brokers for the privilege to look at the orders before they go to the exchanges. And if they see an advantageous trade, they'll go ahead and take it. So in this case, this sell might be routed through the dark pool from broker two through to broker one."
+        },
+        {
+            "title": "How orders get to the exchange",
+            "number": "099",
+            "start": 194.3,
+            "end": 219.2,
+            "text": "And again, the transaction never makes it to the exchanges. In fact, these days, 80 to 90% of what they call retail traders' orders never make it to the exchanges. They're either executed internally within a brokerage or filled using a dark pool. The brokerages and the dark pools argue that that's just fine because both partners in"
+        },
+        {
+            "title": "How orders get to the exchange",
+            "number": "099",
+            "start": 219.2,
+            "end": 236.5,
+            "text": "this transaction are getting prices at least as good as they would get at the exchanges and on the order books. But they're saving money because they don't have to pay the exchange fees. We've talked so far about how exchanges work and how the order book facilitates transactions at the exchanges."
+        },
+        {
+            "title": "How orders get to the exchange",
+            "number": "099",
+            "start": 236.5,
+            "end": 266.3,
+            "text": "And we've talked about how orders get to exchanges or not. Now let's take a look at how hedge funds can exploit inefficiencies in this system. א� PHILIP units are holding a exchange fee to theям Symphb 독 Давай blend thefin"
+        }
+    ]
+}

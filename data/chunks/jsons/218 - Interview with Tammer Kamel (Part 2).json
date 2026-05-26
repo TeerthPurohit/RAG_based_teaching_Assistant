@@ -1,0 +1,1650 @@
+{
+    "chunks": [
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 0.0,
+            "end": 5.7,
+            "text": "Hi there, I'm Tucker Balch. I'm here with Tamer Camel. He's founder of Quandl."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 6.6,
+            "end": 11.8,
+            "text": "We're here at QuantCon, which is a conference organized by Quantopian."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 12.2,
+            "end": 17.5,
+            "text": "So I want to talk with you now about your experience advising hedge funds,"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 17.7,
+            "end": 21.9,
+            "text": "or I guess you have some experience actually managing money,"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 22.4,
+            "end": 28.5,
+            "text": "and students in the class are really interested to hear about real live strategies"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 28.5,
+            "end": 32.5,
+            "text": "that succeeded or failed, or what lessons learned."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 32.9,
+            "end": 35.2,
+            "text": "So what is jump diffusion?"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 35.5,
+            "end": 42.4,
+            "text": "The jump diffusion was a model to try and capture the six sigma event."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 43.5,
+            "end": 50.1,
+            "text": "And the idea here was, smart idea, I mean, I can't take credit for it entirely,"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 50.5,
+            "end": 53.3,
+            "text": "but the idea here was if you mix normal distributions"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 53.3,
+            "end": 57.0,
+            "text": "and drew from them at different probabilities."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 57.0,
+            "end": 60.3,
+            "text": "So for example, you had a distribution with volatility of sigma."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 60.6,
+            "end": 64.4,
+            "text": "I think I know what you're talking about, but I just want to review it in case folks there,"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 64.5,
+            "end": 65.2,
+            "text": "so they can follow."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 65.3,
+            "end": 69.8,
+            "text": "So you might have a distribution of returns for one strategy or one stock."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 69.9,
+            "end": 70.0,
+            "text": "Right."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 71.0,
+            "end": 77.2,
+            "text": "And so you're talking about distributions for maybe different strategies or different stocks,"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 77.3,
+            "end": 80.9,
+            "text": "and then potentially combining them in some way."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 81.0,
+            "end": 81.8,
+            "text": "Yeah, so exactly."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 81.9,
+            "end": 84.6,
+            "text": "And everybody assumes those distributions are Gaussian, right?"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 84.6,
+            "end": 86.7,
+            "text": "So the bell curve."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 86.8,
+            "end": 87.0,
+            "text": "Right."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 87.2,
+            "end": 91.0,
+            "text": "And so Gaussian distributions are so delightful to work with, right?"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 91.1,
+            "end": 95.8,
+            "text": "So the problem is they don't, reality has nothing, doesn't intersect with them that much, right?"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 96.2,
+            "end": 101.0,
+            "text": "But one nice thing you can do is you can actually simulate reality a little bit better"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 101.0,
+            "end": 104.3,
+            "text": "if you use not one but two Gaussian distributions."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 104.3,
+            "end": 110.9,
+            "text": "And as your random variable moves, you draw usually from the first normal distribution,"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 111.2,
+            "end": 117.1,
+            "text": "but then with some random probability, you draw from a distribution with a much higher standard deviation,"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 117.5,
+            "end": 120.4,
+            "text": "thus simulating these rare events and creates the fatter tails,"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 120.5,
+            "end": 121.9,
+            "text": "and it's great for risk management."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 122.5,
+            "end": 127.5,
+            "text": "You know, its predictive power is minimal because it's random, so you don't..."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 127.5,
+            "end": 132.1,
+            "text": "But for risk management, it really gives you a much better sense of the fact of fact."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 132.1,
+            "end": 138.8,
+            "text": "So you might have a current portfolio and do some sort of Monte Carlo simulation"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 138.8,
+            "end": 141.0,
+            "text": "to see how risky that portfolio is."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 141.1,
+            "end": 142.3,
+            "text": "Exactly the use case."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 142.5,
+            "end": 142.8,
+            "text": "Gotcha, gotcha."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 142.9,
+            "end": 143.5,
+            "text": "Okay, okay."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 144.0,
+            "end": 148.9,
+            "text": "So in one of your earlier careers, you advised hedge funds."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 148.9,
+            "end": 156.1,
+            "text": "What sorts of strategies did your company generate and advise the hedge funds on?"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 156.5,
+            "end": 163.1,
+            "text": "So I graduated from an engineering program at university in the mid-90s,"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 163.1,
+            "end": 166.3,
+            "text": "and I always called this sort of the golden age of quantitative finance."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 166.4,
+            "end": 171.6,
+            "text": "It was an era when Wall Street was plucking young vulnerable engineers like myself"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 171.6,
+            "end": 175.9,
+            "text": "and having us mathematically model markets."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 175.9,
+            "end": 180.9,
+            "text": "And back then, there was all kinds of really fat opportunities."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 181.6,
+            "end": 183.9,
+            "text": "The first thing we used to do was sort of..."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 183.9,
+            "end": 185.9,
+            "text": "Anybody with a computer could make money, right?"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 186.2,
+            "end": 188.6,
+            "text": "Well, if you could do a bit of math, you really could, right?"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 188.7,
+            "end": 193.3,
+            "text": "The thing we made a lot of money on was yield curve arbitrage."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 193.6,
+            "end": 195.6,
+            "text": "If you did just a little..."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 195.6,
+            "end": 195.9,
+            "text": "Fix income."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 196.0,
+            "end": 196.5,
+            "text": "Fix income."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 196.5,
+            "end": 202.4,
+            "text": "Just model the swap curve, for example, with a two- or three-factor model,"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 202.4,
+            "end": 206.2,
+            "text": "and you would discover, A, that at any given time,"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 206.7,
+            "end": 210.9,
+            "text": "there was some deviation between a sensible-looking yield curve and what was..."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 210.9,
+            "end": 215.4,
+            "text": "So a particular asset would be currently priced in such a way to be contrary"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 215.4,
+            "end": 216.9,
+            "text": "to what the yield curve would..."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 216.9,
+            "end": 221.8,
+            "text": "What it would come down to is it would be mispriced relative to its peers"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 221.8,
+            "end": 223.1,
+            "text": "on that yield curve, right?"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 223.5,
+            "end": 227.2,
+            "text": "And backtesting would tell you, would confirm that time and again,"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 227.7,
+            "end": 231.3,
+            "text": "that anomaly would revert back to something more normal, right?"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 231.3,
+            "end": 236.9,
+            "text": "So you could make a lot of money by taking these reasonably sophisticated yield curve positions"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 236.9,
+            "end": 241.4,
+            "text": "where you were long at two points on the curve and short at two other points on the curve"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 241.4,
+            "end": 243.9,
+            "text": "and you get these funky butterfly kind of trades, right?"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 243.9,
+            "end": 246.1,
+            "text": "But they'd be sort of neutral to the level of the curve"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 246.1,
+            "end": 247.9,
+            "text": "and even neutral to the slope of the curve."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 248.1,
+            "end": 252.7,
+            "text": "But there's these third and fourth factors that would mean revert all the time."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 252.7,
+            "end": 256.4,
+            "text": "So to take a short position in fixed income,"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 256.6,
+            "end": 260.7,
+            "text": "it would have to be a credit swap of some sort?"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 260.8,
+            "end": 261.9,
+            "text": "Or how would you do that?"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 262.2,
+            "end": 263.4,
+            "text": "Many ways you can do that."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 263.9,
+            "end": 265.1,
+            "text": "Credit swap certainly doesn't..."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 265.1,
+            "end": 267.5,
+            "text": "There was no such thing as a credit swap when we were doing this."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 267.7,
+            "end": 270.3,
+            "text": "You could short a government bond,"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 271.1,
+            "end": 272.8,
+            "text": "borrow it and sell it in the repo market."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 272.8,
+            "end": 277.9,
+            "text": "But I just think of, you know, with the way you can trade today electronically,"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 278.7,
+            "end": 281.6,
+            "text": "you never really think about the borrowing and the reselling."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 281.6,
+            "end": 283.1,
+            "text": "We used to worry about that stuff."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 283.3,
+            "end": 284.7,
+            "text": "Yeah, repo rates and all that."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 285.3,
+            "end": 287.5,
+            "text": "That's been abstracted away to some extent, right?"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 287.5,
+            "end": 289.2,
+            "text": "But yeah, that's how we used to do it."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 289.5,
+            "end": 292.1,
+            "text": "So you talked about looking at yield curves."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 293.0,
+            "end": 297.2,
+            "text": "Did you all do anything in equities or was it just primarily the fixed income?"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 297.2,
+            "end": 301.6,
+            "text": "You know, we did also in the 90s,"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 301.8,
+            "end": 309.1,
+            "text": "the Stadarb and even simple pair trades were very effective trading strategies, right?"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 309.1,
+            "end": 312.7,
+            "text": "There was a lot more inter-stock volatility,"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 312.8,
+            "end": 314.7,
+            "text": "a lot less correlation between the stocks,"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 315.2,
+            "end": 317.9,
+            "text": "at least until the late 90s and the crash."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 318.2,
+            "end": 321.8,
+            "text": "And you could even do more sophisticated stuff like the Stadarb stuff"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 321.8,
+            "end": 325.7,
+            "text": "or eigenvalue PCA analysis on stock markets"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 325.7,
+            "end": 327.8,
+            "text": "and do sort of pair trading strategies on these."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 327.9,
+            "end": 329.9,
+            "text": "So a lot of that stuff doesn't work anymore."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 330.1,
+            "end": 330.9,
+            "text": "No, it doesn't."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 332.2,
+            "end": 333.9,
+            "text": "That's why I started a data company."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 334.2,
+            "end": 334.5,
+            "text": "I see."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 334.7,
+            "end": 334.8,
+            "text": "Okay."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 335.6,
+            "end": 338.3,
+            "text": "But anyways, I want to ask,"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 338.4,
+            "end": 343.9,
+            "text": "what do you attribute sort of the evaporation of alpha"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 343.9,
+            "end": 345.8,
+            "text": "in these kinds of approaches?"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 346.1,
+            "end": 349.1,
+            "text": "Yeah, I think there's a lot of interesting things going on, right?"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 349.4,
+            "end": 352.8,
+            "text": "There's no question that the number of participants"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 352.8,
+            "end": 355.7,
+            "text": "executing similar strategies is a factor."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 356.2,
+            "end": 359.3,
+            "text": "Volatility is low these days, right?"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 359.4,
+            "end": 363.9,
+            "text": "And these strategies thrive in high volatility environments, right?"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 364.0,
+            "end": 366.9,
+            "text": "Like the 90s was a much higher volatility environment,"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 367.0,
+            "end": 368.2,
+            "text": "even in a bull market."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 368.8,
+            "end": 370.6,
+            "text": "The other biggest advantage we had in the 90s"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 370.6,
+            "end": 373.1,
+            "text": "was the phenomenon of the day trader,"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 373.6,
+            "end": 375.9,
+            "text": "which was, for lack of a better term,"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 376.0,
+            "end": 377.8,
+            "text": "incompetent trading, right?"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 377.8,
+            "end": 379.9,
+            "text": "Which would create all kinds of wacky situations."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 380.8,
+            "end": 383.2,
+            "text": "If the day traders woke up on a Tuesday morning"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 383.2,
+            "end": 385.2,
+            "text": "and they were all in love with eBay, for example,"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 385.3,
+            "end": 386.9,
+            "text": "then everybody just went and bought that"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 386.9,
+            "end": 390.9,
+            "text": "and it would just create a mispricing in eBay, right?"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 391.3,
+            "end": 395.7,
+            "text": "But when you don't have irrational actors in the marketplace,"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 396.0,
+            "end": 397.9,
+            "text": "it makes these relative value pair trades are harder to get."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 397.9,
+            "end": 398.7,
+            "text": "I guess at that time,"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 398.8,
+            "end": 403.4,
+            "text": "maybe the day traders were a higher percentage of the volume, right?"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 403.4,
+            "end": 407.7,
+            "text": "It was definitely a large fraction of the volume,"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 407.7,
+            "end": 409.0,
+            "text": "or a meaningful fraction of the volume."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 409.0,
+            "end": 410.0,
+            "text": "Taking food from children's maths."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 410.7,
+            "end": 411.3,
+            "text": "Yes."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 412.9,
+            "end": 418.9,
+            "text": "So if someone were some young whippersnapper wants to go out"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 418.9,
+            "end": 422.1,
+            "text": "and start creating some kind of systematic strategy,"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 422.7,
+            "end": 426.3,
+            "text": "is there any alpha left out there?"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 426.7,
+            "end": 430.1,
+            "text": "Or where should somebody like that start?"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 430.5,
+            "end": 432.8,
+            "text": "Oh, I'm sure there's all kinds of alpha to be had."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 432.8,
+            "end": 433.9,
+            "text": "It's just you have to,"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 435.0,
+            "end": 436.8,
+            "text": "don't look in the same old places"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 436.8,
+            "end": 439.2,
+            "text": "because everybody's been there and there's only,"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 439.6,
+            "end": 440.7,
+            "text": "but you know,"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 440.8,
+            "end": 445.5,
+            "text": "I think there's all kinds of opportunities"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 445.5,
+            "end": 448.3,
+            "text": "if you find new information sources."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 448.8,
+            "end": 452.3,
+            "text": "You hear great stories about little creative ideas"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 452.3,
+            "end": 455.6,
+            "text": "where you pay someone sitting in China"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 455.6,
+            "end": 457.9,
+            "text": "to count trucks coming out of a factory, right?"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 457.9,
+            "end": 458.8,
+            "text": "You heard this one,"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 458.8,
+            "end": 463.2,
+            "text": "and then you just get a sense of how production is going for that company."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 463.2,
+            "end": 466.7,
+            "text": "Very simple little information advantage, right?"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 466.9,
+            "end": 468.6,
+            "text": "Mechanical Turk-like sorts of things."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 468.6,
+            "end": 468.7,
+            "text": "Yeah."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 468.7,
+            "end": 468.8,
+            "text": "Yeah."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 468.8,
+            "end": 469.2,
+            "text": "Yeah."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 469.2,
+            "end": 470.6,
+            "text": "There's all kinds of things you can do like that."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 470.7,
+            "end": 471.8,
+            "text": "So I think that's fascinating."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 471.8,
+            "end": 475.0,
+            "text": "One thing I would say to sort of reinforce"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 475.0,
+            "end": 477.0,
+            "text": "the kind of thing that Quantil can offer"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 477.0,
+            "end": 481.0,
+            "text": "is we often find that the combination"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 481.0,
+            "end": 484.2,
+            "text": "of different data sources adds value."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 484.4,
+            "end": 485.8,
+            "text": "So as an example,"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 486.4,
+            "end": 487.2,
+            "text": "maybe it was simplified."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 487.8,
+            "end": 488.7,
+            "text": "Back in the 90s,"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 489.1,
+            "end": 491.1,
+            "text": "a strategy, say,"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 491.2,
+            "end": 494.5,
+            "text": "based on Bollinger bands might have worked."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 494.8,
+            "end": 495.0,
+            "text": "You know,"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 495.1,
+            "end": 496.7,
+            "text": "when you hit the top,"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 496.8,
+            "end": 498.0,
+            "text": "that could be a sell signal."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 498.0,
+            "end": 498.6,
+            "text": "Nowadays,"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 498.9,
+            "end": 499.8,
+            "text": "that just by itself,"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 500.1,
+            "end": 501.4,
+            "text": "it doesn't work."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 502.9,
+            "end": 505.9,
+            "text": "But a combination of multiple technical indicators"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 505.9,
+            "end": 508.5,
+            "text": "plus some fundamental data,"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 508.8,
+            "end": 509.7,
+            "text": "putting all those together"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 509.7,
+            "end": 514.1,
+            "text": "instead of just a simple single factor model can work."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 514.2,
+            "end": 514.3,
+            "text": "Yeah."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 514.4,
+            "end": 514.9,
+            "text": "No, I think so."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 515.3,
+            "end": 518.6,
+            "text": "I sort of have three rules of thumb"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 518.6,
+            "end": 520.4,
+            "text": "for building quantitative strategies these days."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 520.5,
+            "end": 522.4,
+            "text": "I think one should look"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 522.4,
+            "end": 525.0,
+            "text": "for theoretically sound ideas."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 525.0,
+            "end": 529.7,
+            "text": "So don't bet on black box neural net kind of things"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 529.7,
+            "end": 531.1,
+            "text": "because they always fall down, right?"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 531.4,
+            "end": 533.6,
+            "text": "But if something makes theoretical sense"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 533.6,
+            "end": 535.6,
+            "text": "in an economics or financial sense,"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 535.7,
+            "end": 537.9,
+            "text": "it's a good chance you're onto something."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 538.0,
+            "end": 541.2,
+            "text": "So it's a good intuitive story to start with."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 541.4,
+            "end": 542.0,
+            "text": "Exactly."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 542.1,
+            "end": 543.6,
+            "text": "It actually should make sense"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 543.6,
+            "end": 545.2,
+            "text": "on a whiteboard to start with, right?"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 546.0,
+            "end": 548.9,
+            "text": "Grounded in some of the fundamental principles"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 548.9,
+            "end": 550.9,
+            "text": "that we know govern financial markets"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 550.9,
+            "end": 551.6,
+            "text": "and economics, right?"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 551.9,
+            "end": 554.2,
+            "text": "Number two is empirically test it, right?"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 554.2,
+            "end": 556.2,
+            "text": "So build something that's theoretically sound"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 556.2,
+            "end": 558.6,
+            "text": "and then show yourself empirically with data"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 558.6,
+            "end": 559.6,
+            "text": "that this thing works."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 560.0,
+            "end": 562.5,
+            "text": "And then the final thing is be scared of complexity."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 562.8,
+            "end": 565.2,
+            "text": "If it doesn't stay simple, it's a warning sign."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 565.3,
+            "end": 567.7,
+            "text": "You're probably overfitting"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 567.7,
+            "end": 570.7,
+            "text": "and getting yourself into a trap."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 571.0,
+            "end": 572.6,
+            "text": "But if you devise a strategy"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 572.6,
+            "end": 573.8,
+            "text": "that ticks these three boxes,"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 574.0,
+            "end": 576.1,
+            "text": "that it's sort of theoretically sound,"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 576.2,
+            "end": 578.4,
+            "text": "empirically testable, and still simple,"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 578.6,
+            "end": 580.9,
+            "text": "you're probably on the right track."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 580.9,
+            "end": 583.0,
+            "text": "Yeah, that's great."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 583.2,
+            "end": 584.6,
+            "text": "I'm in total agreement with you."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 584.7,
+            "end": 586.6,
+            "text": "So one last question."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 587.7,
+            "end": 589.5,
+            "text": "So we've talked about things to do"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 589.5,
+            "end": 591.3,
+            "text": "or how to attack it."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 591.5,
+            "end": 593.3,
+            "text": "What should people run from?"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 593.5,
+            "end": 595.5,
+            "text": "What should they be scared of?"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 595.7,
+            "end": 598.7,
+            "text": "Look, I think the single biggest trap,"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 598.9,
+            "end": 600.7,
+            "text": "and I fall into this thing myself, right,"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 600.8,
+            "end": 603.3,
+            "text": "is if you find yourself calibrating"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 603.3,
+            "end": 605.9,
+            "text": "the same model on the same data iteratively"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 605.9,
+            "end": 609.1,
+            "text": "and you calibrate it, it doesn't quite work,"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 609.2,
+            "end": 610.4,
+            "text": "and then you turn a few knobs"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 610.4,
+            "end": 611.3,
+            "text": "and it doesn't quite work,"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 611.3,
+            "end": 613.3,
+            "text": "and then the eighth time you finally turn the knobs"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 613.3,
+            "end": 614.8,
+            "text": "just right and it's working,"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 615.6,
+            "end": 617.6,
+            "text": "odds are you've just curve-fitted, right?"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 617.9,
+            "end": 620.2,
+            "text": "Don't fall into that trap"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 620.2,
+            "end": 623.0,
+            "text": "of endlessly iterating on the same data"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 623.0,
+            "end": 625.6,
+            "text": "because you're in for unpleasant surprises"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 625.6,
+            "end": 628.9,
+            "text": "once you get into out-of-sample data."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 629.7,
+            "end": 630.2,
+            "text": "Great."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 630.2,
+            "end": 633.9,
+            "text": "You're totally going to reinforce"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 633.9,
+            "end": 634.9,
+            "text": "the things I say in the class,"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 635.0,
+            "end": 636.4,
+            "text": "so that's awesome."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 636.8,
+            "end": 637.8,
+            "text": "But they don't believe it"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 637.8,
+            "end": 639.5,
+            "text": "when they hear it just from me."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 639.6,
+            "end": 640.0,
+            "text": "Trust me."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 640.1,
+            "end": 641.1,
+            "text": "I've lost a lot of money."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 642.2,
+            "end": 642.6,
+            "text": "Cool."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 642.8,
+            "end": 643.0,
+            "text": "Okay."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 643.4,
+            "end": 644.2,
+            "text": "Well, that's it."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 644.4,
+            "end": 644.8,
+            "text": "Fantastic."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 645.0,
+            "end": 645.4,
+            "text": "Great interview."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 645.6,
+            "end": 646.7,
+            "text": "Thanks so much for your time, Tamron."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 646.7,
+            "end": 647.5,
+            "text": "Pleasure was mine, Tucker."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 647.6,
+            "end": 647.9,
+            "text": "Thank you."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 648.3,
+            "end": 650.4,
+            "text": "And I hope you all enjoyed it,"
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 650.8,
+            "end": 652.5,
+            "text": "and I'll see you online."
+        },
+        {
+            "number": "218",
+            "title": "Interview with Tammer Kamel (Part 2)",
+            "start": 652.6,
+            "end": 652.9,
+            "text": "So long."
+        }
+    ],
+    "text": "Hi there, I'm Tucker Balch. I'm here with Tamer Camel. He's founder of Quandl. We're here at QuantCon, which is a conference organized by Quantopian. So I want to talk with you now about your experience advising hedge funds, or I guess you have some experience actually managing money, and students in the class are really interested to hear about real live strategies that succeeded or failed, or what lessons learned. So what is jump diffusion? The jump diffusion was a model to try and capture the six sigma event. And the idea here was, smart idea, I mean, I can't take credit for it entirely, but the idea here was if you mix normal distributions and drew from them at different probabilities. So for example, you had a distribution with volatility of sigma. I think I know what you're talking about, but I just want to review it in case folks there, so they can follow. So you might have a distribution of returns for one strategy or one stock. Right. And so you're talking about distributions for maybe different strategies or different stocks, and then potentially combining them in some way. Yeah, so exactly. And everybody assumes those distributions are Gaussian, right? So the bell curve. Right. And so Gaussian distributions are so delightful to work with, right? So the problem is they don't, reality has nothing, doesn't intersect with them that much, right? But one nice thing you can do is you can actually simulate reality a little bit better if you use not one but two Gaussian distributions. And as your random variable moves, you draw usually from the first normal distribution, but then with some random probability, you draw from a distribution with a much higher standard deviation, thus simulating these rare events and creates the fatter tails, and it's great for risk management. You know, its predictive power is minimal because it's random, so you don't... But for risk management, it really gives you a much better sense of the fact of fact. So you might have a current portfolio and do some sort of Monte Carlo simulation to see how risky that portfolio is. Exactly the use case. Gotcha, gotcha. Okay, okay. So in one of your earlier careers, you advised hedge funds. What sorts of strategies did your company generate and advise the hedge funds on? So I graduated from an engineering program at university in the mid-90s, and I always called this sort of the golden age of quantitative finance. It was an era when Wall Street was plucking young vulnerable engineers like myself and having us mathematically model markets. And back then, there was all kinds of really fat opportunities. The first thing we used to do was sort of... Anybody with a computer could make money, right? Well, if you could do a bit of math, you really could, right? The thing we made a lot of money on was yield curve arbitrage. If you did just a little... Fix income. Fix income. Just model the swap curve, for example, with a two- or three-factor model, and you would discover, A, that at any given time, there was some deviation between a sensible-looking yield curve and what was... So a particular asset would be currently priced in such a way to be contrary to what the yield curve would... What it would come down to is it would be mispriced relative to its peers on that yield curve, right? And backtesting would tell you, would confirm that time and again, that anomaly would revert back to something more normal, right? So you could make a lot of money by taking these reasonably sophisticated yield curve positions where you were long at two points on the curve and short at two other points on the curve and you get these funky butterfly kind of trades, right? But they'd be sort of neutral to the level of the curve and even neutral to the slope of the curve. But there's these third and fourth factors that would mean revert all the time. So to take a short position in fixed income, it would have to be a credit swap of some sort? Or how would you do that? Many ways you can do that. Credit swap certainly doesn't... There was no such thing as a credit swap when we were doing this. You could short a government bond, borrow it and sell it in the repo market. But I just think of, you know, with the way you can trade today electronically, you never really think about the borrowing and the reselling. We used to worry about that stuff. Yeah, repo rates and all that. That's been abstracted away to some extent, right? But yeah, that's how we used to do it. So you talked about looking at yield curves. Did you all do anything in equities or was it just primarily the fixed income? You know, we did also in the 90s, the Stadarb and even simple pair trades were very effective trading strategies, right? There was a lot more inter-stock volatility, a lot less correlation between the stocks, at least until the late 90s and the crash. And you could even do more sophisticated stuff like the Stadarb stuff or eigenvalue PCA analysis on stock markets and do sort of pair trading strategies on these. So a lot of that stuff doesn't work anymore. No, it doesn't. That's why I started a data company. I see. Okay. But anyways, I want to ask, what do you attribute sort of the evaporation of alpha in these kinds of approaches? Yeah, I think there's a lot of interesting things going on, right? There's no question that the number of participants executing similar strategies is a factor. Volatility is low these days, right? And these strategies thrive in high volatility environments, right? Like the 90s was a much higher volatility environment, even in a bull market. The other biggest advantage we had in the 90s was the phenomenon of the day trader, which was, for lack of a better term, incompetent trading, right? Which would create all kinds of wacky situations. If the day traders woke up on a Tuesday morning and they were all in love with eBay, for example, then everybody just went and bought that and it would just create a mispricing in eBay, right? But when you don't have irrational actors in the marketplace, it makes these relative value pair trades are harder to get. I guess at that time, maybe the day traders were a higher percentage of the volume, right? It was definitely a large fraction of the volume, or a meaningful fraction of the volume. Taking food from children's maths. Yes. So if someone were some young whippersnapper wants to go out and start creating some kind of systematic strategy, is there any alpha left out there? Or where should somebody like that start? Oh, I'm sure there's all kinds of alpha to be had. It's just you have to, don't look in the same old places because everybody's been there and there's only, but you know, I think there's all kinds of opportunities if you find new information sources. You hear great stories about little creative ideas where you pay someone sitting in China to count trucks coming out of a factory, right? You heard this one, and then you just get a sense of how production is going for that company. Very simple little information advantage, right? Mechanical Turk-like sorts of things. Yeah. Yeah. Yeah. There's all kinds of things you can do like that. So I think that's fascinating. One thing I would say to sort of reinforce the kind of thing that Quantil can offer is we often find that the combination of different data sources adds value. So as an example, maybe it was simplified. Back in the 90s, a strategy, say, based on Bollinger bands might have worked. You know, when you hit the top, that could be a sell signal. Nowadays, that just by itself, it doesn't work. But a combination of multiple technical indicators plus some fundamental data, putting all those together instead of just a simple single factor model can work. Yeah. No, I think so. I sort of have three rules of thumb for building quantitative strategies these days. I think one should look for theoretically sound ideas. So don't bet on black box neural net kind of things because they always fall down, right? But if something makes theoretical sense in an economics or financial sense, it's a good chance you're onto something. So it's a good intuitive story to start with. Exactly. It actually should make sense on a whiteboard to start with, right? Grounded in some of the fundamental principles that we know govern financial markets and economics, right? Number two is empirically test it, right? So build something that's theoretically sound and then show yourself empirically with data that this thing works. And then the final thing is be scared of complexity. If it doesn't stay simple, it's a warning sign. You're probably overfitting and getting yourself into a trap. But if you devise a strategy that ticks these three boxes, that it's sort of theoretically sound, empirically testable, and still simple, you're probably on the right track. Yeah, that's great. I'm in total agreement with you. So one last question. So we've talked about things to do or how to attack it. What should people run from? What should they be scared of? Look, I think the single biggest trap, and I fall into this thing myself, right, is if you find yourself calibrating the same model on the same data iteratively and you calibrate it, it doesn't quite work, and then you turn a few knobs and it doesn't quite work, and then the eighth time you finally turn the knobs just right and it's working, odds are you've just curve-fitted, right? Don't fall into that trap of endlessly iterating on the same data because you're in for unpleasant surprises once you get into out-of-sample data. Great. You're totally going to reinforce the things I say in the class, so that's awesome. But they don't believe it when they hear it just from me. Trust me. I've lost a lot of money. Cool. Okay. Well, that's it. Fantastic. Great interview. Thanks so much for your time, Tamron. Pleasure was mine, Tucker. Thank you. And I hope you all enjoyed it, and I'll see you online. So long."
+}

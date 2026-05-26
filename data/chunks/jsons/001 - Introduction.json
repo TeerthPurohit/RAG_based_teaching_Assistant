@@ -1,0 +1,145 @@
+{
+    "chunks": [
+        {
+            "number": "001",
+            "title": "Introduction",
+            "start": 0.0,
+            "end": 4.8,
+            "text": "Hi there, I'm Tucker Balch. I'm a professor at Georgia Tech and I'm the instructor for this course."
+        },
+        {
+            "number": "001",
+            "title": "Introduction",
+            "start": 5.3,
+            "end": 9.8,
+            "text": "Hi, I'm Dev Priyadave, a graduate student at Georgia Tech. You can call me Dave."
+        },
+        {
+            "number": "001",
+            "title": "Introduction",
+            "start": 10.4,
+            "end": 18.4,
+            "text": "My original research was about machine learning for robotics, but in 2007 I became interested in using these same algorithms for investing."
+        },
+        {
+            "number": "001",
+            "title": "Introduction",
+            "start": 19.2,
+            "end": 22.6,
+            "text": "Since that time I've shifted my research and teaching towards finance."
+        },
+        {
+            "number": "001",
+            "title": "Introduction",
+            "start": 22.9,
+            "end": 26.6,
+            "text": "I also co-founded a financial technology company called Lucena Research."
+        },
+        {
+            "number": "001",
+            "title": "Introduction",
+            "start": 26.6,
+            "end": 32.3,
+            "text": "I'm a graduate student who's been working with professors to build a predictive system for stock market."
+        },
+        {
+            "number": "001",
+            "title": "Introduction",
+            "start": 32.6,
+            "end": 35.3,
+            "text": "I'm also working on the software to support this course."
+        },
+        {
+            "number": "001",
+            "title": "Introduction",
+            "start": 35.8,
+            "end": 39.8,
+            "text": "You're going to see a lot of Dave in this course. She makes a lot of things happen behind the scenes."
+        },
+        {
+            "number": "001",
+            "title": "Introduction",
+            "start": 40.2,
+            "end": 45.0,
+            "text": "Now, Dave, I'm thinking about buying Apple stock. Do you think I should do it?"
+        },
+        {
+            "number": "001",
+            "title": "Introduction",
+            "start": 45.6,
+            "end": 49.4,
+            "text": "Well, it depends on a lot of factors. What are the other stocks in your portfolio?"
+        },
+        {
+            "number": "001",
+            "title": "Introduction",
+            "start": 49.8,
+            "end": 54.7,
+            "text": "What do you think will predict stock prices? Also, how much risk do you think you can take it on?"
+        },
+        {
+            "number": "001",
+            "title": "Introduction",
+            "start": 54.7,
+            "end": 63.4,
+            "text": "So those are all good questions, and Dave is exactly right. We need to consider all of those things before we make an investment."
+        },
+        {
+            "number": "001",
+            "title": "Introduction",
+            "start": 64.1,
+            "end": 66.9,
+            "text": "Now, in this course we're going to cover a lot of these issues."
+        },
+        {
+            "number": "001",
+            "title": "Introduction",
+            "start": 67.3,
+            "end": 71.3,
+            "text": "We're going to show you how information influences the movement of a stock price,"
+        },
+        {
+            "number": "001",
+            "title": "Introduction",
+            "start": 72.0,
+            "end": 75.4,
+            "text": "how to build software to analyze and visualize these relationships,"
+        },
+        {
+            "number": "001",
+            "title": "Introduction",
+            "start": 76.0,
+            "end": 78.5,
+            "text": "and details about how the stock exchanges work."
+        },
+        {
+            "number": "001",
+            "title": "Introduction",
+            "start": 78.5,
+            "end": 84.1,
+            "text": "Finally, in the last section of this course, we're going to show you how to build machine learning algorithms"
+        },
+        {
+            "number": "001",
+            "title": "Introduction",
+            "start": 84.1,
+            "end": 86.9,
+            "text": "that you can use to build real trading strategies."
+        },
+        {
+            "number": "001",
+            "title": "Introduction",
+            "start": 87.9,
+            "end": 89.8,
+            "text": "Now, let's get started."
+        },
+        {
+            "number": "001",
+            "title": "Introduction",
+            "start": 90.0,
+            "end": 90.7,
+            "text": "Let's do it."
+        }
+    ],
+    "text": "Hi there, I'm Tucker Balch. I'm a professor at Georgia Tech and I'm the instructor for this course. Hi, I'm Dev Priyadave, a graduate student at Georgia Tech. You can call me Dave. My original research was about machine learning for robotics, but in 2007 I became interested in using these same algorithms for investing. Since that time I've shifted my research and teaching towards finance. I also co-founded a financial technology company called Lucena Research. I'm a graduate student who's been working with professors to build a predictive system for stock market. I'm also working on the software to support this course. You're going to see a lot of Dave in this course. She makes a lot of things happen behind the scenes. Now, Dave, I'm thinking about buying Apple stock. Do you think I should do it? Well, it depends on a lot of factors. What are the other stocks in your portfolio? What do you think will predict stock prices? Also, how much risk do you think you can take it on? So those are all good questions, and Dave is exactly right. We need to consider all of those things before we make an investment. Now, in this course we're going to cover a lot of these issues. We're going to show you how information influences the movement of a stock price, how to build software to analyze and visualize these relationships, and details about how the stock exchanges work. Finally, in the last section of this course, we're going to show you how to build machine learning algorithms that you can use to build real trading strategies. Now, let's get started. Let's do it."
+}

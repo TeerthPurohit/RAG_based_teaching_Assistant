@@ -1,0 +1,104 @@
+{
+    "title": "Scatterplots in python_1",
+    "number": "065",
+    "chunks": [
+        {
+            "title": "Scatterplots in python_1",
+            "number": "065",
+            "start": 0.4,
+            "end": 16.6,
+            "text": "Thank you professor. So I'm back with more Python and more graphs. This time, let's scatter some data. I mean, let's learn how to build a scatter plot. We will compare scatter plot of SPY versus XORM and SPY versus GOLD."
+        },
+        {
+            "title": "Scatterplots in python_1",
+            "number": "065",
+            "start": 16.6,
+            "end": 39.0,
+            "text": "So let's read this data and compute daily returns as well. As usual, we call get data function with this symbols and also compute daily returns. Next, we first plot scatter plot for SPY versus XORM. Kind parameter of the plot function of the data frame will help us achieve this."
+        },
+        {
+            "title": "Scatterplots in python_1",
+            "number": "065",
+            "start": 39.0,
+            "end": 59.0,
+            "text": "So we mentioned we need a scatter plot. But since the data frame daily return has values for three stocks, we have to mention which should be our x axis and which should be our y axis. As we are plotting SPY versus XORM, we assign X attribute as SPY and Y attribute as XORM."
+        },
+        {
+            "title": "Scatterplots in python_1",
+            "number": "065",
+            "start": 59.0,
+            "end": 77.9,
+            "text": "Ready to see the output? This is our SPY versus XORM. Now let's similarly plot SPY versus GOLD. Since we want GOLD on our y axis, we just replace the Y label from XORM to GOLD. So here are two scatter plots."
+        },
+        {
+            "title": "Scatterplots in python_1",
+            "number": "065",
+            "start": 77.9,
+            "end": 93.3,
+            "text": "SPY versus XORM and SPY versus GOLD. But we want to recreate the graph that professor drew. So we fit a line to this scatter plots. For that, we need a help of another good friend of ours, which is NumPy. So let's import it."
+        },
+        {
+            "title": "Scatterplots in python_1",
+            "number": "065",
+            "start": 93.3,
+            "end": 113.9,
+            "text": "After importing the NumPy library, we are all set to fit a line to our scatter plot. So we have a set of points and we want a line which has an equation of degree one. So we go ahead and fit a polynomial of degree one. This is what polyfit function of the NumPy does. So let's use it."
+        },
+        {
+            "title": "Scatterplots in python_1",
+            "number": "065",
+            "start": 113.9,
+            "end": 133.5,
+            "text": "We will first do it for SPY and XORM. The polyfit function needs x coordinates and y coordinates to fit a line. For us, the x coordinates are the daily return values for SPY and the y coordinates are daily return values for the XORM. The one denotes the degree of our function."
+        },
+        {
+            "title": "Scatterplots in python_1",
+            "number": "065",
+            "start": 133.5,
+            "end": 156.3,
+            "text": "Calling this function will return two things. The first is the polynomial coefficient and the second is the intercept. Since we have a polynomial of degree one, it would be of the form y is equal to mx plus b. So m is the coefficient and b is the intercept. We named them as beta and alpha, just as Professor explained."
+        },
+        {
+            "title": "Scatterplots in python_1",
+            "number": "065",
+            "start": 156.3,
+            "end": 179.4,
+            "text": "Now we finally plot these values. The idea for plotting the line is, for every value of x, that is SPY, we find a value of y using the line equation, which is mx plus b. This parameter denotes that we want a line plot with a color red. Now let's check our graph."
+        },
+        {
+            "title": "Scatterplots in python_1",
+            "number": "065",
+            "start": 179.4,
+            "end": 201.6,
+            "text": "Here is the fitted line. Now let's do it for gold, so that we can compare them both. We also print the beta and the alpha values for each. Now let's compare the beta values, which shows how the stock moves with respect to SPY. You can see that the beta values for the x-om is greater as compared to that of gold,"
+        },
+        {
+            "title": "Scatterplots in python_1",
+            "number": "065",
+            "start": 201.6,
+            "end": 224.1,
+            "text": "which means that x-om is more reactive to market as compared to gold. On the other hand, the alpha values denote how well it performed with respect to SPY. Numbers over here say that gold performed better. Let's cross check. You can see the upward movement of the gold as compared to the SPY."
+        },
+        {
+            "title": "Scatterplots in python_1",
+            "number": "065",
+            "start": 224.1,
+            "end": 242.3,
+            "text": "One last thing is to find the correlation. Yet again, the data frame has a function CORR, which means correlation. And we can define which method to use. We use the method Pearson. It is the most commonly used method to calculate the correlation."
+        },
+        {
+            "title": "Scatterplots in python_1",
+            "number": "065",
+            "start": 242.3,
+            "end": 263.7,
+            "text": "There are other methods as well. Check the instructor's note for more detail. We get the output in the matrix format with correlation of each column with each other column. You can see that the SPY and the x-om are highly correlated. The value of the correlation for gold and SPY is very small."
+        },
+        {
+            "title": "Scatterplots in python_1",
+            "number": "065",
+            "start": 263.7,
+            "end": 284.5,
+            "text": "Let's check the graph. You can observe that the dots do not fit the line closely. And that's why the correlation value for the SPY versus gold is less as compared to SPY versus exome. For more information on data frame scatterplot and polyfit, check the link in the instructor's notes."
+        }
+    ]
+}

@@ -1,0 +1,138 @@
+{
+    "chunks": [
+        {
+            "number": "214",
+            "title": "Learning T",
+            "start": 0.4,
+            "end": 5.5,
+            "text": "So what I'm about to show you are my methods for doing these things."
+        },
+        {
+            "number": "214",
+            "title": "Learning T",
+            "start": 5.5,
+            "end": 10.4,
+            "text": "They may not correspond exactly to what Rich Sutton did, so keep that in mind."
+        },
+        {
+            "number": "214",
+            "title": "Learning T",
+            "start": 10.4,
+            "end": 15.6,
+            "text": "But I've used these methods in practice and found them to work really well."
+        },
+        {
+            "number": "214",
+            "title": "Learning T",
+            "start": 15.6,
+            "end": 17.9,
+            "text": "Let's start with learning T."
+        },
+        {
+            "number": "214",
+            "title": "Learning T",
+            "start": 17.9,
+            "end": 25.0,
+            "text": "Remember, T of s, a, s prime represents the probability that if we are in state"
+        },
+        {
+            "number": "214",
+            "title": "Learning T",
+            "start": 25.0,
+            "end": 29.8,
+            "text": "s, take action a, we will end up in state s prime."
+        },
+        {
+            "number": "214",
+            "title": "Learning T",
+            "start": 29.8,
+            "end": 35.5,
+            "text": "To learn a model of T, we're just going to observe how these transitions occur."
+        },
+        {
+            "number": "214",
+            "title": "Learning T",
+            "start": 35.5,
+            "end": 39.6,
+            "text": "So in other words, we'll have an experience with the real world."
+        },
+        {
+            "number": "214",
+            "title": "Learning T",
+            "start": 39.6,
+            "end": 46.9,
+            "text": "We'll get back an s, a, s prime, and we'll just count how many times did it happen."
+        },
+        {
+            "number": "214",
+            "title": "Learning T",
+            "start": 46.9,
+            "end": 53.9,
+            "text": "So I'm going to introduce a new table I call t count or tc, and it goes like this."
+        },
+        {
+            "number": "214",
+            "title": "Learning T",
+            "start": 53.9,
+            "end": 61.2,
+            "text": "So we initialize all of our t count values to be a very, very small number."
+        },
+        {
+            "number": "214",
+            "title": "Learning T",
+            "start": 61.2,
+            "end": 65.5,
+            "text": "The reason for that is later on, you'll see that if we don't do that,"
+        },
+        {
+            "number": "214",
+            "title": "Learning T",
+            "start": 65.5,
+            "end": 68.4,
+            "text": "we could get in a situation where we have a divide by zero."
+        },
+        {
+            "number": "214",
+            "title": "Learning T",
+            "start": 68.4,
+            "end": 70.9,
+            "text": "Then we begin executing Q learning."
+        },
+        {
+            "number": "214",
+            "title": "Learning T",
+            "start": 70.9,
+            "end": 77.0,
+            "text": "And each time we interact with the real world, we observe s, a, and s prime."
+        },
+        {
+            "number": "214",
+            "title": "Learning T",
+            "start": 77.0,
+            "end": 84.6,
+            "text": "And then we just increment that location in our t count matrix."
+        },
+        {
+            "number": "214",
+            "title": "Learning T",
+            "start": 84.6,
+            "end": 91.9,
+            "text": "So every time we see a transition from s to s prime with action a, boom, we add a one."
+        },
+        {
+            "number": "214",
+            "title": "Learning T",
+            "start": 91.9,
+            "end": 93.5,
+            "text": "And that's pretty simple."
+        },
+        {
+            "number": "214",
+            "title": "Learning T",
+            "start": 93.5,
+            "end": 93.9,
+            "text": "That's it."
+        }
+    ],
+    "text": "So what I'm about to show you are my methods for doing these things. They may not correspond exactly to what Rich Sutton did, so keep that in mind. But I've used these methods in practice and found them to work really well. Let's start with learning T. Remember, T of s, a, s prime represents the probability that if we are in state s, take action a, we will end up in state s prime. To learn a model of T, we're just going to observe how these transitions occur. So in other words, we'll have an experience with the real world. We'll get back an s, a, s prime, and we'll just count how many times did it happen. So I'm going to introduce a new table I call t count or tc, and it goes like this. So we initialize all of our t count values to be a very, very small number. The reason for that is later on, you'll see that if we don't do that, we could get in a situation where we have a divide by zero. Then we begin executing Q learning. And each time we interact with the real world, we observe s, a, and s prime. And then we just increment that location in our t count matrix. So every time we see a transition from s to s prime with action a, boom, we add a one. And that's pretty simple. That's it."
+}

@@ -1,0 +1,132 @@
+{
+    "title": "Interview with Tammer Kamel (Part 1)",
+    "number": "217",
+    "chunks": [
+        {
+            "title": "Interview with Tammer Kamel (Part 1)",
+            "number": "217",
+            "start": 0.0,
+            "end": 33.8,
+            "text": "I'm Tucker Balch. We're here with Tamra Kamel, founder of Quandl. We're going to dive now into details about how the Quandl platform works. So let's start with sort of a big picture. Imagine I'm a hedge fund and I'm interested in working with Quandl. How does Quandl fit into my workflow? Right. So in any hedge fund where quantitative thinking is some or part of the investment strategy, then at the very start of that process is good high quality data."
+        },
+        {
+            "title": "Interview with Tammer Kamel (Part 1)",
+            "number": "217",
+            "start": 33.8,
+            "end": 62.8,
+            "text": "And that's where Quandl starts and finishes in a sense. We view it as our mission to get the data that professional investors need into their hands and into the format that they need it in. So Quandl offers a hedge fund literally dozens of mechanisms to pull that data, whether it's a low level API and they can pull the data right into a database that they're maintaining themselves or into Python or R or Matlab or Stata or any analysis tool they might be using."
+        },
+        {
+            "title": "Interview with Tammer Kamel (Part 1)",
+            "number": "217",
+            "start": 62.8,
+            "end": 97.8,
+            "text": "But we consider our job sort of mission accomplished for Quandl if we quickly and painlessly get the hedge fund, the data they need into the system they want. Now presumably this includes a combination of historical data and live data. Are all of your feeds historical as well as live or there's some that are special in some way? Right. So all of our data is historical for sure and updated daily. Live data is a little bit in the future for us."
+        },
+        {
+            "title": "Interview with Tammer Kamel (Part 1)",
+            "number": "217",
+            "start": 97.8,
+            "end": 127.1,
+            "text": "It's not available on the platform as of this moment. So I could imagine a flow something like this. Lots of people are on a daily cycle. You know, I think that's the majority of what people do. You might read historical data to inform your model or, you know, build some sort of model. But after market close you wait some period until the market day is available and then whatever data one might pull from Quandl. Do some number crunching"
+        },
+        {
+            "title": "Interview with Tammer Kamel (Part 1)",
+            "number": "217",
+            "start": 127.1,
+            "end": 157.0,
+            "text": "overnight and then sort of put in orders for, you know, what you might do the next day. Now, what time does your data, what time is your data available and what mechanisms do people use to pull it? Yeah, so what you described is really a canonical use case for Quandl, right? A fund or an analyst will take the historical data, build and calibrate a model. And when they're comfortable that it's ready for action, then they're going to start executing on it. So Quandl market data is updated pretty quickly."
+        },
+        {
+            "title": "Interview with Tammer Kamel (Part 1)",
+            "number": "217",
+            "start": 157.1,
+            "end": 190.6,
+            "text": "after the close within minutes or depending on the, you know, the exact database we're talking about, hours. So, but definitely in time to run today's numbers through your model to get the output and know what actions need to be taken on the next trading day. So I love to learn details about how people build complex financial systems. So where do your machines live? So Quandl is quite modern in that respect. Everything lives in the cloud. We're a customer of Amazon's like so many others are. At the"
+        },
+        {
+            "title": "Interview with Tammer Kamel (Part 1)",
+            "number": "217",
+            "start": 190.6,
+            "end": 228.5,
+            "text": "heart of Quandl is a modern NoSQL database and that's where the 15, 16 million time series, few billion data points live there. On top of that we've built an API and then the Quandl website itself, interestingly, is itself just another client of the Quandl API. If you were to look at our website you would discover it's perfectly orthodox. Nothing, it's a, it's a, it's a standard Ruby on Rails website built very conventionally and it's just another client of the Quandl API. Why the choice of NoSQL? So it, because,"
+        },
+        {
+            "title": "Interview with Tammer Kamel (Part 1)",
+            "number": "217",
+            "start": 228.5,
+            "end": 260.3,
+            "text": "because of scalability, right, we want, we really need to be able to deliver lots of numerical data to lots of people very, very quickly and you know while we're still, you know, we're number of data points in the Quandl databases in the order of a few billion now, but we expect that to be at 10 or 20 or 50 billion within a year or two and at that point conventional relational databases get kind of difficult to work with. So the, the glue between the various components is Ruby on Rails?"
+        },
+        {
+            "title": "Interview with Tammer Kamel (Part 1)",
+            "number": "217",
+            "start": 260.3,
+            "end": 290.3,
+            "text": "It is indeed, yeah. So it's NoSQL and Ruby on Rails and that's it? That is it. It's, you know, Quandl is, you know, by software engineering standards, pretty plain vanilla simple implementation. Where, where Quandl, you know, where we sweat day-to-day is usually in maintaining the accuracy of 12 million data sets. The technical infrastructure is, you know, not to say it's trivial, but it's, it's conventional best practices software engineering."
+        },
+        {
+            "title": "Interview with Tammer Kamel (Part 1)",
+            "number": "217",
+            "start": 290.3,
+            "end": 330.3,
+            "text": "Getting back to the data, tell me a little bit about time stamping. Let me, let me tell you what I'm, what I'm getting at. So let's just consider market close data. So the price for a particular stock, you know, essentially is stamped at 4 o'clock. So one potential time stamp for that data is, you know, New York time. One potential time stamp for that data is 4 p.m. But maybe I can't observe it until 4 o'clock. That's just one example. But I'm curious, does that sort of time stamping feed into what you all do? Yeah, no, that's actually a really good point. And I suppose what you're getting at is the risk of creating a look-ahead bias in your analysis, right?"
+        },
+        {
+            "title": "Interview with Tammer Kamel (Part 1)",
+            "number": "217",
+            "start": 330.3,
+            "end": 369.3,
+            "text": "Yeah, you know what? I can't claim that Quandl has any sort of panaceas for that sort of thing. We really, you know, we time stamp the data, of course, right? And, and the, the meticulous, diligent analyst should be aware of this kind of thing. And they'll see that, you know, the, the, this database is the 4 p.m. closing pressure. I think it's more likely to occur with things like earnings reports or something like that. Yeah. Well, with those sort of things, we're very, we are, you know, I mean, we reach to the vendors and the publishers for this, but they, they are acutely aware of that. So you'll see, take for example, our earnings data, there's both as reported sort of point in time data and revised data."
+        },
+        {
+            "title": "Interview with Tammer Kamel (Part 1)",
+            "number": "217",
+            "start": 369.3,
+            "end": 398.3,
+            "text": "So, you know, those kind of blatant risks of, of, of look-ahead bias, those are well mitigated. You know, when you look at your various vendors who are providing you data, what, what sorts of flaws do you see in that data? And what sorts of steps do you, do you have to take to mitigate those, those flaws? Yeah, it's interesting. The, the, you know, of course, there's no, there's no such thing as a perfect data set in this world, right? And we're, of course, strongly motivated to get as close to that ideal as possible."
+        },
+        {
+            "title": "Interview with Tammer Kamel (Part 1)",
+            "number": "217",
+            "start": 398.3,
+            "end": 430.3,
+            "text": "The way we've done it is kind of simple, but also a little bit original. And it falls from the mechanism we've set up where consumers of data have a direct relationship with the publishers of those data. And indeed the publisher of the data's livelihood depends on keeping that consumer satisfied and happy. And so unlike sort of many other data platforms where there's a lot of opacity between the end user and a lot of layers too, between the end user and the actual publisher. In fact, you might in many cases not even be able to reach the publisher."
+        },
+        {
+            "title": "Interview with Tammer Kamel (Part 1)",
+            "number": "217",
+            "start": 430.3,
+            "end": 465.3,
+            "text": "Quandl, there's this direct relation. So what you find is that if and when there's errors in the data, our publishers are very keen to correct it and fast because they've got five or ten or fifty customers who know it's them responsible for it. And they're keen to keep these people paying for the service, right? So it's, this is an amazing, you know, this is a reality that happens with many marketplaces. When you start removing the distance between the end consumer and the actual producer of the product, you get this quality improvement."
+        },
+        {
+            "title": "Interview with Tammer Kamel (Part 1)",
+            "number": "217",
+            "start": 465.3,
+            "end": 490.3,
+            "text": "The other thing that of course affects that is good old healthy competition on a marketplace, right? We actually right now for some, for some databases we have two or more vendors offering competing products. And nothing drives quality control like competition. Sure. Okay. Great interview. Thanks very much. I'm sure the students out there will find this fascinating. Thanks for your time. I really, really appreciate that."
+        },
+        {
+            "title": "Interview with Tammer Kamel (Part 1)",
+            "number": "217",
+            "start": 490.3,
+            "end": 510.2,
+            "text": "That's the end of this discussion with Tamra Camel and we'll see you online. I'll give you online. pessoa found much for WOM1 Um hum2 Could you Be Be Be Beto service?"
+        },
+        {
+            "title": "Interview with Tammer Kamel (Part 1)",
+            "number": "217",
+            "start": 510.3,
+            "end": 518.3,
+            "text": "And to my example's to Karen Werm9 and to come to Regina Warn1 and to Tom Braum1 Scott Braum1 and to update you online."
+        },
+        {
+            "title": "Interview with Tammer Kamel (Part 1)",
+            "number": "217",
+            "start": 518.3,
+            "end": 523.3,
+            "text": "Thanks for your name, then. We'll learn about tour and to fly you online. How can you find my job to taste good?"
+        }
+    ]
+}

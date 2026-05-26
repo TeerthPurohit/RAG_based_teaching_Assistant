@@ -1,0 +1,201 @@
+{
+    "chunks": [
+        {
+            "number": "173",
+            "title": "Problems with regression",
+            "start": 0.0,
+            "end": 5.6,
+            "text": "As you saw by that backtest, regression based forecasting can be useful."
+        },
+        {
+            "number": "173",
+            "title": "Problems with regression",
+            "start": 5.6,
+            "end": 10.8,
+            "text": "It's also worth noting that that particular backtest was not spectacular."
+        },
+        {
+            "number": "173",
+            "title": "Problems with regression",
+            "start": 10.8,
+            "end": 15.4,
+            "text": "It did indeed beat the S&P 500, which is important."
+        },
+        {
+            "number": "173",
+            "title": "Problems with regression",
+            "start": 15.4,
+            "end": 19.4,
+            "text": "But it didn't beat it spectacularly."
+        },
+        {
+            "number": "173",
+            "title": "Problems with regression",
+            "start": 19.4,
+            "end": 26.2,
+            "text": "Usually we find that performance in the real world is not as awesome as in backtesting."
+        },
+        {
+            "number": "173",
+            "title": "Problems with regression",
+            "start": 26.2,
+            "end": 30.9,
+            "text": "So we would probably still see good return from that strategy, but"
+        },
+        {
+            "number": "173",
+            "title": "Problems with regression",
+            "start": 30.9,
+            "end": 34.5,
+            "text": "it wouldn't be quite the same as we saw in that backtest."
+        },
+        {
+            "number": "173",
+            "title": "Problems with regression",
+            "start": 34.5,
+            "end": 40.3,
+            "text": "So I want to list a few problems we see sometimes with regression based forecasting."
+        },
+        {
+            "number": "173",
+            "title": "Problems with regression",
+            "start": 41.4,
+            "end": 47.0,
+            "text": "First of all, our forecasts always seem to be noisy and uncertain."
+        },
+        {
+            "number": "173",
+            "title": "Problems with regression",
+            "start": 47.0,
+            "end": 49.5,
+            "text": "So there is value in there, but"
+        },
+        {
+            "number": "173",
+            "title": "Problems with regression",
+            "start": 49.5,
+            "end": 53.2,
+            "text": "it has to be accumulated over many trading opportunities."
+        },
+        {
+            "number": "173",
+            "title": "Problems with regression",
+            "start": 53.2,
+            "end": 57.9,
+            "text": "It's hard to know how confident you should be in a forecast."
+        },
+        {
+            "number": "173",
+            "title": "Problems with regression",
+            "start": 57.9,
+            "end": 63.5,
+            "text": "I mentioned in my software demo a moment ago that we could look at standard deviation"
+        },
+        {
+            "number": "173",
+            "title": "Problems with regression",
+            "start": 63.5,
+            "end": 65.6,
+            "text": "of the nearest neighbors."
+        },
+        {
+            "number": "173",
+            "title": "Problems with regression",
+            "start": 65.6,
+            "end": 66.8,
+            "text": "That works okay."
+        },
+        {
+            "number": "173",
+            "title": "Problems with regression",
+            "start": 66.8,
+            "end": 69.6,
+            "text": "It's really not too strong of a measure, however."
+        },
+        {
+            "number": "173",
+            "title": "Problems with regression",
+            "start": 70.6,
+            "end": 75.6,
+            "text": "So it's difficult to know how confident you ought to be in any particular forecast."
+        },
+        {
+            "number": "173",
+            "title": "Problems with regression",
+            "start": 75.6,
+            "end": 78.9,
+            "text": "It would be nice if you could know, because that would enable you to"
+        },
+        {
+            "number": "173",
+            "title": "Problems with regression",
+            "start": 78.9,
+            "end": 83.7,
+            "text": "essentially bet less on forecasts that are less certain."
+        },
+        {
+            "number": "173",
+            "title": "Problems with regression",
+            "start": 83.7,
+            "end": 89.2,
+            "text": "Additionally, it's not clear how long you should hold a position that might have"
+        },
+        {
+            "number": "173",
+            "title": "Problems with regression",
+            "start": 89.2,
+            "end": 94.6,
+            "text": "arisen from a forecast and how you should allocate to that position."
+        },
+        {
+            "number": "173",
+            "title": "Problems with regression",
+            "start": 94.6,
+            "end": 99.7,
+            "text": "These are all challenges using regression based forecasting."
+        },
+        {
+            "number": "173",
+            "title": "Problems with regression",
+            "start": 99.7,
+            "end": 104.3,
+            "text": "Some of these issues can be addressed using reinforcement learning,"
+        },
+        {
+            "number": "173",
+            "title": "Problems with regression",
+            "start": 104.3,
+            "end": 111.9,
+            "text": "where instead of making a forecast of a future price, we have the system learn a policy."
+        },
+        {
+            "number": "173",
+            "title": "Problems with regression",
+            "start": 111.9,
+            "end": 116.3,
+            "text": "And the policy tells the system whether to buy or sell a stock."
+        },
+        {
+            "number": "173",
+            "title": "Problems with regression",
+            "start": 116.3,
+            "end": 119.1,
+            "text": "We'll get to this towards the end of this class."
+        },
+        {
+            "number": "173",
+            "title": "Problems with regression",
+            "start": 119.1,
+            "end": 122.7,
+            "text": "But it's an interesting alternative to the regression based approaches we're"
+        },
+        {
+            "number": "173",
+            "title": "Problems with regression",
+            "start": 122.7,
+            "end": 124.4,
+            "text": "going to use here at the beginning of the class."
+        }
+    ],
+    "text": "As you saw by that backtest, regression based forecasting can be useful. It's also worth noting that that particular backtest was not spectacular. It did indeed beat the S&P 500, which is important. But it didn't beat it spectacularly. Usually we find that performance in the real world is not as awesome as in backtesting. So we would probably still see good return from that strategy, but it wouldn't be quite the same as we saw in that backtest. So I want to list a few problems we see sometimes with regression based forecasting. First of all, our forecasts always seem to be noisy and uncertain. So there is value in there, but it has to be accumulated over many trading opportunities. It's hard to know how confident you should be in a forecast. I mentioned in my software demo a moment ago that we could look at standard deviation of the nearest neighbors. That works okay. It's really not too strong of a measure, however. So it's difficult to know how confident you ought to be in any particular forecast. It would be nice if you could know, because that would enable you to essentially bet less on forecasts that are less certain. Additionally, it's not clear how long you should hold a position that might have arisen from a forecast and how you should allocate to that position. These are all challenges using regression based forecasting. Some of these issues can be addressed using reinforcement learning, where instead of making a forecast of a future price, we have the system learn a policy. And the policy tells the system whether to buy or sell a stock. We'll get to this towards the end of this class. But it's an interesting alternative to the regression based approaches we're going to use here at the beginning of the class."
+}

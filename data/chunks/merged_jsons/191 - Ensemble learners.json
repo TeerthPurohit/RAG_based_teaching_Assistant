@@ -1,0 +1,69 @@
+{
+    "title": "Ensemble learners",
+    "number": "191",
+    "chunks": [
+        {
+            "title": "Ensemble learners",
+            "number": "191",
+            "start": 0.2,
+            "end": 21.2,
+            "text": "Creating an ensemble of learners is one way to make the learners you've got better. So we're not talking about creating a new algorithm, but instead assembling together several different algorithms or several different models to create an ensemble learner. One thing I want to emphasize here is that you can take what you learn here"
+        },
+        {
+            "title": "Ensemble learners",
+            "number": "191",
+            "start": 21.2,
+            "end": 42.7,
+            "text": "about ensemble learners and plug it right into what you're already doing with your K and N and linear regression models. Now, what we've been doing so far is we've had one kind of learning method, say K and N. We plug our data into there and we learn a model. We can query our model with an X and it'll give us a Y."
+        },
+        {
+            "title": "Ensemble learners",
+            "number": "191",
+            "start": 42.7,
+            "end": 62.8,
+            "text": "So this is not an ensemble learner, this is just a single learner. And the idea with ensemble learners is that we have several additional learners. So we might have a linear regression based model, we might have a decision tree based model, we might have a support vector machine based model. You could continue this on with any different number of algorithms."
+        },
+        {
+            "title": "Ensemble learners",
+            "number": "191",
+            "start": 62.8,
+            "end": 82.7,
+            "text": "They're all trained using the same data and so now we have, in this case, four different models. To query this ensemble of learners, we query each model by itself and combine the answers. So if we wanted to query this model with X, we plug X into each model, the same X, and then our Y's come out."
+        },
+        {
+            "title": "Ensemble learners",
+            "number": "191",
+            "start": 82.7,
+            "end": 103.9,
+            "text": "So we have a Y output from each of these models, how do we combine them? If we're doing classification, where for instance we're trying to identify what the thing is, we might have each of these Y's vote on what it is. But we're doing regression and so the typical thing to do here is to take the mean. And that is the result for this ensemble learner."
+        },
+        {
+            "title": "Ensemble learners",
+            "number": "191",
+            "start": 103.9,
+            "end": 113.9,
+            "text": "We can then test this overall ensemble learner using this test data that we set aside. Why ensembles? Why do we use them? Why might they be better? Well there's a few reasons."
+        },
+        {
+            "title": "Ensemble learners",
+            "number": "191",
+            "start": 113.9,
+            "end": 133.4,
+            "text": "First of all, ensembles often have lower error than any individual method by themselves. Ensemble learners offer less overfitting. The ensemble of learners typically does not overfit as much as any individual learner by itself. Now, why is that?"
+        },
+        {
+            "title": "Ensemble learners",
+            "number": "191",
+            "start": 133.4,
+            "end": 153.4,
+            "text": "Here's at least an intuitive answer. Is each kind of learner that you might use has a sort of bias. It's easiest to talk about that in terms of linear regression, in terms of what do I mean by bias. So clearly with linear regression our bias is that the data is linear."
+        },
+        {
+            "title": "Ensemble learners",
+            "number": "191",
+            "start": 153.4,
+            "end": 170.7,
+            "text": "K and N has its own kind of bias, decision trees have their own kind of bias. But when you put them together, you tend to reduce the biases because they're fighting against each other in some sort of way. Anyways, that's what an ensemble learner is like if we use multiple types of learners."
+        }
+    ]
+}

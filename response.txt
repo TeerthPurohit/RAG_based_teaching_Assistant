@@ -1,0 +1,11 @@
+That's a great question! In trading, machine learning (ML) is becoming increasingly important, especially when we think about how complex financial decisions can be.
+
+One of the most direct ways ML comes into play is by allowing us to frame trading as a Reinforcement Learning (RL) problem. As Professor Balch explains in "Mapping trading to RL" (video 198, starting at 0:5), the market itself is our environment. The "state" of this environment includes all sorts of market features, prices, and even whether we're currently holding a stock. RL algorithms are then used to figure out the best actions to take in these states to maximize returns over time. The "RL summary" (video 202, starting at 0:2) reiterates that reinforcement learning is a powerful tool we can use for trading, particularly for solving Markov Decision Problems that represent these trading scenarios.
+
+Beyond that core framework, ML can help in several practical ways:
+
+For example, when placing very large orders, like trying to buy "10 million shares of Apple" as discussed in "The computing inside a hedgefund" (video 094, starting at 124.7), simply sending a massive order can detrimentally affect the price. ML algorithms can be designed to optimize how these large orders are executed over time, minimizing that market impact and ensuring better execution prices.
+
+While the Capital Asset Pricing Model (CAPM) in "CAPM vs active management" (video 117, starting at 163.1) suggests that "alpha" (the excess return above what the market provides) is often random, active managers still believe they can find it. Machine learning can be a tool for these active managers to develop sophisticated strategies, identify complex patterns, or spot deviations in value, as mentioned generally in "Summary" (video 112, starting at 37.9), which might lead to finding that elusive alpha.
+
+In essence, ML provides the computational power and algorithmic flexibility to analyze vast amounts of market data, identify subtle patterns, optimize complex trading strategies, and make decisions in a dynamic and uncertain environment, moving beyond simpler rule-based systems.

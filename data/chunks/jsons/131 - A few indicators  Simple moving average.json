@@ -1,0 +1,369 @@
+{
+    "chunks": [
+        {
+            "number": "131",
+            "title": "A few indicators  Simple moving average",
+            "start": 0.4,
+            "end": 3.8,
+            "text": "Our next indicator is simple moving average or SMA."
+        },
+        {
+            "number": "131",
+            "title": "A few indicators  Simple moving average",
+            "start": 3.8,
+            "end": 9.4,
+            "text": "And again, it's indexed by n, which is how many days are we looking back."
+        },
+        {
+            "number": "131",
+            "title": "A few indicators  Simple moving average",
+            "start": 9.4,
+            "end": 13.8,
+            "text": "So if we want to calculate the value of the simple moving average for"
+        },
+        {
+            "number": "131",
+            "title": "A few indicators  Simple moving average",
+            "start": 13.8,
+            "end": 17.8,
+            "text": "this day, we look back over n days."
+        },
+        {
+            "number": "131",
+            "title": "A few indicators  Simple moving average",
+            "start": 17.8,
+            "end": 20.9,
+            "text": "And this is called an n day window."
+        },
+        {
+            "number": "131",
+            "title": "A few indicators  Simple moving average",
+            "start": 20.9,
+            "end": 26.8,
+            "text": "So the SMA for today is simply the average of the values over this look back"
+        },
+        {
+            "number": "131",
+            "title": "A few indicators  Simple moving average",
+            "start": 26.8,
+            "end": 28.1,
+            "text": "period."
+        },
+        {
+            "number": "131",
+            "title": "A few indicators  Simple moving average",
+            "start": 28.1,
+            "end": 30.6,
+            "text": "So it would be a value about right there."
+        },
+        {
+            "number": "131",
+            "title": "A few indicators  Simple moving average",
+            "start": 30.6,
+            "end": 34.0,
+            "text": "And if we carry it forward, it'll look like this."
+        },
+        {
+            "number": "131",
+            "title": "A few indicators  Simple moving average",
+            "start": 34.0,
+            "end": 41.2,
+            "text": "So the SMA looks essentially like a smoothed value of the price chart as it"
+        },
+        {
+            "number": "131",
+            "title": "A few indicators  Simple moving average",
+            "start": 41.2,
+            "end": 42.5,
+            "text": "moves around."
+        },
+        {
+            "number": "131",
+            "title": "A few indicators  Simple moving average",
+            "start": 42.5,
+            "end": 46.0,
+            "text": "And an important thing to note is it sort of lags the movement."
+        },
+        {
+            "number": "131",
+            "title": "A few indicators  Simple moving average",
+            "start": 46.0,
+            "end": 49.9,
+            "text": "So as we started down here, it slowly started coming down."
+        },
+        {
+            "number": "131",
+            "title": "A few indicators  Simple moving average",
+            "start": 49.9,
+            "end": 54.2,
+            "text": "When we started up here, it lagged that movement upwards."
+        },
+        {
+            "number": "131",
+            "title": "A few indicators  Simple moving average",
+            "start": 54.2,
+            "end": 57.8,
+            "text": "There are at least two different ways that technicians use simple moving"
+        },
+        {
+            "number": "131",
+            "title": "A few indicators  Simple moving average",
+            "start": 57.8,
+            "end": 60.6,
+            "text": "average as parts of trading strategies."
+        },
+        {
+            "number": "131",
+            "title": "A few indicators  Simple moving average",
+            "start": 60.6,
+            "end": 67.3,
+            "text": "The first is they look for places where the current price crosses through the simple"
+        },
+        {
+            "number": "131",
+            "title": "A few indicators  Simple moving average",
+            "start": 67.3,
+            "end": 68.8,
+            "text": "moving average."
+        },
+        {
+            "number": "131",
+            "title": "A few indicators  Simple moving average",
+            "start": 68.8,
+            "end": 70.7,
+            "text": "Those tend to be important events."
+        },
+        {
+            "number": "131",
+            "title": "A few indicators  Simple moving average",
+            "start": 70.7,
+            "end": 74.1,
+            "text": "Especially if the average is over many, many days."
+        },
+        {
+            "number": "131",
+            "title": "A few indicators  Simple moving average",
+            "start": 74.1,
+            "end": 79.7,
+            "text": "If you combine that with momentum, in other words, the price has strong momentum and"
+        },
+        {
+            "number": "131",
+            "title": "A few indicators  Simple moving average",
+            "start": 79.7,
+            "end": 84.3,
+            "text": "it's crossing through that simple moving average, that can be a signal."
+        },
+        {
+            "number": "131",
+            "title": "A few indicators  Simple moving average",
+            "start": 84.3,
+            "end": 89.2,
+            "text": "This particular crossing where the price goes through the simple moving average doesn't"
+        },
+        {
+            "number": "131",
+            "title": "A few indicators  Simple moving average",
+            "start": 89.2,
+            "end": 93.2,
+            "text": "really illustrate strong momentum because it just started going up."
+        },
+        {
+            "number": "131",
+            "title": "A few indicators  Simple moving average",
+            "start": 93.2,
+            "end": 98.8,
+            "text": "However, when you do see strong momentum crossing those lines, then again, that can be a"
+        },
+        {
+            "number": "131",
+            "title": "A few indicators  Simple moving average",
+            "start": 98.8,
+            "end": 99.8,
+            "text": "trading signal."
+        },
+        {
+            "number": "131",
+            "title": "A few indicators  Simple moving average",
+            "start": 99.8,
+            "end": 107.0,
+            "text": "Another way that technicians use simple moving average is as a proxy for underlying value."
+        },
+        {
+            "number": "131",
+            "title": "A few indicators  Simple moving average",
+            "start": 107.0,
+            "end": 112.5,
+            "text": "In other words, if you look back over a certain period of time and take that average price,"
+        },
+        {
+            "number": "131",
+            "title": "A few indicators  Simple moving average",
+            "start": 112.5,
+            "end": 116.5,
+            "text": "that might represent the true value of the company."
+        },
+        {
+            "number": "131",
+            "title": "A few indicators  Simple moving average",
+            "start": 116.5,
+            "end": 123.0,
+            "text": "And if we see a large excursion from that price, we should, for instance, here and here, we should"
+        },
+        {
+            "number": "131",
+            "title": "A few indicators  Simple moving average",
+            "start": 123.0,
+            "end": 127.5,
+            "text": "expect that the price is eventually going to come back down to that average."
+        },
+        {
+            "number": "131",
+            "title": "A few indicators  Simple moving average",
+            "start": 127.5,
+            "end": 132.7,
+            "text": "And so it's an arbitrage opportunity sort of like we saw with fundamental analysis."
+        },
+        {
+            "number": "131",
+            "title": "A few indicators  Simple moving average",
+            "start": 132.7,
+            "end": 136.5,
+            "text": "And again, for example, there's a large excursion downward here."
+        },
+        {
+            "number": "131",
+            "title": "A few indicators  Simple moving average",
+            "start": 136.5,
+            "end": 141.0,
+            "text": "So this might represent a buy opportunity and these two might represent sell"
+        },
+        {
+            "number": "131",
+            "title": "A few indicators  Simple moving average",
+            "start": 141.0,
+            "end": 147.3,
+            "text": "opportunities because there was a strong diversion from that moving average."
+        },
+        {
+            "number": "131",
+            "title": "A few indicators  Simple moving average",
+            "start": 147.3,
+            "end": 151.8,
+            "text": "Now we talked about earlier how every technical indicator has a visual presentation"
+        },
+        {
+            "number": "131",
+            "title": "A few indicators  Simple moving average",
+            "start": 151.8,
+            "end": 153.4,
+            "text": "like I'm showing you here."
+        },
+        {
+            "number": "131",
+            "title": "A few indicators  Simple moving average",
+            "start": 153.4,
+            "end": 157.8,
+            "text": "But we also need a way to quantify it, to turn it into a number."
+        },
+        {
+            "number": "131",
+            "title": "A few indicators  Simple moving average",
+            "start": 157.8,
+            "end": 162.2,
+            "text": "The way we do that is to compare the current price with the current simple moving"
+        },
+        {
+            "number": "131",
+            "title": "A few indicators  Simple moving average",
+            "start": 162.2,
+            "end": 165.2,
+            "text": "average and construct a ratio."
+        },
+        {
+            "number": "131",
+            "title": "A few indicators  Simple moving average",
+            "start": 165.2,
+            "end": 168.6,
+            "text": "So in this case, we would look for a negative value."
+        },
+        {
+            "number": "131",
+            "title": "A few indicators  Simple moving average",
+            "start": 169.8,
+            "end": 173.0,
+            "text": "And in these cases, we'd want to see positive values."
+        },
+        {
+            "number": "131",
+            "title": "A few indicators  Simple moving average",
+            "start": 173.0,
+            "end": 178.3,
+            "text": "So if we were to calculate, say, the value of the simple moving average on this day,"
+        },
+        {
+            "number": "131",
+            "title": "A few indicators  Simple moving average",
+            "start": 178.3,
+            "end": 186.6,
+            "text": "we take the price for that day, and we compute the mean for the last end days,"
+        },
+        {
+            "number": "131",
+            "title": "A few indicators  Simple moving average",
+            "start": 186.6,
+            "end": 187.3,
+            "text": "which is here."
+        },
+        {
+            "number": "131",
+            "title": "A few indicators  Simple moving average",
+            "start": 188.5,
+            "end": 192.8,
+            "text": "And remember, this is over a look back window of end days."
+        },
+        {
+            "number": "131",
+            "title": "A few indicators  Simple moving average",
+            "start": 192.8,
+            "end": 194.9,
+            "text": "Divide that into the price and subtract 1."
+        },
+        {
+            "number": "131",
+            "title": "A few indicators  Simple moving average",
+            "start": 194.9,
+            "end": 201.5,
+            "text": "So if, for instance, the price is 10% above the simple moving average,"
+        },
+        {
+            "number": "131",
+            "title": "A few indicators  Simple moving average",
+            "start": 201.5,
+            "end": 204.6,
+            "text": "we'd end up getting a positive 0.1."
+        },
+        {
+            "number": "131",
+            "title": "A few indicators  Simple moving average",
+            "start": 204.6,
+            "end": 208.3,
+            "text": "If it were 10% below, we'd get a negative 0.1."
+        },
+        {
+            "number": "131",
+            "title": "A few indicators  Simple moving average",
+            "start": 208.3,
+            "end": 214.0,
+            "text": "So similar to the momentum, we typically see values here ranging from,"
+        },
+        {
+            "number": "131",
+            "title": "A few indicators  Simple moving average",
+            "start": 214.0,
+            "end": 218.7,
+            "text": "at most, minus 50% to plus 50%."
+        }
+    ],
+    "text": "Our next indicator is simple moving average or SMA. And again, it's indexed by n, which is how many days are we looking back. So if we want to calculate the value of the simple moving average for this day, we look back over n days. And this is called an n day window. So the SMA for today is simply the average of the values over this look back period. So it would be a value about right there. And if we carry it forward, it'll look like this. So the SMA looks essentially like a smoothed value of the price chart as it moves around. And an important thing to note is it sort of lags the movement. So as we started down here, it slowly started coming down. When we started up here, it lagged that movement upwards. There are at least two different ways that technicians use simple moving average as parts of trading strategies. The first is they look for places where the current price crosses through the simple moving average. Those tend to be important events. Especially if the average is over many, many days. If you combine that with momentum, in other words, the price has strong momentum and it's crossing through that simple moving average, that can be a signal. This particular crossing where the price goes through the simple moving average doesn't really illustrate strong momentum because it just started going up. However, when you do see strong momentum crossing those lines, then again, that can be a trading signal. Another way that technicians use simple moving average is as a proxy for underlying value. In other words, if you look back over a certain period of time and take that average price, that might represent the true value of the company. And if we see a large excursion from that price, we should, for instance, here and here, we should expect that the price is eventually going to come back down to that average. And so it's an arbitrage opportunity sort of like we saw with fundamental analysis. And again, for example, there's a large excursion downward here. So this might represent a buy opportunity and these two might represent sell opportunities because there was a strong diversion from that moving average. Now we talked about earlier how every technical indicator has a visual presentation like I'm showing you here. But we also need a way to quantify it, to turn it into a number. The way we do that is to compare the current price with the current simple moving average and construct a ratio. So in this case, we would look for a negative value. And in these cases, we'd want to see positive values. So if we were to calculate, say, the value of the simple moving average on this day, we take the price for that day, and we compute the mean for the last end days, which is here. And remember, this is over a look back window of end days. Divide that into the price and subtract 1. So if, for instance, the price is 10% above the simple moving average, we'd end up getting a positive 0.1. If it were 10% below, we'd get a negative 0.1. So similar to the momentum, we typically see values here ranging from, at most, minus 50% to plus 50%."
+}

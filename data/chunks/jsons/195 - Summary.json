@@ -1,0 +1,131 @@
+{
+    "chunks": [
+        {
+            "number": "195",
+            "title": "Summary",
+            "start": 0.1,
+            "end": 3.4,
+            "text": "Before we finish this lesson, I wanted to summarize things and"
+        },
+        {
+            "number": "195",
+            "title": "Summary",
+            "start": 3.4,
+            "end": 8.0,
+            "text": "tell you how this all fits into machine learning for trading."
+        },
+        {
+            "number": "195",
+            "title": "Summary",
+            "start": 8.0,
+            "end": 10.9,
+            "text": "The first thing to point out here is that bagging and"
+        },
+        {
+            "number": "195",
+            "title": "Summary",
+            "start": 10.9,
+            "end": 15.3,
+            "text": "boosting are just methods for taking existing learners and"
+        },
+        {
+            "number": "195",
+            "title": "Summary",
+            "start": 15.3,
+            "end": 20.2,
+            "text": "essentially wrapping them in this meta algorithm that converts your"
+        },
+        {
+            "number": "195",
+            "title": "Summary",
+            "start": 20.2,
+            "end": 23.4,
+            "text": "existing learner into an ensemble."
+        },
+        {
+            "number": "195",
+            "title": "Summary",
+            "start": 23.4,
+            "end": 28.6,
+            "text": "And you should use the same API to call your ensemble that you would have"
+        },
+        {
+            "number": "195",
+            "title": "Summary",
+            "start": 28.6,
+            "end": 31.4,
+            "text": "earlier been using to call an individual learner."
+        },
+        {
+            "number": "195",
+            "title": "Summary",
+            "start": 31.4,
+            "end": 36.6,
+            "text": "So externally to whatever part of your program is calling the learner,"
+        },
+        {
+            "number": "195",
+            "title": "Summary",
+            "start": 36.6,
+            "end": 40.4,
+            "text": "it doesn't know that underneath there you're doing boosting or bagging."
+        },
+        {
+            "number": "195",
+            "title": "Summary",
+            "start": 40.4,
+            "end": 45.7,
+            "text": "Your resulting learner is also likely to have lower error and reduced overfitage."
+        },
+        {
+            "number": "195",
+            "title": "Summary",
+            "start": 45.7,
+            "end": 47.6,
+            "text": "So to summarize, boosting and"
+        },
+        {
+            "number": "195",
+            "title": "Summary",
+            "start": 47.6,
+            "end": 51.4,
+            "text": "bagging are not new algorithms in and of themselves."
+        },
+        {
+            "number": "195",
+            "title": "Summary",
+            "start": 51.4,
+            "end": 55.5,
+            "text": "They're meta algorithms that let you wrap your underlying learning algorithms"
+        },
+        {
+            "number": "195",
+            "title": "Summary",
+            "start": 55.5,
+            "end": 57.3,
+            "text": "into something that's better."
+        },
+        {
+            "number": "195",
+            "title": "Summary",
+            "start": 57.3,
+            "end": 59.1,
+            "text": "Okay, that's it for this lesson."
+        },
+        {
+            "number": "195",
+            "title": "Summary",
+            "start": 59.1,
+            "end": 60.1,
+            "text": "I will see you again soon."
+        },
+        {
+            "number": "195",
+            "title": "Summary",
+            "start": 60.1,
+            "end": 60.9,
+            "text": "Bye bye."
+        }
+    ],
+    "text": "Before we finish this lesson, I wanted to summarize things and tell you how this all fits into machine learning for trading. The first thing to point out here is that bagging and boosting are just methods for taking existing learners and essentially wrapping them in this meta algorithm that converts your existing learner into an ensemble. And you should use the same API to call your ensemble that you would have earlier been using to call an individual learner. So externally to whatever part of your program is calling the learner, it doesn't know that underneath there you're doing boosting or bagging. Your resulting learner is also likely to have lower error and reduced overfitage. So to summarize, boosting and bagging are not new algorithms in and of themselves. They're meta algorithms that let you wrap your underlying learning algorithms into something that's better. Okay, that's it for this lesson. I will see you again soon. Bye bye."
+}

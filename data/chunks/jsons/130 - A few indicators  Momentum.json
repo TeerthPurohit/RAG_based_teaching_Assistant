@@ -1,0 +1,299 @@
+{
+    "chunks": [
+        {
+            "number": "130",
+            "title": "A few indicators  Momentum",
+            "start": 0.3,
+            "end": 3.2,
+            "text": "There are hundreds of technical indicators out there."
+        },
+        {
+            "number": "130",
+            "title": "A few indicators  Momentum",
+            "start": 3.2,
+            "end": 7.6,
+            "text": "We're going to take a look at just three because, of course, our time is limited."
+        },
+        {
+            "number": "130",
+            "title": "A few indicators  Momentum",
+            "start": 7.6,
+            "end": 11.0,
+            "text": "But I'll point you to resources online where you can learn more about other"
+        },
+        {
+            "number": "130",
+            "title": "A few indicators  Momentum",
+            "start": 11.0,
+            "end": 12.3,
+            "text": "indicators."
+        },
+        {
+            "number": "130",
+            "title": "A few indicators  Momentum",
+            "start": 12.3,
+            "end": 17.1,
+            "text": "These three are some of the most common and most popular that people use."
+        },
+        {
+            "number": "130",
+            "title": "A few indicators  Momentum",
+            "start": 17.1,
+            "end": 20.8,
+            "text": "The three we'll look at are momentum, simple moving average, and"
+        },
+        {
+            "number": "130",
+            "title": "A few indicators  Momentum",
+            "start": 20.8,
+            "end": 22.6,
+            "text": "Bollinger Bands."
+        },
+        {
+            "number": "130",
+            "title": "A few indicators  Momentum",
+            "start": 22.6,
+            "end": 24.7,
+            "text": "Let's take a look first at momentum."
+        },
+        {
+            "number": "130",
+            "title": "A few indicators  Momentum",
+            "start": 24.7,
+            "end": 27.5,
+            "text": "Momentum is really one of the simplest indicators."
+        },
+        {
+            "number": "130",
+            "title": "A few indicators  Momentum",
+            "start": 27.5,
+            "end": 32.5,
+            "text": "And it's just over some number of days, how much has the price changed?"
+        },
+        {
+            "number": "130",
+            "title": "A few indicators  Momentum",
+            "start": 32.5,
+            "end": 37.9,
+            "text": "So for instance, if we look at this point to this point, we've got positive momentum."
+        },
+        {
+            "number": "130",
+            "title": "A few indicators  Momentum",
+            "start": 37.9,
+            "end": 42.7,
+            "text": "Or if we were to look from here to here, we've got negative momentum."
+        },
+        {
+            "number": "130",
+            "title": "A few indicators  Momentum",
+            "start": 43.8,
+            "end": 48.0,
+            "text": "And the steepness of that line is the strength of the momentum,"
+        },
+        {
+            "number": "130",
+            "title": "A few indicators  Momentum",
+            "start": 48.0,
+            "end": 49.8,
+            "text": "either positive or negative."
+        },
+        {
+            "number": "130",
+            "title": "A few indicators  Momentum",
+            "start": 49.8,
+            "end": 53.2,
+            "text": "Now, in terms of using this in a trading strategy,"
+        },
+        {
+            "number": "130",
+            "title": "A few indicators  Momentum",
+            "start": 53.2,
+            "end": 56.4,
+            "text": "there are many folks who look at the momentum for a stock,"
+        },
+        {
+            "number": "130",
+            "title": "A few indicators  Momentum",
+            "start": 56.4,
+            "end": 57.8,
+            "text": "the recent momentum."
+        },
+        {
+            "number": "130",
+            "title": "A few indicators  Momentum",
+            "start": 57.8,
+            "end": 61.2,
+            "text": "And if it's positive, they buy because they anticipate that the momentum is going"
+        },
+        {
+            "number": "130",
+            "title": "A few indicators  Momentum",
+            "start": 61.2,
+            "end": 62.6,
+            "text": "to continue."
+        },
+        {
+            "number": "130",
+            "title": "A few indicators  Momentum",
+            "start": 62.6,
+            "end": 65.2,
+            "text": "Now, I'm not necessarily recommending that to you."
+        },
+        {
+            "number": "130",
+            "title": "A few indicators  Momentum",
+            "start": 65.2,
+            "end": 69.3,
+            "text": "I'm just telling you how some people use it."
+        },
+        {
+            "number": "130",
+            "title": "A few indicators  Momentum",
+            "start": 69.3,
+            "end": 74.0,
+            "text": "Now, I'm going to show you in a later slide how we can use momentum as part of"
+        },
+        {
+            "number": "130",
+            "title": "A few indicators  Momentum",
+            "start": 74.0,
+            "end": 75.3,
+            "text": "a combined strategy."
+        },
+        {
+            "number": "130",
+            "title": "A few indicators  Momentum",
+            "start": 76.2,
+            "end": 80.2,
+            "text": "Now, you can see here how we can look at momentum visually."
+        },
+        {
+            "number": "130",
+            "title": "A few indicators  Momentum",
+            "start": 80.2,
+            "end": 84.6,
+            "text": "But for machine learning, which of course we're going to get to in the next mini"
+        },
+        {
+            "number": "130",
+            "title": "A few indicators  Momentum",
+            "start": 84.6,
+            "end": 89.8,
+            "text": "course, we actually need to convert these to numbers that we can use quantitatively."
+        },
+        {
+            "number": "130",
+            "title": "A few indicators  Momentum",
+            "start": 89.8,
+            "end": 93.4,
+            "text": "And of course, this course is about quantitative analysis."
+        },
+        {
+            "number": "130",
+            "title": "A few indicators  Momentum",
+            "start": 93.4,
+            "end": 100.4,
+            "text": "So there's always, for technical analysis, a graphical or visual presentation."
+        },
+        {
+            "number": "130",
+            "title": "A few indicators  Momentum",
+            "start": 100.4,
+            "end": 103.9,
+            "text": "But we need to also consider the quantitative presentation."
+        },
+        {
+            "number": "130",
+            "title": "A few indicators  Momentum",
+            "start": 103.9,
+            "end": 110.0,
+            "text": "So when we talk about momentum, we talk about how many days of momentum that is."
+        },
+        {
+            "number": "130",
+            "title": "A few indicators  Momentum",
+            "start": 110.0,
+            "end": 114.4,
+            "text": "So that might be n days where we use n right there."
+        },
+        {
+            "number": "130",
+            "title": "A few indicators  Momentum",
+            "start": 114.4,
+            "end": 119.0,
+            "text": "So n might be a number like 5 or 10 and so on."
+        },
+        {
+            "number": "130",
+            "title": "A few indicators  Momentum",
+            "start": 119.0,
+            "end": 123.1,
+            "text": "Here's the pseudocode for how we compute momentum on a particular day."
+        },
+        {
+            "number": "130",
+            "title": "A few indicators  Momentum",
+            "start": 123.1,
+            "end": 126.6,
+            "text": "So let's suppose this is day t right here."
+        },
+        {
+            "number": "130",
+            "title": "A few indicators  Momentum",
+            "start": 126.6,
+            "end": 133.7,
+            "text": "We just take the price as of that day and we divide it by the price in days earlier."
+        },
+        {
+            "number": "130",
+            "title": "A few indicators  Momentum",
+            "start": 133.7,
+            "end": 135.1,
+            "text": "And subtract 1."
+        },
+        {
+            "number": "130",
+            "title": "A few indicators  Momentum",
+            "start": 135.1,
+            "end": 142.7,
+            "text": "So this will give us a number, say 0.1 if the price has gone up 10%."
+        },
+        {
+            "number": "130",
+            "title": "A few indicators  Momentum",
+            "start": 142.7,
+            "end": 146.1,
+            "text": "Or negative 0.1 if it's gone down 10%."
+        },
+        {
+            "number": "130",
+            "title": "A few indicators  Momentum",
+            "start": 146.1,
+            "end": 150.9,
+            "text": "So we usually see numbers in the range of, say, about minus 0.5 for"
+        },
+        {
+            "number": "130",
+            "title": "A few indicators  Momentum",
+            "start": 150.9,
+            "end": 156.2,
+            "text": "a big significant 50% drop to about plus 0.5."
+        },
+        {
+            "number": "130",
+            "title": "A few indicators  Momentum",
+            "start": 156.2,
+            "end": 159.9,
+            "text": "And so on any particular day, this is how we would compute the value of this"
+        },
+        {
+            "number": "130",
+            "title": "A few indicators  Momentum",
+            "start": 159.9,
+            "end": 162.0,
+            "text": "technical indicator, momentum."
+        }
+    ],
+    "text": "There are hundreds of technical indicators out there. We're going to take a look at just three because, of course, our time is limited. But I'll point you to resources online where you can learn more about other indicators. These three are some of the most common and most popular that people use. The three we'll look at are momentum, simple moving average, and Bollinger Bands. Let's take a look first at momentum. Momentum is really one of the simplest indicators. And it's just over some number of days, how much has the price changed? So for instance, if we look at this point to this point, we've got positive momentum. Or if we were to look from here to here, we've got negative momentum. And the steepness of that line is the strength of the momentum, either positive or negative. Now, in terms of using this in a trading strategy, there are many folks who look at the momentum for a stock, the recent momentum. And if it's positive, they buy because they anticipate that the momentum is going to continue. Now, I'm not necessarily recommending that to you. I'm just telling you how some people use it. Now, I'm going to show you in a later slide how we can use momentum as part of a combined strategy. Now, you can see here how we can look at momentum visually. But for machine learning, which of course we're going to get to in the next mini course, we actually need to convert these to numbers that we can use quantitatively. And of course, this course is about quantitative analysis. So there's always, for technical analysis, a graphical or visual presentation. But we need to also consider the quantitative presentation. So when we talk about momentum, we talk about how many days of momentum that is. So that might be n days where we use n right there. So n might be a number like 5 or 10 and so on. Here's the pseudocode for how we compute momentum on a particular day. So let's suppose this is day t right here. We just take the price as of that day and we divide it by the price in days earlier. And subtract 1. So this will give us a number, say 0.1 if the price has gone up 10%. Or negative 0.1 if it's gone down 10%. So we usually see numbers in the range of, say, about minus 0.5 for a big significant 50% drop to about plus 0.5. And so on any particular day, this is how we would compute the value of this technical indicator, momentum."
+}

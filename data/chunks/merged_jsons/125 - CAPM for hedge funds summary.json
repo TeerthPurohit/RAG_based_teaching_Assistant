@@ -1,0 +1,34 @@
+{
+    "title": "CAPM for hedge funds summary",
+    "number": "125",
+    "chunks": [
+        {
+            "title": "CAPM for hedge funds summary",
+            "number": "125",
+            "start": 0.2,
+            "end": 22.2,
+            "text": "Let's bring it all together now, how hedge funds can use CAPM effectively. Assuming we have some sort of actionable information that we can convert into a forecast alpha, in other words, a prediction for a particular stock i about which way it's going to go. And also the beta of that stock with regard to the market."
+        },
+        {
+            "title": "CAPM for hedge funds summary",
+            "number": "125",
+            "start": 22.2,
+            "end": 38.7,
+            "text": "We can do the following. We can minimize market risk by finding a beta for our portfolio that's equal to zero. And we can do that by finding the appropriate weights on each individual stock. So CAPM can be a really valuable tool in terms of portfolio construction."
+        },
+        {
+            "title": "CAPM for hedge funds summary",
+            "number": "125",
+            "start": 38.7,
+            "end": 53.1,
+            "text": "Because it can enable you to build these portfolios that are less exposed to market risk. And this is where the whole idea of long short trading came about. And CAPM really enables you to refine that. All right, that is it for now."
+        },
+        {
+            "title": "CAPM for hedge funds summary",
+            "number": "125",
+            "start": 53.1,
+            "end": 54.7,
+            "text": "We'll see you again soon. Thank you."
+        }
+    ]
+}

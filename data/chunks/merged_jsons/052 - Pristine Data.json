@@ -1,0 +1,55 @@
+{
+    "title": "Pristine Data",
+    "number": "052",
+    "chunks": [
+        {
+            "title": "Pristine Data",
+            "number": "052",
+            "start": 0.4,
+            "end": 20.9,
+            "text": "Now as you might have guessed, the data isn't really pristine. So here's what people think financial data is like. They imagine that it's perfectly recorded minute by minute. The prices that are recorded are exactly right. The volume data is exactly right."
+        },
+        {
+            "title": "Pristine Data",
+            "number": "052",
+            "start": 20.9,
+            "end": 39.4,
+            "text": "But that's not the case. But that's not the only mistake people make about what they think the data is like. People assume there's no gaps in the data, that we have every single minute recorded. That data for stocks started since the beginning of time and they continue to the very last minute."
+        },
+        {
+            "title": "Pristine Data",
+            "number": "052",
+            "start": 40.4,
+            "end": 62.7,
+            "text": "The reality is that our data is an amalgamation created from many, many sources. For instance, for any particular stock, it may be traded on the New York Stock Exchange, at NASDAQ, at BATS. And over any particular minute during the day, it may trade at one price at New York Stock Exchange, another price at NASDAQ."
+        },
+        {
+            "title": "Pristine Data",
+            "number": "052",
+            "start": 62.7,
+            "end": 79.0,
+            "text": "The reality is that there's no single price for any stock at any particular time. And in fact, it's hard to say who's right. So the reality of the data that we get is that it's a combination from all these different sources and different data providers will provide actually different numbers."
+        },
+        {
+            "title": "Pristine Data",
+            "number": "052",
+            "start": 79.0,
+            "end": 99.6,
+            "text": "And finally, one part of reality that's especially troublesome is not all stocks trade every day. Sometimes stocks come into existence and suddenly there's values for them and before that there was no data. Sometimes stocks go out of existence and suddenly they quit existing and there's no data for them going forward."
+        },
+        {
+            "title": "Pristine Data",
+            "number": "052",
+            "start": 99.6,
+            "end": 118.1,
+            "text": "There's another kind of failure mode or missing data mode where stocks will be, a particular stock will be trading, data will be missing, suddenly it starts trading again. And these are the sorts of problems we're going to take a look at and find a way to solve in this lesson. For more information soườis is the Fi100 Specialist nusdivis employer,"
+        },
+        {
+            "title": "Pristine Data",
+            "number": "052",
+            "start": 118.1,
+            "end": 143.3,
+            "text": "cooperation is the top much threat leaves for them. Again, let's check that in all of you and I wonder what you're going to choose. For more information to find a thereof others in particular reasons and following your probable comida links venous parts are going to bearound in particular"
+        }
+    ]
+}

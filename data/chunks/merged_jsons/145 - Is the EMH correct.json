@@ -1,0 +1,55 @@
+{
+    "title": "Is the EMH correct",
+    "number": "145",
+    "chunks": [
+        {
+            "title": "Is the EMH correct",
+            "number": "145",
+            "start": 0.5,
+            "end": 28.9,
+            "text": "Is the efficient markets hypothesis correct? Well, if it is, then a lot of what we're trying to do in this course is not possible. Namely, we can't beat the market using any of the strategies we might be looking at. Now, I think there is evidence that certain versions of the hypothesis are not correct. And there are a number of very successful hedge funds out there that would seem"
+        },
+        {
+            "title": "Is the EMH correct",
+            "number": "145",
+            "start": 28.9,
+            "end": 58.6,
+            "text": "to indicate that you can make money in the market by investing in things other than just the market portfolio. I would say the strong version of the efficient markets hypothesis is the least solid. In other words, the strong version says that you can't even profit from insider information. The reason that I think that one is not true is because we have seen people make money"
+        },
+        {
+            "title": "Is the EMH correct",
+            "number": "145",
+            "start": 58.6,
+            "end": 77.5,
+            "text": "from insider information. Some of them have gone to jail. But clearly it's a method that can provide profit even though it might be illegal. This is an interesting data set that seems to refute the semi-strong version of the efficient markets hypothesis as well."
+        },
+        {
+            "title": "Is the EMH correct",
+            "number": "145",
+            "start": 78.2,
+            "end": 101.6,
+            "text": "It's a little bit complex, so I'll step through it carefully. So let's look at the blue dots. Each dot here represents the P-E ratio on a particular date. So for instance, this stock had a P-E ratio of 20. That's price to earnings."
+        },
+        {
+            "title": "Is the EMH correct",
+            "number": "145",
+            "start": 101.6,
+            "end": 130.5,
+            "text": "That's the horizontal component of its location. The vertical location is how much money did it make in terms of price over 20 years. So for instance, this stock had a price earnings ratio of 20 and it made about 4% annualized returns. As we go down this way, the P-E ratio is lower. So lower numbers for P-E ratio are better."
+        },
+        {
+            "title": "Is the EMH correct",
+            "number": "145",
+            "start": 130.5,
+            "end": 185.1,
+            "text": "You know, if you think about it, price divided by earnings, if it's a lower price and has higher earnings, you'll get a lower number. So presumably, lower values this way indicate higher value for a stock. And each group of colors represents a different decade when the analysis was done. So for instance, this dark blue was an analysis based on what the P-E ratios of stocks were in 1890 to 1910 and all the way up to the red, which was 1970 through 1985. Now for all of these decades, we saw that at the beginning of the corresponding time period, low P-E ratios corresponded with higher returns."
+        },
+        {
+            "title": "Is the EMH correct",
+            "number": "145",
+            "start": 185.1,
+            "end": 206.0,
+            "text": "So this shows that price earnings ratios are very predictive across many, many decades of future returns. And that tends to refute the semi-strong version of the EMH. Okay, that's it for the efficient markets hypothesis. I will see you again soon. Bye-bye."
+        }
+    ]
+}

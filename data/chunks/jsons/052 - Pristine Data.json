@@ -1,0 +1,243 @@
+{
+    "chunks": [
+        {
+            "number": "052",
+            "title": "Pristine Data",
+            "start": 0.4,
+            "end": 4.8,
+            "text": "Now as you might have guessed, the data isn't really pristine."
+        },
+        {
+            "number": "052",
+            "title": "Pristine Data",
+            "start": 4.8,
+            "end": 9.1,
+            "text": "So here's what people think financial data is like."
+        },
+        {
+            "number": "052",
+            "title": "Pristine Data",
+            "start": 9.1,
+            "end": 13.4,
+            "text": "They imagine that it's perfectly recorded minute by minute."
+        },
+        {
+            "number": "052",
+            "title": "Pristine Data",
+            "start": 13.4,
+            "end": 17.3,
+            "text": "The prices that are recorded are exactly right."
+        },
+        {
+            "number": "052",
+            "title": "Pristine Data",
+            "start": 17.3,
+            "end": 20.9,
+            "text": "The volume data is exactly right."
+        },
+        {
+            "number": "052",
+            "title": "Pristine Data",
+            "start": 20.9,
+            "end": 23.5,
+            "text": "But that's not the case."
+        },
+        {
+            "number": "052",
+            "title": "Pristine Data",
+            "start": 23.5,
+            "end": 28.3,
+            "text": "But that's not the only mistake people make about what they think the data is like."
+        },
+        {
+            "number": "052",
+            "title": "Pristine Data",
+            "start": 28.3,
+            "end": 33.3,
+            "text": "People assume there's no gaps in the data, that we have every single minute recorded."
+        },
+        {
+            "number": "052",
+            "title": "Pristine Data",
+            "start": 33.3,
+            "end": 36.6,
+            "text": "That data for stocks started since the beginning of time and"
+        },
+        {
+            "number": "052",
+            "title": "Pristine Data",
+            "start": 36.6,
+            "end": 39.4,
+            "text": "they continue to the very last minute."
+        },
+        {
+            "number": "052",
+            "title": "Pristine Data",
+            "start": 40.4,
+            "end": 46.5,
+            "text": "The reality is that our data is an amalgamation created from many, many sources."
+        },
+        {
+            "number": "052",
+            "title": "Pristine Data",
+            "start": 46.5,
+            "end": 48.9,
+            "text": "For instance, for any particular stock,"
+        },
+        {
+            "number": "052",
+            "title": "Pristine Data",
+            "start": 48.9,
+            "end": 54.5,
+            "text": "it may be traded on the New York Stock Exchange, at NASDAQ, at BATS."
+        },
+        {
+            "number": "052",
+            "title": "Pristine Data",
+            "start": 54.5,
+            "end": 57.1,
+            "text": "And over any particular minute during the day,"
+        },
+        {
+            "number": "052",
+            "title": "Pristine Data",
+            "start": 57.1,
+            "end": 62.7,
+            "text": "it may trade at one price at New York Stock Exchange, another price at NASDAQ."
+        },
+        {
+            "number": "052",
+            "title": "Pristine Data",
+            "start": 62.7,
+            "end": 65.4,
+            "text": "The reality is that there's no single price for"
+        },
+        {
+            "number": "052",
+            "title": "Pristine Data",
+            "start": 65.4,
+            "end": 67.1,
+            "text": "any stock at any particular time."
+        },
+        {
+            "number": "052",
+            "title": "Pristine Data",
+            "start": 67.1,
+            "end": 69.5,
+            "text": "And in fact, it's hard to say who's right."
+        },
+        {
+            "number": "052",
+            "title": "Pristine Data",
+            "start": 69.5,
+            "end": 73.4,
+            "text": "So the reality of the data that we get is that it's a combination from all these"
+        },
+        {
+            "number": "052",
+            "title": "Pristine Data",
+            "start": 73.4,
+            "end": 79.0,
+            "text": "different sources and different data providers will provide actually different numbers."
+        },
+        {
+            "number": "052",
+            "title": "Pristine Data",
+            "start": 79.0,
+            "end": 87.0,
+            "text": "And finally, one part of reality that's especially troublesome is not all stocks trade every day."
+        },
+        {
+            "number": "052",
+            "title": "Pristine Data",
+            "start": 87.0,
+            "end": 90.7,
+            "text": "Sometimes stocks come into existence and suddenly there's values for them and"
+        },
+        {
+            "number": "052",
+            "title": "Pristine Data",
+            "start": 90.7,
+            "end": 92.8,
+            "text": "before that there was no data."
+        },
+        {
+            "number": "052",
+            "title": "Pristine Data",
+            "start": 92.8,
+            "end": 97.4,
+            "text": "Sometimes stocks go out of existence and suddenly they quit existing and"
+        },
+        {
+            "number": "052",
+            "title": "Pristine Data",
+            "start": 97.4,
+            "end": 99.6,
+            "text": "there's no data for them going forward."
+        },
+        {
+            "number": "052",
+            "title": "Pristine Data",
+            "start": 99.6,
+            "end": 104.8,
+            "text": "There's another kind of failure mode or missing data mode where stocks will be,"
+        },
+        {
+            "number": "052",
+            "title": "Pristine Data",
+            "start": 104.8,
+            "end": 110.0,
+            "text": "a particular stock will be trading, data will be missing, suddenly it starts trading again."
+        },
+        {
+            "number": "052",
+            "title": "Pristine Data",
+            "start": 110.0,
+            "end": 113.2,
+            "text": "And these are the sorts of problems we're going to take a look at and"
+        },
+        {
+            "number": "052",
+            "title": "Pristine Data",
+            "start": 113.2,
+            "end": 115.2,
+            "text": "find a way to solve in this lesson."
+        },
+        {
+            "number": "052",
+            "title": "Pristine Data",
+            "start": 115.2,
+            "end": 118.1,
+            "text": "For more information soườis is the Fi100 Specialist nusdivis employer,"
+        },
+        {
+            "number": "052",
+            "title": "Pristine Data",
+            "start": 118.1,
+            "end": 119.4,
+            "text": "cooperation is the top much threat leaves for them."
+        },
+        {
+            "number": "052",
+            "title": "Pristine Data",
+            "start": 119.4,
+            "end": 122.6,
+            "text": "Again, let's check that in all of you and I wonder what you're going to choose."
+        },
+        {
+            "number": "052",
+            "title": "Pristine Data",
+            "start": 122.6,
+            "end": 128.3,
+            "text": "For more information to find a thereof others in particular reasons and"
+        },
+        {
+            "number": "052",
+            "title": "Pristine Data",
+            "start": 128.3,
+            "end": 143.3,
+            "text": "following your probable comida links venous parts are going to bearound in particular"
+        }
+    ],
+    "text": "Now as you might have guessed, the data isn't really pristine. So here's what people think financial data is like. They imagine that it's perfectly recorded minute by minute. The prices that are recorded are exactly right. The volume data is exactly right. But that's not the case. But that's not the only mistake people make about what they think the data is like. People assume there's no gaps in the data, that we have every single minute recorded. That data for stocks started since the beginning of time and they continue to the very last minute. The reality is that our data is an amalgamation created from many, many sources. For instance, for any particular stock, it may be traded on the New York Stock Exchange, at NASDAQ, at BATS. And over any particular minute during the day, it may trade at one price at New York Stock Exchange, another price at NASDAQ. The reality is that there's no single price for any stock at any particular time. And in fact, it's hard to say who's right. So the reality of the data that we get is that it's a combination from all these different sources and different data providers will provide actually different numbers. And finally, one part of reality that's especially troublesome is not all stocks trade every day. Sometimes stocks come into existence and suddenly there's values for them and before that there was no data. Sometimes stocks go out of existence and suddenly they quit existing and there's no data for them going forward. There's another kind of failure mode or missing data mode where stocks will be, a particular stock will be trading, data will be missing, suddenly it starts trading again. And these are the sorts of problems we're going to take a look at and find a way to solve in this lesson. For more information soườis is the Fi100 Specialist nusdivis employer, cooperation is the top much threat leaves for them. Again, let's check that in all of you and I wonder what you're going to choose. For more information to find a thereof others in particular reasons and following your probable comida links venous parts are going to bearound in particular"
+}

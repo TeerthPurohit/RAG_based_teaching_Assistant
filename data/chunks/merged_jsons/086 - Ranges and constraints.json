@@ -1,0 +1,48 @@
+{
+    "title": "Ranges and constraints",
+    "number": "086",
+    "chunks": [
+        {
+            "title": "Ranges and constraints",
+            "number": "086",
+            "start": 0.3,
+            "end": 15.8,
+            "text": "There's two more things you need to know about before you start optimizing portfolios. One of them will help your optimization run faster, and the other is essential for you to get the right answer. Let's start with the faster thing first."
+        },
+        {
+            "title": "Ranges and constraints",
+            "number": "086",
+            "start": 15.8,
+            "end": 37.1,
+            "text": "The first thing you can do is you can tell the optimizer that it should only look at certain ranges for x. In other words, for this problem, for each of the various allocations, it's only worth looking at values between 0 and 1. In other words, a value of 2 would indicate 200% of your fund is in a particular"
+        },
+        {
+            "title": "Ranges and constraints",
+            "number": "086",
+            "start": 37.1,
+            "end": 62.8,
+            "text": "asset, and that's not possible. It's only feasible to have 0% to 100% or 0 to 1 in each of these assets. So you can tell the optimizer, only focus on values between 0 and 1 for each of the dimensions of x. And if you do that, the optimizer can run much more quickly because it knows"
+        },
+        {
+            "title": "Ranges and constraints",
+            "number": "086",
+            "start": 62.8,
+            "end": 86.2,
+            "text": "not to look at other values of x outside those bounds. It limits the search area significantly. Another thing you can do with the optimizers in NumPy are provide constraints. Constraints are properties of the values of x that must be true. As an example, we want the sum of our allocations to add up to 1."
+        },
+        {
+            "title": "Ranges and constraints",
+            "number": "086",
+            "start": 86.2,
+            "end": 108.9,
+            "text": "So let's say for example we're trying to optimize for a portfolio of four holdings. So we have x0, x1, x2, x3. We want the sum of the absolute values of those to be equal to 1.0. In other words, our total allocation should add up to 100%. The optimizers we use in this class have the ability for you to express that."
+        },
+        {
+            "title": "Ranges and constraints",
+            "number": "086",
+            "start": 108.9,
+            "end": 136.0,
+            "text": "And that guarantees that at the end when it finds out the values for x, you end up with a total of 100% allocated to the various assets. Now, we're going to show you how to do these two things in the assignment text itself because the syntax is a little bit tricky and we want to convey to you exactly how to do that. So we look forward to seeing you solve this problem and good luck on your final project."
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "title": "Overview",
+    "number": "196",
+    "chunks": [
+        {
+            "title": "Overview",
+            "number": "196",
+            "start": 0.0,
+            "end": 22.0,
+            "text": "Up until this point, we've focused on learners that provide forecast price changes. We then buy or sell the stocks with the most significant predicted price change. This approach ignores some important issues, such as the certainty of the price change. It also doesn't help us know when to exit the position either. In this lesson, we'll look at reinforcement learning."
+        },
+        {
+            "title": "Overview",
+            "number": "196",
+            "start": 22.0,
+            "end": 28.0,
+            "text": "Reinforcement learners create policies that provide specific direction on which action to take."
+        }
+    ]
+}

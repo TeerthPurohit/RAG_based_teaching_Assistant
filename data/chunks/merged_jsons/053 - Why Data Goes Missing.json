@@ -1,0 +1,55 @@
+{
+    "title": "Why Data Goes Missing",
+    "number": "053",
+    "chunks": [
+        {
+            "title": "Why Data Goes Missing",
+            "number": "053",
+            "start": 0.0,
+            "end": 33.0,
+            "text": "Okay, let's take a look at some examples so we can see how prices are recorded over time. We'll start with SPY. This is showing a time series of that ETF over time. This is the downturn in 2008, 2009. SPY represents the S&P 500. It's one of the most liquid and actively traded ETFs out there. And we typically use it as a reference, a time and date reference for other stocks because we know if SPY was"
+        },
+        {
+            "title": "Why Data Goes Missing",
+            "number": "053",
+            "start": 33.0,
+            "end": 61.0,
+            "text": "trading, the stock market was open and we can use its time history as a reference in that regard. It goes all the way back to 1993. There are of course some stocks that go back further all the way back to 1901 and so on, but most of what we're going to do, it's fine that we know it's been active since 1993. Now let's go and let's look at a couple more examples. We'll add Java, J-A-V-A, and as you can"
+        },
+        {
+            "title": "Why Data Goes Missing",
+            "number": "053",
+            "start": 61.0,
+            "end": 98.0,
+            "text": "see, it was trading from the beginning here, but it for some reason or another abruptly stopped. Now what happened there? Well, you may remember that Sun Microsystems, which was trading under the ticker Java, was acquired by Oracle in 2010. And on that date, that ticker went away. So if you look at historical data for Java, you'll see that it ends at some time in 2010. Something else that's interesting about this ticker Java is that before it was"
+        },
+        {
+            "title": "Why Data Goes Missing",
+            "number": "053",
+            "start": 98.0,
+            "end": 134.0,
+            "text": "Sun Microsystems, it was actually Mr. Coffee. So if you look historically for data for Java, you'll find two different time series, one for when it traded as Mr. Coffee, and another when it traded as Sun Microsystems, but it doesn't exist any longer. So imagine if you're processing this time series data, and you arrive at this abrupt end for Java, what's going to happen? Well, in the data, you'll see NAN, meaning not a number, meaning there's no data there. And the focus of this lesson is what"
+        },
+        {
+            "title": "Why Data Goes Missing",
+            "number": "053",
+            "start": 134.0,
+            "end": 171.0,
+            "text": "to do about that. Let's take a look at another example. Okay, we've added now an additional set of data, and as you can see, we named it fake, meaning this example we invented for the purpose of this discussion. Now, each of these symbols is available to you in the data that we provide you for the class. So you also will have this fake one. Now, the data represented by fake one is fairly common, and we only invented it just so it would work out well on this chart that we're looking at. Anyways, what's going on"
+        },
+        {
+            "title": "Why Data Goes Missing",
+            "number": "053",
+            "start": 171.0,
+            "end": 212.0,
+            "text": "with fake one is, as you can see, it didn't exist before this time. So instead of having, for instance, NAN values after a certain date, this fake one data is going to have NAN values before a certain date. So we'll have a different kind of problem trying to process that data. Now we'll look at one more example, and as you might have guessed, we named that fake two. Now what's special about this one is it's got all of the different kinds of problems at once. So it didn't exist before this date. Data was absent in between these two dates, and so on."
+        },
+        {
+            "title": "Why Data Goes Missing",
+            "number": "053",
+            "start": 212.0,
+            "end": 244.0,
+            "text": "This is not typical data for a very liquid, very large stock, for instance, like Google or Apple. But indeed, data like this exists for thinly traded stocks. In other words, companies that don't have a high market capitalization, and they trade very little, if at all, occasionally. So we still have to be able to deal with data like this in our studies. And so let's focus on this fake two example."
+        }
+    ]
+}

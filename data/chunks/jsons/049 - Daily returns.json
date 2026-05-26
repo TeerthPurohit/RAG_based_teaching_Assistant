@@ -1,0 +1,285 @@
+{
+    "chunks": [
+        {
+            "number": "049",
+            "title": "Daily returns",
+            "start": 0.3,
+            "end": 3.8,
+            "text": "Now we're going to look at something called daily returns."
+        },
+        {
+            "number": "049",
+            "title": "Daily returns",
+            "start": 3.8,
+            "end": 9.9,
+            "text": "Daily returns are one of the most important statistics used in financial analysis."
+        },
+        {
+            "number": "049",
+            "title": "Daily returns",
+            "start": 9.9,
+            "end": 16.7,
+            "text": "So let's consider first here this time series S&P 500 in 2012."
+        },
+        {
+            "number": "049",
+            "title": "Daily returns",
+            "start": 16.7,
+            "end": 21.7,
+            "text": "What daily returns are is simply how much did the price go up or"
+        },
+        {
+            "number": "049",
+            "title": "Daily returns",
+            "start": 21.7,
+            "end": 23.6,
+            "text": "down on a particular day."
+        },
+        {
+            "number": "049",
+            "title": "Daily returns",
+            "start": 23.6,
+            "end": 27.2,
+            "text": "So for instance, on this day it went down a little,"
+        },
+        {
+            "number": "049",
+            "title": "Daily returns",
+            "start": 27.2,
+            "end": 30.0,
+            "text": "on the next day it went up a lot."
+        },
+        {
+            "number": "049",
+            "title": "Daily returns",
+            "start": 30.0,
+            "end": 35.3,
+            "text": "Daily returns are calculated easily using a simple equation here."
+        },
+        {
+            "number": "049",
+            "title": "Daily returns",
+            "start": 35.3,
+            "end": 41.4,
+            "text": "So the daily return for day t, let's say today,"
+        },
+        {
+            "number": "049",
+            "title": "Daily returns",
+            "start": 41.4,
+            "end": 48.7,
+            "text": "is simply today's stock price divided by yesterday's stock price minus 1."
+        },
+        {
+            "number": "049",
+            "title": "Daily returns",
+            "start": 48.7,
+            "end": 50.2,
+            "text": "Let me show you an example."
+        },
+        {
+            "number": "049",
+            "title": "Daily returns",
+            "start": 50.2,
+            "end": 52.4,
+            "text": "Let's suppose on this particular day,"
+        },
+        {
+            "number": "049",
+            "title": "Daily returns",
+            "start": 52.4,
+            "end": 57.4,
+            "text": "the price went from $100 yesterday to $110 today."
+        },
+        {
+            "number": "049",
+            "title": "Daily returns",
+            "start": 57.4,
+            "end": 67.8,
+            "text": "The daily return then for that day is 110 divided by 100 minus 1 or 1.1 minus 1 equals 0.1,"
+        },
+        {
+            "number": "049",
+            "title": "Daily returns",
+            "start": 67.8,
+            "end": 69.8,
+            "text": "which is 10%."
+        },
+        {
+            "number": "049",
+            "title": "Daily returns",
+            "start": 69.8,
+            "end": 72.8,
+            "text": "So that's how we calculate daily returns."
+        },
+        {
+            "number": "049",
+            "title": "Daily returns",
+            "start": 72.8,
+            "end": 77.7,
+            "text": "Now one thing to remember is this is a kind of statement you might put in a for loop"
+        },
+        {
+            "number": "049",
+            "title": "Daily returns",
+            "start": 77.7,
+            "end": 80.1,
+            "text": "where you iterate over individual days."
+        },
+        {
+            "number": "049",
+            "title": "Daily returns",
+            "start": 80.1,
+            "end": 81.1,
+            "text": "Don't do that."
+        },
+        {
+            "number": "049",
+            "title": "Daily returns",
+            "start": 81.1,
+            "end": 89.2,
+            "text": "Use the numpy syntax we showed you where you can do this in a single statement with no for loops."
+        },
+        {
+            "number": "049",
+            "title": "Daily returns",
+            "start": 89.2,
+            "end": 92.2,
+            "text": "Here's what a chart for daily returns might look like."
+        },
+        {
+            "number": "049",
+            "title": "Daily returns",
+            "start": 92.2,
+            "end": 97.5,
+            "text": "Everything is scaled now from minus 10% to plus 10%."
+        },
+        {
+            "number": "049",
+            "title": "Daily returns",
+            "start": 97.5,
+            "end": 100.5,
+            "text": "And what we see here is a daily return for each day."
+        },
+        {
+            "number": "049",
+            "title": "Daily returns",
+            "start": 100.5,
+            "end": 105.3,
+            "text": "If it was a positive return, of course, it's positive and negative if it were negative."
+        },
+        {
+            "number": "049",
+            "title": "Daily returns",
+            "start": 105.3,
+            "end": 109.5,
+            "text": "Remember that day when we calculated we had a positive return of 10%?"
+        },
+        {
+            "number": "049",
+            "title": "Daily returns",
+            "start": 109.5,
+            "end": 113.3,
+            "text": "That corresponds to that point right here."
+        },
+        {
+            "number": "049",
+            "title": "Daily returns",
+            "start": 113.3,
+            "end": 118.8,
+            "text": "And for instance, here on the next day we had negative daily return."
+        },
+        {
+            "number": "049",
+            "title": "Daily returns",
+            "start": 118.8,
+            "end": 120.8,
+            "text": "That corresponds to that point right here."
+        },
+        {
+            "number": "049",
+            "title": "Daily returns",
+            "start": 120.8,
+            "end": 130.5,
+            "text": "Key thing to remember here is this is a line that sort of zigs and zags, usually close to 0."
+        },
+        {
+            "number": "049",
+            "title": "Daily returns",
+            "start": 130.5,
+            "end": 140.2,
+            "text": "And if you were to say take the mean of all these values, because we've had a generally upward moving trend here,"
+        },
+        {
+            "number": "049",
+            "title": "Daily returns",
+            "start": 140.2,
+            "end": 145.4,
+            "text": "our mean would probably be a little bit positive above 0."
+        },
+        {
+            "number": "049",
+            "title": "Daily returns",
+            "start": 145.4,
+            "end": 152.0,
+            "text": "Where looking at daily returns can be really important and revealing is to compare daily returns"
+        },
+        {
+            "number": "049",
+            "title": "Daily returns",
+            "start": 152.0,
+            "end": 154.8,
+            "text": "between different stocks or different assets."
+        },
+        {
+            "number": "049",
+            "title": "Daily returns",
+            "start": 154.8,
+            "end": 161.5,
+            "text": "So for example, we might compare how Exxon moves in comparison to S&P 500."
+        },
+        {
+            "number": "049",
+            "title": "Daily returns",
+            "start": 161.5,
+            "end": 169.2,
+            "text": "As one example, if you take a look at this section here, you can see that when S&P 500 went up, Exxon went down."
+        },
+        {
+            "number": "049",
+            "title": "Daily returns",
+            "start": 169.2,
+            "end": 173.6,
+            "text": "And that's revealed here in this section of the daily returns."
+        },
+        {
+            "number": "049",
+            "title": "Daily returns",
+            "start": 173.6,
+            "end": 180.6,
+            "text": "We're going to spend a lot of time in some future lessons looking at how these statistics,"
+        },
+        {
+            "number": "049",
+            "title": "Daily returns",
+            "start": 180.6,
+            "end": 185.4,
+            "text": "specifically how daily returns between different assets can be revealing."
+        },
+        {
+            "number": "049",
+            "title": "Daily returns",
+            "start": 185.4,
+            "end": 190.0,
+            "text": "Dave is going to show you now in Python how to calculate these daily return values."
+        },
+        {
+            "number": "049",
+            "title": "Daily returns",
+            "start": 190.0,
+            "end": 190.7,
+            "text": "Here's to you, Dave."
+        }
+    ],
+    "text": "Now we're going to look at something called daily returns. Daily returns are one of the most important statistics used in financial analysis. So let's consider first here this time series S&P 500 in 2012. What daily returns are is simply how much did the price go up or down on a particular day. So for instance, on this day it went down a little, on the next day it went up a lot. Daily returns are calculated easily using a simple equation here. So the daily return for day t, let's say today, is simply today's stock price divided by yesterday's stock price minus 1. Let me show you an example. Let's suppose on this particular day, the price went from $100 yesterday to $110 today. The daily return then for that day is 110 divided by 100 minus 1 or 1.1 minus 1 equals 0.1, which is 10%. So that's how we calculate daily returns. Now one thing to remember is this is a kind of statement you might put in a for loop where you iterate over individual days. Don't do that. Use the numpy syntax we showed you where you can do this in a single statement with no for loops. Here's what a chart for daily returns might look like. Everything is scaled now from minus 10% to plus 10%. And what we see here is a daily return for each day. If it was a positive return, of course, it's positive and negative if it were negative. Remember that day when we calculated we had a positive return of 10%? That corresponds to that point right here. And for instance, here on the next day we had negative daily return. That corresponds to that point right here. Key thing to remember here is this is a line that sort of zigs and zags, usually close to 0. And if you were to say take the mean of all these values, because we've had a generally upward moving trend here, our mean would probably be a little bit positive above 0. Where looking at daily returns can be really important and revealing is to compare daily returns between different stocks or different assets. So for example, we might compare how Exxon moves in comparison to S&P 500. As one example, if you take a look at this section here, you can see that when S&P 500 went up, Exxon went down. And that's revealed here in this section of the daily returns. We're going to spend a lot of time in some future lessons looking at how these statistics, specifically how daily returns between different assets can be revealing. Dave is going to show you now in Python how to calculate these daily return values. Here's to you, Dave."
+}

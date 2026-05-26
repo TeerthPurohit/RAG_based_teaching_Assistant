@@ -1,0 +1,41 @@
+{
+    "title": "The ML problem",
+    "number": "165",
+    "chunks": [
+        {
+            "title": "The ML problem",
+            "number": "165",
+            "start": 0.4,
+            "end": 17.7,
+            "text": "Scientists like to talk about the algorithms they build in terms of the problems that they solve. So this mini course is about machine learning, and let's think about the problem that machine learning solves. In most cases, machine learning algorithms are focused on building a model."
+        },
+        {
+            "title": "The ML problem",
+            "number": "165",
+            "start": 17.7,
+            "end": 42.4,
+            "text": "What's a model? A model is something that takes in observations, like this x here, run it through some sort of process, and provide a y. So this y is typically a prediction, and the x is some sort of observation of the world. Examples might be, for us, x are some features of stocks, and y is a future price."
+        },
+        {
+            "title": "The ML problem",
+            "number": "165",
+            "start": 42.4,
+            "end": 59.2,
+            "text": "There are many other uses of machine learning models. That's just one of them. X can be multidimensional. In other words, there might be multiple factors that we're considering. It might be Bollinger Bands, P-E ratio, and so on."
+        },
+        {
+            "title": "The ML problem",
+            "number": "165",
+            "start": 59.2,
+            "end": 82.5,
+            "text": "Y is typically single dimension, and just represents that single dimension prediction that we're trying to make. Now, there are lots of models that people have built that don't use machine learning at all. One example is the Black-Scholes model that predicts option prices. There are many other types of models that predict things that people build not using"
+        },
+        {
+            "title": "The ML problem",
+            "number": "165",
+            "start": 82.5,
+            "end": 107.6,
+            "text": "machine learning, but they develop mathematical formulas. But of course, with machine learning, we're trying to use data. So the machine learning process is to take historical data, run it through a machine learning algorithm of some sort to generate the model. Then at runtime, or when we need to use the model, we push x's in it and y's come out."
+        }
+    ]
+}

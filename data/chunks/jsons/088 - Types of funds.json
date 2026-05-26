@@ -1,0 +1,341 @@
+{
+    "chunks": [
+        {
+            "number": "088",
+            "title": "Types of funds",
+            "start": 0.6,
+            "end": 4.5,
+            "text": "As I mentioned, we're assuming that you want to be a portfolio manager of some"
+        },
+        {
+            "number": "088",
+            "title": "Types of funds",
+            "start": 4.5,
+            "end": 9.6,
+            "text": "sort, and there are several different sorts of portfolios you might manage."
+        },
+        {
+            "number": "088",
+            "title": "Types of funds",
+            "start": 9.6,
+            "end": 11.9,
+            "text": "So let's take a look at a few of those."
+        },
+        {
+            "number": "088",
+            "title": "Types of funds",
+            "start": 11.9,
+            "end": 14.5,
+            "text": "There are many different types of funds, of course, but"
+        },
+        {
+            "number": "088",
+            "title": "Types of funds",
+            "start": 14.5,
+            "end": 21.0,
+            "text": "three broad classes that we'll take a look at are ETFs, or exchange traded funds,"
+        },
+        {
+            "number": "088",
+            "title": "Types of funds",
+            "start": 21.0,
+            "end": 23.9,
+            "text": "mutual funds, and hedge funds."
+        },
+        {
+            "number": "088",
+            "title": "Types of funds",
+            "start": 23.9,
+            "end": 26.5,
+            "text": "Let's look at the differences between these."
+        },
+        {
+            "number": "088",
+            "title": "Types of funds",
+            "start": 26.5,
+            "end": 32.0,
+            "text": "ETFs, or exchange traded funds, are very much like stocks in the sense that you can"
+        },
+        {
+            "number": "088",
+            "title": "Types of funds",
+            "start": 32.0,
+            "end": 36.4,
+            "text": "buy and sell them, you can observe their prices intraday,"
+        },
+        {
+            "number": "088",
+            "title": "Types of funds",
+            "start": 36.4,
+            "end": 40.0,
+            "text": "you can trade them just like stocks on a stock exchange."
+        },
+        {
+            "number": "088",
+            "title": "Types of funds",
+            "start": 40.0,
+            "end": 44.8,
+            "text": "They represent baskets of stocks, sometimes they represent other instruments"
+        },
+        {
+            "number": "088",
+            "title": "Types of funds",
+            "start": 44.8,
+            "end": 48.4,
+            "text": "like bonds and so on, but it's very well known and"
+        },
+        {
+            "number": "088",
+            "title": "Types of funds",
+            "start": 48.4,
+            "end": 51.7,
+            "text": "they publish what it is they're holding."
+        },
+        {
+            "number": "088",
+            "title": "Types of funds",
+            "start": 51.7,
+            "end": 56.7,
+            "text": "Accordingly, ETFs are very transparent and they're very liquid."
+        },
+        {
+            "number": "088",
+            "title": "Types of funds",
+            "start": 56.7,
+            "end": 62.3,
+            "text": "Mutual funds are somewhat similar to ETFs in the sense that they have a declared"
+        },
+        {
+            "number": "088",
+            "title": "Types of funds",
+            "start": 62.3,
+            "end": 64.5,
+            "text": "goal or mechanism."
+        },
+        {
+            "number": "088",
+            "title": "Types of funds",
+            "start": 64.5,
+            "end": 69.5,
+            "text": "In other words, they're, for instance, trying to track the S&P 500 or"
+        },
+        {
+            "number": "088",
+            "title": "Types of funds",
+            "start": 69.5,
+            "end": 71.1,
+            "text": "some other such goal."
+        },
+        {
+            "number": "088",
+            "title": "Types of funds",
+            "start": 71.1,
+            "end": 74.3,
+            "text": "But they're a little bit different."
+        },
+        {
+            "number": "088",
+            "title": "Types of funds",
+            "start": 74.3,
+            "end": 79.0,
+            "text": "First of all, you can only buy or sell mutual funds at the end of the day."
+        },
+        {
+            "number": "088",
+            "title": "Types of funds",
+            "start": 79.0,
+            "end": 83.1,
+            "text": "So at the end of the day, they add up all the things they hold and"
+        },
+        {
+            "number": "088",
+            "title": "Types of funds",
+            "start": 83.1,
+            "end": 86.0,
+            "text": "compute a net asset value."
+        },
+        {
+            "number": "088",
+            "title": "Types of funds",
+            "start": 86.0,
+            "end": 87.9,
+            "text": "And that's the value at which you can buy or"
+        },
+        {
+            "number": "088",
+            "title": "Types of funds",
+            "start": 87.9,
+            "end": 91.2,
+            "text": "sell shares of a mutual fund."
+        },
+        {
+            "number": "088",
+            "title": "Types of funds",
+            "start": 91.2,
+            "end": 95.9,
+            "text": "They don't disclose exactly what they're holding except once every quarter."
+        },
+        {
+            "number": "088",
+            "title": "Types of funds",
+            "start": 95.9,
+            "end": 98.9,
+            "text": "So they're accordingly less transparent."
+        },
+        {
+            "number": "088",
+            "title": "Types of funds",
+            "start": 98.9,
+            "end": 102.4,
+            "text": "They're less transparent because since their last disclosure,"
+        },
+        {
+            "number": "088",
+            "title": "Types of funds",
+            "start": 102.4,
+            "end": 106.1,
+            "text": "you don't know exactly what they might have bought or sold."
+        },
+        {
+            "number": "088",
+            "title": "Types of funds",
+            "start": 106.1,
+            "end": 110.1,
+            "text": "Still, they're somewhat transparent because they have stated goals and"
+        },
+        {
+            "number": "088",
+            "title": "Types of funds",
+            "start": 110.1,
+            "end": 111.9,
+            "text": "you know what they're trying to achieve."
+        },
+        {
+            "number": "088",
+            "title": "Types of funds",
+            "start": 111.9,
+            "end": 116.4,
+            "text": "Similar to, say, an ETF that might represent the S&P 500,"
+        },
+        {
+            "number": "088",
+            "title": "Types of funds",
+            "start": 116.4,
+            "end": 121.7,
+            "text": "there are also mutual funds that represent large cap stocks like the S&P 500."
+        },
+        {
+            "number": "088",
+            "title": "Types of funds",
+            "start": 122.9,
+            "end": 127.1,
+            "text": "Hedge funds are even less transparent than mutual funds."
+        },
+        {
+            "number": "088",
+            "title": "Types of funds",
+            "start": 127.1,
+            "end": 130.9,
+            "text": "In fact, even to buy shares in a hedge fund,"
+        },
+        {
+            "number": "088",
+            "title": "Types of funds",
+            "start": 130.9,
+            "end": 135.4,
+            "text": "you have to enter into an agreement that is usually secret in the sense that"
+        },
+        {
+            "number": "088",
+            "title": "Types of funds",
+            "start": 135.4,
+            "end": 138.4,
+            "text": "you're not supposed to reveal the contents of that agreement."
+        },
+        {
+            "number": "088",
+            "title": "Types of funds",
+            "start": 138.4,
+            "end": 141.4,
+            "text": "It's hard to exit a hedge fund."
+        },
+        {
+            "number": "088",
+            "title": "Types of funds",
+            "start": 141.4,
+            "end": 145.0,
+            "text": "They usually require you to put your money in and"
+        },
+        {
+            "number": "088",
+            "title": "Types of funds",
+            "start": 145.0,
+            "end": 148.5,
+            "text": "leave it there for some number of months, sometimes years."
+        },
+        {
+            "number": "088",
+            "title": "Types of funds",
+            "start": 148.5,
+            "end": 154.0,
+            "text": "And when you take it out, you can't necessarily take it all at once."
+        },
+        {
+            "number": "088",
+            "title": "Types of funds",
+            "start": 154.0,
+            "end": 158.3,
+            "text": "Hedge funds don't ever have to disclose what they're holding,"
+        },
+        {
+            "number": "088",
+            "title": "Types of funds",
+            "start": 158.3,
+            "end": 161.4,
+            "text": "not even to the investors in the hedge funds."
+        },
+        {
+            "number": "088",
+            "title": "Types of funds",
+            "start": 161.4,
+            "end": 164.5,
+            "text": "Now, that might dissuade you from wanting, say,"
+        },
+        {
+            "number": "088",
+            "title": "Types of funds",
+            "start": 164.5,
+            "end": 167.6,
+            "text": "to invest in it if you don't know what they're holding."
+        },
+        {
+            "number": "088",
+            "title": "Types of funds",
+            "start": 167.6,
+            "end": 172.6,
+            "text": "On the other hand, if they show you good performance, you might want to invest."
+        },
+        {
+            "number": "088",
+            "title": "Types of funds",
+            "start": 172.6,
+            "end": 179.3,
+            "text": "They will usually describe to clients what their strategy is and so on to encourage"
+        },
+        {
+            "number": "088",
+            "title": "Types of funds",
+            "start": 179.3,
+            "end": 180.8,
+            "text": "clients to invest."
+        },
+        {
+            "number": "088",
+            "title": "Types of funds",
+            "start": 180.8,
+            "end": 183.7,
+            "text": "Accordingly, hedge funds are not transparent at all."
+        }
+    ],
+    "text": "As I mentioned, we're assuming that you want to be a portfolio manager of some sort, and there are several different sorts of portfolios you might manage. So let's take a look at a few of those. There are many different types of funds, of course, but three broad classes that we'll take a look at are ETFs, or exchange traded funds, mutual funds, and hedge funds. Let's look at the differences between these. ETFs, or exchange traded funds, are very much like stocks in the sense that you can buy and sell them, you can observe their prices intraday, you can trade them just like stocks on a stock exchange. They represent baskets of stocks, sometimes they represent other instruments like bonds and so on, but it's very well known and they publish what it is they're holding. Accordingly, ETFs are very transparent and they're very liquid. Mutual funds are somewhat similar to ETFs in the sense that they have a declared goal or mechanism. In other words, they're, for instance, trying to track the S&P 500 or some other such goal. But they're a little bit different. First of all, you can only buy or sell mutual funds at the end of the day. So at the end of the day, they add up all the things they hold and compute a net asset value. And that's the value at which you can buy or sell shares of a mutual fund. They don't disclose exactly what they're holding except once every quarter. So they're accordingly less transparent. They're less transparent because since their last disclosure, you don't know exactly what they might have bought or sold. Still, they're somewhat transparent because they have stated goals and you know what they're trying to achieve. Similar to, say, an ETF that might represent the S&P 500, there are also mutual funds that represent large cap stocks like the S&P 500. Hedge funds are even less transparent than mutual funds. In fact, even to buy shares in a hedge fund, you have to enter into an agreement that is usually secret in the sense that you're not supposed to reveal the contents of that agreement. It's hard to exit a hedge fund. They usually require you to put your money in and leave it there for some number of months, sometimes years. And when you take it out, you can't necessarily take it all at once. Hedge funds don't ever have to disclose what they're holding, not even to the investors in the hedge funds. Now, that might dissuade you from wanting, say, to invest in it if you don't know what they're holding. On the other hand, if they show you good performance, you might want to invest. They will usually describe to clients what their strategy is and so on to encourage clients to invest. Accordingly, hedge funds are not transparent at all."
+}

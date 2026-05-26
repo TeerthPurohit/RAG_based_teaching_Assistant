@@ -1,0 +1,55 @@
+{
+    "title": "Markov decision problems",
+    "number": "199",
+    "chunks": [
+        {
+            "title": "Markov decision problems",
+            "number": "199",
+            "start": 0.4,
+            "end": 17.6,
+            "text": "Let's formalize this a little bit. What we've been working with is something called a Markov decision problem. And here's what makes up a Markov decision problem. There are a set of states, S. Those are all the values that this S can take as it comes into the robot."
+        },
+        {
+            "title": "Markov decision problems",
+            "number": "199",
+            "start": 18.6,
+            "end": 35.6,
+            "text": "There's a set of actions, A, which is these potential actions we can take to act on the environment. There's a transition function. This is the T within the environment. And this is a little bit complicated, but let's just step through it."
+        },
+        {
+            "title": "Markov decision problems",
+            "number": "199",
+            "start": 35.6,
+            "end": 68.6,
+            "text": "T is a three-dimensional object, and it records in each of its cells the probability that if we are in state S and we take action A, we will end up in state S prime. Something to note about this transition function is suppose we're in state, a particular state S, and we take a particular action A. The sum of all the next states we might end up in has to sum to 1."
+        },
+        {
+            "title": "Markov decision problems",
+            "number": "199",
+            "start": 68.6,
+            "end": 87.2,
+            "text": "In other words, with probability 1, we're going to end up in some new state. But the distribution of probabilities across these different states is what makes this informative and revealing. Finally, an important component of Markov decision problems is the reward function. And that's what gives us the reward."
+        },
+        {
+            "title": "Markov decision problems",
+            "number": "199",
+            "start": 87.2,
+            "end": 111.4,
+            "text": "If we're in a particular state and we take an action A, we get a particular reward. So if we have all of these things defined, we have what's called a Markov decision problem. Now the problem for a reinforcement learning algorithm is to find this policy pi that will maximize reward over time. And in fact, if it finds the optimal policy,"
+        },
+        {
+            "title": "Markov decision problems",
+            "number": "199",
+            "start": 111.4,
+            "end": 137.4,
+            "text": "we give it the little symbol pi star to indicate that it's optimal. Now, if we have these, and in particular, if we have T and R, there are algorithms we can unleash that will find this optimal policy. Two of them are policy iteration and value iteration. Now in this class, we don't start off knowing T and R."
+        },
+        {
+            "title": "Markov decision problems",
+            "number": "199",
+            "start": 137.4,
+            "end": 142.1,
+            "text": "And so we're not going to be able to use these algorithms directly to find this policy."
+        }
+    ]
+}

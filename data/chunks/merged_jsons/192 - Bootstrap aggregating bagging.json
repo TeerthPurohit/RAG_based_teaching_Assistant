@@ -1,0 +1,69 @@
+{
+    "title": "Bootstrap aggregating bagging",
+    "number": "192",
+    "chunks": [
+        {
+            "title": "Bootstrap aggregating bagging",
+            "number": "192",
+            "start": 0.3,
+            "end": 20.2,
+            "text": "There's another way we can build an ensemble of learners. We can build them using the same learning algorithm, but train each learner on a different set of the data. This is what's called bootstrap aggregating or bagging. It was invented by Bremen in the late 80s, early 90s."
+        },
+        {
+            "title": "Bootstrap aggregating bagging",
+            "number": "192",
+            "start": 20.2,
+            "end": 37.3,
+            "text": "Here's how bagging works. So what we do is we create a number of subsets of the data. I've drawn little bags here to represent bags of data. And each one of these is a subset of the original data. Now, how do we collect these?"
+        },
+        {
+            "title": "Bootstrap aggregating bagging",
+            "number": "192",
+            "start": 37.3,
+            "end": 65.0,
+            "text": "Well, we do it randomly. So for this subset that contains n prime values, and our original data set contains n different instances, we grab n prime of them at random with replacement from this original data. So what with replacement means is, let's say we had, say, these values."
+        },
+        {
+            "title": "Bootstrap aggregating bagging",
+            "number": "192",
+            "start": 65.0,
+            "end": 82.3,
+            "text": "We might grab this one and put it in our bag. We might randomly grab this one and put it in our bag. But each time we grab randomly, we randomly choose across the whole collection of data. So we might choose this one again and put it in the bag."
+        },
+        {
+            "title": "Bootstrap aggregating bagging",
+            "number": "192",
+            "start": 82.3,
+            "end": 103.2,
+            "text": "So this one and this one are really the same one, and they're repeated twice. And that's okay. That's what with replacement means. So we create altogether m of these groups or bags. And each one of them contains n prime different data instances chosen at random"
+        },
+        {
+            "title": "Bootstrap aggregating bagging",
+            "number": "192",
+            "start": 103.2,
+            "end": 119.6,
+            "text": "with replacement. Let's note these things. So n is the number of training instances in our original data. n prime is the number of instances that we put in each bag. And m is the number of bags."
+        },
+        {
+            "title": "Bootstrap aggregating bagging",
+            "number": "192",
+            "start": 119.6,
+            "end": 147.8,
+            "text": "We almost always want n prime to be less than n, usually about 60%. So each of these bags has about 60% as many training instances as our original data. But that's just a rule of thumb. Now we use each of these collections of data to train a different model. We have now m different models, each one trained on a little bit of different data."
+        },
+        {
+            "title": "Bootstrap aggregating bagging",
+            "number": "192",
+            "start": 147.8,
+            "end": 168.4,
+            "text": "And just like when we have an ensemble of different learning algorithms, here we have an ensemble of different models, we query in the same way. We query each model with the same x and we collect all of their outputs. We take the y output of each model, take their mean, and boom, that's our y for the ensemble."
+        },
+        {
+            "title": "Bootstrap aggregating bagging",
+            "number": "192",
+            "start": 168.4,
+            "end": 178.6,
+            "text": "Now keep in mind, we can wrap this in a single API, just like that API you wrapped your linreg learner in and your KNN learner in."
+        }
+    ]
+}

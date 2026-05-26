@@ -1,0 +1,41 @@
+{
+    "title": "Learning R",
+    "number": "215",
+    "chunks": [
+        {
+            "title": "Learning R",
+            "number": "215",
+            "start": 0.0,
+            "end": 21.9,
+            "text": "The last step here is how do we learn a model for R? Now remember, when we execute an action A in state S, we get an immediate reward, little r. So again, big R, S A is our expected reward if we're in state S and we execute action A."
+        },
+        {
+            "title": "Learning R",
+            "number": "215",
+            "start": 21.9,
+            "end": 50.9,
+            "text": "Little r is our immediate reward when we experience this in the real world. So big R is our model, little r is what we get in an experience tuple. So we want to update this model every time we have a real experience. And it's a simple equation, very much like the Q table update equation. What we have is 1 minus alpha, where alpha is our learning rate."
+        },
+        {
+            "title": "Learning R",
+            "number": "215",
+            "start": 50.9,
+            "end": 74.3,
+            "text": "And again, that can typically be something like 0.2. Anyways, we multiply that times our current value for R. And then we add in, of course, our new estimate of what that value ought to be. And we just use R for that new estimate. So it's alpha times little r, which is our immediate reward, or"
+        },
+        {
+            "title": "Learning R",
+            "number": "215",
+            "start": 74.3,
+            "end": 92.7,
+            "text": "our new best estimate of what the value should be. Plus what the value was before times 1 minus alpha. So we're weighting, presumably, our old value more than our new value, so we converge more slowly. But that's it."
+        },
+        {
+            "title": "Learning R",
+            "number": "215",
+            "start": 92.7,
+            "end": 98.4,
+            "text": "That's a simple way to build a model of R from observations of interactions with the real world."
+        }
+    ]
+}

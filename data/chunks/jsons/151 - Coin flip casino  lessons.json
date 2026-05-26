@@ -1,0 +1,236 @@
+{
+    "chunks": [
+        {
+            "number": "151",
+            "title": "Coin flip casino  lessons",
+            "start": 0.6,
+            "end": 5.0,
+            "text": "So let's step back a moment and look at these results for these two extremes."
+        },
+        {
+            "number": "151",
+            "title": "Coin flip casino  lessons",
+            "start": 5.0,
+            "end": 11.0,
+            "text": "So we had this one extreme where we bet all thousand chips on a single coin flip,"
+        },
+        {
+            "number": "151",
+            "title": "Coin flip casino  lessons",
+            "start": 11.0,
+            "end": 17.3,
+            "text": "and another where we bet one chip on each of a thousand coin flips."
+        },
+        {
+            "number": "151",
+            "title": "Coin flip casino  lessons",
+            "start": 17.3,
+            "end": 21.9,
+            "text": "Now the risk adjusted reward or the sharp ratio for"
+        },
+        {
+            "number": "151",
+            "title": "Coin flip casino  lessons",
+            "start": 21.9,
+            "end": 25.4,
+            "text": "the single bet was 0.63."
+        },
+        {
+            "number": "151",
+            "title": "Coin flip casino  lessons",
+            "start": 25.4,
+            "end": 31.6,
+            "text": "In other words, if we bet all thousand chips on a single flip of the coin,"
+        },
+        {
+            "number": "151",
+            "title": "Coin flip casino  lessons",
+            "start": 31.6,
+            "end": 34.1,
+            "text": "our sharp ratio is 0.63."
+        },
+        {
+            "number": "151",
+            "title": "Coin flip casino  lessons",
+            "start": 34.1,
+            "end": 37.7,
+            "text": "So let's call this SRSingle."
+        },
+        {
+            "number": "151",
+            "title": "Coin flip casino  lessons",
+            "start": 37.7,
+            "end": 41.6,
+            "text": "Now the sharp ratio, if we bet a thousand times, in other words,"
+        },
+        {
+            "number": "151",
+            "title": "Coin flip casino  lessons",
+            "start": 41.6,
+            "end": 45.6,
+            "text": "one chip on each of a thousand tables, turns out to be 20."
+        },
+        {
+            "number": "151",
+            "title": "Coin flip casino  lessons",
+            "start": 45.6,
+            "end": 47.6,
+            "text": "So what's the relationship between these two?"
+        },
+        {
+            "number": "151",
+            "title": "Coin flip casino  lessons",
+            "start": 47.6,
+            "end": 52.2,
+            "text": "Of course, 20 is about 40 times bigger than 0.63, but"
+        },
+        {
+            "number": "151",
+            "title": "Coin flip casino  lessons",
+            "start": 52.2,
+            "end": 53.9,
+            "text": "there's something more interesting there."
+        },
+        {
+            "number": "151",
+            "title": "Coin flip casino  lessons",
+            "start": 53.9,
+            "end": 57.0,
+            "text": "And it turns out that it's this."
+        },
+        {
+            "number": "151",
+            "title": "Coin flip casino  lessons",
+            "start": 57.0,
+            "end": 62.1,
+            "text": "So if we take the single bet case and multiply it by the square root of a thousand,"
+        },
+        {
+            "number": "151",
+            "title": "Coin flip casino  lessons",
+            "start": 62.1,
+            "end": 68.5,
+            "text": "we get the sharp ratio of our multi-bet scenario where we bet a thousand at once."
+        },
+        {
+            "number": "151",
+            "title": "Coin flip casino  lessons",
+            "start": 68.5,
+            "end": 70.2,
+            "text": "So isn't that curious?"
+        },
+        {
+            "number": "151",
+            "title": "Coin flip casino  lessons",
+            "start": 70.2,
+            "end": 76.4,
+            "text": "So it turns out that in general, if you carry this scenario out to more examples,"
+        },
+        {
+            "number": "151",
+            "title": "Coin flip casino  lessons",
+            "start": 76.4,
+            "end": 83.6,
+            "text": "that if you split your bets evenly across multiple tables, this relationship will hold."
+        },
+        {
+            "number": "151",
+            "title": "Coin flip casino  lessons",
+            "start": 83.6,
+            "end": 87.3,
+            "text": "In other words, the sharp ratio for the single bet, you know,"
+        },
+        {
+            "number": "151",
+            "title": "Coin flip casino  lessons",
+            "start": 87.3,
+            "end": 91.4,
+            "text": "a thousand chips on one table is sort of our base case."
+        },
+        {
+            "number": "151",
+            "title": "Coin flip casino  lessons",
+            "start": 91.4,
+            "end": 94.5,
+            "text": "And as we spread it out over more and more tables,"
+        },
+        {
+            "number": "151",
+            "title": "Coin flip casino  lessons",
+            "start": 94.5,
+            "end": 98.8,
+            "text": "the sharp ratio improves by the square root of that number of bets."
+        },
+        {
+            "number": "151",
+            "title": "Coin flip casino  lessons",
+            "start": 98.8,
+            "end": 105.3,
+            "text": "And this relation is exactly like the fundamental law of active portfolio management."
+        },
+        {
+            "number": "151",
+            "title": "Coin flip casino  lessons",
+            "start": 105.3,
+            "end": 112.9,
+            "text": "Namely, our overall performance is related to the skill in the case of making a single"
+        },
+        {
+            "number": "151",
+            "title": "Coin flip casino  lessons",
+            "start": 112.9,
+            "end": 119.0,
+            "text": "pick times the square root of the number of picks that we're able to make."
+        },
+        {
+            "number": "151",
+            "title": "Coin flip casino  lessons",
+            "start": 119.0,
+            "end": 127.2,
+            "text": "So our coin flip casino has helped to show us how we can derive an equation like this for betting,"
+        },
+        {
+            "number": "151",
+            "title": "Coin flip casino  lessons",
+            "start": 127.2,
+            "end": 131.0,
+            "text": "which is what buying stocks really is."
+        },
+        {
+            "number": "151",
+            "title": "Coin flip casino  lessons",
+            "start": 131.0,
+            "end": 137.2,
+            "text": "And to show that you can improve things either by having more skill."
+        },
+        {
+            "number": "151",
+            "title": "Coin flip casino  lessons",
+            "start": 137.2,
+            "end": 141.0,
+            "text": "In the case of coin flips, skill is how biased is the coin."
+        },
+        {
+            "number": "151",
+            "title": "Coin flip casino  lessons",
+            "start": 141.0,
+            "end": 147.0,
+            "text": "In the case of investing, it's how good are you at predicting the future return of a stock."
+        },
+        {
+            "number": "151",
+            "title": "Coin flip casino  lessons",
+            "start": 147.0,
+            "end": 150.6,
+            "text": "Or you can improve your performance by increasing your breadth, but"
+        },
+        {
+            "number": "151",
+            "title": "Coin flip casino  lessons",
+            "start": 150.6,
+            "end": 153.2,
+            "text": "you only get to improve it by the square root of your breadth."
+        }
+    ],
+    "text": "So let's step back a moment and look at these results for these two extremes. So we had this one extreme where we bet all thousand chips on a single coin flip, and another where we bet one chip on each of a thousand coin flips. Now the risk adjusted reward or the sharp ratio for the single bet was 0.63. In other words, if we bet all thousand chips on a single flip of the coin, our sharp ratio is 0.63. So let's call this SRSingle. Now the sharp ratio, if we bet a thousand times, in other words, one chip on each of a thousand tables, turns out to be 20. So what's the relationship between these two? Of course, 20 is about 40 times bigger than 0.63, but there's something more interesting there. And it turns out that it's this. So if we take the single bet case and multiply it by the square root of a thousand, we get the sharp ratio of our multi-bet scenario where we bet a thousand at once. So isn't that curious? So it turns out that in general, if you carry this scenario out to more examples, that if you split your bets evenly across multiple tables, this relationship will hold. In other words, the sharp ratio for the single bet, you know, a thousand chips on one table is sort of our base case. And as we spread it out over more and more tables, the sharp ratio improves by the square root of that number of bets. And this relation is exactly like the fundamental law of active portfolio management. Namely, our overall performance is related to the skill in the case of making a single pick times the square root of the number of picks that we're able to make. So our coin flip casino has helped to show us how we can derive an equation like this for betting, which is what buying stocks really is. And to show that you can improve things either by having more skill. In the case of coin flips, skill is how biased is the coin. In the case of investing, it's how good are you at predicting the future return of a stock. Or you can improve your performance by increasing your breadth, but you only get to improve it by the square root of your breadth."
+}

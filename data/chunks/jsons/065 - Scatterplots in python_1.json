@@ -1,0 +1,488 @@
+{
+    "chunks": [
+        {
+            "number": "065",
+            "title": "Scatterplots in python_1",
+            "start": 0.4,
+            "end": 2.0,
+            "text": "Thank you professor."
+        },
+        {
+            "number": "065",
+            "title": "Scatterplots in python_1",
+            "start": 2.0,
+            "end": 5.1,
+            "text": "So I'm back with more Python and more graphs."
+        },
+        {
+            "number": "065",
+            "title": "Scatterplots in python_1",
+            "start": 5.1,
+            "end": 7.6,
+            "text": "This time, let's scatter some data."
+        },
+        {
+            "number": "065",
+            "title": "Scatterplots in python_1",
+            "start": 7.6,
+            "end": 10.7,
+            "text": "I mean, let's learn how to build a scatter plot."
+        },
+        {
+            "number": "065",
+            "title": "Scatterplots in python_1",
+            "start": 10.7,
+            "end": 16.6,
+            "text": "We will compare scatter plot of SPY versus XORM and SPY versus GOLD."
+        },
+        {
+            "number": "065",
+            "title": "Scatterplots in python_1",
+            "start": 16.6,
+            "end": 20.8,
+            "text": "So let's read this data and compute daily returns as well."
+        },
+        {
+            "number": "065",
+            "title": "Scatterplots in python_1",
+            "start": 20.8,
+            "end": 25.5,
+            "text": "As usual, we call get data function with this symbols and"
+        },
+        {
+            "number": "065",
+            "title": "Scatterplots in python_1",
+            "start": 25.5,
+            "end": 28.3,
+            "text": "also compute daily returns."
+        },
+        {
+            "number": "065",
+            "title": "Scatterplots in python_1",
+            "start": 28.3,
+            "end": 32.8,
+            "text": "Next, we first plot scatter plot for SPY versus XORM."
+        },
+        {
+            "number": "065",
+            "title": "Scatterplots in python_1",
+            "start": 32.8,
+            "end": 39.0,
+            "text": "Kind parameter of the plot function of the data frame will help us achieve this."
+        },
+        {
+            "number": "065",
+            "title": "Scatterplots in python_1",
+            "start": 39.0,
+            "end": 41.4,
+            "text": "So we mentioned we need a scatter plot."
+        },
+        {
+            "number": "065",
+            "title": "Scatterplots in python_1",
+            "start": 41.4,
+            "end": 45.4,
+            "text": "But since the data frame daily return has values for three stocks,"
+        },
+        {
+            "number": "065",
+            "title": "Scatterplots in python_1",
+            "start": 45.4,
+            "end": 50.8,
+            "text": "we have to mention which should be our x axis and which should be our y axis."
+        },
+        {
+            "number": "065",
+            "title": "Scatterplots in python_1",
+            "start": 50.8,
+            "end": 54.0,
+            "text": "As we are plotting SPY versus XORM,"
+        },
+        {
+            "number": "065",
+            "title": "Scatterplots in python_1",
+            "start": 54.0,
+            "end": 59.0,
+            "text": "we assign X attribute as SPY and Y attribute as XORM."
+        },
+        {
+            "number": "065",
+            "title": "Scatterplots in python_1",
+            "start": 59.0,
+            "end": 60.1,
+            "text": "Ready to see the output?"
+        },
+        {
+            "number": "065",
+            "title": "Scatterplots in python_1",
+            "start": 61.2,
+            "end": 64.2,
+            "text": "This is our SPY versus XORM."
+        },
+        {
+            "number": "065",
+            "title": "Scatterplots in python_1",
+            "start": 64.2,
+            "end": 67.0,
+            "text": "Now let's similarly plot SPY versus GOLD."
+        },
+        {
+            "number": "065",
+            "title": "Scatterplots in python_1",
+            "start": 68.1,
+            "end": 74.5,
+            "text": "Since we want GOLD on our y axis, we just replace the Y label from XORM to GOLD."
+        },
+        {
+            "number": "065",
+            "title": "Scatterplots in python_1",
+            "start": 74.5,
+            "end": 77.9,
+            "text": "So here are two scatter plots."
+        },
+        {
+            "number": "065",
+            "title": "Scatterplots in python_1",
+            "start": 77.9,
+            "end": 81.8,
+            "text": "SPY versus XORM and SPY versus GOLD."
+        },
+        {
+            "number": "065",
+            "title": "Scatterplots in python_1",
+            "start": 81.8,
+            "end": 84.9,
+            "text": "But we want to recreate the graph that professor drew."
+        },
+        {
+            "number": "065",
+            "title": "Scatterplots in python_1",
+            "start": 84.9,
+            "end": 87.6,
+            "text": "So we fit a line to this scatter plots."
+        },
+        {
+            "number": "065",
+            "title": "Scatterplots in python_1",
+            "start": 87.6,
+            "end": 92.3,
+            "text": "For that, we need a help of another good friend of ours, which is NumPy."
+        },
+        {
+            "number": "065",
+            "title": "Scatterplots in python_1",
+            "start": 92.3,
+            "end": 93.3,
+            "text": "So let's import it."
+        },
+        {
+            "number": "065",
+            "title": "Scatterplots in python_1",
+            "start": 93.3,
+            "end": 98.4,
+            "text": "After importing the NumPy library, we are all set to fit a line to our scatter plot."
+        },
+        {
+            "number": "065",
+            "title": "Scatterplots in python_1",
+            "start": 99.5,
+            "end": 105.6,
+            "text": "So we have a set of points and we want a line which has an equation of degree one."
+        },
+        {
+            "number": "065",
+            "title": "Scatterplots in python_1",
+            "start": 105.6,
+            "end": 108.9,
+            "text": "So we go ahead and fit a polynomial of degree one."
+        },
+        {
+            "number": "065",
+            "title": "Scatterplots in python_1",
+            "start": 108.9,
+            "end": 112.1,
+            "text": "This is what polyfit function of the NumPy does."
+        },
+        {
+            "number": "065",
+            "title": "Scatterplots in python_1",
+            "start": 112.1,
+            "end": 113.9,
+            "text": "So let's use it."
+        },
+        {
+            "number": "065",
+            "title": "Scatterplots in python_1",
+            "start": 113.9,
+            "end": 117.0,
+            "text": "We will first do it for SPY and XORM."
+        },
+        {
+            "number": "065",
+            "title": "Scatterplots in python_1",
+            "start": 117.0,
+            "end": 122.3,
+            "text": "The polyfit function needs x coordinates and y coordinates to fit a line."
+        },
+        {
+            "number": "065",
+            "title": "Scatterplots in python_1",
+            "start": 122.3,
+            "end": 126.6,
+            "text": "For us, the x coordinates are the daily return values for SPY and"
+        },
+        {
+            "number": "065",
+            "title": "Scatterplots in python_1",
+            "start": 126.6,
+            "end": 130.1,
+            "text": "the y coordinates are daily return values for the XORM."
+        },
+        {
+            "number": "065",
+            "title": "Scatterplots in python_1",
+            "start": 130.1,
+            "end": 133.5,
+            "text": "The one denotes the degree of our function."
+        },
+        {
+            "number": "065",
+            "title": "Scatterplots in python_1",
+            "start": 133.5,
+            "end": 136.2,
+            "text": "Calling this function will return two things."
+        },
+        {
+            "number": "065",
+            "title": "Scatterplots in python_1",
+            "start": 136.2,
+            "end": 140.6,
+            "text": "The first is the polynomial coefficient and the second is the intercept."
+        },
+        {
+            "number": "065",
+            "title": "Scatterplots in python_1",
+            "start": 140.6,
+            "end": 147.4,
+            "text": "Since we have a polynomial of degree one, it would be of the form y is equal to mx plus b."
+        },
+        {
+            "number": "065",
+            "title": "Scatterplots in python_1",
+            "start": 147.4,
+            "end": 151.0,
+            "text": "So m is the coefficient and b is the intercept."
+        },
+        {
+            "number": "065",
+            "title": "Scatterplots in python_1",
+            "start": 151.0,
+            "end": 156.3,
+            "text": "We named them as beta and alpha, just as Professor explained."
+        },
+        {
+            "number": "065",
+            "title": "Scatterplots in python_1",
+            "start": 156.3,
+            "end": 159.0,
+            "text": "Now we finally plot these values."
+        },
+        {
+            "number": "065",
+            "title": "Scatterplots in python_1",
+            "start": 159.0,
+            "end": 164.6,
+            "text": "The idea for plotting the line is, for every value of x, that is SPY,"
+        },
+        {
+            "number": "065",
+            "title": "Scatterplots in python_1",
+            "start": 164.6,
+            "end": 172.1,
+            "text": "we find a value of y using the line equation, which is mx plus b."
+        },
+        {
+            "number": "065",
+            "title": "Scatterplots in python_1",
+            "start": 172.1,
+            "end": 177.1,
+            "text": "This parameter denotes that we want a line plot with a color red."
+        },
+        {
+            "number": "065",
+            "title": "Scatterplots in python_1",
+            "start": 177.1,
+            "end": 179.4,
+            "text": "Now let's check our graph."
+        },
+        {
+            "number": "065",
+            "title": "Scatterplots in python_1",
+            "start": 179.4,
+            "end": 181.4,
+            "text": "Here is the fitted line."
+        },
+        {
+            "number": "065",
+            "title": "Scatterplots in python_1",
+            "start": 181.4,
+            "end": 184.6,
+            "text": "Now let's do it for gold, so that we can compare them both."
+        },
+        {
+            "number": "065",
+            "title": "Scatterplots in python_1",
+            "start": 185.7,
+            "end": 189.9,
+            "text": "We also print the beta and the alpha values for each."
+        },
+        {
+            "number": "065",
+            "title": "Scatterplots in python_1",
+            "start": 189.9,
+            "end": 196.4,
+            "text": "Now let's compare the beta values, which shows how the stock moves with respect to SPY."
+        },
+        {
+            "number": "065",
+            "title": "Scatterplots in python_1",
+            "start": 196.4,
+            "end": 201.6,
+            "text": "You can see that the beta values for the x-om is greater as compared to that of gold,"
+        },
+        {
+            "number": "065",
+            "title": "Scatterplots in python_1",
+            "start": 201.6,
+            "end": 207.7,
+            "text": "which means that x-om is more reactive to market as compared to gold."
+        },
+        {
+            "number": "065",
+            "title": "Scatterplots in python_1",
+            "start": 207.7,
+            "end": 214.1,
+            "text": "On the other hand, the alpha values denote how well it performed with respect to SPY."
+        },
+        {
+            "number": "065",
+            "title": "Scatterplots in python_1",
+            "start": 214.1,
+            "end": 217.3,
+            "text": "Numbers over here say that gold performed better."
+        },
+        {
+            "number": "065",
+            "title": "Scatterplots in python_1",
+            "start": 217.3,
+            "end": 219.1,
+            "text": "Let's cross check."
+        },
+        {
+            "number": "065",
+            "title": "Scatterplots in python_1",
+            "start": 219.1,
+            "end": 224.1,
+            "text": "You can see the upward movement of the gold as compared to the SPY."
+        },
+        {
+            "number": "065",
+            "title": "Scatterplots in python_1",
+            "start": 224.1,
+            "end": 227.3,
+            "text": "One last thing is to find the correlation."
+        },
+        {
+            "number": "065",
+            "title": "Scatterplots in python_1",
+            "start": 227.3,
+            "end": 233.6,
+            "text": "Yet again, the data frame has a function CORR, which means correlation."
+        },
+        {
+            "number": "065",
+            "title": "Scatterplots in python_1",
+            "start": 233.6,
+            "end": 236.1,
+            "text": "And we can define which method to use."
+        },
+        {
+            "number": "065",
+            "title": "Scatterplots in python_1",
+            "start": 236.1,
+            "end": 238.3,
+            "text": "We use the method Pearson."
+        },
+        {
+            "number": "065",
+            "title": "Scatterplots in python_1",
+            "start": 238.3,
+            "end": 242.3,
+            "text": "It is the most commonly used method to calculate the correlation."
+        },
+        {
+            "number": "065",
+            "title": "Scatterplots in python_1",
+            "start": 242.3,
+            "end": 244.7,
+            "text": "There are other methods as well."
+        },
+        {
+            "number": "065",
+            "title": "Scatterplots in python_1",
+            "start": 244.7,
+            "end": 247.9,
+            "text": "Check the instructor's note for more detail."
+        },
+        {
+            "number": "065",
+            "title": "Scatterplots in python_1",
+            "start": 247.9,
+            "end": 255.3,
+            "text": "We get the output in the matrix format with correlation of each column with each other column."
+        },
+        {
+            "number": "065",
+            "title": "Scatterplots in python_1",
+            "start": 255.3,
+            "end": 259.6,
+            "text": "You can see that the SPY and the x-om are highly correlated."
+        },
+        {
+            "number": "065",
+            "title": "Scatterplots in python_1",
+            "start": 259.6,
+            "end": 263.7,
+            "text": "The value of the correlation for gold and SPY is very small."
+        },
+        {
+            "number": "065",
+            "title": "Scatterplots in python_1",
+            "start": 263.7,
+            "end": 265.9,
+            "text": "Let's check the graph."
+        },
+        {
+            "number": "065",
+            "title": "Scatterplots in python_1",
+            "start": 265.9,
+            "end": 269.7,
+            "text": "You can observe that the dots do not fit the line closely."
+        },
+        {
+            "number": "065",
+            "title": "Scatterplots in python_1",
+            "start": 269.7,
+            "end": 278.5,
+            "text": "And that's why the correlation value for the SPY versus gold is less as compared to SPY versus exome."
+        },
+        {
+            "number": "065",
+            "title": "Scatterplots in python_1",
+            "start": 278.5,
+            "end": 284.5,
+            "text": "For more information on data frame scatterplot and polyfit, check the link in the instructor's notes."
+        }
+    ],
+    "text": "Thank you professor. So I'm back with more Python and more graphs. This time, let's scatter some data. I mean, let's learn how to build a scatter plot. We will compare scatter plot of SPY versus XORM and SPY versus GOLD. So let's read this data and compute daily returns as well. As usual, we call get data function with this symbols and also compute daily returns. Next, we first plot scatter plot for SPY versus XORM. Kind parameter of the plot function of the data frame will help us achieve this. So we mentioned we need a scatter plot. But since the data frame daily return has values for three stocks, we have to mention which should be our x axis and which should be our y axis. As we are plotting SPY versus XORM, we assign X attribute as SPY and Y attribute as XORM. Ready to see the output? This is our SPY versus XORM. Now let's similarly plot SPY versus GOLD. Since we want GOLD on our y axis, we just replace the Y label from XORM to GOLD. So here are two scatter plots. SPY versus XORM and SPY versus GOLD. But we want to recreate the graph that professor drew. So we fit a line to this scatter plots. For that, we need a help of another good friend of ours, which is NumPy. So let's import it. After importing the NumPy library, we are all set to fit a line to our scatter plot. So we have a set of points and we want a line which has an equation of degree one. So we go ahead and fit a polynomial of degree one. This is what polyfit function of the NumPy does. So let's use it. We will first do it for SPY and XORM. The polyfit function needs x coordinates and y coordinates to fit a line. For us, the x coordinates are the daily return values for SPY and the y coordinates are daily return values for the XORM. The one denotes the degree of our function. Calling this function will return two things. The first is the polynomial coefficient and the second is the intercept. Since we have a polynomial of degree one, it would be of the form y is equal to mx plus b. So m is the coefficient and b is the intercept. We named them as beta and alpha, just as Professor explained. Now we finally plot these values. The idea for plotting the line is, for every value of x, that is SPY, we find a value of y using the line equation, which is mx plus b. This parameter denotes that we want a line plot with a color red. Now let's check our graph. Here is the fitted line. Now let's do it for gold, so that we can compare them both. We also print the beta and the alpha values for each. Now let's compare the beta values, which shows how the stock moves with respect to SPY. You can see that the beta values for the x-om is greater as compared to that of gold, which means that x-om is more reactive to market as compared to gold. On the other hand, the alpha values denote how well it performed with respect to SPY. Numbers over here say that gold performed better. Let's cross check. You can see the upward movement of the gold as compared to the SPY. One last thing is to find the correlation. Yet again, the data frame has a function CORR, which means correlation. And we can define which method to use. We use the method Pearson. It is the most commonly used method to calculate the correlation. There are other methods as well. Check the instructor's note for more detail. We get the output in the matrix format with correlation of each column with each other column. You can see that the SPY and the x-om are highly correlated. The value of the correlation for gold and SPY is very small. Let's check the graph. You can observe that the dots do not fit the line closely. And that's why the correlation value for the SPY versus gold is less as compared to SPY versus exome. For more information on data frame scatterplot and polyfit, check the link in the instructor's notes."
+}

@@ -1,0 +1,62 @@
+{
+    "title": "The coin flipping casino",
+    "number": "148",
+    "chunks": [
+        {
+            "title": "The coin flipping casino",
+            "number": "148",
+            "start": 0.3,
+            "end": 18.6,
+            "text": "Now we're going to explore these ideas in a thought experiment called the coin flipping casino. So instead of buying and selling stocks, we're going to flip coins and we're going to bet on the outcome of whether those coins come up heads or tails."
+        },
+        {
+            "title": "The coin flipping casino",
+            "number": "148",
+            "start": 18.6,
+            "end": 33.7,
+            "text": "So that's analogous to a single investment in a stock or a single trade in a stock where you buy it and hold it and either you make money or you lose money. Well, we're going to flip a coin and either make money or lose money. Now the coin is biased."
+        },
+        {
+            "title": "The coin flipping casino",
+            "number": "148",
+            "start": 33.7,
+            "end": 52.7,
+            "text": "In other words, we have information about this coin and we know that it's more likely to come up heads than tails. And in fact, that probability is about 0.51 that it'll come up heads. So that's our edge. That's like our alpha when investing in stocks."
+        },
+        {
+            "title": "The coin flipping casino",
+            "number": "148",
+            "start": 52.7,
+            "end": 70.6,
+            "text": "And the uncertainty of the outcome is like beta in stock investing. Here's how betting works. So you can bet on any particular coin flip. You can bet in coins. If you win, in other words, it comes up heads, you now have two in coins."
+        },
+        {
+            "title": "The coin flipping casino",
+            "number": "148",
+            "start": 70.6,
+            "end": 90.3,
+            "text": "If you lose, they take your money. So this is called an even money bet. So on each outcome, you either make in coins or you lose in coins. Here's how the casino works. There are 1,000 betting tables, each with their own biased coin."
+        },
+        {
+            "title": "The coin flipping casino",
+            "number": "148",
+            "start": 90.3,
+            "end": 105.9,
+            "text": "And you have 1,000 tokens. So you can choose to bet however you like. In other words, you can put 10 tokens on each of 100 tables. You could put 1,000 tokens on one table. You could put one token on all the tables."
+        },
+        {
+            "title": "The coin flipping casino",
+            "number": "148",
+            "start": 105.9,
+            "end": 122.1,
+            "text": "Once you've distributed all your tokens, which represent your bets, the coins are all flipped at once. In other words, the game runs in parallel. And you, for each bet that you made, you either get your winnings or they take the chips that you bet."
+        },
+        {
+            "title": "The coin flipping casino",
+            "number": "148",
+            "start": 122.1,
+            "end": 141.8,
+            "text": "So now that we've set up this environment for us to experiment with, I want you to think a little bit about it. And think about how would you allocate these tokens? Is it better to bet all your tokens on just one coin flip? Or is it better to bet on multiple coin flips at once?"
+        }
+    ]
+}

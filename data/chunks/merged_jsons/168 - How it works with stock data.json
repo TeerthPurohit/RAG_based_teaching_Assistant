@@ -1,0 +1,62 @@
+{
+    "title": "How it works with stock data",
+    "number": "168",
+    "chunks": [
+        {
+            "title": "How it works with stock data",
+            "number": "168",
+            "start": 0.4,
+            "end": 19.1,
+            "text": "Let's consider how we can use this same approach now for stock data. This is one of our pandas data frames that contains some factors or features of stocks. And it's arranged in the usual way where each column represents the value of the feature for a particular stock."
+        },
+        {
+            "title": "How it works with stock data",
+            "number": "168",
+            "start": 19.1,
+            "end": 39.5,
+            "text": "And time goes downward essentially. Now we might have many features for each stock. For instance, we might have Bollinger Bands, Momentum, P-E Ratio, and so on. We represent that by stacking these one behind the other. So remember, this is potentially multidimensional."
+        },
+        {
+            "title": "How it works with stock data",
+            "number": "168",
+            "start": 39.5,
+            "end": 61.8,
+            "text": "These are our X's. What is our Y? In most cases, we want to use our historical feature data to predict a future price. But to train our model, we're going to use historical price as well. So the value of these factors or features today we call X."
+        },
+        {
+            "title": "How it works with stock data",
+            "number": "168",
+            "start": 61.8,
+            "end": 75.4,
+            "text": "And we'd like to be able to run that through the model that we've built and get Y, which is our predicted future price. Well, we don't have that model yet. We've got to learn it. And we've got to learn it from data."
+        },
+        {
+            "title": "How it works with stock data",
+            "number": "168",
+            "start": 75.4,
+            "end": 97.0,
+            "text": "So here's how we do that. We roll back time so that we're back in history here at our first data point. We look at the values of our features there. And then we look, say, five days into the future to see what that future price is. So now we've got a pairing of these features with that future Y."
+        },
+        {
+            "title": "How it works with stock data",
+            "number": "168",
+            "start": 97.0,
+            "end": 110.5,
+            "text": "We save that X, Y pair into our data. And remember, X can be multidimensional. And that's one instance of data. We move forward one day. So we've got a new set of X's and a new Y."
+        },
+        {
+            "title": "How it works with stock data",
+            "number": "168",
+            "start": 110.5,
+            "end": 129.8,
+            "text": "And we record that in our database. Eventually, we reach a point where we can't go any further because there's no more Y data. In other words, if we went one day past this, Y would be out here in the future. So we don't have that data to use. And that means we've got some leftover X data."
+        },
+        {
+            "title": "How it works with stock data",
+            "number": "168",
+            "start": 129.8,
+            "end": 139.0,
+            "text": "In any case, we now, for each of these days in history, have a pair of X's and Y's that we can feed into our database to build our model."
+        }
+    ]
+}

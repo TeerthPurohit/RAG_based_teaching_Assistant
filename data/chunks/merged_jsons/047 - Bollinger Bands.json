@@ -1,0 +1,48 @@
+{
+    "title": "Bollinger Bands",
+    "number": "047",
+    "chunks": [
+        {
+            "title": "Bollinger Bands",
+            "number": "047",
+            "start": 0.3,
+            "end": 24.2,
+            "text": "Returning to that question of how can we know if a deviation from the rolling mean is significant enough to warrant a trading signal, we need some way of measuring that. And John Bollinger in the 1980s came up with something he calls Bollinger Bands. And whenever you mention that, you have to put a little R there, because he has registered Bollinger Bands as a trademark."
+        },
+        {
+            "title": "Bollinger Bands",
+            "number": "047",
+            "start": 24.2,
+            "end": 53.6,
+            "text": "And if you don't do that, they'll come after you. Anyhow, how might we measure that? What Bollinger observed was that we ought to take a look at the recent volatility of the stock. And if it's very volatile, we might discard movements above and below the mean. Whereas if it's not very volatile, a similarly sized movement maybe we should pay attention to."
+        },
+        {
+            "title": "Bollinger Bands",
+            "number": "047",
+            "start": 53.6,
+            "end": 79.1,
+            "text": "But his idea then was to add a band two standard deviations above and two standard deviations below. Now I'm not going to make any comment as to how effective this method is. That's something for us to assess in the next mini-course. But the theory anyways is that when you see excursions up to two sigma or two standard deviations away from the mean, you should pay attention."
+        },
+        {
+            "title": "Bollinger Bands",
+            "number": "047",
+            "start": 79.1,
+            "end": 118.3,
+            "text": "And in particular, if we drop below that and then up back through it, that is potentially right there a buy signal because the hypothesis there is that we've gone quite far from the simple moving average. And we're now moving back towards it. So if you buy there, you should anticipate positive returns as it climbs back through the average. Similarly, here, where you see it punch through the top and then go back down through, that's potentially a sell signal."
+        },
+        {
+            "title": "Bollinger Bands",
+            "number": "047",
+            "start": 118.3,
+            "end": 149.7,
+            "text": "And as you can see in this particular case, if we had bought here and sold there, we would have done great. But if you look at many, many examples of this, it's not always so great. So don't run off and start trading, but just be aware that this is an example of a technical indicator and how you might involve it in a trading strategy. Dave is now going to show you how to read in data like this, compute a rolling mean, and chart it."
+        },
+        {
+            "title": "Bollinger Bands",
+            "number": "047",
+            "start": 149.7,
+            "end": 168.7,
+            "text": "And once again, I want to repeat that I'm not necessarily endorsing technical analysis here, although I think it can be very powerful just introducing some of these concepts to you. And again, in our later mini-course, we're going to talk a lot about these approaches. Okay, here's to you, Dave."
+        }
+    ]
+}

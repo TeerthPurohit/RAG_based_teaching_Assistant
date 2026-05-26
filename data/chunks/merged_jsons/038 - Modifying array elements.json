@@ -1,0 +1,55 @@
+{
+    "title": "Modifying array elements",
+    "number": "038",
+    "chunks": [
+        {
+            "title": "Modifying array elements",
+            "number": "038",
+            "start": 0.4,
+            "end": 21.4,
+            "text": "Moving forward, it is good that we can access elements in array. But another important operation is assigning values to specific location in array. This will give us access to the element at the position 0, 0 in the array. And using the assignment operator, we can assign a value 1 to it. Let's see the output."
+        },
+        {
+            "title": "Modifying array elements",
+            "number": "038",
+            "start": 21.4,
+            "end": 36.5,
+            "text": "Here you go. This is the original array where we replace the element at position 0, 0 with 1. But that's not all. With a minor change, you can assign a value to the entire row or column. Let's do it."
+        },
+        {
+            "title": "Modifying array elements",
+            "number": "038",
+            "start": 36.5,
+            "end": 56.4,
+            "text": "This will give us access to the 0th row and we assign the entire row a value of 2. Let's run this. Using similar operation and column slicing, we can also assign an entire column a single value. Now what if we need each column or row to have different value and"
+        },
+        {
+            "title": "Modifying array elements",
+            "number": "038",
+            "start": 56.4,
+            "end": 72.5,
+            "text": "not the same as we did over here? Let's see how we can achieve this. Yes, this is a list of values. You can assign a list of values to a row or a column. Here we assign this list of values to column number 3."
+        },
+        {
+            "title": "Modifying array elements",
+            "number": "038",
+            "start": 72.5,
+            "end": 89.0,
+            "text": "But make sure you keep an eye on the dimension. That is, for this example, if you have 5 rows in an array, the list should have 5 elements. As you can see, all the list values have been assigned to the third column. So now it's your turn."
+        },
+        {
+            "title": "Modifying array elements",
+            "number": "038",
+            "start": 89.0,
+            "end": 100.5,
+            "text": "Go ahead and try more row and column slicing. Go ahead and solve the rows. Let's run 2 and 3. And hold the instructions. In this left, go over home."
+        },
+        {
+            "title": "Modifying array elements",
+            "number": "038",
+            "start": 100.5,
+            "end": 107.5,
+            "text": "Click the RIGHT 0. HOUR differently than lying here, The correct ratio will be obtained by the triangle of our crane下去. This is £10,000 of the cylinder."
+        }
+    ]
+}

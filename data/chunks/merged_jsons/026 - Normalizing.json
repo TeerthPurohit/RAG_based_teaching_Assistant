@@ -1,0 +1,41 @@
+{
+    "title": "Normalizing",
+    "number": "026",
+    "chunks": [
+        {
+            "title": "Normalizing",
+            "number": "026",
+            "start": 0.6,
+            "end": 21.4,
+            "text": "Let's analyze the graph that we had plotted for the four stocks. You see, the four stocks are over multiple ranges. But we need to observe the movement of the stock. By movement, I mean how much the stock went up or down as compared to the others. To do this, we need to normalize the prices of all the stock."
+        },
+        {
+            "title": "Normalizing",
+            "number": "026",
+            "start": 21.4,
+            "end": 40.2,
+            "text": "We do this by dividing the values of each column by day one. This will ensure that all the stocks will start with $1. Power of pandas and Python is that we can do this in one line. Let's add it. We define a function normalize data and pass the data frame to it."
+        },
+        {
+            "title": "Normalizing",
+            "number": "026",
+            "start": 40.2,
+            "end": 58.3,
+            "text": "First, we want all the values of the data frame. Hence, we just type the name of the data frame, which is df. Now we want to divide all the values of this data frame by the first row of it. So we extract the first row using row slicing. This will give us the first row."
+        },
+        {
+            "title": "Normalizing",
+            "number": "026",
+            "start": 58.3,
+            "end": 72.2,
+            "text": "Now we will just divide it. Let's see how the graph changes. Observe all the stocks start with price one. And now you can see the changes, that is the stock movement. That's it for now."
+        },
+        {
+            "title": "Normalizing",
+            "number": "026",
+            "start": 72.2,
+            "end": 78.6,
+            "text": "I will be back soon with more coding. Till then, enjoy the power of the Python and happy coding."
+        }
+    ]
+}

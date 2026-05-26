@@ -1,0 +1,208 @@
+{
+    "chunks": [
+        {
+            "number": "075",
+            "title": "What is an optimizer  Part 2",
+            "start": 0.6,
+            "end": 2.8,
+            "text": "Let's take a look at this function."
+        },
+        {
+            "number": "075",
+            "title": "What is an optimizer  Part 2",
+            "start": 2.8,
+            "end": 10.0,
+            "text": "f of x is equal to x minus 1.5 squared plus 0.5."
+        },
+        {
+            "number": "075",
+            "title": "What is an optimizer  Part 2",
+            "start": 10.0,
+            "end": 14.1,
+            "text": "That function is a parabola that looks something like this."
+        },
+        {
+            "number": "075",
+            "title": "What is an optimizer  Part 2",
+            "start": 14.1,
+            "end": 20.0,
+            "text": "It's centered horizontally at 1.5, and"
+        },
+        {
+            "number": "075",
+            "title": "What is an optimizer  Part 2",
+            "start": 20.0,
+            "end": 24.2,
+            "text": "its minima is here at 0.5."
+        },
+        {
+            "number": "075",
+            "title": "What is an optimizer  Part 2",
+            "start": 24.2,
+            "end": 28.4,
+            "text": "Now, the optimizer or the minimizer doesn't know that."
+        },
+        {
+            "number": "075",
+            "title": "What is an optimizer  Part 2",
+            "start": 28.4,
+            "end": 30.8,
+            "text": "We can tell it by looking at the equation, but"
+        },
+        {
+            "number": "075",
+            "title": "What is an optimizer  Part 2",
+            "start": 30.8,
+            "end": 33.5,
+            "text": "the minimizer has to figure it out on its own."
+        },
+        {
+            "number": "075",
+            "title": "What is an optimizer  Part 2",
+            "start": 33.5,
+            "end": 37.2,
+            "text": "So let's suppose we tell it, hey, minimizer,"
+        },
+        {
+            "number": "075",
+            "title": "What is an optimizer  Part 2",
+            "start": 37.2,
+            "end": 43.5,
+            "text": "why don't you start with a guess of 2.0 and see if you can figure out from there"
+        },
+        {
+            "number": "075",
+            "title": "What is an optimizer  Part 2",
+            "start": 43.5,
+            "end": 44.9,
+            "text": "what it is."
+        },
+        {
+            "number": "075",
+            "title": "What is an optimizer  Part 2",
+            "start": 44.9,
+            "end": 47.5,
+            "text": "So the minimizer says, okay, I'll give it a go."
+        },
+        {
+            "number": "075",
+            "title": "What is an optimizer  Part 2",
+            "start": 47.5,
+            "end": 50.6,
+            "text": "And here's what it does."
+        },
+        {
+            "number": "075",
+            "title": "What is an optimizer  Part 2",
+            "start": 50.6,
+            "end": 54.5,
+            "text": "First thing it does is it checks the value at 2.0."
+        },
+        {
+            "number": "075",
+            "title": "What is an optimizer  Part 2",
+            "start": 54.5,
+            "end": 58.9,
+            "text": "It turns out that that's about 0.75."
+        },
+        {
+            "number": "075",
+            "title": "What is an optimizer  Part 2",
+            "start": 58.9,
+            "end": 63.9,
+            "text": "It then tests the value nearby, say here and here."
+        },
+        {
+            "number": "075",
+            "title": "What is an optimizer  Part 2",
+            "start": 63.9,
+            "end": 66.7,
+            "text": "And it finds out that, gee,"
+        },
+        {
+            "number": "075",
+            "title": "What is an optimizer  Part 2",
+            "start": 66.7,
+            "end": 71.6,
+            "text": "this equation has a slope about like that at this point."
+        },
+        {
+            "number": "075",
+            "title": "What is an optimizer  Part 2",
+            "start": 71.6,
+            "end": 77.4,
+            "text": "Now it's trying to minimize, and so what it does is it marches downhill."
+        },
+        {
+            "number": "075",
+            "title": "What is an optimizer  Part 2",
+            "start": 77.4,
+            "end": 83.6,
+            "text": "It's called gradient descent, and it tries another value down along that slope."
+        },
+        {
+            "number": "075",
+            "title": "What is an optimizer  Part 2",
+            "start": 83.6,
+            "end": 88.0,
+            "text": "It gets a particular value here, tries another one, and so on."
+        },
+        {
+            "number": "075",
+            "title": "What is an optimizer  Part 2",
+            "start": 88.0,
+            "end": 97.4,
+            "text": "And eventually it narrows in, and it discovers that 1.5 is the value for x at the minima."
+        },
+        {
+            "number": "075",
+            "title": "What is an optimizer  Part 2",
+            "start": 97.4,
+            "end": 102.2,
+            "text": "And the value of y there is 0.5."
+        },
+        {
+            "number": "075",
+            "title": "What is an optimizer  Part 2",
+            "start": 102.2,
+            "end": 108.7,
+            "text": "Now the example I gave you for, you know, sort of marching down this gradient descent is one method."
+        },
+        {
+            "number": "075",
+            "title": "What is an optimizer  Part 2",
+            "start": 108.7,
+            "end": 114.8,
+            "text": "There are many variations on that method that different kinds of minimizers use."
+        },
+        {
+            "number": "075",
+            "title": "What is an optimizer  Part 2",
+            "start": 114.8,
+            "end": 119.3,
+            "text": "And SciPy, the library that we're using, has many of those options,"
+        },
+        {
+            "number": "075",
+            "title": "What is an optimizer  Part 2",
+            "start": 119.3,
+            "end": 122.4,
+            "text": "and you can choose different ones according to your taste."
+        },
+        {
+            "number": "075",
+            "title": "What is an optimizer  Part 2",
+            "start": 122.4,
+            "end": 127.0,
+            "text": "We're going to stick with one particular approach through our examples here, but"
+        },
+        {
+            "number": "075",
+            "title": "What is an optimizer  Part 2",
+            "start": 127.0,
+            "end": 129.3,
+            "text": "you ought to experiment and try some of the other ones as well."
+        }
+    ],
+    "text": "Let's take a look at this function. f of x is equal to x minus 1.5 squared plus 0.5. That function is a parabola that looks something like this. It's centered horizontally at 1.5, and its minima is here at 0.5. Now, the optimizer or the minimizer doesn't know that. We can tell it by looking at the equation, but the minimizer has to figure it out on its own. So let's suppose we tell it, hey, minimizer, why don't you start with a guess of 2.0 and see if you can figure out from there what it is. So the minimizer says, okay, I'll give it a go. And here's what it does. First thing it does is it checks the value at 2.0. It turns out that that's about 0.75. It then tests the value nearby, say here and here. And it finds out that, gee, this equation has a slope about like that at this point. Now it's trying to minimize, and so what it does is it marches downhill. It's called gradient descent, and it tries another value down along that slope. It gets a particular value here, tries another one, and so on. And eventually it narrows in, and it discovers that 1.5 is the value for x at the minima. And the value of y there is 0.5. Now the example I gave you for, you know, sort of marching down this gradient descent is one method. There are many variations on that method that different kinds of minimizers use. And SciPy, the library that we're using, has many of those options, and you can choose different ones according to your taste. We're going to stick with one particular approach through our examples here, but you ought to experiment and try some of the other ones as well."
+}

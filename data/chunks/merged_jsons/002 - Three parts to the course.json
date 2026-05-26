@@ -1,0 +1,41 @@
+{
+    "title": "Three parts to the course",
+    "number": "002",
+    "chunks": [
+        {
+            "title": "Three parts to the course",
+            "number": "002",
+            "start": 0.2,
+            "end": 17.8,
+            "text": "The overall course is broken into three mini courses. The first one is Manipulating Financial Data in Python. In this first mini course, we show you how to read historical financial data into Python and manipulate it using powerful statistical algorithms. The second one is Computational Investing."
+        },
+        {
+            "title": "Three parts to the course",
+            "number": "002",
+            "start": 17.8,
+            "end": 36.6,
+            "text": "In this second mini course, we show you the algorithms, methods, and models used by hedge funds and investment banks to manipulate and work with financial data. And the last one is Learning Algorithms for Trading. In this last mini course, we pull everything together. We take what you learned in the first two mini courses, show you how to take that data,"
+        },
+        {
+            "title": "Three parts to the course",
+            "number": "002",
+            "start": 36.6,
+            "end": 51.1,
+            "text": "and use it with machine learning algorithms like Q-learning and random forests to build trading algorithms. Now, our goal is that after you complete this course, you'll be equipped to join a trading system development team, say at a hedge fund or an investment bank."
+        },
+        {
+            "title": "Three parts to the course",
+            "number": "002",
+            "start": 51.1,
+            "end": 66.7,
+            "text": "But I wanna emphasize that you shouldn't immediately begin automatic trading. This course is just a starting point to teach you some of the things that you need to do that well. But again, it's just a starting point. ."
+        },
+        {
+            "title": "Three parts to the course",
+            "number": "002",
+            "start": 66.7,
+            "end": 68.7,
+            "text": "."
+        }
+    ]
+}

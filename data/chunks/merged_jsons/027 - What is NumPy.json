@@ -1,0 +1,20 @@
+{
+    "title": "What is NumPy",
+    "number": "027",
+    "chunks": [
+        {
+            "title": "What is NumPy",
+            "number": "027",
+            "start": 0.5,
+            "end": 19.5,
+            "text": "In this lesson we're going to learn about the NumPy numerical library. NumPy is a Python library that acts as a wrapper around underlying C and Fortran code. Because of that, it's very, very fast. NumPy focuses on matrices, which are called ND arrays."
+        },
+        {
+            "title": "What is NumPy",
+            "number": "027",
+            "start": 19.5,
+            "end": 29.9,
+            "text": "The syntax is very similar to MATLAB, so if you've used MATLAB before, it'll look familiar to you. And NumPy is one of the important reasons people use Python for financial research."
+        }
+    ]
+}

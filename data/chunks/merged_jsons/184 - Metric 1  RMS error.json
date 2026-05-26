@@ -1,0 +1,41 @@
+{
+    "title": "Metric 1  RMS error",
+    "number": "184",
+    "chunks": [
+        {
+            "title": "Metric 1  RMS error",
+            "number": "184",
+            "start": 0.2,
+            "end": 15.4,
+            "text": "I've shown you some graphs that suggest the ways the models can fit the data more or less closely, but let's have a more formal definition of this matching. It's called error. A standard way to measure error is called RMS error. Let me show you how to calculate this."
+        },
+        {
+            "title": "Metric 1  RMS error",
+            "number": "184",
+            "start": 15.4,
+            "end": 38.2,
+            "text": "Let's suppose we use this data, which are these green points, to build a model. Let's say it's a linear model like this. We can assess the model at each real data point, for instance at this data point, and measure the difference between the y value of the data point and the model. And this difference is error."
+        },
+        {
+            "title": "Metric 1  RMS error",
+            "number": "184",
+            "start": 38.2,
+            "end": 60.6,
+            "text": "Now we've got an error at every single one of these data points. And what we do to measure root mean squared error is to take the error at each one of these points, square it, add them together, take the average, and take the square root of that. So that sounds kind of complicated, but here's what it looks like. Y test minus Y predict."
+        },
+        {
+            "title": "Metric 1  RMS error",
+            "number": "184",
+            "start": 60.6,
+            "end": 81.1,
+            "text": "So Y test are the actual values of the data. Y predict are what our model predicted. We take that difference at each point, that's this difference, square it, sum all those together, divide by the number of points, and take the square root. And that's our root mean squared error."
+        },
+        {
+            "title": "Metric 1  RMS error",
+            "number": "184",
+            "start": 81.1,
+            "end": 91.4,
+            "text": "And what this is an approximation of really is sort of the average error here. But we end up emphasizing larger errors a bit more."
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+{
+    "title": "Computing histogram statistics_1",
+    "number": "060",
+    "chunks": [
+        {
+            "title": "Computing histogram statistics_1",
+            "number": "060",
+            "start": 0.3,
+            "end": 15.1,
+            "text": "Starting with mean and standard deviation. We call the function mean and std on our data frame to get the values. Let's go ahead and check the mean and the standard deviation for the daily returns of the SPY stock."
+        },
+        {
+            "title": "Computing histogram statistics_1",
+            "number": "060",
+            "start": 15.1,
+            "end": 31.0,
+            "text": "So we get the mean and the standard deviation. Happy with just knowing the mean and standard deviation value? But I am not. I want to see it on the plot just like Professor did. So let's learn how to add mean and standard deviation line on plot."
+        },
+        {
+            "title": "Computing histogram statistics_1",
+            "number": "060",
+            "start": 31.0,
+            "end": 46.7,
+            "text": "Matplotlib library has a function axvline. Looking at the substring vline, we can guess it will give vertical line. Let's check out its parameters. First we pass the mean value. Then just for beautification and so"
+        },
+        {
+            "title": "Computing histogram statistics_1",
+            "number": "060",
+            "start": 46.7,
+            "end": 64.0,
+            "text": "that we can differentiate the mean line from the rest histogram, we add a color, which is white. Make it a dash style line and increase the line width to 2. Now let's check our output. So this is a mean and this is how it is plotted on the histogram."
+        },
+        {
+            "title": "Computing histogram statistics_1",
+            "number": "060",
+            "start": 64.0,
+            "end": 81.8,
+            "text": "Now let's go ahead and plot standard deviation. To plot the standard deviation line, it is similar to the mean. But as we want the standard deviation line on both side of the mean, we plot it twice. One with the positive value and one with the negative value."
+        },
+        {
+            "title": "Computing histogram statistics_1",
+            "number": "060",
+            "start": 81.8,
+            "end": 96.9,
+            "text": "To show standard deviation line on either side of the mean. Tada! We have our standard deviation lines on our graph. To give the standard deviation a red color, I have just replaced the parameter color of white with red."
+        },
+        {
+            "title": "Computing histogram statistics_1",
+            "number": "060",
+            "start": 96.9,
+            "end": 113.1,
+            "text": "Now I'm happy with the graph and I hope you two are. Let's move ahead to kurtosis. We can expect that data frame would have a function for calculating kurtosis as well. So that's it. This line will give you kurtosis of the daily returns."
+        },
+        {
+            "title": "Computing histogram statistics_1",
+            "number": "060",
+            "start": 113.1,
+            "end": 130.7,
+            "text": "We get a positive value for the SPY stock, which means we have fat tails. Just for your information, you can also get bin counts using numpy.histogram function. Check instructor's notes for more information. Over to you, Professor."
+        }
+    ]
+}

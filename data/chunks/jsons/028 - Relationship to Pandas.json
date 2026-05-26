@@ -1,0 +1,145 @@
+{
+    "chunks": [
+        {
+            "number": "028",
+            "title": "Relationship to Pandas",
+            "start": 0.5,
+            "end": 4.2,
+            "text": "Now, how does NumPy relate to Pandas?"
+        },
+        {
+            "number": "028",
+            "title": "Relationship to Pandas",
+            "start": 4.2,
+            "end": 9.8,
+            "text": "Well, I said just a moment ago that NumPy is a wrapper for numerical libraries."
+        },
+        {
+            "number": "028",
+            "title": "Relationship to Pandas",
+            "start": 9.8,
+            "end": 14.7,
+            "text": "Well, it turns out that Pandas is a kind of wrapper for NumPy."
+        },
+        {
+            "number": "028",
+            "title": "Relationship to Pandas",
+            "start": 14.7,
+            "end": 19.1,
+            "text": "So remember our traditional data frame here with our columns being symbols and"
+        },
+        {
+            "number": "028",
+            "title": "Relationship to Pandas",
+            "start": 19.1,
+            "end": 20.7,
+            "text": "our rows being dates."
+        },
+        {
+            "number": "028",
+            "title": "Relationship to Pandas",
+            "start": 20.7,
+            "end": 25.8,
+            "text": "This data frame is just a wrapper around this indy array."
+        },
+        {
+            "number": "028",
+            "title": "Relationship to Pandas",
+            "start": 25.8,
+            "end": 29.8,
+            "text": "Access the columns with symbols and the rows by dates."
+        },
+        {
+            "number": "028",
+            "title": "Relationship to Pandas",
+            "start": 29.8,
+            "end": 36.4,
+            "text": "But you can, in fact, just treat this inside part as an indy array directly."
+        },
+        {
+            "number": "028",
+            "title": "Relationship to Pandas",
+            "start": 36.4,
+            "end": 39.8,
+            "text": "If you use this syntax in Python,"
+        },
+        {
+            "number": "028",
+            "title": "Relationship to Pandas",
+            "start": 39.8,
+            "end": 46.3,
+            "text": "that pulls these values out and lets you access it directly in an indy array."
+        },
+        {
+            "number": "028",
+            "title": "Relationship to Pandas",
+            "start": 46.3,
+            "end": 47.9,
+            "text": "You don't really need to do that, though."
+        },
+        {
+            "number": "028",
+            "title": "Relationship to Pandas",
+            "start": 47.9,
+            "end": 55.2,
+            "text": "You can, if you like, treat a data frame just like a NumPy indy array."
+        },
+        {
+            "number": "028",
+            "title": "Relationship to Pandas",
+            "start": 55.2,
+            "end": 58.9,
+            "text": "And so we're going to assume in the rest of this lesson that we're just working"
+        },
+        {
+            "number": "028",
+            "title": "Relationship to Pandas",
+            "start": 58.9,
+            "end": 60.3,
+            "text": "with an indy array."
+        },
+        {
+            "number": "028",
+            "title": "Relationship to Pandas",
+            "start": 60.3,
+            "end": 65.3,
+            "text": "And like I said, you can use all of these mechanisms that we're going to show you"
+        },
+        {
+            "number": "028",
+            "title": "Relationship to Pandas",
+            "start": 65.3,
+            "end": 69.1,
+            "text": "with indy arrays and with data frames directly."
+        },
+        {
+            "number": "028",
+            "title": "Relationship to Pandas",
+            "start": 69.1,
+            "end": 73.2,
+            "text": "What you get if you create something as a data frame,"
+        },
+        {
+            "number": "028",
+            "title": "Relationship to Pandas",
+            "start": 73.2,
+            "end": 78.3,
+            "text": "as we'll see in a lesson a little bit later, you get many, many, many more routines."
+        },
+        {
+            "number": "028",
+            "title": "Relationship to Pandas",
+            "start": 78.3,
+            "end": 80.4,
+            "text": "And you can treat it, like I said, just like an indy array."
+        },
+        {
+            "number": "028",
+            "title": "Relationship to Pandas",
+            "start": 80.4,
+            "end": 86.0,
+            "text": "But you get a vast new number of statistical functions and so on."
+        }
+    ],
+    "text": "Now, how does NumPy relate to Pandas? Well, I said just a moment ago that NumPy is a wrapper for numerical libraries. Well, it turns out that Pandas is a kind of wrapper for NumPy. So remember our traditional data frame here with our columns being symbols and our rows being dates. This data frame is just a wrapper around this indy array. Access the columns with symbols and the rows by dates. But you can, in fact, just treat this inside part as an indy array directly. If you use this syntax in Python, that pulls these values out and lets you access it directly in an indy array. You don't really need to do that, though. You can, if you like, treat a data frame just like a NumPy indy array. And so we're going to assume in the rest of this lesson that we're just working with an indy array. And like I said, you can use all of these mechanisms that we're going to show you with indy arrays and with data frames directly. What you get if you create something as a data frame, as we'll see in a lesson a little bit later, you get many, many, many more routines. And you can treat it, like I said, just like an indy array. But you get a vast new number of statistical functions and so on."
+}

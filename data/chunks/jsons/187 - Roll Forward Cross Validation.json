@@ -1,0 +1,82 @@
+{
+    "chunks": [
+        {
+            "number": "187",
+            "title": "Roll Forward Cross Validation",
+            "start": 0.0,
+            "end": 4.4,
+            "text": "Cross validation is a great tool, but the typical usage of it doesn't fit"
+        },
+        {
+            "number": "187",
+            "title": "Roll Forward Cross Validation",
+            "start": 4.4,
+            "end": 6.9,
+            "text": "financial data applications well."
+        },
+        {
+            "number": "187",
+            "title": "Roll Forward Cross Validation",
+            "start": 6.9,
+            "end": 11.2,
+            "text": "The reason is, is that it can permit peaking into the future."
+        },
+        {
+            "number": "187",
+            "title": "Roll Forward Cross Validation",
+            "start": 11.2,
+            "end": 16.5,
+            "text": "So for instance, if our training data is after our test data,"
+        },
+        {
+            "number": "187",
+            "title": "Roll Forward Cross Validation",
+            "start": 16.5,
+            "end": 19.6,
+            "text": "that means we're seeing the future ahead of our test."
+        },
+        {
+            "number": "187",
+            "title": "Roll Forward Cross Validation",
+            "start": 19.6,
+            "end": 24.2,
+            "text": "Any sort of peaking like this can read to unrealistically optimistic results."
+        },
+        {
+            "number": "187",
+            "title": "Roll Forward Cross Validation",
+            "start": 24.2,
+            "end": 26.8,
+            "text": "So with this sort of data, we need to avoid it."
+        },
+        {
+            "number": "187",
+            "title": "Roll Forward Cross Validation",
+            "start": 26.8,
+            "end": 31.5,
+            "text": "One way to avoid this problem is with roll forward cross validation."
+        },
+        {
+            "number": "187",
+            "title": "Roll Forward Cross Validation",
+            "start": 31.5,
+            "end": 37.9,
+            "text": "That means our training data is always before our testing data."
+        },
+        {
+            "number": "187",
+            "title": "Roll Forward Cross Validation",
+            "start": 37.9,
+            "end": 43.1,
+            "text": "But we can still have multiple trials just by rolling our data forward."
+        },
+        {
+            "number": "187",
+            "title": "Roll Forward Cross Validation",
+            "start": 43.1,
+            "end": 46.6,
+            "text": "Like this, and this, and this, till we run out of data."
+        }
+    ],
+    "text": "Cross validation is a great tool, but the typical usage of it doesn't fit financial data applications well. The reason is, is that it can permit peaking into the future. So for instance, if our training data is after our test data, that means we're seeing the future ahead of our test. Any sort of peaking like this can read to unrealistically optimistic results. So with this sort of data, we need to avoid it. One way to avoid this problem is with roll forward cross validation. That means our training data is always before our testing data. But we can still have multiple trials just by rolling our data forward. Like this, and this, and this, till we run out of data."
+}

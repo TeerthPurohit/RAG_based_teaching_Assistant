@@ -1,0 +1,61 @@
+{
+    "chunks": [
+        {
+            "number": "082",
+            "title": "Wrapping up optimizers",
+            "start": 0.0,
+            "end": 2.0,
+            "text": "Let's review what we learned."
+        },
+        {
+            "number": "082",
+            "title": "Wrapping up optimizers",
+            "start": 2.0,
+            "end": 8.0,
+            "text": "I showed you how to use a minimizer to find x such that f is minimized."
+        },
+        {
+            "number": "082",
+            "title": "Wrapping up optimizers",
+            "start": 8.0,
+            "end": 11.0,
+            "text": "I showed you how to minimize in multiple dimensions,"
+        },
+        {
+            "number": "082",
+            "title": "Wrapping up optimizers",
+            "start": 11.0,
+            "end": 15.0,
+            "text": "and how to use a minimizer to build a parameterized model."
+        },
+        {
+            "number": "082",
+            "title": "Wrapping up optimizers",
+            "start": 15.0,
+            "end": 17.0,
+            "text": "Where can you go from here?"
+        },
+        {
+            "number": "082",
+            "title": "Wrapping up optimizers",
+            "start": 17.0,
+            "end": 19.0,
+            "text": "There are a number of ways you can carry this forward."
+        },
+        {
+            "number": "082",
+            "title": "Wrapping up optimizers",
+            "start": 19.0,
+            "end": 22.0,
+            "text": "You can use functions besides polynomials,"
+        },
+        {
+            "number": "082",
+            "title": "Wrapping up optimizers",
+            "start": 22.0,
+            "end": 27.0,
+            "text": "you can model stock prices, or you can optimize a portfolio."
+        }
+    ],
+    "text": "Let's review what we learned. I showed you how to use a minimizer to find x such that f is minimized. I showed you how to minimize in multiple dimensions, and how to use a minimizer to build a parameterized model. Where can you go from here? There are a number of ways you can carry this forward. You can use functions besides polynomials, you can model stock prices, or you can optimize a portfolio."
+}

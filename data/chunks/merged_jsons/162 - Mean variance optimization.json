@@ -1,0 +1,76 @@
+{
+    "title": "Mean variance optimization",
+    "number": "162",
+    "chunks": [
+        {
+            "title": "Mean variance optimization",
+            "number": "162",
+            "start": 0.2,
+            "end": 24.9,
+            "text": "What Markowitz added to the game was this consideration of variance and covariance between individual stocks. And the recognition that you want to blend those together that have anti-correlation. So you can have a much lower risk portfolio if you combine assets that are anti-correlated or anti-varianced, if that is a word."
+        },
+        {
+            "title": "Mean variance optimization",
+            "number": "162",
+            "start": 24.9,
+            "end": 43.8,
+            "text": "Because when one moves up, the other moves down, they cancel each other out and they have much less volatility. Now of course you want overall these assets to in general move up together. So often what we're looking for is anti-correlation in the short term and positive correlation in a longer term."
+        },
+        {
+            "title": "Mean variance optimization",
+            "number": "162",
+            "start": 43.8,
+            "end": 64.0,
+            "text": "But out of this work grew a number of algorithms. One of the key ones being mean variance optimization. Which is a way of taking a potential set of assets and figuring out how they should be blended together by looking at their covariance, among other things."
+        },
+        {
+            "title": "Mean variance optimization",
+            "number": "162",
+            "start": 64.0,
+            "end": 89.2,
+            "text": "So let's consider this group of assets here and how we might combine them or allocate funds to them to provide a good portfolio. One thing I didn't point out before that I want to mention now is that generally, the higher return stocks or assets, whatever they might be, tend to also be the highest risk. So as we roll down the risk, we tend to also look at lower return."
+        },
+        {
+            "title": "Mean variance optimization",
+            "number": "162",
+            "start": 89.2,
+            "end": 110.5,
+            "text": "Now, again, how do we combine these into a good portfolio? Here's what goes into a mean variance optimizer. These are the factors that it considers. So for each stock, you have to provide an expected return. In other words, what do we think in the future it's going to provide in terms of return?"
+        },
+        {
+            "title": "Mean variance optimization",
+            "number": "162",
+            "start": 111.7,
+            "end": 136.8,
+            "text": "You also provide volatility and covariance. Volatility is simply historically how volatile has each one of these assets been. Covariance is a matrix which shows between each asset and every other asset what is the correlation of daily returns. So it takes all of these into account when it is searching for"
+        },
+        {
+            "title": "Mean variance optimization",
+            "number": "162",
+            "start": 136.8,
+            "end": 158.5,
+            "text": "the right weighting for each of these stocks in a portfolio. So the last and perhaps one of the most important inputs to this is the target return. We can target a return anywhere from the max return asset to the min return asset. And then anything else between those, of course, we can accomplish by blending. So let's suppose this is the level of our target return."
+        },
+        {
+            "title": "Mean variance optimization",
+            "number": "162",
+            "start": 158.5,
+            "end": 181.4,
+            "text": "So I'll just put a dotted line here so we can mark that for later. So the output of an optimizer is a set of weights, one weight for each asset that provides the target return but minimizes risk. So in the end, we're looking for a portfolio that's out here. In other words, it's got risk that's even lower than any of the individual assets."
+        },
+        {
+            "title": "Mean variance optimization",
+            "number": "162",
+            "start": 181.4,
+            "end": 199.6,
+            "text": "But it meets the target return. And this is possible because we consider covariance. If we're only looking at individual risk, we wouldn't be able to find the right blend that would bring us out here. Now that's it for optimization and the insights from Markowitz."
+        },
+        {
+            "title": "Mean variance optimization",
+            "number": "162",
+            "start": 199.6,
+            "end": 204.2,
+            "text": "But there's one more thing to look at with regard to optimizers that I'm going to show you next."
+        }
+    ]
+}

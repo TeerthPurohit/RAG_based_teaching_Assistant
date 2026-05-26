@@ -1,0 +1,348 @@
+{
+    "chunks": [
+        {
+            "number": "166",
+            "title": "Supervised regression learning",
+            "start": 0.2,
+            "end": 3.8,
+            "text": "The particular flavor of machine learning that we're going to focus on in the first"
+        },
+        {
+            "number": "166",
+            "title": "Supervised regression learning",
+            "start": 3.8,
+            "end": 7.7,
+            "text": "part of this course is called supervised regression learning."
+        },
+        {
+            "number": "166",
+            "title": "Supervised regression learning",
+            "start": 7.7,
+            "end": 9.4,
+            "text": "Those are a few big words."
+        },
+        {
+            "number": "166",
+            "title": "Supervised regression learning",
+            "start": 9.4,
+            "end": 11.8,
+            "text": "Let's break it down word by word."
+        },
+        {
+            "number": "166",
+            "title": "Supervised regression learning",
+            "start": 11.8,
+            "end": 14.6,
+            "text": "We'll start in the middle here with regression."
+        },
+        {
+            "number": "166",
+            "title": "Supervised regression learning",
+            "start": 14.6,
+            "end": 16.6,
+            "text": "Regression is a weird word."
+        },
+        {
+            "number": "166",
+            "title": "Supervised regression learning",
+            "start": 16.6,
+            "end": 21.8,
+            "text": "I don't think whoever chose it to represent what it means did a good job,"
+        },
+        {
+            "number": "166",
+            "title": "Supervised regression learning",
+            "start": 21.8,
+            "end": 23.4,
+            "text": "but we're stuck with it."
+        },
+        {
+            "number": "166",
+            "title": "Supervised regression learning",
+            "start": 23.4,
+            "end": 29.2,
+            "text": "All that regression means is we're trying to make a numerical approximation or"
+        },
+        {
+            "number": "166",
+            "title": "Supervised regression learning",
+            "start": 29.2,
+            "end": 31.2,
+            "text": "a numerical prediction."
+        },
+        {
+            "number": "166",
+            "title": "Supervised regression learning",
+            "start": 31.2,
+            "end": 37.1,
+            "text": "That's as opposed to classification learning where we might be trying to classify"
+        },
+        {
+            "number": "166",
+            "title": "Supervised regression learning",
+            "start": 37.1,
+            "end": 43.0,
+            "text": "an object into one of several types as opposed to making a numerical prediction."
+        },
+        {
+            "number": "166",
+            "title": "Supervised regression learning",
+            "start": 43.0,
+            "end": 49.4,
+            "text": "Supervised means that we show the machine the x and also, if you will,"
+        },
+        {
+            "number": "166",
+            "title": "Supervised regression learning",
+            "start": 49.4,
+            "end": 51.6,
+            "text": "the correct answer y."
+        },
+        {
+            "number": "166",
+            "title": "Supervised regression learning",
+            "start": 51.6,
+            "end": 55.7,
+            "text": "In fact, we show the machine many, many examples of x and y."
+        },
+        {
+            "number": "166",
+            "title": "Supervised regression learning",
+            "start": 55.7,
+            "end": 61.5,
+            "text": "And that's how it learns, okay, when I see this x, this is the y that's associated with it."
+        },
+        {
+            "number": "166",
+            "title": "Supervised regression learning",
+            "start": 61.5,
+            "end": 63.8,
+            "text": "That's the supervised component."
+        },
+        {
+            "number": "166",
+            "title": "Supervised regression learning",
+            "start": 63.8,
+            "end": 69.6,
+            "text": "Finally, when we say learning, what we mean is we are training with data."
+        },
+        {
+            "number": "166",
+            "title": "Supervised regression learning",
+            "start": 69.6,
+            "end": 74.4,
+            "text": "In this class, we're taking historical stock data and training the system to make"
+        },
+        {
+            "number": "166",
+            "title": "Supervised regression learning",
+            "start": 74.4,
+            "end": 78.7,
+            "text": "a prediction about the future, usually about price."
+        },
+        {
+            "number": "166",
+            "title": "Supervised regression learning",
+            "start": 78.7,
+            "end": 81.4,
+            "text": "There are a lot of algorithms that solve this problem and"
+        },
+        {
+            "number": "166",
+            "title": "Supervised regression learning",
+            "start": 81.4,
+            "end": 84.5,
+            "text": "we're going to use our supervised regression learning techniques."
+        },
+        {
+            "number": "166",
+            "title": "Supervised regression learning",
+            "start": 84.5,
+            "end": 88.1,
+            "text": "You've probably heard of linear regression and used it."
+        },
+        {
+            "number": "166",
+            "title": "Supervised regression learning",
+            "start": 88.1,
+            "end": 92.1,
+            "text": "Linear regression is a method that finds parameters for a model,"
+        },
+        {
+            "number": "166",
+            "title": "Supervised regression learning",
+            "start": 92.1,
+            "end": 95.1,
+            "text": "so we call it parametric learning."
+        },
+        {
+            "number": "166",
+            "title": "Supervised regression learning",
+            "start": 95.1,
+            "end": 101.0,
+            "text": "K nearest neighbor, or KNN, is an extremely popular approach."
+        },
+        {
+            "number": "166",
+            "title": "Supervised regression learning",
+            "start": 101.0,
+            "end": 105.9,
+            "text": "And in fact, you're going to build a KNN learner as part of this class."
+        },
+        {
+            "number": "166",
+            "title": "Supervised regression learning",
+            "start": 105.9,
+            "end": 110.0,
+            "text": "What's different between parametric learning and instance based,"
+        },
+        {
+            "number": "166",
+            "title": "Supervised regression learning",
+            "start": 110.0,
+            "end": 113.8,
+            "text": "which KNN is an example of, is that in parametric learning,"
+        },
+        {
+            "number": "166",
+            "title": "Supervised regression learning",
+            "start": 113.8,
+            "end": 118.0,
+            "text": "we take the data, mung it around to come up with a few parameters,"
+        },
+        {
+            "number": "166",
+            "title": "Supervised regression learning",
+            "start": 118.0,
+            "end": 120.1,
+            "text": "and then throw the data away."
+        },
+        {
+            "number": "166",
+            "title": "Supervised regression learning",
+            "start": 120.1,
+            "end": 125.5,
+            "text": "In K nearest neighbor, we keep all of this historic data, the x and y pairs."
+        },
+        {
+            "number": "166",
+            "title": "Supervised regression learning",
+            "start": 125.5,
+            "end": 129.5,
+            "text": "And when it's time to make a prediction, we consult that data."
+        },
+        {
+            "number": "166",
+            "title": "Supervised regression learning",
+            "start": 129.5,
+            "end": 132.2,
+            "text": "That's what makes it instance based."
+        },
+        {
+            "number": "166",
+            "title": "Supervised regression learning",
+            "start": 132.2,
+            "end": 135.4,
+            "text": "Anyways, we'll spend a lot of time talking about K nearest neighbor."
+        },
+        {
+            "number": "166",
+            "title": "Supervised regression learning",
+            "start": 135.4,
+            "end": 140.1,
+            "text": "Two other techniques that are really popular are decision trees and decision forests."
+        },
+        {
+            "number": "166",
+            "title": "Supervised regression learning",
+            "start": 140.1,
+            "end": 140.8,
+            "text": "As you might guess,"
+        },
+        {
+            "number": "166",
+            "title": "Supervised regression learning",
+            "start": 140.8,
+            "end": 145.2,
+            "text": "the way decision trees work is they store a tree structure."
+        },
+        {
+            "number": "166",
+            "title": "Supervised regression learning",
+            "start": 145.2,
+            "end": 152.1,
+            "text": "And when a query comes in, it essentially bounces down that tree according to factors"
+        },
+        {
+            "number": "166",
+            "title": "Supervised regression learning",
+            "start": 152.1,
+            "end": 153.8,
+            "text": "of the data."
+        },
+        {
+            "number": "166",
+            "title": "Supervised regression learning",
+            "start": 153.8,
+            "end": 157.2,
+            "text": "Each node in the tree represents essentially a question."
+        },
+        {
+            "number": "166",
+            "title": "Supervised regression learning",
+            "start": 157.2,
+            "end": 162.2,
+            "text": "Is this x value greater than or less than this other value?"
+        },
+        {
+            "number": "166",
+            "title": "Supervised regression learning",
+            "start": 162.2,
+            "end": 167.9,
+            "text": "And eventually, we reach a leaf and that is the regression value that's returned."
+        },
+        {
+            "number": "166",
+            "title": "Supervised regression learning",
+            "start": 167.9,
+            "end": 171.1,
+            "text": "Decision forests are simply lots and"
+        },
+        {
+            "number": "166",
+            "title": "Supervised regression learning",
+            "start": 171.1,
+            "end": 174.6,
+            "text": "lots of decision trees taken together."
+        },
+        {
+            "number": "166",
+            "title": "Supervised regression learning",
+            "start": 174.6,
+            "end": 178.2,
+            "text": "And you query each one to get an overall result."
+        },
+        {
+            "number": "166",
+            "title": "Supervised regression learning",
+            "start": 178.2,
+            "end": 182.1,
+            "text": "So this is a definition of supervised regression learning,"
+        },
+        {
+            "number": "166",
+            "title": "Supervised regression learning",
+            "start": 182.1,
+            "end": 183.9,
+            "text": "which we're going to use a lot."
+        },
+        {
+            "number": "166",
+            "title": "Supervised regression learning",
+            "start": 183.9,
+            "end": 188.0,
+            "text": "And these are various algorithms that solve that problem."
+        }
+    ],
+    "text": "The particular flavor of machine learning that we're going to focus on in the first part of this course is called supervised regression learning. Those are a few big words. Let's break it down word by word. We'll start in the middle here with regression. Regression is a weird word. I don't think whoever chose it to represent what it means did a good job, but we're stuck with it. All that regression means is we're trying to make a numerical approximation or a numerical prediction. That's as opposed to classification learning where we might be trying to classify an object into one of several types as opposed to making a numerical prediction. Supervised means that we show the machine the x and also, if you will, the correct answer y. In fact, we show the machine many, many examples of x and y. And that's how it learns, okay, when I see this x, this is the y that's associated with it. That's the supervised component. Finally, when we say learning, what we mean is we are training with data. In this class, we're taking historical stock data and training the system to make a prediction about the future, usually about price. There are a lot of algorithms that solve this problem and we're going to use our supervised regression learning techniques. You've probably heard of linear regression and used it. Linear regression is a method that finds parameters for a model, so we call it parametric learning. K nearest neighbor, or KNN, is an extremely popular approach. And in fact, you're going to build a KNN learner as part of this class. What's different between parametric learning and instance based, which KNN is an example of, is that in parametric learning, we take the data, mung it around to come up with a few parameters, and then throw the data away. In K nearest neighbor, we keep all of this historic data, the x and y pairs. And when it's time to make a prediction, we consult that data. That's what makes it instance based. Anyways, we'll spend a lot of time talking about K nearest neighbor. Two other techniques that are really popular are decision trees and decision forests. As you might guess, the way decision trees work is they store a tree structure. And when a query comes in, it essentially bounces down that tree according to factors of the data. Each node in the tree represents essentially a question. Is this x value greater than or less than this other value? And eventually, we reach a leaf and that is the regression value that's returned. Decision forests are simply lots and lots of decision trees taken together. And you query each one to get an overall result. So this is a definition of supervised regression learning, which we're going to use a lot. And these are various algorithms that solve that problem."
+}

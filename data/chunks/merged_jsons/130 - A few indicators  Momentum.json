@@ -1,0 +1,69 @@
+{
+    "title": "A few indicators  Momentum",
+    "number": "130",
+    "chunks": [
+        {
+            "title": "A few indicators  Momentum",
+            "number": "130",
+            "start": 0.3,
+            "end": 17.1,
+            "text": "There are hundreds of technical indicators out there. We're going to take a look at just three because, of course, our time is limited. But I'll point you to resources online where you can learn more about other indicators. These three are some of the most common and most popular that people use."
+        },
+        {
+            "title": "A few indicators  Momentum",
+            "number": "130",
+            "start": 17.1,
+            "end": 32.5,
+            "text": "The three we'll look at are momentum, simple moving average, and Bollinger Bands. Let's take a look first at momentum. Momentum is really one of the simplest indicators. And it's just over some number of days, how much has the price changed?"
+        },
+        {
+            "title": "A few indicators  Momentum",
+            "number": "130",
+            "start": 32.5,
+            "end": 53.2,
+            "text": "So for instance, if we look at this point to this point, we've got positive momentum. Or if we were to look from here to here, we've got negative momentum. And the steepness of that line is the strength of the momentum, either positive or negative. Now, in terms of using this in a trading strategy,"
+        },
+        {
+            "title": "A few indicators  Momentum",
+            "number": "130",
+            "start": 53.2,
+            "end": 65.2,
+            "text": "there are many folks who look at the momentum for a stock, the recent momentum. And if it's positive, they buy because they anticipate that the momentum is going to continue. Now, I'm not necessarily recommending that to you."
+        },
+        {
+            "title": "A few indicators  Momentum",
+            "number": "130",
+            "start": 65.2,
+            "end": 84.6,
+            "text": "I'm just telling you how some people use it. Now, I'm going to show you in a later slide how we can use momentum as part of a combined strategy. Now, you can see here how we can look at momentum visually. But for machine learning, which of course we're going to get to in the next mini"
+        },
+        {
+            "title": "A few indicators  Momentum",
+            "number": "130",
+            "start": 84.6,
+            "end": 110.0,
+            "text": "course, we actually need to convert these to numbers that we can use quantitatively. And of course, this course is about quantitative analysis. So there's always, for technical analysis, a graphical or visual presentation. But we need to also consider the quantitative presentation. So when we talk about momentum, we talk about how many days of momentum that is."
+        },
+        {
+            "title": "A few indicators  Momentum",
+            "number": "130",
+            "start": 110.0,
+            "end": 133.7,
+            "text": "So that might be n days where we use n right there. So n might be a number like 5 or 10 and so on. Here's the pseudocode for how we compute momentum on a particular day. So let's suppose this is day t right here. We just take the price as of that day and we divide it by the price in days earlier."
+        },
+        {
+            "title": "A few indicators  Momentum",
+            "number": "130",
+            "start": 133.7,
+            "end": 156.2,
+            "text": "And subtract 1. So this will give us a number, say 0.1 if the price has gone up 10%. Or negative 0.1 if it's gone down 10%. So we usually see numbers in the range of, say, about minus 0.5 for a big significant 50% drop to about plus 0.5."
+        },
+        {
+            "title": "A few indicators  Momentum",
+            "number": "130",
+            "start": 156.2,
+            "end": 162.0,
+            "text": "And so on any particular day, this is how we would compute the value of this technical indicator, momentum."
+        }
+    ]
+}

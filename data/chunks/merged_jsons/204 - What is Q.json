@@ -1,0 +1,69 @@
+{
+    "title": "What is Q",
+    "number": "204",
+    "chunks": [
+        {
+            "title": "What is Q",
+            "number": "204",
+            "start": 0.2,
+            "end": 16.9,
+            "text": "Q learning is named after the Q function. What is that? Well, let's dig in and find out. Q can be written as a function, so we might have parentheses around S and A, or you can think of it as a table."
+        },
+        {
+            "title": "What is Q",
+            "number": "204",
+            "start": 16.9,
+            "end": 41.1,
+            "text": "So in this class, we're going to view Q as a table. And it's got two dimensions, S and A. So S is the state that we're looking at, and A is the action we might take. Q represents the value of taking action A in state S. And there's two components to that."
+        },
+        {
+            "title": "What is Q",
+            "number": "204",
+            "start": 41.1,
+            "end": 63.1,
+            "text": "The two components are the immediate reward that you get for taking action A in state S plus the discounted reward. And what that is about, what the discounted reward is about, is the reward you get for future actions. So an important thing to know is that Q is not greedy in the sense that it just"
+        },
+        {
+            "title": "What is Q",
+            "number": "204",
+            "start": 63.1,
+            "end": 79.0,
+            "text": "represents the reward you get for acting now. It also represents the reward you get for acting in the future. Let's suppose we have Q already created for us. We have this table. How can we use it to figure out what to do?"
+        },
+        {
+            "title": "What is Q",
+            "number": "204",
+            "start": 79.0,
+            "end": 101.5,
+            "text": "So what we do in any particular state is the policy. And we represent the policy with pi. So pi of S means what is the action we take when we're in state S, or what is the policy for state S? And we take advantage of our Q table to figure that out."
+        },
+        {
+            "title": "What is Q",
+            "number": "204",
+            "start": 101.5,
+            "end": 120.1,
+            "text": "Here's how it works. We're in state S, and we want to find out which action is the best. Well, all we need to do is look across all the potential actions and find out which value of Q S of A is maximized. So we don't change S."
+        },
+        {
+            "title": "What is Q",
+            "number": "204",
+            "start": 120.1,
+            "end": 142.5,
+            "text": "We just step through each value of A, and the one that is the largest is the action we should take. And the mathematical way to represent this is to use the function argmax. So argmax of A of this function. So what that does is it finds the A that maximizes this, and then the answer is A."
+        },
+        {
+            "title": "What is Q",
+            "number": "204",
+            "start": 143.6,
+            "end": 164.4,
+            "text": "After we run Q learning for long enough, we will eventually converge to the optimal policy. And we represent that with a little star. So the optimal policy is pi star of S. And similarly, the optimal Q table is Q star SA."
+        },
+        {
+            "title": "What is Q",
+            "number": "204",
+            "start": 164.4,
+            "end": 172.2,
+            "text": "Now this is how to use a Q table if you have it. We need now to consider how do we build that Q table in the first place."
+        }
+    ]
+}

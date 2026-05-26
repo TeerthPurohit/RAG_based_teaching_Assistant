@@ -1,0 +1,187 @@
+{
+    "chunks": [
+        {
+            "number": "044",
+            "title": "Global statistics",
+            "start": 0.4,
+            "end": 4.4,
+            "text": "In this lesson, we're going to take a look at the various kinds of statistics"
+        },
+        {
+            "number": "044",
+            "title": "Global statistics",
+            "start": 4.4,
+            "end": 7.7,
+            "text": "that we can take on time series data."
+        },
+        {
+            "number": "044",
+            "title": "Global statistics",
+            "start": 7.7,
+            "end": 10.4,
+            "text": "Let's start first with global statistics."
+        },
+        {
+            "number": "044",
+            "title": "Global statistics",
+            "start": 10.4,
+            "end": 15.4,
+            "text": "Consider our trusty data frame, DF1, with columns for"
+        },
+        {
+            "number": "044",
+            "title": "Global statistics",
+            "start": 15.4,
+            "end": 18.6,
+            "text": "SPY, Exxon, Google, and Gold."
+        },
+        {
+            "number": "044",
+            "title": "Global statistics",
+            "start": 18.6,
+            "end": 26.6,
+            "text": "We can take the mean of each of these columns very simply with a statement like this."
+        },
+        {
+            "number": "044",
+            "title": "Global statistics",
+            "start": 26.6,
+            "end": 31.0,
+            "text": "This statement will take the mean of each column and put it in the appropriate"
+        },
+        {
+            "number": "044",
+            "title": "Global statistics",
+            "start": 31.0,
+            "end": 37.9,
+            "text": "location of a new one dimensional or row wise ND array."
+        },
+        {
+            "number": "044",
+            "title": "Global statistics",
+            "start": 37.9,
+            "end": 43.7,
+            "text": "Now, because this is a data frame, and remember, a data frame augments NumPy"
+        },
+        {
+            "number": "044",
+            "title": "Global statistics",
+            "start": 43.7,
+            "end": 45.9,
+            "text": "and provides a lot more functionality."
+        },
+        {
+            "number": "044",
+            "title": "Global statistics",
+            "start": 45.9,
+            "end": 50.2,
+            "text": "It's sort of a ND array on steroids."
+        },
+        {
+            "number": "044",
+            "title": "Global statistics",
+            "start": 50.2,
+            "end": 54.7,
+            "text": "We get lots and lots of functions we can access in this way."
+        },
+        {
+            "number": "044",
+            "title": "Global statistics",
+            "start": 54.7,
+            "end": 56.7,
+            "text": "We already mentioned mean."
+        },
+        {
+            "number": "044",
+            "title": "Global statistics",
+            "start": 56.7,
+            "end": 62.6,
+            "text": "In addition to mean, we've got median, standard deviation, sum, prod, mode."
+        },
+        {
+            "number": "044",
+            "title": "Global statistics",
+            "start": 62.6,
+            "end": 69.2,
+            "text": "All together, there's at least 33 global statistics you can compute in this way."
+        },
+        {
+            "number": "044",
+            "title": "Global statistics",
+            "start": 69.2,
+            "end": 70.9,
+            "text": "And they're always adding more."
+        },
+        {
+            "number": "044",
+            "title": "Global statistics",
+            "start": 70.9,
+            "end": 75.0,
+            "text": "Let me hand it over to Dave, and she's going to show you how to do this in code."
+        },
+        {
+            "number": "044",
+            "title": "Global statistics",
+            "start": 75.0,
+            "end": 77.0,
+            "text": "Let me measure something here."
+        },
+        {
+            "number": "044",
+            "title": "Global statistics",
+            "start": 77.0,
+            "end": 82.0,
+            "text": "Let me introduce the three."
+        },
+        {
+            "number": "044",
+            "title": "Global statistics",
+            "start": 82.0,
+            "end": 84.9,
+            "text": "One特 also thing to attitude to Pinterest."
+        },
+        {
+            "number": "044",
+            "title": "Global statistics",
+            "start": 84.9,
+            "end": 89.3,
+            "text": "The tomb that asks you to do, you never know."
+        },
+        {
+            "number": "044",
+            "title": "Global statistics",
+            "start": 89.3,
+            "end": 93.3,
+            "text": "If you intend to interpret it on your mind, to see you?"
+        },
+        {
+            "number": "044",
+            "title": "Global statistics",
+            "start": 93.3,
+            "end": 96.1,
+            "text": "When it's the biggest centering on this page, you can prove it and you see you"
+        },
+        {
+            "number": "044",
+            "title": "Global statistics",
+            "start": 96.1,
+            "end": 96.6,
+            "text": "done with things."
+        },
+        {
+            "number": "044",
+            "title": "Global statistics",
+            "start": 96.6,
+            "end": 98.8,
+            "text": "It just prevents the amount of confidence to do it."
+        },
+        {
+            "number": "044",
+            "title": "Global statistics",
+            "start": 98.8,
+            "end": 102.7,
+            "text": "And you might want to explain that for 20 minutes and go at the top of your mind."
+        }
+    ],
+    "text": "In this lesson, we're going to take a look at the various kinds of statistics that we can take on time series data. Let's start first with global statistics. Consider our trusty data frame, DF1, with columns for SPY, Exxon, Google, and Gold. We can take the mean of each of these columns very simply with a statement like this. This statement will take the mean of each column and put it in the appropriate location of a new one dimensional or row wise ND array. Now, because this is a data frame, and remember, a data frame augments NumPy and provides a lot more functionality. It's sort of a ND array on steroids. We get lots and lots of functions we can access in this way. We already mentioned mean. In addition to mean, we've got median, standard deviation, sum, prod, mode. All together, there's at least 33 global statistics you can compute in this way. And they're always adding more. Let me hand it over to Dave, and she's going to show you how to do this in code. Let me measure something here. Let me introduce the three. One特 also thing to attitude to Pinterest. The tomb that asks you to do, you never know. If you intend to interpret it on your mind, to see you? When it's the biggest centering on this page, you can prove it and you see you done with things. It just prevents the amount of confidence to do it. And you might want to explain that for 20 minutes and go at the top of your mind."
+}

@@ -1,0 +1,55 @@
+{
+    "title": "Backtesting",
+    "number": "171",
+    "chunks": [
+        {
+            "title": "Backtesting",
+            "number": "171",
+            "start": 0.3,
+            "end": 14.5,
+            "text": "Of course, a natural question is, well, how accurate are these forecasts? Can you act on them? Do they really predict the future? Well, at least a first step towards answering that question can be found by back testing."
+        },
+        {
+            "title": "Backtesting",
+            "number": "171",
+            "start": 14.5,
+            "end": 32.3,
+            "text": "So that means you roll back time and you test your system. So here's our historical data. As usual, it's organized with time coming down. Now, in order to test the capability of our approach, we have to limit the data it sees to a certain amount of time and"
+        },
+        {
+            "title": "Backtesting",
+            "number": "171",
+            "start": 32.3,
+            "end": 50.7,
+            "text": "then make predictions into the simulated future. So we allow our system to only look at data up to a certain point. It can use data before that all it likes. It builds a model and then makes a forecast. On the basis of that forecast, we can then now place orders anticipating that"
+        },
+        {
+            "title": "Backtesting",
+            "number": "171",
+            "start": 50.7,
+            "end": 69.2,
+            "text": "that forecast will be achieved. So we might long some stocks or short them as appropriate. We can take those orders now, put them into our trading simulator, and see how the portfolio works. So this time right here is the same as this time here."
+        },
+        {
+            "title": "Backtesting",
+            "number": "171",
+            "start": 69.2,
+            "end": 90.2,
+            "text": "So we enter our positions on that date, which is the same as that date. And then we roll it forward and see what happens with the portfolio. Using software that we built in this class, you can measure things like sharp ratio, return, and so on for that portfolio. Now we're training over new data, make a new forecast, and"
+        },
+        {
+            "title": "Backtesting",
+            "number": "171",
+            "start": 90.2,
+            "end": 105.7,
+            "text": "then make a new set of orders. We enter these orders in our trading simulator and then go forward and see what happens. I'm optimistic that it's always going to go up and to the right. Anyways, this process can be repeated over and over and"
+        },
+        {
+            "title": "Backtesting",
+            "number": "171",
+            "start": 105.7,
+            "end": 115.5,
+            "text": "over again using historical data, and we can simulate our learning algorithm and how it would trade in this way. And that's called backtesting."
+        }
+    ]
+}

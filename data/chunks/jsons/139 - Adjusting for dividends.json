@@ -1,0 +1,341 @@
+{
+    "chunks": [
+        {
+            "number": "139",
+            "title": "Adjusting for dividends",
+            "start": 0.0,
+            "end": 3.2,
+            "text": "So here I've redrawn that same scenario."
+        },
+        {
+            "number": "139",
+            "title": "Adjusting for dividends",
+            "start": 3.2,
+            "end": 6.4,
+            "text": "We've got the price of a stock trundling along."
+        },
+        {
+            "number": "139",
+            "title": "Adjusting for dividends",
+            "start": 7.8,
+            "end": 13.4,
+            "text": "On this date, the dividend is announced that it'll be paid on this date."
+        },
+        {
+            "number": "139",
+            "title": "Adjusting for dividends",
+            "start": 13.4,
+            "end": 17.7,
+            "text": "And so we see in general the price rising up until that date and"
+        },
+        {
+            "number": "139",
+            "title": "Adjusting for dividends",
+            "start": 17.7,
+            "end": 19.8,
+            "text": "then a strong drop."
+        },
+        {
+            "number": "139",
+            "title": "Adjusting for dividends",
+            "start": 19.8,
+            "end": 25.2,
+            "text": "And again, the consensus value for the company is about $100."
+        },
+        {
+            "number": "139",
+            "title": "Adjusting for dividends",
+            "start": 25.2,
+            "end": 32.5,
+            "text": "So let's consider now how we might adjust historical prices for this situation."
+        },
+        {
+            "number": "139",
+            "title": "Adjusting for dividends",
+            "start": 32.5,
+            "end": 37.5,
+            "text": "So again, adjusted price as of today or the latest day in our data is always"
+        },
+        {
+            "number": "139",
+            "title": "Adjusting for dividends",
+            "start": 37.5,
+            "end": 40.4,
+            "text": "the same as the actual price."
+        },
+        {
+            "number": "139",
+            "title": "Adjusting for dividends",
+            "start": 40.4,
+            "end": 45.6,
+            "text": "And as we go back in time, it remains about the same until we hit one of these"
+        },
+        {
+            "number": "139",
+            "title": "Adjusting for dividends",
+            "start": 45.6,
+            "end": 48.5,
+            "text": "events like a dividend or a split."
+        },
+        {
+            "number": "139",
+            "title": "Adjusting for dividends",
+            "start": 48.5,
+            "end": 52.8,
+            "text": "So we treat historically the price in the same way we do with a split."
+        },
+        {
+            "number": "139",
+            "title": "Adjusting for dividends",
+            "start": 52.8,
+            "end": 56.8,
+            "text": "In other words, just before the dividend is paid,"
+        },
+        {
+            "number": "139",
+            "title": "Adjusting for dividends",
+            "start": 56.8,
+            "end": 62.4,
+            "text": "we adjust all of these prices down by the proportion of the dividend."
+        },
+        {
+            "number": "139",
+            "title": "Adjusting for dividends",
+            "start": 62.4,
+            "end": 69.3,
+            "text": "So in this case, we adjust everything down by about 1% all the way back in history."
+        },
+        {
+            "number": "139",
+            "title": "Adjusting for dividends",
+            "start": 69.3,
+            "end": 72.6,
+            "text": "So our adjusted price continues like this."
+        },
+        {
+            "number": "139",
+            "title": "Adjusting for dividends",
+            "start": 73.7,
+            "end": 77.4,
+            "text": "Now to double check this for sort of rationality,"
+        },
+        {
+            "number": "139",
+            "title": "Adjusting for dividends",
+            "start": 77.4,
+            "end": 82.7,
+            "text": "consider that you bought the stock around this date and you held it all the way"
+        },
+        {
+            "number": "139",
+            "title": "Adjusting for dividends",
+            "start": 82.7,
+            "end": 88.5,
+            "text": "through the dividend payment, you would get an increase in value of your holding of"
+        },
+        {
+            "number": "139",
+            "title": "Adjusting for dividends",
+            "start": 88.5,
+            "end": 90.4,
+            "text": "about $1."
+        },
+        {
+            "number": "139",
+            "title": "Adjusting for dividends",
+            "start": 90.4,
+            "end": 96.5,
+            "text": "So the adjustment is achieving its purpose, which is to allow us to not worry about"
+        },
+        {
+            "number": "139",
+            "title": "Adjusting for dividends",
+            "start": 96.5,
+            "end": 102.8,
+            "text": "dividends and splits, just go back in time, buy and hold the share, and"
+        },
+        {
+            "number": "139",
+            "title": "Adjusting for dividends",
+            "start": 102.8,
+            "end": 105.8,
+            "text": "see how much our value accumulates."
+        },
+        {
+            "number": "139",
+            "title": "Adjusting for dividends",
+            "start": 105.8,
+            "end": 112.3,
+            "text": "So for the data we'll be working with in this class, which are daily close values,"
+        },
+        {
+            "number": "139",
+            "title": "Adjusting for dividends",
+            "start": 112.3,
+            "end": 115.6,
+            "text": "we have in our data both actual and adjusted."
+        },
+        {
+            "number": "139",
+            "title": "Adjusting for dividends",
+            "start": 115.6,
+            "end": 123.2,
+            "text": "And in almost every instance, I will assume that we're using adjusted close prices"
+        },
+        {
+            "number": "139",
+            "title": "Adjusting for dividends",
+            "start": 123.2,
+            "end": 125.4,
+            "text": "in our calculations."
+        },
+        {
+            "number": "139",
+            "title": "Adjusting for dividends",
+            "start": 125.4,
+            "end": 130.8,
+            "text": "A couple other things to reiterate about adjustments is the last day in our file,"
+        },
+        {
+            "number": "139",
+            "title": "Adjusting for dividends",
+            "start": 130.8,
+            "end": 137.8,
+            "text": "usually that's as of today, the adjusted and actual close value are the same."
+        },
+        {
+            "number": "139",
+            "title": "Adjusting for dividends",
+            "start": 137.8,
+            "end": 142.1,
+            "text": "So any day that you look, say you got to go to Yahoo Finance or Google Finance and"
+        },
+        {
+            "number": "139",
+            "title": "Adjusting for dividends",
+            "start": 142.1,
+            "end": 149.4,
+            "text": "you get adjusted close and actual close, you'll see that today they're exactly the same price."
+        },
+        {
+            "number": "139",
+            "title": "Adjusting for dividends",
+            "start": 149.4,
+            "end": 152.7,
+            "text": "But as you go back in time, they will begin to diverge."
+        },
+        {
+            "number": "139",
+            "title": "Adjusting for dividends",
+            "start": 152.7,
+            "end": 159.1,
+            "text": "And the prices we use are adjusted for both dividends and splits."
+        },
+        {
+            "number": "139",
+            "title": "Adjusting for dividends",
+            "start": 159.1,
+            "end": 164.0,
+            "text": "And it's very important that you always use adjusted close."
+        },
+        {
+            "number": "139",
+            "title": "Adjusting for dividends",
+            "start": 164.0,
+            "end": 172.2,
+            "text": "One other thing to mention is suppose we had this data as of 2012."
+        },
+        {
+            "number": "139",
+            "title": "Adjusting for dividends",
+            "start": 172.2,
+            "end": 177.7,
+            "text": "And so this last date here in our file is some date in 2012."
+        },
+        {
+            "number": "139",
+            "title": "Adjusting for dividends",
+            "start": 177.7,
+            "end": 180.6,
+            "text": "And you go and you look at the adjusted close."
+        },
+        {
+            "number": "139",
+            "title": "Adjusting for dividends",
+            "start": 180.6,
+            "end": 184.8,
+            "text": "Let's suppose this is some date in 2010."
+        },
+        {
+            "number": "139",
+            "title": "Adjusting for dividends",
+            "start": 184.8,
+            "end": 195.0,
+            "text": "That value, that adjusted close value, will be different if you gather data from, say, 2015."
+        },
+        {
+            "number": "139",
+            "title": "Adjusting for dividends",
+            "start": 195.0,
+            "end": 200.7,
+            "text": "So if you go to Yahoo and get today's adjusted close, there will certainly,"
+        },
+        {
+            "number": "139",
+            "title": "Adjusting for dividends",
+            "start": 200.7,
+            "end": 207.8,
+            "text": "for most stocks there will be dividends and splits that have occurred since 2012."
+        },
+        {
+            "number": "139",
+            "title": "Adjusting for dividends",
+            "start": 207.8,
+            "end": 214.2,
+            "text": "And so this adjusted close price today in Yahoo's data will be different,"
+        },
+        {
+            "number": "139",
+            "title": "Adjusting for dividends",
+            "start": 214.2,
+            "end": 221.8,
+            "text": "most likely lower than the adjusted close for that date if you had gathered it in 2012."
+        },
+        {
+            "number": "139",
+            "title": "Adjusting for dividends",
+            "start": 221.8,
+            "end": 224.6,
+            "text": "I know it's a little bit tricky."
+        },
+        {
+            "number": "139",
+            "title": "Adjusting for dividends",
+            "start": 224.6,
+            "end": 232.6,
+            "text": "The key point is for projects in this class, you need to use the data that's provided for the class."
+        },
+        {
+            "number": "139",
+            "title": "Adjusting for dividends",
+            "start": 232.6,
+            "end": 235.9,
+            "text": "It was gathered as of 2012."
+        },
+        {
+            "number": "139",
+            "title": "Adjusting for dividends",
+            "start": 235.9,
+            "end": 240.8,
+            "text": "If you go to Yahoo and get new data, you're going to get different answers for the projects."
+        },
+        {
+            "number": "139",
+            "title": "Adjusting for dividends",
+            "start": 240.8,
+            "end": 242.8,
+            "text": "So just keep that in mind."
+        }
+    ],
+    "text": "So here I've redrawn that same scenario. We've got the price of a stock trundling along. On this date, the dividend is announced that it'll be paid on this date. And so we see in general the price rising up until that date and then a strong drop. And again, the consensus value for the company is about $100. So let's consider now how we might adjust historical prices for this situation. So again, adjusted price as of today or the latest day in our data is always the same as the actual price. And as we go back in time, it remains about the same until we hit one of these events like a dividend or a split. So we treat historically the price in the same way we do with a split. In other words, just before the dividend is paid, we adjust all of these prices down by the proportion of the dividend. So in this case, we adjust everything down by about 1% all the way back in history. So our adjusted price continues like this. Now to double check this for sort of rationality, consider that you bought the stock around this date and you held it all the way through the dividend payment, you would get an increase in value of your holding of about $1. So the adjustment is achieving its purpose, which is to allow us to not worry about dividends and splits, just go back in time, buy and hold the share, and see how much our value accumulates. So for the data we'll be working with in this class, which are daily close values, we have in our data both actual and adjusted. And in almost every instance, I will assume that we're using adjusted close prices in our calculations. A couple other things to reiterate about adjustments is the last day in our file, usually that's as of today, the adjusted and actual close value are the same. So any day that you look, say you got to go to Yahoo Finance or Google Finance and you get adjusted close and actual close, you'll see that today they're exactly the same price. But as you go back in time, they will begin to diverge. And the prices we use are adjusted for both dividends and splits. And it's very important that you always use adjusted close. One other thing to mention is suppose we had this data as of 2012. And so this last date here in our file is some date in 2012. And you go and you look at the adjusted close. Let's suppose this is some date in 2010. That value, that adjusted close value, will be different if you gather data from, say, 2015. So if you go to Yahoo and get today's adjusted close, there will certainly, for most stocks there will be dividends and splits that have occurred since 2012. And so this adjusted close price today in Yahoo's data will be different, most likely lower than the adjusted close for that date if you had gathered it in 2012. I know it's a little bit tricky. The key point is for projects in this class, you need to use the data that's provided for the class. It was gathered as of 2012. If you go to Yahoo and get new data, you're going to get different answers for the projects. So just keep that in mind."
+}

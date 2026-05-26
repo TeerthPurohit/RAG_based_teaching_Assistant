@@ -1,0 +1,327 @@
+{
+    "chunks": [
+        {
+            "number": "106",
+            "title": "Why company value matters",
+            "start": 0.3,
+            "end": 4.8,
+            "text": "So in a moment, we'll address how do you estimate the value of that company"
+        },
+        {
+            "number": "106",
+            "title": "Why company value matters",
+            "start": 4.8,
+            "end": 9.7,
+            "text": "that generates $1 per year, in other words, that dollar bill machine."
+        },
+        {
+            "number": "106",
+            "title": "Why company value matters",
+            "start": 9.7,
+            "end": 14.9,
+            "text": "Before we dig into that, let's spend a moment considering why does it matter"
+        },
+        {
+            "number": "106",
+            "title": "Why company value matters",
+            "start": 14.9,
+            "end": 17.2,
+            "text": "how much a company is worth."
+        },
+        {
+            "number": "106",
+            "title": "Why company value matters",
+            "start": 17.2,
+            "end": 20.7,
+            "text": "This course is about buying and selling stocks."
+        },
+        {
+            "number": "106",
+            "title": "Why company value matters",
+            "start": 20.7,
+            "end": 24.6,
+            "text": "So we're going to look at why company value matters with regard to buying and"
+        },
+        {
+            "number": "106",
+            "title": "Why company value matters",
+            "start": 24.6,
+            "end": 26.1,
+            "text": "selling stocks."
+        },
+        {
+            "number": "106",
+            "title": "Why company value matters",
+            "start": 26.1,
+            "end": 30.9,
+            "text": "Of course, we want to buy a stock when the price is too low,"
+        },
+        {
+            "number": "106",
+            "title": "Why company value matters",
+            "start": 30.9,
+            "end": 33.9,
+            "text": "and we want to sell it when it's too high."
+        },
+        {
+            "number": "106",
+            "title": "Why company value matters",
+            "start": 33.9,
+            "end": 39.6,
+            "text": "In general, the value of a company goes up monotonically."
+        },
+        {
+            "number": "106",
+            "title": "Why company value matters",
+            "start": 39.6,
+            "end": 43.1,
+            "text": "In other words, it is always increasing over time."
+        },
+        {
+            "number": "106",
+            "title": "Why company value matters",
+            "start": 43.1,
+            "end": 48.4,
+            "text": "Let's assume for a moment this is the true value of that company."
+        },
+        {
+            "number": "106",
+            "title": "Why company value matters",
+            "start": 48.4,
+            "end": 52.9,
+            "text": "We'll address in a little bit what true means, but let's assume for the moment"
+        },
+        {
+            "number": "106",
+            "title": "Why company value matters",
+            "start": 52.9,
+            "end": 58.2,
+            "text": "that we have some understanding of the underlying real value of that company."
+        },
+        {
+            "number": "106",
+            "title": "Why company value matters",
+            "start": 58.2,
+            "end": 65.1,
+            "text": "Now, that true value is distinct and different from the value estimated by the market."
+        },
+        {
+            "number": "106",
+            "title": "Why company value matters",
+            "start": 65.1,
+            "end": 68.9,
+            "text": "In other words, what price the stock market says it's worth."
+        },
+        {
+            "number": "106",
+            "title": "Why company value matters",
+            "start": 68.9,
+            "end": 73.9,
+            "text": "So on one particular day, maybe the price is higher than the true value."
+        },
+        {
+            "number": "106",
+            "title": "Why company value matters",
+            "start": 73.9,
+            "end": 76.8,
+            "text": "On some other day, maybe it's lower."
+        },
+        {
+            "number": "106",
+            "title": "Why company value matters",
+            "start": 76.8,
+            "end": 79.1,
+            "text": "And on some other day, it's the same."
+        },
+        {
+            "number": "106",
+            "title": "Why company value matters",
+            "start": 79.1,
+            "end": 84.3,
+            "text": "Very many trading strategies, which is what this course is about,"
+        },
+        {
+            "number": "106",
+            "title": "Why company value matters",
+            "start": 84.3,
+            "end": 93.4,
+            "text": "focus on identifying situations where the current stock price is different from the true value."
+        },
+        {
+            "number": "106",
+            "title": "Why company value matters",
+            "start": 93.4,
+            "end": 96.1,
+            "text": "So in other words, if the stock price goes up a lot,"
+        },
+        {
+            "number": "106",
+            "title": "Why company value matters",
+            "start": 96.1,
+            "end": 100.5,
+            "text": "but we know the actual company is only worth a certain amount,"
+        },
+        {
+            "number": "106",
+            "title": "Why company value matters",
+            "start": 100.5,
+            "end": 104.4,
+            "text": "when it goes up high, that might be a selling opportunity."
+        },
+        {
+            "number": "106",
+            "title": "Why company value matters",
+            "start": 104.4,
+            "end": 110.3,
+            "text": "In other words, if we see the price up here, and we know the true value of the company is down here, sell it."
+        },
+        {
+            "number": "106",
+            "title": "Why company value matters",
+            "start": 110.3,
+            "end": 115.6,
+            "text": "And similarly, if we see the price really low compared to what the company is worth,"
+        },
+        {
+            "number": "106",
+            "title": "Why company value matters",
+            "start": 115.6,
+            "end": 119.1,
+            "text": "that could represent a buying opportunity."
+        },
+        {
+            "number": "106",
+            "title": "Why company value matters",
+            "start": 119.1,
+            "end": 124.5,
+            "text": "There are many, many ways that we can estimate the true value of a company."
+        },
+        {
+            "number": "106",
+            "title": "Why company value matters",
+            "start": 124.5,
+            "end": 127.3,
+            "text": "We're going to touch on a few of them in this lesson."
+        },
+        {
+            "number": "106",
+            "title": "Why company value matters",
+            "start": 127.3,
+            "end": 130.3,
+            "text": "One is intrinsic value."
+        },
+        {
+            "number": "106",
+            "title": "Why company value matters",
+            "start": 130.3,
+            "end": 136.5,
+            "text": "This is based on the value of the company as estimated by future dividends."
+        },
+        {
+            "number": "106",
+            "title": "Why company value matters",
+            "start": 136.5,
+            "end": 145.5,
+            "text": "In other words, companies pay, many companies, not all, pay each year or each quarter a dividend."
+        },
+        {
+            "number": "106",
+            "title": "Why company value matters",
+            "start": 145.5,
+            "end": 146.9,
+            "text": "So it's a cash payment."
+        },
+        {
+            "number": "106",
+            "title": "Why company value matters",
+            "start": 146.9,
+            "end": 150.4,
+            "text": "If you own a share of stock, you get a certain amount of dividend."
+        },
+        {
+            "number": "106",
+            "title": "Why company value matters",
+            "start": 150.4,
+            "end": 155.9,
+            "text": "For instance, for Apple this year, that's about $2 per year."
+        },
+        {
+            "number": "106",
+            "title": "Why company value matters",
+            "start": 155.9,
+            "end": 165.3,
+            "text": "So intrinsic value is based on if we own one share of stock, we're going to get some amount of dividends accumulated"
+        },
+        {
+            "number": "106",
+            "title": "Why company value matters",
+            "start": 165.3,
+            "end": 167.0,
+            "text": "over all of the future."
+        },
+        {
+            "number": "106",
+            "title": "Why company value matters",
+            "start": 167.0,
+            "end": 170.1,
+            "text": "What's the value of the company based on that?"
+        },
+        {
+            "number": "106",
+            "title": "Why company value matters",
+            "start": 170.1,
+            "end": 175.2,
+            "text": "Another is book value, which is based on the assets that the company owns."
+        },
+        {
+            "number": "106",
+            "title": "Why company value matters",
+            "start": 175.2,
+            "end": 181.1,
+            "text": "So in other words, we add up the value of all the factories that they own and so on."
+        },
+        {
+            "number": "106",
+            "title": "Why company value matters",
+            "start": 181.1,
+            "end": 182.6,
+            "text": "Finally is market cap."
+        },
+        {
+            "number": "106",
+            "title": "Why company value matters",
+            "start": 182.6,
+            "end": 189.2,
+            "text": "This is based on the value of the stock on the market and how many shares are outstanding."
+        },
+        {
+            "number": "106",
+            "title": "Why company value matters",
+            "start": 189.2,
+            "end": 195.3,
+            "text": "So in other words, this relates to what does the market think the company is worth."
+        },
+        {
+            "number": "106",
+            "title": "Why company value matters",
+            "start": 195.3,
+            "end": 199.7,
+            "text": "This relates to what's the value of the sum of the assets."
+        },
+        {
+            "number": "106",
+            "title": "Why company value matters",
+            "start": 199.7,
+            "end": 205.9,
+            "text": "And this one relates to, well, if I own a share of stock, how much money am I going to get over the future?"
+        },
+        {
+            "number": "106",
+            "title": "Why company value matters",
+            "start": 205.9,
+            "end": 209.2,
+            "text": "And what's that worth over all the future going forward?"
+        }
+    ],
+    "text": "So in a moment, we'll address how do you estimate the value of that company that generates $1 per year, in other words, that dollar bill machine. Before we dig into that, let's spend a moment considering why does it matter how much a company is worth. This course is about buying and selling stocks. So we're going to look at why company value matters with regard to buying and selling stocks. Of course, we want to buy a stock when the price is too low, and we want to sell it when it's too high. In general, the value of a company goes up monotonically. In other words, it is always increasing over time. Let's assume for a moment this is the true value of that company. We'll address in a little bit what true means, but let's assume for the moment that we have some understanding of the underlying real value of that company. Now, that true value is distinct and different from the value estimated by the market. In other words, what price the stock market says it's worth. So on one particular day, maybe the price is higher than the true value. On some other day, maybe it's lower. And on some other day, it's the same. Very many trading strategies, which is what this course is about, focus on identifying situations where the current stock price is different from the true value. So in other words, if the stock price goes up a lot, but we know the actual company is only worth a certain amount, when it goes up high, that might be a selling opportunity. In other words, if we see the price up here, and we know the true value of the company is down here, sell it. And similarly, if we see the price really low compared to what the company is worth, that could represent a buying opportunity. There are many, many ways that we can estimate the true value of a company. We're going to touch on a few of them in this lesson. One is intrinsic value. This is based on the value of the company as estimated by future dividends. In other words, companies pay, many companies, not all, pay each year or each quarter a dividend. So it's a cash payment. If you own a share of stock, you get a certain amount of dividend. For instance, for Apple this year, that's about $2 per year. So intrinsic value is based on if we own one share of stock, we're going to get some amount of dividends accumulated over all of the future. What's the value of the company based on that? Another is book value, which is based on the assets that the company owns. So in other words, we add up the value of all the factories that they own and so on. Finally is market cap. This is based on the value of the stock on the market and how many shares are outstanding. So in other words, this relates to what does the market think the company is worth. This relates to what's the value of the sum of the assets. And this one relates to, well, if I own a share of stock, how much money am I going to get over the future? And what's that worth over all the future going forward?"
+}

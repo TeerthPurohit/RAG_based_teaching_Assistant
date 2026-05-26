@@ -1,0 +1,90 @@
+{
+    "title": "Dyna Q Big Picture",
+    "number": "213",
+    "chunks": [
+        {
+            "title": "Dyna Q Big Picture",
+            "number": "213",
+            "start": 0.7,
+            "end": 25.0,
+            "text": "DynaQ is an algorithm developed by Rich Sutton intended to speed up learning, or model convergence for Q-learning. Remember that Q-learning is model free, meaning that it does not rely on T or R. T being our transition matrix and R being our reward function."
+        },
+        {
+            "title": "Dyna Q Big Picture",
+            "number": "213",
+            "start": 25.0,
+            "end": 38.9,
+            "text": "It doesn't know it. Q-learning does not know T or R. Dyna ends up becoming a blend of model free and model based methods. Here's how it works. So let's first consider plain old Q-learning."
+        },
+        {
+            "title": "Dyna Q Big Picture",
+            "number": "213",
+            "start": 38.9,
+            "end": 61.2,
+            "text": "Dyna is really an addition to Q-learning. So let's start with the regular Q-learning and then look at how we add Dyna into it. So we initialize our Q-table and then we begin iterating. We observe S, we execute action A, and then we observe our new state S prime and our reward R."
+        },
+        {
+            "title": "Dyna Q Big Picture",
+            "number": "213",
+            "start": 61.2,
+            "end": 91.0,
+            "text": "We then update our Q-table with this experience tubal and repeat. And we do that over and over and over again, interacting with the world. And our Q-table becomes better and better. So when we augment Q-learning with DynaQ, we add three new components. The first is that we add some logic that enables us to learn models of T and R."
+        },
+        {
+            "title": "Dyna Q Big Picture",
+            "number": "213",
+            "start": 91.0,
+            "end": 114.5,
+            "text": "then, for lack of a better term, we hallucinate an experience. So rather than interacting with the real world like we do up here with the Q-learning part, and this is expensive by the way. We hallucinate these experiences, update our Q-table, and repeat this many times. Maybe hundreds of times."
+        },
+        {
+            "title": "Dyna Q Big Picture",
+            "number": "213",
+            "start": 114.5,
+            "end": 141.1,
+            "text": "This operation is very cheap compared to interacting with the real world. So we can leverage the experience we gain here from an interaction with the real world, but then update our model more completely before we step out and interact with the real world again. After we've iterated enough times down here, maybe 100, maybe 200 times,"
+        },
+        {
+            "title": "Dyna Q Big Picture",
+            "number": "213",
+            "start": 141.1,
+            "end": 158.6,
+            "text": "updates of our model here. And resume our interaction with the real world. The key thing here is that for each experience with the real world, we have maybe 100 or 200 updates of our model here. Let's look at each of these components in a little more detail now."
+        },
+        {
+            "title": "Dyna Q Big Picture",
+            "number": "213",
+            "start": 158.6,
+            "end": 179.0,
+            "text": "So in this part where we update our model, what we really want to do is find new values for T and R. The point where we update our model includes the following. We want to update T, so I'm calling it T prime for the moment, which represents our transition matrix."
+        },
+        {
+            "title": "Dyna Q Big Picture",
+            "number": "213",
+            "start": 179.0,
+            "end": 202.6,
+            "text": "And we want to update our reward function. Now, remember that T is the probability that if we're in state S and we take action A, we'll end up in S prime. And R is our expected reward if we're in state S and we take action A. I'm going to show you in a moment how we'll update T and R."
+        },
+        {
+            "title": "Dyna Q Big Picture",
+            "number": "213",
+            "start": 202.6,
+            "end": 220.5,
+            "text": "Here's how we hallucinate an experience. First, we randomly select an S. Second, we randomly select an A. So our state and action are chosen totally at random. Then we infer our new state S prime by looking at T."
+        },
+        {
+            "title": "Dyna Q Big Picture",
+            "number": "213",
+            "start": 220.5,
+            "end": 239.2,
+            "text": "And we infer our reward, our immediate reward R, by looking at big R, our R table. So now we've got S, A, S prime, and R, or a complete experience tuple. And we can update our qtable using that. So the qtable update is our final step."
+        },
+        {
+            "title": "Dyna Q Big Picture",
+            "number": "213",
+            "start": 239.2,
+            "end": 253.5,
+            "text": "And this is really all there is to DynaQ. We've added these three sections. And what's missing, and I'll get to in just a moment, is how do we update our model of T and our model of R?"
+        }
+    ]
+}

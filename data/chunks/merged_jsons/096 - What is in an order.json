@@ -1,0 +1,62 @@
+{
+    "title": "What is in an order",
+    "number": "096",
+    "chunks": [
+        {
+            "title": "What is in an order",
+            "number": "096",
+            "start": 0.3,
+            "end": 18.1,
+            "text": "The way that you build a portfolio or buy stocks that you hold in your portfolio is by issuing orders. Usually you send those orders to a stock broker and they take care of executing them for you. We're going to dive now into the details of what happens when you create an order"
+        },
+        {
+            "title": "What is in an order",
+            "number": "096",
+            "start": 18.1,
+            "end": 39.0,
+            "text": "and how it gets to the market and back and how things can go wrong and how they can potentially go right. The first stop there is to think about what is actually in an order. What are the components of an order that can go to a stock exchange? Here is all the information that must go into a well formed order."
+        },
+        {
+            "title": "What is in an order",
+            "number": "096",
+            "start": 40.0,
+            "end": 58.9,
+            "text": "First of all, we need to know, are you looking to buy or sell shares of a stock? Next is the symbol. This is an identifier for the stock or perhaps ETF that you want to buy or sell. For instance, IBM or SPLV."
+        },
+        {
+            "title": "What is in an order",
+            "number": "096",
+            "start": 58.9,
+            "end": 82.8,
+            "text": "Next, you need to tell your broker how many shares you want to buy or sell. Stocks and ETFs and other assets are sold in units of shares, not by amount of money. So you don't tell your broker, you know, I want $100,000 worth of Apple. You tell your broker, I want $1,000 shares of Apple."
+        },
+        {
+            "title": "What is in an order",
+            "number": "096",
+            "start": 82.8,
+            "end": 99.3,
+            "text": "Next, you need to tell your broker whether this is a limit order or a market order. Let's start with market first. Market means you're willing to accept a good price, but essentially whatever price the market is currently bearing. And I'm going to show you in a moment how that's determined."
+        },
+        {
+            "title": "What is in an order",
+            "number": "096",
+            "start": 99.3,
+            "end": 119.8,
+            "text": "A limit price means you don't want to do any worse than a certain price. For instance, suppose you're selling some stock. You might specify, I don't want it to be sold below a particular price. Or if you're buying stock, you might say, I don't want to pay more than a certain amount to get it."
+        },
+        {
+            "title": "What is in an order",
+            "number": "096",
+            "start": 119.8,
+            "end": 142.8,
+            "text": "If you're issuing a limit order, then you have to say what the corresponding price is. If it's a market order, you're not able to specify that price because essentially when you issue the market order, you're saying, I'll take whatever price comes back. Let's take a look at a couple example orders. Here's one, buy IBM 100 shares limit 99.95."
+        },
+        {
+            "title": "What is in an order",
+            "number": "096",
+            "start": 142.8,
+            "end": 164.0,
+            "text": "So this means I want to buy 100 shares of IBM at no more than $99.95. Another example, sell Google 150 shares market. Notice there's no price with this because we're going to take whatever the market price is. So let's look at what happens when these orders reach the exchange."
+        }
+    ]
+}

@@ -1,0 +1,278 @@
+{
+    "chunks": [
+        {
+            "number": "208",
+            "title": "The Trading Problem  Actions",
+            "start": 0.3,
+            "end": 3.9,
+            "text": "Okay, now that you have a basic understanding of QLearning,"
+        },
+        {
+            "number": "208",
+            "title": "The Trading Problem  Actions",
+            "start": 3.9,
+            "end": 9.0,
+            "text": "let's consider how we can turn the stock trading problem into a problem that"
+        },
+        {
+            "number": "208",
+            "title": "The Trading Problem  Actions",
+            "start": 9.0,
+            "end": 11.0,
+            "text": "QLearning can solve."
+        },
+        {
+            "number": "208",
+            "title": "The Trading Problem  Actions",
+            "start": 11.0,
+            "end": 17.1,
+            "text": "To do that, we need to define our actions, we need to define our state, and"
+        },
+        {
+            "number": "208",
+            "title": "The Trading Problem  Actions",
+            "start": 17.1,
+            "end": 19.4,
+            "text": "we also need to define our rewards."
+        },
+        {
+            "number": "208",
+            "title": "The Trading Problem  Actions",
+            "start": 19.4,
+            "end": 22.2,
+            "text": "Let's start here first with actions."
+        },
+        {
+            "number": "208",
+            "title": "The Trading Problem  Actions",
+            "start": 22.2,
+            "end": 24.1,
+            "text": "It's actually pretty easy."
+        },
+        {
+            "number": "208",
+            "title": "The Trading Problem  Actions",
+            "start": 24.1,
+            "end": 28.9,
+            "text": "We just have three actions, buy, sell, or do nothing."
+        },
+        {
+            "number": "208",
+            "title": "The Trading Problem  Actions",
+            "start": 28.9,
+            "end": 32.8,
+            "text": "So let's consider how that might play out with an actual stock."
+        },
+        {
+            "number": "208",
+            "title": "The Trading Problem  Actions",
+            "start": 32.8,
+            "end": 38.4,
+            "text": "And let's suppose we've already trained our QLearner what to do."
+        },
+        {
+            "number": "208",
+            "title": "The Trading Problem  Actions",
+            "start": 38.4,
+            "end": 40.4,
+            "text": "Let's see what's likely to happen."
+        },
+        {
+            "number": "208",
+            "title": "The Trading Problem  Actions",
+            "start": 40.4,
+            "end": 45.6,
+            "text": "So usually, what's going to happen most frequently is that we do nothing."
+        },
+        {
+            "number": "208",
+            "title": "The Trading Problem  Actions",
+            "start": 45.6,
+            "end": 50.2,
+            "text": "There will occasionally be buys and sells, but usually nothing."
+        },
+        {
+            "number": "208",
+            "title": "The Trading Problem  Actions",
+            "start": 50.2,
+            "end": 52.6,
+            "text": "Well, at least that's my expectation."
+        },
+        {
+            "number": "208",
+            "title": "The Trading Problem  Actions",
+            "start": 52.6,
+            "end": 56.2,
+            "text": "We'll have to see when we create these learners what actually happens."
+        },
+        {
+            "number": "208",
+            "title": "The Trading Problem  Actions",
+            "start": 56.2,
+            "end": 61.7,
+            "text": "So we are evaluating the factors of this stock."
+        },
+        {
+            "number": "208",
+            "title": "The Trading Problem  Actions",
+            "start": 61.7,
+            "end": 65.4,
+            "text": "In other words, we compute, say, several technical indicators."
+        },
+        {
+            "number": "208",
+            "title": "The Trading Problem  Actions",
+            "start": 66.9,
+            "end": 68.6,
+            "text": "That is our state."
+        },
+        {
+            "number": "208",
+            "title": "The Trading Problem  Actions",
+            "start": 68.6,
+            "end": 71.1,
+            "text": "We consider that state, and we do nothing."
+        },
+        {
+            "number": "208",
+            "title": "The Trading Problem  Actions",
+            "start": 71.1,
+            "end": 75.8,
+            "text": "So let's suppose we do nothing for quite a long period here."
+        },
+        {
+            "number": "208",
+            "title": "The Trading Problem  Actions",
+            "start": 75.8,
+            "end": 79.7,
+            "text": "But somehow or another, after a little while, boom,"
+        },
+        {
+            "number": "208",
+            "title": "The Trading Problem  Actions",
+            "start": 79.7,
+            "end": 82.6,
+            "text": "something triggers and says we should buy."
+        },
+        {
+            "number": "208",
+            "title": "The Trading Problem  Actions",
+            "start": 82.6,
+            "end": 84.2,
+            "text": "So we buy the stock here."
+        },
+        {
+            "number": "208",
+            "title": "The Trading Problem  Actions",
+            "start": 84.2,
+            "end": 85.6,
+            "text": "We're holding it."
+        },
+        {
+            "number": "208",
+            "title": "The Trading Problem  Actions",
+            "start": 85.6,
+            "end": 89.5,
+            "text": "We do nothing, nothing, nothing, nothing, nothing, nothing."
+        },
+        {
+            "number": "208",
+            "title": "The Trading Problem  Actions",
+            "start": 89.5,
+            "end": 95.0,
+            "text": "And boom, our very intelligent QLearner says, hey, now is the time to sell."
+        },
+        {
+            "number": "208",
+            "title": "The Trading Problem  Actions",
+            "start": 95.0,
+            "end": 99.3,
+            "text": "And we continue like that through the rest of our time series."
+        },
+        {
+            "number": "208",
+            "title": "The Trading Problem  Actions",
+            "start": 99.3,
+            "end": 101.0,
+            "text": "Let's consider now what these buys and"
+        },
+        {
+            "number": "208",
+            "title": "The Trading Problem  Actions",
+            "start": 101.0,
+            "end": 104.0,
+            "text": "sells, how they affect our portfolio value."
+        },
+        {
+            "number": "208",
+            "title": "The Trading Problem  Actions",
+            "start": 104.0,
+            "end": 109.3,
+            "text": "So we start out with whatever we've got in the bank, and there's no trading for a while."
+        },
+        {
+            "number": "208",
+            "title": "The Trading Problem  Actions",
+            "start": 109.3,
+            "end": 111.2,
+            "text": "Suddenly there's a buy."
+        },
+        {
+            "number": "208",
+            "title": "The Trading Problem  Actions",
+            "start": 111.2,
+            "end": 115.3,
+            "text": "And then we see an increase in our portfolio value until we hit that sell."
+        },
+        {
+            "number": "208",
+            "title": "The Trading Problem  Actions",
+            "start": 116.9,
+            "end": 117.9,
+            "text": "Then nothing."
+        },
+        {
+            "number": "208",
+            "title": "The Trading Problem  Actions",
+            "start": 119.4,
+            "end": 123.2,
+            "text": "Again, another buy, and a sell, and nothing."
+        },
+        {
+            "number": "208",
+            "title": "The Trading Problem  Actions",
+            "start": 123.2,
+            "end": 125.8,
+            "text": "So you see this sort of stepped behavior."
+        },
+        {
+            "number": "208",
+            "title": "The Trading Problem  Actions",
+            "start": 125.8,
+            "end": 129.7,
+            "text": "Now, of course, because I was drawing this and I wanted this to look good,"
+        },
+        {
+            "number": "208",
+            "title": "The Trading Problem  Actions",
+            "start": 129.7,
+            "end": 134.1,
+            "text": "I was choosing opportunistic times to buy and sell."
+        },
+        {
+            "number": "208",
+            "title": "The Trading Problem  Actions",
+            "start": 134.1,
+            "end": 138.9,
+            "text": "Your real strategy is probably not going to be so good."
+        },
+        {
+            "number": "208",
+            "title": "The Trading Problem  Actions",
+            "start": 138.9,
+            "end": 141.5,
+            "text": "But ideally, this is the kind of thing we'd like to see."
+        }
+    ],
+    "text": "Okay, now that you have a basic understanding of QLearning, let's consider how we can turn the stock trading problem into a problem that QLearning can solve. To do that, we need to define our actions, we need to define our state, and we also need to define our rewards. Let's start here first with actions. It's actually pretty easy. We just have three actions, buy, sell, or do nothing. So let's consider how that might play out with an actual stock. And let's suppose we've already trained our QLearner what to do. Let's see what's likely to happen. So usually, what's going to happen most frequently is that we do nothing. There will occasionally be buys and sells, but usually nothing. Well, at least that's my expectation. We'll have to see when we create these learners what actually happens. So we are evaluating the factors of this stock. In other words, we compute, say, several technical indicators. That is our state. We consider that state, and we do nothing. So let's suppose we do nothing for quite a long period here. But somehow or another, after a little while, boom, something triggers and says we should buy. So we buy the stock here. We're holding it. We do nothing, nothing, nothing, nothing, nothing, nothing. And boom, our very intelligent QLearner says, hey, now is the time to sell. And we continue like that through the rest of our time series. Let's consider now what these buys and sells, how they affect our portfolio value. So we start out with whatever we've got in the bank, and there's no trading for a while. Suddenly there's a buy. And then we see an increase in our portfolio value until we hit that sell. Then nothing. Again, another buy, and a sell, and nothing. So you see this sort of stepped behavior. Now, of course, because I was drawing this and I wanted this to look good, I was choosing opportunistic times to buy and sell. Your real strategy is probably not going to be so good. But ideally, this is the kind of thing we'd like to see."
+}

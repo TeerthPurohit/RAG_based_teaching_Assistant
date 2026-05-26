@@ -1,0 +1,327 @@
+{
+    "chunks": [
+        {
+            "number": "167",
+            "title": "Supervised regression learning (cont)",
+            "start": 0.0,
+            "end": 7.8,
+            "text": "I'd like to show you an example of supervised machine learning from my robotics past."
+        },
+        {
+            "number": "167",
+            "title": "Supervised regression learning (cont)",
+            "start": 7.8,
+            "end": 13.6,
+            "text": "This robot you see here is called Logger, or learning applied to ground robotics."
+        },
+        {
+            "number": "167",
+            "title": "Supervised regression learning (cont)",
+            "start": 13.6,
+            "end": 17.7,
+            "text": "It is using K-nearest neighbor to learn how to navigate."
+        },
+        {
+            "number": "167",
+            "title": "Supervised regression learning (cont)",
+            "start": 17.7,
+            "end": 22.2,
+            "text": "Let me talk a little bit about what comes in and what goes out."
+        },
+        {
+            "number": "167",
+            "title": "Supervised regression learning (cont)",
+            "start": 22.2,
+            "end": 26.3,
+            "text": "It has a sensor in front of it that sees the world in front of it."
+        },
+        {
+            "number": "167",
+            "title": "Supervised regression learning (cont)",
+            "start": 26.3,
+            "end": 33.5,
+            "text": "It can see along a number of directions where there are obstacles or where the road is clear."
+        },
+        {
+            "number": "167",
+            "title": "Supervised regression learning (cont)",
+            "start": 33.5,
+            "end": 38.4,
+            "text": "So the input is in which directions are there obstacles."
+        },
+        {
+            "number": "167",
+            "title": "Supervised regression learning (cont)",
+            "start": 38.4,
+            "end": 42.6,
+            "text": "And also it has a direction towards the goal."
+        },
+        {
+            "number": "167",
+            "title": "Supervised regression learning (cont)",
+            "start": 42.6,
+            "end": 46.3,
+            "text": "So in this case the robot's trying to get to a goal that's off the left."
+        },
+        {
+            "number": "167",
+            "title": "Supervised regression learning (cont)",
+            "start": 46.3,
+            "end": 51.6,
+            "text": "But these bushes that line the path are sort of preventing it from getting there."
+        },
+        {
+            "number": "167",
+            "title": "Supervised regression learning (cont)",
+            "start": 51.6,
+            "end": 56.4,
+            "text": "So X in our case are these perceptions."
+        },
+        {
+            "number": "167",
+            "title": "Supervised regression learning (cont)",
+            "start": 56.4,
+            "end": 60.4,
+            "text": "What do I see around me and what's the direction to the goal?"
+        },
+        {
+            "number": "167",
+            "title": "Supervised regression learning (cont)",
+            "start": 60.4,
+            "end": 66.0,
+            "text": "And Y, or the output, is which direction to steer."
+        },
+        {
+            "number": "167",
+            "title": "Supervised regression learning (cont)",
+            "start": 66.0,
+            "end": 71.0,
+            "text": "So let's let it go for a while and see how well it can navigate based on a little bit"
+        },
+        {
+            "number": "167",
+            "title": "Supervised regression learning (cont)",
+            "start": 71.0,
+            "end": 72.3,
+            "text": "of training that it's been given."
+        },
+        {
+            "number": "167",
+            "title": "Supervised regression learning (cont)",
+            "start": 72.3,
+            "end": 77.4,
+            "text": "It's doing pretty good here so far."
+        },
+        {
+            "number": "167",
+            "title": "Supervised regression learning (cont)",
+            "start": 79.9,
+            "end": 83.4,
+            "text": "But it hasn't been trained quite well enough."
+        },
+        {
+            "number": "167",
+            "title": "Supervised regression learning (cont)",
+            "start": 83.4,
+            "end": 85.6,
+            "text": "And boom, it goes off the path."
+        },
+        {
+            "number": "167",
+            "title": "Supervised regression learning (cont)",
+            "start": 85.6,
+            "end": 87.9,
+            "text": "This is where learning comes in."
+        },
+        {
+            "number": "167",
+            "title": "Supervised regression learning (cont)",
+            "start": 87.9,
+            "end": 92.1,
+            "text": "We back it up over that area where it messed up."
+        },
+        {
+            "number": "167",
+            "title": "Supervised regression learning (cont)",
+            "start": 92.1,
+            "end": 94.7,
+            "text": "And we switch the learning switch on."
+        },
+        {
+            "number": "167",
+            "title": "Supervised regression learning (cont)",
+            "start": 94.7,
+            "end": 97.8,
+            "text": "And we're essentially telling it, okay, watch what we do."
+        },
+        {
+            "number": "167",
+            "title": "Supervised regression learning (cont)",
+            "start": 97.8,
+            "end": 100.6,
+            "text": "That's the correct thing to do in this case."
+        },
+        {
+            "number": "167",
+            "title": "Supervised regression learning (cont)",
+            "start": 100.6,
+            "end": 106.4,
+            "text": "So it takes all those examples of X's and Y's, X's being the perception and"
+        },
+        {
+            "number": "167",
+            "title": "Supervised regression learning (cont)",
+            "start": 106.4,
+            "end": 111.3,
+            "text": "Y being the way it should respond, adds that to its memory."
+        },
+        {
+            "number": "167",
+            "title": "Supervised regression learning (cont)",
+            "start": 111.3,
+            "end": 114.7,
+            "text": "And now when it's running live, it consults its memory."
+        },
+        {
+            "number": "167",
+            "title": "Supervised regression learning (cont)",
+            "start": 114.7,
+            "end": 116.6,
+            "text": "It says, oh, I see this."
+        },
+        {
+            "number": "167",
+            "title": "Supervised regression learning (cont)",
+            "start": 116.6,
+            "end": 117.7,
+            "text": "What should I do?"
+        },
+        {
+            "number": "167",
+            "title": "Supervised regression learning (cont)",
+            "start": 117.7,
+            "end": 123.6,
+            "text": "It finds the k nearest neighbors to that current observation and"
+        },
+        {
+            "number": "167",
+            "title": "Supervised regression learning (cont)",
+            "start": 123.6,
+            "end": 124.9,
+            "text": "looks at what they say."
+        },
+        {
+            "number": "167",
+            "title": "Supervised regression learning (cont)",
+            "start": 124.9,
+            "end": 128.2,
+            "text": "And those are, they essentially vote on which direction the robot should go."
+        },
+        {
+            "number": "167",
+            "title": "Supervised regression learning (cont)",
+            "start": 128.2,
+            "end": 134.3,
+            "text": "Now after we've trained it for about a half hour or so, it's able to navigate"
+        },
+        {
+            "number": "167",
+            "title": "Supervised regression learning (cont)",
+            "start": 134.3,
+            "end": 136.9,
+            "text": "through difficult scenarios really quite easily."
+        },
+        {
+            "number": "167",
+            "title": "Supervised regression learning (cont)",
+            "start": 137.9,
+            "end": 141.5,
+            "text": "So keep in mind, this robot's driving autonomously."
+        },
+        {
+            "number": "167",
+            "title": "Supervised regression learning (cont)",
+            "start": 141.5,
+            "end": 146.2,
+            "text": "It's just consulting its memory for when I saw this, what was the right answer?"
+        },
+        {
+            "number": "167",
+            "title": "Supervised regression learning (cont)",
+            "start": 146.2,
+            "end": 147.2,
+            "text": "Why?"
+        },
+        {
+            "number": "167",
+            "title": "Supervised regression learning (cont)",
+            "start": 147.2,
+            "end": 148.8,
+            "text": "Supervised learning."
+        },
+        {
+            "number": "167",
+            "title": "Supervised regression learning (cont)",
+            "start": 148.8,
+            "end": 150.9,
+            "text": "And it's able to get around quite well."
+        },
+        {
+            "number": "167",
+            "title": "Supervised regression learning (cont)",
+            "start": 151.9,
+            "end": 153.7,
+            "text": "Here's another more complicated scenario."
+        },
+        {
+            "number": "167",
+            "title": "Supervised regression learning (cont)",
+            "start": 153.7,
+            "end": 157.7,
+            "text": "The goal where it's trying to get is on the other side of that tree."
+        },
+        {
+            "number": "167",
+            "title": "Supervised regression learning (cont)",
+            "start": 158.8,
+            "end": 162.0,
+            "text": "So that's supervised learning for a robot."
+        },
+        {
+            "number": "167",
+            "title": "Supervised regression learning (cont)",
+            "start": 162.0,
+            "end": 169.9,
+            "text": "And again, the model maps these perceptions X to Y, what it should do."
+        },
+        {
+            "number": "167",
+            "title": "Supervised regression learning (cont)",
+            "start": 169.9,
+            "end": 174.9,
+            "text": "And in finance, instead of Y being which way the robot should go,"
+        },
+        {
+            "number": "167",
+            "title": "Supervised regression learning (cont)",
+            "start": 174.9,
+            "end": 177.8,
+            "text": "it's often a prediction about what a future price is."
+        },
+        {
+            "number": "167",
+            "title": "Supervised regression learning (cont)",
+            "start": 177.8,
+            "end": 180.5,
+            "text": "Okay, enough about robots."
+        },
+        {
+            "number": "167",
+            "title": "Supervised regression learning (cont)",
+            "start": 180.5,
+            "end": 181.2,
+            "text": "Let's move on."
+        }
+    ],
+    "text": "I'd like to show you an example of supervised machine learning from my robotics past. This robot you see here is called Logger, or learning applied to ground robotics. It is using K-nearest neighbor to learn how to navigate. Let me talk a little bit about what comes in and what goes out. It has a sensor in front of it that sees the world in front of it. It can see along a number of directions where there are obstacles or where the road is clear. So the input is in which directions are there obstacles. And also it has a direction towards the goal. So in this case the robot's trying to get to a goal that's off the left. But these bushes that line the path are sort of preventing it from getting there. So X in our case are these perceptions. What do I see around me and what's the direction to the goal? And Y, or the output, is which direction to steer. So let's let it go for a while and see how well it can navigate based on a little bit of training that it's been given. It's doing pretty good here so far. But it hasn't been trained quite well enough. And boom, it goes off the path. This is where learning comes in. We back it up over that area where it messed up. And we switch the learning switch on. And we're essentially telling it, okay, watch what we do. That's the correct thing to do in this case. So it takes all those examples of X's and Y's, X's being the perception and Y being the way it should respond, adds that to its memory. And now when it's running live, it consults its memory. It says, oh, I see this. What should I do? It finds the k nearest neighbors to that current observation and looks at what they say. And those are, they essentially vote on which direction the robot should go. Now after we've trained it for about a half hour or so, it's able to navigate through difficult scenarios really quite easily. So keep in mind, this robot's driving autonomously. It's just consulting its memory for when I saw this, what was the right answer? Why? Supervised learning. And it's able to get around quite well. Here's another more complicated scenario. The goal where it's trying to get is on the other side of that tree. So that's supervised learning for a robot. And again, the model maps these perceptions X to Y, what it should do. And in finance, instead of Y being which way the robot should go, it's often a prediction about what a future price is. Okay, enough about robots. Let's move on."
+}

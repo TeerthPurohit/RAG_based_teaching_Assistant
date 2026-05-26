@@ -1,0 +1,83 @@
+{
+    "title": "How orders affect the order book",
+    "number": "098",
+    "chunks": [
+        {
+            "title": "How orders affect the order book",
+            "number": "098",
+            "start": 0.5,
+            "end": 20.0,
+            "text": "Okay, so to understand better how the order book works and how exchanges work, let's look at a couple more example orders. For brevity, I'm leaving out the symbol IBM. This is all about IBM, so just keep that in mind. Okay, so a market order comes in to buy 100 shares at market."
+        },
+        {
+            "title": "How orders affect the order book",
+            "number": "098",
+            "start": 20.0,
+            "end": 39.6,
+            "text": "So again, we see that there's 1,000 shares that people are willing to sell. And the exchange has to give the best price to the client. And so we would give the client 100 shares at this price. So what happens, the order comes in, 100 shares go away. And now the order book is changed just so"
+        },
+        {
+            "title": "How orders affect the order book",
+            "number": "098",
+            "start": 39.6,
+            "end": 60.2,
+            "text": "that there's 900 shares available here now instead of 1,000. And the execution price is $100. Let's consider now a limit order. Someone wants to buy again 100 shares at a limit of 102 and 2 cents. So looking at the order book, again we can satisfy that order."
+        },
+        {
+            "title": "How orders affect the order book",
+            "number": "098",
+            "start": 61.4,
+            "end": 81.8,
+            "text": "And again, at $100. So we're saying that we want to pay no more than $100 and 2 cents. So again, we can execute it at 100. And now this goes down to 800 shares instead of 900 being available. And the execution price for this transaction, again, is $100."
+        },
+        {
+            "title": "How orders affect the order book",
+            "number": "098",
+            "start": 81.8,
+            "end": 102.5,
+            "text": "And note also that that's less than that limit price of $100 and 2 cents. Let's look now at one last order, a market order, where someone wants to sell 175 shares. So that comes in. And we have 100 shares available at $99.95."
+        },
+        {
+            "title": "How orders affect the order book",
+            "number": "098",
+            "start": 102.5,
+            "end": 125.3,
+            "text": "So those get sold and there's none left there at that price. So 100 shares get executed at $99.95. So to get this 75 more shares, we need to go deeper into the book. So we'll take these 50, zero left there. We still need 25 more shares to meet this order for 175."
+        },
+        {
+            "title": "How orders affect the order book",
+            "number": "098",
+            "start": 125.3,
+            "end": 148.7,
+            "text": "So we go even deeper into the book and take some of these. So after all these transactions, the order book has been changed quite substantially. And this client gets 100 shares at $99.95, 50 at $99.90, and 25 at $99.05. So altogether, there's some average price at which this was executed for that client."
+        },
+        {
+            "title": "How orders affect the order book",
+            "number": "098",
+            "start": 148.7,
+            "end": 168.0,
+            "text": "Note now that as time has gone on, the executed prices have been decreasing. Clearly we're seeing that, you know, that's a consequence of there's much more sell pressure than buy pressure. So that's how the order book works and how exchanges use order books to facilitate transactions between their clients."
+        },
+        {
+            "title": "How orders affect the order book",
+            "number": "098",
+            "start": 169.1,
+            "end": 188.0,
+            "text": "This is what an order book looks like in real life. Here in the middle we have prices. And on either side here we see the order sizes. We're seeing here sell orders and how large they are. And on this other side, buy orders and how large they are."
+        },
+        {
+            "title": "How orders affect the order book",
+            "number": "098",
+            "start": 188.0,
+            "end": 204.3,
+            "text": "And the prices that they're being executed here are in the middle. And as you can see, it's changing dynamically and rapidly as trades are executed. Here we see a price chart showing how the prices is going up and down as these trades are being executed."
+        },
+        {
+            "title": "How orders affect the order book",
+            "number": "098",
+            "start": 204.3,
+            "end": 210.6,
+            "text": "So that's a live order book. This is using the trading platform called Think or Swim."
+        }
+    ]
+}

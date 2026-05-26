@@ -1,0 +1,48 @@
+{
+    "title": "RL summary",
+    "number": "202",
+    "chunks": [
+        {
+            "title": "RL summary",
+            "number": "202",
+            "start": 0.2,
+            "end": 18.6,
+            "text": "Let's summarize things and wrap up this lecture. Just want to repeat the points so you see how reinforcement learning is something that we can use in trading. The problem for reinforcement learning algorithms is a Markov decision problem. And reinforcement learning algorithms solve them."
+        },
+        {
+            "title": "RL summary",
+            "number": "202",
+            "start": 18.6,
+            "end": 41.4,
+            "text": "Markov decision problem is defined by S, A, T, and R, where S is the potential states, A are the potential actions, T is a transition probability, which is given I'm in state S, I take action A, what's probability? I'll end up in state S prime. And R is the reward function."
+        },
+        {
+            "title": "RL summary",
+            "number": "202",
+            "start": 41.4,
+            "end": 60.3,
+            "text": "The goal for reinforcement learning algorithm is to find a policy pi that maps a state to an action that we should take. And its goal is to find this pi such that it maximizes some future sum of the reward. And we talked about that being either infinite horizon,"
+        },
+        {
+            "title": "RL summary",
+            "number": "202",
+            "start": 60.3,
+            "end": 80.3,
+            "text": "fixed horizon, or discounted sum. We can map our task for trading to reinforcement learning. And it works out like this. S are states, are features about stocks and whether or not we're holding a stock. Actions are buy, sell, or do nothing."
+        },
+        {
+            "title": "RL summary",
+            "number": "202",
+            "start": 80.3,
+            "end": 100.9,
+            "text": "The transition function here is the market. And finally, the reward function is how much money we get at the end of a trade. So, we can apply reinforcement learning algorithms to find this policy. We've mentioned a few of those algorithms. For instance, policy iteration and value iteration and Q learning."
+        },
+        {
+            "title": "RL summary",
+            "number": "202",
+            "start": 100.9,
+            "end": 109.0,
+            "text": "But we haven't talked in detail about what they are. And that's the subject of lessons coming up. Okay, that's it for reinforcement learning. I'll see you again soon."
+        }
+    ]
+}

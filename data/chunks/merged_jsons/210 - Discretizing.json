@@ -1,0 +1,48 @@
+{
+    "title": "Discretizing",
+    "number": "210",
+    "chunks": [
+        {
+            "title": "Discretizing",
+            "number": "210",
+            "start": 0.5,
+            "end": 26.2,
+            "text": "Discretization or discretizing is an important step in this whole process. What we want to do is have a way to convert a real number into an integer across a limited scale. In other words, we might have hundreds of individual values here between 0 and 25 of a real number, and we want to convert that into an integer,"
+        },
+        {
+            "title": "Discretizing",
+            "number": "210",
+            "start": 26.2,
+            "end": 44.0,
+            "text": "say, between 0 and 9. There's a fairly easy way to do that, and I'll show you how right now. So here's what we do. First thing is we determine ahead of time how many steps we're going to have. In other words, how many groups do we want to be able to put the data into?"
+        },
+        {
+            "title": "Discretizing",
+            "number": "210",
+            "start": 44.0,
+            "end": 66.6,
+            "text": "Like I said before, to have an integer between 0 and 9, we would use 10 in this case. So we divide how many data elements we have altogether by the number of steps. Then we sort the data, and then the thresholds just end up being the locations for each one of these values."
+        },
+        {
+            "title": "Discretizing",
+            "number": "210",
+            "start": 66.6,
+            "end": 83.7,
+            "text": "So in other words, if we had, say, 100 data elements, and we were going to have 10 steps, our step size is 10. So we just find the 10th data element, and that's our first threshold, and then our 20th, and 30th, and so on. It ends up looking something like this."
+        },
+        {
+            "title": "Discretizing",
+            "number": "210",
+            "start": 83.7,
+            "end": 107.6,
+            "text": "When the data is sort of sparse, our thresholds are set far apart. When the data is not sparse, these thresholds end up being closer together. So in this particular example, our thresholds might end up looking something like this. And when we go to query, you know, when we have a new value and want to see what is its discretized value."
+        },
+        {
+            "title": "Discretizing",
+            "number": "210",
+            "start": 107.6,
+            "end": 113.0,
+            "text": "Let's say it was a value here. Boom, it's between those two thresholds, so it would be an 8."
+        }
+    ]
+}

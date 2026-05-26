@@ -1,0 +1,41 @@
+{
+    "title": "Joining  SPY",
+    "number": "018",
+    "chunks": [
+        {
+            "title": "Joining  SPY",
+            "number": "018",
+            "start": 0.4,
+            "end": 25.6,
+            "text": "So, Pandas has many very powerful features. One, or among those features are the ability to do many operations that you may be familiar with from databases. In particular, one that we're going to leverage here is a join. So we're going to join this data from SPY and our empty data frame."
+        },
+        {
+            "title": "Joining  SPY",
+            "number": "018",
+            "start": 25.6,
+            "end": 46.9,
+            "text": "And we're going to do a special join that says, look, we're only interested in dates that are present both in SPY and DF1. And what happens is, we end up with this data according to its date, in this position in our target data frame. And of course, the other two rows as well."
+        },
+        {
+            "title": "Joining  SPY",
+            "number": "018",
+            "start": 46.9,
+            "end": 71.7,
+            "text": "But note, because of the join, these two days are missing from SPY. And the result of the join is they are eliminated from our data frame. They're eliminated because this was the weekend. There was no trading because we know that because SPY is our reference. All right, so here's our original data frame now after we've loaded in SPY."
+        },
+        {
+            "title": "Joining  SPY",
+            "number": "018",
+            "start": 71.7,
+            "end": 96.6,
+            "text": "And those weekend days that were here are gone because of that join. Now we can add more columns from other stocks. Here's one, for instance, IBM, by performing additional joins. So after this join with data frame IBM, boom, we've got this new data over here in our empty data frame."
+        },
+        {
+            "title": "Joining  SPY",
+            "number": "018",
+            "start": 96.6,
+            "end": 109.8,
+            "text": "And we can repeat this process for each additional symbol that we want to add. So we'll add Google and GLD. And again, Dave will show you the syntax for doing that in pandas in just a few moments."
+        }
+    ]
+}

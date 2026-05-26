@@ -1,0 +1,390 @@
+{
+    "chunks": [
+        {
+            "number": "197",
+            "title": "The RL problem",
+            "start": 0.4,
+            "end": 4.5,
+            "text": "It's important to point out that when we say reinforcement learning,"
+        },
+        {
+            "number": "197",
+            "title": "The RL problem",
+            "start": 4.5,
+            "end": 8.9,
+            "text": "we're really describing a problem, not a solution."
+        },
+        {
+            "number": "197",
+            "title": "The RL problem",
+            "start": 8.9,
+            "end": 13.9,
+            "text": "In the same way that linear regression is one solution to the supervised"
+        },
+        {
+            "number": "197",
+            "title": "The RL problem",
+            "start": 13.9,
+            "end": 19.6,
+            "text": "regression problem, there are many algorithms that solve the RL problem."
+        },
+        {
+            "number": "197",
+            "title": "The RL problem",
+            "start": 19.6,
+            "end": 21.9,
+            "text": "Because I started out as a roboticist,"
+        },
+        {
+            "number": "197",
+            "title": "The RL problem",
+            "start": 21.9,
+            "end": 26.6,
+            "text": "I'm going to first explain this in terms of a problem for a robot."
+        },
+        {
+            "number": "197",
+            "title": "The RL problem",
+            "start": 26.6,
+            "end": 29.8,
+            "text": "So here's our robot here, and our robot is going to interact with"
+        },
+        {
+            "number": "197",
+            "title": "The RL problem",
+            "start": 29.8,
+            "end": 30.6,
+            "text": "the environment."
+        },
+        {
+            "number": "197",
+            "title": "The RL problem",
+            "start": 30.6,
+            "end": 35.4,
+            "text": "So we represent the environment as this sort of cloud up here."
+        },
+        {
+            "number": "197",
+            "title": "The RL problem",
+            "start": 35.4,
+            "end": 38.9,
+            "text": "So the robot's going to take actions that'll change the environment."
+        },
+        {
+            "number": "197",
+            "title": "The RL problem",
+            "start": 38.9,
+            "end": 43.2,
+            "text": "It will sense the environment, reason over what it sees, and take another action."
+        },
+        {
+            "number": "197",
+            "title": "The RL problem",
+            "start": 44.3,
+            "end": 49.2,
+            "text": "In robotics, we call this the sense, think, act cycle."
+        },
+        {
+            "number": "197",
+            "title": "The RL problem",
+            "start": 49.2,
+            "end": 52.3,
+            "text": "And you don't have to implement it only using reinforcement learning."
+        },
+        {
+            "number": "197",
+            "title": "The RL problem",
+            "start": 52.3,
+            "end": 56.2,
+            "text": "There's many ways that you can implement sense, think, act."
+        },
+        {
+            "number": "197",
+            "title": "The RL problem",
+            "start": 56.2,
+            "end": 59.3,
+            "text": "But we're going to focus on how to do that with reinforcement learning."
+        },
+        {
+            "number": "197",
+            "title": "The RL problem",
+            "start": 59.8,
+            "end": 63.3,
+            "text": "Okay, so our robot observes the environment, and"
+        },
+        {
+            "number": "197",
+            "title": "The RL problem",
+            "start": 63.3,
+            "end": 67.5,
+            "text": "some form of description of the environment comes in."
+        },
+        {
+            "number": "197",
+            "title": "The RL problem",
+            "start": 67.5,
+            "end": 70.7,
+            "text": "Let's call that the state S."
+        },
+        {
+            "number": "197",
+            "title": "The RL problem",
+            "start": 70.7,
+            "end": 74.8,
+            "text": "So S is our letter that represents what we see in the environment."
+        },
+        {
+            "number": "197",
+            "title": "The RL problem",
+            "start": 74.8,
+            "end": 78.9,
+            "text": "Now the robot has to process that state somehow to determine what to do."
+        },
+        {
+            "number": "197",
+            "title": "The RL problem",
+            "start": 78.9,
+            "end": 83.5,
+            "text": "And we call this Pi, or policy."
+        },
+        {
+            "number": "197",
+            "title": "The RL problem",
+            "start": 83.5,
+            "end": 89.5,
+            "text": "So the robot takes in the state S, and then outputs an action."
+        },
+        {
+            "number": "197",
+            "title": "The RL problem",
+            "start": 89.5,
+            "end": 96.2,
+            "text": "We'll call that action A, and it affects the environment in some way, and changes it."
+        },
+        {
+            "number": "197",
+            "title": "The RL problem",
+            "start": 96.2,
+            "end": 98.8,
+            "text": "Now this is a sort of circular process."
+        },
+        {
+            "number": "197",
+            "title": "The RL problem",
+            "start": 98.8,
+            "end": 107.9,
+            "text": "The action A is taken into the environment, and the environment then transitions to a new state."
+        },
+        {
+            "number": "197",
+            "title": "The RL problem",
+            "start": 107.9,
+            "end": 114.2,
+            "text": "So T is this transition function that takes in what its previous state was, and"
+        },
+        {
+            "number": "197",
+            "title": "The RL problem",
+            "start": 114.2,
+            "end": 117.2,
+            "text": "the action, and moves to a new state."
+        },
+        {
+            "number": "197",
+            "title": "The RL problem",
+            "start": 117.2,
+            "end": 121.5,
+            "text": "And that new state comes out, boom, back into the robot."
+        },
+        {
+            "number": "197",
+            "title": "The RL problem",
+            "start": 121.5,
+            "end": 123.5,
+            "text": "Robot looks at its policy."
+        },
+        {
+            "number": "197",
+            "title": "The RL problem",
+            "start": 123.5,
+            "end": 125.3,
+            "text": "Action comes out."
+        },
+        {
+            "number": "197",
+            "title": "The RL problem",
+            "start": 125.3,
+            "end": 129.8,
+            "text": "Now, there's a question, how do we arrive at this policy?"
+        },
+        {
+            "number": "197",
+            "title": "The RL problem",
+            "start": 129.8,
+            "end": 132.4,
+            "text": "How do we find Pi?"
+        },
+        {
+            "number": "197",
+            "title": "The RL problem",
+            "start": 132.4,
+            "end": 135.3,
+            "text": "Well, that's what we're going to spend a couple lessons on."
+        },
+        {
+            "number": "197",
+            "title": "The RL problem",
+            "start": 135.3,
+            "end": 140.9,
+            "text": "But this whole puzzle is missing a piece, and that's the thing that helps us find Pi."
+        },
+        {
+            "number": "197",
+            "title": "The RL problem",
+            "start": 140.9,
+            "end": 148.8,
+            "text": "And part of that piece is, well, there's this other part called R, which is the reward."
+        },
+        {
+            "number": "197",
+            "title": "The RL problem",
+            "start": 148.8,
+            "end": 156.0,
+            "text": "So every time the robot is in a particular state, and it takes an action,"
+        },
+        {
+            "number": "197",
+            "title": "The RL problem",
+            "start": 156.0,
+            "end": 162.0,
+            "text": "there's a particular reward associated with taking that action in that state."
+        },
+        {
+            "number": "197",
+            "title": "The RL problem",
+            "start": 162.0,
+            "end": 164.4,
+            "text": "And that reward comes into the robot, and"
+        },
+        {
+            "number": "197",
+            "title": "The RL problem",
+            "start": 164.4,
+            "end": 169.1,
+            "text": "you can think of the robot as having a little pocket where it keeps cash."
+        },
+        {
+            "number": "197",
+            "title": "The RL problem",
+            "start": 169.1,
+            "end": 171.2,
+            "text": "And that's what that reward is."
+        },
+        {
+            "number": "197",
+            "title": "The RL problem",
+            "start": 171.2,
+            "end": 177.4,
+            "text": "And the robot's objective is, over time, to take actions that maximize this reward."
+        },
+        {
+            "number": "197",
+            "title": "The RL problem",
+            "start": 177.4,
+            "end": 182.8,
+            "text": "And somewhere within the robot, there's an algorithm that takes all this information"
+        },
+        {
+            "number": "197",
+            "title": "The RL problem",
+            "start": 182.8,
+            "end": 186.2,
+            "text": "over time to figure out what that policy ought to be."
+        },
+        {
+            "number": "197",
+            "title": "The RL problem",
+            "start": 187.3,
+            "end": 189.1,
+            "text": "So let me recap a little bit."
+        },
+        {
+            "number": "197",
+            "title": "The RL problem",
+            "start": 189.1,
+            "end": 191.9,
+            "text": "S is the state of our environment, and"
+        },
+        {
+            "number": "197",
+            "title": "The RL problem",
+            "start": 191.9,
+            "end": 195.6,
+            "text": "that's what the robot senses in order to decide what to do."
+        },
+        {
+            "number": "197",
+            "title": "The RL problem",
+            "start": 195.6,
+            "end": 200.4,
+            "text": "It uses its policy Pi to figure out what that action should be."
+        },
+        {
+            "number": "197",
+            "title": "The RL problem",
+            "start": 200.4,
+            "end": 204.8,
+            "text": "And by the way, Pi can be a simple lookup table."
+        },
+        {
+            "number": "197",
+            "title": "The RL problem",
+            "start": 204.8,
+            "end": 210.1,
+            "text": "Over time, each time the robot takes an action, it gets a reward."
+        },
+        {
+            "number": "197",
+            "title": "The RL problem",
+            "start": 210.1,
+            "end": 214.5,
+            "text": "And it's trying to find a Pi that'll maximize its reward over time."
+        },
+        {
+            "number": "197",
+            "title": "The RL problem",
+            "start": 214.5,
+            "end": 219.1,
+            "text": "Now in terms of trading, our environment really is the market."
+        },
+        {
+            "number": "197",
+            "title": "The RL problem",
+            "start": 219.1,
+            "end": 222.4,
+            "text": "And our actions are actions we can take in the market,"
+        },
+        {
+            "number": "197",
+            "title": "The RL problem",
+            "start": 222.4,
+            "end": 224.9,
+            "text": "like buying and selling or holding."
+        },
+        {
+            "number": "197",
+            "title": "The RL problem",
+            "start": 224.9,
+            "end": 230.9,
+            "text": "And the S are factors about our stocks that we might observe and know about."
+        },
+        {
+            "number": "197",
+            "title": "The RL problem",
+            "start": 230.9,
+            "end": 235.2,
+            "text": "And R is the return we get for making the proper trades."
+        }
+    ],
+    "text": "It's important to point out that when we say reinforcement learning, we're really describing a problem, not a solution. In the same way that linear regression is one solution to the supervised regression problem, there are many algorithms that solve the RL problem. Because I started out as a roboticist, I'm going to first explain this in terms of a problem for a robot. So here's our robot here, and our robot is going to interact with the environment. So we represent the environment as this sort of cloud up here. So the robot's going to take actions that'll change the environment. It will sense the environment, reason over what it sees, and take another action. In robotics, we call this the sense, think, act cycle. And you don't have to implement it only using reinforcement learning. There's many ways that you can implement sense, think, act. But we're going to focus on how to do that with reinforcement learning. Okay, so our robot observes the environment, and some form of description of the environment comes in. Let's call that the state S. So S is our letter that represents what we see in the environment. Now the robot has to process that state somehow to determine what to do. And we call this Pi, or policy. So the robot takes in the state S, and then outputs an action. We'll call that action A, and it affects the environment in some way, and changes it. Now this is a sort of circular process. The action A is taken into the environment, and the environment then transitions to a new state. So T is this transition function that takes in what its previous state was, and the action, and moves to a new state. And that new state comes out, boom, back into the robot. Robot looks at its policy. Action comes out. Now, there's a question, how do we arrive at this policy? How do we find Pi? Well, that's what we're going to spend a couple lessons on. But this whole puzzle is missing a piece, and that's the thing that helps us find Pi. And part of that piece is, well, there's this other part called R, which is the reward. So every time the robot is in a particular state, and it takes an action, there's a particular reward associated with taking that action in that state. And that reward comes into the robot, and you can think of the robot as having a little pocket where it keeps cash. And that's what that reward is. And the robot's objective is, over time, to take actions that maximize this reward. And somewhere within the robot, there's an algorithm that takes all this information over time to figure out what that policy ought to be. So let me recap a little bit. S is the state of our environment, and that's what the robot senses in order to decide what to do. It uses its policy Pi to figure out what that action should be. And by the way, Pi can be a simple lookup table. Over time, each time the robot takes an action, it gets a reward. And it's trying to find a Pi that'll maximize its reward over time. Now in terms of trading, our environment really is the market. And our actions are actions we can take in the market, like buying and selling or holding. And the S are factors about our stocks that we might observe and know about. And R is the return we get for making the proper trades."
+}

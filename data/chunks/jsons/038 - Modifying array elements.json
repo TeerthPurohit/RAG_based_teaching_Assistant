@@ -1,0 +1,243 @@
+{
+    "chunks": [
+        {
+            "number": "038",
+            "title": "Modifying array elements",
+            "start": 0.4,
+            "end": 4.5,
+            "text": "Moving forward, it is good that we can access elements in array."
+        },
+        {
+            "number": "038",
+            "title": "Modifying array elements",
+            "start": 4.5,
+            "end": 9.8,
+            "text": "But another important operation is assigning values to specific location in array."
+        },
+        {
+            "number": "038",
+            "title": "Modifying array elements",
+            "start": 9.8,
+            "end": 14.7,
+            "text": "This will give us access to the element at the position 0, 0 in the array."
+        },
+        {
+            "number": "038",
+            "title": "Modifying array elements",
+            "start": 14.7,
+            "end": 19.5,
+            "text": "And using the assignment operator, we can assign a value 1 to it."
+        },
+        {
+            "number": "038",
+            "title": "Modifying array elements",
+            "start": 19.5,
+            "end": 21.4,
+            "text": "Let's see the output."
+        },
+        {
+            "number": "038",
+            "title": "Modifying array elements",
+            "start": 21.4,
+            "end": 22.6,
+            "text": "Here you go."
+        },
+        {
+            "number": "038",
+            "title": "Modifying array elements",
+            "start": 22.6,
+            "end": 28.9,
+            "text": "This is the original array where we replace the element at position 0, 0 with 1."
+        },
+        {
+            "number": "038",
+            "title": "Modifying array elements",
+            "start": 28.9,
+            "end": 30.2,
+            "text": "But that's not all."
+        },
+        {
+            "number": "038",
+            "title": "Modifying array elements",
+            "start": 30.2,
+            "end": 34.8,
+            "text": "With a minor change, you can assign a value to the entire row or column."
+        },
+        {
+            "number": "038",
+            "title": "Modifying array elements",
+            "start": 34.8,
+            "end": 36.5,
+            "text": "Let's do it."
+        },
+        {
+            "number": "038",
+            "title": "Modifying array elements",
+            "start": 36.5,
+            "end": 42.7,
+            "text": "This will give us access to the 0th row and we assign the entire row a value of 2."
+        },
+        {
+            "number": "038",
+            "title": "Modifying array elements",
+            "start": 42.7,
+            "end": 44.6,
+            "text": "Let's run this."
+        },
+        {
+            "number": "038",
+            "title": "Modifying array elements",
+            "start": 44.6,
+            "end": 47.0,
+            "text": "Using similar operation and column slicing,"
+        },
+        {
+            "number": "038",
+            "title": "Modifying array elements",
+            "start": 47.0,
+            "end": 50.6,
+            "text": "we can also assign an entire column a single value."
+        },
+        {
+            "number": "038",
+            "title": "Modifying array elements",
+            "start": 51.7,
+            "end": 56.4,
+            "text": "Now what if we need each column or row to have different value and"
+        },
+        {
+            "number": "038",
+            "title": "Modifying array elements",
+            "start": 56.4,
+            "end": 58.7,
+            "text": "not the same as we did over here?"
+        },
+        {
+            "number": "038",
+            "title": "Modifying array elements",
+            "start": 58.7,
+            "end": 61.1,
+            "text": "Let's see how we can achieve this."
+        },
+        {
+            "number": "038",
+            "title": "Modifying array elements",
+            "start": 61.1,
+            "end": 63.6,
+            "text": "Yes, this is a list of values."
+        },
+        {
+            "number": "038",
+            "title": "Modifying array elements",
+            "start": 63.6,
+            "end": 67.8,
+            "text": "You can assign a list of values to a row or a column."
+        },
+        {
+            "number": "038",
+            "title": "Modifying array elements",
+            "start": 67.8,
+            "end": 72.5,
+            "text": "Here we assign this list of values to column number 3."
+        },
+        {
+            "number": "038",
+            "title": "Modifying array elements",
+            "start": 72.5,
+            "end": 75.6,
+            "text": "But make sure you keep an eye on the dimension."
+        },
+        {
+            "number": "038",
+            "title": "Modifying array elements",
+            "start": 75.6,
+            "end": 79.8,
+            "text": "That is, for this example, if you have 5 rows in an array,"
+        },
+        {
+            "number": "038",
+            "title": "Modifying array elements",
+            "start": 79.8,
+            "end": 82.4,
+            "text": "the list should have 5 elements."
+        },
+        {
+            "number": "038",
+            "title": "Modifying array elements",
+            "start": 82.4,
+            "end": 87.4,
+            "text": "As you can see, all the list values have been assigned to the third column."
+        },
+        {
+            "number": "038",
+            "title": "Modifying array elements",
+            "start": 87.4,
+            "end": 89.0,
+            "text": "So now it's your turn."
+        },
+        {
+            "number": "038",
+            "title": "Modifying array elements",
+            "start": 89.0,
+            "end": 91.5,
+            "text": "Go ahead and try more row and column slicing."
+        },
+        {
+            "number": "038",
+            "title": "Modifying array elements",
+            "start": 91.5,
+            "end": 93.5,
+            "text": "Go ahead and solve the rows."
+        },
+        {
+            "number": "038",
+            "title": "Modifying array elements",
+            "start": 93.5,
+            "end": 95.9,
+            "text": "Let's run 2 and 3."
+        },
+        {
+            "number": "038",
+            "title": "Modifying array elements",
+            "start": 95.9,
+            "end": 98.3,
+            "text": "And hold the instructions."
+        },
+        {
+            "number": "038",
+            "title": "Modifying array elements",
+            "start": 98.3,
+            "end": 100.5,
+            "text": "In this left, go over home."
+        },
+        {
+            "number": "038",
+            "title": "Modifying array elements",
+            "start": 100.5,
+            "end": 102.0,
+            "text": "Click the RIGHT 0."
+        },
+        {
+            "number": "038",
+            "title": "Modifying array elements",
+            "start": 102.0,
+            "end": 103.6,
+            "text": "HOUR differently than lying here,"
+        },
+        {
+            "number": "038",
+            "title": "Modifying array elements",
+            "start": 103.6,
+            "end": 105.6,
+            "text": "The correct ratio will be obtained by the triangle of our crane下去."
+        },
+        {
+            "number": "038",
+            "title": "Modifying array elements",
+            "start": 105.7,
+            "end": 107.5,
+            "text": "This is £10,000 of the cylinder."
+        }
+    ],
+    "text": "Moving forward, it is good that we can access elements in array. But another important operation is assigning values to specific location in array. This will give us access to the element at the position 0, 0 in the array. And using the assignment operator, we can assign a value 1 to it. Let's see the output. Here you go. This is the original array where we replace the element at position 0, 0 with 1. But that's not all. With a minor change, you can assign a value to the entire row or column. Let's do it. This will give us access to the 0th row and we assign the entire row a value of 2. Let's run this. Using similar operation and column slicing, we can also assign an entire column a single value. Now what if we need each column or row to have different value and not the same as we did over here? Let's see how we can achieve this. Yes, this is a list of values. You can assign a list of values to a row or a column. Here we assign this list of values to column number 3. But make sure you keep an eye on the dimension. That is, for this example, if you have 5 rows in an array, the list should have 5 elements. As you can see, all the list values have been assigned to the third column. So now it's your turn. Go ahead and try more row and column slicing. Go ahead and solve the rows. Let's run 2 and 3. And hold the instructions. In this left, go over home. Click the RIGHT 0. HOUR differently than lying here, The correct ratio will be obtained by the triangle of our crane下去. This is £10,000 of the cylinder."
+}

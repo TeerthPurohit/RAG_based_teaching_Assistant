@@ -1,0 +1,488 @@
+{
+    "chunks": [
+        {
+            "number": "206",
+            "title": "Update Rule",
+            "start": 0.4,
+            "end": 4.7,
+            "text": "Consider our robot here that's interacting with the world."
+        },
+        {
+            "number": "206",
+            "title": "Update Rule",
+            "start": 4.7,
+            "end": 8.6,
+            "text": "The first thing it sees is some state."
+        },
+        {
+            "number": "206",
+            "title": "Update Rule",
+            "start": 8.6,
+            "end": 13.6,
+            "text": "And as we've talked about already, the thing to do now is to take that state,"
+        },
+        {
+            "number": "206",
+            "title": "Update Rule",
+            "start": 13.6,
+            "end": 19.7,
+            "text": "go look in the q table, and find the action that corresponds to the maximum q value."
+        },
+        {
+            "number": "206",
+            "title": "Update Rule",
+            "start": 19.7,
+            "end": 21.9,
+            "text": "And then take that action."
+        },
+        {
+            "number": "206",
+            "title": "Update Rule",
+            "start": 21.9,
+            "end": 25.1,
+            "text": "Once that action is taken, that results in two new things."
+        },
+        {
+            "number": "206",
+            "title": "Update Rule",
+            "start": 25.1,
+            "end": 32.5,
+            "text": "One is a new state, we call that s prime, and a reward."
+        },
+        {
+            "number": "206",
+            "title": "Update Rule",
+            "start": 32.5,
+            "end": 35.0,
+            "text": "All that information comes into the robot and"
+        },
+        {
+            "number": "206",
+            "title": "Update Rule",
+            "start": 35.0,
+            "end": 38.9,
+            "text": "it needs to use that information to update its q table."
+        },
+        {
+            "number": "206",
+            "title": "Update Rule",
+            "start": 38.9,
+            "end": 42.1,
+            "text": "So as a consequence of this interaction with the world,"
+        },
+        {
+            "number": "206",
+            "title": "Update Rule",
+            "start": 42.1,
+            "end": 47.8,
+            "text": "it's got an s, an a, an s prime, and an r."
+        },
+        {
+            "number": "206",
+            "title": "Update Rule",
+            "start": 47.8,
+            "end": 52.1,
+            "text": "How does it take that information to improve this q table?"
+        },
+        {
+            "number": "206",
+            "title": "Update Rule",
+            "start": 52.1,
+            "end": 54.8,
+            "text": "There are two main parts to the update rule."
+        },
+        {
+            "number": "206",
+            "title": "Update Rule",
+            "start": 54.8,
+            "end": 60.0,
+            "text": "The first is, what is the old value that we used to have?"
+        },
+        {
+            "number": "206",
+            "title": "Update Rule",
+            "start": 60.0,
+            "end": 61.7,
+            "text": "And that's q s a."
+        },
+        {
+            "number": "206",
+            "title": "Update Rule",
+            "start": 62.8,
+            "end": 64.9,
+            "text": "And what is our improved estimate?"
+        },
+        {
+            "number": "206",
+            "title": "Update Rule",
+            "start": 64.9,
+            "end": 67.3,
+            "text": "And we want to blend them together."
+        },
+        {
+            "number": "206",
+            "title": "Update Rule",
+            "start": 67.3,
+            "end": 70.7,
+            "text": "And to combine them, we introduce this new variable alpha."
+        },
+        {
+            "number": "206",
+            "title": "Update Rule",
+            "start": 70.7,
+            "end": 73.1,
+            "text": "Alpha is the learning rate."
+        },
+        {
+            "number": "206",
+            "title": "Update Rule",
+            "start": 73.1,
+            "end": 77.0,
+            "text": "Alpha can take on any value from 0 to 1."
+        },
+        {
+            "number": "206",
+            "title": "Update Rule",
+            "start": 77.0,
+            "end": 80.4,
+            "text": "Usually we use about 0.2."
+        },
+        {
+            "number": "206",
+            "title": "Update Rule",
+            "start": 80.4,
+            "end": 87.2,
+            "text": "And what that means is, in our new improved version of q,"
+        },
+        {
+            "number": "206",
+            "title": "Update Rule",
+            "start": 87.2,
+            "end": 93.5,
+            "text": "which I indicate over here as q prime, it's a blend of alpha times the improved"
+        },
+        {
+            "number": "206",
+            "title": "Update Rule",
+            "start": 93.5,
+            "end": 97.2,
+            "text": "estimate plus 1 minus alpha of the old value."
+        },
+        {
+            "number": "206",
+            "title": "Update Rule",
+            "start": 97.2,
+            "end": 101.1,
+            "text": "So larger values of alpha cause us to learn more quickly."
+        },
+        {
+            "number": "206",
+            "title": "Update Rule",
+            "start": 101.1,
+            "end": 106.6,
+            "text": "Lower values of alpha cause the learning to be more slow."
+        },
+        {
+            "number": "206",
+            "title": "Update Rule",
+            "start": 106.6,
+            "end": 110.5,
+            "text": "So a low value of alpha, for instance, means that in this update rule,"
+        },
+        {
+            "number": "206",
+            "title": "Update Rule",
+            "start": 110.5,
+            "end": 116.4,
+            "text": "the previous value for q of s a is more strongly preserved."
+        },
+        {
+            "number": "206",
+            "title": "Update Rule",
+            "start": 116.4,
+            "end": 119.3,
+            "text": "So stretching it out in a little bit more detail, again,"
+        },
+        {
+            "number": "206",
+            "title": "Update Rule",
+            "start": 119.3,
+            "end": 129.8,
+            "text": "we have here our current value for the q at s a plus alpha times the immediate reward,"
+        },
+        {
+            "number": "206",
+            "title": "Update Rule",
+            "start": 129.8,
+            "end": 132.8,
+            "text": "plus gamma times later rewards."
+        },
+        {
+            "number": "206",
+            "title": "Update Rule",
+            "start": 132.8,
+            "end": 135.9,
+            "text": "Now we're introducing gamma here."
+        },
+        {
+            "number": "206",
+            "title": "Update Rule",
+            "start": 135.9,
+            "end": 139.3,
+            "text": "So I promise there's only two new parameters here that you have to worry about."
+        },
+        {
+            "number": "206",
+            "title": "Update Rule",
+            "start": 139.3,
+            "end": 141.4,
+            "text": "What gamma is, is the discount rate."
+        },
+        {
+            "number": "206",
+            "title": "Update Rule",
+            "start": 141.4,
+            "end": 147.6,
+            "text": "And similar to alpha, gamma usually ranges from 0 to 1."
+        },
+        {
+            "number": "206",
+            "title": "Update Rule",
+            "start": 147.6,
+            "end": 155.1,
+            "text": "A low value of gamma means that we value later rewards less."
+        },
+        {
+            "number": "206",
+            "title": "Update Rule",
+            "start": 155.1,
+            "end": 158.7,
+            "text": "Remember the discount rate when we were talking about bonds?"
+        },
+        {
+            "number": "206",
+            "title": "Update Rule",
+            "start": 158.7,
+            "end": 160.5,
+            "text": "Same thing."
+        },
+        {
+            "number": "206",
+            "title": "Update Rule",
+            "start": 160.5,
+            "end": 168.7,
+            "text": "A low value of gamma equates to essentially a high discount rate."
+        },
+        {
+            "number": "206",
+            "title": "Update Rule",
+            "start": 168.7,
+            "end": 172.3,
+            "text": "A high value of gamma, in other words, a gamma near 1,"
+        },
+        {
+            "number": "206",
+            "title": "Update Rule",
+            "start": 172.3,
+            "end": 177.4,
+            "text": "means that we value later rewards very significantly."
+        },
+        {
+            "number": "206",
+            "title": "Update Rule",
+            "start": 177.4,
+            "end": 183.6,
+            "text": "If we were to use 1.0, that means a reward 20 steps in the future is worth"
+        },
+        {
+            "number": "206",
+            "title": "Update Rule",
+            "start": 183.6,
+            "end": 186.2,
+            "text": "just as much as a reward right now."
+        },
+        {
+            "number": "206",
+            "title": "Update Rule",
+            "start": 186.2,
+            "end": 191.1,
+            "text": "Now, we have to expand this component here in a little bit more detail."
+        },
+        {
+            "number": "206",
+            "title": "Update Rule",
+            "start": 191.1,
+            "end": 195.1,
+            "text": "This next part here is a little bit tricky, but don't worry,"
+        },
+        {
+            "number": "206",
+            "title": "Update Rule",
+            "start": 195.1,
+            "end": 197.6,
+            "text": "we're going to step through it step by step."
+        },
+        {
+            "number": "206",
+            "title": "Update Rule",
+            "start": 197.6,
+            "end": 202.6,
+            "text": "This component represents our future discounted rewards."
+        },
+        {
+            "number": "206",
+            "title": "Update Rule",
+            "start": 202.6,
+            "end": 207.6,
+            "text": "In other words, we end up in state s prime, and from then on out,"
+        },
+        {
+            "number": "206",
+            "title": "Update Rule",
+            "start": 207.6,
+            "end": 212.0,
+            "text": "we're going to act optimally, or at least the best that we know how to."
+        },
+        {
+            "number": "206",
+            "title": "Update Rule",
+            "start": 212.0,
+            "end": 219.8,
+            "text": "And the question is, what is the value of those future rewards if we reach state s prime,"
+        },
+        {
+            "number": "206",
+            "title": "Update Rule",
+            "start": 219.8,
+            "end": 221.6,
+            "text": "and we act appropriately?"
+        },
+        {
+            "number": "206",
+            "title": "Update Rule",
+            "start": 221.6,
+            "end": 225.4,
+            "text": "Well, it is simply that q value."
+        },
+        {
+            "number": "206",
+            "title": "Update Rule",
+            "start": 225.4,
+            "end": 229.1,
+            "text": "But we have to find out what the action is that we would have taken so"
+        },
+        {
+            "number": "206",
+            "title": "Update Rule",
+            "start": 229.1,
+            "end": 231.7,
+            "text": "that we can reference the q table properly."
+        },
+        {
+            "number": "206",
+            "title": "Update Rule",
+            "start": 231.7,
+            "end": 238.6,
+            "text": "So, if we're in state s prime, the action that we would take that would maximize our"
+        },
+        {
+            "number": "206",
+            "title": "Update Rule",
+            "start": 238.6,
+            "end": 241.7,
+            "text": "future reward is argmax a prime."
+        },
+        {
+            "number": "206",
+            "title": "Update Rule",
+            "start": 241.7,
+            "end": 248.5,
+            "text": "So, a prime is that next action that we're going to take with regard to q s prime a prime."
+        },
+        {
+            "number": "206",
+            "title": "Update Rule",
+            "start": 248.5,
+            "end": 254.8,
+            "text": "So, we're going to find that best a prime, that best action that maximizes the value"
+        },
+        {
+            "number": "206",
+            "title": "Update Rule",
+            "start": 254.8,
+            "end": 256.5,
+            "text": "when we're in that state."
+        },
+        {
+            "number": "206",
+            "title": "Update Rule",
+            "start": 256.5,
+            "end": 267.0,
+            "text": "So, this collapses just to a prime, and then we look up the q table value for q s prime a prime."
+        },
+        {
+            "number": "206",
+            "title": "Update Rule",
+            "start": 267.0,
+            "end": 270.0,
+            "text": "So, that allows us to bring it all together now."
+        },
+        {
+            "number": "206",
+            "title": "Update Rule",
+            "start": 270.0,
+            "end": 272.6,
+            "text": "So, our update rule is the following."
+        },
+        {
+            "number": "206",
+            "title": "Update Rule",
+            "start": 272.6,
+            "end": 282.4,
+            "text": "Our new q value in state s action a is that old value multiplied by 1 minus alpha."
+        },
+        {
+            "number": "206",
+            "title": "Update Rule",
+            "start": 282.4,
+            "end": 288.1,
+            "text": "So, depending on how large alpha is, we value that old value more or less."
+        },
+        {
+            "number": "206",
+            "title": "Update Rule",
+            "start": 288.1,
+            "end": 292.0,
+            "text": "Plus alpha times our new best estimate."
+        },
+        {
+            "number": "206",
+            "title": "Update Rule",
+            "start": 293.4,
+            "end": 300.2,
+            "text": "And our new best estimate is, again, our immediate reward plus the discounted reward"
+        },
+        {
+            "number": "206",
+            "title": "Update Rule",
+            "start": 300.2,
+            "end": 302.4,
+            "text": "for all of our future actions."
+        },
+        {
+            "number": "206",
+            "title": "Update Rule",
+            "start": 302.4,
+            "end": 303.5,
+            "text": "And that's it."
+        },
+        {
+            "number": "206",
+            "title": "Update Rule",
+            "start": 303.5,
+            "end": 306.2,
+            "text": "This is the equation you need to know to implement q learning."
+        }
+    ],
+    "text": "Consider our robot here that's interacting with the world. The first thing it sees is some state. And as we've talked about already, the thing to do now is to take that state, go look in the q table, and find the action that corresponds to the maximum q value. And then take that action. Once that action is taken, that results in two new things. One is a new state, we call that s prime, and a reward. All that information comes into the robot and it needs to use that information to update its q table. So as a consequence of this interaction with the world, it's got an s, an a, an s prime, and an r. How does it take that information to improve this q table? There are two main parts to the update rule. The first is, what is the old value that we used to have? And that's q s a. And what is our improved estimate? And we want to blend them together. And to combine them, we introduce this new variable alpha. Alpha is the learning rate. Alpha can take on any value from 0 to 1. Usually we use about 0.2. And what that means is, in our new improved version of q, which I indicate over here as q prime, it's a blend of alpha times the improved estimate plus 1 minus alpha of the old value. So larger values of alpha cause us to learn more quickly. Lower values of alpha cause the learning to be more slow. So a low value of alpha, for instance, means that in this update rule, the previous value for q of s a is more strongly preserved. So stretching it out in a little bit more detail, again, we have here our current value for the q at s a plus alpha times the immediate reward, plus gamma times later rewards. Now we're introducing gamma here. So I promise there's only two new parameters here that you have to worry about. What gamma is, is the discount rate. And similar to alpha, gamma usually ranges from 0 to 1. A low value of gamma means that we value later rewards less. Remember the discount rate when we were talking about bonds? Same thing. A low value of gamma equates to essentially a high discount rate. A high value of gamma, in other words, a gamma near 1, means that we value later rewards very significantly. If we were to use 1.0, that means a reward 20 steps in the future is worth just as much as a reward right now. Now, we have to expand this component here in a little bit more detail. This next part here is a little bit tricky, but don't worry, we're going to step through it step by step. This component represents our future discounted rewards. In other words, we end up in state s prime, and from then on out, we're going to act optimally, or at least the best that we know how to. And the question is, what is the value of those future rewards if we reach state s prime, and we act appropriately? Well, it is simply that q value. But we have to find out what the action is that we would have taken so that we can reference the q table properly. So, if we're in state s prime, the action that we would take that would maximize our future reward is argmax a prime. So, a prime is that next action that we're going to take with regard to q s prime a prime. So, we're going to find that best a prime, that best action that maximizes the value when we're in that state. So, this collapses just to a prime, and then we look up the q table value for q s prime a prime. So, that allows us to bring it all together now. So, our update rule is the following. Our new q value in state s action a is that old value multiplied by 1 minus alpha. So, depending on how large alpha is, we value that old value more or less. Plus alpha times our new best estimate. And our new best estimate is, again, our immediate reward plus the discounted reward for all of our future actions. And that's it. This is the equation you need to know to implement q learning."
+}

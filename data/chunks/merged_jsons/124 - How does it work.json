@@ -1,0 +1,76 @@
+{
+    "title": "How does it work",
+    "number": "124",
+    "chunks": [
+        {
+            "title": "How does it work",
+            "number": "124",
+            "start": 0.2,
+            "end": 16.2,
+            "text": "Okay, we've calculated these weights. Let's see how they work on the examples we've been looking at. So again, our weight for stock A is going to be 0.66, and for stock B is going to be negative 0.33. And we're going to look at the scenario where the market goes up 10%."
+        },
+        {
+            "title": "How does it work",
+            "number": "124",
+            "start": 16.2,
+            "end": 33.2,
+            "text": "We'll pull out our old trusty cap M and expand it for these two stocks. So for stock A, we have the weight of stock A times its beta times the return on the market, plus the alpha component. So these are the two parts that relate to the return on the market, and we'll bring them together."
+        },
+        {
+            "title": "How does it work",
+            "number": "124",
+            "start": 33.2,
+            "end": 53.7,
+            "text": "So for stock A, we have a weight of 0.66, and our beta is 1.0. And for stock B, we've got negative 0.33 times 2 times return on the market. So because of all that work we did to figure out these values, we know already that this is going to become 0. We'll carry down our two alpha components."
+        },
+        {
+            "title": "How does it work",
+            "number": "124",
+            "start": 53.7,
+            "end": 77.0,
+            "text": "So for stock A, our alpha expectation is 1%, and our weighting is 0.66. For stock B, our weighting is negative 1 third times negative 1. Our expectation is it's going to go down 1%. So combining these two, 0.66 plus 0.33 gives us a 1% expected return."
+        },
+        {
+            "title": "How does it work",
+            "number": "124",
+            "start": 77.0,
+            "end": 95.0,
+            "text": "Whichever way the market goes, remember? We eliminated the return on the market. So whichever way the market goes, we can expect to get 1% return. Now, need to add a lot of caveats here. These betas aren't necessarily fully guaranteed to continue into the future."
+        },
+        {
+            "title": "How does it work",
+            "number": "124",
+            "start": 95.0,
+            "end": 116.6,
+            "text": "And these alphas aren't guaranteed either. These were just estimates that we computed based on information we thought we had. So this is not a guaranteed thing by any means, but it is a way to use long short investing to reduce exposure to the market overall. And to focus on those alpha components where we do have information."
+        },
+        {
+            "title": "How does it work",
+            "number": "124",
+            "start": 116.6,
+            "end": 122.2,
+            "text": "haunted lots, absolutely similar prices will still be realized. Alright. Bye. Bye. Hey."
+        },
+        {
+            "title": "How does it work",
+            "number": "124",
+            "start": 122.2,
+            "end": 129.2,
+            "text": "Thanks. I'll quickly read. end day day"
+        },
+        {
+            "title": "How does it work",
+            "number": "124",
+            "start": 129.2,
+            "end": 137.5,
+            "text": "right Alright. Today I encourage you to visit below."
+        },
+        {
+            "title": "How does it work",
+            "number": "124",
+            "start": 137.5,
+            "end": 143.3,
+            "text": "You have patient there"
+        }
+    ]
+}

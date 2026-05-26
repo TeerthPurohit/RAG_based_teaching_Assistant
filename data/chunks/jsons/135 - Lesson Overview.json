@@ -1,0 +1,26 @@
+{
+    "chunks": [
+        {
+            "number": "135",
+            "title": "Lesson Overview",
+            "start": 0.0,
+            "end": 4.0,
+            "text": "Data is of course very important for computational investing."
+        },
+        {
+            "number": "135",
+            "title": "Lesson Overview",
+            "start": 4.0,
+            "end": 10.0,
+            "text": "The core data and the primary data we will work with in this course is historical price and volume data."
+        },
+        {
+            "number": "135",
+            "title": "Lesson Overview",
+            "start": 10.0,
+            "end": 13.0,
+            "text": "That's what we'll focus on in this lesson."
+        }
+    ],
+    "text": "Data is of course very important for computational investing. The core data and the primary data we will work with in this course is historical price and volume data. That's what we'll focus on in this lesson."
+}

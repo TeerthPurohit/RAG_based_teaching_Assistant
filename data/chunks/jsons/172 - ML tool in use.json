@@ -1,0 +1,201 @@
+{
+    "chunks": [
+        {
+            "number": "172",
+            "title": "ML tool in use",
+            "start": 0.3,
+            "end": 5.2,
+            "text": "On the QuantDesk platform, we can backtest in exactly the same way."
+        },
+        {
+            "number": "172",
+            "title": "ML tool in use",
+            "start": 5.2,
+            "end": 8.8,
+            "text": "Go over here to the backtest tab and click on forecast."
+        },
+        {
+            "number": "172",
+            "title": "ML tool in use",
+            "start": 8.8,
+            "end": 14.1,
+            "text": "And again, we can configure which group of stocks are we going to work with,"
+        },
+        {
+            "number": "172",
+            "title": "ML tool in use",
+            "start": 14.1,
+            "end": 17.8,
+            "text": "and what are the settings for our backtest."
+        },
+        {
+            "number": "172",
+            "title": "ML tool in use",
+            "start": 17.8,
+            "end": 21.2,
+            "text": "For instance, how much money do we start with?"
+        },
+        {
+            "number": "172",
+            "title": "ML tool in use",
+            "start": 21.2,
+            "end": 24.9,
+            "text": "How frequently do we want to trade?"
+        },
+        {
+            "number": "172",
+            "title": "ML tool in use",
+            "start": 24.9,
+            "end": 28.6,
+            "text": "Over what period of time do we want to run the backtest?"
+        },
+        {
+            "number": "172",
+            "title": "ML tool in use",
+            "start": 28.6,
+            "end": 29.9,
+            "text": "And so on."
+        },
+        {
+            "number": "172",
+            "title": "ML tool in use",
+            "start": 29.9,
+            "end": 32.6,
+            "text": "Anyways, we make those selections."
+        },
+        {
+            "number": "172",
+            "title": "ML tool in use",
+            "start": 32.6,
+            "end": 36.7,
+            "text": "We also need to choose parameters for the forecaster."
+        },
+        {
+            "number": "172",
+            "title": "ML tool in use",
+            "start": 36.7,
+            "end": 39.2,
+            "text": "Again, which model do we want to use?"
+        },
+        {
+            "number": "172",
+            "title": "ML tool in use",
+            "start": 39.2,
+            "end": 43.2,
+            "text": "Which includes what are the factors that we're paying attention to?"
+        },
+        {
+            "number": "172",
+            "title": "ML tool in use",
+            "start": 43.2,
+            "end": 47.4,
+            "text": "How far into the future do we want to make our forecast?"
+        },
+        {
+            "number": "172",
+            "title": "ML tool in use",
+            "start": 47.4,
+            "end": 50.1,
+            "text": "And how much data looking back do we want to use?"
+        },
+        {
+            "number": "172",
+            "title": "ML tool in use",
+            "start": 50.1,
+            "end": 55.7,
+            "text": "Once we make all those selections, we can click on backtest, and it'll start running."
+        },
+        {
+            "number": "172",
+            "title": "ML tool in use",
+            "start": 55.7,
+            "end": 58.6,
+            "text": "It takes quite a bit of time, so we're going to go ahead and"
+        },
+        {
+            "number": "172",
+            "title": "ML tool in use",
+            "start": 58.6,
+            "end": 60.1,
+            "text": "go ahead and see what we're going to do in the background."
+        },
+        {
+            "number": "172",
+            "title": "ML tool in use",
+            "start": 60.1,
+            "end": 63.8,
+            "text": "And I'll show you what one of these backtests looks like."
+        },
+        {
+            "number": "172",
+            "title": "ML tool in use",
+            "start": 63.8,
+            "end": 67.5,
+            "text": "Here's an example report that our system generates."
+        },
+        {
+            "number": "172",
+            "title": "ML tool in use",
+            "start": 67.5,
+            "end": 70.2,
+            "text": "This is again for a forecast backtest."
+        },
+        {
+            "number": "172",
+            "title": "ML tool in use",
+            "start": 70.2,
+            "end": 75.7,
+            "text": "The orange line here represents the historical value of our portfolio."
+        },
+        {
+            "number": "172",
+            "title": "ML tool in use",
+            "start": 75.7,
+            "end": 80.0,
+            "text": "The blue is the benchmark that we're using, which is S&P 500."
+        },
+        {
+            "number": "172",
+            "title": "ML tool in use",
+            "start": 80.0,
+            "end": 84.4,
+            "text": "You can see here a number of metrics tabulated."
+        },
+        {
+            "number": "172",
+            "title": "ML tool in use",
+            "start": 84.4,
+            "end": 89.5,
+            "text": "Over this period of time, we saw 346% return."
+        },
+        {
+            "number": "172",
+            "title": "ML tool in use",
+            "start": 89.5,
+            "end": 94.2,
+            "text": "Our Sharpe ratio was 1.14, and so on."
+        },
+        {
+            "number": "172",
+            "title": "ML tool in use",
+            "start": 94.2,
+            "end": 99.3,
+            "text": "So this is just an example of the kinds of systems you can build using the sorts"
+        },
+        {
+            "number": "172",
+            "title": "ML tool in use",
+            "start": 99.3,
+            "end": 101.7,
+            "text": "of things we teach you in this class."
+        },
+        {
+            "number": "172",
+            "title": "ML tool in use",
+            "start": 101.7,
+            "end": 103.5,
+            "text": "So that's the forecast backtest."
+        }
+    ],
+    "text": "On the QuantDesk platform, we can backtest in exactly the same way. Go over here to the backtest tab and click on forecast. And again, we can configure which group of stocks are we going to work with, and what are the settings for our backtest. For instance, how much money do we start with? How frequently do we want to trade? Over what period of time do we want to run the backtest? And so on. Anyways, we make those selections. We also need to choose parameters for the forecaster. Again, which model do we want to use? Which includes what are the factors that we're paying attention to? How far into the future do we want to make our forecast? And how much data looking back do we want to use? Once we make all those selections, we can click on backtest, and it'll start running. It takes quite a bit of time, so we're going to go ahead and go ahead and see what we're going to do in the background. And I'll show you what one of these backtests looks like. Here's an example report that our system generates. This is again for a forecast backtest. The orange line here represents the historical value of our portfolio. The blue is the benchmark that we're using, which is S&P 500. You can see here a number of metrics tabulated. Over this period of time, we saw 346% return. Our Sharpe ratio was 1.14, and so on. So this is just an example of the kinds of systems you can build using the sorts of things we teach you in this class. So that's the forecast backtest."
+}

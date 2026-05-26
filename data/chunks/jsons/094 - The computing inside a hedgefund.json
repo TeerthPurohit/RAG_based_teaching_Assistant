@@ -1,0 +1,537 @@
+{
+    "chunks": [
+        {
+            "number": "094",
+            "title": "The computing inside a hedgefund",
+            "start": 0.3,
+            "end": 4.9,
+            "text": "Hedge funds are among the most computationally demanding environments I know of."
+        },
+        {
+            "number": "094",
+            "title": "The computing inside a hedgefund",
+            "start": 4.9,
+            "end": 8.7,
+            "text": "They have infrastructure requirements like huge databases,"
+        },
+        {
+            "number": "094",
+            "title": "The computing inside a hedgefund",
+            "start": 8.7,
+            "end": 13.9,
+            "text": "significant network connectivity, low latency and"
+        },
+        {
+            "number": "094",
+            "title": "The computing inside a hedgefund",
+            "start": 13.9,
+            "end": 18.5,
+            "text": "high bandwidth connectivity, real time processing, and so on."
+        },
+        {
+            "number": "094",
+            "title": "The computing inside a hedgefund",
+            "start": 18.5,
+            "end": 23.6,
+            "text": "I want to show you as an example the typical kinds of computing that goes on"
+        },
+        {
+            "number": "094",
+            "title": "The computing inside a hedgefund",
+            "start": 23.6,
+            "end": 27.5,
+            "text": "inside the hedge fund to motivate you for this class."
+        },
+        {
+            "number": "094",
+            "title": "The computing inside a hedgefund",
+            "start": 27.5,
+            "end": 31.9,
+            "text": "In other words, this isn't exactly the way all hedge funds work."
+        },
+        {
+            "number": "094",
+            "title": "The computing inside a hedgefund",
+            "start": 31.9,
+            "end": 36.8,
+            "text": "But this is just to give you a taste for how many hedge funds work."
+        },
+        {
+            "number": "094",
+            "title": "The computing inside a hedgefund",
+            "start": 36.8,
+            "end": 41.5,
+            "text": "And you'll see, I think, that computing and"
+        },
+        {
+            "number": "094",
+            "title": "The computing inside a hedgefund",
+            "start": 41.5,
+            "end": 44.3,
+            "text": "computational capabilities are core here."
+        },
+        {
+            "number": "094",
+            "title": "The computing inside a hedgefund",
+            "start": 44.3,
+            "end": 50.0,
+            "text": "So we're going to work backwards from the market back towards the sort of"
+        },
+        {
+            "number": "094",
+            "title": "The computing inside a hedgefund",
+            "start": 50.0,
+            "end": 52.2,
+            "text": "back office of the hedge fund."
+        },
+        {
+            "number": "094",
+            "title": "The computing inside a hedgefund",
+            "start": 52.2,
+            "end": 56.6,
+            "text": "The way things work are we have a certain portfolio"
+        },
+        {
+            "number": "094",
+            "title": "The computing inside a hedgefund",
+            "start": 56.6,
+            "end": 61.2,
+            "text": "that is which stocks we have and whether we're in positive or"
+        },
+        {
+            "number": "094",
+            "title": "The computing inside a hedgefund",
+            "start": 61.2,
+            "end": 64.8,
+            "text": "negative positions with regard to them."
+        },
+        {
+            "number": "094",
+            "title": "The computing inside a hedgefund",
+            "start": 64.8,
+            "end": 67.6,
+            "text": "The trading algorithm here is central."
+        },
+        {
+            "number": "094",
+            "title": "The computing inside a hedgefund",
+            "start": 67.6,
+            "end": 71.9,
+            "text": "It's interacting with the market, observing the live portfolio."
+        },
+        {
+            "number": "094",
+            "title": "The computing inside a hedgefund",
+            "start": 71.9,
+            "end": 80.3,
+            "text": "And what it's trying to do is to get this live portfolio to match some target portfolio."
+        },
+        {
+            "number": "094",
+            "title": "The computing inside a hedgefund",
+            "start": 80.3,
+            "end": 86.8,
+            "text": "So somewhere further back inside the hedge fund, we've decided what this target portfolio ought to look like."
+        },
+        {
+            "number": "094",
+            "title": "The computing inside a hedgefund",
+            "start": 86.8,
+            "end": 93.9,
+            "text": "In other words, how many shares of Apple, how many shares of Delta Airlines we should have, and so on."
+        },
+        {
+            "number": "094",
+            "title": "The computing inside a hedgefund",
+            "start": 93.9,
+            "end": 96.7,
+            "text": "And this trading algorithm is trying to get us there."
+        },
+        {
+            "number": "094",
+            "title": "The computing inside a hedgefund",
+            "start": 96.7,
+            "end": 106.4,
+            "text": "So it's comparing target with live, and then to move this portfolio towards that target, it's issuing orders."
+        },
+        {
+            "number": "094",
+            "title": "The computing inside a hedgefund",
+            "start": 106.4,
+            "end": 111.6,
+            "text": "So it sends orders like buy 200 shares of Apple to the market."
+        },
+        {
+            "number": "094",
+            "title": "The computing inside a hedgefund",
+            "start": 111.6,
+            "end": 117.3,
+            "text": "Those orders get executed or not, and that updates the live portfolio."
+        },
+        {
+            "number": "094",
+            "title": "The computing inside a hedgefund",
+            "start": 117.3,
+            "end": 124.7,
+            "text": "Now one reason this kind of trading algorithm is important is you don't want to execute everything at once."
+        },
+        {
+            "number": "094",
+            "title": "The computing inside a hedgefund",
+            "start": 124.7,
+            "end": 129.7,
+            "text": "In other words, suppose we wanted to take a very, very large position in Apple."
+        },
+        {
+            "number": "094",
+            "title": "The computing inside a hedgefund",
+            "start": 129.7,
+            "end": 136.3,
+            "text": "If we were just to send an order, hey, buy me 10 million shares of Apple,"
+        },
+        {
+            "number": "094",
+            "title": "The computing inside a hedgefund",
+            "start": 136.3,
+            "end": 142.4,
+            "text": "that would affect us detrimentally in the sense that the price for Apple would probably rise,"
+        },
+        {
+            "number": "094",
+            "title": "The computing inside a hedgefund",
+            "start": 142.4,
+            "end": 144.9,
+            "text": "and we would not get a good execution."
+        },
+        {
+            "number": "094",
+            "title": "The computing inside a hedgefund",
+            "start": 144.9,
+            "end": 150.2,
+            "text": "So this trading algorithm takes those sorts of things into consideration as it moves"
+        },
+        {
+            "number": "094",
+            "title": "The computing inside a hedgefund",
+            "start": 150.2,
+            "end": 154.1,
+            "text": "our live portfolio to be more close to the target portfolio."
+        },
+        {
+            "number": "094",
+            "title": "The computing inside a hedgefund",
+            "start": 154.1,
+            "end": 158.2,
+            "text": "In fact, sometimes it takes days to enter a particular position."
+        },
+        {
+            "number": "094",
+            "title": "The computing inside a hedgefund",
+            "start": 158.2,
+            "end": 161.6,
+            "text": "So this doesn't necessarily happen all at once."
+        },
+        {
+            "number": "094",
+            "title": "The computing inside a hedgefund",
+            "start": 161.6,
+            "end": 168.0,
+            "text": "And there's many, many different types of trading algorithms that have been invented to solve these problems."
+        },
+        {
+            "number": "094",
+            "title": "The computing inside a hedgefund",
+            "start": 168.0,
+            "end": 173.2,
+            "text": "Now, let's step one step back into the computing of a hedge fund and"
+        },
+        {
+            "number": "094",
+            "title": "The computing inside a hedgefund",
+            "start": 173.2,
+            "end": 176.2,
+            "text": "look at how we arrive at this target portfolio."
+        },
+        {
+            "number": "094",
+            "title": "The computing inside a hedgefund",
+            "start": 176.2,
+            "end": 180.4,
+            "text": "Here's that target portfolio, and here is some of the data and"
+        },
+        {
+            "number": "094",
+            "title": "The computing inside a hedgefund",
+            "start": 180.4,
+            "end": 184.5,
+            "text": "computing that could go into computing that target portfolio."
+        },
+        {
+            "number": "094",
+            "title": "The computing inside a hedgefund",
+            "start": 185.6,
+            "end": 190.4,
+            "text": "So from somewhere, machine learning perhaps,"
+        },
+        {
+            "number": "094",
+            "title": "The computing inside a hedgefund",
+            "start": 190.4,
+            "end": 196.4,
+            "text": "we have a forecast of what stock prices are going to be at some time into the future."
+        },
+        {
+            "number": "094",
+            "title": "The computing inside a hedgefund",
+            "start": 196.4,
+            "end": 201.6,
+            "text": "And that can, of course, drive what our target portfolio ought to be for today."
+        },
+        {
+            "number": "094",
+            "title": "The computing inside a hedgefund",
+            "start": 201.6,
+            "end": 208.4,
+            "text": "In other words, if we're forecasting that BAC is going to go up,"
+        },
+        {
+            "number": "094",
+            "title": "The computing inside a hedgefund",
+            "start": 208.4,
+            "end": 211.9,
+            "text": "this might represent that we think it's going to go up 5%."
+        },
+        {
+            "number": "094",
+            "title": "The computing inside a hedgefund",
+            "start": 211.9,
+            "end": 215.6,
+            "text": "We might want to increase our holdings in that."
+        },
+        {
+            "number": "094",
+            "title": "The computing inside a hedgefund",
+            "start": 215.6,
+            "end": 219.0,
+            "text": "If we think that Apple, for instance, is going to go down,"
+        },
+        {
+            "number": "094",
+            "title": "The computing inside a hedgefund",
+            "start": 219.0,
+            "end": 221.5,
+            "text": "we might want to decrease our holdings."
+        },
+        {
+            "number": "094",
+            "title": "The computing inside a hedgefund",
+            "start": 221.5,
+            "end": 229.2,
+            "text": "So this forecast informs this algorithm called a portfolio optimizer that works to"
+        },
+        {
+            "number": "094",
+            "title": "The computing inside a hedgefund",
+            "start": 229.2,
+            "end": 239.9,
+            "text": "balance the risks and rewards for a balanced portfolio that considers volatility and"
+        },
+        {
+            "number": "094",
+            "title": "The computing inside a hedgefund",
+            "start": 239.9,
+            "end": 243.0,
+            "text": "correlation between different stocks and so on."
+        },
+        {
+            "number": "094",
+            "title": "The computing inside a hedgefund",
+            "start": 243.0,
+            "end": 248.2,
+            "text": "We're going to talk a lot about portfolio optimization later in this course."
+        },
+        {
+            "number": "094",
+            "title": "The computing inside a hedgefund",
+            "start": 248.2,
+            "end": 253.4,
+            "text": "Some other considerations that go into portfolio optimizer are historical data,"
+        },
+        {
+            "number": "094",
+            "title": "The computing inside a hedgefund",
+            "start": 253.4,
+            "end": 256.4,
+            "text": "open, high, low, close, and volume."
+        },
+        {
+            "number": "094",
+            "title": "The computing inside a hedgefund",
+            "start": 256.4,
+            "end": 261.9,
+            "text": "We can look at that historical data to inform how stocks are correlated or"
+        },
+        {
+            "number": "094",
+            "title": "The computing inside a hedgefund",
+            "start": 261.9,
+            "end": 264.2,
+            "text": "uncorrelated to one another."
+        },
+        {
+            "number": "094",
+            "title": "The computing inside a hedgefund",
+            "start": 264.2,
+            "end": 268.9,
+            "text": "And also of critical importance is our current portfolio."
+        },
+        {
+            "number": "094",
+            "title": "The computing inside a hedgefund",
+            "start": 268.9,
+            "end": 274.6,
+            "text": "It may be the case that if we're holding something, we don't want to exit it"
+        },
+        {
+            "number": "094",
+            "title": "The computing inside a hedgefund",
+            "start": 274.6,
+            "end": 279.3,
+            "text": "immediately because we'd be penalized by rapidly selling it."
+        },
+        {
+            "number": "094",
+            "title": "The computing inside a hedgefund",
+            "start": 279.3,
+            "end": 284.0,
+            "text": "So this optimizer takes all this information into account to get to the target"
+        },
+        {
+            "number": "094",
+            "title": "The computing inside a hedgefund",
+            "start": 284.0,
+            "end": 289.5,
+            "text": "portfolio that our trading algorithm is working to drive us towards."
+        },
+        {
+            "number": "094",
+            "title": "The computing inside a hedgefund",
+            "start": 289.5,
+            "end": 294.8,
+            "text": "Now one more stop along our road here at the computing infrastructure of a hedge fund"
+        },
+        {
+            "number": "094",
+            "title": "The computing inside a hedgefund",
+            "start": 294.8,
+            "end": 299.5,
+            "text": "is to look at how do we come up with this end day forecast."
+        },
+        {
+            "number": "094",
+            "title": "The computing inside a hedgefund",
+            "start": 299.5,
+            "end": 302.9,
+            "text": "By end, you know, end might be five days or ten days or whatever."
+        },
+        {
+            "number": "094",
+            "title": "The computing inside a hedgefund",
+            "start": 302.9,
+            "end": 305.8,
+            "text": "So here's this end day forecast."
+        },
+        {
+            "number": "094",
+            "title": "The computing inside a hedgefund",
+            "start": 305.8,
+            "end": 308.0,
+            "text": "And we've got some kind of forecasting algorithm."
+        },
+        {
+            "number": "094",
+            "title": "The computing inside a hedgefund",
+            "start": 308.0,
+            "end": 312.1,
+            "text": "This is very often in the form of a model."
+        },
+        {
+            "number": "094",
+            "title": "The computing inside a hedgefund",
+            "start": 312.1,
+            "end": 314.6,
+            "text": "In fact, a machine learning based model."
+        },
+        {
+            "number": "094",
+            "title": "The computing inside a hedgefund",
+            "start": 314.6,
+            "end": 320.9,
+            "text": "And creating these sorts of forecasting algorithms using machine learning is a"
+        },
+        {
+            "number": "094",
+            "title": "The computing inside a hedgefund",
+            "start": 320.9,
+            "end": 325.4,
+            "text": "focus of the last mini course in this group of mini courses."
+        },
+        {
+            "number": "094",
+            "title": "The computing inside a hedgefund",
+            "start": 325.4,
+            "end": 328.3,
+            "text": "Anyhow, how do we get to this forecast?"
+        },
+        {
+            "number": "094",
+            "title": "The computing inside a hedgefund",
+            "start": 328.3,
+            "end": 333.0,
+            "text": "Well, we've usually got some sort of proprietary information."
+        },
+        {
+            "number": "094",
+            "title": "The computing inside a hedgefund",
+            "start": 333.0,
+            "end": 335.4,
+            "text": "Again, historical data."
+        },
+        {
+            "number": "094",
+            "title": "The computing inside a hedgefund",
+            "start": 335.4,
+            "end": 341.1,
+            "text": "And our forecaster crunches all that data to build a model and create a forecast."
+        },
+        {
+            "number": "094",
+            "title": "The computing inside a hedgefund",
+            "start": 341.1,
+            "end": 345.8,
+            "text": "So bringing it all together, that's the computing in a hedge fund."
+        },
+        {
+            "number": "094",
+            "title": "The computing inside a hedgefund",
+            "start": 345.8,
+            "end": 353.4,
+            "text": "And we've also spent some time talking about what might motivate you as a hedge fund manager."
+        },
+        {
+            "number": "094",
+            "title": "The computing inside a hedgefund",
+            "start": 353.4,
+            "end": 354.6,
+            "text": "That's it for this lesson."
+        },
+        {
+            "number": "094",
+            "title": "The computing inside a hedgefund",
+            "start": 354.6,
+            "end": 355.9,
+            "text": "I'll talk to you again soon."
+        }
+    ],
+    "text": "Hedge funds are among the most computationally demanding environments I know of. They have infrastructure requirements like huge databases, significant network connectivity, low latency and high bandwidth connectivity, real time processing, and so on. I want to show you as an example the typical kinds of computing that goes on inside the hedge fund to motivate you for this class. In other words, this isn't exactly the way all hedge funds work. But this is just to give you a taste for how many hedge funds work. And you'll see, I think, that computing and computational capabilities are core here. So we're going to work backwards from the market back towards the sort of back office of the hedge fund. The way things work are we have a certain portfolio that is which stocks we have and whether we're in positive or negative positions with regard to them. The trading algorithm here is central. It's interacting with the market, observing the live portfolio. And what it's trying to do is to get this live portfolio to match some target portfolio. So somewhere further back inside the hedge fund, we've decided what this target portfolio ought to look like. In other words, how many shares of Apple, how many shares of Delta Airlines we should have, and so on. And this trading algorithm is trying to get us there. So it's comparing target with live, and then to move this portfolio towards that target, it's issuing orders. So it sends orders like buy 200 shares of Apple to the market. Those orders get executed or not, and that updates the live portfolio. Now one reason this kind of trading algorithm is important is you don't want to execute everything at once. In other words, suppose we wanted to take a very, very large position in Apple. If we were just to send an order, hey, buy me 10 million shares of Apple, that would affect us detrimentally in the sense that the price for Apple would probably rise, and we would not get a good execution. So this trading algorithm takes those sorts of things into consideration as it moves our live portfolio to be more close to the target portfolio. In fact, sometimes it takes days to enter a particular position. So this doesn't necessarily happen all at once. And there's many, many different types of trading algorithms that have been invented to solve these problems. Now, let's step one step back into the computing of a hedge fund and look at how we arrive at this target portfolio. Here's that target portfolio, and here is some of the data and computing that could go into computing that target portfolio. So from somewhere, machine learning perhaps, we have a forecast of what stock prices are going to be at some time into the future. And that can, of course, drive what our target portfolio ought to be for today. In other words, if we're forecasting that BAC is going to go up, this might represent that we think it's going to go up 5%. We might want to increase our holdings in that. If we think that Apple, for instance, is going to go down, we might want to decrease our holdings. So this forecast informs this algorithm called a portfolio optimizer that works to balance the risks and rewards for a balanced portfolio that considers volatility and correlation between different stocks and so on. We're going to talk a lot about portfolio optimization later in this course. Some other considerations that go into portfolio optimizer are historical data, open, high, low, close, and volume. We can look at that historical data to inform how stocks are correlated or uncorrelated to one another. And also of critical importance is our current portfolio. It may be the case that if we're holding something, we don't want to exit it immediately because we'd be penalized by rapidly selling it. So this optimizer takes all this information into account to get to the target portfolio that our trading algorithm is working to drive us towards. Now one more stop along our road here at the computing infrastructure of a hedge fund is to look at how do we come up with this end day forecast. By end, you know, end might be five days or ten days or whatever. So here's this end day forecast. And we've got some kind of forecasting algorithm. This is very often in the form of a model. In fact, a machine learning based model. And creating these sorts of forecasting algorithms using machine learning is a focus of the last mini course in this group of mini courses. Anyhow, how do we get to this forecast? Well, we've usually got some sort of proprietary information. Again, historical data. And our forecaster crunches all that data to build a model and create a forecast. So bringing it all together, that's the computing in a hedge fund. And we've also spent some time talking about what might motivate you as a hedge fund manager. That's it for this lesson. I'll talk to you again soon."
+}

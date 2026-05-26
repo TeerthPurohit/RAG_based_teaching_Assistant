@@ -1,0 +1,138 @@
+{
+    "chunks": [
+        {
+            "number": "180",
+            "title": "Learning APIs",
+            "start": 0.3,
+            "end": 3.4,
+            "text": "As part of this class, you're going to have to write some software."
+        },
+        {
+            "number": "180",
+            "title": "Learning APIs",
+            "start": 3.4,
+            "end": 8.1,
+            "text": "In particular, you're going to have to write some machine learning algorithms."
+        },
+        {
+            "number": "180",
+            "title": "Learning APIs",
+            "start": 8.1,
+            "end": 12.8,
+            "text": "It's useful if we standardize on what the application program or"
+        },
+        {
+            "number": "180",
+            "title": "Learning APIs",
+            "start": 12.8,
+            "end": 15.9,
+            "text": "interface ought to look like for the code you're going to write."
+        },
+        {
+            "number": "180",
+            "title": "Learning APIs",
+            "start": 15.9,
+            "end": 17.6,
+            "text": "So here's what it looks like."
+        },
+        {
+            "number": "180",
+            "title": "Learning APIs",
+            "start": 17.6,
+            "end": 20.8,
+            "text": "For a linear regression learning algorithm,"
+        },
+        {
+            "number": "180",
+            "title": "Learning APIs",
+            "start": 20.8,
+            "end": 24.8,
+            "text": "your API ought to implement something that works like this."
+        },
+        {
+            "number": "180",
+            "title": "Learning APIs",
+            "start": 24.8,
+            "end": 29.2,
+            "text": "A constructor that creates an instance of one of these learners,"
+        },
+        {
+            "number": "180",
+            "title": "Learning APIs",
+            "start": 29.2,
+            "end": 31.0,
+            "text": "which is now learner."
+        },
+        {
+            "number": "180",
+            "title": "Learning APIs",
+            "start": 31.0,
+            "end": 36.7,
+            "text": "A method called train that can take our training data and train the model."
+        },
+        {
+            "number": "180",
+            "title": "Learning APIs",
+            "start": 36.7,
+            "end": 42.2,
+            "text": "And a query function that takes a list of x values that you want to test and"
+        },
+        {
+            "number": "180",
+            "title": "Learning APIs",
+            "start": 42.2,
+            "end": 46.4,
+            "text": "returns a list of y values according to what the model thinks they should be."
+        },
+        {
+            "number": "180",
+            "title": "Learning APIs",
+            "start": 46.4,
+            "end": 52.0,
+            "text": "These y values in turn are the ones that will compare to y test to see how well"
+        },
+        {
+            "number": "180",
+            "title": "Learning APIs",
+            "start": 52.0,
+            "end": 53.8,
+            "text": "the algorithm works."
+        },
+        {
+            "number": "180",
+            "title": "Learning APIs",
+            "start": 53.8,
+            "end": 57.8,
+            "text": "Our KNN learner ought to have the same methods."
+        },
+        {
+            "number": "180",
+            "title": "Learning APIs",
+            "start": 57.8,
+            "end": 62.9,
+            "text": "The only difference is the constructor here has this additional argument, K,"
+        },
+        {
+            "number": "180",
+            "title": "Learning APIs",
+            "start": 62.9,
+            "end": 65.7,
+            "text": "which would allow you to set how large you want K to be."
+        },
+        {
+            "number": "180",
+            "title": "Learning APIs",
+            "start": 65.7,
+            "end": 69.3,
+            "text": "So if K is three, that means use the three nearest neighbors."
+        },
+        {
+            "number": "180",
+            "title": "Learning APIs",
+            "start": 69.3,
+            "end": 73.3,
+            "text": "But it also has a train and a query function just like linear regression."
+        }
+    ],
+    "text": "As part of this class, you're going to have to write some software. In particular, you're going to have to write some machine learning algorithms. It's useful if we standardize on what the application program or interface ought to look like for the code you're going to write. So here's what it looks like. For a linear regression learning algorithm, your API ought to implement something that works like this. A constructor that creates an instance of one of these learners, which is now learner. A method called train that can take our training data and train the model. And a query function that takes a list of x values that you want to test and returns a list of y values according to what the model thinks they should be. These y values in turn are the ones that will compare to y test to see how well the algorithm works. Our KNN learner ought to have the same methods. The only difference is the constructor here has this additional argument, K, which would allow you to set how large you want K to be. So if K is three, that means use the three nearest neighbors. But it also has a train and a query function just like linear regression."
+}

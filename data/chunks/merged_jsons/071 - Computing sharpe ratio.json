@@ -1,0 +1,83 @@
+{
+    "title": "Computing sharpe ratio",
+    "number": "071",
+    "chunks": [
+        {
+            "title": "Computing sharpe ratio",
+            "number": "071",
+            "start": 0.4,
+            "end": 30.6,
+            "text": "Here's the equation for computing the Sharpe ratio as proposed by William Sharpe himself. It's the expected value of the return on the portfolio minus the risk free rate of return, divided by the standard deviation of that same difference. This is the x-ante formulation, meaning, you know, because we're using expected, it's a forward looking measure of what the Sharpe ratio should be."
+        },
+        {
+            "title": "Computing sharpe ratio",
+            "number": "071",
+            "start": 30.6,
+            "end": 54.0,
+            "text": "Now to calculate this in reality, we need to look back at those values. So for instance, the expected value of this difference is just simply the mean of what that difference was over time. So to calculate this in Python using historical data, we just take the mean of daily returns minus the daily risk free rate and"
+        },
+        {
+            "title": "Computing sharpe ratio",
+            "number": "071",
+            "start": 54.0,
+            "end": 72.0,
+            "text": "divide that by the standard deviation of the daily returns minus the daily risk free rate. Now you may be wondering, what is this risk free rate? Where can we get it? Traditionally, there are a few numbers that people use for this. One is LIBOR, or the London Interbank Offer Rate."
+        },
+        {
+            "title": "Computing sharpe ratio",
+            "number": "071",
+            "start": 73.1,
+            "end": 99.6,
+            "text": "Another is the interest rate on the three month treasury bill. And finally, a value that people have been using a lot over the last few years is zero. Zero is a good approximation to the risk free rate. Now, I've been presenting this as if this risk free rate changes each day. And indeed LIBOR changes each day and three month T-Bell changes a little bit each day."
+        },
+        {
+            "title": "Computing sharpe ratio",
+            "number": "071",
+            "start": 99.6,
+            "end": 128.6,
+            "text": "But there's a shortcut people use a lot that simplifies this equation significantly. And this shortcut makes sense because usually the risk free rate is not given on a daily basis for, for instance, putting your money in a bank account or a certificate of deposit. Usually that's a percentage on an annual basis or a six month basis. So you can convert that annual amount into a daily amount using this simple trick."
+        },
+        {
+            "title": "Computing sharpe ratio",
+            "number": "071",
+            "start": 128.6,
+            "end": 147.5,
+            "text": "Let's suppose our risk free rate is 10% per year or .1. That means if we start at the beginning of the year with a value of 1.0, at the end of the year we have 1.1. So we add 1 here. So this is the total value of our asset at the end of the year."
+        },
+        {
+            "title": "Computing sharpe ratio",
+            "number": "071",
+            "start": 147.5,
+            "end": 169.0,
+            "text": "Now what is the interest rate per day that would enable us to get to this value? It's a number that if we multiply it by itself each day for each day in the trading year or 252 times would arrive at this number. So here's how we do it. We take the 252nd root of that sum, believe it or not."
+        },
+        {
+            "title": "Computing sharpe ratio",
+            "number": "071",
+            "start": 169.0,
+            "end": 186.3,
+            "text": "That's pretty easy to do in Python actually. And subtract 1. And that is our daily risk free rate. We are in most cases in this class just going to approximate the daily risk free rate with zero because that's what it's been for such a long time."
+        },
+        {
+            "title": "Computing sharpe ratio",
+            "number": "071",
+            "start": 186.3,
+            "end": 204.4,
+            "text": "Of course it may be changing in the future so keep this shortcut in mind. Now suppose we want to use this value, which is fine. We would plug that in here. And also plug it in here. So observe that if we plug a constant in here in the standard deviation calculation,"
+        },
+        {
+            "title": "Computing sharpe ratio",
+            "number": "071",
+            "start": 204.4,
+            "end": 229.3,
+            "text": "we can just remove it because a set of values minus a constant, when you calculate the standard deviation, is just as if this were zero. Summing it all up, this is the equation we typically use for calculating sharp ratio using daily returns. We drop the daily risk free rate from the standard deviation because we treat that"
+        },
+        {
+            "title": "Computing sharpe ratio",
+            "number": "071",
+            "start": 229.3,
+            "end": 238.2,
+            "text": "as a constant. If our daily risk free rate is greater than zero, then you need to plug it in here. But we can usually use a constant there as well."
+        }
+    ]
+}

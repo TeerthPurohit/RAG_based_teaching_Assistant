@@ -1,0 +1,208 @@
+{
+    "chunks": [
+        {
+            "number": "160",
+            "title": "Can we do better？",
+            "start": 0.2,
+            "end": 3.3,
+            "text": "So for quite a long time, people built portfolios this way."
+        },
+        {
+            "number": "160",
+            "title": "Can we do better？",
+            "start": 3.3,
+            "end": 8.4,
+            "text": "They would look at a bunch of assets, essentially equally weight them,"
+        },
+        {
+            "number": "160",
+            "title": "Can we do better？",
+            "start": 8.4,
+            "end": 11.4,
+            "text": "and end up with a portfolio that behaves somewhat in between."
+        },
+        {
+            "number": "160",
+            "title": "Can we do better？",
+            "start": 12.7,
+            "end": 16.4,
+            "text": "Now, if you wanted a low risk portfolio,"
+        },
+        {
+            "number": "160",
+            "title": "Can we do better？",
+            "start": 16.4,
+            "end": 21.3,
+            "text": "you should focus on assets that are low risk out here."
+        },
+        {
+            "number": "160",
+            "title": "Can we do better？",
+            "start": 21.3,
+            "end": 26.3,
+            "text": "If you wanted, for instance, high return, you should focus on assets over here."
+        },
+        {
+            "number": "160",
+            "title": "Can we do better？",
+            "start": 26.3,
+            "end": 29.3,
+            "text": "And in both those cases, you would end up with a portfolio,"
+        },
+        {
+            "number": "160",
+            "title": "Can we do better？",
+            "start": 29.3,
+            "end": 33.3,
+            "text": "you know, say here, or a portfolio, say, here."
+        },
+        {
+            "number": "160",
+            "title": "Can we do better？",
+            "start": 34.5,
+            "end": 35.9,
+            "text": "Now, can we do better?"
+        },
+        {
+            "number": "160",
+            "title": "Can we do better？",
+            "start": 35.9,
+            "end": 38.7,
+            "text": "In other words, is it possible to get portfolios over here?"
+        },
+        {
+            "number": "160",
+            "title": "Can we do better？",
+            "start": 38.7,
+            "end": 46.8,
+            "text": "So can we have a portfolio here that has a return similar to these assets over here,"
+        },
+        {
+            "number": "160",
+            "title": "Can we do better？",
+            "start": 46.8,
+            "end": 49.5,
+            "text": "but risk similar to these assets over here?"
+        },
+        {
+            "number": "160",
+            "title": "Can we do better？",
+            "start": 50.4,
+            "end": 55.0,
+            "text": "Indeed we can, and it's due to a man named Harry Markowitz,"
+        },
+        {
+            "number": "160",
+            "title": "Can we do better？",
+            "start": 55.0,
+            "end": 58.3,
+            "text": "who won the Nobel Prize for his insight."
+        },
+        {
+            "number": "160",
+            "title": "Can we do better？",
+            "start": 58.3,
+            "end": 61.6,
+            "text": "What he discovered, and what people had been overlooking,"
+        },
+        {
+            "number": "160",
+            "title": "Can we do better？",
+            "start": 61.6,
+            "end": 65.9,
+            "text": "was the relationship between stocks in terms of covariance."
+        },
+        {
+            "number": "160",
+            "title": "Can we do better？",
+            "start": 65.9,
+            "end": 71.6,
+            "text": "So the resulting performance of a portfolio, especially in terms of risk,"
+        },
+        {
+            "number": "160",
+            "title": "Can we do better？",
+            "start": 71.6,
+            "end": 77.0,
+            "text": "is not just a factor or a blend of the various risks, but"
+        },
+        {
+            "number": "160",
+            "title": "Can we do better？",
+            "start": 77.0,
+            "end": 79.7,
+            "text": "it has to do with how they interact day to day."
+        },
+        {
+            "number": "160",
+            "title": "Can we do better？",
+            "start": 79.7,
+            "end": 84.2,
+            "text": "So indeed, if we pick the right stocks in the right proportions,"
+        },
+        {
+            "number": "160",
+            "title": "Can we do better？",
+            "start": 84.2,
+            "end": 91.3,
+            "text": "we can get a portfolio that performs over here that in fact can have lower risk"
+        },
+        {
+            "number": "160",
+            "title": "Can we do better？",
+            "start": 91.3,
+            "end": 94.0,
+            "text": "than any of the individual assets."
+        },
+        {
+            "number": "160",
+            "title": "Can we do better？",
+            "start": 94.0,
+            "end": 95.9,
+            "text": "And I'll show you how to do that in just a moment."
+        },
+        {
+            "number": "160",
+            "title": "Can we do better？",
+            "start": 95.9,
+            "end": 99.2,
+            "text": "Before I do that, I want to mention, though, one other thing about Harry Markowitz."
+        },
+        {
+            "number": "160",
+            "title": "Can we do better？",
+            "start": 99.2,
+            "end": 107.7,
+            "text": "Up until the time of his discovery, most people viewed bonds as the lowest risk asset."
+        },
+        {
+            "number": "160",
+            "title": "Can we do better？",
+            "start": 107.7,
+            "end": 112.7,
+            "text": "In other words, if you wanted low risk, you should use bonds only."
+        },
+        {
+            "number": "160",
+            "title": "Can we do better？",
+            "start": 112.7,
+            "end": 118.9,
+            "text": "Markowitz showed that a blend of stocks and bonds is actually lower risk than"
+        },
+        {
+            "number": "160",
+            "title": "Can we do better？",
+            "start": 118.9,
+            "end": 121.0,
+            "text": "either one of those by themselves."
+        },
+        {
+            "number": "160",
+            "title": "Can we do better？",
+            "start": 121.0,
+            "end": 122.7,
+            "text": "And I'll show you how that makes sense in a moment."
+        }
+    ],
+    "text": "So for quite a long time, people built portfolios this way. They would look at a bunch of assets, essentially equally weight them, and end up with a portfolio that behaves somewhat in between. Now, if you wanted a low risk portfolio, you should focus on assets that are low risk out here. If you wanted, for instance, high return, you should focus on assets over here. And in both those cases, you would end up with a portfolio, you know, say here, or a portfolio, say, here. Now, can we do better? In other words, is it possible to get portfolios over here? So can we have a portfolio here that has a return similar to these assets over here, but risk similar to these assets over here? Indeed we can, and it's due to a man named Harry Markowitz, who won the Nobel Prize for his insight. What he discovered, and what people had been overlooking, was the relationship between stocks in terms of covariance. So the resulting performance of a portfolio, especially in terms of risk, is not just a factor or a blend of the various risks, but it has to do with how they interact day to day. So indeed, if we pick the right stocks in the right proportions, we can get a portfolio that performs over here that in fact can have lower risk than any of the individual assets. And I'll show you how to do that in just a moment. Before I do that, I want to mention, though, one other thing about Harry Markowitz. Up until the time of his discovery, most people viewed bonds as the lowest risk asset. In other words, if you wanted low risk, you should use bonds only. Markowitz showed that a blend of stocks and bonds is actually lower risk than either one of those by themselves. And I'll show you how that makes sense in a moment."
+}

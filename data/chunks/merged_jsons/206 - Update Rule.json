@@ -1,0 +1,104 @@
+{
+    "title": "Update Rule",
+    "number": "206",
+    "chunks": [
+        {
+            "title": "Update Rule",
+            "number": "206",
+            "start": 0.4,
+            "end": 21.9,
+            "text": "Consider our robot here that's interacting with the world. The first thing it sees is some state. And as we've talked about already, the thing to do now is to take that state, go look in the q table, and find the action that corresponds to the maximum q value. And then take that action."
+        },
+        {
+            "title": "Update Rule",
+            "number": "206",
+            "start": 21.9,
+            "end": 42.1,
+            "text": "Once that action is taken, that results in two new things. One is a new state, we call that s prime, and a reward. All that information comes into the robot and it needs to use that information to update its q table. So as a consequence of this interaction with the world,"
+        },
+        {
+            "title": "Update Rule",
+            "number": "206",
+            "start": 42.1,
+            "end": 61.7,
+            "text": "it's got an s, an a, an s prime, and an r. How does it take that information to improve this q table? There are two main parts to the update rule. The first is, what is the old value that we used to have? And that's q s a."
+        },
+        {
+            "title": "Update Rule",
+            "number": "206",
+            "start": 62.8,
+            "end": 77.0,
+            "text": "And what is our improved estimate? And we want to blend them together. And to combine them, we introduce this new variable alpha. Alpha is the learning rate. Alpha can take on any value from 0 to 1."
+        },
+        {
+            "title": "Update Rule",
+            "number": "206",
+            "start": 77.0,
+            "end": 101.1,
+            "text": "Usually we use about 0.2. And what that means is, in our new improved version of q, which I indicate over here as q prime, it's a blend of alpha times the improved estimate plus 1 minus alpha of the old value. So larger values of alpha cause us to learn more quickly."
+        },
+        {
+            "title": "Update Rule",
+            "number": "206",
+            "start": 101.1,
+            "end": 129.8,
+            "text": "Lower values of alpha cause the learning to be more slow. So a low value of alpha, for instance, means that in this update rule, the previous value for q of s a is more strongly preserved. So stretching it out in a little bit more detail, again, we have here our current value for the q at s a plus alpha times the immediate reward,"
+        },
+        {
+            "title": "Update Rule",
+            "number": "206",
+            "start": 129.8,
+            "end": 147.6,
+            "text": "plus gamma times later rewards. Now we're introducing gamma here. So I promise there's only two new parameters here that you have to worry about. What gamma is, is the discount rate. And similar to alpha, gamma usually ranges from 0 to 1."
+        },
+        {
+            "title": "Update Rule",
+            "number": "206",
+            "start": 147.6,
+            "end": 172.3,
+            "text": "A low value of gamma means that we value later rewards less. Remember the discount rate when we were talking about bonds? Same thing. A low value of gamma equates to essentially a high discount rate. A high value of gamma, in other words, a gamma near 1,"
+        },
+        {
+            "title": "Update Rule",
+            "number": "206",
+            "start": 172.3,
+            "end": 195.1,
+            "text": "means that we value later rewards very significantly. If we were to use 1.0, that means a reward 20 steps in the future is worth just as much as a reward right now. Now, we have to expand this component here in a little bit more detail. This next part here is a little bit tricky, but don't worry,"
+        },
+        {
+            "title": "Update Rule",
+            "number": "206",
+            "start": 195.1,
+            "end": 219.8,
+            "text": "we're going to step through it step by step. This component represents our future discounted rewards. In other words, we end up in state s prime, and from then on out, we're going to act optimally, or at least the best that we know how to. And the question is, what is the value of those future rewards if we reach state s prime,"
+        },
+        {
+            "title": "Update Rule",
+            "number": "206",
+            "start": 219.8,
+            "end": 238.6,
+            "text": "and we act appropriately? Well, it is simply that q value. But we have to find out what the action is that we would have taken so that we can reference the q table properly. So, if we're in state s prime, the action that we would take that would maximize our"
+        },
+        {
+            "title": "Update Rule",
+            "number": "206",
+            "start": 238.6,
+            "end": 267.0,
+            "text": "future reward is argmax a prime. So, a prime is that next action that we're going to take with regard to q s prime a prime. So, we're going to find that best a prime, that best action that maximizes the value when we're in that state. So, this collapses just to a prime, and then we look up the q table value for q s prime a prime."
+        },
+        {
+            "title": "Update Rule",
+            "number": "206",
+            "start": 267.0,
+            "end": 292.0,
+            "text": "So, that allows us to bring it all together now. So, our update rule is the following. Our new q value in state s action a is that old value multiplied by 1 minus alpha. So, depending on how large alpha is, we value that old value more or less. Plus alpha times our new best estimate."
+        },
+        {
+            "title": "Update Rule",
+            "number": "206",
+            "start": 293.4,
+            "end": 306.2,
+            "text": "And our new best estimate is, again, our immediate reward plus the discounted reward for all of our future actions. And that's it. This is the equation you need to know to implement q learning."
+        }
+    ]
+}

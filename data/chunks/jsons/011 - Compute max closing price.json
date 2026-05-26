@@ -1,0 +1,152 @@
+{
+    "chunks": [
+        {
+            "number": "011",
+            "title": "Compute max closing price",
+            "start": 0.0,
+            "end": 3.3,
+            "text": "Now let's do some more processing on the data frame."
+        },
+        {
+            "number": "011",
+            "title": "Compute max closing price",
+            "start": 3.3,
+            "end": 7.6,
+            "text": "We can start with finding the maximum closing value for"
+        },
+        {
+            "number": "011",
+            "title": "Compute max closing price",
+            "start": 7.6,
+            "end": 10.6,
+            "text": "each of the stock Apple and IBM."
+        },
+        {
+            "number": "011",
+            "title": "Compute max closing price",
+            "start": 10.6,
+            "end": 11.9,
+            "text": "So here's the code."
+        },
+        {
+            "number": "011",
+            "title": "Compute max closing price",
+            "start": 11.9,
+            "end": 17.5,
+            "text": "The test run function simply loops over two symbols, Apple and"
+        },
+        {
+            "number": "011",
+            "title": "Compute max closing price",
+            "start": 17.5,
+            "end": 23.4,
+            "text": "IBM, and will print the maximum closing value of each of the stock."
+        },
+        {
+            "number": "011",
+            "title": "Compute max closing price",
+            "start": 23.4,
+            "end": 27.9,
+            "text": "Let's call the function getMaxClose along with the symbol."
+        },
+        {
+            "number": "011",
+            "title": "Compute max closing price",
+            "start": 27.9,
+            "end": 31.7,
+            "text": "Here's the function that will compute the maximum closing value."
+        },
+        {
+            "number": "011",
+            "title": "Compute max closing price",
+            "start": 31.7,
+            "end": 35.2,
+            "text": "Let's see what getMaxClose function does."
+        },
+        {
+            "number": "011",
+            "title": "Compute max closing price",
+            "start": 35.2,
+            "end": 39.8,
+            "text": "The first step would be to read in the CSV into the data frame."
+        },
+        {
+            "number": "011",
+            "title": "Compute max closing price",
+            "start": 39.8,
+            "end": 44.7,
+            "text": "The next step would be to get only the closing values from the entire data frame."
+        },
+        {
+            "number": "011",
+            "title": "Compute max closing price",
+            "start": 44.7,
+            "end": 48.1,
+            "text": "Which means we have to extract the column close."
+        },
+        {
+            "number": "011",
+            "title": "Compute max closing price",
+            "start": 48.1,
+            "end": 49.8,
+            "text": "This is how you do it."
+        },
+        {
+            "number": "011",
+            "title": "Compute max closing price",
+            "start": 49.8,
+            "end": 56.4,
+            "text": "df square brackets pass the parameter of the column name that is close."
+        },
+        {
+            "number": "011",
+            "title": "Compute max closing price",
+            "start": 56.4,
+            "end": 59.9,
+            "text": "Make sure you include the inverted commas."
+        },
+        {
+            "number": "011",
+            "title": "Compute max closing price",
+            "start": 59.9,
+            "end": 63.4,
+            "text": "The last step is to calculate the maximum value and"
+        },
+        {
+            "number": "011",
+            "title": "Compute max closing price",
+            "start": 63.4,
+            "end": 69.1,
+            "text": "it is as simple as calling the max function over the extracted data."
+        },
+        {
+            "number": "011",
+            "title": "Compute max closing price",
+            "start": 69.1,
+            "end": 71.5,
+            "text": "Let's go ahead and print this."
+        },
+        {
+            "number": "011",
+            "title": "Compute max closing price",
+            "start": 71.5,
+            "end": 73.1,
+            "text": "Here's your output."
+        },
+        {
+            "number": "011",
+            "title": "Compute max closing price",
+            "start": 73.1,
+            "end": 78.1,
+            "text": "The max close for the Apple is 680.44 and"
+        },
+        {
+            "number": "011",
+            "title": "Compute max closing price",
+            "start": 78.1,
+            "end": 81.9,
+            "text": "the max close for the IBM is 209.5."
+        }
+    ],
+    "text": "Now let's do some more processing on the data frame. We can start with finding the maximum closing value for each of the stock Apple and IBM. So here's the code. The test run function simply loops over two symbols, Apple and IBM, and will print the maximum closing value of each of the stock. Let's call the function getMaxClose along with the symbol. Here's the function that will compute the maximum closing value. Let's see what getMaxClose function does. The first step would be to read in the CSV into the data frame. The next step would be to get only the closing values from the entire data frame. Which means we have to extract the column close. This is how you do it. df square brackets pass the parameter of the column name that is close. Make sure you include the inverted commas. The last step is to calculate the maximum value and it is as simple as calling the max function over the extracted data. Let's go ahead and print this. Here's your output. The max close for the Apple is 680.44 and the max close for the IBM is 209.5."
+}

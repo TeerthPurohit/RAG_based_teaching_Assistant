@@ -1,0 +1,62 @@
+{
+    "title": "Boosting",
+    "number": "194",
+    "chunks": [
+        {
+            "title": "Boosting",
+            "number": "194",
+            "start": 0.2,
+            "end": 20.7,
+            "text": "Boosting is a fairly simple variation on bagging that strives to improve the learners by focusing on areas where the system is not performing well. One of the most well-known algorithms in this area is called Adaboost. And I believe it's Ada, not Ada, because Ada stands for adaptive. Here's how Adaboost works."
+        },
+        {
+            "title": "Boosting",
+            "number": "194",
+            "start": 20.7,
+            "end": 37.2,
+            "text": "We build our first bag of data in the usual way. We select randomly from our training data. We then train a model in the usual way. The next thing we do, and this is something different, we take all of our training data and use it to test the model."
+        },
+        {
+            "title": "Boosting",
+            "number": "194",
+            "start": 37.2,
+            "end": 59.6,
+            "text": "And we're going to discover that some of the points in here, our x's and our y's, are not well predicted. So there's going to be some points in here for which there is significant error. Now, when we go to build our next bag of data, again, we choose randomly from our original data."
+        },
+        {
+            "title": "Boosting",
+            "number": "194",
+            "start": 59.6,
+            "end": 78.8,
+            "text": "But each instance is weighted according to this error. So these points that had significant error are more likely to get picked and to go into this bag than any other individual instance. So as you see, we ended up with a few of those points in here and a smattering of all the other ones as well."
+        },
+        {
+            "title": "Boosting",
+            "number": "194",
+            "start": 78.8,
+            "end": 97.2,
+            "text": "So we build a model from this data and then we test it. Now we test our system all together. In other words, we've got a sort of miniature ensemble here of just two learners. But we test both of them. We test them by inputting, again, this in sample data."
+        },
+        {
+            "title": "Boosting",
+            "number": "194",
+            "start": 97.2,
+            "end": 114.2,
+            "text": "We test on each instance and we combine their outputs. And again, we measure error across all this data. Maybe this time, these points got modeled better, but there were some other ones up here that weren't as good. And thus, we build our next bag and our next model."
+        },
+        {
+            "title": "Boosting",
+            "number": "194",
+            "start": 114.2,
+            "end": 140.1,
+            "text": "And we just continue this over and over and over again, up until M, or the total number of bags we're going to be using. So to recap, bagging when we build one of these instances is simply choosing some subset of the data, at random with replacement, and you create each bag in the same way. Boosting is an add-on to this idea where in subsequent bags we choose those data instances"
+        },
+        {
+            "title": "Boosting",
+            "number": "194",
+            "start": 140.1,
+            "end": 143.3,
+            "text": "that had been modeled poorly in the overall system before."
+        }
+    ]
+}

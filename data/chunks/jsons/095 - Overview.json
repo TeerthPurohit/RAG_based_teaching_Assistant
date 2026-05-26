@@ -1,0 +1,33 @@
+{
+    "chunks": [
+        {
+            "number": "095",
+            "title": "Overview",
+            "start": 0.0,
+            "end": 4.8,
+            "text": "You may have experienced trading stocks over the internet using a platform like E-Trade,"
+        },
+        {
+            "number": "095",
+            "title": "Overview",
+            "start": 4.8,
+            "end": 7.4,
+            "text": "Interactive Brokers, or another online broker."
+        },
+        {
+            "number": "095",
+            "title": "Overview",
+            "start": 7.4,
+            "end": 10.6,
+            "text": "What happens when you click buy?"
+        },
+        {
+            "number": "095",
+            "title": "Overview",
+            "start": 10.6,
+            "end": 13.8,
+            "text": "It's probably a lot more complicated than you think."
+        }
+    ],
+    "text": "You may have experienced trading stocks over the internet using a platform like E-Trade, Interactive Brokers, or another online broker. What happens when you click buy? It's probably a lot more complicated than you think."
+}

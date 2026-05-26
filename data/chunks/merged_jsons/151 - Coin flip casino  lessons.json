@@ -1,0 +1,55 @@
+{
+    "title": "Coin flip casino  lessons",
+    "number": "151",
+    "chunks": [
+        {
+            "title": "Coin flip casino  lessons",
+            "number": "151",
+            "start": 0.6,
+            "end": 25.4,
+            "text": "So let's step back a moment and look at these results for these two extremes. So we had this one extreme where we bet all thousand chips on a single coin flip, and another where we bet one chip on each of a thousand coin flips. Now the risk adjusted reward or the sharp ratio for the single bet was 0.63."
+        },
+        {
+            "title": "Coin flip casino  lessons",
+            "number": "151",
+            "start": 25.4,
+            "end": 45.6,
+            "text": "In other words, if we bet all thousand chips on a single flip of the coin, our sharp ratio is 0.63. So let's call this SRSingle. Now the sharp ratio, if we bet a thousand times, in other words, one chip on each of a thousand tables, turns out to be 20."
+        },
+        {
+            "title": "Coin flip casino  lessons",
+            "number": "151",
+            "start": 45.6,
+            "end": 62.1,
+            "text": "So what's the relationship between these two? Of course, 20 is about 40 times bigger than 0.63, but there's something more interesting there. And it turns out that it's this. So if we take the single bet case and multiply it by the square root of a thousand,"
+        },
+        {
+            "title": "Coin flip casino  lessons",
+            "number": "151",
+            "start": 62.1,
+            "end": 87.3,
+            "text": "we get the sharp ratio of our multi-bet scenario where we bet a thousand at once. So isn't that curious? So it turns out that in general, if you carry this scenario out to more examples, that if you split your bets evenly across multiple tables, this relationship will hold. In other words, the sharp ratio for the single bet, you know,"
+        },
+        {
+            "title": "Coin flip casino  lessons",
+            "number": "151",
+            "start": 87.3,
+            "end": 112.9,
+            "text": "a thousand chips on one table is sort of our base case. And as we spread it out over more and more tables, the sharp ratio improves by the square root of that number of bets. And this relation is exactly like the fundamental law of active portfolio management. Namely, our overall performance is related to the skill in the case of making a single"
+        },
+        {
+            "title": "Coin flip casino  lessons",
+            "number": "151",
+            "start": 112.9,
+            "end": 141.0,
+            "text": "pick times the square root of the number of picks that we're able to make. So our coin flip casino has helped to show us how we can derive an equation like this for betting, which is what buying stocks really is. And to show that you can improve things either by having more skill. In the case of coin flips, skill is how biased is the coin."
+        },
+        {
+            "title": "Coin flip casino  lessons",
+            "number": "151",
+            "start": 141.0,
+            "end": 153.2,
+            "text": "In the case of investing, it's how good are you at predicting the future return of a stock. Or you can improve your performance by increasing your breadth, but you only get to improve it by the square root of your breadth."
+        }
+    ]
+}

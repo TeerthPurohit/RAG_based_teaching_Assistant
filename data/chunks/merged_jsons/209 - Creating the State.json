@@ -1,0 +1,41 @@
+{
+    "title": "Creating the State",
+    "number": "209",
+    "chunks": [
+        {
+            "title": "Creating the State",
+            "number": "209",
+            "start": 0.3,
+            "end": 19.3,
+            "text": "So an important consideration in what we're doing here is that our state is a single number, it's an integer. That way we can address it in a table, in our Q table. It is certainly the case that some reinforcement learning methods are able to treat the state as a continuous value."
+        },
+        {
+            "title": "Creating the State",
+            "number": "209",
+            "start": 19.3,
+            "end": 35.1,
+            "text": "But just to get started here, let's use state as an integer so we can work more easily with the data. Now, we have to do a little bit of work to get our state to an integer. And here is the general way to do it. Our first step is to discretize each factor."
+        },
+        {
+            "title": "Creating the State",
+            "number": "209",
+            "start": 35.1,
+            "end": 55.3,
+            "text": "It's a weird word, I'll explain it in a moment. But it essentially means convert that real number into an integer. Next is to combine all of those integers together into a single number. We're assuming that we're using a discrete state space. And that means more or less that our overall state is going to be this one"
+        },
+        {
+            "title": "Creating the State",
+            "number": "209",
+            "start": 55.3,
+            "end": 83.4,
+            "text": "integer that represents at once all of our factors. So consider that we have four factors and each one is a real number. Now we have separately beforehand figured out how to discretize each one of these factors. So we run each of these factors through their individual discretizers and we get an integer. Now I've happened to select integers between 0 and 9."
+        },
+        {
+            "title": "Creating the State",
+            "number": "209",
+            "start": 83.4,
+            "end": 111.6,
+            "text": "But you can have larger ranges, you know, for instance, 0 to 20 or 0 to 100 even. It's easy if we just go from 0 to 9 because then we can stack them together into a number. But it's not too hard to think of algorithms that would enable you to combine larger ranges of integers together. In this case we're just able to stack them one after the other into our overall discretized state."
+        }
+    ]
+}

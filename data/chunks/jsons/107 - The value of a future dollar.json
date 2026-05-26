@@ -1,0 +1,453 @@
+{
+    "chunks": [
+        {
+            "number": "107",
+            "title": "The value of a future dollar",
+            "start": 0.6,
+            "end": 5.9,
+            "text": "It should be obvious now that the value of a dollar delivered in the future,"
+        },
+        {
+            "number": "107",
+            "title": "The value of a future dollar",
+            "start": 5.9,
+            "end": 12.8,
+            "text": "even if it comes from the US government, is worth less than a real dollar right now."
+        },
+        {
+            "number": "107",
+            "title": "The value of a future dollar",
+            "start": 12.8,
+            "end": 16.5,
+            "text": "A real dollar right now is worth $1."
+        },
+        {
+            "number": "107",
+            "title": "The value of a future dollar",
+            "start": 16.5,
+            "end": 21.1,
+            "text": "If I promise to give you a dollar in the future, it's not worth as much."
+        },
+        {
+            "number": "107",
+            "title": "The value of a future dollar",
+            "start": 21.1,
+            "end": 22.9,
+            "text": "So how should we estimate or"
+        },
+        {
+            "number": "107",
+            "title": "The value of a future dollar",
+            "start": 22.9,
+            "end": 27.6,
+            "text": "think about the value of dollars delivered in the future?"
+        },
+        {
+            "number": "107",
+            "title": "The value of a future dollar",
+            "start": 27.6,
+            "end": 32.9,
+            "text": "I think we've also agreed that the United States government promising to give you a dollar"
+        },
+        {
+            "number": "107",
+            "title": "The value of a future dollar",
+            "start": 32.9,
+            "end": 38.3,
+            "text": "in the future is worth a bit more than the promise of Tucker Balch giving you a dollar"
+        },
+        {
+            "number": "107",
+            "title": "The value of a future dollar",
+            "start": 38.3,
+            "end": 39.6,
+            "text": "in the future."
+        },
+        {
+            "number": "107",
+            "title": "The value of a future dollar",
+            "start": 39.6,
+            "end": 45.6,
+            "text": "But having a real dollar in your hand right now, this one is worth the most."
+        },
+        {
+            "number": "107",
+            "title": "The value of a future dollar",
+            "start": 45.6,
+            "end": 46.6,
+            "text": "Why is that?"
+        },
+        {
+            "number": "107",
+            "title": "The value of a future dollar",
+            "start": 46.6,
+            "end": 49.0,
+            "text": "You know intuitively why that is."
+        },
+        {
+            "number": "107",
+            "title": "The value of a future dollar",
+            "start": 49.0,
+            "end": 55.2,
+            "text": "The deeper reason is there's a chance that I won't deliver on that guarantee."
+        },
+        {
+            "number": "107",
+            "title": "The value of a future dollar",
+            "start": 55.2,
+            "end": 59.1,
+            "text": "Whereas we can be pretty sure the US government will deliver on that guarantee."
+        },
+        {
+            "number": "107",
+            "title": "The value of a future dollar",
+            "start": 59.1,
+            "end": 61.2,
+            "text": "So it amounts to risk."
+        },
+        {
+            "number": "107",
+            "title": "The value of a future dollar",
+            "start": 61.2,
+            "end": 64.8,
+            "text": "And it all boils down to interest rate."
+        },
+        {
+            "number": "107",
+            "title": "The value of a future dollar",
+            "start": 64.8,
+            "end": 69.8,
+            "text": "We're trying to figure out the present value or PV of a dollar that will be delivered in"
+        },
+        {
+            "number": "107",
+            "title": "The value of a future dollar",
+            "start": 69.8,
+            "end": 71.1,
+            "text": "the future."
+        },
+        {
+            "number": "107",
+            "title": "The value of a future dollar",
+            "start": 71.1,
+            "end": 75.3,
+            "text": "So it's worth some fraction of this future value."
+        },
+        {
+            "number": "107",
+            "title": "The value of a future dollar",
+            "start": 75.3,
+            "end": 79.9,
+            "text": "Present value is worth some fraction of the future value."
+        },
+        {
+            "number": "107",
+            "title": "The value of a future dollar",
+            "start": 79.9,
+            "end": 82.7,
+            "text": "So here's the formula in its entirety."
+        },
+        {
+            "number": "107",
+            "title": "The value of a future dollar",
+            "start": 82.7,
+            "end": 92.3,
+            "text": "Present value is equal to future value divided by one plus interest rate raised to the I."
+        },
+        {
+            "number": "107",
+            "title": "The value of a future dollar",
+            "start": 92.3,
+            "end": 98.4,
+            "text": "So the I is how far into the future this payment is going to be delivered."
+        },
+        {
+            "number": "107",
+            "title": "The value of a future dollar",
+            "start": 98.4,
+            "end": 104.1,
+            "text": "So for instance if it's going to be delivered right now, I is equal to zero,"
+        },
+        {
+            "number": "107",
+            "title": "The value of a future dollar",
+            "start": 104.1,
+            "end": 110.7,
+            "text": "this whole component becomes one and present value is equal simply to future value."
+        },
+        {
+            "number": "107",
+            "title": "The value of a future dollar",
+            "start": 110.7,
+            "end": 115.7,
+            "text": "In other words if we're going to pay a dollar, present value is worth one dollar."
+        },
+        {
+            "number": "107",
+            "title": "The value of a future dollar",
+            "start": 115.7,
+            "end": 124.5,
+            "text": "If in the future that future is going to be one year from now, it's one plus the interest rate raised"
+        },
+        {
+            "number": "107",
+            "title": "The value of a future dollar",
+            "start": 124.5,
+            "end": 131.8,
+            "text": "to the one power and that is what the future value of that dollar is."
+        },
+        {
+            "number": "107",
+            "title": "The value of a future dollar",
+            "start": 131.8,
+            "end": 134.2,
+            "text": "So let's work out an example."
+        },
+        {
+            "number": "107",
+            "title": "The value of a future dollar",
+            "start": 134.2,
+            "end": 138.3,
+            "text": "Suppose with the United States government because they're so trustworthy,"
+        },
+        {
+            "number": "107",
+            "title": "The value of a future dollar",
+            "start": 138.3,
+            "end": 141.4,
+            "text": "you can negotiate a 1% interest rate."
+        },
+        {
+            "number": "107",
+            "title": "The value of a future dollar",
+            "start": 141.4,
+            "end": 151.1,
+            "text": "Actually as of today, which is 2015, this one year interest rate is only one quarter of a percent."
+        },
+        {
+            "number": "107",
+            "title": "The value of a future dollar",
+            "start": 151.1,
+            "end": 154.3,
+            "text": "In other words interest rates are very, very low."
+        },
+        {
+            "number": "107",
+            "title": "The value of a future dollar",
+            "start": 154.3,
+            "end": 160.2,
+            "text": "If you work it out, the value of a one dollar bill paid to you in the future,"
+        },
+        {
+            "number": "107",
+            "title": "The value of a future dollar",
+            "start": 160.2,
+            "end": 165.4,
+            "text": "one year from now at a 1% interest rate is 99 cents."
+        },
+        {
+            "number": "107",
+            "title": "The value of a future dollar",
+            "start": 165.4,
+            "end": 173.5,
+            "text": "In other words today it's worthwhile for you to pay 99 cents to the U.S. government"
+        },
+        {
+            "number": "107",
+            "title": "The value of a future dollar",
+            "start": 173.5,
+            "end": 177.0,
+            "text": "for the promise that they'll give you a dollar in a year."
+        },
+        {
+            "number": "107",
+            "title": "The value of a future dollar",
+            "start": 177.0,
+            "end": 179.7,
+            "text": "Okay, consider now the Balch bond."
+        },
+        {
+            "number": "107",
+            "title": "The value of a future dollar",
+            "start": 179.7,
+            "end": 187.6,
+            "text": "So it's hard for me to sell you this asset right now for the same price as the U.S. government"
+        },
+        {
+            "number": "107",
+            "title": "The value of a future dollar",
+            "start": 187.6,
+            "end": 193.1,
+            "text": "because if you had to choose between me and the U.S. government for a 1% return,"
+        },
+        {
+            "number": "107",
+            "title": "The value of a future dollar",
+            "start": 193.1,
+            "end": 195.3,
+            "text": "why wouldn't you choose the U.S. government?"
+        },
+        {
+            "number": "107",
+            "title": "The value of a future dollar",
+            "start": 195.3,
+            "end": 199.0,
+            "text": "You should go with the U.S. government because they're more trustworthy than I am."
+        },
+        {
+            "number": "107",
+            "title": "The value of a future dollar",
+            "start": 199.0,
+            "end": 201.1,
+            "text": "So how can I attract you?"
+        },
+        {
+            "number": "107",
+            "title": "The value of a future dollar",
+            "start": 201.1,
+            "end": 205.9,
+            "text": "Well, I can offer you a higher interest rate, let's say 5%."
+        },
+        {
+            "number": "107",
+            "title": "The value of a future dollar",
+            "start": 205.9,
+            "end": 210.0,
+            "text": "And that works out to a value of about 95 cents."
+        },
+        {
+            "number": "107",
+            "title": "The value of a future dollar",
+            "start": 210.0,
+            "end": 216.0,
+            "text": "In other words, in order for me to attract you to buy my promise for a 1 dollar in the future,"
+        },
+        {
+            "number": "107",
+            "title": "The value of a future dollar",
+            "start": 216.0,
+            "end": 218.6,
+            "text": "I could only charge you 95 cents."
+        },
+        {
+            "number": "107",
+            "title": "The value of a future dollar",
+            "start": 218.6,
+            "end": 221.6,
+            "text": "So let's consider this in a chart form."
+        },
+        {
+            "number": "107",
+            "title": "The value of a future dollar",
+            "start": 221.6,
+            "end": 227.6,
+            "text": "So how much is a dollar worth if I promise to give it to you today?"
+        },
+        {
+            "number": "107",
+            "title": "The value of a future dollar",
+            "start": 227.6,
+            "end": 231.8,
+            "text": "Well, in that case this I is equal to 0."
+        },
+        {
+            "number": "107",
+            "title": "The value of a future dollar",
+            "start": 231.8,
+            "end": 237.4,
+            "text": "So the present value is equal to the future value of all this divided by 1."
+        },
+        {
+            "number": "107",
+            "title": "The value of a future dollar",
+            "start": 237.4,
+            "end": 243.4,
+            "text": "So in all cases, if the number of years we're going to wait for the delivery of that dollar is 0,"
+        },
+        {
+            "number": "107",
+            "title": "The value of a future dollar",
+            "start": 243.4,
+            "end": 245.2,
+            "text": "the value is $1."
+        },
+        {
+            "number": "107",
+            "title": "The value of a future dollar",
+            "start": 245.2,
+            "end": 250.1,
+            "text": "But what if we talk about promising you that dollar in the future?"
+        },
+        {
+            "number": "107",
+            "title": "The value of a future dollar",
+            "start": 250.1,
+            "end": 255.4,
+            "text": "If we look at this for the U.S. bond, in one year we see it's worth 99 cents."
+        },
+        {
+            "number": "107",
+            "title": "The value of a future dollar",
+            "start": 255.4,
+            "end": 261.8,
+            "text": "If we carry that forward, it's sort of this exponentially decreasing value like that."
+        },
+        {
+            "number": "107",
+            "title": "The value of a future dollar",
+            "start": 261.8,
+            "end": 269.9,
+            "text": "If you look at the Balch bond, which is of course not as worthwhile as the U.S. government,"
+        },
+        {
+            "number": "107",
+            "title": "The value of a future dollar",
+            "start": 269.9,
+            "end": 272.9,
+            "text": "you see one that decreases at an even faster rate."
+        },
+        {
+            "number": "107",
+            "title": "The value of a future dollar",
+            "start": 272.9,
+            "end": 279.0,
+            "text": "So in other words, at each year in the future, this $1 is worth less."
+        },
+        {
+            "number": "107",
+            "title": "The value of a future dollar",
+            "start": 279.0,
+            "end": 287.0,
+            "text": "In other words, if I promise to give you a dollar in two years, it's worth less than if I promise to give you a dollar in a year,"
+        },
+        {
+            "number": "107",
+            "title": "The value of a future dollar",
+            "start": 287.0,
+            "end": 290.0,
+            "text": "it's worth even less than if I promise to give you the dollar right now."
+        },
+        {
+            "number": "107",
+            "title": "The value of a future dollar",
+            "start": 290.0,
+            "end": 294.0,
+            "text": "And these charts are different depending on what the interest rate is."
+        },
+        {
+            "number": "107",
+            "title": "The value of a future dollar",
+            "start": 294.0,
+            "end": 299.0,
+            "text": "In other words, for the higher interest rate assets, they decrease further into the future."
+        },
+        {
+            "number": "107",
+            "title": "The value of a future dollar",
+            "start": 299.0,
+            "end": 306.0,
+            "text": "In other words, a dollar delivered in the future is worth less now than the lower interest rate assets."
+        }
+    ],
+    "text": "It should be obvious now that the value of a dollar delivered in the future, even if it comes from the US government, is worth less than a real dollar right now. A real dollar right now is worth $1. If I promise to give you a dollar in the future, it's not worth as much. So how should we estimate or think about the value of dollars delivered in the future? I think we've also agreed that the United States government promising to give you a dollar in the future is worth a bit more than the promise of Tucker Balch giving you a dollar in the future. But having a real dollar in your hand right now, this one is worth the most. Why is that? You know intuitively why that is. The deeper reason is there's a chance that I won't deliver on that guarantee. Whereas we can be pretty sure the US government will deliver on that guarantee. So it amounts to risk. And it all boils down to interest rate. We're trying to figure out the present value or PV of a dollar that will be delivered in the future. So it's worth some fraction of this future value. Present value is worth some fraction of the future value. So here's the formula in its entirety. Present value is equal to future value divided by one plus interest rate raised to the I. So the I is how far into the future this payment is going to be delivered. So for instance if it's going to be delivered right now, I is equal to zero, this whole component becomes one and present value is equal simply to future value. In other words if we're going to pay a dollar, present value is worth one dollar. If in the future that future is going to be one year from now, it's one plus the interest rate raised to the one power and that is what the future value of that dollar is. So let's work out an example. Suppose with the United States government because they're so trustworthy, you can negotiate a 1% interest rate. Actually as of today, which is 2015, this one year interest rate is only one quarter of a percent. In other words interest rates are very, very low. If you work it out, the value of a one dollar bill paid to you in the future, one year from now at a 1% interest rate is 99 cents. In other words today it's worthwhile for you to pay 99 cents to the U.S. government for the promise that they'll give you a dollar in a year. Okay, consider now the Balch bond. So it's hard for me to sell you this asset right now for the same price as the U.S. government because if you had to choose between me and the U.S. government for a 1% return, why wouldn't you choose the U.S. government? You should go with the U.S. government because they're more trustworthy than I am. So how can I attract you? Well, I can offer you a higher interest rate, let's say 5%. And that works out to a value of about 95 cents. In other words, in order for me to attract you to buy my promise for a 1 dollar in the future, I could only charge you 95 cents. So let's consider this in a chart form. So how much is a dollar worth if I promise to give it to you today? Well, in that case this I is equal to 0. So the present value is equal to the future value of all this divided by 1. So in all cases, if the number of years we're going to wait for the delivery of that dollar is 0, the value is $1. But what if we talk about promising you that dollar in the future? If we look at this for the U.S. bond, in one year we see it's worth 99 cents. If we carry that forward, it's sort of this exponentially decreasing value like that. If you look at the Balch bond, which is of course not as worthwhile as the U.S. government, you see one that decreases at an even faster rate. So in other words, at each year in the future, this $1 is worth less. In other words, if I promise to give you a dollar in two years, it's worth less than if I promise to give you a dollar in a year, it's worth even less than if I promise to give you the dollar right now. And these charts are different depending on what the interest rate is. In other words, for the higher interest rate assets, they decrease further into the future. In other words, a dollar delivered in the future is worth less now than the lower interest rate assets."
+}

@@ -1,0 +1,41 @@
+{
+    "title": "Indexing an array with another array",
+    "number": "039",
+    "chunks": [
+        {
+            "title": "Indexing an array with another array",
+            "number": "039",
+            "start": 0.4,
+            "end": 20.2,
+            "text": "There are various options of indexing and that gives NumPy indexing great power. NumPy array can be indexed with other arrays. It is just one another tool which can be used to make process of accessing values in array easy. To start with, we create a one dimensional array of five random values."
+        },
+        {
+            "title": "Indexing an array with another array",
+            "number": "039",
+            "start": 20.2,
+            "end": 46.7,
+            "text": "Next, we create a variable indices which is also a one dimensional array. But the elements of this array, which is 1, 1, 2, 3, are actually the index we need to access. That is, we want the value at index 1, again at 1, 2 followed by 3. Next step we'll learn how to use this indices along with the array to access the desired values. Yes, you saw that right."
+        },
+        {
+            "title": "Indexing an array with another array",
+            "number": "039",
+            "start": 46.7,
+            "end": 69.0,
+            "text": "Just passing the array of indices to another array will give us the values. Let's check the output. So here is the output. Observe that the length of the indices array and the returned array is the same. Also, it returned value from array A at index 1, 1, 2, 3."
+        },
+        {
+            "title": "Indexing an array with another array",
+            "number": "039",
+            "start": 69.0,
+            "end": 87.1,
+            "text": "It is a bit difficult to understand the application of this now. But this is a tool you would like to use once you get hold of it. We can do such indexing using multi-dimensional array as well. But things get complicated with creating multi-dimensional index array. These are just few interesting ways of indexing."
+        },
+        {
+            "title": "Indexing an array with another array",
+            "number": "039",
+            "start": 87.1,
+            "end": 97.1,
+            "text": "There are a lot more out there for you to experiment with. Check the link in the instructor notes. Let's see. Let's go. Let's go."
+        }
+    ]
+}

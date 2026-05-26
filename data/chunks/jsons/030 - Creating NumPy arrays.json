@@ -1,0 +1,208 @@
+{
+    "chunks": [
+        {
+            "number": "030",
+            "title": "Creating NumPy arrays",
+            "start": 0.3,
+            "end": 4.7,
+            "text": "You can access the underlining NumPy array within a pandas data frame"
+        },
+        {
+            "number": "030",
+            "title": "Creating NumPy arrays",
+            "start": 4.7,
+            "end": 6.7,
+            "text": "using the values property."
+        },
+        {
+            "number": "030",
+            "title": "Creating NumPy arrays",
+            "start": 6.7,
+            "end": 10.0,
+            "text": "But you can also create NumPy arrays from scratch."
+        },
+        {
+            "number": "030",
+            "title": "Creating NumPy arrays",
+            "start": 10.0,
+            "end": 12.2,
+            "text": "There are many ways to create an array."
+        },
+        {
+            "number": "030",
+            "title": "Creating NumPy arrays",
+            "start": 12.2,
+            "end": 17.1,
+            "text": "Let's start with creating a one dimensional array from known values."
+        },
+        {
+            "number": "030",
+            "title": "Creating NumPy arrays",
+            "start": 17.1,
+            "end": 21.8,
+            "text": "NumPy has an array function which can convert most array like objects"
+        },
+        {
+            "number": "030",
+            "title": "Creating NumPy arrays",
+            "start": 21.8,
+            "end": 23.5,
+            "text": "into an ndarray."
+        },
+        {
+            "number": "030",
+            "title": "Creating NumPy arrays",
+            "start": 23.5,
+            "end": 26.7,
+            "text": "What do you mean by ndarray is n dimensional array."
+        },
+        {
+            "number": "030",
+            "title": "Creating NumPy arrays",
+            "start": 26.7,
+            "end": 29.4,
+            "text": "Let's see how this works for Python list."
+        },
+        {
+            "number": "030",
+            "title": "Creating NumPy arrays",
+            "start": 29.4,
+            "end": 33.0,
+            "text": "To start with, we need to import the library NumPy and"
+        },
+        {
+            "number": "030",
+            "title": "Creating NumPy arrays",
+            "start": 33.0,
+            "end": 36.3,
+            "text": "we rename it as np for the ease of use."
+        },
+        {
+            "number": "030",
+            "title": "Creating NumPy arrays",
+            "start": 36.3,
+            "end": 40.5,
+            "text": "Next, we simply call a function np.array and"
+        },
+        {
+            "number": "030",
+            "title": "Creating NumPy arrays",
+            "start": 40.5,
+            "end": 44.1,
+            "text": "pass a list which has value 234."
+        },
+        {
+            "number": "030",
+            "title": "Creating NumPy arrays",
+            "start": 44.1,
+            "end": 50.8,
+            "text": "Note that this function can take as input a list, a tuple, or other sequence."
+        },
+        {
+            "number": "030",
+            "title": "Creating NumPy arrays",
+            "start": 50.8,
+            "end": 54.6,
+            "text": "Check out the documentation for the array function and ndarray type for"
+        },
+        {
+            "number": "030",
+            "title": "Creating NumPy arrays",
+            "start": 54.6,
+            "end": 55.9,
+            "text": "more information."
+        },
+        {
+            "number": "030",
+            "title": "Creating NumPy arrays",
+            "start": 55.9,
+            "end": 57.0,
+            "text": "Now let's see the output."
+        },
+        {
+            "number": "030",
+            "title": "Creating NumPy arrays",
+            "start": 57.0,
+            "end": 62.3,
+            "text": "The output you see here is not a list, but it is an array."
+        },
+        {
+            "number": "030",
+            "title": "Creating NumPy arrays",
+            "start": 62.3,
+            "end": 64.2,
+            "text": "Let's go ahead and create a 2d array."
+        },
+        {
+            "number": "030",
+            "title": "Creating NumPy arrays",
+            "start": 65.3,
+            "end": 70.6,
+            "text": "Now, if you want to create a 2d array, we simply pass in a sequence of sequences"
+        },
+        {
+            "number": "030",
+            "title": "Creating NumPy arrays",
+            "start": 70.6,
+            "end": 72.2,
+            "text": "to this function."
+        },
+        {
+            "number": "030",
+            "title": "Creating NumPy arrays",
+            "start": 72.2,
+            "end": 78.8,
+            "text": "Each tuple enclosed in round parenthesis serves as one row in the resulting array."
+        },
+        {
+            "number": "030",
+            "title": "Creating NumPy arrays",
+            "start": 78.8,
+            "end": 81.6,
+            "text": "We could also have passed a list of list."
+        },
+        {
+            "number": "030",
+            "title": "Creating NumPy arrays",
+            "start": 81.6,
+            "end": 84.3,
+            "text": "This is called sequence of sequences."
+        },
+        {
+            "number": "030",
+            "title": "Creating NumPy arrays",
+            "start": 84.3,
+            "end": 86.3,
+            "text": "Let's go ahead and print it."
+        },
+        {
+            "number": "030",
+            "title": "Creating NumPy arrays",
+            "start": 86.3,
+            "end": 87.7,
+            "text": "Here is the output."
+        },
+        {
+            "number": "030",
+            "title": "Creating NumPy arrays",
+            "start": 87.7,
+            "end": 91.6,
+            "text": "And as expected, there are 2 rows and 3 columns."
+        },
+        {
+            "number": "030",
+            "title": "Creating NumPy arrays",
+            "start": 91.6,
+            "end": 96.6,
+            "text": "This function is mainly useful when you have a list of sequence of values and"
+        },
+        {
+            "number": "030",
+            "title": "Creating NumPy arrays",
+            "start": 96.6,
+            "end": 111.4,
+            "text": "nellID command."
+        }
+    ],
+    "text": "You can access the underlining NumPy array within a pandas data frame using the values property. But you can also create NumPy arrays from scratch. There are many ways to create an array. Let's start with creating a one dimensional array from known values. NumPy has an array function which can convert most array like objects into an ndarray. What do you mean by ndarray is n dimensional array. Let's see how this works for Python list. To start with, we need to import the library NumPy and we rename it as np for the ease of use. Next, we simply call a function np.array and pass a list which has value 234. Note that this function can take as input a list, a tuple, or other sequence. Check out the documentation for the array function and ndarray type for more information. Now let's see the output. The output you see here is not a list, but it is an array. Let's go ahead and create a 2d array. Now, if you want to create a 2d array, we simply pass in a sequence of sequences to this function. Each tuple enclosed in round parenthesis serves as one row in the resulting array. We could also have passed a list of list. This is called sequence of sequences. Let's go ahead and print it. Here is the output. And as expected, there are 2 rows and 3 columns. This function is mainly useful when you have a list of sequence of values and nellID command."
+}

@@ -1,0 +1,327 @@
+{
+    "chunks": [
+        {
+            "number": "133",
+            "title": "Normalization",
+            "start": 0.3,
+            "end": 4.3,
+            "text": "Before we leave technical analysis, I want to bring up one more point called"
+        },
+        {
+            "number": "133",
+            "title": "Normalization",
+            "start": 4.3,
+            "end": 5.6,
+            "text": "normalization."
+        },
+        {
+            "number": "133",
+            "title": "Normalization",
+            "start": 5.6,
+            "end": 10.2,
+            "text": "So take a look at these different technical indicators we created here,"
+        },
+        {
+            "number": "133",
+            "title": "Normalization",
+            "start": 10.2,
+            "end": 13.4,
+            "text": "simple moving average, momentum, and Bollinger Bands."
+        },
+        {
+            "number": "133",
+            "title": "Normalization",
+            "start": 13.4,
+            "end": 16.0,
+            "text": "They have different ranges that they typically operate over."
+        },
+        {
+            "number": "133",
+            "title": "Normalization",
+            "start": 16.0,
+            "end": 23.0,
+            "text": "So like I said, we would expect to see values of minus 0.5 to plus 0.5 for"
+        },
+        {
+            "number": "133",
+            "title": "Normalization",
+            "start": 23.0,
+            "end": 24.8,
+            "text": "simple moving average."
+        },
+        {
+            "number": "133",
+            "title": "Normalization",
+            "start": 24.8,
+            "end": 27.6,
+            "text": "For momentum, similar kind of range."
+        },
+        {
+            "number": "133",
+            "title": "Normalization",
+            "start": 27.6,
+            "end": 32.3,
+            "text": "Bollinger Band typically inhabits negative 1 to 1."
+        },
+        {
+            "number": "133",
+            "title": "Normalization",
+            "start": 32.3,
+            "end": 36.0,
+            "text": "If we were to plug these values into some sort of machine learner,"
+        },
+        {
+            "number": "133",
+            "title": "Normalization",
+            "start": 36.0,
+            "end": 38.0,
+            "text": "we would have a little bit of a problem."
+        },
+        {
+            "number": "133",
+            "title": "Normalization",
+            "start": 38.0,
+            "end": 42.1,
+            "text": "And what would happen, and we'll have to go into the details later, but"
+        },
+        {
+            "number": "133",
+            "title": "Normalization",
+            "start": 42.1,
+            "end": 46.4,
+            "text": "the Bollinger Band factor would tend to overwhelm these other factors and"
+        },
+        {
+            "number": "133",
+            "title": "Normalization",
+            "start": 46.4,
+            "end": 48.1,
+            "text": "become the most important one."
+        },
+        {
+            "number": "133",
+            "title": "Normalization",
+            "start": 48.1,
+            "end": 52.7,
+            "text": "It might get even worse if we included a fundamental factor like P-E ratio that"
+        },
+        {
+            "number": "133",
+            "title": "Normalization",
+            "start": 52.7,
+            "end": 54.9,
+            "text": "can range from 1 all the way up to 300."
+        },
+        {
+            "number": "133",
+            "title": "Normalization",
+            "start": 54.9,
+            "end": 58.9,
+            "text": "The solution is something called normalization."
+        },
+        {
+            "number": "133",
+            "title": "Normalization",
+            "start": 58.9,
+            "end": 62.6,
+            "text": "And what normalization does is it takes each of these factors and"
+        },
+        {
+            "number": "133",
+            "title": "Normalization",
+            "start": 62.6,
+            "end": 65.8,
+            "text": "essentially compresses them or stretches them so"
+        },
+        {
+            "number": "133",
+            "title": "Normalization",
+            "start": 65.8,
+            "end": 69.0,
+            "text": "that they vary on average from minus 1 to plus 1."
+        },
+        {
+            "number": "133",
+            "title": "Normalization",
+            "start": 70.2,
+            "end": 72.4,
+            "text": "Normalization is simple."
+        },
+        {
+            "number": "133",
+            "title": "Normalization",
+            "start": 72.4,
+            "end": 76.7,
+            "text": "You take your original values for a particular factor,"
+        },
+        {
+            "number": "133",
+            "title": "Normalization",
+            "start": 76.7,
+            "end": 82.3,
+            "text": "subtract the mean from all of them, and divide by the standard deviation of all of them."
+        },
+        {
+            "number": "133",
+            "title": "Normalization",
+            "start": 82.3,
+            "end": 86.1,
+            "text": "This will give you a normed result that, on average,"
+        },
+        {
+            "number": "133",
+            "title": "Normalization",
+            "start": 86.1,
+            "end": 91.1,
+            "text": "is going to vary between negative 1 and 1, and it'll have a mean of 0."
+        },
+        {
+            "number": "133",
+            "title": "Normalization",
+            "start": 91.1,
+            "end": 94.6,
+            "text": "So remember this trick for later when we get to machine learning."
+        },
+        {
+            "number": "133",
+            "title": "Normalization",
+            "start": 94.6,
+            "end": 98.4,
+            "text": "Or if you're working with technical indicators yourself,"
+        },
+        {
+            "number": "133",
+            "title": "Normalization",
+            "start": 98.4,
+            "end": 102.3,
+            "text": "you may want to apply this normalization approach to the numbers you're working with."
+        },
+        {
+            "number": "133",
+            "title": "Normalization",
+            "start": 102.3,
+            "end": 107.2,
+            "text": "ац"
+        },
+        {
+            "number": "133",
+            "title": "Normalization",
+            "start": 107.3,
+            "end": 111.1,
+            "text": "How many can speed well be?"
+        },
+        {
+            "number": "133",
+            "title": "Normalization",
+            "start": 111.1,
+            "end": 112.1,
+            "text": "How many power would be."
+        },
+        {
+            "number": "133",
+            "title": "Normalization",
+            "start": 112.1,
+            "end": 115.7,
+            "text": "And have power ability to구� găng that that кажется that you could recommend the"
+        },
+        {
+            "number": "133",
+            "title": "Normalization",
+            "start": 115.7,
+            "end": 117.8,
+            "text": "all- recorded check and change of all of them?"
+        },
+        {
+            "number": "133",
+            "title": "Normalization",
+            "start": 117.8,
+            "end": 118.7,
+            "text": "I also have an excellent investment."
+        },
+        {
+            "number": "133",
+            "title": "Normalization",
+            "start": 118.7,
+            "end": 119.0,
+            "text": "I start preparing for calculations in the numbers..."
+        },
+        {
+            "number": "133",
+            "title": "Normalization",
+            "start": 119.0,
+            "end": 120.8,
+            "text": "If you want to figure that every day will increase life llamas."
+        },
+        {
+            "number": "133",
+            "title": "Normalization",
+            "start": 120.8,
+            "end": 121.7,
+            "text": "You may want to diesen данным and more."
+        },
+        {
+            "number": "133",
+            "title": "Normalization",
+            "start": 121.7,
+            "end": 122.9,
+            "text": "If you are reviewing for increased rates coverage,"
+        },
+        {
+            "number": "133",
+            "title": "Normalization",
+            "start": 122.9,
+            "end": 123.6,
+            "text": "you may want to be a Elektron."
+        },
+        {
+            "number": "133",
+            "title": "Normalization",
+            "start": 123.6,
+            "end": 125.1,
+            "text": "How many people do?"
+        },
+        {
+            "number": "133",
+            "title": "Normalization",
+            "start": 125.1,
+            "end": 125.6,
+            "text": "hilloger means a lot of farklı examples."
+        },
+        {
+            "number": "133",
+            "title": "Normalization",
+            "start": 125.6,
+            "end": 127.6,
+            "text": "estimating ax pranking."
+        },
+        {
+            "number": "133",
+            "title": "Normalization",
+            "start": 127.6,
+            "end": 128.6,
+            "text": "Pretty good."
+        },
+        {
+            "number": "133",
+            "title": "Normalization",
+            "start": 128.8,
+            "end": 129.1,
+            "text": "Early fail."
+        },
+        {
+            "number": "133",
+            "title": "Normalization",
+            "start": 129.1,
+            "end": 129.6,
+            "text": "Dean of callers over 30 seconds."
+        },
+        {
+            "number": "133",
+            "title": "Normalization",
+            "start": 129.6,
+            "end": 132.2,
+            "text": "I'll be a magnifying angle to bleh or 40 seconds."
+        }
+    ],
+    "text": "Before we leave technical analysis, I want to bring up one more point called normalization. So take a look at these different technical indicators we created here, simple moving average, momentum, and Bollinger Bands. They have different ranges that they typically operate over. So like I said, we would expect to see values of minus 0.5 to plus 0.5 for simple moving average. For momentum, similar kind of range. Bollinger Band typically inhabits negative 1 to 1. If we were to plug these values into some sort of machine learner, we would have a little bit of a problem. And what would happen, and we'll have to go into the details later, but the Bollinger Band factor would tend to overwhelm these other factors and become the most important one. It might get even worse if we included a fundamental factor like P-E ratio that can range from 1 all the way up to 300. The solution is something called normalization. And what normalization does is it takes each of these factors and essentially compresses them or stretches them so that they vary on average from minus 1 to plus 1. Normalization is simple. You take your original values for a particular factor, subtract the mean from all of them, and divide by the standard deviation of all of them. This will give you a normed result that, on average, is going to vary between negative 1 and 1, and it'll have a mean of 0. So remember this trick for later when we get to machine learning. Or if you're working with technical indicators yourself, you may want to apply this normalization approach to the numbers you're working with.ац How many can speed well be? How many power would be. And have power ability to구� găng that that кажется that you could recommend the all- recorded check and change of all of them? I also have an excellent investment. I start preparing for calculations in the numbers... If you want to figure that every day will increase life llamas. You may want to diesen данным and more. If you are reviewing for increased rates coverage, you may want to be a Elektron. How many people do?hilloger means a lot of farklı examples. estimating ax pranking. Pretty good. Early fail. Dean of callers over 30 seconds. I'll be a magnifying angle to bleh or 40 seconds."
+}

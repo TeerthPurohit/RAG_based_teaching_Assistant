@@ -1,0 +1,69 @@
+{
+    "title": "Convex problems",
+    "number": "077",
+    "chunks": [
+        {
+            "title": "Convex problems",
+            "number": "077",
+            "start": 0.7,
+            "end": 23.2,
+            "text": "While we're on the topic of problems that are easy or hard for optimizers to solve, let's talk for a moment about a particular class of problems that are indeed the most easy for these types of algorithms to solve. And those are called convex problems. Here's the formal definition of a convex function."
+        },
+        {
+            "title": "Convex problems",
+            "number": "077",
+            "start": 23.2,
+            "end": 44.4,
+            "text": "I'm going to read it to you from Wikipedia, and then I'll show you what it means on these graphs here. A real valued function, f of x, defined on an interval, is called convex if the line segment between any two points on the graph of the function lies above the graph."
+        },
+        {
+            "title": "Convex problems",
+            "number": "077",
+            "start": 44.4,
+            "end": 64.7,
+            "text": "Okay, a lot of words there. Let me show you what that means more easily. First step, choose two points and draw a line between them. Now for each of these lines, if the line is above the graph, everywhere between those two points, then the function is convex between those points."
+        },
+        {
+            "title": "Convex problems",
+            "number": "077",
+            "start": 64.7,
+            "end": 89.8,
+            "text": "So for this function, yes, it's convex because the line is above the graph everywhere. In fact, any two points you choose on this graph will have that property. So this function is convex everywhere, at least where we're looking at it. Here, notice that this part of the graph lies above the line."
+        },
+        {
+            "title": "Convex problems",
+            "number": "077",
+            "start": 89.8,
+            "end": 109.7,
+            "text": "So this is non-convex. Similarly, this one, we've got this region here that lies above the line. So this one is also non-convex. And this one is, of course, convex. So a couple things to observe here, some properties that emerge."
+        },
+        {
+            "title": "Convex problems",
+            "number": "077",
+            "start": 109.7,
+            "end": 135.9,
+            "text": "One is, in order for the function to be convex, it has to have only one local minima. And in other words, that local minima is the global minima. This one fails for that reason. But we also can't have any flat regions that essentially don't have any slope downward. Now, if the function you're trying to find a minima for is convex,"
+        },
+        {
+            "title": "Convex problems",
+            "number": "077",
+            "start": 135.9,
+            "end": 157.2,
+            "text": "then these algorithms will find the minima quickly and easily. But again, there are algorithms that can still find the minima for more complicated examples like these. But they require a little bit of randomness and they aren't necessarily guaranteed to find the global minima."
+        },
+        {
+            "title": "Convex problems",
+            "number": "077",
+            "start": 157.2,
+            "end": 177.3,
+            "text": "So far, we've been looking at functions that just have one dimension in x. So for instance, the parabola that we looked at. It's just as easy for these optimizers to work in multiple dimensions. Here's an example of a function that has two dimensions in x. It still has its y result."
+        },
+        {
+            "title": "Convex problems",
+            "number": "077",
+            "start": 177.3,
+            "end": 189.4,
+            "text": "But the minimizers can solve these problems with gradient descent just as easily. So instead of just one dimension, we can have one, two, three, four, as many as we'd like."
+        }
+    ]
+}

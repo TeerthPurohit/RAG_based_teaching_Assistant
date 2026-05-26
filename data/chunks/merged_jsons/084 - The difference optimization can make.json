@@ -1,0 +1,48 @@
+{
+    "title": "The difference optimization can make",
+    "number": "084",
+    "chunks": [
+        {
+            "title": "The difference optimization can make",
+            "number": "084",
+            "start": 0.3,
+            "end": 23.6,
+            "text": "As an example, consider this portfolio where we have Google, Apple, Gold, and Exxon from the beginning of 2010 to the end of 2010. This is what the performance of that portfolio would look like in the blue line if we had an equal allocation to each asset. So we gave 25% to each of those stocks at the beginning, and"
+        },
+        {
+            "title": "The difference optimization can make",
+            "number": "084",
+            "start": 23.6,
+            "end": 42.9,
+            "text": "then we observed at the end the total performance. And we include here a chart for S&P 500 for comparison. Now this is a unoptimized portfolio. Here's what it would look like if we optimized for sharp ratio. Look at that, look how much higher performance we get compared to our benchmark"
+        },
+        {
+            "title": "The difference optimization can make",
+            "number": "084",
+            "start": 42.9,
+            "end": 66.3,
+            "text": "S&P 500. And observe over here the allocations to the assets. 60% goes to gold, 40% to Apple, and none to Google or Exxon. Now, one thing to emphasize here is this is looking back in time. So we're looking back historically what happened in 2010 and"
+        },
+        {
+            "title": "The difference optimization can make",
+            "number": "084",
+            "start": 66.3,
+            "end": 90.0,
+            "text": "observing at the beginning of 2010 if we knew what we knew now, how should we best allocate? So there's a question as to how much this can help our portfolio going forward. And I'll give you that answer ahead of time. Indeed, when we optimize for sharp ratio, hold that portfolio, rebalance."
+        },
+        {
+            "title": "The difference optimization can make",
+            "number": "084",
+            "start": 90.0,
+            "end": 112.0,
+            "text": "In other words, re-optimize for sharp ratio and continue that month by month. We very often, most frequently see that that improves the performance of the portfolio versus just an equal allocation. But I do want to observe that this is computing back in time. So yes, of course, we can find a better portfolio."
+        },
+        {
+            "title": "The difference optimization can make",
+            "number": "084",
+            "start": 112.0,
+            "end": 114.9,
+            "text": "But indeed, it helps going forward as well."
+        }
+    ]
+}

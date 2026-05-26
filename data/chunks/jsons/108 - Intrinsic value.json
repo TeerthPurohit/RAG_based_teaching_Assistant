@@ -1,0 +1,355 @@
+{
+    "chunks": [
+        {
+            "number": "108",
+            "title": "Intrinsic value",
+            "start": 0.4,
+            "end": 2.8,
+            "text": "Think back now to our original problem."
+        },
+        {
+            "number": "108",
+            "title": "Intrinsic value",
+            "start": 2.8,
+            "end": 8.5,
+            "text": "What is the present value of a future dollar, FV,"
+        },
+        {
+            "number": "108",
+            "title": "Intrinsic value",
+            "start": 8.5,
+            "end": 13.6,
+            "text": "delivered some number of years in the future, where I is how many years it is?"
+        },
+        {
+            "number": "108",
+            "title": "Intrinsic value",
+            "start": 13.6,
+            "end": 19.8,
+            "text": "And we use IR, or the interest rate, as a factor that affects this value."
+        },
+        {
+            "number": "108",
+            "title": "Intrinsic value",
+            "start": 19.8,
+            "end": 24.9,
+            "text": "The analogy for this to real companies is that real companies pay dividends."
+        },
+        {
+            "number": "108",
+            "title": "Intrinsic value",
+            "start": 24.9,
+            "end": 27.6,
+            "text": "In other words, if you own a share of a company,"
+        },
+        {
+            "number": "108",
+            "title": "Intrinsic value",
+            "start": 27.6,
+            "end": 32.9,
+            "text": "you will get some cash payment each year or each quarter."
+        },
+        {
+            "number": "108",
+            "title": "Intrinsic value",
+            "start": 32.9,
+            "end": 38.5,
+            "text": "As an example, if you own one share of Apple stock, it pays you about $1 a year."
+        },
+        {
+            "number": "108",
+            "title": "Intrinsic value",
+            "start": 38.5,
+            "end": 43.5,
+            "text": "Consider that you'll get that payment every year, every year into the future."
+        },
+        {
+            "number": "108",
+            "title": "Intrinsic value",
+            "start": 43.5,
+            "end": 47.0,
+            "text": "What is the value of that payment over time?"
+        },
+        {
+            "number": "108",
+            "title": "Intrinsic value",
+            "start": 47.0,
+            "end": 52.7,
+            "text": "What this interest rate relates to is how risky the company is."
+        },
+        {
+            "number": "108",
+            "title": "Intrinsic value",
+            "start": 52.7,
+            "end": 56.4,
+            "text": "In other words, you're as sure that it's going to pay you that dollar every year"
+        },
+        {
+            "number": "108",
+            "title": "Intrinsic value",
+            "start": 56.4,
+            "end": 61.8,
+            "text": "as you are sure that the US government would pay you a dollar on a bond."
+        },
+        {
+            "number": "108",
+            "title": "Intrinsic value",
+            "start": 61.8,
+            "end": 68.4,
+            "text": "Then this IR, interest rate, should be the same as the US government bond rate."
+        },
+        {
+            "number": "108",
+            "title": "Intrinsic value",
+            "start": 68.4,
+            "end": 73.9,
+            "text": "However, if you're less certain that this company is going to pay you at that rate,"
+        },
+        {
+            "number": "108",
+            "title": "Intrinsic value",
+            "start": 73.9,
+            "end": 76.4,
+            "text": "this interest rate needs to be a little bit higher."
+        },
+        {
+            "number": "108",
+            "title": "Intrinsic value",
+            "start": 76.4,
+            "end": 84.8,
+            "text": "In other words, you need to expect that the company is going to pay you more in the future,"
+        },
+        {
+            "number": "108",
+            "title": "Intrinsic value",
+            "start": 84.8,
+            "end": 89.0,
+            "text": "or that it's going to be more likely to pay you that dollar in the future."
+        },
+        {
+            "number": "108",
+            "title": "Intrinsic value",
+            "start": 89.0,
+            "end": 91.5,
+            "text": "This is called the discount rate."
+        },
+        {
+            "number": "108",
+            "title": "Intrinsic value",
+            "start": 91.5,
+            "end": 98.0,
+            "text": "The discount rate is higher if you trust the company less or you think it's more risky."
+        },
+        {
+            "number": "108",
+            "title": "Intrinsic value",
+            "start": 98.0,
+            "end": 102.8,
+            "text": "The discount rate is lower if it's more certain to pay you that dividend every year."
+        },
+        {
+            "number": "108",
+            "title": "Intrinsic value",
+            "start": 102.8,
+            "end": 108.2,
+            "text": "Let's suppose that after considering all the factors, you feel that it's appropriate"
+        },
+        {
+            "number": "108",
+            "title": "Intrinsic value",
+            "start": 108.2,
+            "end": 114.8,
+            "text": "that a company should pay you a 5% interest rate considering its risks."
+        },
+        {
+            "number": "108",
+            "title": "Intrinsic value",
+            "start": 114.8,
+            "end": 122.2,
+            "text": "Now, based on that, if you want to calculate what the value of the company is based"
+        },
+        {
+            "number": "108",
+            "title": "Intrinsic value",
+            "start": 122.2,
+            "end": 127.9,
+            "text": "on the dividends it's paying, you can take that into account in the following way."
+        },
+        {
+            "number": "108",
+            "title": "Intrinsic value",
+            "start": 127.9,
+            "end": 135.8,
+            "text": "Essentially, what you want to do is compute what is the value of all the future dividends"
+        },
+        {
+            "number": "108",
+            "title": "Intrinsic value",
+            "start": 135.8,
+            "end": 137.8,
+            "text": "that it's going to pay me."
+        },
+        {
+            "number": "108",
+            "title": "Intrinsic value",
+            "start": 137.8,
+            "end": 144.5,
+            "text": "So that's the sum of the dividend it'll pay you in a year, the dividend it'll pay you a year"
+        },
+        {
+            "number": "108",
+            "title": "Intrinsic value",
+            "start": 144.5,
+            "end": 147.3,
+            "text": "after that, and the year after that, and the year after that."
+        },
+        {
+            "number": "108",
+            "title": "Intrinsic value",
+            "start": 147.3,
+            "end": 151.8,
+            "text": "In fact, you want to sum those all the way out to infinity."
+        },
+        {
+            "number": "108",
+            "title": "Intrinsic value",
+            "start": 151.8,
+            "end": 160.9,
+            "text": "So what we're looking for is the sum of this equation but over all i going into the future."
+        },
+        {
+            "number": "108",
+            "title": "Intrinsic value",
+            "start": 160.9,
+            "end": 168.1,
+            "text": "We can draw on this infinite sum, in other words, for i equals 1, one year to infinity years"
+        },
+        {
+            "number": "108",
+            "title": "Intrinsic value",
+            "start": 168.1,
+            "end": 170.9,
+            "text": "of the sum 1 over n to the i."
+        },
+        {
+            "number": "108",
+            "title": "Intrinsic value",
+            "start": 170.9,
+            "end": 181.1,
+            "text": "So this n here is this value, and we can replace 1 here with a future value."
+        },
+        {
+            "number": "108",
+            "title": "Intrinsic value",
+            "start": 181.1,
+            "end": 184.3,
+            "text": "So this is not a math class, I'm just going to give you the answer."
+        },
+        {
+            "number": "108",
+            "title": "Intrinsic value",
+            "start": 184.3,
+            "end": 191.2,
+            "text": "The answer is that this infinite sum, in other words, some future dollar paid each year"
+        },
+        {
+            "number": "108",
+            "title": "Intrinsic value",
+            "start": 191.2,
+            "end": 197.4,
+            "text": "in the future over an infinite number of years, is that value divided by n minus 1,"
+        },
+        {
+            "number": "108",
+            "title": "Intrinsic value",
+            "start": 197.4,
+            "end": 201.9,
+            "text": "which is equal to future value divided by discount rate."
+        },
+        {
+            "number": "108",
+            "title": "Intrinsic value",
+            "start": 201.9,
+            "end": 208.6,
+            "text": "So in the case of our dollar machine, we're paying $1 each year in the future at 5% interest."
+        },
+        {
+            "number": "108",
+            "title": "Intrinsic value",
+            "start": 208.6,
+            "end": 213.2,
+            "text": "So the value of our dollar machine is $20 overall."
+        },
+        {
+            "number": "108",
+            "title": "Intrinsic value",
+            "start": 213.2,
+            "end": 219.3,
+            "text": "What we've just described where future value is the dividend we're going to pay at regular"
+        },
+        {
+            "number": "108",
+            "title": "Intrinsic value",
+            "start": 219.3,
+            "end": 222.6,
+            "text": "intervals, and dr is discount rate."
+        },
+        {
+            "number": "108",
+            "title": "Intrinsic value",
+            "start": 222.6,
+            "end": 230.4,
+            "text": "In other words, what the risk of the stock equates to in terms of an interest rate we should pay."
+        },
+        {
+            "number": "108",
+            "title": "Intrinsic value",
+            "start": 230.4,
+            "end": 234.9,
+            "text": "This equation tells us the intrinsic value of the company."
+        },
+        {
+            "number": "108",
+            "title": "Intrinsic value",
+            "start": 234.9,
+            "end": 241.9,
+            "text": "In other words, if we're going to pay that future value or dividend every year or every quarter"
+        },
+        {
+            "number": "108",
+            "title": "Intrinsic value",
+            "start": 241.9,
+            "end": 246.8,
+            "text": "going into the future, what's the value of the company on that basis?"
+        },
+        {
+            "number": "108",
+            "title": "Intrinsic value",
+            "start": 246.8,
+            "end": 249.2,
+            "text": "This is intrinsic value."
+        },
+        {
+            "number": "108",
+            "title": "Intrinsic value",
+            "start": 249.2,
+            "end": 254.3,
+            "text": "And in the example of the company we were talking about that creates a dollar every year,"
+        },
+        {
+            "number": "108",
+            "title": "Intrinsic value",
+            "start": 254.3,
+            "end": 261.2,
+            "text": "it's the value of the dollar in one year from now, next year, next year, next year,"
+        },
+        {
+            "number": "108",
+            "title": "Intrinsic value",
+            "start": 261.2,
+            "end": 266.4,
+            "text": "next year, continuing ad infinitum into the future, and that's $20."
+        }
+    ],
+    "text": "Think back now to our original problem. What is the present value of a future dollar, FV, delivered some number of years in the future, where I is how many years it is? And we use IR, or the interest rate, as a factor that affects this value. The analogy for this to real companies is that real companies pay dividends. In other words, if you own a share of a company, you will get some cash payment each year or each quarter. As an example, if you own one share of Apple stock, it pays you about $1 a year. Consider that you'll get that payment every year, every year into the future. What is the value of that payment over time? What this interest rate relates to is how risky the company is. In other words, you're as sure that it's going to pay you that dollar every year as you are sure that the US government would pay you a dollar on a bond. Then this IR, interest rate, should be the same as the US government bond rate. However, if you're less certain that this company is going to pay you at that rate, this interest rate needs to be a little bit higher. In other words, you need to expect that the company is going to pay you more in the future, or that it's going to be more likely to pay you that dollar in the future. This is called the discount rate. The discount rate is higher if you trust the company less or you think it's more risky. The discount rate is lower if it's more certain to pay you that dividend every year. Let's suppose that after considering all the factors, you feel that it's appropriate that a company should pay you a 5% interest rate considering its risks. Now, based on that, if you want to calculate what the value of the company is based on the dividends it's paying, you can take that into account in the following way. Essentially, what you want to do is compute what is the value of all the future dividends that it's going to pay me. So that's the sum of the dividend it'll pay you in a year, the dividend it'll pay you a year after that, and the year after that, and the year after that. In fact, you want to sum those all the way out to infinity. So what we're looking for is the sum of this equation but over all i going into the future. We can draw on this infinite sum, in other words, for i equals 1, one year to infinity years of the sum 1 over n to the i. So this n here is this value, and we can replace 1 here with a future value. So this is not a math class, I'm just going to give you the answer. The answer is that this infinite sum, in other words, some future dollar paid each year in the future over an infinite number of years, is that value divided by n minus 1, which is equal to future value divided by discount rate. So in the case of our dollar machine, we're paying $1 each year in the future at 5% interest. So the value of our dollar machine is $20 overall. What we've just described where future value is the dividend we're going to pay at regular intervals, and dr is discount rate. In other words, what the risk of the stock equates to in terms of an interest rate we should pay. This equation tells us the intrinsic value of the company. In other words, if we're going to pay that future value or dividend every year or every quarter going into the future, what's the value of the company on that basis? This is intrinsic value. And in the example of the company we were talking about that creates a dollar every year, it's the value of the dollar in one year from now, next year, next year, next year, next year, continuing ad infinitum into the future, and that's $20."
+}

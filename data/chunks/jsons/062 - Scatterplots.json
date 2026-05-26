@@ -1,0 +1,180 @@
+{
+    "chunks": [
+        {
+            "number": "062",
+            "title": "Scatterplots",
+            "start": 0.5,
+            "end": 5.6,
+            "text": "We're now going to take a look at another way to visualize the differences between"
+        },
+        {
+            "number": "062",
+            "title": "Scatterplots",
+            "start": 5.6,
+            "end": 8.4,
+            "text": "daily returns of individual stocks."
+        },
+        {
+            "number": "062",
+            "title": "Scatterplots",
+            "start": 8.4,
+            "end": 12.2,
+            "text": "Let's get back again to our daily return chart."
+        },
+        {
+            "number": "062",
+            "title": "Scatterplots",
+            "start": 12.2,
+            "end": 16.2,
+            "text": "We've got S&P 500 here plotted already."
+        },
+        {
+            "number": "062",
+            "title": "Scatterplots",
+            "start": 16.2,
+            "end": 19.8,
+            "text": "And let's compare that to another stock, XYZ."
+        },
+        {
+            "number": "062",
+            "title": "Scatterplots",
+            "start": 19.8,
+            "end": 27.5,
+            "text": "Now note here that frequently XYZ moves in the same direction as SPY."
+        },
+        {
+            "number": "062",
+            "title": "Scatterplots",
+            "start": 27.5,
+            "end": 32.3,
+            "text": "But it also sometimes moves a little bit further, like in these sections here."
+        },
+        {
+            "number": "062",
+            "title": "Scatterplots",
+            "start": 32.3,
+            "end": 35.4,
+            "text": "We'll be able to visualize those differences in a scatter plot."
+        },
+        {
+            "number": "062",
+            "title": "Scatterplots",
+            "start": 36.6,
+            "end": 42.7,
+            "text": "So on a scatter plot, there are a number of individual points or dots."
+        },
+        {
+            "number": "062",
+            "title": "Scatterplots",
+            "start": 42.7,
+            "end": 47.1,
+            "text": "And each one represents something that happened on a particular day."
+        },
+        {
+            "number": "062",
+            "title": "Scatterplots",
+            "start": 47.1,
+            "end": 49.2,
+            "text": "So let's look at this particular day."
+        },
+        {
+            "number": "062",
+            "title": "Scatterplots",
+            "start": 49.2,
+            "end": 56.1,
+            "text": "On this day, SPY was positive, close to plus one."
+        },
+        {
+            "number": "062",
+            "title": "Scatterplots",
+            "start": 56.1,
+            "end": 59.1,
+            "text": "So we'll look at plus one on SPY."
+        },
+        {
+            "number": "062",
+            "title": "Scatterplots",
+            "start": 59.1,
+            "end": 65.0,
+            "text": "And XYZ was about plus one as well, but a little bit larger."
+        },
+        {
+            "number": "062",
+            "title": "Scatterplots",
+            "start": 65.0,
+            "end": 70.9,
+            "text": "So that day would correspond to a point about there."
+        },
+        {
+            "number": "062",
+            "title": "Scatterplots",
+            "start": 70.9,
+            "end": 75.7,
+            "text": "Now, we look at each day one by one individually and"
+        },
+        {
+            "number": "062",
+            "title": "Scatterplots",
+            "start": 75.7,
+            "end": 79.4,
+            "text": "populate all of our dots based on what happened each day."
+        },
+        {
+            "number": "062",
+            "title": "Scatterplots",
+            "start": 79.4,
+            "end": 88.4,
+            "text": "Another interesting day is this one, where SPY and XYZ were moving in different directions."
+        },
+        {
+            "number": "062",
+            "title": "Scatterplots",
+            "start": 88.4,
+            "end": 96.9,
+            "text": "So again, we had SPY in positive territory, but XYZ was in negative territory."
+        },
+        {
+            "number": "062",
+            "title": "Scatterplots",
+            "start": 96.9,
+            "end": 100.0,
+            "text": "So that would represent a dot about like that."
+        },
+        {
+            "number": "062",
+            "title": "Scatterplots",
+            "start": 100.0,
+            "end": 106.0,
+            "text": "Now, if we were to continue this process for very many days over a long period of time,"
+        },
+        {
+            "number": "062",
+            "title": "Scatterplots",
+            "start": 106.0,
+            "end": 111.0,
+            "text": "for most stocks, a trend appears, which is something like this,"
+        },
+        {
+            "number": "062",
+            "title": "Scatterplots",
+            "start": 111.0,
+            "end": 117.0,
+            "text": "where you can sort of see there's a relationship here, maybe a linear relationship."
+        },
+        {
+            "number": "062",
+            "title": "Scatterplots",
+            "start": 117.0,
+            "end": 119.8,
+            "text": "And however, the dots are somewhat scattered."
+        },
+        {
+            "number": "062",
+            "title": "Scatterplots",
+            "start": 119.8,
+            "end": 121.8,
+            "text": "So they don't form a perfect line."
+        }
+    ],
+    "text": "We're now going to take a look at another way to visualize the differences between daily returns of individual stocks. Let's get back again to our daily return chart. We've got S&P 500 here plotted already. And let's compare that to another stock, XYZ. Now note here that frequently XYZ moves in the same direction as SPY. But it also sometimes moves a little bit further, like in these sections here. We'll be able to visualize those differences in a scatter plot. So on a scatter plot, there are a number of individual points or dots. And each one represents something that happened on a particular day. So let's look at this particular day. On this day, SPY was positive, close to plus one. So we'll look at plus one on SPY. And XYZ was about plus one as well, but a little bit larger. So that day would correspond to a point about there. Now, we look at each day one by one individually and populate all of our dots based on what happened each day. Another interesting day is this one, where SPY and XYZ were moving in different directions. So again, we had SPY in positive territory, but XYZ was in negative territory. So that would represent a dot about like that. Now, if we were to continue this process for very many days over a long period of time, for most stocks, a trend appears, which is something like this, where you can sort of see there's a relationship here, maybe a linear relationship. And however, the dots are somewhat scattered. So they don't form a perfect line."
+}

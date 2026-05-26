@@ -1,0 +1,152 @@
+{
+    "chunks": [
+        {
+            "number": "174",
+            "title": "Problem we will focus on",
+            "start": 0.3,
+            "end": 4.2,
+            "text": "I'm going to take a moment here now to talk about the problem we're going to"
+        },
+        {
+            "number": "174",
+            "title": "Problem we will focus on",
+            "start": 4.2,
+            "end": 7.4,
+            "text": "focus on for the rest of this class."
+        },
+        {
+            "number": "174",
+            "title": "Problem we will focus on",
+            "start": 7.4,
+            "end": 11.6,
+            "text": "We're going to look at a certain period of data, train our models over that"
+        },
+        {
+            "number": "174",
+            "title": "Problem we will focus on",
+            "start": 11.6,
+            "end": 16.8,
+            "text": "period, and then make forecasts and trade over some other period."
+        },
+        {
+            "number": "174",
+            "title": "Problem we will focus on",
+            "start": 16.8,
+            "end": 18.8,
+            "text": "So here's our historical data."
+        },
+        {
+            "number": "174",
+            "title": "Problem we will focus on",
+            "start": 18.8,
+            "end": 24.8,
+            "text": "We're going to use the period of 2009 as our data to train our model."
+        },
+        {
+            "number": "174",
+            "title": "Problem we will focus on",
+            "start": 24.8,
+            "end": 29.8,
+            "text": "You'll be implementing several machine learning algorithms to create"
+        },
+        {
+            "number": "174",
+            "title": "Problem we will focus on",
+            "start": 29.8,
+            "end": 33.6,
+            "text": "different models, and we'll be comparing them one against the other."
+        },
+        {
+            "number": "174",
+            "title": "Problem we will focus on",
+            "start": 33.6,
+            "end": 38.9,
+            "text": "Then we'll test over the years 2010 and 2011."
+        },
+        {
+            "number": "174",
+            "title": "Problem we will focus on",
+            "start": 38.9,
+            "end": 44.1,
+            "text": "So those testing values will become our x, which will push through the model to"
+        },
+        {
+            "number": "174",
+            "title": "Problem we will focus on",
+            "start": 44.1,
+            "end": 46.6,
+            "text": "create a y or a forecast."
+        },
+        {
+            "number": "174",
+            "title": "Problem we will focus on",
+            "start": 46.6,
+            "end": 50.5,
+            "text": "And using this forecast, you'll generate an orders.txt file,"
+        },
+        {
+            "number": "174",
+            "title": "Problem we will focus on",
+            "start": 50.5,
+            "end": 54.0,
+            "text": "which you can push through your market simulator."
+        },
+        {
+            "number": "174",
+            "title": "Problem we will focus on",
+            "start": 54.0,
+            "end": 58.0,
+            "text": "We'll see how that strategy performs, measure its sharp ratio and"
+        },
+        {
+            "number": "174",
+            "title": "Problem we will focus on",
+            "start": 58.0,
+            "end": 60.0,
+            "text": "its total return and so on."
+        },
+        {
+            "number": "174",
+            "title": "Problem we will focus on",
+            "start": 60.0,
+            "end": 64.7,
+            "text": "And that way we'll be able to compare different machine learning algorithms"
+        },
+        {
+            "number": "174",
+            "title": "Problem we will focus on",
+            "start": 64.7,
+            "end": 66.8,
+            "text": "that generate these orders."
+        },
+        {
+            "number": "174",
+            "title": "Problem we will focus on",
+            "start": 66.8,
+            "end": 69.9,
+            "text": "That's it for this lesson, our introduction to machine learning and"
+        },
+        {
+            "number": "174",
+            "title": "Problem we will focus on",
+            "start": 69.9,
+            "end": 74.4,
+            "text": "how it works at hedge funds and other financial institutions."
+        },
+        {
+            "number": "174",
+            "title": "Problem we will focus on",
+            "start": 74.4,
+            "end": 76.3,
+            "text": "I will see you online again soon."
+        },
+        {
+            "number": "174",
+            "title": "Problem we will focus on",
+            "start": 76.3,
+            "end": 76.8,
+            "text": "Bye bye."
+        }
+    ],
+    "text": "I'm going to take a moment here now to talk about the problem we're going to focus on for the rest of this class. We're going to look at a certain period of data, train our models over that period, and then make forecasts and trade over some other period. So here's our historical data. We're going to use the period of 2009 as our data to train our model. You'll be implementing several machine learning algorithms to create different models, and we'll be comparing them one against the other. Then we'll test over the years 2010 and 2011. So those testing values will become our x, which will push through the model to create a y or a forecast. And using this forecast, you'll generate an orders.txt file, which you can push through your market simulator. We'll see how that strategy performs, measure its sharp ratio and its total return and so on. And that way we'll be able to compare different machine learning algorithms that generate these orders. That's it for this lesson, our introduction to machine learning and how it works at hedge funds and other financial institutions. I will see you online again soon. Bye bye."
+}

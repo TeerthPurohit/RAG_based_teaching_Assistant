@@ -1,0 +1,418 @@
+{
+    "chunks": [
+        {
+            "number": "213",
+            "title": "Dyna Q Big Picture",
+            "start": 0.7,
+            "end": 6.9,
+            "text": "DynaQ is an algorithm developed by Rich Sutton intended to speed up learning,"
+        },
+        {
+            "number": "213",
+            "title": "Dyna Q Big Picture",
+            "start": 6.9,
+            "end": 9.9,
+            "text": "or model convergence for Q-learning."
+        },
+        {
+            "number": "213",
+            "title": "Dyna Q Big Picture",
+            "start": 9.9,
+            "end": 13.6,
+            "text": "Remember that Q-learning is model free,"
+        },
+        {
+            "number": "213",
+            "title": "Dyna Q Big Picture",
+            "start": 13.6,
+            "end": 18.7,
+            "text": "meaning that it does not rely on T or R."
+        },
+        {
+            "number": "213",
+            "title": "Dyna Q Big Picture",
+            "start": 18.7,
+            "end": 25.0,
+            "text": "T being our transition matrix and R being our reward function."
+        },
+        {
+            "number": "213",
+            "title": "Dyna Q Big Picture",
+            "start": 25.0,
+            "end": 26.3,
+            "text": "It doesn't know it."
+        },
+        {
+            "number": "213",
+            "title": "Dyna Q Big Picture",
+            "start": 26.3,
+            "end": 29.0,
+            "text": "Q-learning does not know T or R."
+        },
+        {
+            "number": "213",
+            "title": "Dyna Q Big Picture",
+            "start": 29.0,
+            "end": 34.0,
+            "text": "Dyna ends up becoming a blend of model free and model based methods."
+        },
+        {
+            "number": "213",
+            "title": "Dyna Q Big Picture",
+            "start": 34.0,
+            "end": 35.9,
+            "text": "Here's how it works."
+        },
+        {
+            "number": "213",
+            "title": "Dyna Q Big Picture",
+            "start": 35.9,
+            "end": 38.9,
+            "text": "So let's first consider plain old Q-learning."
+        },
+        {
+            "number": "213",
+            "title": "Dyna Q Big Picture",
+            "start": 38.9,
+            "end": 41.5,
+            "text": "Dyna is really an addition to Q-learning."
+        },
+        {
+            "number": "213",
+            "title": "Dyna Q Big Picture",
+            "start": 41.5,
+            "end": 46.0,
+            "text": "So let's start with the regular Q-learning and then look at how we add Dyna into it."
+        },
+        {
+            "number": "213",
+            "title": "Dyna Q Big Picture",
+            "start": 46.0,
+            "end": 50.8,
+            "text": "So we initialize our Q-table and then we begin iterating."
+        },
+        {
+            "number": "213",
+            "title": "Dyna Q Big Picture",
+            "start": 50.8,
+            "end": 55.9,
+            "text": "We observe S, we execute action A, and"
+        },
+        {
+            "number": "213",
+            "title": "Dyna Q Big Picture",
+            "start": 55.9,
+            "end": 61.2,
+            "text": "then we observe our new state S prime and our reward R."
+        },
+        {
+            "number": "213",
+            "title": "Dyna Q Big Picture",
+            "start": 61.2,
+            "end": 66.4,
+            "text": "We then update our Q-table with this experience tubal and repeat."
+        },
+        {
+            "number": "213",
+            "title": "Dyna Q Big Picture",
+            "start": 66.4,
+            "end": 71.3,
+            "text": "And we do that over and over and over again, interacting with the world."
+        },
+        {
+            "number": "213",
+            "title": "Dyna Q Big Picture",
+            "start": 71.3,
+            "end": 74.0,
+            "text": "And our Q-table becomes better and better."
+        },
+        {
+            "number": "213",
+            "title": "Dyna Q Big Picture",
+            "start": 74.0,
+            "end": 82.8,
+            "text": "So when we augment Q-learning with DynaQ, we add three new components."
+        },
+        {
+            "number": "213",
+            "title": "Dyna Q Big Picture",
+            "start": 82.8,
+            "end": 91.0,
+            "text": "The first is that we add some logic that enables us to learn models of T and R."
+        },
+        {
+            "number": "213",
+            "title": "Dyna Q Big Picture",
+            "start": 91.0,
+            "end": 97.1,
+            "text": "then, for lack of a better term, we hallucinate an experience."
+        },
+        {
+            "number": "213",
+            "title": "Dyna Q Big Picture",
+            "start": 97.1,
+            "end": 101.6,
+            "text": "So rather than interacting with the real world like we do up here with the Q-learning"
+        },
+        {
+            "number": "213",
+            "title": "Dyna Q Big Picture",
+            "start": 101.6,
+            "end": 105.1,
+            "text": "part, and this is expensive by the way."
+        },
+        {
+            "number": "213",
+            "title": "Dyna Q Big Picture",
+            "start": 105.1,
+            "end": 112.1,
+            "text": "We hallucinate these experiences, update our Q-table, and repeat this many times."
+        },
+        {
+            "number": "213",
+            "title": "Dyna Q Big Picture",
+            "start": 112.1,
+            "end": 114.5,
+            "text": "Maybe hundreds of times."
+        },
+        {
+            "number": "213",
+            "title": "Dyna Q Big Picture",
+            "start": 114.5,
+            "end": 120.7,
+            "text": "This operation is very cheap compared to interacting with the real world."
+        },
+        {
+            "number": "213",
+            "title": "Dyna Q Big Picture",
+            "start": 120.7,
+            "end": 126.8,
+            "text": "So we can leverage the experience we gain here from an interaction with the real"
+        },
+        {
+            "number": "213",
+            "title": "Dyna Q Big Picture",
+            "start": 126.8,
+            "end": 132.8,
+            "text": "world, but then update our model more completely before we step out and"
+        },
+        {
+            "number": "213",
+            "title": "Dyna Q Big Picture",
+            "start": 132.8,
+            "end": 135.7,
+            "text": "interact with the real world again."
+        },
+        {
+            "number": "213",
+            "title": "Dyna Q Big Picture",
+            "start": 135.7,
+            "end": 141.1,
+            "text": "After we've iterated enough times down here, maybe 100, maybe 200 times,"
+        },
+        {
+            "number": "213",
+            "title": "Dyna Q Big Picture",
+            "start": 141.1,
+            "end": 143.4,
+            "text": "updates of our model here."
+        },
+        {
+            "number": "213",
+            "title": "Dyna Q Big Picture",
+            "start": 143.4,
+            "end": 146.4,
+            "text": "And resume our interaction with the real world."
+        },
+        {
+            "number": "213",
+            "title": "Dyna Q Big Picture",
+            "start": 146.4,
+            "end": 151.0,
+            "text": "The key thing here is that for each experience with the real world,"
+        },
+        {
+            "number": "213",
+            "title": "Dyna Q Big Picture",
+            "start": 151.0,
+            "end": 155.3,
+            "text": "we have maybe 100 or 200 updates of our model here."
+        },
+        {
+            "number": "213",
+            "title": "Dyna Q Big Picture",
+            "start": 155.3,
+            "end": 158.6,
+            "text": "Let's look at each of these components in a little more detail now."
+        },
+        {
+            "number": "213",
+            "title": "Dyna Q Big Picture",
+            "start": 158.6,
+            "end": 164.0,
+            "text": "So in this part where we update our model, what we really want to do is find"
+        },
+        {
+            "number": "213",
+            "title": "Dyna Q Big Picture",
+            "start": 164.0,
+            "end": 167.7,
+            "text": "new values for T and R."
+        },
+        {
+            "number": "213",
+            "title": "Dyna Q Big Picture",
+            "start": 167.7,
+            "end": 171.9,
+            "text": "The point where we update our model includes the following."
+        },
+        {
+            "number": "213",
+            "title": "Dyna Q Big Picture",
+            "start": 171.9,
+            "end": 176.2,
+            "text": "We want to update T, so I'm calling it T prime for the moment,"
+        },
+        {
+            "number": "213",
+            "title": "Dyna Q Big Picture",
+            "start": 176.2,
+            "end": 179.0,
+            "text": "which represents our transition matrix."
+        },
+        {
+            "number": "213",
+            "title": "Dyna Q Big Picture",
+            "start": 179.0,
+            "end": 181.3,
+            "text": "And we want to update our reward function."
+        },
+        {
+            "number": "213",
+            "title": "Dyna Q Big Picture",
+            "start": 181.3,
+            "end": 187.6,
+            "text": "Now, remember that T is the probability that if we're in state S and"
+        },
+        {
+            "number": "213",
+            "title": "Dyna Q Big Picture",
+            "start": 187.6,
+            "end": 191.8,
+            "text": "we take action A, we'll end up in S prime."
+        },
+        {
+            "number": "213",
+            "title": "Dyna Q Big Picture",
+            "start": 191.8,
+            "end": 198.0,
+            "text": "And R is our expected reward if we're in state S and we take action A."
+        },
+        {
+            "number": "213",
+            "title": "Dyna Q Big Picture",
+            "start": 198.0,
+            "end": 202.6,
+            "text": "I'm going to show you in a moment how we'll update T and R."
+        },
+        {
+            "number": "213",
+            "title": "Dyna Q Big Picture",
+            "start": 202.6,
+            "end": 205.3,
+            "text": "Here's how we hallucinate an experience."
+        },
+        {
+            "number": "213",
+            "title": "Dyna Q Big Picture",
+            "start": 205.3,
+            "end": 208.1,
+            "text": "First, we randomly select an S."
+        },
+        {
+            "number": "213",
+            "title": "Dyna Q Big Picture",
+            "start": 208.1,
+            "end": 210.8,
+            "text": "Second, we randomly select an A."
+        },
+        {
+            "number": "213",
+            "title": "Dyna Q Big Picture",
+            "start": 210.8,
+            "end": 215.4,
+            "text": "So our state and action are chosen totally at random."
+        },
+        {
+            "number": "213",
+            "title": "Dyna Q Big Picture",
+            "start": 215.4,
+            "end": 220.5,
+            "text": "Then we infer our new state S prime by looking at T."
+        },
+        {
+            "number": "213",
+            "title": "Dyna Q Big Picture",
+            "start": 220.5,
+            "end": 224.0,
+            "text": "And we infer our reward, our immediate reward R,"
+        },
+        {
+            "number": "213",
+            "title": "Dyna Q Big Picture",
+            "start": 224.0,
+            "end": 226.9,
+            "text": "by looking at big R, our R table."
+        },
+        {
+            "number": "213",
+            "title": "Dyna Q Big Picture",
+            "start": 228.0,
+            "end": 233.8,
+            "text": "So now we've got S, A, S prime, and R, or a complete experience tuple."
+        },
+        {
+            "number": "213",
+            "title": "Dyna Q Big Picture",
+            "start": 233.8,
+            "end": 236.7,
+            "text": "And we can update our qtable using that."
+        },
+        {
+            "number": "213",
+            "title": "Dyna Q Big Picture",
+            "start": 236.7,
+            "end": 239.2,
+            "text": "So the qtable update is our final step."
+        },
+        {
+            "number": "213",
+            "title": "Dyna Q Big Picture",
+            "start": 239.2,
+            "end": 243.0,
+            "text": "And this is really all there is to DynaQ."
+        },
+        {
+            "number": "213",
+            "title": "Dyna Q Big Picture",
+            "start": 243.0,
+            "end": 245.2,
+            "text": "We've added these three sections."
+        },
+        {
+            "number": "213",
+            "title": "Dyna Q Big Picture",
+            "start": 245.2,
+            "end": 248.0,
+            "text": "And what's missing, and I'll get to in just a moment,"
+        },
+        {
+            "number": "213",
+            "title": "Dyna Q Big Picture",
+            "start": 248.0,
+            "end": 253.5,
+            "text": "is how do we update our model of T and our model of R?"
+        }
+    ],
+    "text": "DynaQ is an algorithm developed by Rich Sutton intended to speed up learning, or model convergence for Q-learning. Remember that Q-learning is model free, meaning that it does not rely on T or R. T being our transition matrix and R being our reward function. It doesn't know it. Q-learning does not know T or R. Dyna ends up becoming a blend of model free and model based methods. Here's how it works. So let's first consider plain old Q-learning. Dyna is really an addition to Q-learning. So let's start with the regular Q-learning and then look at how we add Dyna into it. So we initialize our Q-table and then we begin iterating. We observe S, we execute action A, and then we observe our new state S prime and our reward R. We then update our Q-table with this experience tubal and repeat. And we do that over and over and over again, interacting with the world. And our Q-table becomes better and better. So when we augment Q-learning with DynaQ, we add three new components. The first is that we add some logic that enables us to learn models of T and R. then, for lack of a better term, we hallucinate an experience. So rather than interacting with the real world like we do up here with the Q-learning part, and this is expensive by the way. We hallucinate these experiences, update our Q-table, and repeat this many times. Maybe hundreds of times. This operation is very cheap compared to interacting with the real world. So we can leverage the experience we gain here from an interaction with the real world, but then update our model more completely before we step out and interact with the real world again. After we've iterated enough times down here, maybe 100, maybe 200 times, updates of our model here. And resume our interaction with the real world. The key thing here is that for each experience with the real world, we have maybe 100 or 200 updates of our model here. Let's look at each of these components in a little more detail now. So in this part where we update our model, what we really want to do is find new values for T and R. The point where we update our model includes the following. We want to update T, so I'm calling it T prime for the moment, which represents our transition matrix. And we want to update our reward function. Now, remember that T is the probability that if we're in state S and we take action A, we'll end up in S prime. And R is our expected reward if we're in state S and we take action A. I'm going to show you in a moment how we'll update T and R. Here's how we hallucinate an experience. First, we randomly select an S. Second, we randomly select an A. So our state and action are chosen totally at random. Then we infer our new state S prime by looking at T. And we infer our reward, our immediate reward R, by looking at big R, our R table. So now we've got S, A, S prime, and R, or a complete experience tuple. And we can update our qtable using that. So the qtable update is our final step. And this is really all there is to DynaQ. We've added these three sections. And what's missing, and I'll get to in just a moment, is how do we update our model of T and our model of R?"
+}

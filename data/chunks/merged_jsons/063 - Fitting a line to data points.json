@@ -1,0 +1,55 @@
+{
+    "title": "Fitting a line to data points",
+    "number": "063",
+    "chunks": [
+        {
+            "title": "Fitting a line to data points",
+            "number": "063",
+            "start": 0.0,
+            "end": 16.8,
+            "text": "It is fairly common practice to take this set of data and fit a line to it using linear regression. Let's say we got a line, something like that. And to look at the statistics of that linear fit. One property is the slope."
+        },
+        {
+            "title": "Fitting a line to data points",
+            "number": "063",
+            "start": 16.8,
+            "end": 37.2,
+            "text": "When we fit a line, what's the slope of that line? Let's assume it turns out to be one for this particular stock and its relationship to the S&P 500. This slope in financial terminology is usually referred to as beta with this symbol or just the word beta."
+        },
+        {
+            "title": "Fitting a line to data points",
+            "number": "063",
+            "start": 37.2,
+            "end": 61.3,
+            "text": "And what beta means is how reactive is the stock to the market? So if beta is one, and we have a slope here of one, it means on average when the market goes up 1%, that particular stock also goes up 1%. If we have say a higher number, say 2, that would mean that if the market were"
+        },
+        {
+            "title": "Fitting a line to data points",
+            "number": "063",
+            "start": 61.3,
+            "end": 81.0,
+            "text": "to go up 1%, we'd expect on average for that stock to go up 2%. There's another factor you can see here when you look at where that line intercepts the vertical axis. That is called alpha. And you've probably heard about alpha in investing circles."
+        },
+        {
+            "title": "Fitting a line to data points",
+            "number": "063",
+            "start": 81.0,
+            "end": 112.8,
+            "text": "And what that means is that this stock is actually, on average, performing a little bit better than the S&P 500 every day if that number alpha is positive. If it's negative, means on average it's returning a little bit less than the market overall. So that's how you can plot the data, fit a line to it, and measure a couple aspects of its performance with regard to the market or with regard to some other stock."
+        },
+        {
+            "title": "Fitting a line to data points",
+            "number": "063",
+            "start": 112.8,
+            "end": 125.0,
+            "text": "claim to that cost ourplate that we've got 0 Dáil too much down for you compared to the front Kivid. None of this stem will work better than the talent of ours. More than the coal base is the most important to solve, giving from the end."
+        },
+        {
+            "title": "Fitting a line to data points",
+            "number": "063",
+            "start": 125.0,
+            "end": 128.0,
+            "text": "Such as B is the time that we want to ask for about 1 so saiy переход."
+        }
+    ]
+}

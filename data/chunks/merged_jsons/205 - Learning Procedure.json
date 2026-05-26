@@ -1,0 +1,69 @@
+{
+    "title": "Learning Procedure",
+    "number": "205",
+    "chunks": [
+        {
+            "title": "Learning Procedure",
+            "number": "205",
+            "start": 0.3,
+            "end": 26.4,
+            "text": "Here's the big picture at a high level of how we train a Q Learner. We have our data here and we select which data we want to train on. Of course, this data in the case of stock market is time series. And so it's arranged from oldest to newest vertically here. So we select the data we want to train on and then we iterate over this data over"
+        },
+        {
+            "title": "Learning Procedure",
+            "number": "205",
+            "start": 26.4,
+            "end": 51.1,
+            "text": "time. So we evaluate the situation there and for a particular stock that gives us S, our state, we consult our policy and that gives us an action. So we take that action, plug it into our system here, evaluate the next state. And we get our S prime and our reward."
+        },
+        {
+            "title": "Learning Procedure",
+            "number": "205",
+            "start": 51.1,
+            "end": 73.4,
+            "text": "So, after one iteration here, we've got an S, an action, an S prime and an R or an experience tuple. And we use that experience tuple to update our Q table. Once we get all the way through the training data, we test our policy and we see how well it performs in a backtest."
+        },
+        {
+            "title": "Learning Procedure",
+            "number": "205",
+            "start": 74.8,
+            "end": 96.2,
+            "text": "If it's converged or it's not getting any better, then we say we're done. If not, we repeat this whole process all the way through the training data. So what do we mean by converge? Well, each time we cycle through the data, training our Q table, and then testing back across that same data, we get some performance."
+        },
+        {
+            "title": "Learning Procedure",
+            "number": "205",
+            "start": 97.3,
+            "end": 118.5,
+            "text": "And we expect that each time we complete an iteration here, our performance is going to get better and better. But after a point, it finally stops getting better and it converges. So overall, the chart's going to look something like this. Eventually, we reach this regime where more iterations doesn't make it better,"
+        },
+        {
+            "title": "Learning Procedure",
+            "number": "205",
+            "start": 118.5,
+            "end": 141.3,
+            "text": "and we call it converged at that point. Let's consider now in more detail what happens here when we're iterating over the data. So here are the details as we iterate over our training data. We start by setting our start time, which is right here at the beginning. And we initialize our Q table."
+        },
+        {
+            "title": "Learning Procedure",
+            "number": "205",
+            "start": 141.3,
+            "end": 163.9,
+            "text": "The usual way to initialize a Q table is with small random numbers. But variations of that are fine. Now, we're here in time, and we observe the features of our stock or stocks. And from those build up together our state s. We consult our policy, or in other words,"
+        },
+        {
+            "title": "Learning Procedure",
+            "number": "205",
+            "start": 163.9,
+            "end": 185.9,
+            "text": "we consult Q to find the best action in the current state. That gives us A. Then we step forward, and we see what reward we get, and what's our new state. We now have a complete experience tuple that we can use to update our Q table. So we take this information that we just learned, and"
+        },
+        {
+            "title": "Learning Procedure",
+            "number": "205",
+            "start": 185.9,
+            "end": 201.9,
+            "text": "we improve Q based on that information. Then we step to the next point in time, and the next point in time, and the next point in time, and so on. So these are all the details of what happens in this step of the big picture."
+        }
+    ]
+}

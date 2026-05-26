@@ -1,0 +1,62 @@
+{
+    "title": "CAPM for portfolios",
+    "number": "118",
+    "chunks": [
+        {
+            "title": "CAPM for portfolios",
+            "number": "118",
+            "start": 0.2,
+            "end": 18.5,
+            "text": "Suppose now that instead of just looking at one stock, you want to think about a portfolio. And remember that a portfolio is defined by the various weights that indicate how much of your funds you've allocated to each stock. So recall that for an individual stock, i, its return on any particular day is"
+        },
+        {
+            "title": "CAPM for portfolios",
+            "number": "118",
+            "start": 18.5,
+            "end": 37.8,
+            "text": "beta i times return on the market for that day plus alpha sub i for that particular day. So to compute the return for the entire portfolio, we compute this return for each individual stock, multiply it by the weight for that stock, and then we take the sum across all the stocks."
+        },
+        {
+            "title": "CAPM for portfolios",
+            "number": "118",
+            "start": 37.8,
+            "end": 60.4,
+            "text": "And that's what we get for the entire portfolio. Now if you note, we can calculate beta for the entire portfolio simply by doing this. Beta for the overall portfolio is simply a weighted sum of the individual betas for each of the stocks. So the capital assets pricing model tells us that we can simplify the expected"
+        },
+        {
+            "title": "CAPM for portfolios",
+            "number": "118",
+            "start": 60.4,
+            "end": 78.4,
+            "text": "overall return for a portfolio by computing a beta for that portfolio, multiplying it by the return on the market. And then there's some alpha. So that alpha is composed of multiple examples of this alpha. But remember, capital asset pricing model says that all of these are on average"
+        },
+        {
+            "title": "CAPM for portfolios",
+            "number": "118",
+            "start": 78.4,
+            "end": 96.7,
+            "text": "going to be zero. So we don't need to bother necessarily adding them up. We can just approximate it by an overall portfolio alpha. So again, this is what the cap M tells us we can expect on any particular day. And again, cap M asserts that this alpha is random with mean zero."
+        },
+        {
+            "title": "CAPM for portfolios",
+            "number": "118",
+            "start": 96.7,
+            "end": 123.2,
+            "text": "The active portfolio manager will say, okay, yes, I agree that the beta component is the same as capital asset pricing model says. But I think I can find value in this alpha and it needs to be broken out individually. So the active portfolio manager is going to have this formulation of what they could expect in return each day compared to the cap M, which is a little bit simpler."
+        },
+        {
+            "title": "CAPM for portfolios",
+            "number": "118",
+            "start": 123.2,
+            "end": 143.2,
+            "text": "impression of context of packingled載 based So you can expect value in of fitting Aqua in Invitational with niedo and sort of coalition the perfect classical asset pricing model but indeed it takes value out for such that and slowاء feel free to just fall a couple of clubs, such as looking for."
+        },
+        {
+            "title": "CAPM for portfolios",
+            "number": "118",
+            "start": 143.2,
+            "end": 151.4,
+            "text": "You can actually see that in order to the upper floor, to theakukan Career organization that's automatically ped up the Cay saw how youición consequential,"
+        }
+    ]
+}

@@ -1,0 +1,76 @@
+{
+    "title": "Why this is bad",
+    "number": "054",
+    "chunks": [
+        {
+            "title": "Why this is bad",
+            "number": "054",
+            "start": 0.3,
+            "end": 22.2,
+            "text": "The question is, what do we do in situations like this, where we don't have data between two separate dates? Now, you might think, gee, let's interpolate. And so we would estimate what a line is between those two dates and then fill in at each point an interpolated value."
+        },
+        {
+            "title": "Why this is bad",
+            "number": "054",
+            "start": 22.2,
+            "end": 41.0,
+            "text": "Why not do that? Well, the truth of the matter is, between these two dates, there was no trading. There really was no price for that data. But if we're going to do something like, for instance, compute a rolling average or a mean over that data, and there's NANDs there,"
+        },
+        {
+            "title": "Why this is bad",
+            "number": "054",
+            "start": 41.0,
+            "end": 62.0,
+            "text": "that'll wipe out our entire calculation. So we can't leave it empty, but we shouldn't interpolate it either. So here's what we might do. One thing that we can do is we fill forward going from, we go over all the data, and when there's some missing data, we fill forward from the last previous known value."
+        },
+        {
+            "title": "Why this is bad",
+            "number": "054",
+            "start": 62.0,
+            "end": 83.1,
+            "text": "So for instance, if we were to do that here, we would get these values up until that date where it takes over there. We would fill forward here and fill forward here. Now notice there's a big gap between there, and there's a big gap here. But that realistically reflects what was going on with the data."
+        },
+        {
+            "title": "Why this is bad",
+            "number": "054",
+            "start": 83.1,
+            "end": 107.7,
+            "text": "Now the reason we do this instead of the interpolation is the following. Let's suppose we were looking for patterns in the data, and we had rolled back time, and we were simulating history. And let's suppose for a moment we had this interpolation. And let's suppose we're right here in time, and we're trying to figure out what's going"
+        },
+        {
+            "title": "Why this is bad",
+            "number": "054",
+            "start": 107.7,
+            "end": 124.7,
+            "text": "to happen next, we're looking for patterns and so on. We're actually giving ourselves information about the future. We're observing that the price is going up. So if we were to make a calculation here, we would actually be peeking into the future, and that is not allowed."
+        },
+        {
+            "title": "Why this is bad",
+            "number": "054",
+            "start": 124.7,
+            "end": 143.7,
+            "text": "We do not want to do that. So we need to stick with only filling forward a last known price. If we do that, then we're not peeking into the future. So let's get rid of that ugly, nasty peeking into the future. Okay, so now we've actually filled in all our gaps, and we have continuous data"
+        },
+        {
+            "title": "Why this is bad",
+            "number": "054",
+            "start": 143.7,
+            "end": 170.7,
+            "text": "from this start point all the way to the end. However, there still is missing data here at the beginning. And because we need some value here in order to calculate rolling averages or whatever sort of statistics we want to do, it's better to have some value here instead of not a number. And in this case, we fill backwards."
+        },
+        {
+            "title": "Why this is bad",
+            "number": "054",
+            "start": 170.7,
+            "end": 191.7,
+            "text": "So remember, if you're going to fill your data to resolve problems with gaps, fill forward first and fill backwards second. That way you'll avoid to the max extent possible peeking into the future. Now we'll hand it over to Dave, and she's going to show you how to do this in code. Here's to you, Dave."
+        },
+        {
+            "title": "Why this is bad",
+            "number": "054",
+            "start": 191.7,
+            "end": 192.7,
+            "text": "."
+        }
+    ]
+}

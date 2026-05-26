@@ -1,0 +1,348 @@
+{
+    "chunks": [
+        {
+            "number": "124",
+            "title": "How does it work",
+            "start": 0.2,
+            "end": 2.4,
+            "text": "Okay, we've calculated these weights."
+        },
+        {
+            "number": "124",
+            "title": "How does it work",
+            "start": 2.4,
+            "end": 5.2,
+            "text": "Let's see how they work on the examples we've been looking at."
+        },
+        {
+            "number": "124",
+            "title": "How does it work",
+            "start": 5.2,
+            "end": 9.3,
+            "text": "So again, our weight for stock A is going to be 0.66, and"
+        },
+        {
+            "number": "124",
+            "title": "How does it work",
+            "start": 9.3,
+            "end": 12.3,
+            "text": "for stock B is going to be negative 0.33."
+        },
+        {
+            "number": "124",
+            "title": "How does it work",
+            "start": 12.3,
+            "end": 16.2,
+            "text": "And we're going to look at the scenario where the market goes up 10%."
+        },
+        {
+            "number": "124",
+            "title": "How does it work",
+            "start": 16.2,
+            "end": 21.0,
+            "text": "We'll pull out our old trusty cap M and expand it for these two stocks."
+        },
+        {
+            "number": "124",
+            "title": "How does it work",
+            "start": 21.0,
+            "end": 25.2,
+            "text": "So for stock A, we have the weight of stock A times its beta times the return"
+        },
+        {
+            "number": "124",
+            "title": "How does it work",
+            "start": 25.2,
+            "end": 28.8,
+            "text": "on the market, plus the alpha component."
+        },
+        {
+            "number": "124",
+            "title": "How does it work",
+            "start": 28.8,
+            "end": 31.7,
+            "text": "So these are the two parts that relate to the return on the market, and"
+        },
+        {
+            "number": "124",
+            "title": "How does it work",
+            "start": 31.7,
+            "end": 33.2,
+            "text": "we'll bring them together."
+        },
+        {
+            "number": "124",
+            "title": "How does it work",
+            "start": 33.2,
+            "end": 38.6,
+            "text": "So for stock A, we have a weight of 0.66, and our beta is 1.0."
+        },
+        {
+            "number": "124",
+            "title": "How does it work",
+            "start": 38.6,
+            "end": 44.4,
+            "text": "And for stock B, we've got negative 0.33 times 2 times return on the market."
+        },
+        {
+            "number": "124",
+            "title": "How does it work",
+            "start": 44.4,
+            "end": 47.6,
+            "text": "So because of all that work we did to figure out these values,"
+        },
+        {
+            "number": "124",
+            "title": "How does it work",
+            "start": 47.6,
+            "end": 50.8,
+            "text": "we know already that this is going to become 0."
+        },
+        {
+            "number": "124",
+            "title": "How does it work",
+            "start": 50.8,
+            "end": 53.7,
+            "text": "We'll carry down our two alpha components."
+        },
+        {
+            "number": "124",
+            "title": "How does it work",
+            "start": 53.7,
+            "end": 58.0,
+            "text": "So for stock A, our alpha expectation is 1%, and"
+        },
+        {
+            "number": "124",
+            "title": "How does it work",
+            "start": 58.0,
+            "end": 60.2,
+            "text": "our weighting is 0.66."
+        },
+        {
+            "number": "124",
+            "title": "How does it work",
+            "start": 60.2,
+            "end": 65.4,
+            "text": "For stock B, our weighting is negative 1 third times negative 1."
+        },
+        {
+            "number": "124",
+            "title": "How does it work",
+            "start": 65.4,
+            "end": 68.7,
+            "text": "Our expectation is it's going to go down 1%."
+        },
+        {
+            "number": "124",
+            "title": "How does it work",
+            "start": 68.7,
+            "end": 77.0,
+            "text": "So combining these two, 0.66 plus 0.33 gives us a 1% expected return."
+        },
+        {
+            "number": "124",
+            "title": "How does it work",
+            "start": 77.0,
+            "end": 79.1,
+            "text": "Whichever way the market goes, remember?"
+        },
+        {
+            "number": "124",
+            "title": "How does it work",
+            "start": 79.1,
+            "end": 83.0,
+            "text": "We eliminated the return on the market."
+        },
+        {
+            "number": "124",
+            "title": "How does it work",
+            "start": 83.0,
+            "end": 87.1,
+            "text": "So whichever way the market goes, we can expect to get 1% return."
+        },
+        {
+            "number": "124",
+            "title": "How does it work",
+            "start": 87.1,
+            "end": 89.6,
+            "text": "Now, need to add a lot of caveats here."
+        },
+        {
+            "number": "124",
+            "title": "How does it work",
+            "start": 89.6,
+            "end": 95.0,
+            "text": "These betas aren't necessarily fully guaranteed to continue into the future."
+        },
+        {
+            "number": "124",
+            "title": "How does it work",
+            "start": 95.0,
+            "end": 97.6,
+            "text": "And these alphas aren't guaranteed either."
+        },
+        {
+            "number": "124",
+            "title": "How does it work",
+            "start": 97.6,
+            "end": 102.7,
+            "text": "These were just estimates that we computed based on information we thought we had."
+        },
+        {
+            "number": "124",
+            "title": "How does it work",
+            "start": 102.7,
+            "end": 106.7,
+            "text": "So this is not a guaranteed thing by any means, but"
+        },
+        {
+            "number": "124",
+            "title": "How does it work",
+            "start": 106.7,
+            "end": 112.3,
+            "text": "it is a way to use long short investing to reduce exposure to the market overall."
+        },
+        {
+            "number": "124",
+            "title": "How does it work",
+            "start": 112.3,
+            "end": 116.6,
+            "text": "And to focus on those alpha components where we do have information."
+        },
+        {
+            "number": "124",
+            "title": "How does it work",
+            "start": 116.6,
+            "end": 120.2,
+            "text": "haunted lots, absolutely similar prices will still be realized."
+        },
+        {
+            "number": "124",
+            "title": "How does it work",
+            "start": 120.2,
+            "end": 120.6,
+            "text": "Alright."
+        },
+        {
+            "number": "124",
+            "title": "How does it work",
+            "start": 120.6,
+            "end": 121.5,
+            "text": "Bye."
+        },
+        {
+            "number": "124",
+            "title": "How does it work",
+            "start": 121.5,
+            "end": 121.9,
+            "text": "Bye."
+        },
+        {
+            "number": "124",
+            "title": "How does it work",
+            "start": 121.9,
+            "end": 122.2,
+            "text": "Hey."
+        },
+        {
+            "number": "124",
+            "title": "How does it work",
+            "start": 122.2,
+            "end": 122.3,
+            "text": "Thanks."
+        },
+        {
+            "number": "124",
+            "title": "How does it work",
+            "start": 122.4,
+            "end": 122.9,
+            "text": "I'll quickly read."
+        },
+        {
+            "number": "124",
+            "title": "How does it work",
+            "start": 125.7,
+            "end": 126.8,
+            "text": "end"
+        },
+        {
+            "number": "124",
+            "title": "How does it work",
+            "start": 127.1,
+            "end": 127.4,
+            "text": "day"
+        },
+        {
+            "number": "124",
+            "title": "How does it work",
+            "start": 127.4,
+            "end": 129.2,
+            "text": "day"
+        },
+        {
+            "number": "124",
+            "title": "How does it work",
+            "start": 129.2,
+            "end": 130.4,
+            "text": "right"
+        },
+        {
+            "number": "124",
+            "title": "How does it work",
+            "start": 130.4,
+            "end": 130.9,
+            "text": "Alright."
+        },
+        {
+            "number": "124",
+            "title": "How does it work",
+            "start": 130.9,
+            "end": 132.3,
+            "text": "Today"
+        },
+        {
+            "number": "124",
+            "title": "How does it work",
+            "start": 132.3,
+            "end": 136.6,
+            "text": "I encourage you to"
+        },
+        {
+            "number": "124",
+            "title": "How does it work",
+            "start": 136.6,
+            "end": 137.5,
+            "text": "visit below."
+        },
+        {
+            "number": "124",
+            "title": "How does it work",
+            "start": 137.5,
+            "end": 138.3,
+            "text": "You"
+        },
+        {
+            "number": "124",
+            "title": "How does it work",
+            "start": 138.3,
+            "end": 139.4,
+            "text": "have"
+        },
+        {
+            "number": "124",
+            "title": "How does it work",
+            "start": 139.4,
+            "end": 141.3,
+            "text": "patient"
+        },
+        {
+            "number": "124",
+            "title": "How does it work",
+            "start": 142.3,
+            "end": 143.3,
+            "text": "there"
+        }
+    ],
+    "text": "Okay, we've calculated these weights. Let's see how they work on the examples we've been looking at. So again, our weight for stock A is going to be 0.66, and for stock B is going to be negative 0.33. And we're going to look at the scenario where the market goes up 10%. We'll pull out our old trusty cap M and expand it for these two stocks. So for stock A, we have the weight of stock A times its beta times the return on the market, plus the alpha component. So these are the two parts that relate to the return on the market, and we'll bring them together. So for stock A, we have a weight of 0.66, and our beta is 1.0. And for stock B, we've got negative 0.33 times 2 times return on the market. So because of all that work we did to figure out these values, we know already that this is going to become 0. We'll carry down our two alpha components. So for stock A, our alpha expectation is 1%, and our weighting is 0.66. For stock B, our weighting is negative 1 third times negative 1. Our expectation is it's going to go down 1%. So combining these two, 0.66 plus 0.33 gives us a 1% expected return. Whichever way the market goes, remember? We eliminated the return on the market. So whichever way the market goes, we can expect to get 1% return. Now, need to add a lot of caveats here. These betas aren't necessarily fully guaranteed to continue into the future. And these alphas aren't guaranteed either. These were just estimates that we computed based on information we thought we had. So this is not a guaranteed thing by any means, but it is a way to use long short investing to reduce exposure to the market overall. And to focus on those alpha components where we do have information. haunted lots, absolutely similar prices will still be realized. Alright. Bye. Bye. Hey. Thanks. I'll quickly read. end day day right Alright. Today I encourage you to visit below. You have patient there"
+}

@@ -1,0 +1,264 @@
+{
+    "chunks": [
+        {
+            "number": "163",
+            "title": "The efficient frontier",
+            "start": 0.3,
+            "end": 4.6,
+            "text": "There's one last topic I wanted to talk about with regard to portfolio optimizers"
+        },
+        {
+            "number": "163",
+            "title": "The efficient frontier",
+            "start": 4.6,
+            "end": 6.6,
+            "text": "and modern portfolio theory."
+        },
+        {
+            "number": "163",
+            "title": "The efficient frontier",
+            "start": 6.6,
+            "end": 12.8,
+            "text": "Consider these assets and also recognize that for any particular return level,"
+        },
+        {
+            "number": "163",
+            "title": "The efficient frontier",
+            "start": 12.8,
+            "end": 15.9,
+            "text": "there is an optimal portfolio."
+        },
+        {
+            "number": "163",
+            "title": "The efficient frontier",
+            "start": 15.9,
+            "end": 22.0,
+            "text": "So let's suppose we pick this return level and that this is the optimal portfolio."
+        },
+        {
+            "number": "163",
+            "title": "The efficient frontier",
+            "start": 22.0,
+            "end": 26.9,
+            "text": "In other words, this portfolio reflects weightings of all these assets that"
+        },
+        {
+            "number": "163",
+            "title": "The efficient frontier",
+            "start": 26.9,
+            "end": 31.1,
+            "text": "provides the lowest risk for this particular return."
+        },
+        {
+            "number": "163",
+            "title": "The efficient frontier",
+            "start": 31.1,
+            "end": 36.4,
+            "text": "Now, we can compute this for all the potential returns"
+        },
+        {
+            "number": "163",
+            "title": "The efficient frontier",
+            "start": 36.4,
+            "end": 40.3,
+            "text": "from the minimum return stock here up to the maximum."
+        },
+        {
+            "number": "163",
+            "title": "The efficient frontier",
+            "start": 40.3,
+            "end": 43.6,
+            "text": "And if we did that for all of them, in fact, there's an infinite number of them,"
+        },
+        {
+            "number": "163",
+            "title": "The efficient frontier",
+            "start": 43.6,
+            "end": 48.0,
+            "text": "so we couldn't really do it for all of them, you get a line."
+        },
+        {
+            "number": "163",
+            "title": "The efficient frontier",
+            "start": 48.0,
+            "end": 52.2,
+            "text": "So our maximum return portfolio is up here, and"
+        },
+        {
+            "number": "163",
+            "title": "The efficient frontier",
+            "start": 52.2,
+            "end": 55.3,
+            "text": "it would consist entirely of that one asset."
+        },
+        {
+            "number": "163",
+            "title": "The efficient frontier",
+            "start": 55.3,
+            "end": 60.8,
+            "text": "But as we bring the return down, we find a number of other portfolios all the way down to here."
+        },
+        {
+            "number": "163",
+            "title": "The efficient frontier",
+            "start": 60.8,
+            "end": 64.0,
+            "text": "Couple different things to observe that are interesting."
+        },
+        {
+            "number": "163",
+            "title": "The efficient frontier",
+            "start": 64.0,
+            "end": 70.0,
+            "text": "One is, is as you reduce the return, sometimes this curve comes back in this direction."
+        },
+        {
+            "number": "163",
+            "title": "The efficient frontier",
+            "start": 70.0,
+            "end": 75.6,
+            "text": "Indicating that actually the risk is increasing as we reduce the return."
+        },
+        {
+            "number": "163",
+            "title": "The efficient frontier",
+            "start": 75.6,
+            "end": 79.4,
+            "text": "So for the most part, people don't want those sorts of portfolios."
+        },
+        {
+            "number": "163",
+            "title": "The efficient frontier",
+            "start": 79.4,
+            "end": 84.3,
+            "text": "In other words, who wants a lower returning portfolio with more risk?"
+        },
+        {
+            "number": "163",
+            "title": "The efficient frontier",
+            "start": 84.3,
+            "end": 87.9,
+            "text": "So we typically look only at portfolios above this line."
+        },
+        {
+            "number": "163",
+            "title": "The efficient frontier",
+            "start": 89.0,
+            "end": 94.4,
+            "text": "As you might have guessed, the name of this line is the efficient frontier."
+        },
+        {
+            "number": "163",
+            "title": "The efficient frontier",
+            "start": 94.4,
+            "end": 96.7,
+            "text": "So what does that mean, the efficient frontier?"
+        },
+        {
+            "number": "163",
+            "title": "The efficient frontier",
+            "start": 96.7,
+            "end": 102.4,
+            "text": "Well, it means that there are essentially no portfolios out here."
+        },
+        {
+            "number": "163",
+            "title": "The efficient frontier",
+            "start": 102.4,
+            "end": 108.6,
+            "text": "And that any portfolio that's on this side of the frontier, it's suboptimal in some way."
+        },
+        {
+            "number": "163",
+            "title": "The efficient frontier",
+            "start": 108.6,
+            "end": 115.8,
+            "text": "So for instance, if you had a portfolio here, you are assuming this much risk for"
+        },
+        {
+            "number": "163",
+            "title": "The efficient frontier",
+            "start": 115.8,
+            "end": 119.3,
+            "text": "lower return than you could have if you were up here on the frontier."
+        },
+        {
+            "number": "163",
+            "title": "The efficient frontier",
+            "start": 119.3,
+            "end": 125.9,
+            "text": "Or if you were targeting this much return, you could be over here with regard to risk."
+        },
+        {
+            "number": "163",
+            "title": "The efficient frontier",
+            "start": 125.9,
+            "end": 132.5,
+            "text": "So any portfolio inside here is not efficient because it's either higher risk or"
+        },
+        {
+            "number": "163",
+            "title": "The efficient frontier",
+            "start": 132.5,
+            "end": 136.6,
+            "text": "lower return than it could be if we were on the efficient frontier."
+        },
+        {
+            "number": "163",
+            "title": "The efficient frontier",
+            "start": 136.6,
+            "end": 141.5,
+            "text": "One last thing to mention about the efficient frontier is if you draw a tangent line from"
+        },
+        {
+            "number": "163",
+            "title": "The efficient frontier",
+            "start": 141.5,
+            "end": 151.0,
+            "text": "the origin to the frontier, where it hits is the max sharp ratio portfolio for all of these assets."
+        },
+        {
+            "number": "163",
+            "title": "The efficient frontier",
+            "start": 151.0,
+            "end": 157.6,
+            "text": "In practice, the efficient frontier isn't used for that much other than as a theoretical device."
+        },
+        {
+            "number": "163",
+            "title": "The efficient frontier",
+            "start": 157.6,
+            "end": 162.4,
+            "text": "But people do often like to plot the efficient frontier so they can see where their portfolio"
+        },
+        {
+            "number": "163",
+            "title": "The efficient frontier",
+            "start": 162.4,
+            "end": 169.3,
+            "text": "is in relation to the assets that they're using and where they could be in terms of efficiency."
+        },
+        {
+            "number": "163",
+            "title": "The efficient frontier",
+            "start": 169.3,
+            "end": 170.6,
+            "text": "Okay, that is all."
+        },
+        {
+            "number": "163",
+            "title": "The efficient frontier",
+            "start": 170.6,
+            "end": 172.8,
+            "text": "I will see you online soon."
+        },
+        {
+            "number": "163",
+            "title": "The efficient frontier",
+            "start": 172.8,
+            "end": 173.6,
+            "text": "Thank you very much."
+        }
+    ],
+    "text": "There's one last topic I wanted to talk about with regard to portfolio optimizers and modern portfolio theory. Consider these assets and also recognize that for any particular return level, there is an optimal portfolio. So let's suppose we pick this return level and that this is the optimal portfolio. In other words, this portfolio reflects weightings of all these assets that provides the lowest risk for this particular return. Now, we can compute this for all the potential returns from the minimum return stock here up to the maximum. And if we did that for all of them, in fact, there's an infinite number of them, so we couldn't really do it for all of them, you get a line. So our maximum return portfolio is up here, and it would consist entirely of that one asset. But as we bring the return down, we find a number of other portfolios all the way down to here. Couple different things to observe that are interesting. One is, is as you reduce the return, sometimes this curve comes back in this direction. Indicating that actually the risk is increasing as we reduce the return. So for the most part, people don't want those sorts of portfolios. In other words, who wants a lower returning portfolio with more risk? So we typically look only at portfolios above this line. As you might have guessed, the name of this line is the efficient frontier. So what does that mean, the efficient frontier? Well, it means that there are essentially no portfolios out here. And that any portfolio that's on this side of the frontier, it's suboptimal in some way. So for instance, if you had a portfolio here, you are assuming this much risk for lower return than you could have if you were up here on the frontier. Or if you were targeting this much return, you could be over here with regard to risk. So any portfolio inside here is not efficient because it's either higher risk or lower return than it could be if we were on the efficient frontier. One last thing to mention about the efficient frontier is if you draw a tangent line from the origin to the frontier, where it hits is the max sharp ratio portfolio for all of these assets. In practice, the efficient frontier isn't used for that much other than as a theoretical device. But people do often like to plot the efficient frontier so they can see where their portfolio is in relation to the assets that they're using and where they could be in terms of efficiency. Okay, that is all. I will see you online soon. Thank you very much."
+}

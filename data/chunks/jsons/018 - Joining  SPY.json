@@ -1,0 +1,173 @@
+{
+    "chunks": [
+        {
+            "number": "018",
+            "title": "Joining  SPY",
+            "start": 0.4,
+            "end": 5.1,
+            "text": "So, Pandas has many very powerful features."
+        },
+        {
+            "number": "018",
+            "title": "Joining  SPY",
+            "start": 5.1,
+            "end": 11.3,
+            "text": "One, or among those features are the ability to do many operations"
+        },
+        {
+            "number": "018",
+            "title": "Joining  SPY",
+            "start": 11.3,
+            "end": 14.8,
+            "text": "that you may be familiar with from databases."
+        },
+        {
+            "number": "018",
+            "title": "Joining  SPY",
+            "start": 14.8,
+            "end": 19.7,
+            "text": "In particular, one that we're going to leverage here is a join."
+        },
+        {
+            "number": "018",
+            "title": "Joining  SPY",
+            "start": 19.7,
+            "end": 25.6,
+            "text": "So we're going to join this data from SPY and our empty data frame."
+        },
+        {
+            "number": "018",
+            "title": "Joining  SPY",
+            "start": 25.6,
+            "end": 28.8,
+            "text": "And we're going to do a special join that says, look,"
+        },
+        {
+            "number": "018",
+            "title": "Joining  SPY",
+            "start": 28.8,
+            "end": 34.9,
+            "text": "we're only interested in dates that are present both in SPY and DF1."
+        },
+        {
+            "number": "018",
+            "title": "Joining  SPY",
+            "start": 34.9,
+            "end": 40.8,
+            "text": "And what happens is, we end up with this data according to its date,"
+        },
+        {
+            "number": "018",
+            "title": "Joining  SPY",
+            "start": 40.8,
+            "end": 44.1,
+            "text": "in this position in our target data frame."
+        },
+        {
+            "number": "018",
+            "title": "Joining  SPY",
+            "start": 44.1,
+            "end": 46.9,
+            "text": "And of course, the other two rows as well."
+        },
+        {
+            "number": "018",
+            "title": "Joining  SPY",
+            "start": 46.9,
+            "end": 53.2,
+            "text": "But note, because of the join, these two days are missing from SPY."
+        },
+        {
+            "number": "018",
+            "title": "Joining  SPY",
+            "start": 53.2,
+            "end": 57.5,
+            "text": "And the result of the join is they are eliminated from our data frame."
+        },
+        {
+            "number": "018",
+            "title": "Joining  SPY",
+            "start": 57.5,
+            "end": 61.6,
+            "text": "They're eliminated because this was the weekend."
+        },
+        {
+            "number": "018",
+            "title": "Joining  SPY",
+            "start": 61.6,
+            "end": 65.8,
+            "text": "There was no trading because we know that because SPY is our reference."
+        },
+        {
+            "number": "018",
+            "title": "Joining  SPY",
+            "start": 65.8,
+            "end": 71.7,
+            "text": "All right, so here's our original data frame now after we've loaded in SPY."
+        },
+        {
+            "number": "018",
+            "title": "Joining  SPY",
+            "start": 71.7,
+            "end": 77.0,
+            "text": "And those weekend days that were here are gone because of that join."
+        },
+        {
+            "number": "018",
+            "title": "Joining  SPY",
+            "start": 77.0,
+            "end": 82.0,
+            "text": "Now we can add more columns from other stocks."
+        },
+        {
+            "number": "018",
+            "title": "Joining  SPY",
+            "start": 82.0,
+            "end": 86.2,
+            "text": "Here's one, for instance, IBM, by performing additional joins."
+        },
+        {
+            "number": "018",
+            "title": "Joining  SPY",
+            "start": 87.7,
+            "end": 92.3,
+            "text": "So after this join with data frame IBM, boom,"
+        },
+        {
+            "number": "018",
+            "title": "Joining  SPY",
+            "start": 92.3,
+            "end": 96.6,
+            "text": "we've got this new data over here in our empty data frame."
+        },
+        {
+            "number": "018",
+            "title": "Joining  SPY",
+            "start": 96.6,
+            "end": 101.0,
+            "text": "And we can repeat this process for each additional symbol that we want to add."
+        },
+        {
+            "number": "018",
+            "title": "Joining  SPY",
+            "start": 101.0,
+            "end": 104.9,
+            "text": "So we'll add Google and GLD."
+        },
+        {
+            "number": "018",
+            "title": "Joining  SPY",
+            "start": 104.9,
+            "end": 106.9,
+            "text": "And again, Dave will show you the syntax for"
+        },
+        {
+            "number": "018",
+            "title": "Joining  SPY",
+            "start": 106.9,
+            "end": 109.8,
+            "text": "doing that in pandas in just a few moments."
+        }
+    ],
+    "text": "So, Pandas has many very powerful features. One, or among those features are the ability to do many operations that you may be familiar with from databases. In particular, one that we're going to leverage here is a join. So we're going to join this data from SPY and our empty data frame. And we're going to do a special join that says, look, we're only interested in dates that are present both in SPY and DF1. And what happens is, we end up with this data according to its date, in this position in our target data frame. And of course, the other two rows as well. But note, because of the join, these two days are missing from SPY. And the result of the join is they are eliminated from our data frame. They're eliminated because this was the weekend. There was no trading because we know that because SPY is our reference. All right, so here's our original data frame now after we've loaded in SPY. And those weekend days that were here are gone because of that join. Now we can add more columns from other stocks. Here's one, for instance, IBM, by performing additional joins. So after this join with data frame IBM, boom, we've got this new data over here in our empty data frame. And we can repeat this process for each additional symbol that we want to add. So we'll add Google and GLD. And again, Dave will show you the syntax for doing that in pandas in just a few moments."
+}

@@ -1,0 +1,111 @@
+{
+    "title": "Stock splits",
+    "number": "137",
+    "chunks": [
+        {
+            "title": "Stock splits",
+            "number": "137",
+            "start": 0.5,
+            "end": 17.2,
+            "text": "So indeed, these big price drops were caused by stock splits. Why do stocks split? The most common reason, and as far as I know, the only reason is that the price is too high. Why is a high price a problem?"
+        },
+        {
+            "title": "Stock splits",
+            "number": "137",
+            "start": 17.2,
+            "end": 37.2,
+            "text": "Well, consider for a moment that stock may be above, say, $500 per share. People like to buy stocks in groups of 100. So that means, for instance, it would be $50,000 to buy or sell a block of 100 shares of a $500 stock. Now, of course, you can buy it in smaller blocks."
+        },
+        {
+            "title": "Stock splits",
+            "number": "137",
+            "start": 37.2,
+            "end": 57.4,
+            "text": "That's fine. But another aspect is that options, when they're traded on stocks, are usually traded with regard to 100 shares. So options covering 100 shares of $500 stocks become suddenly very expensive and less liquid."
+        },
+        {
+            "title": "Stock splits",
+            "number": "137",
+            "start": 57.4,
+            "end": 75.7,
+            "text": "So from the point of view of options and also individual stock shares, very high prices are a problem. Even in the case where you want to buy just one share of a stock, you know, let's suppose you're setting your kid up with an account and you want to buy one share of Apple."
+        },
+        {
+            "title": "Stock splits",
+            "number": "137",
+            "start": 75.7,
+            "end": 97.5,
+            "text": "Earlier this year, that would have cost you $600. So even buying one share of a very expensive stock can be a problem. Finally, one other issue here is if you're building a portfolio and you want to have a finely tuned proportion of each stock in your portfolio, if some of the stock prices are very high,"
+        },
+        {
+            "title": "Stock splits",
+            "number": "137",
+            "start": 97.5,
+            "end": 117.4,
+            "text": "it becomes difficult to get that fine resolution that you want. So when the prices get very, very high, what the companies do is they say, look, let's take that one share that's priced at $300 and break it into four shares at 75. So that's called a four for one split."
+        },
+        {
+            "title": "Stock splits",
+            "number": "137",
+            "start": 117.4,
+            "end": 132.8,
+            "text": "In this case, we had a two for one split. Okay, so that's why splits happen. Now let's look at this data. Suppose you read this data into your computer and you were going to analyze it and look for trading opportunities."
+        },
+        {
+            "title": "Stock splits",
+            "number": "137",
+            "start": 132.8,
+            "end": 154.5,
+            "text": "Well, your algorithm might discover, hey, look, here's a great shorting opportunity. Whenever this condition occurs, whatever that was, you ought to short the stock and then you'll see a 75% drop and you'll reap a significant reward. And also here, you might identify this time as a good opportunity to short as well."
+        },
+        {
+            "title": "Stock splits",
+            "number": "137",
+            "start": 154.5,
+            "end": 175.7,
+            "text": "Well, of course that's wrong because what's happening underneath is that the value of the company isn't really decreasing, you just have more shares. So if you want to trade using this actual close data, you have to account for all of these splits. And that becomes cumbersome."
+        },
+        {
+            "title": "Stock splits",
+            "number": "137",
+            "start": 175.7,
+            "end": 198.5,
+            "text": "So someone came up with a great solution to this problem, namely adjusted close or adjusted prices. And the idea is to create a timeline of prices that are adjusted to account for these changes such that you can look back over adjusted close, simulate buying at a particular time, and"
+        },
+        {
+            "title": "Stock splits",
+            "number": "137",
+            "start": 198.5,
+            "end": 216.6,
+            "text": "seeing how the value increases over time accurately without having to account for these splits. Here's how it works. The first thing to point out is that at the very last day, in other words today, adjusted close and actual close are always the same."
+        },
+        {
+            "title": "Stock splits",
+            "number": "137",
+            "start": 216.6,
+            "end": 233.6,
+            "text": "Now we track back in time and adjusted close and actual close are exactly the same. But then on this day when we see this two to one split, what we do is we go back over all the historical data and we divide it all by two."
+        },
+        {
+            "title": "Stock splits",
+            "number": "137",
+            "start": 233.6,
+            "end": 264.6,
+            "text": "So the first day before this split, we get about $125 price instead of that $250. Then when we get to this four to one split, we divide by two and then by four. So that on this one day before that split, our price is in the neighborhood of about $70. And that continues back in time. And as we go back, we adjust for each of the splits in history."
+        },
+        {
+            "title": "Stock splits",
+            "number": "137",
+            "start": 264.6,
+            "end": 290.1,
+            "text": "So now we have a nice smooth price timeline without these big jumps. And for instance, if you considered that you bought the stock on this day and held it until this day, the accumulation in value that you see there is accurate. It reflects all those splits and you know, you would have a lot more shares here. But this would also correctly represent the increase in value."
+        },
+        {
+            "title": "Stock splits",
+            "number": "137",
+            "start": 290.1,
+            "end": 294.1,
+            "text": "So now we can see you in the next video. So now we're going to see you in the next video."
+        }
+    ]
+}

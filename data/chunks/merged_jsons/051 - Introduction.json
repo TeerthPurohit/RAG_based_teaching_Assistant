@@ -1,0 +1,20 @@
+{
+    "title": "Introduction",
+    "number": "051",
+    "chunks": [
+        {
+            "title": "Introduction",
+            "number": "051",
+            "start": 0.2,
+            "end": 19.1,
+            "text": "Historical financial data is of course essential for effective financial research. One reason people are attracted to finance as an area of research is because they believe the data is very well documented. In other words, all of the data is monitored and recorded by computer and saved for us to pore over later."
+        },
+        {
+            "title": "Introduction",
+            "number": "051",
+            "start": 19.1,
+            "end": 27.4,
+            "text": "It turns out though that there are many ways the data can be faulty. In this lesson, we're going to look at how missing data can occur and what we can do about it."
+        }
+    ]
+}

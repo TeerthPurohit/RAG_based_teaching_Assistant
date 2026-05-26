@@ -1,0 +1,47 @@
+{
+    "chunks": [
+        {
+            "number": "087",
+            "title": "Overview",
+            "start": 0.0,
+            "end": 3.0,
+            "text": "Welcome to the first lesson of computational investing."
+        },
+        {
+            "number": "087",
+            "title": "Overview",
+            "start": 3.0,
+            "end": 9.0,
+            "text": "My assumption in terms of learning goals is that you want to be a portfolio manager."
+        },
+        {
+            "number": "087",
+            "title": "Overview",
+            "start": 9.0,
+            "end": 13.0,
+            "text": "What is it you need to know and what motivates you?"
+        },
+        {
+            "number": "087",
+            "title": "Overview",
+            "start": 13.0,
+            "end": 18.0,
+            "text": "It depends on what type of fund you manage and what your incentives are."
+        },
+        {
+            "number": "087",
+            "title": "Overview",
+            "start": 18.0,
+            "end": 21.0,
+            "text": "Your motivation is probably compensation."
+        },
+        {
+            "number": "087",
+            "title": "Overview",
+            "start": 21.0,
+            "end": 27.0,
+            "text": "And your compensation depends on the type of fund you manage and how well your fund performs."
+        }
+    ],
+    "text": "Welcome to the first lesson of computational investing. My assumption in terms of learning goals is that you want to be a portfolio manager. What is it you need to know and what motivates you? It depends on what type of fund you manage and what your incentives are. Your motivation is probably compensation. And your compensation depends on the type of fund you manage and how well your fund performs."
+}

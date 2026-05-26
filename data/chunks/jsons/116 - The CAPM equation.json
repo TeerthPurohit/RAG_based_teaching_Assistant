@@ -1,0 +1,460 @@
+{
+    "chunks": [
+        {
+            "number": "116",
+            "title": "The CAPM equation",
+            "start": 0.7,
+            "end": 7.0,
+            "text": "We're finally able now to get to the core of the capital assets pricing model."
+        },
+        {
+            "number": "116",
+            "title": "The CAPM equation",
+            "start": 7.0,
+            "end": 11.4,
+            "text": "And that's expressed in this single equation that's really important."
+        },
+        {
+            "number": "116",
+            "title": "The CAPM equation",
+            "start": 11.4,
+            "end": 14.2,
+            "text": "You need to memorize it and understand it."
+        },
+        {
+            "number": "116",
+            "title": "The CAPM equation",
+            "start": 14.2,
+            "end": 16.5,
+            "text": "And here's what that equation is."
+        },
+        {
+            "number": "116",
+            "title": "The CAPM equation",
+            "start": 16.5,
+            "end": 21.5,
+            "text": "So the capital assets pricing model says that the return for"
+        },
+        {
+            "number": "116",
+            "title": "The CAPM equation",
+            "start": 21.5,
+            "end": 28.6,
+            "text": "an individual stock on a particular day, t, is equal to beta times"
+        },
+        {
+            "number": "116",
+            "title": "The CAPM equation",
+            "start": 28.6,
+            "end": 30.3,
+            "text": "the return on the market."
+        },
+        {
+            "number": "116",
+            "title": "The CAPM equation",
+            "start": 30.3,
+            "end": 34.8,
+            "text": "So I told you just a moment ago, for instance, that when we say the market in"
+        },
+        {
+            "number": "116",
+            "title": "The CAPM equation",
+            "start": 34.8,
+            "end": 38.5,
+            "text": "the United States, we're usually referring to the S&P 500."
+        },
+        {
+            "number": "116",
+            "title": "The CAPM equation",
+            "start": 38.5,
+            "end": 44.8,
+            "text": "And this particular stock I is one of the stocks in the S&P 500."
+        },
+        {
+            "number": "116",
+            "title": "The CAPM equation",
+            "start": 44.8,
+            "end": 51.1,
+            "text": "So its return on a particular day, again, is beta times the return on the market"
+        },
+        {
+            "number": "116",
+            "title": "The CAPM equation",
+            "start": 51.1,
+            "end": 58.0,
+            "text": "of that day plus alpha of that particular stock on that day."
+        },
+        {
+            "number": "116",
+            "title": "The CAPM equation",
+            "start": 58.0,
+            "end": 62.6,
+            "text": "So what the capital assets pricing model is asserting, and this is important,"
+        },
+        {
+            "number": "116",
+            "title": "The CAPM equation",
+            "start": 62.6,
+            "end": 65.8,
+            "text": "is that a significant portion of the return for"
+        },
+        {
+            "number": "116",
+            "title": "The CAPM equation",
+            "start": 65.8,
+            "end": 68.7,
+            "text": "a particular stock is due to the market."
+        },
+        {
+            "number": "116",
+            "title": "The CAPM equation",
+            "start": 68.7,
+            "end": 73.4,
+            "text": "In other words, the market moving up or down strongly affects the change in"
+        },
+        {
+            "number": "116",
+            "title": "The CAPM equation",
+            "start": 73.4,
+            "end": 76.2,
+            "text": "price on every individual stock."
+        },
+        {
+            "number": "116",
+            "title": "The CAPM equation",
+            "start": 76.2,
+            "end": 81.1,
+            "text": "And the extent to which the market affects a particular stock is encapsulated in"
+        },
+        {
+            "number": "116",
+            "title": "The CAPM equation",
+            "start": 81.1,
+            "end": 84.3,
+            "text": "this beta, which we'll talk about in just a second."
+        },
+        {
+            "number": "116",
+            "title": "The CAPM equation",
+            "start": 84.3,
+            "end": 89.3,
+            "text": "But every stock has its individual beta that specifies how much it's affected."
+        },
+        {
+            "number": "116",
+            "title": "The CAPM equation",
+            "start": 89.3,
+            "end": 93.4,
+            "text": "Many stocks have a beta near 1, which means when the market goes up or"
+        },
+        {
+            "number": "116",
+            "title": "The CAPM equation",
+            "start": 93.4,
+            "end": 98.6,
+            "text": "down 1%, that stock goes up or down 1%."
+        },
+        {
+            "number": "116",
+            "title": "The CAPM equation",
+            "start": 98.6,
+            "end": 104.0,
+            "text": "But if you had, say, a larger beta, say 2, that means if the market goes up 1%,"
+        },
+        {
+            "number": "116",
+            "title": "The CAPM equation",
+            "start": 104.0,
+            "end": 108.3,
+            "text": "we would expect, all else being equal, that the stock goes up 2%."
+        },
+        {
+            "number": "116",
+            "title": "The CAPM equation",
+            "start": 108.3,
+            "end": 113.2,
+            "text": "This other component alpha is called the residual."
+        },
+        {
+            "number": "116",
+            "title": "The CAPM equation",
+            "start": 113.2,
+            "end": 116.7,
+            "text": "So of course if you look at all the stocks over one day and"
+        },
+        {
+            "number": "116",
+            "title": "The CAPM equation",
+            "start": 116.7,
+            "end": 119.0,
+            "text": "look at how much the market goes up or down, and"
+        },
+        {
+            "number": "116",
+            "title": "The CAPM equation",
+            "start": 119.0,
+            "end": 122.2,
+            "text": "you calculate how much the stock should have gone up or"
+        },
+        {
+            "number": "116",
+            "title": "The CAPM equation",
+            "start": 122.2,
+            "end": 125.7,
+            "text": "down according to beta, well, there'll be something left over."
+        },
+        {
+            "number": "116",
+            "title": "The CAPM equation",
+            "start": 125.7,
+            "end": 128.4,
+            "text": "It won't exactly match what beta predicted."
+        },
+        {
+            "number": "116",
+            "title": "The CAPM equation",
+            "start": 128.4,
+            "end": 131.0,
+            "text": "And that's what this alpha or residual component is."
+        },
+        {
+            "number": "116",
+            "title": "The CAPM equation",
+            "start": 131.0,
+            "end": 138.6,
+            "text": "An important part of the capital assets pricing model is that the expectation"
+        },
+        {
+            "number": "116",
+            "title": "The CAPM equation",
+            "start": 138.6,
+            "end": 142.7,
+            "text": "for alpha is zero."
+        },
+        {
+            "number": "116",
+            "title": "The CAPM equation",
+            "start": 142.7,
+            "end": 146.8,
+            "text": "Essentially this is a random variable with an expected value of zero."
+        },
+        {
+            "number": "116",
+            "title": "The CAPM equation",
+            "start": 146.8,
+            "end": 148.2,
+            "text": "It's important to remember that."
+        },
+        {
+            "number": "116",
+            "title": "The CAPM equation",
+            "start": 149.4,
+            "end": 153.3,
+            "text": "Where do we get this beta and this alpha?"
+        },
+        {
+            "number": "116",
+            "title": "The CAPM equation",
+            "start": 153.3,
+            "end": 155.1,
+            "text": "Well, it comes from daily returns."
+        },
+        {
+            "number": "116",
+            "title": "The CAPM equation",
+            "start": 155.1,
+            "end": 161.3,
+            "text": "And essentially how the daily returns for a particular stock relate to the daily"
+        },
+        {
+            "number": "116",
+            "title": "The CAPM equation",
+            "start": 161.3,
+            "end": 163.1,
+            "text": "returns of the market."
+        },
+        {
+            "number": "116",
+            "title": "The CAPM equation",
+            "start": 163.1,
+            "end": 166.2,
+            "text": "So look at returns here for S&P 500."
+        },
+        {
+            "number": "116",
+            "title": "The CAPM equation",
+            "start": 167.4,
+            "end": 174.3,
+            "text": "And consider the S&P 500 in comparison to this other stock XYZ."
+        },
+        {
+            "number": "116",
+            "title": "The CAPM equation",
+            "start": 174.3,
+            "end": 180.1,
+            "text": "So XYZ, its daily returns are shown here in green, and blue shows S&P 500."
+        },
+        {
+            "number": "116",
+            "title": "The CAPM equation",
+            "start": 180.1,
+            "end": 184.8,
+            "text": "Now look at each day, seems that the XYZ stock is more"
+        },
+        {
+            "number": "116",
+            "title": "The CAPM equation",
+            "start": 184.8,
+            "end": 190.0,
+            "text": "reactive, in other words, if S&P 500 goes up a little, this stock goes up more."
+        },
+        {
+            "number": "116",
+            "title": "The CAPM equation",
+            "start": 190.0,
+            "end": 194.1,
+            "text": "And on average, it tends to have a higher return each day."
+        },
+        {
+            "number": "116",
+            "title": "The CAPM equation",
+            "start": 195.1,
+            "end": 198.1,
+            "text": "We can look at what happens with the returns on each day and"
+        },
+        {
+            "number": "116",
+            "title": "The CAPM equation",
+            "start": 198.1,
+            "end": 200.1,
+            "text": "plot them over here in a scatter plot."
+        },
+        {
+            "number": "116",
+            "title": "The CAPM equation",
+            "start": 200.1,
+            "end": 203.0,
+            "text": "So on this particular day, the market went up a little bit, and"
+        },
+        {
+            "number": "116",
+            "title": "The CAPM equation",
+            "start": 203.0,
+            "end": 205.6,
+            "text": "XYZ went up a little bit more."
+        },
+        {
+            "number": "116",
+            "title": "The CAPM equation",
+            "start": 205.6,
+            "end": 208.9,
+            "text": "So that would correspond to a point right about there."
+        },
+        {
+            "number": "116",
+            "title": "The CAPM equation",
+            "start": 210.1,
+            "end": 213.2,
+            "text": "Now if we plotted the results for a lot of these days,"
+        },
+        {
+            "number": "116",
+            "title": "The CAPM equation",
+            "start": 213.2,
+            "end": 215.3,
+            "text": "we would get a scatter plot that looks a bit like this,"
+        },
+        {
+            "number": "116",
+            "title": "The CAPM equation",
+            "start": 215.3,
+            "end": 218.0,
+            "text": "where each green dot represents one day."
+        },
+        {
+            "number": "116",
+            "title": "The CAPM equation",
+            "start": 218.0,
+            "end": 220.7,
+            "text": "And if we fit a line to it, we'd get something that looks about like this."
+        },
+        {
+            "number": "116",
+            "title": "The CAPM equation",
+            "start": 221.9,
+            "end": 225.7,
+            "text": "So beta is simply the slope of this line."
+        },
+        {
+            "number": "116",
+            "title": "The CAPM equation",
+            "start": 227.0,
+            "end": 231.6,
+            "text": "And alpha is simply this area here, in other words,"
+        },
+        {
+            "number": "116",
+            "title": "The CAPM equation",
+            "start": 231.6,
+            "end": 233.5,
+            "text": "the y-intercept of that line."
+        },
+        {
+            "number": "116",
+            "title": "The CAPM equation",
+            "start": 233.5,
+            "end": 238.0,
+            "text": "Now this is an after the fact calculation."
+        },
+        {
+            "number": "116",
+            "title": "The CAPM equation",
+            "start": 238.0,
+            "end": 242.3,
+            "text": "In other words, just because historically a particular stock, you know,"
+        },
+        {
+            "number": "116",
+            "title": "The CAPM equation",
+            "start": 242.3,
+            "end": 245.8,
+            "text": "looking back at time, gave you a particular alpha,"
+        },
+        {
+            "number": "116",
+            "title": "The CAPM equation",
+            "start": 245.8,
+            "end": 248.1,
+            "text": "you shouldn't necessarily expect that in the future."
+        },
+        {
+            "number": "116",
+            "title": "The CAPM equation",
+            "start": 248.1,
+            "end": 252.7,
+            "text": "And again, cap M says that you should expect this to be zero."
+        },
+        {
+            "number": "116",
+            "title": "The CAPM equation",
+            "start": 252.7,
+            "end": 255.7,
+            "text": "In reality though, it's not always zero."
+        },
+        {
+            "number": "116",
+            "title": "The CAPM equation",
+            "start": 255.7,
+            "end": 259.1,
+            "text": "So that's the key to the capital assets pricing model and"
+        },
+        {
+            "number": "116",
+            "title": "The CAPM equation",
+            "start": 259.1,
+            "end": 260.9,
+            "text": "where beta and alpha come from."
+        }
+    ],
+    "text": "We're finally able now to get to the core of the capital assets pricing model. And that's expressed in this single equation that's really important. You need to memorize it and understand it. And here's what that equation is. So the capital assets pricing model says that the return for an individual stock on a particular day, t, is equal to beta times the return on the market. So I told you just a moment ago, for instance, that when we say the market in the United States, we're usually referring to the S&P 500. And this particular stock I is one of the stocks in the S&P 500. So its return on a particular day, again, is beta times the return on the market of that day plus alpha of that particular stock on that day. So what the capital assets pricing model is asserting, and this is important, is that a significant portion of the return for a particular stock is due to the market. In other words, the market moving up or down strongly affects the change in price on every individual stock. And the extent to which the market affects a particular stock is encapsulated in this beta, which we'll talk about in just a second. But every stock has its individual beta that specifies how much it's affected. Many stocks have a beta near 1, which means when the market goes up or down 1%, that stock goes up or down 1%. But if you had, say, a larger beta, say 2, that means if the market goes up 1%, we would expect, all else being equal, that the stock goes up 2%. This other component alpha is called the residual. So of course if you look at all the stocks over one day and look at how much the market goes up or down, and you calculate how much the stock should have gone up or down according to beta, well, there'll be something left over. It won't exactly match what beta predicted. And that's what this alpha or residual component is. An important part of the capital assets pricing model is that the expectation for alpha is zero. Essentially this is a random variable with an expected value of zero. It's important to remember that. Where do we get this beta and this alpha? Well, it comes from daily returns. And essentially how the daily returns for a particular stock relate to the daily returns of the market. So look at returns here for S&P 500. And consider the S&P 500 in comparison to this other stock XYZ. So XYZ, its daily returns are shown here in green, and blue shows S&P 500. Now look at each day, seems that the XYZ stock is more reactive, in other words, if S&P 500 goes up a little, this stock goes up more. And on average, it tends to have a higher return each day. We can look at what happens with the returns on each day and plot them over here in a scatter plot. So on this particular day, the market went up a little bit, and XYZ went up a little bit more. So that would correspond to a point right about there. Now if we plotted the results for a lot of these days, we would get a scatter plot that looks a bit like this, where each green dot represents one day. And if we fit a line to it, we'd get something that looks about like this. So beta is simply the slope of this line. And alpha is simply this area here, in other words, the y-intercept of that line. Now this is an after the fact calculation. In other words, just because historically a particular stock, you know, looking back at time, gave you a particular alpha, you shouldn't necessarily expect that in the future. And again, cap M says that you should expect this to be zero. In reality though, it's not always zero. So that's the key to the capital assets pricing model and where beta and alpha come from."
+}

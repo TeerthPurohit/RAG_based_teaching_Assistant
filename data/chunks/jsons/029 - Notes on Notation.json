@@ -1,0 +1,369 @@
+{
+    "chunks": [
+        {
+            "number": "029",
+            "title": "Notes on Notation",
+            "start": 0.3,
+            "end": 3.0,
+            "text": "Consider an ndarray nd1."
+        },
+        {
+            "number": "029",
+            "title": "Notes on Notation",
+            "start": 3.0,
+            "end": 6.5,
+            "text": "I'm going to show you now how to access cells within that."
+        },
+        {
+            "number": "029",
+            "title": "Notes on Notation",
+            "start": 6.5,
+            "end": 10.0,
+            "text": "Now the notation at first might seem sort of familiar, but"
+        },
+        {
+            "number": "029",
+            "title": "Notes on Notation",
+            "start": 10.0,
+            "end": 13.2,
+            "text": "there's some new and different things that you probably haven't seen before."
+        },
+        {
+            "number": "029",
+            "title": "Notes on Notation",
+            "start": 13.2,
+            "end": 20.5,
+            "text": "So the usual syntax is the name of your ndarray, bracket, the row, and the column."
+        },
+        {
+            "number": "029",
+            "title": "Notes on Notation",
+            "start": 20.5,
+            "end": 22.4,
+            "text": "So again, these are our rows."
+        },
+        {
+            "number": "029",
+            "title": "Notes on Notation",
+            "start": 22.4,
+            "end": 26.8,
+            "text": "So row indicates which row we're using, column which column."
+        },
+        {
+            "number": "029",
+            "title": "Notes on Notation",
+            "start": 26.8,
+            "end": 32.4,
+            "text": "It's important to know that in NumPy, our columns and rows begin at 0."
+        },
+        {
+            "number": "029",
+            "title": "Notes on Notation",
+            "start": 32.4,
+            "end": 37.3,
+            "text": "So this element is nd1, bracket 0, 0."
+        },
+        {
+            "number": "029",
+            "title": "Notes on Notation",
+            "start": 37.3,
+            "end": 42.3,
+            "text": "It then continues, of course, 1, 2, 3, 4 in the rows, and"
+        },
+        {
+            "number": "029",
+            "title": "Notes on Notation",
+            "start": 42.3,
+            "end": 45.4,
+            "text": "in the columns 0, 1, 2, 3."
+        },
+        {
+            "number": "029",
+            "title": "Notes on Notation",
+            "start": 45.4,
+            "end": 49.2,
+            "text": "Before I tell you, see if you can guess how to address this cell."
+        },
+        {
+            "number": "029",
+            "title": "Notes on Notation",
+            "start": 50.8,
+            "end": 56.0,
+            "text": "The answer is that this cell is nd1, 3, 2."
+        },
+        {
+            "number": "029",
+            "title": "Notes on Notation",
+            "start": 56.0,
+            "end": 60.5,
+            "text": "0, 1, 2, 3, 0, 1, 2."
+        },
+        {
+            "number": "029",
+            "title": "Notes on Notation",
+            "start": 60.5,
+            "end": 63.3,
+            "text": "Now this is probably the kind of stuff you've seen before."
+        },
+        {
+            "number": "029",
+            "title": "Notes on Notation",
+            "start": 63.3,
+            "end": 65.8,
+            "text": "It turns out though that NumPy is much more powerful and"
+        },
+        {
+            "number": "029",
+            "title": "Notes on Notation",
+            "start": 65.8,
+            "end": 69.7,
+            "text": "can do interesting and different kinds of slicing."
+        },
+        {
+            "number": "029",
+            "title": "Notes on Notation",
+            "start": 69.7,
+            "end": 74.8,
+            "text": "What if for instance you wanted to address this sub portion of the ndarray?"
+        },
+        {
+            "number": "029",
+            "title": "Notes on Notation",
+            "start": 74.8,
+            "end": 76.5,
+            "text": "How could you indicate that?"
+        },
+        {
+            "number": "029",
+            "title": "Notes on Notation",
+            "start": 76.5,
+            "end": 83.1,
+            "text": "NumPy uses a special symbol, the colon, to let you indicate ranges."
+        },
+        {
+            "number": "029",
+            "title": "Notes on Notation",
+            "start": 83.1,
+            "end": 92.1,
+            "text": "So we can indicate this range in rows with 0, 3, which indicates the 0th to"
+        },
+        {
+            "number": "029",
+            "title": "Notes on Notation",
+            "start": 92.1,
+            "end": 94.6,
+            "text": "the just before the third row."
+        },
+        {
+            "number": "029",
+            "title": "Notes on Notation",
+            "start": 94.6,
+            "end": 99.0,
+            "text": "And in the columns, we've got 0, 1, 3."
+        },
+        {
+            "number": "029",
+            "title": "Notes on Notation",
+            "start": 99.0,
+            "end": 106.1,
+            "text": "So this syntax indicates starting at the 0th row to just before the third."
+        },
+        {
+            "number": "029",
+            "title": "Notes on Notation",
+            "start": 106.1,
+            "end": 110.3,
+            "text": "And the first column to just before the third."
+        },
+        {
+            "number": "029",
+            "title": "Notes on Notation",
+            "start": 110.3,
+            "end": 113.8,
+            "text": "And in fact captures this region."
+        },
+        {
+            "number": "029",
+            "title": "Notes on Notation",
+            "start": 113.8,
+            "end": 119.7,
+            "text": "The key thing to remember here that's a little bit tricky is that this last value is"
+        },
+        {
+            "number": "029",
+            "title": "Notes on Notation",
+            "start": 119.7,
+            "end": 122.7,
+            "text": "one past the one that you actually want to include."
+        },
+        {
+            "number": "029",
+            "title": "Notes on Notation",
+            "start": 122.7,
+            "end": 130.1,
+            "text": "So for instance, this is column 3, but it's not included."
+        },
+        {
+            "number": "029",
+            "title": "Notes on Notation",
+            "start": 130.1,
+            "end": 135.1,
+            "text": "Now if we just use the colon by itself, that indicates, for instance,"
+        },
+        {
+            "number": "029",
+            "title": "Notes on Notation",
+            "start": 135.1,
+            "end": 140.3,
+            "text": "if we place it in the rows position, that we want all of the rows."
+        },
+        {
+            "number": "029",
+            "title": "Notes on Notation",
+            "start": 140.3,
+            "end": 143.4,
+            "text": "So you don't have to use the colon just to indicate a range."
+        },
+        {
+            "number": "029",
+            "title": "Notes on Notation",
+            "start": 143.4,
+            "end": 146.4,
+            "text": "You can use it by itself for all of them."
+        },
+        {
+            "number": "029",
+            "title": "Notes on Notation",
+            "start": 146.4,
+            "end": 147.9,
+            "text": "Now look at this statement."
+        },
+        {
+            "number": "029",
+            "title": "Notes on Notation",
+            "start": 147.9,
+            "end": 152.9,
+            "text": "See if you can figure out which part of this indy array it refers to before I show you."
+        },
+        {
+            "number": "029",
+            "title": "Notes on Notation",
+            "start": 154.1,
+            "end": 156.5,
+            "text": "It is this region right here."
+        },
+        {
+            "number": "029",
+            "title": "Notes on Notation",
+            "start": 156.5,
+            "end": 159.3,
+            "text": "So it's all the rows and column 3."
+        },
+        {
+            "number": "029",
+            "title": "Notes on Notation",
+            "start": 159.3,
+            "end": 161.6,
+            "text": "0, 1, 2, 3."
+        },
+        {
+            "number": "029",
+            "title": "Notes on Notation",
+            "start": 161.6,
+            "end": 164.0,
+            "text": "So it's this section right here."
+        },
+        {
+            "number": "029",
+            "title": "Notes on Notation",
+            "start": 164.0,
+            "end": 170.3,
+            "text": "NumPy includes some special syntax that lets you refer to the last row or column."
+        },
+        {
+            "number": "029",
+            "title": "Notes on Notation",
+            "start": 170.3,
+            "end": 176.6,
+            "text": "So for instance, the last row here you can indicate with negative 1."
+        },
+        {
+            "number": "029",
+            "title": "Notes on Notation",
+            "start": 176.6,
+            "end": 180.0,
+            "text": "Second to last row would be negative 2."
+        },
+        {
+            "number": "029",
+            "title": "Notes on Notation",
+            "start": 180.0,
+            "end": 183.5,
+            "text": "So if we wanted to refer to these two cells here,"
+        },
+        {
+            "number": "029",
+            "title": "Notes on Notation",
+            "start": 183.5,
+            "end": 186.5,
+            "text": "we would take advantage of this negative 1 syntax."
+        },
+        {
+            "number": "029",
+            "title": "Notes on Notation",
+            "start": 186.5,
+            "end": 189.4,
+            "text": "So negative 1 indicates that last row."
+        },
+        {
+            "number": "029",
+            "title": "Notes on Notation",
+            "start": 189.4,
+            "end": 193.8,
+            "text": "And then to get these two columns, we would use 1 colon 3."
+        },
+        {
+            "number": "029",
+            "title": "Notes on Notation",
+            "start": 193.8,
+            "end": 198.5,
+            "text": "0, 1, 2, and then we don't include the last one there."
+        },
+        {
+            "number": "029",
+            "title": "Notes on Notation",
+            "start": 198.5,
+            "end": 200.4,
+            "text": "There is a bunch of new syntax."
+        },
+        {
+            "number": "029",
+            "title": "Notes on Notation",
+            "start": 200.4,
+            "end": 202.3,
+            "text": "I hope that you find it exciting."
+        },
+        {
+            "number": "029",
+            "title": "Notes on Notation",
+            "start": 202.3,
+            "end": 207.4,
+            "text": "This is really one of the most powerful aspects of Python and NumPy."
+        },
+        {
+            "number": "029",
+            "title": "Notes on Notation",
+            "start": 207.4,
+            "end": 211.7,
+            "text": "And it really enables you to do some interesting things."
+        },
+        {
+            "number": "029",
+            "title": "Notes on Notation",
+            "start": 211.7,
+            "end": 216.4,
+            "text": "Now we've got a quiz to see if you can figure out how to use this new syntax yourself."
+        }
+    ],
+    "text": "Consider an ndarray nd1. I'm going to show you now how to access cells within that. Now the notation at first might seem sort of familiar, but there's some new and different things that you probably haven't seen before. So the usual syntax is the name of your ndarray, bracket, the row, and the column. So again, these are our rows. So row indicates which row we're using, column which column. It's important to know that in NumPy, our columns and rows begin at 0. So this element is nd1, bracket 0, 0. It then continues, of course, 1, 2, 3, 4 in the rows, and in the columns 0, 1, 2, 3. Before I tell you, see if you can guess how to address this cell. The answer is that this cell is nd1, 3, 2. 0, 1, 2, 3, 0, 1, 2. Now this is probably the kind of stuff you've seen before. It turns out though that NumPy is much more powerful and can do interesting and different kinds of slicing. What if for instance you wanted to address this sub portion of the ndarray? How could you indicate that? NumPy uses a special symbol, the colon, to let you indicate ranges. So we can indicate this range in rows with 0, 3, which indicates the 0th to the just before the third row. And in the columns, we've got 0, 1, 3. So this syntax indicates starting at the 0th row to just before the third. And the first column to just before the third. And in fact captures this region. The key thing to remember here that's a little bit tricky is that this last value is one past the one that you actually want to include. So for instance, this is column 3, but it's not included. Now if we just use the colon by itself, that indicates, for instance, if we place it in the rows position, that we want all of the rows. So you don't have to use the colon just to indicate a range. You can use it by itself for all of them. Now look at this statement. See if you can figure out which part of this indy array it refers to before I show you. It is this region right here. So it's all the rows and column 3. 0, 1, 2, 3. So it's this section right here. NumPy includes some special syntax that lets you refer to the last row or column. So for instance, the last row here you can indicate with negative 1. Second to last row would be negative 2. So if we wanted to refer to these two cells here, we would take advantage of this negative 1 syntax. So negative 1 indicates that last row. And then to get these two columns, we would use 1 colon 3. 0, 1, 2, and then we don't include the last one there. There is a bunch of new syntax. I hope that you find it exciting. This is really one of the most powerful aspects of Python and NumPy. And it really enables you to do some interesting things. Now we've got a quiz to see if you can figure out how to use this new syntax yourself."
+}

@@ -1,0 +1,83 @@
+{
+    "title": "The RL problem",
+    "number": "197",
+    "chunks": [
+        {
+            "title": "The RL problem",
+            "number": "197",
+            "start": 0.4,
+            "end": 21.9,
+            "text": "It's important to point out that when we say reinforcement learning, we're really describing a problem, not a solution. In the same way that linear regression is one solution to the supervised regression problem, there are many algorithms that solve the RL problem. Because I started out as a roboticist,"
+        },
+        {
+            "title": "The RL problem",
+            "number": "197",
+            "start": 21.9,
+            "end": 38.9,
+            "text": "I'm going to first explain this in terms of a problem for a robot. So here's our robot here, and our robot is going to interact with the environment. So we represent the environment as this sort of cloud up here. So the robot's going to take actions that'll change the environment."
+        },
+        {
+            "title": "The RL problem",
+            "number": "197",
+            "start": 38.9,
+            "end": 59.3,
+            "text": "It will sense the environment, reason over what it sees, and take another action. In robotics, we call this the sense, think, act cycle. And you don't have to implement it only using reinforcement learning. There's many ways that you can implement sense, think, act. But we're going to focus on how to do that with reinforcement learning."
+        },
+        {
+            "title": "The RL problem",
+            "number": "197",
+            "start": 59.8,
+            "end": 78.9,
+            "text": "Okay, so our robot observes the environment, and some form of description of the environment comes in. Let's call that the state S. So S is our letter that represents what we see in the environment. Now the robot has to process that state somehow to determine what to do."
+        },
+        {
+            "title": "The RL problem",
+            "number": "197",
+            "start": 78.9,
+            "end": 107.9,
+            "text": "And we call this Pi, or policy. So the robot takes in the state S, and then outputs an action. We'll call that action A, and it affects the environment in some way, and changes it. Now this is a sort of circular process. The action A is taken into the environment, and the environment then transitions to a new state."
+        },
+        {
+            "title": "The RL problem",
+            "number": "197",
+            "start": 107.9,
+            "end": 125.3,
+            "text": "So T is this transition function that takes in what its previous state was, and the action, and moves to a new state. And that new state comes out, boom, back into the robot. Robot looks at its policy. Action comes out."
+        },
+        {
+            "title": "The RL problem",
+            "number": "197",
+            "start": 125.3,
+            "end": 148.8,
+            "text": "Now, there's a question, how do we arrive at this policy? How do we find Pi? Well, that's what we're going to spend a couple lessons on. But this whole puzzle is missing a piece, and that's the thing that helps us find Pi. And part of that piece is, well, there's this other part called R, which is the reward."
+        },
+        {
+            "title": "The RL problem",
+            "number": "197",
+            "start": 148.8,
+            "end": 171.2,
+            "text": "So every time the robot is in a particular state, and it takes an action, there's a particular reward associated with taking that action in that state. And that reward comes into the robot, and you can think of the robot as having a little pocket where it keeps cash. And that's what that reward is."
+        },
+        {
+            "title": "The RL problem",
+            "number": "197",
+            "start": 171.2,
+            "end": 191.9,
+            "text": "And the robot's objective is, over time, to take actions that maximize this reward. And somewhere within the robot, there's an algorithm that takes all this information over time to figure out what that policy ought to be. So let me recap a little bit. S is the state of our environment, and"
+        },
+        {
+            "title": "The RL problem",
+            "number": "197",
+            "start": 191.9,
+            "end": 214.5,
+            "text": "that's what the robot senses in order to decide what to do. It uses its policy Pi to figure out what that action should be. And by the way, Pi can be a simple lookup table. Over time, each time the robot takes an action, it gets a reward. And it's trying to find a Pi that'll maximize its reward over time."
+        },
+        {
+            "title": "The RL problem",
+            "number": "197",
+            "start": 214.5,
+            "end": 235.2,
+            "text": "Now in terms of trading, our environment really is the market. And our actions are actions we can take in the market, like buying and selling or holding. And the S are factors about our stocks that we might observe and know about. And R is the return we get for making the proper trades."
+        }
+    ]
+}

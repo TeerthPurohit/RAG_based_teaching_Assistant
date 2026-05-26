@@ -1,0 +1,173 @@
+{
+    "chunks": [
+        {
+            "number": "120",
+            "title": "Arbitrage Pricing Theory",
+            "start": 0.0,
+            "end": 3.1,
+            "text": "Now, before we close, there's one other thing I want to touch on."
+        },
+        {
+            "number": "120",
+            "title": "Arbitrage Pricing Theory",
+            "start": 3.1,
+            "end": 6.2,
+            "text": "It's called arbitrage pricing theory."
+        },
+        {
+            "number": "120",
+            "title": "Arbitrage Pricing Theory",
+            "start": 6.2,
+            "end": 10.2,
+            "text": "Arbitrage pricing theory was developed by Stephen Ross and"
+        },
+        {
+            "number": "120",
+            "title": "Arbitrage Pricing Theory",
+            "start": 10.2,
+            "end": 13.0,
+            "text": "first published in 1976."
+        },
+        {
+            "number": "120",
+            "title": "Arbitrage Pricing Theory",
+            "start": 13.0,
+            "end": 18.6,
+            "text": "So Dr. Ross observed the CAPM as it was, but he said, look,"
+        },
+        {
+            "number": "120",
+            "title": "Arbitrage Pricing Theory",
+            "start": 18.6,
+            "end": 22.6,
+            "text": "we have this single beta that represents a particular stock's relationship to"
+        },
+        {
+            "number": "120",
+            "title": "Arbitrage Pricing Theory",
+            "start": 22.6,
+            "end": 23.5,
+            "text": "the market."
+        },
+        {
+            "number": "120",
+            "title": "Arbitrage Pricing Theory",
+            "start": 23.5,
+            "end": 26.2,
+            "text": "Maybe really we ought to have multiple betas."
+        },
+        {
+            "number": "120",
+            "title": "Arbitrage Pricing Theory",
+            "start": 26.2,
+            "end": 32.9,
+            "text": "The CAPM is really only allowing us to consider a stock in the entire ocean."
+        },
+        {
+            "number": "120",
+            "title": "Arbitrage Pricing Theory",
+            "start": 32.9,
+            "end": 37.3,
+            "text": "And his idea, if you continue the sort of analogy we've been doing in this class,"
+        },
+        {
+            "number": "120",
+            "title": "Arbitrage Pricing Theory",
+            "start": 37.3,
+            "end": 41.0,
+            "text": "is that we ought to consider the different islands."
+        },
+        {
+            "number": "120",
+            "title": "Arbitrage Pricing Theory",
+            "start": 41.0,
+            "end": 46.7,
+            "text": "In other words, a particular stock might have exposure to different aspects of the market."
+        },
+        {
+            "number": "120",
+            "title": "Arbitrage Pricing Theory",
+            "start": 47.9,
+            "end": 51.3,
+            "text": "So the stock might have some exposure to finance."
+        },
+        {
+            "number": "120",
+            "title": "Arbitrage Pricing Theory",
+            "start": 51.3,
+            "end": 55.8,
+            "text": "So we could compute the component of return due to finance by the beta"
+        },
+        {
+            "number": "120",
+            "title": "Arbitrage Pricing Theory",
+            "start": 56.2,
+            "end": 59.3,
+            "text": "with regard to finance and the return for finance of that day."
+        },
+        {
+            "number": "120",
+            "title": "Arbitrage Pricing Theory",
+            "start": 60.4,
+            "end": 66.8,
+            "text": "So we could compute for each stock, for each sector, an individual beta."
+        },
+        {
+            "number": "120",
+            "title": "Arbitrage Pricing Theory",
+            "start": 66.8,
+            "end": 73.7,
+            "text": "And so his assertion was that by breaking out the betas into these different factors,"
+        },
+        {
+            "number": "120",
+            "title": "Arbitrage Pricing Theory",
+            "start": 73.7,
+            "end": 77.9,
+            "text": "we could get a more accurate forecast of what the return's going to look like."
+        },
+        {
+            "number": "120",
+            "title": "Arbitrage Pricing Theory",
+            "start": 77.9,
+            "end": 80.9,
+            "text": "And of course, we still have our alpha over here."
+        },
+        {
+            "number": "120",
+            "title": "Arbitrage Pricing Theory",
+            "start": 80.9,
+            "end": 85.2,
+            "text": "We're not going to use APT in this class."
+        },
+        {
+            "number": "120",
+            "title": "Arbitrage Pricing Theory",
+            "start": 85.2,
+            "end": 89.7,
+            "text": "But since we've been going forward with this analogy of oceans and islands and so"
+        },
+        {
+            "number": "120",
+            "title": "Arbitrage Pricing Theory",
+            "start": 89.7,
+            "end": 94.1,
+            "text": "on, I wanted to bring it to your attention because I thought you might find it interesting."
+        },
+        {
+            "number": "120",
+            "title": "Arbitrage Pricing Theory",
+            "start": 94.1,
+            "end": 96.6,
+            "text": "Okay, that's it for the capital assets pricing model."
+        },
+        {
+            "number": "120",
+            "title": "Arbitrage Pricing Theory",
+            "start": 96.6,
+            "end": 97.6,
+            "text": "I'll see you again soon."
+        }
+    ],
+    "text": "Now, before we close, there's one other thing I want to touch on. It's called arbitrage pricing theory. Arbitrage pricing theory was developed by Stephen Ross and first published in 1976. So Dr. Ross observed the CAPM as it was, but he said, look, we have this single beta that represents a particular stock's relationship to the market. Maybe really we ought to have multiple betas. The CAPM is really only allowing us to consider a stock in the entire ocean. And his idea, if you continue the sort of analogy we've been doing in this class, is that we ought to consider the different islands. In other words, a particular stock might have exposure to different aspects of the market. So the stock might have some exposure to finance. So we could compute the component of return due to finance by the beta with regard to finance and the return for finance of that day. So we could compute for each stock, for each sector, an individual beta. And so his assertion was that by breaking out the betas into these different factors, we could get a more accurate forecast of what the return's going to look like. And of course, we still have our alpha over here. We're not going to use APT in this class. But since we've been going forward with this analogy of oceans and islands and so on, I wanted to bring it to your attention because I thought you might find it interesting. Okay, that's it for the capital assets pricing model. I'll see you again soon."
+}

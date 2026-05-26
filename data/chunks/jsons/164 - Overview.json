@@ -1,0 +1,47 @@
+{
+    "chunks": [
+        {
+            "number": "164",
+            "title": "Overview",
+            "start": 0.0,
+            "end": 4.0,
+            "text": "Welcome to the first lesson of machine learning algorithms for trading."
+        },
+        {
+            "number": "164",
+            "title": "Overview",
+            "start": 4.0,
+            "end": 9.0,
+            "text": "In this lesson, we're going to introduce how hedge funds and other financial institutions"
+        },
+        {
+            "number": "164",
+            "title": "Overview",
+            "start": 9.0,
+            "end": 11.0,
+            "text": "utilize machine learning."
+        },
+        {
+            "number": "164",
+            "title": "Overview",
+            "start": 11.0,
+            "end": 18.0,
+            "text": "In general, the focus is on creating a model that can be used to predict future prices for stocks or other assets."
+        },
+        {
+            "number": "164",
+            "title": "Overview",
+            "start": 18.0,
+            "end": 21.0,
+            "text": "Models like these have been around for a long time."
+        },
+        {
+            "number": "164",
+            "title": "Overview",
+            "start": 21.0,
+            "end": 29.0,
+            "text": "What's different about machine learning is that it provides a suite of tools that support a data-centric way to build predictive models."
+        }
+    ],
+    "text": "Welcome to the first lesson of machine learning algorithms for trading. In this lesson, we're going to introduce how hedge funds and other financial institutions utilize machine learning. In general, the focus is on creating a model that can be used to predict future prices for stocks or other assets. Models like these have been around for a long time. What's different about machine learning is that it provides a suite of tools that support a data-centric way to build predictive models."
+}

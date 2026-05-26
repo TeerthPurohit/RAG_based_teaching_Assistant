@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+
+# Secrets
+.env
+
+# Models
+models/
+
+# Data
+data/audios/
+data/vids/
+data/embeddings/
+
+# Outputs
+outputs/
+
+# VS Code
+.vscode/
+
+# Large files
+*.joblib

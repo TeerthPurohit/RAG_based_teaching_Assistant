@@ -1,0 +1,111 @@
+{
+    "title": "Daily portfolio values",
+    "number": "068",
+    "chunks": [
+        {
+            "title": "Daily portfolio values",
+            "number": "068",
+            "start": 0.5,
+            "end": 26.6,
+            "text": "We want to be able to calculate the total value of a portfolio day by day by day. Once we have that information, then we can compute statistics on the overall portfolio. So let's start with an example. Assume we start with a portfolio value of $1 million, and we're going to take a look at that portfolio from the beginning of 2009 to the end of 2011. And our portfolio consists of"
+        },
+        {
+            "title": "Daily portfolio values",
+            "number": "068",
+            "start": 26.6,
+            "end": 60.6,
+            "text": "these three symbols, S&P 500, Exxon, Google, and Gold. And at the beginning, so at the beginning of 2009, we're going to allocate .4 or 40% of our portfolio to SPY, 40% to Exxon, 10% to Google, and 10% to Gold. And we'll enter those positions at the beginning and hold them and step forward and see what the overall value of the portfolio is day by day. How do we calculate the total value of the"
+        },
+        {
+            "title": "Daily portfolio values",
+            "number": "068",
+            "start": 60.6,
+            "end": 91.0,
+            "text": "portfolio day by day? Here's how to do it step by step. We start with our prices data frame. Remember the four columns with prices every day indexed by date? The first step is to normalize these prices. As we've done before, it's just the price values divided by the first row. So after we normalize, we have a new data frame where the first row is all 1.0, and then it proceeds after that. And these are"
+        },
+        {
+            "title": "Daily portfolio values",
+            "number": "068",
+            "start": 91.0,
+            "end": 119.0,
+            "text": "essentially cumulative returns starting from the start date. The next step is to multiply these normed values by the allocations to each of the equities. So we just multiply normed times our allocations, allocs, and that gives us a new data frame, allocs. Now as you remember, our allocations were 0.4, 0.4, 0.1, 0.1. So when we do that multiplication, the first row is going to represent those numbers. And the data"
+        },
+        {
+            "title": "Daily portfolio values",
+            "number": "068",
+            "start": 119.0,
+            "end": 137.0,
+            "text": "after the first row will be sized accordingly. Our next step is to multiply our alloc data frame times start val. And what that will give us is in this first row, the amount of cash allocated to each asset. And then going forward, we're going to get the first row of the data. And then we're going to get the first row of the data. And then we're going to get the first row of the data. And then we're going to get the first row of the data"
+        },
+        {
+            "title": "Daily portfolio values",
+            "number": "068",
+            "start": 137.0,
+            "end": 164.0,
+            "text": "data. And so what you'll see in there is that the first row is. And the second step is to multiply our alloc data frame times start val. And that, what that will give us is, in this first row, the amount of cash allocated to each asset. And then going forward, it will show us the value of that asset over time. So we've got now a new data frame, POS VALS, what that means is position values that, at each day, that's how much that"
+        },
+        {
+            "title": "Daily portfolio values",
+            "number": "068",
+            "start": 164.0,
+            "end": 185.0,
+            "text": "So we started out for instance with 400,000 for the first one, 400,000 for the second one, 100,000, 100,000. But now as we go forward each day, it's as if we invested say 100,000 in this one and it reflects how much it was worth each day after that. Now that we have the value each day for the individual assets, we can calculate"
+        },
+        {
+            "title": "Daily portfolio values",
+            "number": "068",
+            "start": 185.0,
+            "end": 207.0,
+            "text": "the total value for the portfolio each day by summing across each day. So on the first day for instance, the value of the portfolio is 400,000 plus 400,000 plus 100,000 plus 100,000 or 1 million. Now those values change of course as the stock prices change going forward. So each day is a little bit different."
+        },
+        {
+            "title": "Daily portfolio values",
+            "number": "068",
+            "start": 207.0,
+            "end": 233.0,
+            "text": "We can calculate the value for each of these days by taking the sum of pos vowels, position vowels using axis equals 1. So that's telling Python to sum across each row like that. So that sums each day across into port val, which now reflects the value each day for our total portfolio."
+        },
+        {
+            "title": "Daily portfolio values",
+            "number": "068",
+            "start": 233.0,
+            "end": 244.0,
+            "text": "Let's recap now. We start with our prices. We normalize that to the first day. So the first row here is all ones. We multiply times our allocations."
+        },
+        {
+            "title": "Daily portfolio values",
+            "number": "068",
+            "start": 244.0,
+            "end": 272.0,
+            "text": "And that gives us now in each column the relative value of each of those assets over time. We multiply by our initial investment. And that causes now each row to be the real value of that investment each day over time. Starting with our initial allocations. If we then sum each row, we get the value of the portfolio on each corresponding day."
+        },
+        {
+            "title": "Daily portfolio values",
+            "number": "068",
+            "start": 272.0,
+            "end": 279.0,
+            "text": "And that's it. That's how you calculate daily portfolio value. . . ."
+        },
+        {
+            "title": "Daily portfolio values",
+            "number": "068",
+            "start": 279.0,
+            "end": 284.0,
+            "text": ". . . . ."
+        },
+        {
+            "title": "Daily portfolio values",
+            "number": "068",
+            "start": 284.0,
+            "end": 289.0,
+            "text": ". . . . ."
+        },
+        {
+            "title": "Daily portfolio values",
+            "number": "068",
+            "start": 289.0,
+            "end": 294.0,
+            "text": ". . . . ."
+        }
+    ]
+}

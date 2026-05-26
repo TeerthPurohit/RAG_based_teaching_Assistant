@@ -1,0 +1,89 @@
+{
+    "chunks": [
+        {
+            "number": "004",
+            "title": "Prerequisites",
+            "start": 0.0,
+            "end": 4.0,
+            "text": "Hi, Dave."
+        },
+        {
+            "number": "004",
+            "title": "Prerequisites",
+            "start": 4.0,
+            "end": 6.0,
+            "text": "Hi, Professor."
+        },
+        {
+            "number": "004",
+            "title": "Prerequisites",
+            "start": 6.0,
+            "end": 9.0,
+            "text": "Now, you took this course recently, didn't you?"
+        },
+        {
+            "number": "004",
+            "title": "Prerequisites",
+            "start": 9.0,
+            "end": 10.0,
+            "text": "Yes."
+        },
+        {
+            "number": "004",
+            "title": "Prerequisites",
+            "start": 10.0,
+            "end": 14.0,
+            "text": "Do you think you have to be a stock market whiz to pass this course?"
+        },
+        {
+            "number": "004",
+            "title": "Prerequisites",
+            "start": 14.0,
+            "end": 19.0,
+            "text": "No, not really. I got interested into finance only after I took your course."
+        },
+        {
+            "number": "004",
+            "title": "Prerequisites",
+            "start": 22.0,
+            "end": 26.0,
+            "text": "The main prerequisite for this course is that you should be a strong programmer."
+        },
+        {
+            "number": "004",
+            "title": "Prerequisites",
+            "start": 26.0,
+            "end": 30.0,
+            "text": "We have a lot of assignments and projects and we move at a quick pace."
+        },
+        {
+            "number": "004",
+            "title": "Prerequisites",
+            "start": 30.0,
+            "end": 36.0,
+            "text": "We also use Python, which may be new to some of you, so you should prepare for that challenge."
+        },
+        {
+            "number": "004",
+            "title": "Prerequisites",
+            "start": 36.0,
+            "end": 40.0,
+            "text": "Professor, can I ask you what you are doing?"
+        },
+        {
+            "number": "004",
+            "title": "Prerequisites",
+            "start": 40.0,
+            "end": 46.0,
+            "text": "This is my Monty Python impression. You know, the Ministry of Silly Walks."
+        },
+        {
+            "number": "004",
+            "title": "Prerequisites",
+            "start": 46.0,
+            "end": 48.0,
+            "text": "No."
+        }
+    ],
+    "text": "Hi, Dave. Hi, Professor. Now, you took this course recently, didn't you? Yes. Do you think you have to be a stock market whiz to pass this course? No, not really. I got interested into finance only after I took your course. The main prerequisite for this course is that you should be a strong programmer. We have a lot of assignments and projects and we move at a quick pace. We also use Python, which may be new to some of you, so you should prepare for that challenge. Professor, can I ask you what you are doing? This is my Monty Python impression. You know, the Ministry of Silly Walks. No."
+}

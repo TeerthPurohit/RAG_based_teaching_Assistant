@@ -1,0 +1,264 @@
+{
+    "chunks": [
+        {
+            "number": "050",
+            "title": "Cumulative returns",
+            "start": 0.3,
+            "end": 5.0,
+            "text": "One last important statistic on a stock that's important is called"
+        },
+        {
+            "number": "050",
+            "title": "Cumulative returns",
+            "start": 5.0,
+            "end": 7.1,
+            "text": "cumulative returns."
+        },
+        {
+            "number": "050",
+            "title": "Cumulative returns",
+            "start": 7.1,
+            "end": 12.0,
+            "text": "So let's consider S&P 500 again back in 2012."
+        },
+        {
+            "number": "050",
+            "title": "Cumulative returns",
+            "start": 12.0,
+            "end": 18.5,
+            "text": "Now in 2012, the S&P 500 started the year at $125 and"
+        },
+        {
+            "number": "050",
+            "title": "Cumulative returns",
+            "start": 18.5,
+            "end": 21.4,
+            "text": "it ended the year at $142."
+        },
+        {
+            "number": "050",
+            "title": "Cumulative returns",
+            "start": 21.4,
+            "end": 25.6,
+            "text": "When you listen to the news, you hear things like for the year 2012,"
+        },
+        {
+            "number": "050",
+            "title": "Cumulative returns",
+            "start": 25.6,
+            "end": 29.1,
+            "text": "S&P 500 gained 13.6%."
+        },
+        {
+            "number": "050",
+            "title": "Cumulative returns",
+            "start": 29.1,
+            "end": 31.2,
+            "text": "That is cumulative return."
+        },
+        {
+            "number": "050",
+            "title": "Cumulative returns",
+            "start": 31.2,
+            "end": 38.6,
+            "text": "You don't hear them say, over 2012, S&P 500 went from 125 to 142."
+        },
+        {
+            "number": "050",
+            "title": "Cumulative returns",
+            "start": 38.6,
+            "end": 41.0,
+            "text": "So how do you calculate these cumulative returns?"
+        },
+        {
+            "number": "050",
+            "title": "Cumulative returns",
+            "start": 41.0,
+            "end": 42.2,
+            "text": "It's really easy."
+        },
+        {
+            "number": "050",
+            "title": "Cumulative returns",
+            "start": 42.2,
+            "end": 43.5,
+            "text": "Here's the equation."
+        },
+        {
+            "number": "050",
+            "title": "Cumulative returns",
+            "start": 43.5,
+            "end": 47.1,
+            "text": "The cumulative return for a particular day, T,"
+        },
+        {
+            "number": "050",
+            "title": "Cumulative returns",
+            "start": 47.1,
+            "end": 51.3,
+            "text": "is just today's price divided by the price at the beginning."
+        },
+        {
+            "number": "050",
+            "title": "Cumulative returns",
+            "start": 51.3,
+            "end": 55.3,
+            "text": "So price of zero is over here."
+        },
+        {
+            "number": "050",
+            "title": "Cumulative returns",
+            "start": 55.3,
+            "end": 59.1,
+            "text": "And the price of any particular day, you know, say would be here."
+        },
+        {
+            "number": "050",
+            "title": "Cumulative returns",
+            "start": 59.1,
+            "end": 61.2,
+            "text": "And we can calculate the value like this."
+        },
+        {
+            "number": "050",
+            "title": "Cumulative returns",
+            "start": 61.2,
+            "end": 67.9,
+            "text": "Now the cumulative return for the whole period is where T is this last day."
+        },
+        {
+            "number": "050",
+            "title": "Cumulative returns",
+            "start": 67.9,
+            "end": 70.2,
+            "text": "So let's consider the example we've got here."
+        },
+        {
+            "number": "050",
+            "title": "Cumulative returns",
+            "start": 70.2,
+            "end": 76.2,
+            "text": "To calculate the cumulative return for this whole year, it's the price at the end,"
+        },
+        {
+            "number": "050",
+            "title": "Cumulative returns",
+            "start": 76.2,
+            "end": 79.3,
+            "text": "divided by the price at the beginning, minus 1."
+        },
+        {
+            "number": "050",
+            "title": "Cumulative returns",
+            "start": 79.3,
+            "end": 84.8,
+            "text": "Turns out 142 divided by 125 is 1.136."
+        },
+        {
+            "number": "050",
+            "title": "Cumulative returns",
+            "start": 84.8,
+            "end": 92.4,
+            "text": "Minus 1 gives us 0.136, which is equal to 13.6%."
+        },
+        {
+            "number": "050",
+            "title": "Cumulative returns",
+            "start": 92.4,
+            "end": 101.0,
+            "text": "So our cumulative return for the ETF SPY was 13.6%."
+        },
+        {
+            "number": "050",
+            "title": "Cumulative returns",
+            "start": 101.0,
+            "end": 105.0,
+            "text": "We can calculate and chart cumulative returns just like we did earlier for"
+        },
+        {
+            "number": "050",
+            "title": "Cumulative returns",
+            "start": 105.0,
+            "end": 106.8,
+            "text": "daily returns."
+        },
+        {
+            "number": "050",
+            "title": "Cumulative returns",
+            "start": 106.8,
+            "end": 111.9,
+            "text": "Except now the plot is showing us the cumulative return, of course,"
+        },
+        {
+            "number": "050",
+            "title": "Cumulative returns",
+            "start": 111.9,
+            "end": 114.2,
+            "text": "instead of the daily return."
+        },
+        {
+            "number": "050",
+            "title": "Cumulative returns",
+            "start": 114.2,
+            "end": 118.8,
+            "text": "Note that the shape of the chart is, you know, the same as the price chart."
+        },
+        {
+            "number": "050",
+            "title": "Cumulative returns",
+            "start": 118.8,
+            "end": 120.6,
+            "text": "It's just now it's normalized."
+        },
+        {
+            "number": "050",
+            "title": "Cumulative returns",
+            "start": 120.6,
+            "end": 126.3,
+            "text": "And in fact, this equation is exactly our normalization equation."
+        },
+        {
+            "number": "050",
+            "title": "Cumulative returns",
+            "start": 126.3,
+            "end": 131.6,
+            "text": "So that is how to calculate and plot cumulative returns."
+        },
+        {
+            "number": "050",
+            "title": "Cumulative returns",
+            "start": 131.6,
+            "end": 134.6,
+            "text": "We're not going to have Dave show you how to do that."
+        },
+        {
+            "number": "050",
+            "title": "Cumulative returns",
+            "start": 134.6,
+            "end": 135.8,
+            "text": "You're on your own there."
+        },
+        {
+            "number": "050",
+            "title": "Cumulative returns",
+            "start": 135.8,
+            "end": 139.0,
+            "text": "Now that you know how to do daily returns, it shouldn't be too tough."
+        },
+        {
+            "number": "050",
+            "title": "Cumulative returns",
+            "start": 139.0,
+            "end": 140.2,
+            "text": "Okay, that's it for this lesson."
+        },
+        {
+            "number": "050",
+            "title": "Cumulative returns",
+            "start": 140.2,
+            "end": 141.3,
+            "text": "We'll see you again soon."
+        }
+    ],
+    "text": "One last important statistic on a stock that's important is called cumulative returns. So let's consider S&P 500 again back in 2012. Now in 2012, the S&P 500 started the year at $125 and it ended the year at $142. When you listen to the news, you hear things like for the year 2012, S&P 500 gained 13.6%. That is cumulative return. You don't hear them say, over 2012, S&P 500 went from 125 to 142. So how do you calculate these cumulative returns? It's really easy. Here's the equation. The cumulative return for a particular day, T, is just today's price divided by the price at the beginning. So price of zero is over here. And the price of any particular day, you know, say would be here. And we can calculate the value like this. Now the cumulative return for the whole period is where T is this last day. So let's consider the example we've got here. To calculate the cumulative return for this whole year, it's the price at the end, divided by the price at the beginning, minus 1. Turns out 142 divided by 125 is 1.136. Minus 1 gives us 0.136, which is equal to 13.6%. So our cumulative return for the ETF SPY was 13.6%. We can calculate and chart cumulative returns just like we did earlier for daily returns. Except now the plot is showing us the cumulative return, of course, instead of the daily return. Note that the shape of the chart is, you know, the same as the price chart. It's just now it's normalized. And in fact, this equation is exactly our normalization equation. So that is how to calculate and plot cumulative returns. We're not going to have Dave show you how to do that. You're on your own there. Now that you know how to do daily returns, it shouldn't be too tough. Okay, that's it for this lesson. We'll see you again soon."
+}

@@ -1,0 +1,243 @@
+{
+    "chunks": [
+        {
+            "number": "031",
+            "title": "Arrays with initial values",
+            "start": 0.0,
+            "end": 5.9,
+            "text": "NumPy also offers several functions to create empty arrays with initial values."
+        },
+        {
+            "number": "031",
+            "title": "Arrays with initial values",
+            "start": 5.9,
+            "end": 10.6,
+            "text": "For certain computations, these help avoid growing arrays incrementally,"
+        },
+        {
+            "number": "031",
+            "title": "Arrays with initial values",
+            "start": 10.6,
+            "end": 13.0,
+            "text": "which can be an expensive operation."
+        },
+        {
+            "number": "031",
+            "title": "Arrays with initial values",
+            "start": 13.0,
+            "end": 15.6,
+            "text": "Let's start with creating an empty array."
+        },
+        {
+            "number": "031",
+            "title": "Arrays with initial values",
+            "start": 15.6,
+            "end": 19.6,
+            "text": "The empty function takes the shape of the array as input."
+        },
+        {
+            "number": "031",
+            "title": "Arrays with initial values",
+            "start": 19.6,
+            "end": 23.6,
+            "text": "The shape can be defined as a single integer, as we did over here,"
+        },
+        {
+            "number": "031",
+            "title": "Arrays with initial values",
+            "start": 23.6,
+            "end": 26.4,
+            "text": "for creating a one dimensional array or"
+        },
+        {
+            "number": "031",
+            "title": "Arrays with initial values",
+            "start": 26.4,
+            "end": 30.4,
+            "text": "a sequence of integers denoting the size in each dimension."
+        },
+        {
+            "number": "031",
+            "title": "Arrays with initial values",
+            "start": 30.4,
+            "end": 34.1,
+            "text": "For a two dimensional array, a sequence of two integers is needed."
+        },
+        {
+            "number": "031",
+            "title": "Arrays with initial values",
+            "start": 34.1,
+            "end": 36.9,
+            "text": "That is the number of rows and the number of columns."
+        },
+        {
+            "number": "031",
+            "title": "Arrays with initial values",
+            "start": 36.9,
+            "end": 41.5,
+            "text": "For this example, we will create an empty array with five rows and four columns,"
+        },
+        {
+            "number": "031",
+            "title": "Arrays with initial values",
+            "start": 41.5,
+            "end": 45.2,
+            "text": "passing in a tuple with values five and four."
+        },
+        {
+            "number": "031",
+            "title": "Arrays with initial values",
+            "start": 45.2,
+            "end": 48.9,
+            "text": "So here I pass a tuple with values five and four."
+        },
+        {
+            "number": "031",
+            "title": "Arrays with initial values",
+            "start": 48.9,
+            "end": 53.2,
+            "text": "In case you need a three dimensional array or any greater number of dimensions,"
+        },
+        {
+            "number": "031",
+            "title": "Arrays with initial values",
+            "start": 53.2,
+            "end": 56.3,
+            "text": "you can just add another number to the sequence."
+        },
+        {
+            "number": "031",
+            "title": "Arrays with initial values",
+            "start": 56.3,
+            "end": 60.4,
+            "text": "This will give you a three dimensional array with depth of three and"
+        },
+        {
+            "number": "031",
+            "title": "Arrays with initial values",
+            "start": 60.4,
+            "end": 63.5,
+            "text": "each depth having five rows and four columns."
+        },
+        {
+            "number": "031",
+            "title": "Arrays with initial values",
+            "start": 63.5,
+            "end": 67.8,
+            "text": "For this lesson, we will only work with two dimensional arrays."
+        },
+        {
+            "number": "031",
+            "title": "Arrays with initial values",
+            "start": 67.8,
+            "end": 69.0,
+            "text": "Now let's check the output."
+        },
+        {
+            "number": "031",
+            "title": "Arrays with initial values",
+            "start": 71.0,
+            "end": 74.3,
+            "text": "Strange, the empty array is not actually empty."
+        },
+        {
+            "number": "031",
+            "title": "Arrays with initial values",
+            "start": 74.3,
+            "end": 78.6,
+            "text": "What happens is that when we call numpy.empty to create an array,"
+        },
+        {
+            "number": "031",
+            "title": "Arrays with initial values",
+            "start": 78.6,
+            "end": 82.8,
+            "text": "the elements of the array retain whatever values were present in"
+        },
+        {
+            "number": "031",
+            "title": "Arrays with initial values",
+            "start": 82.8,
+            "end": 84.9,
+            "text": "the corresponding memory location."
+        },
+        {
+            "number": "031",
+            "title": "Arrays with initial values",
+            "start": 84.9,
+            "end": 90.0,
+            "text": "These are effectively random values that depend on the state of the computer's memory."
+        },
+        {
+            "number": "031",
+            "title": "Arrays with initial values",
+            "start": 90.0,
+            "end": 93.5,
+            "text": "Also observe that by default, the elements are the floating points."
+        },
+        {
+            "number": "031",
+            "title": "Arrays with initial values",
+            "start": 94.6,
+            "end": 97.2,
+            "text": "Next we create an array full of ones."
+        },
+        {
+            "number": "031",
+            "title": "Arrays with initial values",
+            "start": 97.2,
+            "end": 102.5,
+            "text": "Like the empty function, we pass in the number of rows and columns as a sequence."
+        },
+        {
+            "number": "031",
+            "title": "Arrays with initial values",
+            "start": 102.5,
+            "end": 107.3,
+            "text": "To create an array full of ones, you call the one function and pass the sequence,"
+        },
+        {
+            "number": "031",
+            "title": "Arrays with initial values",
+            "start": 107.3,
+            "end": 110.4,
+            "text": "which has number of rows and number of columns."
+        },
+        {
+            "number": "031",
+            "title": "Arrays with initial values",
+            "start": 110.4,
+            "end": 115.8,
+            "text": "You can expect this time to have an array of five rows and four columns with all the values"
+        },
+        {
+            "number": "031",
+            "title": "Arrays with initial values",
+            "start": 115.8,
+            "end": 117.0,
+            "text": "equal to one."
+        },
+        {
+            "number": "031",
+            "title": "Arrays with initial values",
+            "start": 117.0,
+            "end": 119.1,
+            "text": "Let's go ahead and check this."
+        },
+        {
+            "number": "031",
+            "title": "Arrays with initial values",
+            "start": 119.1,
+            "end": 120.0,
+            "text": "Here it is."
+        },
+        {
+            "number": "031",
+            "title": "Arrays with initial values",
+            "start": 120.0,
+            "end": 125.5,
+            "text": "An array with five rows, four columns and all the values of the array equal to one."
+        }
+    ],
+    "text": "NumPy also offers several functions to create empty arrays with initial values. For certain computations, these help avoid growing arrays incrementally, which can be an expensive operation. Let's start with creating an empty array. The empty function takes the shape of the array as input. The shape can be defined as a single integer, as we did over here, for creating a one dimensional array or a sequence of integers denoting the size in each dimension. For a two dimensional array, a sequence of two integers is needed. That is the number of rows and the number of columns. For this example, we will create an empty array with five rows and four columns, passing in a tuple with values five and four. So here I pass a tuple with values five and four. In case you need a three dimensional array or any greater number of dimensions, you can just add another number to the sequence. This will give you a three dimensional array with depth of three and each depth having five rows and four columns. For this lesson, we will only work with two dimensional arrays. Now let's check the output. Strange, the empty array is not actually empty. What happens is that when we call numpy.empty to create an array, the elements of the array retain whatever values were present in the corresponding memory location. These are effectively random values that depend on the state of the computer's memory. Also observe that by default, the elements are the floating points. Next we create an array full of ones. Like the empty function, we pass in the number of rows and columns as a sequence. To create an array full of ones, you call the one function and pass the sequence, which has number of rows and number of columns. You can expect this time to have an array of five rows and four columns with all the values equal to one. Let's go ahead and check this. Here it is. An array with five rows, four columns and all the values of the array equal to one."
+}

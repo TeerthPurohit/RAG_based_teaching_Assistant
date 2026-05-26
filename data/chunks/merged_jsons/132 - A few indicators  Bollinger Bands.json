@@ -1,0 +1,90 @@
+{
+    "title": "A few indicators  Bollinger Bands",
+    "number": "132",
+    "chunks": [
+        {
+            "title": "A few indicators  Bollinger Bands",
+            "number": "132",
+            "start": 0.5,
+            "end": 18.6,
+            "text": "Let's suppose you liked what I told you about simple moving average. And you're looking at the historical price of this stock. And you're trying to decide, okay, how much of an excursion from the simple moving average should I use as a signal for a buy or sell? So let's add our simple moving average line here."
+        },
+        {
+            "title": "A few indicators  Bollinger Bands",
+            "number": "132",
+            "start": 18.6,
+            "end": 41.3,
+            "text": "You might say, okay, I think if I see an excursion of, say, 1% like this, that that's a meaningful excursion and I should trade based on that. So let's carry forward and now you're getting these huge excursions all the time and you'd be chasing it trying to trade all the time. So clearly a fixed number is probably not the best way to go."
+        },
+        {
+            "title": "A few indicators  Bollinger Bands",
+            "number": "132",
+            "start": 41.3,
+            "end": 61.1,
+            "text": "If you look at this chart, you'll see that we've got a region of low volatility over here and high volatility over here. So John Bollinger observed that for low volatility stocks or stocks that are currently experiencing low volatility, you probably want to use a smaller number for that trigger."
+        },
+        {
+            "title": "A few indicators  Bollinger Bands",
+            "number": "132",
+            "start": 61.1,
+            "end": 78.8,
+            "text": "And when we see high volatility, you probably want to use a larger number. Well, how can we accomplish that? Well, we can use the standard deviation. So what Bollinger suggested was, okay, let's take this simple moving average. But let's add a band above and below two standard deviations."
+        },
+        {
+            "title": "A few indicators  Bollinger Bands",
+            "number": "132",
+            "start": 78.8,
+            "end": 99.9,
+            "text": "And that's our measure for how strong of a deviation we want to see before we respond to it. So for instance, in this region, this smaller excursion goes outside that band. So we should take a look at it. But over here, it takes a much larger excursion to get our attention. How might we use Bollinger bands now for trading signals?"
+        },
+        {
+            "title": "A few indicators  Bollinger Bands",
+            "number": "132",
+            "start": 99.9,
+            "end": 120.8,
+            "text": "Here's a method that I've seen that is effective. So here's a rule of thumb for using Bollinger bands that might be effective. You look for times where the price is outside one of these Bollinger bands. And when it crosses to the inside. So for instance, here we're outside and we cross to the inside."
+        },
+        {
+            "title": "A few indicators  Bollinger Bands",
+            "number": "132",
+            "start": 120.8,
+            "end": 138.3,
+            "text": "So this would be a sell signal. We've got a large excursion from the simple moving average. And we're expecting that it will retreat back to the average. And it's demonstrated that it's retreating because it's gone from outside the band back towards the moving average."
+        },
+        {
+            "title": "A few indicators  Bollinger Bands",
+            "number": "132",
+            "start": 138.3,
+            "end": 159.8,
+            "text": "Conversely, here we're moving from below the lower band back towards the simple moving average. And that would be a buy signal. So recapping, the way that people use Bollinger bands is they look for the price to go outside the bands and then look for it to retreat back"
+        },
+        {
+            "title": "A few indicators  Bollinger Bands",
+            "number": "132",
+            "start": 159.8,
+            "end": 176.3,
+            "text": "through the band. And that's verification that it's moving back towards the simple moving average. Here's how to calculate the Bollinger band on a particular day, t. So here's the price on that particular day, t. We subtract the value of the simple moving average."
+        },
+        {
+            "title": "A few indicators  Bollinger Bands",
+            "number": "132",
+            "start": 176.3,
+            "end": 195.2,
+            "text": "So we're comparing these two values. And then divide by two times the standard deviation. So the value up here is going to be something greater than 1.0 because if it's exactly at this band, it's exactly two standard deviations away. So it would be a value of one right at the band."
+        },
+        {
+            "title": "A few indicators  Bollinger Bands",
+            "number": "132",
+            "start": 195.2,
+            "end": 217.0,
+            "text": "It's greater than one here. Similarly, down here, we would have a value less than negative one. Because the price excursion is more than two standard deviations below. So we typically expect to see values for this Bollinger band calculation to be between negative one and one."
+        },
+        {
+            "title": "A few indicators  Bollinger Bands",
+            "number": "132",
+            "start": 217.0,
+            "end": 225.1,
+            "text": "In other words, most of the values, most of the time the stock is going to be between those bands. But occasionally we'll see excursions above and below those values."
+        }
+    ]
+}

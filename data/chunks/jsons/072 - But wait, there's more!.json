@@ -1,0 +1,201 @@
+{
+    "chunks": [
+        {
+            "number": "072",
+            "title": "But wait, there's more!",
+            "start": 0.4,
+            "end": 3.5,
+            "text": "But wait, there's more."
+        },
+        {
+            "number": "072",
+            "title": "But wait, there's more!",
+            "start": 3.5,
+            "end": 9.4,
+            "text": "The Sharpe ratio for the same asset can vary widely depending on"
+        },
+        {
+            "number": "072",
+            "title": "But wait, there's more!",
+            "start": 9.4,
+            "end": 11.5,
+            "text": "how frequently you sample it."
+        },
+        {
+            "number": "072",
+            "title": "But wait, there's more!",
+            "start": 11.5,
+            "end": 17.6,
+            "text": "So in other words, if you sample the prices every year and"
+        },
+        {
+            "number": "072",
+            "title": "But wait, there's more!",
+            "start": 17.6,
+            "end": 22.9,
+            "text": "compute your Sharpe ratio based on yearly statistics, you'll get one number."
+        },
+        {
+            "number": "072",
+            "title": "But wait, there's more!",
+            "start": 22.9,
+            "end": 26.4,
+            "text": "If you sample monthly, you'll get a different number."
+        },
+        {
+            "number": "072",
+            "title": "But wait, there's more!",
+            "start": 26.4,
+            "end": 29.4,
+            "text": "If you sample daily, you'll get still another number."
+        },
+        {
+            "number": "072",
+            "title": "But wait, there's more!",
+            "start": 29.4,
+            "end": 33.7,
+            "text": "The original vision for the Sharpe ratio is that it's an annual measure."
+        },
+        {
+            "number": "072",
+            "title": "But wait, there's more!",
+            "start": 33.7,
+            "end": 38.2,
+            "text": "And so if we're sampling at frequencies other than annually,"
+        },
+        {
+            "number": "072",
+            "title": "But wait, there's more!",
+            "start": 38.2,
+            "end": 40.7,
+            "text": "we need to add an adjustment factor to make it all work out."
+        },
+        {
+            "number": "072",
+            "title": "But wait, there's more!",
+            "start": 41.8,
+            "end": 45.0,
+            "text": "So if we have our original Sharpe ratio over here,"
+        },
+        {
+            "number": "072",
+            "title": "But wait, there's more!",
+            "start": 45.0,
+            "end": 50.2,
+            "text": "we multiply it by an adjustment factor called k to get the annualized version."
+        },
+        {
+            "number": "072",
+            "title": "But wait, there's more!",
+            "start": 50.2,
+            "end": 52.0,
+            "text": "Now what is k?"
+        },
+        {
+            "number": "072",
+            "title": "But wait, there's more!",
+            "start": 52.0,
+            "end": 56.6,
+            "text": "k is simply the square root of the number of samples per year."
+        },
+        {
+            "number": "072",
+            "title": "But wait, there's more!",
+            "start": 56.6,
+            "end": 62.1,
+            "text": "So for instance, if we're using daily data, there are 252 trading days per year."
+        },
+        {
+            "number": "072",
+            "title": "But wait, there's more!",
+            "start": 62.1,
+            "end": 65.2,
+            "text": "So k is the square root of 252."
+        },
+        {
+            "number": "072",
+            "title": "But wait, there's more!",
+            "start": 65.2,
+            "end": 70.8,
+            "text": "If we're, say, taking weekly samples, it'd be square root of 52."
+        },
+        {
+            "number": "072",
+            "title": "But wait, there's more!",
+            "start": 70.8,
+            "end": 76.8,
+            "text": "Important thing to keep in mind is the number in here is the rate at which we're sampling."
+        },
+        {
+            "number": "072",
+            "title": "But wait, there's more!",
+            "start": 76.8,
+            "end": 82.8,
+            "text": "So as an example, let's suppose we were trading for 85 days."
+        },
+        {
+            "number": "072",
+            "title": "But wait, there's more!",
+            "start": 82.8,
+            "end": 92.7,
+            "text": "Because we're sampling at a daily rate, we use this number for our k, square root of 252."
+        },
+        {
+            "number": "072",
+            "title": "But wait, there's more!",
+            "start": 92.7,
+            "end": 100.8,
+            "text": "Even though we only traded for 89 days, we use 252 here because we're sampling daily."
+        },
+        {
+            "number": "072",
+            "title": "But wait, there's more!",
+            "start": 100.8,
+            "end": 105.8,
+            "text": "It's the frequency at which we sample that affects this value for k."
+        },
+        {
+            "number": "072",
+            "title": "But wait, there's more!",
+            "start": 105.8,
+            "end": 112.8,
+            "text": "So recapping, if we sample the value of our portfolio monthly, k is square root of 12."
+        },
+        {
+            "number": "072",
+            "title": "But wait, there's more!",
+            "start": 112.8,
+            "end": 118.6,
+            "text": "If we do it weekly, it's square root of 52 because there's 52 weeks in a year."
+        },
+        {
+            "number": "072",
+            "title": "But wait, there's more!",
+            "start": 118.6,
+            "end": 122.7,
+            "text": "And if we sample daily, it's square root of 252."
+        },
+        {
+            "number": "072",
+            "title": "But wait, there's more!",
+            "start": 122.7,
+            "end": 125.9,
+            "text": "Bringing it all together, if we're using daily data,"
+        },
+        {
+            "number": "072",
+            "title": "But wait, there's more!",
+            "start": 125.9,
+            "end": 133.7,
+            "text": "our Sharpe ratio is square root of 252, that's our k, times mean of our daily returns,"
+        },
+        {
+            "number": "072",
+            "title": "But wait, there's more!",
+            "start": 133.7,
+            "end": 139.5,
+            "text": "minus the daily risk-free rate, divided by standard deviation of daily returns."
+        }
+    ],
+    "text": "But wait, there's more. The Sharpe ratio for the same asset can vary widely depending on how frequently you sample it. So in other words, if you sample the prices every year and compute your Sharpe ratio based on yearly statistics, you'll get one number. If you sample monthly, you'll get a different number. If you sample daily, you'll get still another number. The original vision for the Sharpe ratio is that it's an annual measure. And so if we're sampling at frequencies other than annually, we need to add an adjustment factor to make it all work out. So if we have our original Sharpe ratio over here, we multiply it by an adjustment factor called k to get the annualized version. Now what is k? k is simply the square root of the number of samples per year. So for instance, if we're using daily data, there are 252 trading days per year. So k is the square root of 252. If we're, say, taking weekly samples, it'd be square root of 52. Important thing to keep in mind is the number in here is the rate at which we're sampling. So as an example, let's suppose we were trading for 85 days. Because we're sampling at a daily rate, we use this number for our k, square root of 252. Even though we only traded for 89 days, we use 252 here because we're sampling daily. It's the frequency at which we sample that affects this value for k. So recapping, if we sample the value of our portfolio monthly, k is square root of 12. If we do it weekly, it's square root of 52 because there's 52 weeks in a year. And if we sample daily, it's square root of 252. Bringing it all together, if we're using daily data, our Sharpe ratio is square root of 252, that's our k, times mean of our daily returns, minus the daily risk-free rate, divided by standard deviation of daily returns."
+}

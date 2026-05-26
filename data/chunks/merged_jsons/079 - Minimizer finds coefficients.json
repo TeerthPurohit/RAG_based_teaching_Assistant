@@ -1,0 +1,34 @@
+{
+    "title": "Minimizer finds coefficients",
+    "number": "079",
+    "chunks": [
+        {
+            "title": "Minimizer finds coefficients",
+            "number": "079",
+            "start": 0.2,
+            "end": 17.6,
+            "text": "Let's step through this now with an example of how a minimizer would try to find the coefficients of a line that best fits this data. So keep in mind that we have to give the minimizer an equation that it has to minimize. And what we're going to give it is that error metric."
+        },
+        {
+            "title": "Minimizer finds coefficients",
+            "number": "079",
+            "start": 17.6,
+            "end": 42.2,
+            "text": "In fact, we'll use squared error. So we might guess an initial C0 and C1, and that would be a line like this. And we would give that to the minimizer and let it go. So it would measure the error with this particular line. It would fiddle with these values a little bit and see how much the error changed."
+        },
+        {
+            "title": "Minimizer finds coefficients",
+            "number": "079",
+            "start": 42.2,
+            "end": 58.4,
+            "text": "Try a new set of values. See how that works. And eventually, it's going to iterate. And eventually, it's going to settle on what it thinks is the best solution. So key points here are that we express the problem for"
+        },
+        {
+            "title": "Minimizer finds coefficients",
+            "number": "079",
+            "start": 58.4,
+            "end": 75.6,
+            "text": "the minimizer as a minimization problem. And we give it the equation to minimize as the error. And then what it finds now instead of x, is it finds the values for these coefficients. So let me show you how to do that now in code."
+        }
+    ]
+}

@@ -1,0 +1,55 @@
+{
+    "title": "Coin flip casino  risk 2",
+    "number": "150",
+    "chunks": [
+        {
+            "title": "Coin flip casino  risk 2",
+            "number": "150",
+            "start": 0.0,
+            "end": 20.4,
+            "text": "Another way that we can look at risk in this thought experiment is to consider the standard deviation of all those individual bets. So again, consider we have 1,000 different betting tables out there, and we have the opportunity to allocate our bets however we like. You know, we could put 200 tokens on one table, five on another, and so on."
+        },
+        {
+            "title": "Coin flip casino  risk 2",
+            "number": "150",
+            "start": 20.4,
+            "end": 34.5,
+            "text": "We're looking at the two extreme cases here, of course. But in any case, what is the standard deviation of the results of all those individual bets? So we're going to look at standard deviation after the fact. In other words, we're going to assume we bet already and"
+        },
+        {
+            "title": "Coin flip casino  risk 2",
+            "number": "150",
+            "start": 34.5,
+            "end": 54.7,
+            "text": "we're looking at the outcome. So if we have one token per table, we might have a loss of one token on one table, a gain on another, another loss, and a gain, and a gain, and so on, all the way across our 1,000 tables. Now, we don't actually have to spend much time doing the math here."
+        },
+        {
+            "title": "Coin flip casino  risk 2",
+            "number": "150",
+            "start": 54.7,
+            "end": 73.0,
+            "text": "It turns out that the standard deviation for this case is pretty easy to calculate. Because for each table, the result is either negative one or one, and it turns out that the standard deviation in this case is easily calculated as 1.0. So it doesn't matter what the particular outcome turns out to be."
+        },
+        {
+            "title": "Coin flip casino  risk 2",
+            "number": "150",
+            "start": 73.0,
+            "end": 98.1,
+            "text": "We know we're either going to lose one or gain one in every single table. And so our expected standard deviation there is 1.0.0. The outcome for the second scenario, where we make one bet with 1,000 tokens, and then essentially 0 bets on the other tables, turns out a little bit differently. And then this first table where we bet 1,000 tokens, we either win 1,000 or we lose 1,000."
+        },
+        {
+            "title": "Coin flip casino  risk 2",
+            "number": "150",
+            "start": 98.1,
+            "end": 123.5,
+            "text": "And on all the other tables, the outcome is exactly 0. Same for this case where we lost on that first one. So again, we bet on one table 1,000 tokens, and we bet 0 tokens on the other 999. Reasoning it out this way enables us to calculate the standard deviation. Whichever way it goes, whether we win or lose, the standard deviation on this event is the same."
+        },
+        {
+            "title": "Coin flip casino  risk 2",
+            "number": "150",
+            "start": 123.5,
+            "end": 139.2,
+            "text": "And the answer is 31.62. Key point here is standard deviation or risk is much, much larger. Well, as you can see, about 31 times larger when we make that single bet on one table and no bets on the other tables."
+        }
+    ]
+}

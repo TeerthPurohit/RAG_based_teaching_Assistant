@@ -1,0 +1,208 @@
+{
+    "chunks": [
+        {
+            "number": "103",
+            "title": "Mechanics of short selling  Exit",
+            "start": 0.5,
+            "end": 2.4,
+            "text": "All right, let's recap what happened."
+        },
+        {
+            "number": "103",
+            "title": "Mechanics of short selling  Exit",
+            "start": 2.4,
+            "end": 6.5,
+            "text": "You borrowed 100 shares from Joe, so that's indicated by this sort of empty"
+        },
+        {
+            "number": "103",
+            "title": "Mechanics of short selling  Exit",
+            "start": 6.5,
+            "end": 7.9,
+            "text": "box here."
+        },
+        {
+            "number": "103",
+            "title": "Mechanics of short selling  Exit",
+            "start": 7.9,
+            "end": 12.8,
+            "text": "You sold those 100 shares to Lisa, so now you have $10,000 in your account,"
+        },
+        {
+            "number": "103",
+            "title": "Mechanics of short selling  Exit",
+            "start": 12.8,
+            "end": 15.4,
+            "text": "but you still owe Joe those 100 shares."
+        },
+        {
+            "number": "103",
+            "title": "Mechanics of short selling  Exit",
+            "start": 15.4,
+            "end": 19.6,
+            "text": "Let's suppose that since that time, IBM has dropped in price, and"
+        },
+        {
+            "number": "103",
+            "title": "Mechanics of short selling  Exit",
+            "start": 19.6,
+            "end": 21.9,
+            "text": "now it's selling at $90."
+        },
+        {
+            "number": "103",
+            "title": "Mechanics of short selling  Exit",
+            "start": 21.9,
+            "end": 25.2,
+            "text": "You can make a profit from that, and you want to go ahead and exit."
+        },
+        {
+            "number": "103",
+            "title": "Mechanics of short selling  Exit",
+            "start": 25.2,
+            "end": 30.5,
+            "text": "So you approach Lisa and say, hey, can I buy those 100 shares back?"
+        },
+        {
+            "number": "103",
+            "title": "Mechanics of short selling  Exit",
+            "start": 30.5,
+            "end": 33.5,
+            "text": "And she says, no, I want to keep IBM."
+        },
+        {
+            "number": "103",
+            "title": "Mechanics of short selling  Exit",
+            "start": 33.5,
+            "end": 37.0,
+            "text": "Well, that's a little bit of a problem, but fortunately, there's lots of people"
+        },
+        {
+            "number": "103",
+            "title": "Mechanics of short selling  Exit",
+            "start": 37.0,
+            "end": 40.9,
+            "text": "who have shares of IBM and would be willing to sell them to you."
+        },
+        {
+            "number": "103",
+            "title": "Mechanics of short selling  Exit",
+            "start": 40.9,
+            "end": 45.5,
+            "text": "So Lisa's now out of the picture and not part of this transaction anymore, but"
+        },
+        {
+            "number": "103",
+            "title": "Mechanics of short selling  Exit",
+            "start": 45.5,
+            "end": 49.3,
+            "text": "there's somebody else out there, Nate, who's got 100 shares, and"
+        },
+        {
+            "number": "103",
+            "title": "Mechanics of short selling  Exit",
+            "start": 49.3,
+            "end": 51.2,
+            "text": "he's willing to sell them."
+        },
+        {
+            "number": "103",
+            "title": "Mechanics of short selling  Exit",
+            "start": 51.2,
+            "end": 56.1,
+            "text": "So you buy 100 shares from Nate and give them back to Joe."
+        },
+        {
+            "number": "103",
+            "title": "Mechanics of short selling  Exit",
+            "start": 56.1,
+            "end": 60.2,
+            "text": "So your obligation to Joe is now completed."
+        },
+        {
+            "number": "103",
+            "title": "Mechanics of short selling  Exit",
+            "start": 60.2,
+            "end": 65.7,
+            "text": "IBM was selling at $90, so you had to give Joe $9,000."
+        },
+        {
+            "number": "103",
+            "title": "Mechanics of short selling  Exit",
+            "start": 65.7,
+            "end": 69.2,
+            "text": "But remember, you had $10,000."
+        },
+        {
+            "number": "103",
+            "title": "Mechanics of short selling  Exit",
+            "start": 69.2,
+            "end": 73.8,
+            "text": "So the net result after everything is said and done is you've got $1,000, and"
+        },
+        {
+            "number": "103",
+            "title": "Mechanics of short selling  Exit",
+            "start": 73.8,
+            "end": 76.7,
+            "text": "you don't have any obligation any longer to Joe."
+        },
+        {
+            "number": "103",
+            "title": "Mechanics of short selling  Exit",
+            "start": 76.7,
+            "end": 79.6,
+            "text": "So that's how short selling works."
+        },
+        {
+            "number": "103",
+            "title": "Mechanics of short selling  Exit",
+            "start": 79.6,
+            "end": 85.5,
+            "text": "Now I personalized this story by talking about Joe and Lisa and Nate and so on."
+        },
+        {
+            "number": "103",
+            "title": "Mechanics of short selling  Exit",
+            "start": 86.7,
+            "end": 90.5,
+            "text": "In reality, you don't have to make these personal agreements with any of these people."
+        },
+        {
+            "number": "103",
+            "title": "Mechanics of short selling  Exit",
+            "start": 90.5,
+            "end": 93.0,
+            "text": "Your broker makes all that happen."
+        },
+        {
+            "number": "103",
+            "title": "Mechanics of short selling  Exit",
+            "start": 93.0,
+            "end": 96.8,
+            "text": "Your broker is sitting here in between all those actors and"
+        },
+        {
+            "number": "103",
+            "title": "Mechanics of short selling  Exit",
+            "start": 96.8,
+            "end": 98.4,
+            "text": "making all this happen for you."
+        },
+        {
+            "number": "103",
+            "title": "Mechanics of short selling  Exit",
+            "start": 99.8,
+            "end": 102.3,
+            "text": "Well, this all sounds wonderful, doesn't it?"
+        },
+        {
+            "number": "103",
+            "title": "Mechanics of short selling  Exit",
+            "start": 102.3,
+            "end": 103.3,
+            "text": "What can go wrong?"
+        }
+    ],
+    "text": "All right, let's recap what happened. You borrowed 100 shares from Joe, so that's indicated by this sort of empty box here. You sold those 100 shares to Lisa, so now you have $10,000 in your account, but you still owe Joe those 100 shares. Let's suppose that since that time, IBM has dropped in price, and now it's selling at $90. You can make a profit from that, and you want to go ahead and exit. So you approach Lisa and say, hey, can I buy those 100 shares back? And she says, no, I want to keep IBM. Well, that's a little bit of a problem, but fortunately, there's lots of people who have shares of IBM and would be willing to sell them to you. So Lisa's now out of the picture and not part of this transaction anymore, but there's somebody else out there, Nate, who's got 100 shares, and he's willing to sell them. So you buy 100 shares from Nate and give them back to Joe. So your obligation to Joe is now completed. IBM was selling at $90, so you had to give Joe $9,000. But remember, you had $10,000. So the net result after everything is said and done is you've got $1,000, and you don't have any obligation any longer to Joe. So that's how short selling works. Now I personalized this story by talking about Joe and Lisa and Nate and so on. In reality, you don't have to make these personal agreements with any of these people. Your broker makes all that happen. Your broker is sitting here in between all those actors and making all this happen for you. Well, this all sounds wonderful, doesn't it? What can go wrong?"
+}

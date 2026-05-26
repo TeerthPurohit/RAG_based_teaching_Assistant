@@ -1,0 +1,34 @@
+{
+    "title": "Slope does not equal correlation",
+    "number": "064",
+    "chunks": [
+        {
+            "title": "Slope does not equal correlation",
+            "number": "064",
+            "start": 0.6,
+            "end": 17.8,
+            "text": "Now a mistake that a lot of people make is to confound slope and correlation. In other words, if they find that the slope of the line that fits the data is one, that the data are correlated. And that's not true. The slope is just the slope."
+        },
+        {
+            "title": "Slope does not equal correlation",
+            "number": "064",
+            "start": 17.8,
+            "end": 40.9,
+            "text": "Correlation is a measure of how tightly do these individual points fit that line. So you could have a shallow slope but the data tightly fitting that line and thus a higher correlation. Or you could have a steeper line and the data fitting that line and a higher correlation."
+        },
+        {
+            "title": "Slope does not equal correlation",
+            "number": "064",
+            "start": 40.9,
+            "end": 62.9,
+            "text": "Correlation is just a measure of how tightly do those dots fit the line. And you can have a correlation from 0 to 1, meaning the data is not correlated at all. And 1 meaning it's very highly correlated. Now we'll add a scatter plot for another stock, ABC."
+        },
+        {
+            "title": "Slope does not equal correlation",
+            "number": "064",
+            "start": 62.9,
+            "end": 74.4,
+            "text": "And again, each one of these dots represents the daily return of SPY versus ABC. And we fit a line to it. And it turns out it's got a slope of 2. So now we're going to ask you a couple questions about it."
+        }
+    ]
+}

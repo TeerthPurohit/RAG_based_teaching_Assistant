@@ -1,0 +1,327 @@
+{
+    "chunks": [
+        {
+            "number": "023",
+            "title": "More slicing",
+            "start": 0.4,
+            "end": 5.8,
+            "text": "To do any kind of analysis on the data, we need significant amount of data."
+        },
+        {
+            "number": "023",
+            "title": "More slicing",
+            "start": 5.8,
+            "end": 11.3,
+            "text": "So let's read data for each stock for a period of one year, that is year 2010."
+        },
+        {
+            "number": "023",
+            "title": "More slicing",
+            "start": 11.3,
+            "end": 15.9,
+            "text": "You can do this by changing the start and the end date as shown here."
+        },
+        {
+            "number": "023",
+            "title": "More slicing",
+            "start": 15.9,
+            "end": 18.9,
+            "text": "Let's see the data frame content now."
+        },
+        {
+            "number": "023",
+            "title": "More slicing",
+            "start": 18.9,
+            "end": 22.6,
+            "text": "So this is your data frame which has stock prices for"
+        },
+        {
+            "number": "023",
+            "title": "More slicing",
+            "start": 22.6,
+            "end": 28.6,
+            "text": "the symbol SPY, Google, IBM and Gold for a year 2010."
+        },
+        {
+            "number": "023",
+            "title": "More slicing",
+            "start": 28.6,
+            "end": 32.2,
+            "text": "We briefly explained you slicing in the last lesson."
+        },
+        {
+            "number": "023",
+            "title": "More slicing",
+            "start": 32.2,
+            "end": 37.8,
+            "text": "In this lesson, we will learn how to do slicing using the data frame we just created."
+        },
+        {
+            "number": "023",
+            "title": "More slicing",
+            "start": 37.8,
+            "end": 41.4,
+            "text": "There are basically three way we can slice the data frame."
+        },
+        {
+            "number": "023",
+            "title": "More slicing",
+            "start": 41.4,
+            "end": 43.7,
+            "text": "First, row slicing."
+        },
+        {
+            "number": "023",
+            "title": "More slicing",
+            "start": 43.7,
+            "end": 49.2,
+            "text": "As the name suggests, it will give us the required rows along with all the columns."
+        },
+        {
+            "number": "023",
+            "title": "More slicing",
+            "start": 49.2,
+            "end": 55.1,
+            "text": "This is useful when you want to compare movement of all the stocks over a subset of time."
+        },
+        {
+            "number": "023",
+            "title": "More slicing",
+            "start": 55.1,
+            "end": 57.6,
+            "text": "This is how you do it in the code."
+        },
+        {
+            "number": "023",
+            "title": "More slicing",
+            "start": 57.6,
+            "end": 61.6,
+            "text": "We use the function dot ix of the data frame and"
+        },
+        {
+            "number": "023",
+            "title": "More slicing",
+            "start": 61.6,
+            "end": 65.6,
+            "text": "just mention the start and the end date in the square brackets."
+        },
+        {
+            "number": "023",
+            "title": "More slicing",
+            "start": 65.6,
+            "end": 69.8,
+            "text": "Here we extract the movement of all the stocks in the month of Jan."
+        },
+        {
+            "number": "023",
+            "title": "More slicing",
+            "start": 69.8,
+            "end": 74.4,
+            "text": "Note that the start and the end date should be in the chronological order."
+        },
+        {
+            "number": "023",
+            "title": "More slicing",
+            "start": 74.4,
+            "end": 77.6,
+            "text": "If you write the 31st Jan date before 1st Jan,"
+        },
+        {
+            "number": "023",
+            "title": "More slicing",
+            "start": 77.6,
+            "end": 80.6,
+            "text": "the data frame will give you an empty data frame."
+        },
+        {
+            "number": "023",
+            "title": "More slicing",
+            "start": 80.6,
+            "end": 87.5,
+            "text": "Even if you remove the dot ix function and just try to print df passing the dates"
+        },
+        {
+            "number": "023",
+            "title": "More slicing",
+            "start": 87.5,
+            "end": 91.4,
+            "text": "in the chronological order, you will get the same result."
+        },
+        {
+            "number": "023",
+            "title": "More slicing",
+            "start": 91.4,
+            "end": 96.1,
+            "text": "However, dot ix is considered to be more pythonic and robust."
+        },
+        {
+            "number": "023",
+            "title": "More slicing",
+            "start": 96.1,
+            "end": 97.5,
+            "text": "So we follow that."
+        },
+        {
+            "number": "023",
+            "title": "More slicing",
+            "start": 97.5,
+            "end": 101.7,
+            "text": "Now let's run the code to see the stock prices for the month of January."
+        },
+        {
+            "number": "023",
+            "title": "More slicing",
+            "start": 101.7,
+            "end": 108.3,
+            "text": "You can observe that we get the data only for the January month, but for all the symbols."
+        },
+        {
+            "number": "023",
+            "title": "More slicing",
+            "start": 108.3,
+            "end": 110.4,
+            "text": "This is known as row slicing."
+        },
+        {
+            "number": "023",
+            "title": "More slicing",
+            "start": 110.4,
+            "end": 117.1,
+            "text": "Second way of slicing is useful when you want to view prices of only one stock over the date range."
+        },
+        {
+            "number": "023",
+            "title": "More slicing",
+            "start": 117.1,
+            "end": 119.7,
+            "text": "In this case, you can use column slicing."
+        },
+        {
+            "number": "023",
+            "title": "More slicing",
+            "start": 119.7,
+            "end": 124.5,
+            "text": "We want to project the prices of Google for the entire year of 2010."
+        },
+        {
+            "number": "023",
+            "title": "More slicing",
+            "start": 124.5,
+            "end": 126.5,
+            "text": "Here is how we do it."
+        },
+        {
+            "number": "023",
+            "title": "More slicing",
+            "start": 126.5,
+            "end": 132.5,
+            "text": "A square bracket along with the name of the column, and do not forget the colon."
+        },
+        {
+            "number": "023",
+            "title": "More slicing",
+            "start": 132.5,
+            "end": 136.4,
+            "text": "To retrieve a single column, we just pass a single label."
+        },
+        {
+            "number": "023",
+            "title": "More slicing",
+            "start": 136.4,
+            "end": 140.4,
+            "text": "To select multiple columns, we pass a list of labels."
+        },
+        {
+            "number": "023",
+            "title": "More slicing",
+            "start": 140.4,
+            "end": 142.1,
+            "text": "Let's print this."
+        },
+        {
+            "number": "023",
+            "title": "More slicing",
+            "start": 142.1,
+            "end": 145.8,
+            "text": "And this is the output for multiple columns."
+        },
+        {
+            "number": "023",
+            "title": "More slicing",
+            "start": 145.8,
+            "end": 149.3,
+            "text": "The last way of slicing is to slice through both dimension."
+        },
+        {
+            "number": "023",
+            "title": "More slicing",
+            "start": 149.3,
+            "end": 151.5,
+            "text": "That is rows and columns."
+        },
+        {
+            "number": "023",
+            "title": "More slicing",
+            "start": 151.5,
+            "end": 156.5,
+            "text": "The most robust way to do this is using the ix selector of the data frame."
+        },
+        {
+            "number": "023",
+            "title": "More slicing",
+            "start": 156.5,
+            "end": 158.8,
+            "text": "Let's go ahead and use it."
+        },
+        {
+            "number": "023",
+            "title": "More slicing",
+            "start": 158.8,
+            "end": 163.8,
+            "text": "If you need more than one column, you define them in a list like this."
+        },
+        {
+            "number": "023",
+            "title": "More slicing",
+            "start": 163.8,
+            "end": 167.5,
+            "text": "And date range are separated with a colon."
+        },
+        {
+            "number": "023",
+            "title": "More slicing",
+            "start": 167.5,
+            "end": 168.7,
+            "text": "Here you go."
+        },
+        {
+            "number": "023",
+            "title": "More slicing",
+            "start": 168.7,
+            "end": 175.7,
+            "text": "The stock prices for the symbol SPY and IBM over the date range, 10th March to 15th March."
+        },
+        {
+            "number": "023",
+            "title": "More slicing",
+            "start": 175.7,
+            "end": 181.8,
+            "text": "One application of this way of slicing is to compare multiple stocks over a period of time."
+        },
+        {
+            "number": "023",
+            "title": "More slicing",
+            "start": 181.8,
+            "end": 187.1,
+            "text": "Pandas support many ways of slicing a data frame to suit different needs."
+        },
+        {
+            "number": "023",
+            "title": "More slicing",
+            "start": 187.1,
+            "end": 189.9,
+            "text": "Find out more using the link in the instructor notes."
+        }
+    ],
+    "text": "To do any kind of analysis on the data, we need significant amount of data. So let's read data for each stock for a period of one year, that is year 2010. You can do this by changing the start and the end date as shown here. Let's see the data frame content now. So this is your data frame which has stock prices for the symbol SPY, Google, IBM and Gold for a year 2010. We briefly explained you slicing in the last lesson. In this lesson, we will learn how to do slicing using the data frame we just created. There are basically three way we can slice the data frame. First, row slicing. As the name suggests, it will give us the required rows along with all the columns. This is useful when you want to compare movement of all the stocks over a subset of time. This is how you do it in the code. We use the function dot ix of the data frame and just mention the start and the end date in the square brackets. Here we extract the movement of all the stocks in the month of Jan. Note that the start and the end date should be in the chronological order. If you write the 31st Jan date before 1st Jan, the data frame will give you an empty data frame. Even if you remove the dot ix function and just try to print df passing the dates in the chronological order, you will get the same result. However, dot ix is considered to be more pythonic and robust. So we follow that. Now let's run the code to see the stock prices for the month of January. You can observe that we get the data only for the January month, but for all the symbols. This is known as row slicing. Second way of slicing is useful when you want to view prices of only one stock over the date range. In this case, you can use column slicing. We want to project the prices of Google for the entire year of 2010. Here is how we do it. A square bracket along with the name of the column, and do not forget the colon. To retrieve a single column, we just pass a single label. To select multiple columns, we pass a list of labels. Let's print this. And this is the output for multiple columns. The last way of slicing is to slice through both dimension. That is rows and columns. The most robust way to do this is using the ix selector of the data frame. Let's go ahead and use it. If you need more than one column, you define them in a list like this. And date range are separated with a colon. Here you go. The stock prices for the symbol SPY and IBM over the date range, 10th March to 15th March. One application of this way of slicing is to compare multiple stocks over a period of time. Pandas support many ways of slicing a data frame to suit different needs. Find out more using the link in the instructor notes."
+}

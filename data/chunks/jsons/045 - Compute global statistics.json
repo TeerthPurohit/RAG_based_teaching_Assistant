@@ -1,0 +1,229 @@
+{
+    "chunks": [
+        {
+            "number": "045",
+            "title": "Compute global statistics",
+            "start": 0.3,
+            "end": 4.4,
+            "text": "Let's do some coding to get an idea of what professor just explained."
+        },
+        {
+            "number": "045",
+            "title": "Compute global statistics",
+            "start": 4.4,
+            "end": 9.4,
+            "text": "Starting with defining our symbols list, having symbols like SPY,"
+        },
+        {
+            "number": "045",
+            "title": "Compute global statistics",
+            "start": 9.4,
+            "end": 12.2,
+            "text": "XOM, Google, and gold."
+        },
+        {
+            "number": "045",
+            "title": "Compute global statistics",
+            "start": 12.2,
+            "end": 16.0,
+            "text": "We then move ahead to build our data frame, DF,"
+        },
+        {
+            "number": "045",
+            "title": "Compute global statistics",
+            "start": 16.0,
+            "end": 18.8,
+            "text": "just like we did in couple of lessons before."
+        },
+        {
+            "number": "045",
+            "title": "Compute global statistics",
+            "start": 18.8,
+            "end": 21.3,
+            "text": "So DF is a final data frame."
+        },
+        {
+            "number": "045",
+            "title": "Compute global statistics",
+            "start": 21.3,
+            "end": 24.1,
+            "text": "Now let's start computing statistics."
+        },
+        {
+            "number": "045",
+            "title": "Compute global statistics",
+            "start": 24.1,
+            "end": 26.0,
+            "text": "First we compute mean."
+        },
+        {
+            "number": "045",
+            "title": "Compute global statistics",
+            "start": 26.0,
+            "end": 29.1,
+            "text": "We need mean of stock prices for each symbol."
+        },
+        {
+            "number": "045",
+            "title": "Compute global statistics",
+            "start": 29.1,
+            "end": 32.3,
+            "text": "And data frame dot mean will do this for us."
+        },
+        {
+            "number": "045",
+            "title": "Compute global statistics",
+            "start": 32.3,
+            "end": 35.8,
+            "text": "As professor explained, it computes mean for each column, and"
+        },
+        {
+            "number": "045",
+            "title": "Compute global statistics",
+            "start": 35.8,
+            "end": 38.2,
+            "text": "our columns denote one stock each."
+        },
+        {
+            "number": "045",
+            "title": "Compute global statistics",
+            "start": 38.2,
+            "end": 42.4,
+            "text": "So we get mean for all stocks in just one line of code."
+        },
+        {
+            "number": "045",
+            "title": "Compute global statistics",
+            "start": 42.4,
+            "end": 47.9,
+            "text": "So to compute the mean, we just called the name of the data frame, DF dot mean."
+        },
+        {
+            "number": "045",
+            "title": "Compute global statistics",
+            "start": 47.9,
+            "end": 48.9,
+            "text": "Let's check the output."
+        },
+        {
+            "number": "045",
+            "title": "Compute global statistics",
+            "start": 50.1,
+            "end": 55.4,
+            "text": "Note how pandas prints the mean for each symbol properly labeled."
+        },
+        {
+            "number": "045",
+            "title": "Compute global statistics",
+            "start": 55.4,
+            "end": 59.5,
+            "text": "Also, here is the graph with all the symbols and their data."
+        },
+        {
+            "number": "045",
+            "title": "Compute global statistics",
+            "start": 59.5,
+            "end": 63.0,
+            "text": "Similarly, we can compute median and standard deviation."
+        },
+        {
+            "number": "045",
+            "title": "Compute global statistics",
+            "start": 63.0,
+            "end": 64.5,
+            "text": "Let's do it."
+        },
+        {
+            "number": "045",
+            "title": "Compute global statistics",
+            "start": 64.5,
+            "end": 69.2,
+            "text": "We compute the median of the data frame by calling the median function."
+        },
+        {
+            "number": "045",
+            "title": "Compute global statistics",
+            "start": 69.2,
+            "end": 72.3,
+            "text": "Remember the difference between the mean and the median."
+        },
+        {
+            "number": "045",
+            "title": "Compute global statistics",
+            "start": 72.3,
+            "end": 75.0,
+            "text": "Mean is the average of a set of values."
+        },
+        {
+            "number": "045",
+            "title": "Compute global statistics",
+            "start": 75.0,
+            "end": 79.1,
+            "text": "That is, their total sum divided by number of values."
+        },
+        {
+            "number": "045",
+            "title": "Compute global statistics",
+            "start": 79.1,
+            "end": 84.1,
+            "text": "Whereas median refers to the value in the middle when they are all sorted."
+        },
+        {
+            "number": "045",
+            "title": "Compute global statistics",
+            "start": 84.1,
+            "end": 86.8,
+            "text": "Now let's try standard deviation."
+        },
+        {
+            "number": "045",
+            "title": "Compute global statistics",
+            "start": 86.8,
+            "end": 91.8,
+            "text": "We compute the standard deviation by calling the function STD over the data frame."
+        },
+        {
+            "number": "045",
+            "title": "Compute global statistics",
+            "start": 91.8,
+            "end": 92.8,
+            "text": "Let's check the output."
+        },
+        {
+            "number": "045",
+            "title": "Compute global statistics",
+            "start": 92.8,
+            "end": 97.9,
+            "text": "Mathematically, standard deviation is the square root of variance."
+        },
+        {
+            "number": "045",
+            "title": "Compute global statistics",
+            "start": 97.9,
+            "end": 102.7,
+            "text": "But more intuitively, it is a measure of deviation from central value."
+        },
+        {
+            "number": "045",
+            "title": "Compute global statistics",
+            "start": 102.7,
+            "end": 105.0,
+            "text": "Here the central value is the mean."
+        },
+        {
+            "number": "045",
+            "title": "Compute global statistics",
+            "start": 105.0,
+            "end": 108.7,
+            "text": "A higher standard of deviation, like here for Google,"
+        },
+        {
+            "number": "045",
+            "title": "Compute global statistics",
+            "start": 108.7,
+            "end": 112.5,
+            "text": "indicates that the stock prices has varied a lot over time."
+        }
+    ],
+    "text": "Let's do some coding to get an idea of what professor just explained. Starting with defining our symbols list, having symbols like SPY, XOM, Google, and gold. We then move ahead to build our data frame, DF, just like we did in couple of lessons before. So DF is a final data frame. Now let's start computing statistics. First we compute mean. We need mean of stock prices for each symbol. And data frame dot mean will do this for us. As professor explained, it computes mean for each column, and our columns denote one stock each. So we get mean for all stocks in just one line of code. So to compute the mean, we just called the name of the data frame, DF dot mean. Let's check the output. Note how pandas prints the mean for each symbol properly labeled. Also, here is the graph with all the symbols and their data. Similarly, we can compute median and standard deviation. Let's do it. We compute the median of the data frame by calling the median function. Remember the difference between the mean and the median. Mean is the average of a set of values. That is, their total sum divided by number of values. Whereas median refers to the value in the middle when they are all sorted. Now let's try standard deviation. We compute the standard deviation by calling the function STD over the data frame. Let's check the output. Mathematically, standard deviation is the square root of variance. But more intuitively, it is a measure of deviation from central value. Here the central value is the mean. A higher standard of deviation, like here for Google, indicates that the stock prices has varied a lot over time."
+}

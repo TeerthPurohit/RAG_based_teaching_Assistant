@@ -1,0 +1,76 @@
+{
+    "title": "Two stock scenario",
+    "number": "122",
+    "chunks": [
+        {
+            "title": "Two stock scenario",
+            "number": "122",
+            "start": 0.3,
+            "end": 21.2,
+            "text": "As an illustration of how hedge funds use CAPM, let's consider a two stock scenario. So our hedge fund has done some research. Maybe they've used machine learning. Maybe they've used some other method. Maybe they've just thought really hard. And for whatever reason, they predict that stock A is going to go up 1% over the market in the next 10"
+        },
+        {
+            "title": "Two stock scenario",
+            "number": "122",
+            "start": 21.2,
+            "end": 47.2,
+            "text": "days. And they've looked backwards in history and observed that the beta for stock A with regard to the market is 1.0. So plus 1%, beta of 1.0. They've looked at another stock, B, which they predict to go down 1%, whichever way the market goes, it'll go 1% below it. And the beta for stock B is 2.0. So this introduces for the first time this idea of a long short"
+        },
+        {
+            "title": "Two stock scenario",
+            "number": "122",
+            "start": 47.2,
+            "end": 71.2,
+            "text": "portfolio. In other words, we think that stock A is going to go up, so we should long it. And we think stock B is going to go down, so we should short it. And there's some strong advantages to this long short approach. And it'll begin to emerge as we go through this lesson. So we're going to take a look at a couple scenarios with these two stocks to see how we should best allocate between the two."
+        },
+        {
+            "title": "Two stock scenario",
+            "number": "122",
+            "start": 71.2,
+            "end": 101.0,
+            "text": "So looking back, this is what the S&P 500 has been doing. Remember, stock A has a beta greater than 1 or 2, and so it's reacting much more wildly than stock A. Here's our first scenario. Let's assume the market stays flat. In other words, it returns 0% over these following 10 days. And that we enter our positions as of this day. And our positions are going to be a $50 long position in stock A and a $50 long position"
+        },
+        {
+            "title": "Two stock scenario",
+            "number": "122",
+            "start": 101.0,
+            "end": 136.0,
+            "text": "in stock B. Now assume going forward also that our predictions are perfect. That A goes up 1% over the market and B goes down 1% below the market. What will happen? Well, if our predictions were perfect, stock B should go down 1% below the market and stock A should go up 1% above the market. What does that mean in terms of how much money we would see returned? So if we look at stock A, and remember we're using the cap M,"
+        },
+        {
+            "title": "Two stock scenario",
+            "number": "122",
+            "start": 136.0,
+            "end": 178.0,
+            "text": "we should expect to see the return for A as beta of A times return on the market plus alpha. So the market didn't move at all, so this gets nullified. So alpha for A is 1%, and we invested $50 in that, so our return is 50 cents. Similarly for B, this element is removed because our return was 0, and all we're left with is alpha. Now essentially our alpha here was negative, and we made a negative bet. So our return is 0.5, or altogether $1.0, or 1% for our total investment."
+        },
+        {
+            "title": "Two stock scenario",
+            "number": "122",
+            "start": 178.0,
+            "end": 190.0,
+            "text": "Major beta, now we're left with you, Moonlight investment. Major beta, now there's a topuda net and katie a newир. другой Kä постrand and factor R Administration by RTL Here at a moment could вообще enter the expika, a newaisseur rates of 5% afluest Nederland investment."
+        },
+        {
+            "title": "Two stock scenario",
+            "number": "122",
+            "start": 190.0,
+            "end": 200.0,
+            "text": "And you can find your filter at the bottom of this market for A. Back to bank too, how can. Rather big, year shine escaken and draw that way. Before the market donné, lived in our internationalsывайтесь. High at wholesaler we had access to devices, and we can do the Treasury"
+        },
+        {
+            "title": "Two stock scenario",
+            "number": "122",
+            "start": 200.0,
+            "end": 206.0,
+            "text": "end of this market at the same time and have to look to the eni invest in the last one. This is just making sure, how are we still are deadkon kon datasets asats in measurements? ller of this hobby."
+        },
+        {
+            "title": "Two stock scenario",
+            "number": "122",
+            "start": 206.0,
+            "end": 207.0,
+            "text": "івés til greater K."
+        }
+    ]
+}

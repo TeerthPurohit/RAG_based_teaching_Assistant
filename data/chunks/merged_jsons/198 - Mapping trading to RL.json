@@ -1,0 +1,55 @@
+{
+    "title": "Mapping trading to RL",
+    "number": "198",
+    "chunks": [
+        {
+            "title": "Mapping trading to RL",
+            "number": "198",
+            "start": 0.5,
+            "end": 21.7,
+            "text": "Let's consider now a little more carefully how we map trading to an RL problem. So first of all, the environment here is really the market. Our state that we're going to consider includes things like market features, prices, whether we're holding the stock. I'll list a few of those items right here."
+        },
+        {
+            "title": "Mapping trading to RL",
+            "number": "198",
+            "start": 21.7,
+            "end": 46.8,
+            "text": "Our actions are things like buy and sell. And potentially, do nothing is also an allowable action. So let's think about this in the context of trying to learn how to trade a particular stock. So we've got this historical time series, and let's say this vertical line is today. Now we can look back over time to infer the state of the stock."
+        },
+        {
+            "title": "Mapping trading to RL",
+            "number": "198",
+            "start": 46.8,
+            "end": 63.9,
+            "text": "So what are the Bollinger Band values and things like that? Now we process that and decide what's our action. Let's suppose that we decide to buy. So once we buy, we're now holding long. That's part of our state."
+        },
+        {
+            "title": "Mapping trading to RL",
+            "number": "198",
+            "start": 63.9,
+            "end": 74.4,
+            "text": "We go forward. We're now in a new state where the price has gone up. We're holding long. Let's suppose we decide to sell at that point. So we've had two actions."
+        },
+        {
+            "title": "Mapping trading to RL",
+            "number": "198",
+            "start": 74.4,
+            "end": 84.4,
+            "text": "Well, we've been in two states. In state one, we were not holding. We executed the action buy. Went forward in time. We're holding long now."
+        },
+        {
+            "title": "Mapping trading to RL",
+            "number": "198",
+            "start": 84.4,
+            "end": 103.7,
+            "text": "And then we execute the action sell. Note that we made money here. And that's our reward r. So just to recap for a moment, the policy that we learn tells us what to do at each time we evaluate state. And we're going to learn that we haven't talked yet about how we learn the policy."
+        },
+        {
+            "title": "Mapping trading to RL",
+            "number": "198",
+            "start": 103.7,
+            "end": 110.1,
+            "text": "But we're going to learn the policy by looking at how we accrue money or don't based on the actions we take in the environment."
+        }
+    ]
+}

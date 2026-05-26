@@ -1,0 +1,145 @@
+{
+    "chunks": [
+        {
+            "number": "055",
+            "title": "Using fillna()",
+            "start": 0.4,
+            "end": 2.3,
+            "text": "So let's do some coding."
+        },
+        {
+            "number": "055",
+            "title": "Using fillna()",
+            "start": 2.3,
+            "end": 6.8,
+            "text": "To start with, let's use an example stock with missing values."
+        },
+        {
+            "number": "055",
+            "title": "Using fillna()",
+            "start": 6.8,
+            "end": 12.6,
+            "text": "We will be using fake2.csv and this file is included in your data folder."
+        },
+        {
+            "number": "055",
+            "title": "Using fillna()",
+            "start": 12.6,
+            "end": 18.1,
+            "text": "So as usual, we will be reading the CSV into the data frame and"
+        },
+        {
+            "number": "055",
+            "title": "Using fillna()",
+            "start": 18.1,
+            "end": 20.2,
+            "text": "we will do some plotting."
+        },
+        {
+            "number": "055",
+            "title": "Using fillna()",
+            "start": 20.2,
+            "end": 25.4,
+            "text": "So now let's go and plot this data and see what turns up."
+        },
+        {
+            "number": "055",
+            "title": "Using fillna()",
+            "start": 25.4,
+            "end": 26.9,
+            "text": "So here's the graph."
+        },
+        {
+            "number": "055",
+            "title": "Using fillna()",
+            "start": 26.9,
+            "end": 31.8,
+            "text": "So for the given range of dates, you can notice that there is a gap in the beginning"
+        },
+        {
+            "number": "055",
+            "title": "Using fillna()",
+            "start": 31.8,
+            "end": 34.9,
+            "text": "and also gap at multiple places in the middle."
+        },
+        {
+            "number": "055",
+            "title": "Using fillna()",
+            "start": 34.9,
+            "end": 36.4,
+            "text": "So now let's try to fix this."
+        },
+        {
+            "number": "055",
+            "title": "Using fillna()",
+            "start": 37.6,
+            "end": 42.1,
+            "text": "We only need to add a single statement to fill those gaps."
+        },
+        {
+            "number": "055",
+            "title": "Using fillna()",
+            "start": 42.1,
+            "end": 46.7,
+            "text": "As you must have read in the documentation, method ffill corresponds to forward"
+        },
+        {
+            "number": "055",
+            "title": "Using fillna()",
+            "start": 46.7,
+            "end": 52.7,
+            "text": "filling and in place is equal to true will save all the changes in the same data frame."
+        },
+        {
+            "number": "055",
+            "title": "Using fillna()",
+            "start": 52.7,
+            "end": 55.8,
+            "text": "Try removing this and see what happens."
+        },
+        {
+            "number": "055",
+            "title": "Using fillna()",
+            "start": 55.8,
+            "end": 59.2,
+            "text": "Now let's plot and see how the graph looks now."
+        },
+        {
+            "number": "055",
+            "title": "Using fillna()",
+            "start": 59.2,
+            "end": 60.8,
+            "text": "So here's the graph."
+        },
+        {
+            "number": "055",
+            "title": "Using fillna()",
+            "start": 60.8,
+            "end": 64.1,
+            "text": "If you look closely, you will observe the forward filling effect."
+        },
+        {
+            "number": "055",
+            "title": "Using fillna()",
+            "start": 65.4,
+            "end": 69.2,
+            "text": "The stock prices retain their previous values throughout."
+        },
+        {
+            "number": "055",
+            "title": "Using fillna()",
+            "start": 69.2,
+            "end": 75.5,
+            "text": "However, note that the missing values at the beginning of the range have not been filled."
+        },
+        {
+            "number": "055",
+            "title": "Using fillna()",
+            "start": 75.5,
+            "end": 80.0,
+            "text": "Think about what you need to do to take care of that."
+        }
+    ],
+    "text": "So let's do some coding. To start with, let's use an example stock with missing values. We will be using fake2.csv and this file is included in your data folder. So as usual, we will be reading the CSV into the data frame and we will do some plotting. So now let's go and plot this data and see what turns up. So here's the graph. So for the given range of dates, you can notice that there is a gap in the beginning and also gap at multiple places in the middle. So now let's try to fix this. We only need to add a single statement to fill those gaps. As you must have read in the documentation, method ffill corresponds to forward filling and in place is equal to true will save all the changes in the same data frame. Try removing this and see what happens. Now let's plot and see how the graph looks now. So here's the graph. If you look closely, you will observe the forward filling effect. The stock prices retain their previous values throughout. However, note that the missing values at the beginning of the range have not been filled. Think about what you need to do to take care of that."
+}

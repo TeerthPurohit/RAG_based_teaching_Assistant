@@ -1,0 +1,145 @@
+{
+    "chunks": [
+        {
+            "number": "079",
+            "title": "Minimizer finds coefficients",
+            "start": 0.2,
+            "end": 4.4,
+            "text": "Let's step through this now with an example of how a minimizer would try to"
+        },
+        {
+            "number": "079",
+            "title": "Minimizer finds coefficients",
+            "start": 4.4,
+            "end": 8.3,
+            "text": "find the coefficients of a line that best fits this data."
+        },
+        {
+            "number": "079",
+            "title": "Minimizer finds coefficients",
+            "start": 8.3,
+            "end": 12.9,
+            "text": "So keep in mind that we have to give the minimizer an equation that it has to"
+        },
+        {
+            "number": "079",
+            "title": "Minimizer finds coefficients",
+            "start": 12.9,
+            "end": 14.1,
+            "text": "minimize."
+        },
+        {
+            "number": "079",
+            "title": "Minimizer finds coefficients",
+            "start": 14.1,
+            "end": 17.6,
+            "text": "And what we're going to give it is that error metric."
+        },
+        {
+            "number": "079",
+            "title": "Minimizer finds coefficients",
+            "start": 17.6,
+            "end": 20.2,
+            "text": "In fact, we'll use squared error."
+        },
+        {
+            "number": "079",
+            "title": "Minimizer finds coefficients",
+            "start": 20.2,
+            "end": 27.7,
+            "text": "So we might guess an initial C0 and C1, and that would be a line like this."
+        },
+        {
+            "number": "079",
+            "title": "Minimizer finds coefficients",
+            "start": 27.7,
+            "end": 31.8,
+            "text": "And we would give that to the minimizer and let it go."
+        },
+        {
+            "number": "079",
+            "title": "Minimizer finds coefficients",
+            "start": 31.8,
+            "end": 36.8,
+            "text": "So it would measure the error with this particular line."
+        },
+        {
+            "number": "079",
+            "title": "Minimizer finds coefficients",
+            "start": 36.8,
+            "end": 42.2,
+            "text": "It would fiddle with these values a little bit and see how much the error changed."
+        },
+        {
+            "number": "079",
+            "title": "Minimizer finds coefficients",
+            "start": 42.2,
+            "end": 44.1,
+            "text": "Try a new set of values."
+        },
+        {
+            "number": "079",
+            "title": "Minimizer finds coefficients",
+            "start": 44.1,
+            "end": 45.6,
+            "text": "See how that works."
+        },
+        {
+            "number": "079",
+            "title": "Minimizer finds coefficients",
+            "start": 45.6,
+            "end": 47.6,
+            "text": "And eventually, it's going to iterate."
+        },
+        {
+            "number": "079",
+            "title": "Minimizer finds coefficients",
+            "start": 49.0,
+            "end": 53.7,
+            "text": "And eventually, it's going to settle on what it thinks is the best solution."
+        },
+        {
+            "number": "079",
+            "title": "Minimizer finds coefficients",
+            "start": 53.7,
+            "end": 58.4,
+            "text": "So key points here are that we express the problem for"
+        },
+        {
+            "number": "079",
+            "title": "Minimizer finds coefficients",
+            "start": 58.4,
+            "end": 61.5,
+            "text": "the minimizer as a minimization problem."
+        },
+        {
+            "number": "079",
+            "title": "Minimizer finds coefficients",
+            "start": 61.5,
+            "end": 66.3,
+            "text": "And we give it the equation to minimize as the error."
+        },
+        {
+            "number": "079",
+            "title": "Minimizer finds coefficients",
+            "start": 66.3,
+            "end": 70.5,
+            "text": "And then what it finds now instead of x,"
+        },
+        {
+            "number": "079",
+            "title": "Minimizer finds coefficients",
+            "start": 70.5,
+            "end": 73.4,
+            "text": "is it finds the values for these coefficients."
+        },
+        {
+            "number": "079",
+            "title": "Minimizer finds coefficients",
+            "start": 73.4,
+            "end": 75.6,
+            "text": "So let me show you how to do that now in code."
+        }
+    ],
+    "text": "Let's step through this now with an example of how a minimizer would try to find the coefficients of a line that best fits this data. So keep in mind that we have to give the minimizer an equation that it has to minimize. And what we're going to give it is that error metric. In fact, we'll use squared error. So we might guess an initial C0 and C1, and that would be a line like this. And we would give that to the minimizer and let it go. So it would measure the error with this particular line. It would fiddle with these values a little bit and see how much the error changed. Try a new set of values. See how that works. And eventually, it's going to iterate. And eventually, it's going to settle on what it thinks is the best solution. So key points here are that we express the problem for the minimizer as a minimization problem. And we give it the equation to minimize as the error. And then what it finds now instead of x, is it finds the values for these coefficients. So let me show you how to do that now in code."
+}

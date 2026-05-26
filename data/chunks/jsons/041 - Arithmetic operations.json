@@ -1,0 +1,362 @@
+{
+    "chunks": [
+        {
+            "number": "041",
+            "title": "Arithmetic operations",
+            "start": 0.4,
+            "end": 4.8,
+            "text": "Arithmetic operation on arrays are always applied element wise."
+        },
+        {
+            "number": "041",
+            "title": "Arithmetic operations",
+            "start": 4.8,
+            "end": 8.2,
+            "text": "Let's start with simple multiplication operation."
+        },
+        {
+            "number": "041",
+            "title": "Arithmetic operations",
+            "start": 8.2,
+            "end": 12.9,
+            "text": "Here we define a simple array so that we can easily track the changes."
+        },
+        {
+            "number": "041",
+            "title": "Arithmetic operations",
+            "start": 12.9,
+            "end": 16.2,
+            "text": "This will multiply each element by two."
+        },
+        {
+            "number": "041",
+            "title": "Arithmetic operations",
+            "start": 16.2,
+            "end": 17.3,
+            "text": "Let's check the output."
+        },
+        {
+            "number": "041",
+            "title": "Arithmetic operations",
+            "start": 18.5,
+            "end": 22.7,
+            "text": "When using arithmetic operation, a new array is created and"
+        },
+        {
+            "number": "041",
+            "title": "Arithmetic operations",
+            "start": 22.7,
+            "end": 25.0,
+            "text": "the values are stored in that array."
+        },
+        {
+            "number": "041",
+            "title": "Arithmetic operations",
+            "start": 25.0,
+            "end": 29.2,
+            "text": "So our original array A still holds the same values."
+        },
+        {
+            "number": "041",
+            "title": "Arithmetic operations",
+            "start": 29.2,
+            "end": 34.6,
+            "text": "And this is our new array which we get after multiplying array A by two."
+        },
+        {
+            "number": "041",
+            "title": "Arithmetic operations",
+            "start": 34.6,
+            "end": 37.8,
+            "text": "Observe that it is element wise multiplication."
+        },
+        {
+            "number": "041",
+            "title": "Arithmetic operations",
+            "start": 37.8,
+            "end": 39.5,
+            "text": "Let's try division."
+        },
+        {
+            "number": "041",
+            "title": "Arithmetic operations",
+            "start": 39.5,
+            "end": 44.6,
+            "text": "Here we use the division operation to divide each element of array A by two."
+        },
+        {
+            "number": "041",
+            "title": "Arithmetic operations",
+            "start": 44.6,
+            "end": 46.5,
+            "text": "Let's check the output."
+        },
+        {
+            "number": "041",
+            "title": "Arithmetic operations",
+            "start": 46.5,
+            "end": 53.1,
+            "text": "Observe that when you divide one by two, you get a value zero over here instead of 0.5."
+        },
+        {
+            "number": "041",
+            "title": "Arithmetic operations",
+            "start": 53.1,
+            "end": 58.1,
+            "text": "This is because both the array and the divisor are integers."
+        },
+        {
+            "number": "041",
+            "title": "Arithmetic operations",
+            "start": 58.1,
+            "end": 63.4,
+            "text": "If we would do 2.0 instead of 2, you will get float values."
+        },
+        {
+            "number": "041",
+            "title": "Arithmetic operations",
+            "start": 63.4,
+            "end": 67.1,
+            "text": "Keep this point in mind before performing division in general."
+        },
+        {
+            "number": "041",
+            "title": "Arithmetic operations",
+            "start": 67.1,
+            "end": 71.8,
+            "text": "That is int divided by int will give you an integer output."
+        },
+        {
+            "number": "041",
+            "title": "Arithmetic operations",
+            "start": 71.8,
+            "end": 75.1,
+            "text": "To get float values, you need at least the numerator or"
+        },
+        {
+            "number": "041",
+            "title": "Arithmetic operations",
+            "start": 75.1,
+            "end": 77.8,
+            "text": "the denominator to be a float value."
+        },
+        {
+            "number": "041",
+            "title": "Arithmetic operations",
+            "start": 77.8,
+            "end": 79.7,
+            "text": "Let's check the output."
+        },
+        {
+            "number": "041",
+            "title": "Arithmetic operations",
+            "start": 79.7,
+            "end": 84.6,
+            "text": "Observe that we could successfully get a floating point value instead of 0."
+        },
+        {
+            "number": "041",
+            "title": "Arithmetic operations",
+            "start": 84.6,
+            "end": 87.7,
+            "text": "How about arithmetic operation using two arrays?"
+        },
+        {
+            "number": "041",
+            "title": "Arithmetic operations",
+            "start": 87.7,
+            "end": 89.7,
+            "text": "We will start with addition."
+        },
+        {
+            "number": "041",
+            "title": "Arithmetic operations",
+            "start": 89.7,
+            "end": 93.1,
+            "text": "We create another array B with these values."
+        },
+        {
+            "number": "041",
+            "title": "Arithmetic operations",
+            "start": 93.1,
+            "end": 97.5,
+            "text": "Now let's just add A and B using the plus operator."
+        },
+        {
+            "number": "041",
+            "title": "Arithmetic operations",
+            "start": 97.5,
+            "end": 100.4,
+            "text": "As mentioned, this is element wise."
+        },
+        {
+            "number": "041",
+            "title": "Arithmetic operations",
+            "start": 100.4,
+            "end": 103.2,
+            "text": "This is our new array A plus B."
+        },
+        {
+            "number": "041",
+            "title": "Arithmetic operations",
+            "start": 103.2,
+            "end": 108.7,
+            "text": "One important thing to note here is that the shape of A and B should be similar."
+        },
+        {
+            "number": "041",
+            "title": "Arithmetic operations",
+            "start": 108.7,
+            "end": 111.4,
+            "text": "Before the operation A plus B."
+        },
+        {
+            "number": "041",
+            "title": "Arithmetic operations",
+            "start": 111.4,
+            "end": 113.1,
+            "text": "Else it will throw error."
+        },
+        {
+            "number": "041",
+            "title": "Arithmetic operations",
+            "start": 113.1,
+            "end": 115.6,
+            "text": "Similar to the addition, you can perform subtraction."
+        },
+        {
+            "number": "041",
+            "title": "Arithmetic operations",
+            "start": 115.6,
+            "end": 119.8,
+            "text": "Now let's move ahead with multiplying two arrays."
+        },
+        {
+            "number": "041",
+            "title": "Arithmetic operations",
+            "start": 119.8,
+            "end": 123.5,
+            "text": "This is interesting because unlike other many matrix languages,"
+        },
+        {
+            "number": "041",
+            "title": "Arithmetic operations",
+            "start": 123.5,
+            "end": 129.7,
+            "text": "multiplication operator when used with two array will not give you matrix product,"
+        },
+        {
+            "number": "041",
+            "title": "Arithmetic operations",
+            "start": 129.7,
+            "end": 132.2,
+            "text": "but will do element wise multiplication."
+        },
+        {
+            "number": "041",
+            "title": "Arithmetic operations",
+            "start": 132.2,
+            "end": 138.6,
+            "text": "That is, element at position 0,0 in array A is multiplied only with the element at"
+        },
+        {
+            "number": "041",
+            "title": "Arithmetic operations",
+            "start": 138.6,
+            "end": 140.3,
+            "text": "position 0,0 in B."
+        },
+        {
+            "number": "041",
+            "title": "Arithmetic operations",
+            "start": 140.3,
+            "end": 148.6,
+            "text": "Let's print the multiplication of matrix A and B. Can you observe element wise multiplication?"
+        },
+        {
+            "number": "041",
+            "title": "Arithmetic operations",
+            "start": 148.6,
+            "end": 152.7,
+            "text": "But the next question would be, what about matrix multiplication?"
+        },
+        {
+            "number": "041",
+            "title": "Arithmetic operations",
+            "start": 152.7,
+            "end": 154.2,
+            "text": "How do you achieve that?"
+        },
+        {
+            "number": "041",
+            "title": "Arithmetic operations",
+            "start": 154.2,
+            "end": 156.7,
+            "text": "Like for everything numpy has a function."
+        },
+        {
+            "number": "041",
+            "title": "Arithmetic operations",
+            "start": 156.7,
+            "end": 160.8,
+            "text": "It has function called dot, which performs matrix multiplication."
+        },
+        {
+            "number": "041",
+            "title": "Arithmetic operations",
+            "start": 160.8,
+            "end": 165.5,
+            "text": "Similar to multiplication, division of two arrays can be performed."
+        },
+        {
+            "number": "041",
+            "title": "Arithmetic operations",
+            "start": 165.5,
+            "end": 169.3,
+            "text": "Just include division operators between the two arrays."
+        },
+        {
+            "number": "041",
+            "title": "Arithmetic operations",
+            "start": 169.3,
+            "end": 170.3,
+            "text": "Let's check the output."
+        },
+        {
+            "number": "041",
+            "title": "Arithmetic operations",
+            "start": 170.3,
+            "end": 175.5,
+            "text": "As seen before, since array A and B are integers,"
+        },
+        {
+            "number": "041",
+            "title": "Arithmetic operations",
+            "start": 175.5,
+            "end": 179.7,
+            "text": "we get the final array in the form of integers as well."
+        },
+        {
+            "number": "041",
+            "title": "Arithmetic operations",
+            "start": 179.7,
+            "end": 184.5,
+            "text": "If you want to see floating values, convert one of the arrays to float."
+        },
+        {
+            "number": "041",
+            "title": "Arithmetic operations",
+            "start": 184.5,
+            "end": 186.1,
+            "text": "Well that's all for now."
+        },
+        {
+            "number": "041",
+            "title": "Arithmetic operations",
+            "start": 186.1,
+            "end": 186.9,
+            "text": "Keep practicing."
+        }
+    ],
+    "text": "Arithmetic operation on arrays are always applied element wise. Let's start with simple multiplication operation. Here we define a simple array so that we can easily track the changes. This will multiply each element by two. Let's check the output. When using arithmetic operation, a new array is created and the values are stored in that array. So our original array A still holds the same values. And this is our new array which we get after multiplying array A by two. Observe that it is element wise multiplication. Let's try division. Here we use the division operation to divide each element of array A by two. Let's check the output. Observe that when you divide one by two, you get a value zero over here instead of 0.5. This is because both the array and the divisor are integers. If we would do 2.0 instead of 2, you will get float values. Keep this point in mind before performing division in general. That is int divided by int will give you an integer output. To get float values, you need at least the numerator or the denominator to be a float value. Let's check the output. Observe that we could successfully get a floating point value instead of 0. How about arithmetic operation using two arrays? We will start with addition. We create another array B with these values. Now let's just add A and B using the plus operator. As mentioned, this is element wise. This is our new array A plus B. One important thing to note here is that the shape of A and B should be similar. Before the operation A plus B. Else it will throw error. Similar to the addition, you can perform subtraction. Now let's move ahead with multiplying two arrays. This is interesting because unlike other many matrix languages, multiplication operator when used with two array will not give you matrix product, but will do element wise multiplication. That is, element at position 0,0 in array A is multiplied only with the element at position 0,0 in B. Let's print the multiplication of matrix A and B. Can you observe element wise multiplication? But the next question would be, what about matrix multiplication? How do you achieve that? Like for everything numpy has a function. It has function called dot, which performs matrix multiplication. Similar to multiplication, division of two arrays can be performed. Just include division operators between the two arrays. Let's check the output. As seen before, since array A and B are integers, we get the final array in the form of integers as well. If you want to see floating values, convert one of the arrays to float. Well that's all for now. Keep practicing."
+}

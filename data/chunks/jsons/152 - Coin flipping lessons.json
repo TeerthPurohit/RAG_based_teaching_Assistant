@@ -1,0 +1,96 @@
+{
+    "chunks": [
+        {
+            "number": "152",
+            "title": "Coin flipping lessons",
+            "start": 0.0,
+            "end": 3.0,
+            "text": "Consider now the results of this thought experiment."
+        },
+        {
+            "number": "152",
+            "title": "Coin flipping lessons",
+            "start": 3.0,
+            "end": 8.0,
+            "text": "Our casino enabled us to allocate our 1,000 tokens to 1,000 tables."
+        },
+        {
+            "number": "152",
+            "title": "Coin flipping lessons",
+            "start": 8.0,
+            "end": 11.0,
+            "text": "We looked at two extreme cases,"
+        },
+        {
+            "number": "152",
+            "title": "Coin flipping lessons",
+            "start": 11.0,
+            "end": 15.0,
+            "text": "one where we put a small bet on all 1,000 tables,"
+        },
+        {
+            "number": "152",
+            "title": "Coin flipping lessons",
+            "start": 15.0,
+            "end": 18.0,
+            "text": "and another where we put all our money on one table."
+        },
+        {
+            "number": "152",
+            "title": "Coin flipping lessons",
+            "start": 18.0,
+            "end": 24.0,
+            "text": "We saw that the expected return was the same in both cases, about $20."
+        },
+        {
+            "number": "152",
+            "title": "Coin flipping lessons",
+            "start": 24.0,
+            "end": 28.0,
+            "text": "But the risk was substantially higher for the single bet case."
+        },
+        {
+            "number": "152",
+            "title": "Coin flipping lessons",
+            "start": 28.0,
+            "end": 31.0,
+            "text": "This was true for both types of risk that we looked at."
+        },
+        {
+            "number": "152",
+            "title": "Coin flipping lessons",
+            "start": 31.0,
+            "end": 35.0,
+            "text": "Risk to lose everything and risk as standard deviation."
+        },
+        {
+            "number": "152",
+            "title": "Coin flipping lessons",
+            "start": 35.0,
+            "end": 40.0,
+            "text": "When we consider risk and reward together, we come away with three lessons."
+        },
+        {
+            "number": "152",
+            "title": "Coin flipping lessons",
+            "start": 40.0,
+            "end": 43.0,
+            "text": "One, higher alpha generates a higher Sharpe ratio."
+        },
+        {
+            "number": "152",
+            "title": "Coin flipping lessons",
+            "start": 43.0,
+            "end": 48.0,
+            "text": "Two, more execution opportunities provides a higher Sharpe ratio."
+        },
+        {
+            "number": "152",
+            "title": "Coin flipping lessons",
+            "start": 48.0,
+            "end": 53.0,
+            "text": "And three, Sharpe ratio grows as the square root of breadth."
+        }
+    ],
+    "text": "Consider now the results of this thought experiment. Our casino enabled us to allocate our 1,000 tokens to 1,000 tables. We looked at two extreme cases, one where we put a small bet on all 1,000 tables, and another where we put all our money on one table. We saw that the expected return was the same in both cases, about $20. But the risk was substantially higher for the single bet case. This was true for both types of risk that we looked at. Risk to lose everything and risk as standard deviation. When we consider risk and reward together, we come away with three lessons. One, higher alpha generates a higher Sharpe ratio. Two, more execution opportunities provides a higher Sharpe ratio. And three, Sharpe ratio grows as the square root of breadth."
+}

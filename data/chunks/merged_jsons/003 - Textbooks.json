@@ -1,0 +1,20 @@
+{
+    "title": "Textbooks",
+    "number": "003",
+    "chunks": [
+        {
+            "title": "Textbooks",
+            "number": "003",
+            "start": 0.0,
+            "end": 19.0,
+            "text": "We will be using three different textbooks in this course. For the first mini course, we will be using Python for Finance by Hilpish. In the second mini course, we'll be using a book I wrote with Philip Romero titled What Hedge Funds Really Do. It's a thin book, but it covers a lot of important material that I think you'll enjoy."
+        },
+        {
+            "title": "Textbooks",
+            "number": "003",
+            "start": 19.0,
+            "end": 37.0,
+            "text": "Finally, in the last mini course, we will be using Mitchell's Machine Learning. Good news is, if you're taking the Machine Learning course, you'll already have that book, so you don't have to buy it again. I also wanted to mention that we're not going to cover all the material in these books, so you don't need to be worried about being overwhelmed."
+        }
+    ]
+}

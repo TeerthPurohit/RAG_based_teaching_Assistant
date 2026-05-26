@@ -1,0 +1,47 @@
+{
+    "chunks": [
+        {
+            "number": "157",
+            "title": "Overview",
+            "start": 0.0,
+            "end": 4.0,
+            "text": "Suppose you have a set of stocks that you've determined are good investments."
+        },
+        {
+            "number": "157",
+            "title": "Overview",
+            "start": 4.0,
+            "end": 8.0,
+            "text": "How much of your portfolio should you invest in each?"
+        },
+        {
+            "number": "157",
+            "title": "Overview",
+            "start": 8.0,
+            "end": 11.0,
+            "text": "There are many potential answers to that question."
+        },
+        {
+            "number": "157",
+            "title": "Overview",
+            "start": 11.0,
+            "end": 17.0,
+            "text": "In this lesson, we take a look at the approach called mean variance optimization or portfolio optimization."
+        },
+        {
+            "number": "157",
+            "title": "Overview",
+            "start": 17.0,
+            "end": 21.0,
+            "text": "The specific question we're looking to answer is this."
+        },
+        {
+            "number": "157",
+            "title": "Overview",
+            "start": 21.0,
+            "end": 29.0,
+            "text": "Given a set of equities and a target return, find an allocation to each equity that minimizes risk."
+        }
+    ],
+    "text": "Suppose you have a set of stocks that you've determined are good investments. How much of your portfolio should you invest in each? There are many potential answers to that question. In this lesson, we take a look at the approach called mean variance optimization or portfolio optimization. The specific question we're looking to answer is this. Given a set of equities and a target return, find an allocation to each equity that minimizes risk."
+}

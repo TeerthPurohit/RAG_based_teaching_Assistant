@@ -1,0 +1,257 @@
+{
+    "chunks": [
+        {
+            "number": "058",
+            "title": "Histogram of daily returns",
+            "start": 0.6,
+            "end": 5.4,
+            "text": "Once we've got our histogram, there are a lot of statistics we can run on it to"
+        },
+        {
+            "number": "058",
+            "title": "Histogram of daily returns",
+            "start": 5.4,
+            "end": 7.0,
+            "text": "characterize it."
+        },
+        {
+            "number": "058",
+            "title": "Histogram of daily returns",
+            "start": 7.0,
+            "end": 11.6,
+            "text": "For instance, of course, we might be interested in the mean."
+        },
+        {
+            "number": "058",
+            "title": "Histogram of daily returns",
+            "start": 11.6,
+            "end": 14.9,
+            "text": "We might also be interested in the standard deviation,"
+        },
+        {
+            "number": "058",
+            "title": "Histogram of daily returns",
+            "start": 14.9,
+            "end": 17.0,
+            "text": "which is essentially, on average,"
+        },
+        {
+            "number": "058",
+            "title": "Histogram of daily returns",
+            "start": 17.0,
+            "end": 20.8,
+            "text": "how far do individual measurements deviate from the mean."
+        },
+        {
+            "number": "058",
+            "title": "Histogram of daily returns",
+            "start": 22.0,
+            "end": 26.7,
+            "text": "Another very important measure is something called kurtosis."
+        },
+        {
+            "number": "058",
+            "title": "Histogram of daily returns",
+            "start": 26.7,
+            "end": 32.0,
+            "text": "Kurtosis comes from a Greek word that means curved or arching."
+        },
+        {
+            "number": "058",
+            "title": "Histogram of daily returns",
+            "start": 32.0,
+            "end": 33.5,
+            "text": "So what does kurtosis mean?"
+        },
+        {
+            "number": "058",
+            "title": "Histogram of daily returns",
+            "start": 33.5,
+            "end": 35.0,
+            "text": "Well, let me show you."
+        },
+        {
+            "number": "058",
+            "title": "Histogram of daily returns",
+            "start": 35.0,
+            "end": 40.8,
+            "text": "Kurtosis tells us about the tails of the distribution."
+        },
+        {
+            "number": "058",
+            "title": "Histogram of daily returns",
+            "start": 40.8,
+            "end": 45.4,
+            "text": "So the tails are the parts out here towards the ends."
+        },
+        {
+            "number": "058",
+            "title": "Histogram of daily returns",
+            "start": 45.4,
+            "end": 52.4,
+            "text": "And if we assume that our distribution is similar to a Gaussian distribution,"
+        },
+        {
+            "number": "058",
+            "title": "Histogram of daily returns",
+            "start": 52.4,
+            "end": 58.4,
+            "text": "or normal distribution, the measure of kurtosis tells us how much different our"
+        },
+        {
+            "number": "058",
+            "title": "Histogram of daily returns",
+            "start": 58.4,
+            "end": 63.1,
+            "text": "histogram is from that traditional Gaussian distribution."
+        },
+        {
+            "number": "058",
+            "title": "Histogram of daily returns",
+            "start": 63.1,
+            "end": 68.2,
+            "text": "So in this case, we have what are called fat tails."
+        },
+        {
+            "number": "058",
+            "title": "Histogram of daily returns",
+            "start": 68.2,
+            "end": 69.9,
+            "text": "We've got them over here and over here."
+        },
+        {
+            "number": "058",
+            "title": "Histogram of daily returns",
+            "start": 69.9,
+            "end": 76.4,
+            "text": "What that means is that there are occasional, and more frequent than would happen if we"
+        },
+        {
+            "number": "058",
+            "title": "Histogram of daily returns",
+            "start": 76.4,
+            "end": 83.3,
+            "text": "had a regular Gaussian distribution, there are frequently large excursions,"
+        },
+        {
+            "number": "058",
+            "title": "Histogram of daily returns",
+            "start": 83.3,
+            "end": 86.9,
+            "text": "more frequently than if this was a normal distribution."
+        },
+        {
+            "number": "058",
+            "title": "Histogram of daily returns",
+            "start": 86.9,
+            "end": 90.9,
+            "text": "If you were to measure the kurtosis of this histogram, you would get a positive"
+        },
+        {
+            "number": "058",
+            "title": "Histogram of daily returns",
+            "start": 90.9,
+            "end": 96.2,
+            "text": "number, meaning that there are more occurrences out in these tails than would be"
+        },
+        {
+            "number": "058",
+            "title": "Histogram of daily returns",
+            "start": 96.2,
+            "end": 99.1,
+            "text": "expected if it were a normal distribution."
+        },
+        {
+            "number": "058",
+            "title": "Histogram of daily returns",
+            "start": 99.1,
+            "end": 104.4,
+            "text": "If you measured a negative kurtosis, it would mean that there are many fewer occurrences out"
+        },
+        {
+            "number": "058",
+            "title": "Histogram of daily returns",
+            "start": 104.4,
+            "end": 108.8,
+            "text": "here in the tails than would be expected if it were a normal distribution."
+        },
+        {
+            "number": "058",
+            "title": "Histogram of daily returns",
+            "start": 108.8,
+            "end": 114.0,
+            "text": "So, we can plot our data in this sort of bar chart called a histogram."
+        },
+        {
+            "number": "058",
+            "title": "Histogram of daily returns",
+            "start": 114.0,
+            "end": 118.8,
+            "text": "We can measure statistics on it, like standard deviation, mean, and kurtosis."
+        },
+        {
+            "number": "058",
+            "title": "Histogram of daily returns",
+            "start": 118.8,
+            "end": 121.5,
+            "text": "And remember the following about kurtosis."
+        },
+        {
+            "number": "058",
+            "title": "Histogram of daily returns",
+            "start": 121.5,
+            "end": 125.3,
+            "text": "If we've got a positive kurtosis, that means we've got fat tails, like in this"
+        },
+        {
+            "number": "058",
+            "title": "Histogram of daily returns",
+            "start": 125.3,
+            "end": 126.2,
+            "text": "example."
+        },
+        {
+            "number": "058",
+            "title": "Histogram of daily returns",
+            "start": 126.2,
+            "end": 132.0,
+            "text": "There's more occurrences outside in the tails than would normally happen with a Gaussian"
+        },
+        {
+            "number": "058",
+            "title": "Histogram of daily returns",
+            "start": 132.0,
+            "end": 133.2,
+            "text": "distribution."
+        },
+        {
+            "number": "058",
+            "title": "Histogram of daily returns",
+            "start": 133.2,
+            "end": 136.9,
+            "text": "And if we've got a negative kurtosis, we've got skinny tails, meaning there's less"
+        },
+        {
+            "number": "058",
+            "title": "Histogram of daily returns",
+            "start": 136.9,
+            "end": 138.3,
+            "text": "out there."
+        },
+        {
+            "number": "058",
+            "title": "Histogram of daily returns",
+            "start": 138.3,
+            "end": 141.8,
+            "text": "Now, I'm going to hand it over to Dave, and she's going to show you how to make this"
+        },
+        {
+            "number": "058",
+            "title": "Histogram of daily returns",
+            "start": 141.8,
+            "end": 144.2,
+            "text": "plot and calculate these numbers in Python."
+        }
+    ],
+    "text": "Once we've got our histogram, there are a lot of statistics we can run on it to characterize it. For instance, of course, we might be interested in the mean. We might also be interested in the standard deviation, which is essentially, on average, how far do individual measurements deviate from the mean. Another very important measure is something called kurtosis. Kurtosis comes from a Greek word that means curved or arching. So what does kurtosis mean? Well, let me show you. Kurtosis tells us about the tails of the distribution. So the tails are the parts out here towards the ends. And if we assume that our distribution is similar to a Gaussian distribution, or normal distribution, the measure of kurtosis tells us how much different our histogram is from that traditional Gaussian distribution. So in this case, we have what are called fat tails. We've got them over here and over here. What that means is that there are occasional, and more frequent than would happen if we had a regular Gaussian distribution, there are frequently large excursions, more frequently than if this was a normal distribution. If you were to measure the kurtosis of this histogram, you would get a positive number, meaning that there are more occurrences out in these tails than would be expected if it were a normal distribution. If you measured a negative kurtosis, it would mean that there are many fewer occurrences out here in the tails than would be expected if it were a normal distribution. So, we can plot our data in this sort of bar chart called a histogram. We can measure statistics on it, like standard deviation, mean, and kurtosis. And remember the following about kurtosis. If we've got a positive kurtosis, that means we've got fat tails, like in this example. There's more occurrences outside in the tails than would normally happen with a Gaussian distribution. And if we've got a negative kurtosis, we've got skinny tails, meaning there's less out there. Now, I'm going to hand it over to Dave, and she's going to show you how to make this plot and calculate these numbers in Python."
+}

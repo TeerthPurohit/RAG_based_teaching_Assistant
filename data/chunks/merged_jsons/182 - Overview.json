@@ -1,0 +1,20 @@
+{
+    "title": "Overview",
+    "number": "182",
+    "chunks": [
+        {
+            "title": "Overview",
+            "number": "182",
+            "start": 0.4,
+            "end": 17.8,
+            "text": "We've posed the general problem of supervised regression learning and introduced two algorithms that can solve it. Linear regression creates parameterized models and KNN is a nonparametric instance based method. There are in fact many algorithms that can solve this problem."
+        },
+        {
+            "title": "Overview",
+            "number": "182",
+            "start": 17.8,
+            "end": 24.4,
+            "text": "Each algorithm has its own pros and cons. In this lesson, we'll look at various methods for assessing those algorithms."
+        }
+    ]
+}

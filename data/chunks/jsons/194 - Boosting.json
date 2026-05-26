@@ -1,0 +1,257 @@
+{
+    "chunks": [
+        {
+            "number": "194",
+            "title": "Boosting",
+            "start": 0.2,
+            "end": 6.3,
+            "text": "Boosting is a fairly simple variation on bagging that strives to improve the learners"
+        },
+        {
+            "number": "194",
+            "title": "Boosting",
+            "start": 6.3,
+            "end": 10.0,
+            "text": "by focusing on areas where the system is not performing well."
+        },
+        {
+            "number": "194",
+            "title": "Boosting",
+            "start": 10.0,
+            "end": 14.1,
+            "text": "One of the most well-known algorithms in this area is called Adaboost."
+        },
+        {
+            "number": "194",
+            "title": "Boosting",
+            "start": 14.1,
+            "end": 18.4,
+            "text": "And I believe it's Ada, not Ada, because Ada stands for adaptive."
+        },
+        {
+            "number": "194",
+            "title": "Boosting",
+            "start": 18.4,
+            "end": 20.7,
+            "text": "Here's how Adaboost works."
+        },
+        {
+            "number": "194",
+            "title": "Boosting",
+            "start": 20.7,
+            "end": 23.4,
+            "text": "We build our first bag of data in the usual way."
+        },
+        {
+            "number": "194",
+            "title": "Boosting",
+            "start": 23.4,
+            "end": 26.7,
+            "text": "We select randomly from our training data."
+        },
+        {
+            "number": "194",
+            "title": "Boosting",
+            "start": 26.7,
+            "end": 29.9,
+            "text": "We then train a model in the usual way."
+        },
+        {
+            "number": "194",
+            "title": "Boosting",
+            "start": 29.9,
+            "end": 34.3,
+            "text": "The next thing we do, and this is something different, we take all of our training data"
+        },
+        {
+            "number": "194",
+            "title": "Boosting",
+            "start": 34.3,
+            "end": 37.2,
+            "text": "and use it to test the model."
+        },
+        {
+            "number": "194",
+            "title": "Boosting",
+            "start": 37.2,
+            "end": 41.7,
+            "text": "And we're going to discover that some of the points in here,"
+        },
+        {
+            "number": "194",
+            "title": "Boosting",
+            "start": 41.7,
+            "end": 46.1,
+            "text": "our x's and our y's, are not well predicted."
+        },
+        {
+            "number": "194",
+            "title": "Boosting",
+            "start": 46.1,
+            "end": 52.2,
+            "text": "So there's going to be some points in here for which there is significant error."
+        },
+        {
+            "number": "194",
+            "title": "Boosting",
+            "start": 52.2,
+            "end": 56.6,
+            "text": "Now, when we go to build our next bag of data, again,"
+        },
+        {
+            "number": "194",
+            "title": "Boosting",
+            "start": 56.6,
+            "end": 59.6,
+            "text": "we choose randomly from our original data."
+        },
+        {
+            "number": "194",
+            "title": "Boosting",
+            "start": 59.6,
+            "end": 63.9,
+            "text": "But each instance is weighted according to this error."
+        },
+        {
+            "number": "194",
+            "title": "Boosting",
+            "start": 63.9,
+            "end": 69.1,
+            "text": "So these points that had significant error are more likely to get picked and"
+        },
+        {
+            "number": "194",
+            "title": "Boosting",
+            "start": 69.1,
+            "end": 73.5,
+            "text": "to go into this bag than any other individual instance."
+        },
+        {
+            "number": "194",
+            "title": "Boosting",
+            "start": 73.5,
+            "end": 76.9,
+            "text": "So as you see, we ended up with a few of those points in here and"
+        },
+        {
+            "number": "194",
+            "title": "Boosting",
+            "start": 76.9,
+            "end": 78.8,
+            "text": "a smattering of all the other ones as well."
+        },
+        {
+            "number": "194",
+            "title": "Boosting",
+            "start": 78.8,
+            "end": 83.0,
+            "text": "So we build a model from this data and then we test it."
+        },
+        {
+            "number": "194",
+            "title": "Boosting",
+            "start": 83.0,
+            "end": 85.5,
+            "text": "Now we test our system all together."
+        },
+        {
+            "number": "194",
+            "title": "Boosting",
+            "start": 85.5,
+            "end": 90.6,
+            "text": "In other words, we've got a sort of miniature ensemble here of just two learners."
+        },
+        {
+            "number": "194",
+            "title": "Boosting",
+            "start": 90.6,
+            "end": 92.4,
+            "text": "But we test both of them."
+        },
+        {
+            "number": "194",
+            "title": "Boosting",
+            "start": 92.4,
+            "end": 97.2,
+            "text": "We test them by inputting, again, this in sample data."
+        },
+        {
+            "number": "194",
+            "title": "Boosting",
+            "start": 97.2,
+            "end": 101.4,
+            "text": "We test on each instance and we combine their outputs."
+        },
+        {
+            "number": "194",
+            "title": "Boosting",
+            "start": 101.4,
+            "end": 104.7,
+            "text": "And again, we measure error across all this data."
+        },
+        {
+            "number": "194",
+            "title": "Boosting",
+            "start": 104.7,
+            "end": 107.9,
+            "text": "Maybe this time, these points got modeled better, but"
+        },
+        {
+            "number": "194",
+            "title": "Boosting",
+            "start": 107.9,
+            "end": 110.8,
+            "text": "there were some other ones up here that weren't as good."
+        },
+        {
+            "number": "194",
+            "title": "Boosting",
+            "start": 110.8,
+            "end": 114.2,
+            "text": "And thus, we build our next bag and our next model."
+        },
+        {
+            "number": "194",
+            "title": "Boosting",
+            "start": 114.2,
+            "end": 118.1,
+            "text": "And we just continue this over and over and over again, up until M,"
+        },
+        {
+            "number": "194",
+            "title": "Boosting",
+            "start": 118.1,
+            "end": 121.1,
+            "text": "or the total number of bags we're going to be using."
+        },
+        {
+            "number": "194",
+            "title": "Boosting",
+            "start": 121.1,
+            "end": 128.4,
+            "text": "So to recap, bagging when we build one of these instances is simply choosing some subset of the data,"
+        },
+        {
+            "number": "194",
+            "title": "Boosting",
+            "start": 128.4,
+            "end": 132.4,
+            "text": "at random with replacement, and you create each bag in the same way."
+        },
+        {
+            "number": "194",
+            "title": "Boosting",
+            "start": 132.4,
+            "end": 140.1,
+            "text": "Boosting is an add-on to this idea where in subsequent bags we choose those data instances"
+        },
+        {
+            "number": "194",
+            "title": "Boosting",
+            "start": 140.1,
+            "end": 143.3,
+            "text": "that had been modeled poorly in the overall system before."
+        }
+    ],
+    "text": "Boosting is a fairly simple variation on bagging that strives to improve the learners by focusing on areas where the system is not performing well. One of the most well-known algorithms in this area is called Adaboost. And I believe it's Ada, not Ada, because Ada stands for adaptive. Here's how Adaboost works. We build our first bag of data in the usual way. We select randomly from our training data. We then train a model in the usual way. The next thing we do, and this is something different, we take all of our training data and use it to test the model. And we're going to discover that some of the points in here, our x's and our y's, are not well predicted. So there's going to be some points in here for which there is significant error. Now, when we go to build our next bag of data, again, we choose randomly from our original data. But each instance is weighted according to this error. So these points that had significant error are more likely to get picked and to go into this bag than any other individual instance. So as you see, we ended up with a few of those points in here and a smattering of all the other ones as well. So we build a model from this data and then we test it. Now we test our system all together. In other words, we've got a sort of miniature ensemble here of just two learners. But we test both of them. We test them by inputting, again, this in sample data. We test on each instance and we combine their outputs. And again, we measure error across all this data. Maybe this time, these points got modeled better, but there were some other ones up here that weren't as good. And thus, we build our next bag and our next model. And we just continue this over and over and over again, up until M, or the total number of bags we're going to be using. So to recap, bagging when we build one of these instances is simply choosing some subset of the data, at random with replacement, and you create each bag in the same way. Boosting is an add-on to this idea where in subsequent bags we choose those data instances that had been modeled poorly in the overall system before."
+}

@@ -1,0 +1,55 @@
+{
+    "title": "Plotting multiple stocks",
+    "number": "025",
+    "chunks": [
+        {
+            "title": "Plotting multiple stocks",
+            "number": "025",
+            "start": 0.2,
+            "end": 19.4,
+            "text": "Carly Fiorina rightly states that the goal is to turn data into information and information into insight. So let's better understand the data by improving our plots. We will need the matplotlib library for this purpose. Specifically, we import the matplotlib piplot and"
+        },
+        {
+            "title": "Plotting multiple stocks",
+            "number": "025",
+            "start": 19.4,
+            "end": 38.4,
+            "text": "rename it as plt for ease of use. First, let's define a trivial plot function. We define a plot data function which will essentially plot the contents of the data frame. We pass a data frame to it and use its plot function to plot all the data in it."
+        },
+        {
+            "title": "Plotting multiple stocks",
+            "number": "025",
+            "start": 38.4,
+            "end": 55.0,
+            "text": "Let's see the output. Remember, to see the graph, we have to call the show function from the matplotlib library. Observe that x axis has dates and y axis has prices for all the four stocks."
+        },
+        {
+            "title": "Plotting multiple stocks",
+            "number": "025",
+            "start": 55.0,
+            "end": 71.1,
+            "text": "The graph still looks incomplete. We need to add details like give a name or title to the graph, add x and y axis labels. We will give name to the graph by passing in parameter title. This should be customizable."
+        },
+        {
+            "title": "Plotting multiple stocks",
+            "number": "025",
+            "start": 71.1,
+            "end": 91.3,
+            "text": "And here we pass the value of the title to the parameter title of the data frame. For x and y axis labels, we need a handler to the plot which the data frame generates. The output of df.plot is such a handler. You can imagine it as an object. We name it ax for axis."
+        },
+        {
+            "title": "Plotting multiple stocks",
+            "number": "025",
+            "start": 91.3,
+            "end": 116.2,
+            "text": "Now we call set xlabel and set ylabel on this object to give the x and y axis some meaningful labels. The desired label are passed as a parameter to the function set underscore xlabel and set underscore ylabel. Remember that set xlabel and set ylabel are the function of the object that we got from df.plot."
+        },
+        {
+            "title": "Plotting multiple stocks",
+            "number": "025",
+            "start": 116.2,
+            "end": 130.9,
+            "text": "You can also use the font size parameter in df.plot to make the graph more readable. Now let's see the modified plot. So here's your detailed plot with xlabel, ylabel and a title."
+        }
+    ]
+}

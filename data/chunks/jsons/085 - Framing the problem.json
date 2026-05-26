@@ -1,0 +1,201 @@
+{
+    "chunks": [
+        {
+            "number": "085",
+            "title": "Framing the problem",
+            "start": 0.7,
+            "end": 5.1,
+            "text": "We're going to focus here on optimizing for sharp ratio."
+        },
+        {
+            "number": "085",
+            "title": "Framing the problem",
+            "start": 5.1,
+            "end": 10.0,
+            "text": "So solving that problem is not trivial, but it's not too hard either."
+        },
+        {
+            "number": "085",
+            "title": "Framing the problem",
+            "start": 10.0,
+            "end": 15.6,
+            "text": "What we need to do is frame the portfolio optimization problem as a minimization"
+        },
+        {
+            "number": "085",
+            "title": "Framing the problem",
+            "start": 15.6,
+            "end": 19.6,
+            "text": "problem, and then we can solve it using the tools you have already."
+        },
+        {
+            "number": "085",
+            "title": "Framing the problem",
+            "start": 19.6,
+            "end": 24.2,
+            "text": "As you recall, in order to use a optimizer that minimizes,"
+        },
+        {
+            "number": "085",
+            "title": "Framing the problem",
+            "start": 24.2,
+            "end": 26.1,
+            "text": "we have to do three things."
+        },
+        {
+            "number": "085",
+            "title": "Framing the problem",
+            "start": 26.1,
+            "end": 34.4,
+            "text": "First, we have to provide a function to minimize f of x that takes in x."
+        },
+        {
+            "number": "085",
+            "title": "Framing the problem",
+            "start": 34.4,
+            "end": 37.8,
+            "text": "Two, an initial guess for that x."
+        },
+        {
+            "number": "085",
+            "title": "Framing the problem",
+            "start": 37.8,
+            "end": 41.2,
+            "text": "And three, call the optimizer and let it run."
+        },
+        {
+            "number": "085",
+            "title": "Framing the problem",
+            "start": 41.2,
+            "end": 47.0,
+            "text": "Now, in this case, x are the allocations that we're looking for."
+        },
+        {
+            "number": "085",
+            "title": "Framing the problem",
+            "start": 47.0,
+            "end": 51.6,
+            "text": "And we want the optimizer to try different allocations in order to discover"
+        },
+        {
+            "number": "085",
+            "title": "Framing the problem",
+            "start": 51.6,
+            "end": 55.6,
+            "text": "the best set of allocations that optimizes this function."
+        },
+        {
+            "number": "085",
+            "title": "Framing the problem",
+            "start": 55.6,
+            "end": 57.6,
+            "text": "Well, what is that function exactly?"
+        },
+        {
+            "number": "085",
+            "title": "Framing the problem",
+            "start": 57.6,
+            "end": 61.6,
+            "text": "We said just a moment ago that we want to optimize for sharp ratio."
+        },
+        {
+            "number": "085",
+            "title": "Framing the problem",
+            "start": 61.6,
+            "end": 65.0,
+            "text": "So, is this just sharp ratio?"
+        },
+        {
+            "number": "085",
+            "title": "Framing the problem",
+            "start": 65.0,
+            "end": 69.4,
+            "text": "Well, not exactly, because what the minimizer will do in this case is try to"
+        },
+        {
+            "number": "085",
+            "title": "Framing the problem",
+            "start": 69.4,
+            "end": 72.4,
+            "text": "find the smallest sharp ratio."
+        },
+        {
+            "number": "085",
+            "title": "Framing the problem",
+            "start": 72.4,
+            "end": 75.0,
+            "text": "So it'll find allocations that minimize that."
+        },
+        {
+            "number": "085",
+            "title": "Framing the problem",
+            "start": 76.1,
+            "end": 80.5,
+            "text": "And we want, of course, the largest sharp ratio, because larger sharp ratios are better."
+        },
+        {
+            "number": "085",
+            "title": "Framing the problem",
+            "start": 80.5,
+            "end": 83.3,
+            "text": "That's easy to fix."
+        },
+        {
+            "number": "085",
+            "title": "Framing the problem",
+            "start": 83.3,
+            "end": 87.4,
+            "text": "All we do is multiply this by negative 1."
+        },
+        {
+            "number": "085",
+            "title": "Framing the problem",
+            "start": 87.4,
+            "end": 94.2,
+            "text": "So, all that we want our optimizer to do is optimize for a negative sharp ratio."
+        },
+        {
+            "number": "085",
+            "title": "Framing the problem",
+            "start": 94.2,
+            "end": 101.2,
+            "text": "And that'll find the best allocation or the best value for x to solve this problem."
+        },
+        {
+            "number": "085",
+            "title": "Framing the problem",
+            "start": 101.2,
+            "end": 103.3,
+            "text": "And remember, x can have multiple dimensions."
+        },
+        {
+            "number": "085",
+            "title": "Framing the problem",
+            "start": 103.3,
+            "end": 108.3,
+            "text": "So each dimension of x here is an allocation to each of the stocks."
+        },
+        {
+            "number": "085",
+            "title": "Framing the problem",
+            "start": 108.3,
+            "end": 114.0,
+            "text": "So if we're trying to solve for a portfolio of four stocks, x will have four dimensions."
+        },
+        {
+            "number": "085",
+            "title": "Framing the problem",
+            "start": 114.0,
+            "end": 119.7,
+            "text": "And the value for each of those dimensions is the percentage of funds to allocate to"
+        },
+        {
+            "number": "085",
+            "title": "Framing the problem",
+            "start": 119.7,
+            "end": 120.7,
+            "text": "each of those stocks."
+        }
+    ],
+    "text": "We're going to focus here on optimizing for sharp ratio. So solving that problem is not trivial, but it's not too hard either. What we need to do is frame the portfolio optimization problem as a minimization problem, and then we can solve it using the tools you have already. As you recall, in order to use a optimizer that minimizes, we have to do three things. First, we have to provide a function to minimize f of x that takes in x. Two, an initial guess for that x. And three, call the optimizer and let it run. Now, in this case, x are the allocations that we're looking for. And we want the optimizer to try different allocations in order to discover the best set of allocations that optimizes this function. Well, what is that function exactly? We said just a moment ago that we want to optimize for sharp ratio. So, is this just sharp ratio? Well, not exactly, because what the minimizer will do in this case is try to find the smallest sharp ratio. So it'll find allocations that minimize that. And we want, of course, the largest sharp ratio, because larger sharp ratios are better. That's easy to fix. All we do is multiply this by negative 1. So, all that we want our optimizer to do is optimize for a negative sharp ratio. And that'll find the best allocation or the best value for x to solve this problem. And remember, x can have multiple dimensions. So each dimension of x here is an allocation to each of the stocks. So if we're trying to solve for a portfolio of four stocks, x will have four dimensions. And the value for each of those dimensions is the percentage of funds to allocate to each of those stocks."
+}

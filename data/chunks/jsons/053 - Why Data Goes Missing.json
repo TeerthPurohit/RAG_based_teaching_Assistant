@@ -1,0 +1,236 @@
+{
+    "chunks": [
+        {
+            "number": "053",
+            "title": "Why Data Goes Missing",
+            "start": 0.0,
+            "end": 5.0,
+            "text": "Okay, let's take a look at some examples so we can see how prices are recorded"
+        },
+        {
+            "number": "053",
+            "title": "Why Data Goes Missing",
+            "start": 5.0,
+            "end": 11.0,
+            "text": "over time. We'll start with SPY. This is showing a time series of that ETF over"
+        },
+        {
+            "number": "053",
+            "title": "Why Data Goes Missing",
+            "start": 11.0,
+            "end": 20.0,
+            "text": "time. This is the downturn in 2008, 2009. SPY represents the S&P 500. It's one of"
+        },
+        {
+            "number": "053",
+            "title": "Why Data Goes Missing",
+            "start": 20.0,
+            "end": 26.0,
+            "text": "the most liquid and actively traded ETFs out there. And we typically use it as a"
+        },
+        {
+            "number": "053",
+            "title": "Why Data Goes Missing",
+            "start": 26.0,
+            "end": 33.0,
+            "text": "reference, a time and date reference for other stocks because we know if SPY was"
+        },
+        {
+            "number": "053",
+            "title": "Why Data Goes Missing",
+            "start": 33.0,
+            "end": 40.0,
+            "text": "trading, the stock market was open and we can use its time history as a reference"
+        },
+        {
+            "number": "053",
+            "title": "Why Data Goes Missing",
+            "start": 40.0,
+            "end": 45.0,
+            "text": "in that regard. It goes all the way back to 1993. There are of course some stocks"
+        },
+        {
+            "number": "053",
+            "title": "Why Data Goes Missing",
+            "start": 45.0,
+            "end": 50.0,
+            "text": "that go back further all the way back to 1901 and so on, but most of what we're"
+        },
+        {
+            "number": "053",
+            "title": "Why Data Goes Missing",
+            "start": 50.0,
+            "end": 56.0,
+            "text": "going to do, it's fine that we know it's been active since 1993. Now let's go"
+        },
+        {
+            "number": "053",
+            "title": "Why Data Goes Missing",
+            "start": 56.0,
+            "end": 61.0,
+            "text": "and let's look at a couple more examples. We'll add Java, J-A-V-A, and as you can"
+        },
+        {
+            "number": "053",
+            "title": "Why Data Goes Missing",
+            "start": 61.0,
+            "end": 66.0,
+            "text": "see, it was trading from the beginning here, but it for some reason or another"
+        },
+        {
+            "number": "053",
+            "title": "Why Data Goes Missing",
+            "start": 66.0,
+            "end": 74.0,
+            "text": "abruptly stopped. Now what happened there? Well, you may remember that Sun Microsystems,"
+        },
+        {
+            "number": "053",
+            "title": "Why Data Goes Missing",
+            "start": 74.0,
+            "end": 82.0,
+            "text": "which was trading under the ticker Java, was acquired by Oracle in 2010. And on that date,"
+        },
+        {
+            "number": "053",
+            "title": "Why Data Goes Missing",
+            "start": 82.0,
+            "end": 90.0,
+            "text": "that ticker went away. So if you look at historical data for Java, you'll see that it ends at"
+        },
+        {
+            "number": "053",
+            "title": "Why Data Goes Missing",
+            "start": 90.0,
+            "end": 98.0,
+            "text": "some time in 2010. Something else that's interesting about this ticker Java is that before it was"
+        },
+        {
+            "number": "053",
+            "title": "Why Data Goes Missing",
+            "start": 98.0,
+            "end": 104.0,
+            "text": "Sun Microsystems, it was actually Mr. Coffee. So if you look historically for data for Java,"
+        },
+        {
+            "number": "053",
+            "title": "Why Data Goes Missing",
+            "start": 104.0,
+            "end": 111.0,
+            "text": "you'll find two different time series, one for when it traded as Mr. Coffee, and another when it"
+        },
+        {
+            "number": "053",
+            "title": "Why Data Goes Missing",
+            "start": 111.0,
+            "end": 118.0,
+            "text": "traded as Sun Microsystems, but it doesn't exist any longer. So imagine if you're processing this"
+        },
+        {
+            "number": "053",
+            "title": "Why Data Goes Missing",
+            "start": 118.0,
+            "end": 125.0,
+            "text": "time series data, and you arrive at this abrupt end for Java, what's going to happen? Well, in the data,"
+        },
+        {
+            "number": "053",
+            "title": "Why Data Goes Missing",
+            "start": 125.0,
+            "end": 134.0,
+            "text": "you'll see NAN, meaning not a number, meaning there's no data there. And the focus of this lesson is what"
+        },
+        {
+            "number": "053",
+            "title": "Why Data Goes Missing",
+            "start": 134.0,
+            "end": 141.0,
+            "text": "to do about that. Let's take a look at another example. Okay, we've added now an additional set of data,"
+        },
+        {
+            "number": "053",
+            "title": "Why Data Goes Missing",
+            "start": 141.0,
+            "end": 150.0,
+            "text": "and as you can see, we named it fake, meaning this example we invented for the purpose of this discussion."
+        },
+        {
+            "number": "053",
+            "title": "Why Data Goes Missing",
+            "start": 150.0,
+            "end": 157.0,
+            "text": "Now, each of these symbols is available to you in the data that we provide you for the class."
+        },
+        {
+            "number": "053",
+            "title": "Why Data Goes Missing",
+            "start": 157.0,
+            "end": 166.0,
+            "text": "So you also will have this fake one. Now, the data represented by fake one is fairly common, and we only"
+        },
+        {
+            "number": "053",
+            "title": "Why Data Goes Missing",
+            "start": 166.0,
+            "end": 171.0,
+            "text": "invented it just so it would work out well on this chart that we're looking at. Anyways, what's going on"
+        },
+        {
+            "number": "053",
+            "title": "Why Data Goes Missing",
+            "start": 171.0,
+            "end": 179.0,
+            "text": "with fake one is, as you can see, it didn't exist before this time. So instead of having, for instance,"
+        },
+        {
+            "number": "053",
+            "title": "Why Data Goes Missing",
+            "start": 179.0,
+            "end": 188.0,
+            "text": "NAN values after a certain date, this fake one data is going to have NAN values before a certain date."
+        },
+        {
+            "number": "053",
+            "title": "Why Data Goes Missing",
+            "start": 188.0,
+            "end": 193.0,
+            "text": "So we'll have a different kind of problem trying to process that data. Now we'll look at one more"
+        },
+        {
+            "number": "053",
+            "title": "Why Data Goes Missing",
+            "start": 193.0,
+            "end": 201.0,
+            "text": "example, and as you might have guessed, we named that fake two. Now what's special about this one is"
+        },
+        {
+            "number": "053",
+            "title": "Why Data Goes Missing",
+            "start": 201.0,
+            "end": 212.0,
+            "text": "it's got all of the different kinds of problems at once. So it didn't exist before this date. Data was absent in between these two dates, and so on."
+        },
+        {
+            "number": "053",
+            "title": "Why Data Goes Missing",
+            "start": 212.0,
+            "end": 225.0,
+            "text": "This is not typical data for a very liquid, very large stock, for instance, like Google or Apple. But indeed, data like this exists for thinly traded stocks."
+        },
+        {
+            "number": "053",
+            "title": "Why Data Goes Missing",
+            "start": 225.0,
+            "end": 240.0,
+            "text": "In other words, companies that don't have a high market capitalization, and they trade very little, if at all, occasionally. So we still have to be able to deal with data like this in our studies."
+        },
+        {
+            "number": "053",
+            "title": "Why Data Goes Missing",
+            "start": 240.0,
+            "end": 244.0,
+            "text": "And so let's focus on this fake two example."
+        }
+    ],
+    "text": "Okay, let's take a look at some examples so we can see how prices are recorded over time. We'll start with SPY. This is showing a time series of that ETF over time. This is the downturn in 2008, 2009. SPY represents the S&P 500. It's one of the most liquid and actively traded ETFs out there. And we typically use it as a reference, a time and date reference for other stocks because we know if SPY was trading, the stock market was open and we can use its time history as a reference in that regard. It goes all the way back to 1993. There are of course some stocks that go back further all the way back to 1901 and so on, but most of what we're going to do, it's fine that we know it's been active since 1993. Now let's go and let's look at a couple more examples. We'll add Java, J-A-V-A, and as you can see, it was trading from the beginning here, but it for some reason or another abruptly stopped. Now what happened there? Well, you may remember that Sun Microsystems, which was trading under the ticker Java, was acquired by Oracle in 2010. And on that date, that ticker went away. So if you look at historical data for Java, you'll see that it ends at some time in 2010. Something else that's interesting about this ticker Java is that before it was Sun Microsystems, it was actually Mr. Coffee. So if you look historically for data for Java, you'll find two different time series, one for when it traded as Mr. Coffee, and another when it traded as Sun Microsystems, but it doesn't exist any longer. So imagine if you're processing this time series data, and you arrive at this abrupt end for Java, what's going to happen? Well, in the data, you'll see NAN, meaning not a number, meaning there's no data there. And the focus of this lesson is what to do about that. Let's take a look at another example. Okay, we've added now an additional set of data, and as you can see, we named it fake, meaning this example we invented for the purpose of this discussion. Now, each of these symbols is available to you in the data that we provide you for the class. So you also will have this fake one. Now, the data represented by fake one is fairly common, and we only invented it just so it would work out well on this chart that we're looking at. Anyways, what's going on with fake one is, as you can see, it didn't exist before this time. So instead of having, for instance, NAN values after a certain date, this fake one data is going to have NAN values before a certain date. So we'll have a different kind of problem trying to process that data. Now we'll look at one more example, and as you might have guessed, we named that fake two. Now what's special about this one is it's got all of the different kinds of problems at once. So it didn't exist before this date. Data was absent in between these two dates, and so on. This is not typical data for a very liquid, very large stock, for instance, like Google or Apple. But indeed, data like this exists for thinly traded stocks. In other words, companies that don't have a high market capitalization, and they trade very little, if at all, occasionally. So we still have to be able to deal with data like this in our studies. And so let's focus on this fake two example."
+}

@@ -1,0 +1,89 @@
+{
+    "chunks": [
+        {
+            "number": "010",
+            "title": "Interesting Stuff",
+            "start": 0.0,
+            "end": 2.5,
+            "text": "So now let's do some interesting stuff."
+        },
+        {
+            "number": "010",
+            "title": "Interesting Stuff",
+            "start": 2.5,
+            "end": 7.6,
+            "text": "What if I want to view rows from the data frame in between some random"
+        },
+        {
+            "number": "010",
+            "title": "Interesting Stuff",
+            "start": 7.6,
+            "end": 10.2,
+            "text": "values and not the head and the tail?"
+        },
+        {
+            "number": "010",
+            "title": "Interesting Stuff",
+            "start": 10.2,
+            "end": 12.5,
+            "text": "We can do something of this kind."
+        },
+        {
+            "number": "010",
+            "title": "Interesting Stuff",
+            "start": 12.5,
+            "end": 18.8,
+            "text": "If you want data from index 10 to 20, just add this line."
+        },
+        {
+            "number": "010",
+            "title": "Interesting Stuff",
+            "start": 18.8,
+            "end": 20.5,
+            "text": "Let's see the output."
+        },
+        {
+            "number": "010",
+            "title": "Interesting Stuff",
+            "start": 20.5,
+            "end": 21.7,
+            "text": "Here it is."
+        },
+        {
+            "number": "010",
+            "title": "Interesting Stuff",
+            "start": 21.7,
+            "end": 25.5,
+            "text": "All the data between the index 10 and 20 are displayed."
+        },
+        {
+            "number": "010",
+            "title": "Interesting Stuff",
+            "start": 25.5,
+            "end": 30.8,
+            "text": "But you must also observe that if you want data between 10 and 20,"
+        },
+        {
+            "number": "010",
+            "title": "Interesting Stuff",
+            "start": 30.8,
+            "end": 38.3,
+            "text": "you have to mention 10 colon 21 because 21 is not inclusive in the range."
+        },
+        {
+            "number": "010",
+            "title": "Interesting Stuff",
+            "start": 38.3,
+            "end": 42.9,
+            "text": "This operation is called slicing and it is a very important operation in Python"
+        },
+        {
+            "number": "010",
+            "title": "Interesting Stuff",
+            "start": 42.9,
+            "end": 45.9,
+            "text": "pandas which you will encounter in the future lesson."
+        }
+    ],
+    "text": "So now let's do some interesting stuff. What if I want to view rows from the data frame in between some random values and not the head and the tail? We can do something of this kind. If you want data from index 10 to 20, just add this line. Let's see the output. Here it is. All the data between the index 10 and 20 are displayed. But you must also observe that if you want data between 10 and 20, you have to mention 10 colon 21 because 21 is not inclusive in the range. This operation is called slicing and it is a very important operation in Python pandas which you will encounter in the future lesson."
+}

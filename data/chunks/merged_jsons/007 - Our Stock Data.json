@@ -1,0 +1,90 @@
+{
+    "title": "Our Stock Data",
+    "number": "007",
+    "chunks": [
+        {
+            "title": "Our Stock Data",
+            "number": "007",
+            "start": 0.2,
+            "end": 21.6,
+            "text": "Okay, so let's take a look at some real stock data. We provide for you in this class hundreds of CSV files that represent the prices of stocks over time. Here's an example from one of those files that you're provided. This is data from the file hcp.csv."
+        },
+        {
+            "title": "Our Stock Data",
+            "number": "007",
+            "start": 21.6,
+            "end": 39.2,
+            "text": "So here's our header row, and here's the information that you'll find in one of these files. So date, which date is the information for? Open, so this is the price that the stock opened at. In other words, in the morning when trading on the exchange began,"
+        },
+        {
+            "title": "Our Stock Data",
+            "number": "007",
+            "start": 39.2,
+            "end": 57.3,
+            "text": "that was the first price of the day for that stock. High, throughout the day, what was the very high price? What was the very low price? And at which price did the stock close? So when we reached four o'clock, what was the final price?"
+        },
+        {
+            "title": "Our Stock Data",
+            "number": "007",
+            "start": 57.3,
+            "end": 80.3,
+            "text": "Volume, that's how many shares of the stock traded altogether on that day. And finally, this value adjusted close, which is a little bit different from close. And this is something we cover in the next course where we talk about finance. I'll talk about it a little bit here as well."
+        },
+        {
+            "title": "Our Stock Data",
+            "number": "007",
+            "start": 80.3,
+            "end": 107.1,
+            "text": "But let me delay talking about it for a moment. Okay, I've fleshed out this data a little bit. First thing I want you to notice is that the dates start with most recent dates. And then as you go forward into the file, you find older dates. So what that means more or less is that we sort of go backwards through time in these files."
+        },
+        {
+            "title": "Our Stock Data",
+            "number": "007",
+            "start": 107.1,
+            "end": 127.5,
+            "text": "Now, this is a feature, if you will, of data from Yahoo. And that's where we got our data for this class. Thanks very much, Yahoo. And this is just what a real one of those files look like. Now later when we read the data in, we manage to get it in the right order."
+        },
+        {
+            "title": "Our Stock Data",
+            "number": "007",
+            "start": 127.5,
+            "end": 149.0,
+            "text": "And Dave will tell you a little bit more about that. Now, I had talked a little bit earlier about adjusted close and close. Let me tell you a bit more about what that means. Now close in this data is the actual price that was reported at the exchange when the stock closed for that day."
+        },
+        {
+            "title": "Our Stock Data",
+            "number": "007",
+            "start": 149.0,
+            "end": 175.3,
+            "text": "Adjusted close is a number that the data provider generates for us. And it's adjusted, as the name implies, for certain things like stock splits and dividend payments. Now, on the current day, let's pretend for the moment that we're in 2012, adjusted close and close are always the same."
+        },
+        {
+            "title": "Our Stock Data",
+            "number": "007",
+            "start": 175.3,
+            "end": 195.9,
+            "text": "However, as we go back in time, we eventually see that adjusted close and close differ. So if we go all the way back to the year 2000, we'll note that the actual price the stock closed at was $25. But this adjusted price was only $5.36."
+        },
+        {
+            "title": "Our Stock Data",
+            "number": "007",
+            "start": 195.9,
+            "end": 227.2,
+            "text": "Now, what you can observe from that is, as we go forward in time, if we had purchased this stock back in 2000 and held it to 2012, what are we looking at there? About a eight or nine time return over those 12 years. So 800 to 900% return. If you looked only at just the actual price on the market, it's only a factor of about two."
+        },
+        {
+            "title": "Our Stock Data",
+            "number": "007",
+            "start": 227.2,
+            "end": 247.7,
+            "text": "But this adjusted close reflects things, like I said, like dividend payments and splits and so on. So that's what is in an actual stock CSV file. And this is the data that we're going to be working with throughout this course and the next two parts of the course."
+        },
+        {
+            "title": "Our Stock Data",
+            "number": "007",
+            "start": 247.7,
+            "end": 252.7,
+            "text": "So, so, so."
+        }
+    ]
+}

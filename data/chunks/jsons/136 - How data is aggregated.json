@@ -1,0 +1,446 @@
+{
+    "chunks": [
+        {
+            "number": "136",
+            "title": "How data is aggregated",
+            "start": 0.3,
+            "end": 5.3,
+            "text": "Our first step in considering data is to think about how it's aggregated."
+        },
+        {
+            "number": "136",
+            "title": "How data is aggregated",
+            "start": 5.3,
+            "end": 9.2,
+            "text": "In other words, imagine that many, many trades are happening on different"
+        },
+        {
+            "number": "136",
+            "title": "How data is aggregated",
+            "start": 9.2,
+            "end": 11.0,
+            "text": "exchanges."
+        },
+        {
+            "number": "136",
+            "title": "How data is aggregated",
+            "start": 11.0,
+            "end": 14.6,
+            "text": "How is all the data combined and how is it reported back to us so"
+        },
+        {
+            "number": "136",
+            "title": "How data is aggregated",
+            "start": 14.6,
+            "end": 16.9,
+            "text": "that we can analyze it and use it?"
+        },
+        {
+            "number": "136",
+            "title": "How data is aggregated",
+            "start": 16.9,
+            "end": 20.7,
+            "text": "The finest resolution of data is called a tick."
+        },
+        {
+            "number": "136",
+            "title": "How data is aggregated",
+            "start": 20.7,
+            "end": 26.8,
+            "text": "A tick represents a successful buy, sell match or a successful transaction."
+        },
+        {
+            "number": "136",
+            "title": "How data is aggregated",
+            "start": 26.8,
+            "end": 30.0,
+            "text": "So let's suppose that this time there was a successful transaction,"
+        },
+        {
+            "number": "136",
+            "title": "How data is aggregated",
+            "start": 30.0,
+            "end": 34.4,
+            "text": "$100 was the price and $200 was the volume."
+        },
+        {
+            "number": "136",
+            "title": "How data is aggregated",
+            "start": 34.4,
+            "end": 37.5,
+            "text": "So we record that here with a single point."
+        },
+        {
+            "number": "136",
+            "title": "How data is aggregated",
+            "start": 37.5,
+            "end": 43.5,
+            "text": "A little bit later there was another transaction, 9905, 100 shares."
+        },
+        {
+            "number": "136",
+            "title": "How data is aggregated",
+            "start": 43.5,
+            "end": 49.7,
+            "text": "Now something to keep in mind is each of these transactions happens at no specific"
+        },
+        {
+            "number": "136",
+            "title": "How data is aggregated",
+            "start": 49.7,
+            "end": 50.2,
+            "text": "time."
+        },
+        {
+            "number": "136",
+            "title": "How data is aggregated",
+            "start": 50.2,
+            "end": 54.3,
+            "text": "It happens only when the buy and sell are matched."
+        },
+        {
+            "number": "136",
+            "title": "How data is aggregated",
+            "start": 54.3,
+            "end": 58.5,
+            "text": "So there's no guarantee that there's going to be a trade in any particular"
+        },
+        {
+            "number": "136",
+            "title": "How data is aggregated",
+            "start": 58.5,
+            "end": 60.7,
+            "text": "minute or any particular hour."
+        },
+        {
+            "number": "136",
+            "title": "How data is aggregated",
+            "start": 60.7,
+            "end": 63.2,
+            "text": "It just happens when it happens."
+        },
+        {
+            "number": "136",
+            "title": "How data is aggregated",
+            "start": 63.2,
+            "end": 68.5,
+            "text": "Each exchange provides its own data feed regarding these transactions."
+        },
+        {
+            "number": "136",
+            "title": "How data is aggregated",
+            "start": 68.5,
+            "end": 73.7,
+            "text": "So you can subscribe to these feeds and see at each tick when a transaction happens"
+        },
+        {
+            "number": "136",
+            "title": "How data is aggregated",
+            "start": 73.7,
+            "end": 75.0,
+            "text": "on any particular exchange."
+        },
+        {
+            "number": "136",
+            "title": "How data is aggregated",
+            "start": 75.0,
+            "end": 79.5,
+            "text": "So I've added some red dots here that represent transactions that might be"
+        },
+        {
+            "number": "136",
+            "title": "How data is aggregated",
+            "start": 79.5,
+            "end": 81.0,
+            "text": "happening on another exchange."
+        },
+        {
+            "number": "136",
+            "title": "How data is aggregated",
+            "start": 81.0,
+            "end": 84.0,
+            "text": "Note that the prices are a little bit different."
+        },
+        {
+            "number": "136",
+            "title": "How data is aggregated",
+            "start": 84.0,
+            "end": 85.5,
+            "text": "The volumes of course might be different."
+        },
+        {
+            "number": "136",
+            "title": "How data is aggregated",
+            "start": 85.5,
+            "end": 90.3,
+            "text": "All of this is happening simultaneously and the prices of different exchanges"
+        },
+        {
+            "number": "136",
+            "title": "How data is aggregated",
+            "start": 90.3,
+            "end": 92.0,
+            "text": "aren't guaranteed to be exactly the same."
+        },
+        {
+            "number": "136",
+            "title": "How data is aggregated",
+            "start": 92.0,
+            "end": 99.4,
+            "text": "Now for highly liquid stocks, there may be hundreds or thousands or hundreds of"
+        },
+        {
+            "number": "136",
+            "title": "How data is aggregated",
+            "start": 99.4,
+            "end": 103.0,
+            "text": "thousands of transactions like these every second."
+        },
+        {
+            "number": "136",
+            "title": "How data is aggregated",
+            "start": 103.0,
+            "end": 107.6,
+            "text": "So collecting and using all these ticks for all the exchanges over a long period of"
+        },
+        {
+            "number": "136",
+            "title": "How data is aggregated",
+            "start": 107.6,
+            "end": 113.6,
+            "text": "time would result in a lot, a lot of data and it becomes very complex."
+        },
+        {
+            "number": "136",
+            "title": "How data is aggregated",
+            "start": 113.6,
+            "end": 119.1,
+            "text": "Tick data is usually consolidated into minute by minute or hour by hour chunks."
+        },
+        {
+            "number": "136",
+            "title": "How data is aggregated",
+            "start": 119.1,
+            "end": 123.8,
+            "text": "So I've drawn some boundaries here, let's suppose those are on minute boundaries."
+        },
+        {
+            "number": "136",
+            "title": "How data is aggregated",
+            "start": 123.8,
+            "end": 128.2,
+            "text": "And we collect all the data together within each minute and"
+        },
+        {
+            "number": "136",
+            "title": "How data is aggregated",
+            "start": 128.2,
+            "end": 132.5,
+            "text": "represent it as open, high, low, close, and volume."
+        },
+        {
+            "number": "136",
+            "title": "How data is aggregated",
+            "start": 132.5,
+            "end": 137.2,
+            "text": "So the open is the first transaction within the time period."
+        },
+        {
+            "number": "136",
+            "title": "How data is aggregated",
+            "start": 137.2,
+            "end": 140.9,
+            "text": "So it came in here, we had a transaction at 100."
+        },
+        {
+            "number": "136",
+            "title": "How data is aggregated",
+            "start": 140.9,
+            "end": 145.6,
+            "text": "So our open value here is 100 within this time period."
+        },
+        {
+            "number": "136",
+            "title": "How data is aggregated",
+            "start": 145.6,
+            "end": 149.2,
+            "text": "High, well you look at the entire time period and"
+        },
+        {
+            "number": "136",
+            "title": "How data is aggregated",
+            "start": 149.2,
+            "end": 151.0,
+            "text": "see what was the highest price."
+        },
+        {
+            "number": "136",
+            "title": "How data is aggregated",
+            "start": 151.0,
+            "end": 153.8,
+            "text": "Highest price here was also 100."
+        },
+        {
+            "number": "136",
+            "title": "How data is aggregated",
+            "start": 153.8,
+            "end": 156.4,
+            "text": "Low was 9905."
+        },
+        {
+            "number": "136",
+            "title": "How data is aggregated",
+            "start": 156.4,
+            "end": 161.3,
+            "text": "Close is the last transaction, and that was 9550."
+        },
+        {
+            "number": "136",
+            "title": "How data is aggregated",
+            "start": 161.3,
+            "end": 164.4,
+            "text": "And volume is just the total volume during that time period."
+        },
+        {
+            "number": "136",
+            "title": "How data is aggregated",
+            "start": 164.4,
+            "end": 169.1,
+            "text": "So it's 200 plus 100 plus 300, so 600 shares."
+        },
+        {
+            "number": "136",
+            "title": "How data is aggregated",
+            "start": 169.1,
+            "end": 174.5,
+            "text": "So for this minute of time we've consolidated all that information into open,"
+        },
+        {
+            "number": "136",
+            "title": "How data is aggregated",
+            "start": 174.5,
+            "end": 176.7,
+            "text": "high, low, close, and volume."
+        },
+        {
+            "number": "136",
+            "title": "How data is aggregated",
+            "start": 176.7,
+            "end": 180.4,
+            "text": "Similarly, we go to the next minute and consolidate it in the same way."
+        },
+        {
+            "number": "136",
+            "title": "How data is aggregated",
+            "start": 181.7,
+            "end": 188.8,
+            "text": "So in this next minute our open was 99, our close was 99.95, low was 99,"
+        },
+        {
+            "number": "136",
+            "title": "How data is aggregated",
+            "start": 188.8,
+            "end": 193.0,
+            "text": "high was 99.95, and our volume was 300."
+        },
+        {
+            "number": "136",
+            "title": "How data is aggregated",
+            "start": 193.0,
+            "end": 197.2,
+            "text": "And we would continue throughout the day to consolidate the data at each minute like"
+        },
+        {
+            "number": "136",
+            "title": "How data is aggregated",
+            "start": 197.2,
+            "end": 198.4,
+            "text": "this."
+        },
+        {
+            "number": "136",
+            "title": "How data is aggregated",
+            "start": 198.4,
+            "end": 202.4,
+            "text": "And depending on your data feed, this might be the result, say,"
+        },
+        {
+            "number": "136",
+            "title": "How data is aggregated",
+            "start": 202.4,
+            "end": 206.1,
+            "text": "for just one exchange or it might be combined across multiple exchanges."
+        },
+        {
+            "number": "136",
+            "title": "How data is aggregated",
+            "start": 207.2,
+            "end": 212.0,
+            "text": "In this course, these time boundaries are in days."
+        },
+        {
+            "number": "136",
+            "title": "How data is aggregated",
+            "start": 212.0,
+            "end": 214.9,
+            "text": "So the data we'll be working with is daily data."
+        },
+        {
+            "number": "136",
+            "title": "How data is aggregated",
+            "start": 214.9,
+            "end": 219.9,
+            "text": "And so we'll be looking at what is the data at the end of the day for each day."
+        },
+        {
+            "number": "136",
+            "title": "How data is aggregated",
+            "start": 219.9,
+            "end": 224.2,
+            "text": "Now all of the concepts that we teach here, you can just as easily apply at"
+        },
+        {
+            "number": "136",
+            "title": "How data is aggregated",
+            "start": 224.2,
+            "end": 226.2,
+            "text": "smaller time periods."
+        },
+        {
+            "number": "136",
+            "title": "How data is aggregated",
+            "start": 226.2,
+            "end": 230.4,
+            "text": "It just requires more computing, faster computing,"
+        },
+        {
+            "number": "136",
+            "title": "How data is aggregated",
+            "start": 230.4,
+            "end": 233.8,
+            "text": "more and larger databases, and so on."
+        },
+        {
+            "number": "136",
+            "title": "How data is aggregated",
+            "start": 233.8,
+            "end": 237.9,
+            "text": "So that's why we look at daily data in this course, is there's a little bit less"
+        },
+        {
+            "number": "136",
+            "title": "How data is aggregated",
+            "start": 237.9,
+            "end": 239.2,
+            "text": "data to work with."
+        },
+        {
+            "number": "136",
+            "title": "How data is aggregated",
+            "start": 239.2,
+            "end": 242.2,
+            "text": "It's easier for you to download and work with, and so on."
+        }
+    ],
+    "text": "Our first step in considering data is to think about how it's aggregated. In other words, imagine that many, many trades are happening on different exchanges. How is all the data combined and how is it reported back to us so that we can analyze it and use it? The finest resolution of data is called a tick. A tick represents a successful buy, sell match or a successful transaction. So let's suppose that this time there was a successful transaction, $100 was the price and $200 was the volume. So we record that here with a single point. A little bit later there was another transaction, 9905, 100 shares. Now something to keep in mind is each of these transactions happens at no specific time. It happens only when the buy and sell are matched. So there's no guarantee that there's going to be a trade in any particular minute or any particular hour. It just happens when it happens. Each exchange provides its own data feed regarding these transactions. So you can subscribe to these feeds and see at each tick when a transaction happens on any particular exchange. So I've added some red dots here that represent transactions that might be happening on another exchange. Note that the prices are a little bit different. The volumes of course might be different. All of this is happening simultaneously and the prices of different exchanges aren't guaranteed to be exactly the same. Now for highly liquid stocks, there may be hundreds or thousands or hundreds of thousands of transactions like these every second. So collecting and using all these ticks for all the exchanges over a long period of time would result in a lot, a lot of data and it becomes very complex. Tick data is usually consolidated into minute by minute or hour by hour chunks. So I've drawn some boundaries here, let's suppose those are on minute boundaries. And we collect all the data together within each minute and represent it as open, high, low, close, and volume. So the open is the first transaction within the time period. So it came in here, we had a transaction at 100. So our open value here is 100 within this time period. High, well you look at the entire time period and see what was the highest price. Highest price here was also 100. Low was 9905. Close is the last transaction, and that was 9550. And volume is just the total volume during that time period. So it's 200 plus 100 plus 300, so 600 shares. So for this minute of time we've consolidated all that information into open, high, low, close, and volume. Similarly, we go to the next minute and consolidate it in the same way. So in this next minute our open was 99, our close was 99.95, low was 99, high was 99.95, and our volume was 300. And we would continue throughout the day to consolidate the data at each minute like this. And depending on your data feed, this might be the result, say, for just one exchange or it might be combined across multiple exchanges. In this course, these time boundaries are in days. So the data we'll be working with is daily data. And so we'll be looking at what is the data at the end of the day for each day. Now all of the concepts that we teach here, you can just as easily apply at smaller time periods. It just requires more computing, faster computing, more and larger databases, and so on. So that's why we look at daily data in this course, is there's a little bit less data to work with. It's easier for you to download and work with, and so on."
+}

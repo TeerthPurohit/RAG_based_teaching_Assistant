@@ -1,0 +1,34 @@
+{
+    "title": "What is risk",
+    "number": "158",
+    "chunks": [
+        {
+            "title": "What is risk",
+            "number": "158",
+            "start": 0.2,
+            "end": 19.6,
+            "text": "If we're going to find a portfolio or an allocation of assets to different stocks that minimizes risk, we have to pause for a moment and consider what is risk. Let's consider two stocks, XYZ here, that's gone up about 10%. But as you can see, it's been very volatile."
+        },
+        {
+            "title": "What is risk",
+            "number": "158",
+            "start": 19.6,
+            "end": 38.0,
+            "text": "Here's the historical price of another stock, ABC. It also went up 10% over the same time period. But as you can see, it was less volatile. So it's this volatility that we use as a measure of risk. And that is simply the standard deviation of historical daily returns."
+        },
+        {
+            "title": "What is risk",
+            "number": "158",
+            "start": 38.0,
+            "end": 55.1,
+            "text": "Again, in this case, risk is measured as volatility or standard deviation of historical daily returns. That's the standard view of risk in most finance texts. There are other ways to view risk that we touch upon here and there through this course."
+        },
+        {
+            "title": "What is risk",
+            "number": "158",
+            "start": 55.1,
+            "end": 59.1,
+            "text": "But the key is standard deviation of daily returns."
+        }
+    ]
+}

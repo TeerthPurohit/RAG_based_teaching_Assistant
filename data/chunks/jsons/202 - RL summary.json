@@ -1,0 +1,208 @@
+{
+    "chunks": [
+        {
+            "number": "202",
+            "title": "RL summary",
+            "start": 0.2,
+            "end": 3.2,
+            "text": "Let's summarize things and wrap up this lecture."
+        },
+        {
+            "number": "202",
+            "title": "RL summary",
+            "start": 3.2,
+            "end": 7.6,
+            "text": "Just want to repeat the points so you see how reinforcement learning is"
+        },
+        {
+            "number": "202",
+            "title": "RL summary",
+            "start": 7.6,
+            "end": 9.6,
+            "text": "something that we can use in trading."
+        },
+        {
+            "number": "202",
+            "title": "RL summary",
+            "start": 9.6,
+            "end": 15.2,
+            "text": "The problem for reinforcement learning algorithms is a Markov decision problem."
+        },
+        {
+            "number": "202",
+            "title": "RL summary",
+            "start": 15.2,
+            "end": 18.6,
+            "text": "And reinforcement learning algorithms solve them."
+        },
+        {
+            "number": "202",
+            "title": "RL summary",
+            "start": 18.6,
+            "end": 26.0,
+            "text": "Markov decision problem is defined by S, A, T, and R, where S is the potential"
+        },
+        {
+            "number": "202",
+            "title": "RL summary",
+            "start": 26.0,
+            "end": 32.1,
+            "text": "states, A are the potential actions, T is a transition probability,"
+        },
+        {
+            "number": "202",
+            "title": "RL summary",
+            "start": 32.1,
+            "end": 36.0,
+            "text": "which is given I'm in state S, I take action A, what's probability?"
+        },
+        {
+            "number": "202",
+            "title": "RL summary",
+            "start": 36.0,
+            "end": 38.3,
+            "text": "I'll end up in state S prime."
+        },
+        {
+            "number": "202",
+            "title": "RL summary",
+            "start": 38.3,
+            "end": 41.4,
+            "text": "And R is the reward function."
+        },
+        {
+            "number": "202",
+            "title": "RL summary",
+            "start": 41.4,
+            "end": 46.9,
+            "text": "The goal for reinforcement learning algorithm is to find a policy pi that maps"
+        },
+        {
+            "number": "202",
+            "title": "RL summary",
+            "start": 46.9,
+            "end": 49.3,
+            "text": "a state to an action that we should take."
+        },
+        {
+            "number": "202",
+            "title": "RL summary",
+            "start": 49.3,
+            "end": 55.5,
+            "text": "And its goal is to find this pi such that it maximizes some future sum"
+        },
+        {
+            "number": "202",
+            "title": "RL summary",
+            "start": 55.5,
+            "end": 56.8,
+            "text": "of the reward."
+        },
+        {
+            "number": "202",
+            "title": "RL summary",
+            "start": 56.8,
+            "end": 60.3,
+            "text": "And we talked about that being either infinite horizon,"
+        },
+        {
+            "number": "202",
+            "title": "RL summary",
+            "start": 60.3,
+            "end": 64.0,
+            "text": "fixed horizon, or discounted sum."
+        },
+        {
+            "number": "202",
+            "title": "RL summary",
+            "start": 64.0,
+            "end": 69.1,
+            "text": "We can map our task for trading to reinforcement learning."
+        },
+        {
+            "number": "202",
+            "title": "RL summary",
+            "start": 69.1,
+            "end": 71.2,
+            "text": "And it works out like this."
+        },
+        {
+            "number": "202",
+            "title": "RL summary",
+            "start": 71.2,
+            "end": 76.6,
+            "text": "S are states, are features about stocks and whether or not we're holding a stock."
+        },
+        {
+            "number": "202",
+            "title": "RL summary",
+            "start": 76.6,
+            "end": 80.3,
+            "text": "Actions are buy, sell, or do nothing."
+        },
+        {
+            "number": "202",
+            "title": "RL summary",
+            "start": 80.3,
+            "end": 83.3,
+            "text": "The transition function here is the market."
+        },
+        {
+            "number": "202",
+            "title": "RL summary",
+            "start": 83.3,
+            "end": 88.5,
+            "text": "And finally, the reward function is how much money we get at the end of a trade."
+        },
+        {
+            "number": "202",
+            "title": "RL summary",
+            "start": 88.5,
+            "end": 94.2,
+            "text": "So, we can apply reinforcement learning algorithms to find this policy."
+        },
+        {
+            "number": "202",
+            "title": "RL summary",
+            "start": 94.2,
+            "end": 96.0,
+            "text": "We've mentioned a few of those algorithms."
+        },
+        {
+            "number": "202",
+            "title": "RL summary",
+            "start": 96.0,
+            "end": 100.9,
+            "text": "For instance, policy iteration and value iteration and Q learning."
+        },
+        {
+            "number": "202",
+            "title": "RL summary",
+            "start": 100.9,
+            "end": 103.3,
+            "text": "But we haven't talked in detail about what they are."
+        },
+        {
+            "number": "202",
+            "title": "RL summary",
+            "start": 103.3,
+            "end": 106.1,
+            "text": "And that's the subject of lessons coming up."
+        },
+        {
+            "number": "202",
+            "title": "RL summary",
+            "start": 106.1,
+            "end": 108.0,
+            "text": "Okay, that's it for reinforcement learning."
+        },
+        {
+            "number": "202",
+            "title": "RL summary",
+            "start": 108.0,
+            "end": 109.0,
+            "text": "I'll see you again soon."
+        }
+    ],
+    "text": "Let's summarize things and wrap up this lecture. Just want to repeat the points so you see how reinforcement learning is something that we can use in trading. The problem for reinforcement learning algorithms is a Markov decision problem. And reinforcement learning algorithms solve them. Markov decision problem is defined by S, A, T, and R, where S is the potential states, A are the potential actions, T is a transition probability, which is given I'm in state S, I take action A, what's probability? I'll end up in state S prime. And R is the reward function. The goal for reinforcement learning algorithm is to find a policy pi that maps a state to an action that we should take. And its goal is to find this pi such that it maximizes some future sum of the reward. And we talked about that being either infinite horizon, fixed horizon, or discounted sum. We can map our task for trading to reinforcement learning. And it works out like this. S are states, are features about stocks and whether or not we're holding a stock. Actions are buy, sell, or do nothing. The transition function here is the market. And finally, the reward function is how much money we get at the end of a trade. So, we can apply reinforcement learning algorithms to find this policy. We've mentioned a few of those algorithms. For instance, policy iteration and value iteration and Q learning. But we haven't talked in detail about what they are. And that's the subject of lessons coming up. Okay, that's it for reinforcement learning. I'll see you again soon."
+}

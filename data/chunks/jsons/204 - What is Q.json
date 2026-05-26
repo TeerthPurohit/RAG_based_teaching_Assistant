@@ -1,0 +1,299 @@
+{
+    "chunks": [
+        {
+            "number": "204",
+            "title": "What is Q",
+            "start": 0.2,
+            "end": 5.0,
+            "text": "Q learning is named after the Q function."
+        },
+        {
+            "number": "204",
+            "title": "What is Q",
+            "start": 5.0,
+            "end": 6.4,
+            "text": "What is that?"
+        },
+        {
+            "number": "204",
+            "title": "What is Q",
+            "start": 6.4,
+            "end": 8.8,
+            "text": "Well, let's dig in and find out."
+        },
+        {
+            "number": "204",
+            "title": "What is Q",
+            "start": 8.8,
+            "end": 14.8,
+            "text": "Q can be written as a function, so we might have parentheses around S and A,"
+        },
+        {
+            "number": "204",
+            "title": "What is Q",
+            "start": 14.8,
+            "end": 16.9,
+            "text": "or you can think of it as a table."
+        },
+        {
+            "number": "204",
+            "title": "What is Q",
+            "start": 16.9,
+            "end": 20.7,
+            "text": "So in this class, we're going to view Q as a table."
+        },
+        {
+            "number": "204",
+            "title": "What is Q",
+            "start": 20.7,
+            "end": 24.2,
+            "text": "And it's got two dimensions, S and A."
+        },
+        {
+            "number": "204",
+            "title": "What is Q",
+            "start": 24.2,
+            "end": 31.3,
+            "text": "So S is the state that we're looking at, and A is the action we might take."
+        },
+        {
+            "number": "204",
+            "title": "What is Q",
+            "start": 31.3,
+            "end": 38.7,
+            "text": "Q represents the value of taking action A in state S."
+        },
+        {
+            "number": "204",
+            "title": "What is Q",
+            "start": 38.7,
+            "end": 41.1,
+            "text": "And there's two components to that."
+        },
+        {
+            "number": "204",
+            "title": "What is Q",
+            "start": 41.1,
+            "end": 45.3,
+            "text": "The two components are the immediate reward that you get for"
+        },
+        {
+            "number": "204",
+            "title": "What is Q",
+            "start": 45.3,
+            "end": 50.5,
+            "text": "taking action A in state S plus the discounted reward."
+        },
+        {
+            "number": "204",
+            "title": "What is Q",
+            "start": 50.5,
+            "end": 53.6,
+            "text": "And what that is about, what the discounted reward is about,"
+        },
+        {
+            "number": "204",
+            "title": "What is Q",
+            "start": 53.6,
+            "end": 57.1,
+            "text": "is the reward you get for future actions."
+        },
+        {
+            "number": "204",
+            "title": "What is Q",
+            "start": 57.1,
+            "end": 63.1,
+            "text": "So an important thing to know is that Q is not greedy in the sense that it just"
+        },
+        {
+            "number": "204",
+            "title": "What is Q",
+            "start": 63.1,
+            "end": 66.6,
+            "text": "represents the reward you get for acting now."
+        },
+        {
+            "number": "204",
+            "title": "What is Q",
+            "start": 66.6,
+            "end": 71.2,
+            "text": "It also represents the reward you get for acting in the future."
+        },
+        {
+            "number": "204",
+            "title": "What is Q",
+            "start": 71.2,
+            "end": 75.0,
+            "text": "Let's suppose we have Q already created for us."
+        },
+        {
+            "number": "204",
+            "title": "What is Q",
+            "start": 75.0,
+            "end": 76.5,
+            "text": "We have this table."
+        },
+        {
+            "number": "204",
+            "title": "What is Q",
+            "start": 76.5,
+            "end": 79.0,
+            "text": "How can we use it to figure out what to do?"
+        },
+        {
+            "number": "204",
+            "title": "What is Q",
+            "start": 79.0,
+            "end": 84.2,
+            "text": "So what we do in any particular state is the policy."
+        },
+        {
+            "number": "204",
+            "title": "What is Q",
+            "start": 84.2,
+            "end": 87.9,
+            "text": "And we represent the policy with pi."
+        },
+        {
+            "number": "204",
+            "title": "What is Q",
+            "start": 87.9,
+            "end": 94.0,
+            "text": "So pi of S means what is the action we take when we're in state S,"
+        },
+        {
+            "number": "204",
+            "title": "What is Q",
+            "start": 94.0,
+            "end": 97.7,
+            "text": "or what is the policy for state S?"
+        },
+        {
+            "number": "204",
+            "title": "What is Q",
+            "start": 97.7,
+            "end": 101.5,
+            "text": "And we take advantage of our Q table to figure that out."
+        },
+        {
+            "number": "204",
+            "title": "What is Q",
+            "start": 101.5,
+            "end": 102.9,
+            "text": "Here's how it works."
+        },
+        {
+            "number": "204",
+            "title": "What is Q",
+            "start": 102.9,
+            "end": 108.0,
+            "text": "We're in state S, and we want to find out which action is the best."
+        },
+        {
+            "number": "204",
+            "title": "What is Q",
+            "start": 108.0,
+            "end": 112.3,
+            "text": "Well, all we need to do is look across all the potential actions and"
+        },
+        {
+            "number": "204",
+            "title": "What is Q",
+            "start": 112.3,
+            "end": 118.8,
+            "text": "find out which value of Q S of A is maximized."
+        },
+        {
+            "number": "204",
+            "title": "What is Q",
+            "start": 118.8,
+            "end": 120.1,
+            "text": "So we don't change S."
+        },
+        {
+            "number": "204",
+            "title": "What is Q",
+            "start": 120.1,
+            "end": 122.8,
+            "text": "We just step through each value of A, and"
+        },
+        {
+            "number": "204",
+            "title": "What is Q",
+            "start": 122.8,
+            "end": 126.7,
+            "text": "the one that is the largest is the action we should take."
+        },
+        {
+            "number": "204",
+            "title": "What is Q",
+            "start": 126.7,
+            "end": 132.9,
+            "text": "And the mathematical way to represent this is to use the function argmax."
+        },
+        {
+            "number": "204",
+            "title": "What is Q",
+            "start": 132.9,
+            "end": 137.2,
+            "text": "So argmax of A of this function."
+        },
+        {
+            "number": "204",
+            "title": "What is Q",
+            "start": 137.2,
+            "end": 142.5,
+            "text": "So what that does is it finds the A that maximizes this, and then the answer is A."
+        },
+        {
+            "number": "204",
+            "title": "What is Q",
+            "start": 143.6,
+            "end": 145.9,
+            "text": "After we run Q learning for long enough,"
+        },
+        {
+            "number": "204",
+            "title": "What is Q",
+            "start": 145.9,
+            "end": 149.4,
+            "text": "we will eventually converge to the optimal policy."
+        },
+        {
+            "number": "204",
+            "title": "What is Q",
+            "start": 149.4,
+            "end": 152.9,
+            "text": "And we represent that with a little star."
+        },
+        {
+            "number": "204",
+            "title": "What is Q",
+            "start": 152.9,
+            "end": 157.9,
+            "text": "So the optimal policy is pi star of S."
+        },
+        {
+            "number": "204",
+            "title": "What is Q",
+            "start": 157.9,
+            "end": 164.4,
+            "text": "And similarly, the optimal Q table is Q star SA."
+        },
+        {
+            "number": "204",
+            "title": "What is Q",
+            "start": 164.4,
+            "end": 168.4,
+            "text": "Now this is how to use a Q table if you have it."
+        },
+        {
+            "number": "204",
+            "title": "What is Q",
+            "start": 168.4,
+            "end": 172.2,
+            "text": "We need now to consider how do we build that Q table in the first place."
+        }
+    ],
+    "text": "Q learning is named after the Q function. What is that? Well, let's dig in and find out. Q can be written as a function, so we might have parentheses around S and A, or you can think of it as a table. So in this class, we're going to view Q as a table. And it's got two dimensions, S and A. So S is the state that we're looking at, and A is the action we might take. Q represents the value of taking action A in state S. And there's two components to that. The two components are the immediate reward that you get for taking action A in state S plus the discounted reward. And what that is about, what the discounted reward is about, is the reward you get for future actions. So an important thing to know is that Q is not greedy in the sense that it just represents the reward you get for acting now. It also represents the reward you get for acting in the future. Let's suppose we have Q already created for us. We have this table. How can we use it to figure out what to do? So what we do in any particular state is the policy. And we represent the policy with pi. So pi of S means what is the action we take when we're in state S, or what is the policy for state S? And we take advantage of our Q table to figure that out. Here's how it works. We're in state S, and we want to find out which action is the best. Well, all we need to do is look across all the potential actions and find out which value of Q S of A is maximized. So we don't change S. We just step through each value of A, and the one that is the largest is the action we should take. And the mathematical way to represent this is to use the function argmax. So argmax of A of this function. So what that does is it finds the A that maximizes this, and then the answer is A. After we run Q learning for long enough, we will eventually converge to the optimal policy. And we represent that with a little star. So the optimal policy is pi star of S. And similarly, the optimal Q table is Q star SA. Now this is how to use a Q table if you have it. We need now to consider how do we build that Q table in the first place."
+}

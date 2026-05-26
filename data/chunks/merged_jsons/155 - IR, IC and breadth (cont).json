@@ -1,0 +1,34 @@
+{
+    "title": "IR, IC and breadth (cont)",
+    "number": "155",
+    "chunks": [
+        {
+            "title": "IR, IC and breadth (cont)",
+            "number": "155",
+            "start": 0.3,
+            "end": 24.4,
+            "text": "IC, or the information coefficient, is just the correlation of the manager's forecast to actual returns. So for instance, if she made a forecast on IBM that it would go up 1% and it went up 0.5%, well, that's a positive correlation. This value can range from 0, where the correlation is not present,"
+        },
+        {
+            "title": "IR, IC and breadth (cont)",
+            "number": "155",
+            "start": 24.4,
+            "end": 49.4,
+            "text": "to 1, where it's very, very strong. Finally, BR, or breadth, represents the number of trading opportunities per year. So for example, if you're Warren Buffett and you hold 120 stocks, and you just hold them all year, that's 120 trading opportunities. If, say, you're Jim Simons, and you trade 100,000 times per day,"
+        },
+        {
+            "title": "IR, IC and breadth (cont)",
+            "number": "155",
+            "start": 49.4,
+            "end": 64.9,
+            "text": "you multiply that times the number of trading days in a year, well, it turns out to be a very large number. A key thing is, even if it's just a portfolio where you buy and hold, you count the number of positions in that portfolio as the number of trading opportunities."
+        },
+        {
+            "title": "IR, IC and breadth (cont)",
+            "number": "155",
+            "start": 64.9,
+            "end": 69.5,
+            "text": "Because this is oriented around an annual measure."
+        }
+    ]
+}

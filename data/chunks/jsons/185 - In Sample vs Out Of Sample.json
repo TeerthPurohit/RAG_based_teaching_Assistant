@@ -1,0 +1,117 @@
+{
+    "chunks": [
+        {
+            "number": "185",
+            "title": "In Sample vs Out Of Sample",
+            "start": 0.2,
+            "end": 5.1,
+            "text": "Now, we just measured the error of this linear model against our original training"
+        },
+        {
+            "number": "185",
+            "title": "In Sample vs Out Of Sample",
+            "start": 5.1,
+            "end": 5.8,
+            "text": "data."
+        },
+        {
+            "number": "185",
+            "title": "In Sample vs Out Of Sample",
+            "start": 5.8,
+            "end": 10.8,
+            "text": "We know though from say, K and N, that we can build models that can fit this"
+        },
+        {
+            "number": "185",
+            "title": "In Sample vs Out Of Sample",
+            "start": 10.8,
+            "end": 12.7,
+            "text": "training data exactly."
+        },
+        {
+            "number": "185",
+            "title": "In Sample vs Out Of Sample",
+            "start": 12.7,
+            "end": 17.2,
+            "text": "So we can have arbitrarily small error against our training set."
+        },
+        {
+            "number": "185",
+            "title": "In Sample vs Out Of Sample",
+            "start": 17.2,
+            "end": 22.9,
+            "text": "The more important measure is what is our error out of sample."
+        },
+        {
+            "number": "185",
+            "title": "In Sample vs Out Of Sample",
+            "start": 22.9,
+            "end": 27.3,
+            "text": "So what out of sample means is we train on our training set, but"
+        },
+        {
+            "number": "185",
+            "title": "In Sample vs Out Of Sample",
+            "start": 27.3,
+            "end": 31.0,
+            "text": "we test on a separate testing set of data."
+        },
+        {
+            "number": "185",
+            "title": "In Sample vs Out Of Sample",
+            "start": 31.0,
+            "end": 33.7,
+            "text": "And that's going to be different than our training set."
+        },
+        {
+            "number": "185",
+            "title": "In Sample vs Out Of Sample",
+            "start": 33.7,
+            "end": 39.2,
+            "text": "So to measure out of sample error, we look at the error from our testing set,"
+        },
+        {
+            "number": "185",
+            "title": "In Sample vs Out Of Sample",
+            "start": 39.2,
+            "end": 41.0,
+            "text": "not our training set."
+        },
+        {
+            "number": "185",
+            "title": "In Sample vs Out Of Sample",
+            "start": 41.0,
+            "end": 44.2,
+            "text": "So we look at each one of these test points and"
+        },
+        {
+            "number": "185",
+            "title": "In Sample vs Out Of Sample",
+            "start": 44.2,
+            "end": 46.7,
+            "text": "measure the error for each one of those."
+        },
+        {
+            "number": "185",
+            "title": "In Sample vs Out Of Sample",
+            "start": 46.7,
+            "end": 49.7,
+            "text": "So we look at these blue points instead of the green points,"
+        },
+        {
+            "number": "185",
+            "title": "In Sample vs Out Of Sample",
+            "start": 49.7,
+            "end": 52.4,
+            "text": "plug them into this equation just like before, and"
+        },
+        {
+            "number": "185",
+            "title": "In Sample vs Out Of Sample",
+            "start": 52.4,
+            "end": 55.4,
+            "text": "that's our out of sample root mean squared error."
+        }
+    ],
+    "text": "Now, we just measured the error of this linear model against our original training data. We know though from say, K and N, that we can build models that can fit this training data exactly. So we can have arbitrarily small error against our training set. The more important measure is what is our error out of sample. So what out of sample means is we train on our training set, but we test on a separate testing set of data. And that's going to be different than our training set. So to measure out of sample error, we look at the error from our testing set, not our training set. So we look at each one of these test points and measure the error for each one of those. So we look at these blue points instead of the green points, plug them into this equation just like before, and that's our out of sample root mean squared error."
+}

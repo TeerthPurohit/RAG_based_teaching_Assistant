@@ -1,0 +1,41 @@
+{
+    "title": "Scatterplots",
+    "number": "062",
+    "chunks": [
+        {
+            "title": "Scatterplots",
+            "number": "062",
+            "start": 0.5,
+            "end": 19.8,
+            "text": "We're now going to take a look at another way to visualize the differences between daily returns of individual stocks. Let's get back again to our daily return chart. We've got S&P 500 here plotted already. And let's compare that to another stock, XYZ."
+        },
+        {
+            "title": "Scatterplots",
+            "number": "062",
+            "start": 19.8,
+            "end": 47.1,
+            "text": "Now note here that frequently XYZ moves in the same direction as SPY. But it also sometimes moves a little bit further, like in these sections here. We'll be able to visualize those differences in a scatter plot. So on a scatter plot, there are a number of individual points or dots. And each one represents something that happened on a particular day."
+        },
+        {
+            "title": "Scatterplots",
+            "number": "062",
+            "start": 47.1,
+            "end": 70.9,
+            "text": "So let's look at this particular day. On this day, SPY was positive, close to plus one. So we'll look at plus one on SPY. And XYZ was about plus one as well, but a little bit larger. So that day would correspond to a point about there."
+        },
+        {
+            "title": "Scatterplots",
+            "number": "062",
+            "start": 70.9,
+            "end": 100.0,
+            "text": "Now, we look at each day one by one individually and populate all of our dots based on what happened each day. Another interesting day is this one, where SPY and XYZ were moving in different directions. So again, we had SPY in positive territory, but XYZ was in negative territory. So that would represent a dot about like that."
+        },
+        {
+            "title": "Scatterplots",
+            "number": "062",
+            "start": 100.0,
+            "end": 121.8,
+            "text": "Now, if we were to continue this process for very many days over a long period of time, for most stocks, a trend appears, which is something like this, where you can sort of see there's a relationship here, maybe a linear relationship. And however, the dots are somewhat scattered. So they don't form a perfect line."
+        }
+    ]
+}

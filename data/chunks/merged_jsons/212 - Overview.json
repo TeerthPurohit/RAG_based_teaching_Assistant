@@ -1,0 +1,20 @@
+{
+    "title": "Overview",
+    "number": "212",
+    "chunks": [
+        {
+            "title": "Overview",
+            "number": "212",
+            "start": 0.0,
+            "end": 20.0,
+            "text": "One problem with Q-learning is that it takes many experience tuples to converge. This is expensive in terms of interacting with the world because you have to take a real step, in other words execute a trade, in order to gather information. To address this problem, Rich Sutton invented DINAH."
+        },
+        {
+            "title": "Overview",
+            "number": "212",
+            "start": 20.0,
+            "end": 37.0,
+            "text": "DINAH works by building models of T, the transition matrix, and R, the reward matrix. Then, after each real interaction with the world, we hallucinate many additional interactions, usually a few hundred, that are used then to update the Q-table."
+        }
+    ]
+}

@@ -1,0 +1,362 @@
+{
+    "chunks": [
+        {
+            "number": "117",
+            "title": "CAPM vs active management",
+            "start": 0.5,
+            "end": 5.3,
+            "text": "Now you may have heard about the debate of passive investing versus active"
+        },
+        {
+            "number": "117",
+            "title": "CAPM vs active management",
+            "start": 5.3,
+            "end": 7.0,
+            "text": "investing."
+        },
+        {
+            "number": "117",
+            "title": "CAPM vs active management",
+            "start": 7.0,
+            "end": 12.1,
+            "text": "This question about passive versus active didn't really exist before the capital"
+        },
+        {
+            "number": "117",
+            "title": "CAPM vs active management",
+            "start": 12.1,
+            "end": 13.6,
+            "text": "assets pricing model came out."
+        },
+        {
+            "number": "117",
+            "title": "CAPM vs active management",
+            "start": 13.6,
+            "end": 16.2,
+            "text": "And I'll explain why in just a moment."
+        },
+        {
+            "number": "117",
+            "title": "CAPM vs active management",
+            "start": 16.2,
+            "end": 20.4,
+            "text": "But let me just briefly tell you about passive versus active."
+        },
+        {
+            "number": "117",
+            "title": "CAPM vs active management",
+            "start": 20.4,
+            "end": 26.3,
+            "text": "So passive essentially says that you should just buy an index portfolio,"
+        },
+        {
+            "number": "117",
+            "title": "CAPM vs active management",
+            "start": 26.3,
+            "end": 30.9,
+            "text": "like buy something that represents the S&P 500 and hold."
+        },
+        {
+            "number": "117",
+            "title": "CAPM vs active management",
+            "start": 30.9,
+            "end": 33.5,
+            "text": "Just sit on it and let it grow."
+        },
+        {
+            "number": "117",
+            "title": "CAPM vs active management",
+            "start": 33.5,
+            "end": 38.9,
+            "text": "Active portfolio managers don't just buy the index portfolio."
+        },
+        {
+            "number": "117",
+            "title": "CAPM vs active management",
+            "start": 38.9,
+            "end": 41.4,
+            "text": "They pick individual stocks."
+        },
+        {
+            "number": "117",
+            "title": "CAPM vs active management",
+            "start": 41.4,
+            "end": 44.7,
+            "text": "Another way you can think of this is if you compare the active manager's"
+        },
+        {
+            "number": "117",
+            "title": "CAPM vs active management",
+            "start": 44.7,
+            "end": 47.8,
+            "text": "portfolio to the index."
+        },
+        {
+            "number": "117",
+            "title": "CAPM vs active management",
+            "start": 47.8,
+            "end": 51.4,
+            "text": "You'll find that he or she has higher weights for"
+        },
+        {
+            "number": "117",
+            "title": "CAPM vs active management",
+            "start": 51.4,
+            "end": 54.4,
+            "text": "some stocks and lower weights for other stocks."
+        },
+        {
+            "number": "117",
+            "title": "CAPM vs active management",
+            "start": 54.4,
+            "end": 56.9,
+            "text": "Of course those weights could be zero or even negative."
+        },
+        {
+            "number": "117",
+            "title": "CAPM vs active management",
+            "start": 58.2,
+            "end": 62.4,
+            "text": "But the general idea here is that the active portfolio manager's portfolio"
+        },
+        {
+            "number": "117",
+            "title": "CAPM vs active management",
+            "start": 62.4,
+            "end": 67.5,
+            "text": "differs from the market portfolio by selecting different weights on different stocks."
+        },
+        {
+            "number": "117",
+            "title": "CAPM vs active management",
+            "start": 68.9,
+            "end": 74.3,
+            "text": "Let's return now to the capital asset pricing model here and"
+        },
+        {
+            "number": "117",
+            "title": "CAPM vs active management",
+            "start": 74.3,
+            "end": 78.2,
+            "text": "consider passive versus active in that context."
+        },
+        {
+            "number": "117",
+            "title": "CAPM vs active management",
+            "start": 78.2,
+            "end": 83.9,
+            "text": "Both active managers and passive managers agree with this part of the equation."
+        },
+        {
+            "number": "117",
+            "title": "CAPM vs active management",
+            "start": 83.9,
+            "end": 90.3,
+            "text": "In other words, how the stock moves each day is most significantly influenced by the market."
+        },
+        {
+            "number": "117",
+            "title": "CAPM vs active management",
+            "start": 90.3,
+            "end": 93.8,
+            "text": "And that the amount that it moves is strongly related to beta."
+        },
+        {
+            "number": "117",
+            "title": "CAPM vs active management",
+            "start": 95.2,
+            "end": 98.3,
+            "text": "Where they differ is with regard to their treatment of alpha."
+        },
+        {
+            "number": "117",
+            "title": "CAPM vs active management",
+            "start": 99.4,
+            "end": 102.8,
+            "text": "The CAPM says two important things about alpha."
+        },
+        {
+            "number": "117",
+            "title": "CAPM vs active management",
+            "start": 102.8,
+            "end": 104.5,
+            "text": "First, it's random."
+        },
+        {
+            "number": "117",
+            "title": "CAPM vs active management",
+            "start": 104.5,
+            "end": 105.5,
+            "text": "You can't predict it."
+        },
+        {
+            "number": "117",
+            "title": "CAPM vs active management",
+            "start": 105.5,
+            "end": 107.2,
+            "text": "You can't predict it."
+        },
+        {
+            "number": "117",
+            "title": "CAPM vs active management",
+            "start": 107.2,
+            "end": 111.0,
+            "text": "And the expected value is zero."
+        },
+        {
+            "number": "117",
+            "title": "CAPM vs active management",
+            "start": 111.0,
+            "end": 112.2,
+            "text": "Some days it'll be positive."
+        },
+        {
+            "number": "117",
+            "title": "CAPM vs active management",
+            "start": 112.2,
+            "end": 113.9,
+            "text": "Some days it'll be negative."
+        },
+        {
+            "number": "117",
+            "title": "CAPM vs active management",
+            "start": 113.9,
+            "end": 114.6,
+            "text": "It may be large."
+        },
+        {
+            "number": "117",
+            "title": "CAPM vs active management",
+            "start": 114.6,
+            "end": 115.8,
+            "text": "It may be small."
+        },
+        {
+            "number": "117",
+            "title": "CAPM vs active management",
+            "start": 115.8,
+            "end": 117.4,
+            "text": "But it's random."
+        },
+        {
+            "number": "117",
+            "title": "CAPM vs active management",
+            "start": 117.4,
+            "end": 119.6,
+            "text": "And on average, its value is going to be zero."
+        },
+        {
+            "number": "117",
+            "title": "CAPM vs active management",
+            "start": 120.6,
+            "end": 124.9,
+            "text": "Active managers, on the other hand, believe they can predict alpha."
+        },
+        {
+            "number": "117",
+            "title": "CAPM vs active management",
+            "start": 124.9,
+            "end": 128.6,
+            "text": "In other words, they can compare two stocks and they say, hmm,"
+        },
+        {
+            "number": "117",
+            "title": "CAPM vs active management",
+            "start": 128.6,
+            "end": 132.4,
+            "text": "I think this one is going to go up relative to the market."
+        },
+        {
+            "number": "117",
+            "title": "CAPM vs active management",
+            "start": 132.4,
+            "end": 135.5,
+            "text": "Remember, this alpha is market relative."
+        },
+        {
+            "number": "117",
+            "title": "CAPM vs active management",
+            "start": 135.5,
+            "end": 139.1,
+            "text": "Or I think this other stock is going to go down relative to the market."
+        },
+        {
+            "number": "117",
+            "title": "CAPM vs active management",
+            "start": 139.1,
+            "end": 142.7,
+            "text": "Now, they might not be exactly right on every single pick."
+        },
+        {
+            "number": "117",
+            "title": "CAPM vs active management",
+            "start": 142.7,
+            "end": 147.4,
+            "text": "But they believe, on average, they're better than just flipping a coin."
+        },
+        {
+            "number": "117",
+            "title": "CAPM vs active management",
+            "start": 147.4,
+            "end": 152.7,
+            "text": "So if you believe what active managers say, you can use information and"
+        },
+        {
+            "number": "117",
+            "title": "CAPM vs active management",
+            "start": 152.7,
+            "end": 159.5,
+            "text": "perhaps machine learning to find stocks that have either positive or negative alpha."
+        },
+        {
+            "number": "117",
+            "title": "CAPM vs active management",
+            "start": 159.5,
+            "end": 163.1,
+            "text": "And you can use that information to select your stock picks."
+        },
+        {
+            "number": "117",
+            "title": "CAPM vs active management",
+            "start": 163.1,
+            "end": 165.5,
+            "text": "And we'll show some examples of that later on."
+        },
+        {
+            "number": "117",
+            "title": "CAPM vs active management",
+            "start": 165.5,
+            "end": 170.8,
+            "text": "Anyways, if you believe the capital assets pricing model, in other words,"
+        },
+        {
+            "number": "117",
+            "title": "CAPM vs active management",
+            "start": 170.8,
+            "end": 177.3,
+            "text": "this alpha is fully random, then you should be a passive investor."
+        },
+        {
+            "number": "117",
+            "title": "CAPM vs active management",
+            "start": 177.3,
+            "end": 179.8,
+            "text": "Just buy an index and hold it."
+        },
+        {
+            "number": "117",
+            "title": "CAPM vs active management",
+            "start": 179.8,
+            "end": 184.4,
+            "text": "If you believe active managers that they can find alpha,"
+        },
+        {
+            "number": "117",
+            "title": "CAPM vs active management",
+            "start": 184.4,
+            "end": 187.0,
+            "text": "then you should consider being an active investor."
+        }
+    ],
+    "text": "Now you may have heard about the debate of passive investing versus active investing. This question about passive versus active didn't really exist before the capital assets pricing model came out. And I'll explain why in just a moment. But let me just briefly tell you about passive versus active. So passive essentially says that you should just buy an index portfolio, like buy something that represents the S&P 500 and hold. Just sit on it and let it grow. Active portfolio managers don't just buy the index portfolio. They pick individual stocks. Another way you can think of this is if you compare the active manager's portfolio to the index. You'll find that he or she has higher weights for some stocks and lower weights for other stocks. Of course those weights could be zero or even negative. But the general idea here is that the active portfolio manager's portfolio differs from the market portfolio by selecting different weights on different stocks. Let's return now to the capital asset pricing model here and consider passive versus active in that context. Both active managers and passive managers agree with this part of the equation. In other words, how the stock moves each day is most significantly influenced by the market. And that the amount that it moves is strongly related to beta. Where they differ is with regard to their treatment of alpha. The CAPM says two important things about alpha. First, it's random. You can't predict it. You can't predict it. And the expected value is zero. Some days it'll be positive. Some days it'll be negative. It may be large. It may be small. But it's random. And on average, its value is going to be zero. Active managers, on the other hand, believe they can predict alpha. In other words, they can compare two stocks and they say, hmm, I think this one is going to go up relative to the market. Remember, this alpha is market relative. Or I think this other stock is going to go down relative to the market. Now, they might not be exactly right on every single pick. But they believe, on average, they're better than just flipping a coin. So if you believe what active managers say, you can use information and perhaps machine learning to find stocks that have either positive or negative alpha. And you can use that information to select your stock picks. And we'll show some examples of that later on. Anyways, if you believe the capital assets pricing model, in other words, this alpha is fully random, then you should be a passive investor. Just buy an index and hold it. If you believe active managers that they can find alpha, then you should consider being an active investor."
+}

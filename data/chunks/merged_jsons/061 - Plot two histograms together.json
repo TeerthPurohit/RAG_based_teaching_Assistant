@@ -1,0 +1,41 @@
+{
+    "title": "Plot two histograms together",
+    "number": "061",
+    "chunks": [
+        {
+            "title": "Plot two histograms together",
+            "number": "061",
+            "start": 0.0,
+            "end": 21.4,
+            "text": "I'm back again, this time with a really small segment. We need to plot two histograms. So first, we read the values for two stocks. We get data for two stocks, which is SPY and XORM. We also go ahead and compute daily returns for each of the stock."
+        },
+        {
+            "title": "Plot two histograms together",
+            "number": "061",
+            "start": 21.4,
+            "end": 37.6,
+            "text": "Note that our daily return data frame will have daily return values for each of the stock prices. Now like before, we just call histogram function on the daily return data frame. And let's see what happens. We keep the bins count to be 20."
+        },
+        {
+            "title": "Plot two histograms together",
+            "number": "061",
+            "start": 37.6,
+            "end": 55.7,
+            "text": "Now let's run this. Okay, so we got two subplots. But we go ahead one step and plot them on the same x and y axis. So that we can compare the histogram of SPY and XORM. To get two histograms on the same x and y axis,"
+        },
+        {
+            "title": "Plot two histograms together",
+            "number": "061",
+            "start": 55.7,
+            "end": 72.4,
+            "text": "we call the histogram function separately on each of the stocks daily return values. We also add the label parameter so that we can differentiate between the histogram of the SPY and XORM. Now let's run this. Here we go."
+        },
+        {
+            "title": "Plot two histograms together",
+            "number": "061",
+            "start": 72.4,
+            "end": 90.8,
+            "text": "We get two histogram of SPY and XORM on the same x and y axis. Now you can compare the histogram and see that the tails of XORM is thin as compared to the SPY. That's it for this coding segment. I will be back soon. Over to you professor."
+        }
+    ]
+}

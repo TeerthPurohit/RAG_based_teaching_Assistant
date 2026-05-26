@@ -1,0 +1,75 @@
+{
+    "chunks": [
+        {
+            "number": "105",
+            "title": "Overview",
+            "start": 0.0,
+            "end": 3.0,
+            "text": "I'd like to show you this cool machine I have."
+        },
+        {
+            "number": "105",
+            "title": "Overview",
+            "start": 3.0,
+            "end": 6.0,
+            "text": "In fact, it's one of my most prized possessions"
+        },
+        {
+            "number": "105",
+            "title": "Overview",
+            "start": 6.0,
+            "end": 9.0,
+            "text": "that my great uncle gave to me before he passed away."
+        },
+        {
+            "number": "105",
+            "title": "Overview",
+            "start": 11.0,
+            "end": 17.0,
+            "text": "Let's pretend that this machine represents a company"
+        },
+        {
+            "number": "105",
+            "title": "Overview",
+            "start": 17.0,
+            "end": 20.0,
+            "text": "and that I'm the CEO of that company."
+        },
+        {
+            "number": "105",
+            "title": "Overview",
+            "start": 20.0,
+            "end": 24.0,
+            "text": "This company can take raw materials like this paper"
+        },
+        {
+            "number": "105",
+            "title": "Overview",
+            "start": 24.0,
+            "end": 28.0,
+            "text": "and process them and turn them into dollars."
+        },
+        {
+            "number": "105",
+            "title": "Overview",
+            "start": 28.0,
+            "end": 30.0,
+            "text": "Here's how it works."
+        },
+        {
+            "number": "105",
+            "title": "Overview",
+            "start": 34.0,
+            "end": 41.0,
+            "text": "So each year this company can output a dollar bill reliably."
+        },
+        {
+            "number": "105",
+            "title": "Overview",
+            "start": 41.0,
+            "end": 44.0,
+            "text": "What is this company worth?"
+        }
+    ],
+    "text": "I'd like to show you this cool machine I have. In fact, it's one of my most prized possessions that my great uncle gave to me before he passed away. Let's pretend that this machine represents a company and that I'm the CEO of that company. This company can take raw materials like this paper and process them and turn them into dollars. Here's how it works. So each year this company can output a dollar bill reliably. What is this company worth?"
+}

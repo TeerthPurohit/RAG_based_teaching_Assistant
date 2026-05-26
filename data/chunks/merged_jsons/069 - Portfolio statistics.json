@@ -1,0 +1,48 @@
+{
+    "title": "Portfolio statistics",
+    "number": "069",
+    "chunks": [
+        {
+            "title": "Portfolio statistics",
+            "number": "069",
+            "start": 0.4,
+            "end": 20.1,
+            "text": "We showed a moment ago how to go from prices to port val, which is the daily total value of the portfolio. Now that we have port val, we can compute a number of important statistics on the portfolio and thus assess the portfolio and the investment style of whoever's managing that portfolio."
+        },
+        {
+            "title": "Portfolio statistics",
+            "number": "069",
+            "start": 21.2,
+            "end": 41.8,
+            "text": "An important first calculation is to compute daily returns. We've talked about how to do that before, so I won't go over it here. But an important observation is whenever you compute daily returns, the first value is always going to be zero. And that's because on the first day, of course, there's no change."
+        },
+        {
+            "title": "Portfolio statistics",
+            "number": "069",
+            "start": 41.8,
+            "end": 65.1,
+            "text": "So we want to exclude that value from any calculations we do across all daily returns. It's easy to accomplish this with a simple Python statement, which is just to replace daily returns with daily returns where we just include the second row forward. And boom, we're rid of that first zero."
+        },
+        {
+            "title": "Portfolio statistics",
+            "number": "069",
+            "start": 65.1,
+            "end": 89.2,
+            "text": "Now that we have this information, we can compute four key statistics that everybody wants to know about regarding the performance of a portfolio. They are cumulative return, average daily return, standard deviation of daily return, and sharp ratio. Accumulative return is just a measure of how much the value of the portfolio has gone up from the beginning to the end."
+        },
+        {
+            "title": "Portfolio statistics",
+            "number": "069",
+            "start": 89.2,
+            "end": 111.3,
+            "text": "So to calculate that, we take the last val, which is port val of minus one, which is this one, divide it by the beginning, and subtract one. Average daily return is just the average of these numbers. So we just take the mean, very simple. And standard deviation of daily return, again, simple."
+        },
+        {
+            "title": "Portfolio statistics",
+            "number": "069",
+            "start": 111.3,
+            "end": 122.3,
+            "text": "Just use the standard deviation function right there. Now, sharp ratio is a little bit more complex than these other ones. So we're going to spend a little bit more time diving into sharp ratio."
+        }
+    ]
+}

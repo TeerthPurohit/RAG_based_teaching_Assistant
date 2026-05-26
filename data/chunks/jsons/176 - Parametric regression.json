@@ -1,0 +1,425 @@
+{
+    "chunks": [
+        {
+            "number": "176",
+            "title": "Parametric regression",
+            "start": 0.2,
+            "end": 3.3,
+            "text": "I'm going to start with parametric regression, which is a way of building a"
+        },
+        {
+            "number": "176",
+            "title": "Parametric regression",
+            "start": 3.3,
+            "end": 8.1,
+            "text": "model where we represent the model with a number of parameters."
+        },
+        {
+            "number": "176",
+            "title": "Parametric regression",
+            "start": 8.1,
+            "end": 10.0,
+            "text": "Let's start with a simple example."
+        },
+        {
+            "number": "176",
+            "title": "Parametric regression",
+            "start": 10.0,
+            "end": 15.1,
+            "text": "Suppose we want to build a model that will predict how much it will rain today"
+        },
+        {
+            "number": "176",
+            "title": "Parametric regression",
+            "start": 15.1,
+            "end": 18.1,
+            "text": "based on changes in barometric pressure."
+        },
+        {
+            "number": "176",
+            "title": "Parametric regression",
+            "start": 18.1,
+            "end": 23.2,
+            "text": "So as you may know, if barometric pressure declines,"
+        },
+        {
+            "number": "176",
+            "title": "Parametric regression",
+            "start": 23.2,
+            "end": 27.0,
+            "text": "that usually means there's bad weather coming and it's going to rain."
+        },
+        {
+            "number": "176",
+            "title": "Parametric regression",
+            "start": 27.0,
+            "end": 32.7,
+            "text": "And when barometric pressure increases, it typically means that we've got good"
+        },
+        {
+            "number": "176",
+            "title": "Parametric regression",
+            "start": 32.7,
+            "end": 33.9,
+            "text": "weather coming."
+        },
+        {
+            "number": "176",
+            "title": "Parametric regression",
+            "start": 33.9,
+            "end": 38.1,
+            "text": "So on this scatter plot, each individual point represents one day."
+        },
+        {
+            "number": "176",
+            "title": "Parametric regression",
+            "start": 38.1,
+            "end": 41.6,
+            "text": "So let's consider a particular day, say here."
+        },
+        {
+            "number": "176",
+            "title": "Parametric regression",
+            "start": 43.0,
+            "end": 48.6,
+            "text": "And what this means is that on this day, the barometric pressure decreased by"
+        },
+        {
+            "number": "176",
+            "title": "Parametric regression",
+            "start": 48.6,
+            "end": 54.7,
+            "text": "10 millimeters and we had 50 millimeters of rain, about two inches."
+        },
+        {
+            "number": "176",
+            "title": "Parametric regression",
+            "start": 54.7,
+            "end": 58.9,
+            "text": "So let's consider that over time we collect data for many different days."
+        },
+        {
+            "number": "176",
+            "title": "Parametric regression",
+            "start": 58.9,
+            "end": 60.7,
+            "text": "And that's what this looks like."
+        },
+        {
+            "number": "176",
+            "title": "Parametric regression",
+            "start": 60.7,
+            "end": 64.7,
+            "text": "So again, each one of these dots represents one day's worth of data."
+        },
+        {
+            "number": "176",
+            "title": "Parametric regression",
+            "start": 64.7,
+            "end": 67.6,
+            "text": "And we have multiple days worth of data here."
+        },
+        {
+            "number": "176",
+            "title": "Parametric regression",
+            "start": 67.6,
+            "end": 73.6,
+            "text": "And as you can see, there's a general trend of as barometric pressure decreases,"
+        },
+        {
+            "number": "176",
+            "title": "Parametric regression",
+            "start": 73.6,
+            "end": 75.5,
+            "text": "we typically have more rain."
+        },
+        {
+            "number": "176",
+            "title": "Parametric regression",
+            "start": 75.5,
+            "end": 78.0,
+            "text": "And as it increases, we have less rain."
+        },
+        {
+            "number": "176",
+            "title": "Parametric regression",
+            "start": 78.0,
+            "end": 82.9,
+            "text": "We'd like to create a model based on this data that when we query it at any"
+        },
+        {
+            "number": "176",
+            "title": "Parametric regression",
+            "start": 82.9,
+            "end": 86.8,
+            "text": "particular point, it'll give us a prediction of how much is going to rain."
+        },
+        {
+            "number": "176",
+            "title": "Parametric regression",
+            "start": 86.8,
+            "end": 89.4,
+            "text": "So we would measure barometric pressure or"
+        },
+        {
+            "number": "176",
+            "title": "Parametric regression",
+            "start": 89.4,
+            "end": 92.9,
+            "text": "its change and then estimate how much is going to rain."
+        },
+        {
+            "number": "176",
+            "title": "Parametric regression",
+            "start": 92.9,
+            "end": 97.1,
+            "text": "The classic solution to this problem is to fit a line to the data."
+        },
+        {
+            "number": "176",
+            "title": "Parametric regression",
+            "start": 97.1,
+            "end": 98.8,
+            "text": "So let's give that a shot."
+        },
+        {
+            "number": "176",
+            "title": "Parametric regression",
+            "start": 98.8,
+            "end": 102.0,
+            "text": "As you probably know, this approach is called linear regression."
+        },
+        {
+            "number": "176",
+            "title": "Parametric regression",
+            "start": 102.0,
+            "end": 105.1,
+            "text": "And the model looks like this."
+        },
+        {
+            "number": "176",
+            "title": "Parametric regression",
+            "start": 105.1,
+            "end": 110.2,
+            "text": "So if you remember from algebra in elementary school or high school,"
+        },
+        {
+            "number": "176",
+            "title": "Parametric regression",
+            "start": 110.2,
+            "end": 116.0,
+            "text": "wherever you got it, the equation for a line is simply y equals mx plus b."
+        },
+        {
+            "number": "176",
+            "title": "Parametric regression",
+            "start": 116.0,
+            "end": 122.3,
+            "text": "So x is our barometric pressure change variable here."
+        },
+        {
+            "number": "176",
+            "title": "Parametric regression",
+            "start": 122.3,
+            "end": 128.0,
+            "text": "And m and b are the parameters of our model."
+        },
+        {
+            "number": "176",
+            "title": "Parametric regression",
+            "start": 128.0,
+            "end": 132.4,
+            "text": "Our model now is fully described by these two parameters."
+        },
+        {
+            "number": "176",
+            "title": "Parametric regression",
+            "start": 132.4,
+            "end": 137.3,
+            "text": "And if we want to estimate or query how much it's going to rain at any particular"
+        },
+        {
+            "number": "176",
+            "title": "Parametric regression",
+            "start": 137.3,
+            "end": 140.6,
+            "text": "point, we measure the barometric pressure."
+        },
+        {
+            "number": "176",
+            "title": "Parametric regression",
+            "start": 140.6,
+            "end": 146.5,
+            "text": "Let's say the barometric pressure today increased by 5."
+        },
+        {
+            "number": "176",
+            "title": "Parametric regression",
+            "start": 146.5,
+            "end": 155.4,
+            "text": "We would then plug that 5 into our model here and multiply it by m and add b."
+        },
+        {
+            "number": "176",
+            "title": "Parametric regression",
+            "start": 155.4,
+            "end": 158.8,
+            "text": "And that's our estimate for that day of how much it's going to rain."
+        },
+        {
+            "number": "176",
+            "title": "Parametric regression",
+            "start": 158.8,
+            "end": 165.5,
+            "text": "And the linear regression approach is how we arrive at m and b."
+        },
+        {
+            "number": "176",
+            "title": "Parametric regression",
+            "start": 165.5,
+            "end": 172.3,
+            "text": "This model is decent, but it doesn't track the actual behavior of the data,"
+        },
+        {
+            "number": "176",
+            "title": "Parametric regression",
+            "start": 172.3,
+            "end": 175.9,
+            "text": "for instance, in this region and in this region."
+        },
+        {
+            "number": "176",
+            "title": "Parametric regression",
+            "start": 175.9,
+            "end": 178.3,
+            "text": "So we can make a more complex model."
+        },
+        {
+            "number": "176",
+            "title": "Parametric regression",
+            "start": 178.3,
+            "end": 181.3,
+            "text": "Instead of fitting a line, we can fit a polynomial."
+        },
+        {
+            "number": "176",
+            "title": "Parametric regression",
+            "start": 181.3,
+            "end": 185.1,
+            "text": "We can add one more term, x squared."
+        },
+        {
+            "number": "176",
+            "title": "Parametric regression",
+            "start": 185.1,
+            "end": 189.9,
+            "text": "And now we've got to also find this additional parameter, m2."
+        },
+        {
+            "number": "176",
+            "title": "Parametric regression",
+            "start": 189.9,
+            "end": 196.3,
+            "text": "So when we find our model, it's now represented by three parameters, m, m2, and b."
+        },
+        {
+            "number": "176",
+            "title": "Parametric regression",
+            "start": 196.3,
+            "end": 199.6,
+            "text": "This polynomial model will look something like this."
+        },
+        {
+            "number": "176",
+            "title": "Parametric regression",
+            "start": 199.6,
+            "end": 203.7,
+            "text": "It fits the data pretty well over here, but not so well over here."
+        },
+        {
+            "number": "176",
+            "title": "Parametric regression",
+            "start": 203.7,
+            "end": 205.3,
+            "text": "Now we can add more terms."
+        },
+        {
+            "number": "176",
+            "title": "Parametric regression",
+            "start": 205.3,
+            "end": 211.3,
+            "text": "We can fit an x cubed term and have another parameter and so on."
+        },
+        {
+            "number": "176",
+            "title": "Parametric regression",
+            "start": 211.3,
+            "end": 218.4,
+            "text": "In general, these parametric approaches come away with a number of parameters."
+        },
+        {
+            "number": "176",
+            "title": "Parametric regression",
+            "start": 218.4,
+            "end": 221.5,
+            "text": "And the more complex the model, the more parameters."
+        },
+        {
+            "number": "176",
+            "title": "Parametric regression",
+            "start": 221.5,
+            "end": 225.4,
+            "text": "Still, you know, three parameters is a pretty simple model."
+        },
+        {
+            "number": "176",
+            "title": "Parametric regression",
+            "start": 225.4,
+            "end": 229.8,
+            "text": "All of these models, whether it's linear with just mx plus b or"
+        },
+        {
+            "number": "176",
+            "title": "Parametric regression",
+            "start": 229.8,
+            "end": 235.7,
+            "text": "polynomial with a cubed or a squared term, are parametric models."
+        },
+        {
+            "number": "176",
+            "title": "Parametric regression",
+            "start": 235.7,
+            "end": 239.7,
+            "text": "In the end, after we learn these models, we have our parameters."
+        },
+        {
+            "number": "176",
+            "title": "Parametric regression",
+            "start": 239.7,
+            "end": 243.5,
+            "text": "In this case, m2, m, and b."
+        },
+        {
+            "number": "176",
+            "title": "Parametric regression",
+            "start": 243.5,
+            "end": 245.3,
+            "text": "And we throw away the data, and"
+        },
+        {
+            "number": "176",
+            "title": "Parametric regression",
+            "start": 245.3,
+            "end": 248.5,
+            "text": "the model is represented just by these three parameters."
+        },
+        {
+            "number": "176",
+            "title": "Parametric regression",
+            "start": 248.5,
+            "end": 251.1,
+            "text": "But there's another way to approach it, and I'll show you that next."
+        }
+    ],
+    "text": "I'm going to start with parametric regression, which is a way of building a model where we represent the model with a number of parameters. Let's start with a simple example. Suppose we want to build a model that will predict how much it will rain today based on changes in barometric pressure. So as you may know, if barometric pressure declines, that usually means there's bad weather coming and it's going to rain. And when barometric pressure increases, it typically means that we've got good weather coming. So on this scatter plot, each individual point represents one day. So let's consider a particular day, say here. And what this means is that on this day, the barometric pressure decreased by 10 millimeters and we had 50 millimeters of rain, about two inches. So let's consider that over time we collect data for many different days. And that's what this looks like. So again, each one of these dots represents one day's worth of data. And we have multiple days worth of data here. And as you can see, there's a general trend of as barometric pressure decreases, we typically have more rain. And as it increases, we have less rain. We'd like to create a model based on this data that when we query it at any particular point, it'll give us a prediction of how much is going to rain. So we would measure barometric pressure or its change and then estimate how much is going to rain. The classic solution to this problem is to fit a line to the data. So let's give that a shot. As you probably know, this approach is called linear regression. And the model looks like this. So if you remember from algebra in elementary school or high school, wherever you got it, the equation for a line is simply y equals mx plus b. So x is our barometric pressure change variable here. And m and b are the parameters of our model. Our model now is fully described by these two parameters. And if we want to estimate or query how much it's going to rain at any particular point, we measure the barometric pressure. Let's say the barometric pressure today increased by 5. We would then plug that 5 into our model here and multiply it by m and add b. And that's our estimate for that day of how much it's going to rain. And the linear regression approach is how we arrive at m and b. This model is decent, but it doesn't track the actual behavior of the data, for instance, in this region and in this region. So we can make a more complex model. Instead of fitting a line, we can fit a polynomial. We can add one more term, x squared. And now we've got to also find this additional parameter, m2. So when we find our model, it's now represented by three parameters, m, m2, and b. This polynomial model will look something like this. It fits the data pretty well over here, but not so well over here. Now we can add more terms. We can fit an x cubed term and have another parameter and so on. In general, these parametric approaches come away with a number of parameters. And the more complex the model, the more parameters. Still, you know, three parameters is a pretty simple model. All of these models, whether it's linear with just mx plus b or polynomial with a cubed or a squared term, are parametric models. In the end, after we learn these models, we have our parameters. In this case, m2, m, and b. And we throw away the data, and the model is represented just by these three parameters. But there's another way to approach it, and I'll show you that next."
+}

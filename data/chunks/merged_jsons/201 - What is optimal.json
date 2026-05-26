@@ -1,0 +1,125 @@
+{
+    "title": "What is optimal",
+    "number": "201",
+    "chunks": [
+        {
+            "title": "What is optimal",
+            "number": "201",
+            "start": 0.3,
+            "end": 18.6,
+            "text": "We didn't go into enough detail about what it is we're trying to optimize here. I just said something vague like we want to maximize the sum of our reward. Well, it's not so simple. In fact, here's a great story to illustrate that. There's a great Russian comedian, Yakov Smirnoff,"
+        },
+        {
+            "title": "What is optimal",
+            "number": "201",
+            "start": 18.6,
+            "end": 45.8,
+            "text": "you may remember him or not, but he told this joke once that I really loved. He said, have you heard about the Soviet lottery? It's a million rubles if you win, one ruble a year for a million years. So the point is, and if you recall from one of our earlier lessons, that one dollar or one ruble delivered to us a million years in the future"
+        },
+        {
+            "title": "What is optimal",
+            "number": "201",
+            "start": 45.8,
+            "end": 69.8,
+            "text": "is really not as valuable as a dollar or ruble that we get now. And so, for instance, if we think about our robot living forever, it might do something just mundane to gather a dollar a year. That's an infinite amount of money, but in practice, it doesn't really work that well. So to consider that and illustrate that, I'm going to show you a little maze problem here,"
+        },
+        {
+            "title": "What is optimal",
+            "number": "201",
+            "start": 69.8,
+            "end": 96.1,
+            "text": "and we'll think about what the robot ought to do that would be optimal in this maze. So here's our robot, and here's the challenge for our robot. We have a reward here of one dollar, and a reward over here of one million dollars. So if the robot comes over here and gets this one dollar, it's special in that each time he touches it, he gets the dollar, and it goes away, but then it comes back."
+        },
+        {
+            "title": "What is optimal",
+            "number": "201",
+            "start": 96.1,
+            "end": 120.6,
+            "text": "So the robot could come here and go back and forth and get a dollar each time it moves here. And this one, once the robot tags it, it's gone. But clearly it's worthwhile to come over here and grab it. Now this red area is obstacle, it can't go there. And here I wrote some rewards that the robot, and in fact negative one is a penalty,"
+        },
+        {
+            "title": "What is optimal",
+            "number": "201",
+            "start": 120.6,
+            "end": 145.9,
+            "text": "but the penalties the robot would get as it went this way, and zero penalty that way. Now if we say that what we want to optimize is the sum of all future rewards, then it doesn't matter whether we go this way and just get that dollar over and over and over again, or if we go this way, get the million dollars, come back, and then get that one dollar over and over and over again."
+        },
+        {
+            "title": "What is optimal",
+            "number": "201",
+            "start": 145.9,
+            "end": 166.7,
+            "text": "There's no difference because they both sum to infinity over time. Now what if we say, okay, I want to optimize my reward over three moves. So I've got a finite horizon. Let's consider the rewards we'd get with a finite horizon of three if we go this way versus this way."
+        },
+        {
+            "title": "What is optimal",
+            "number": "201",
+            "start": 166.7,
+            "end": 192.7,
+            "text": "So if we go this way, we're going to get rewards of negative one, negative one, negative one. And if we go this way, we get zero, one dollar, and then we have to move down here and get another zero. So clearly, starting here with a finite horizon of three, the best thing to do is go up there."
+        },
+        {
+            "title": "What is optimal",
+            "number": "201",
+            "start": 192.7,
+            "end": 210.1,
+            "text": "Now if we extend the horizon a little bit further, say out to eight, we would find that this is the best thing to do. So if we go this way, we get negative one, negative one, negative one, until we hit the jackpot here and get a million. Clearly if you sum this up, it's a pretty good prize."
+        },
+        {
+            "title": "What is optimal",
+            "number": "201",
+            "start": 210.1,
+            "end": 235.1,
+            "text": "If we go this way and touch that one dollar over and over again, we get this. So clearly as we expand our finite horizon trivially out to, say, eight steps, going this way and tagging that one million is the best thing to do. If we carried it even further, we'd discover that then we should come back this way and go to that dollar and tag it over and over and over again."
+        },
+        {
+            "title": "What is optimal",
+            "number": "201",
+            "start": 235.1,
+            "end": 255.1,
+            "text": "Let me formalize these a little bit. With the infinite horizon, what we're trying to maximize is the sum of all rewards over all of the future. So it's the sum of each of these rewards for i equals one to infinity. The finite horizon is very similar, it's just we don't go to infinity."
+        },
+        {
+            "title": "What is optimal",
+            "number": "201",
+            "start": 255.1,
+            "end": 282.2,
+            "text": "So for optimizing over a horizon of four steps, n would be four. We're just trying to maximize the sum of the reward for the next four steps. Now there is yet another formulation that if you think back to that lecture a while back about what's the value of a future dollar, we can dig that up and it makes a lot of sense in terms of reinforcement learning."
+        },
+        {
+            "title": "What is optimal",
+            "number": "201",
+            "start": 282.2,
+            "end": 304.8,
+            "text": "So remember that if it takes us say four years to get a dollar, that dollar is less valuable than say if it takes one year. And in the same way if it takes say eight steps to make a dollar, that dollar is less valuable than a dollar I can get just in one step. And the way we represent that is very simple."
+        },
+        {
+            "title": "What is optimal",
+            "number": "201",
+            "start": 304.8,
+            "end": 330.4,
+            "text": "Just like we represented the sum of future dividends and it looks like this. It's called discounted reward. So instead of just summing up the r sub i's, we multiply it by this factor gamma to the i minus one such that our immediate reward, the very next one we get, whatever gamma is when it gets raised to the zeroth power, it's just one."
+        },
+        {
+            "title": "What is optimal",
+            "number": "201",
+            "start": 330.4,
+            "end": 353.7,
+            "text": "So that means for our very next step we get r. But for the step after it, it's gamma to the one. So it devalues that reward a little bit. Gamma is a value between zero and one. The closer it is to one, the more we value rewards in the future."
+        },
+        {
+            "title": "What is optimal",
+            "number": "201",
+            "start": 353.7,
+            "end": 380.1,
+            "text": "The closer it is to zero, the less we value rewards in the future. In fact, if gamma is set equal to one, this is exactly the same as the infinite horizon. But gamma relates very strongly to interest rates, if you recall. So if say gamma were 0.95, it means each step in the future is worth about 5% less than the immediate reward if we got it right away."
+        },
+        {
+            "title": "What is optimal",
+            "number": "201",
+            "start": 380.1,
+            "end": 391.3,
+            "text": "This is the method that we use in Q-learning. One reason is that the math turns out to be very handy and it provides nice convergent properties."
+        }
+    ]
+}

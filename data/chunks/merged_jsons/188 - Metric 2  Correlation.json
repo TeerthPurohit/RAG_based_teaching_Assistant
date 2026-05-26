@@ -1,0 +1,48 @@
+{
+    "title": "Metric 2  Correlation",
+    "number": "188",
+    "chunks": [
+        {
+            "title": "Metric 2  Correlation",
+            "number": "188",
+            "start": 0.2,
+            "end": 17.5,
+            "text": "Another way to visualize and evaluate the accuracy of a regression algorithm is to look at the relationship between predicted and actual values of our dependent variable y. Here's what I mean. Query our model, the one that we trained on training data,"
+        },
+        {
+            "title": "Metric 2  Correlation",
+            "number": "188",
+            "start": 17.5,
+            "end": 41.5,
+            "text": "with x test, our testing data set. The output of that query is a new vector of y values, y predict. So based on this x test data, our model predicts this y predict data. We can now compare what we know to be the correct or true data in y test with what our prediction was."
+        },
+        {
+            "title": "Metric 2  Correlation",
+            "number": "188",
+            "start": 41.5,
+            "end": 65.9,
+            "text": "So this pair would appear somewhere on this chart, say here. So its value along the horizontal axis here is what the prediction was, and along the vertical axis was what the ground truth is. So we can plot these pairs all the way through our data. Now if this scatter plot is arranged in approximately a nice line like this,"
+        },
+        {
+            "title": "Metric 2  Correlation",
+            "number": "188",
+            "start": 65.9,
+            "end": 88.4,
+            "text": "that means we've got a pretty good prediction algorithm. On the other hand, if they're not aligned so well, and they look sort of like a shotgun blast, our learner is not so good. We can measure this property quantitatively using something called correlation. You can use the numpy function core coif to measure the correlation"
+        },
+        {
+            "title": "Metric 2  Correlation",
+            "number": "188",
+            "start": 88.4,
+            "end": 108.0,
+            "text": "between y test and y predict. You'll get an answer somewhere between negative 1 and positive 1, where positive 1 means they're strongly correlated. Negative 1 means they're inversely correlated. And 0 means there's essentially no correlation at all between them."
+        },
+        {
+            "title": "Metric 2  Correlation",
+            "number": "188",
+            "start": 108.0,
+            "end": 133.5,
+            "text": "One thing to point out here is that correlation isn't the slope of this line. Lots of people think that's what it is. Correlation has to do with how well aligned the points are with the line that we fit. So if it's a nice oval that fits close to that line, we usually have a high correlation. If it's a big round thing, we've got poor correlation."
+        }
+    ]
+}

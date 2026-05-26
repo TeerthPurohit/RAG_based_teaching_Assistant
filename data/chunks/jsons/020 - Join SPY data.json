@@ -1,0 +1,481 @@
+{
+    "chunks": [
+        {
+            "number": "020",
+            "title": "Join SPY data",
+            "start": 0.7,
+            "end": 5.7,
+            "text": "Continuing on, let's read the CSV file for SPY."
+        },
+        {
+            "number": "020",
+            "title": "Join SPY data",
+            "start": 5.7,
+            "end": 9.5,
+            "text": "In DFSpy, a temporary data frame."
+        },
+        {
+            "number": "020",
+            "title": "Join SPY data",
+            "start": 9.5,
+            "end": 13.0,
+            "text": "The next step is the heart of building the final data frame."
+        },
+        {
+            "number": "020",
+            "title": "Join SPY data",
+            "start": 13.0,
+            "end": 15.6,
+            "text": "We combine the empty data frame,"
+        },
+        {
+            "number": "020",
+            "title": "Join SPY data",
+            "start": 15.6,
+            "end": 19.7,
+            "text": "DF1, with the temporary data frame, DFSpy."
+        },
+        {
+            "number": "020",
+            "title": "Join SPY data",
+            "start": 19.7,
+            "end": 23.4,
+            "text": "We use the join function of the data frame for this purpose."
+        },
+        {
+            "number": "020",
+            "title": "Join SPY data",
+            "start": 23.4,
+            "end": 24.9,
+            "text": "Let's do it."
+        },
+        {
+            "number": "020",
+            "title": "Join SPY data",
+            "start": 24.9,
+            "end": 29.0,
+            "text": "DataFrame.join does a left join by default."
+        },
+        {
+            "number": "020",
+            "title": "Join SPY data",
+            "start": 29.0,
+            "end": 34.5,
+            "text": "So if we write a.join b, it will retain all the rows from a,"
+        },
+        {
+            "number": "020",
+            "title": "Join SPY data",
+            "start": 34.5,
+            "end": 40.4,
+            "text": "but only those rows from b whose index values are present in a's index."
+        },
+        {
+            "number": "020",
+            "title": "Join SPY data",
+            "start": 40.4,
+            "end": 45.5,
+            "text": "For the remaining rows, that is the index values not present in b,"
+        },
+        {
+            "number": "020",
+            "title": "Join SPY data",
+            "start": 45.5,
+            "end": 48.0,
+            "text": "pandas introduce nans."
+        },
+        {
+            "number": "020",
+            "title": "Join SPY data",
+            "start": 48.0,
+            "end": 53.2,
+            "text": "So in this case, all the rows from the DF1 will be retained."
+        },
+        {
+            "number": "020",
+            "title": "Join SPY data",
+            "start": 53.2,
+            "end": 55.1,
+            "text": "And we will get all the values for"
+        },
+        {
+            "number": "020",
+            "title": "Join SPY data",
+            "start": 55.1,
+            "end": 60.4,
+            "text": "the prices from DFSpy for the given range we defined above."
+        },
+        {
+            "number": "020",
+            "title": "Join SPY data",
+            "start": 60.4,
+            "end": 65.1,
+            "text": "So in our case, all the rows from the DF1 would be retained."
+        },
+        {
+            "number": "020",
+            "title": "Join SPY data",
+            "start": 65.1,
+            "end": 71.0,
+            "text": "And only those rows of DFSpy, which is present in DF1, will be retained."
+        },
+        {
+            "number": "020",
+            "title": "Join SPY data",
+            "start": 71.0,
+            "end": 73.6,
+            "text": "This will give us all the prices for"
+        },
+        {
+            "number": "020",
+            "title": "Join SPY data",
+            "start": 73.6,
+            "end": 77.7,
+            "text": "the stock SPY in the defined date range."
+        },
+        {
+            "number": "020",
+            "title": "Join SPY data",
+            "start": 77.7,
+            "end": 82.8,
+            "text": "Let's use print DF1 after the join step to make it clear."
+        },
+        {
+            "number": "020",
+            "title": "Join SPY data",
+            "start": 82.8,
+            "end": 87.8,
+            "text": "You should expect to see all the values of SPY for the given dates."
+        },
+        {
+            "number": "020",
+            "title": "Join SPY data",
+            "start": 87.8,
+            "end": 89.2,
+            "text": "Observe the output."
+        },
+        {
+            "number": "020",
+            "title": "Join SPY data",
+            "start": 89.2,
+            "end": 92.6,
+            "text": "We did not get any values from the DFSPY."
+        },
+        {
+            "number": "020",
+            "title": "Join SPY data",
+            "start": 92.6,
+            "end": 93.3,
+            "text": "What do you think?"
+        },
+        {
+            "number": "020",
+            "title": "Join SPY data",
+            "start": 93.3,
+            "end": 95.4,
+            "text": "What could be the reason?"
+        },
+        {
+            "number": "020",
+            "title": "Join SPY data",
+            "start": 95.4,
+            "end": 101.1,
+            "text": "Let's print DFSPY to investigate, commenting out the join lines."
+        },
+        {
+            "number": "020",
+            "title": "Join SPY data",
+            "start": 101.1,
+            "end": 103.5,
+            "text": "So let's see what DFSPY has."
+        },
+        {
+            "number": "020",
+            "title": "Join SPY data",
+            "start": 105.0,
+            "end": 108.9,
+            "text": "We told pandas to join DF1 and DFSPY."
+        },
+        {
+            "number": "020",
+            "title": "Join SPY data",
+            "start": 108.9,
+            "end": 113.6,
+            "text": "But DFSPY has an index of integers,"
+        },
+        {
+            "number": "020",
+            "title": "Join SPY data",
+            "start": 113.6,
+            "end": 117.3,
+            "text": "which is not the same as the dates index that DF1 uses."
+        },
+        {
+            "number": "020",
+            "title": "Join SPY data",
+            "start": 118.4,
+            "end": 124.3,
+            "text": "We fix this by informing the read CSV function that the date column in the CSV file"
+        },
+        {
+            "number": "020",
+            "title": "Join SPY data",
+            "start": 124.3,
+            "end": 126.6,
+            "text": "should be used as index."
+        },
+        {
+            "number": "020",
+            "title": "Join SPY data",
+            "start": 126.6,
+            "end": 129.7,
+            "text": "We do this by using the index call parameter."
+        },
+        {
+            "number": "020",
+            "title": "Join SPY data",
+            "start": 129.7,
+            "end": 132.6,
+            "text": "Make sure you give the correct column name."
+        },
+        {
+            "number": "020",
+            "title": "Join SPY data",
+            "start": 132.6,
+            "end": 137.0,
+            "text": "We also want the dates present in the data frame to be converted into date,"
+        },
+        {
+            "number": "020",
+            "title": "Join SPY data",
+            "start": 137.0,
+            "end": 138.9,
+            "text": "time, index objects."
+        },
+        {
+            "number": "020",
+            "title": "Join SPY data",
+            "start": 138.9,
+            "end": 144.7,
+            "text": "This can be done by setting the value for the parseDates parameter to true."
+        },
+        {
+            "number": "020",
+            "title": "Join SPY data",
+            "start": 144.7,
+            "end": 146.7,
+            "text": "Let's see if this works."
+        },
+        {
+            "number": "020",
+            "title": "Join SPY data",
+            "start": 146.7,
+            "end": 151.1,
+            "text": "Notice that the date column is now being used as the index."
+        },
+        {
+            "number": "020",
+            "title": "Join SPY data",
+            "start": 151.1,
+            "end": 153.8,
+            "text": "There is no separate integer index on the left."
+        },
+        {
+            "number": "020",
+            "title": "Join SPY data",
+            "start": 154.9,
+            "end": 161.4,
+            "text": "Now let's see what the resulting join data frame looks like by uncommenting these lines."
+        },
+        {
+            "number": "020",
+            "title": "Join SPY data",
+            "start": 161.4,
+            "end": 167.2,
+            "text": "But before that, let's add some more parameters to the read CSV function."
+        },
+        {
+            "number": "020",
+            "title": "Join SPY data",
+            "start": 167.2,
+            "end": 170.0,
+            "text": "Note that we are interested in just two columns,"
+        },
+        {
+            "number": "020",
+            "title": "Join SPY data",
+            "start": 170.0,
+            "end": 172.8,
+            "text": "which is the date and the adjusted clause."
+        },
+        {
+            "number": "020",
+            "title": "Join SPY data",
+            "start": 172.8,
+            "end": 179.4,
+            "text": "We can get rid of the other columns by using the use call parameter of the read CSV."
+        },
+        {
+            "number": "020",
+            "title": "Join SPY data",
+            "start": 179.4,
+            "end": 185.8,
+            "text": "We pass a list of column name we are interested in, which are date and adjusted clause."
+        },
+        {
+            "number": "020",
+            "title": "Join SPY data",
+            "start": 185.8,
+            "end": 189.1,
+            "text": "Now let's see what's there in DF1."
+        },
+        {
+            "number": "020",
+            "title": "Join SPY data",
+            "start": 189.1,
+            "end": 195.1,
+            "text": "You see now we have just the adjusted clause for the SPY for a given date range."
+        },
+        {
+            "number": "020",
+            "title": "Join SPY data",
+            "start": 195.1,
+            "end": 199.0,
+            "text": "Also observe that weekend dates have NAN value."
+        },
+        {
+            "number": "020",
+            "title": "Join SPY data",
+            "start": 199.0,
+            "end": 205.5,
+            "text": "Before we go ahead, let's understand that CSV has NAN as string."
+        },
+        {
+            "number": "020",
+            "title": "Join SPY data",
+            "start": 205.5,
+            "end": 211.9,
+            "text": "So we need to tell the read CSV that NAN should be interpreted as not a number."
+        },
+        {
+            "number": "020",
+            "title": "Join SPY data",
+            "start": 211.9,
+            "end": 215.0,
+            "text": "This is how you indicate it."
+        },
+        {
+            "number": "020",
+            "title": "Join SPY data",
+            "start": 215.0,
+            "end": 216.5,
+            "text": "One last step."
+        },
+        {
+            "number": "020",
+            "title": "Join SPY data",
+            "start": 216.5,
+            "end": 219.7,
+            "text": "We just want the dates on which SPY traded."
+        },
+        {
+            "number": "020",
+            "title": "Join SPY data",
+            "start": 219.7,
+            "end": 223.2,
+            "text": "So we can add more stocks based on these dates."
+        },
+        {
+            "number": "020",
+            "title": "Join SPY data",
+            "start": 223.2,
+            "end": 226.4,
+            "text": "Let's drop the rows where SPY is NAN."
+        },
+        {
+            "number": "020",
+            "title": "Join SPY data",
+            "start": 226.4,
+            "end": 230.5,
+            "text": "For this, we use the dropNay function."
+        },
+        {
+            "number": "020",
+            "title": "Join SPY data",
+            "start": 230.5,
+            "end": 237.1,
+            "text": "DF1.dropNay will drop all the rows which has NAN values for the SPY."
+        },
+        {
+            "number": "020",
+            "title": "Join SPY data",
+            "start": 237.1,
+            "end": 239.4,
+            "text": "Let's go ahead and print this."
+        },
+        {
+            "number": "020",
+            "title": "Join SPY data",
+            "start": 239.4,
+            "end": 244.0,
+            "text": "Now we have built a clean data frame filled with SPY data."
+        },
+        {
+            "number": "020",
+            "title": "Join SPY data",
+            "start": 244.0,
+            "end": 249.3,
+            "text": "Using a selected date range and keeping only the dates that SPY traded on."
+        },
+        {
+            "number": "020",
+            "title": "Join SPY data",
+            "start": 249.3,
+            "end": 258.0,
+            "text": "side is of course a speed and the times we can download the login base down."
+        },
+        {
+            "number": "020",
+            "title": "Join SPY data",
+            "start": 258.0,
+            "end": 261.8,
+            "text": "Over the Ryanplate frame will drop it with VS SPY over trim."
+        },
+        {
+            "number": "020",
+            "title": "Join SPY data",
+            "start": 261.8,
+            "end": 262.8,
+            "text": "So that's nice!"
+        },
+        {
+            "number": "020",
+            "title": "Join SPY data",
+            "start": 262.8,
+            "end": 263.8,
+            "text": "Portra S quella parte Ok."
+        },
+        {
+            "number": "020",
+            "title": "Join SPY data",
+            "start": 263.8,
+            "end": 270.0,
+            "text": "So that's why we have talked about video videos or episode content,"
+        },
+        {
+            "number": "020",
+            "title": "Join SPY data",
+            "start": 270.0,
+            "end": 272.2,
+            "text": "includes collecting dropsosc boa casi."
+        },
+        {
+            "number": "020",
+            "title": "Join SPY data",
+            "start": 272.2,
+            "end": 276.8,
+            "text": "So save that list of tips for the present."
+        }
+    ],
+    "text": "Continuing on, let's read the CSV file for SPY. In DFSpy, a temporary data frame. The next step is the heart of building the final data frame. We combine the empty data frame, DF1, with the temporary data frame, DFSpy. We use the join function of the data frame for this purpose. Let's do it. DataFrame.join does a left join by default. So if we write a.join b, it will retain all the rows from a, but only those rows from b whose index values are present in a's index. For the remaining rows, that is the index values not present in b, pandas introduce nans. So in this case, all the rows from the DF1 will be retained. And we will get all the values for the prices from DFSpy for the given range we defined above. So in our case, all the rows from the DF1 would be retained. And only those rows of DFSpy, which is present in DF1, will be retained. This will give us all the prices for the stock SPY in the defined date range. Let's use print DF1 after the join step to make it clear. You should expect to see all the values of SPY for the given dates. Observe the output. We did not get any values from the DFSPY. What do you think? What could be the reason? Let's print DFSPY to investigate, commenting out the join lines. So let's see what DFSPY has. We told pandas to join DF1 and DFSPY. But DFSPY has an index of integers, which is not the same as the dates index that DF1 uses. We fix this by informing the read CSV function that the date column in the CSV file should be used as index. We do this by using the index call parameter. Make sure you give the correct column name. We also want the dates present in the data frame to be converted into date, time, index objects. This can be done by setting the value for the parseDates parameter to true. Let's see if this works. Notice that the date column is now being used as the index. There is no separate integer index on the left. Now let's see what the resulting join data frame looks like by uncommenting these lines. But before that, let's add some more parameters to the read CSV function. Note that we are interested in just two columns, which is the date and the adjusted clause. We can get rid of the other columns by using the use call parameter of the read CSV. We pass a list of column name we are interested in, which are date and adjusted clause. Now let's see what's there in DF1. You see now we have just the adjusted clause for the SPY for a given date range. Also observe that weekend dates have NAN value. Before we go ahead, let's understand that CSV has NAN as string. So we need to tell the read CSV that NAN should be interpreted as not a number. This is how you indicate it. One last step. We just want the dates on which SPY traded. So we can add more stocks based on these dates. Let's drop the rows where SPY is NAN. For this, we use the dropNay function. DF1.dropNay will drop all the rows which has NAN values for the SPY. Let's go ahead and print this. Now we have built a clean data frame filled with SPY data. Using a selected date range and keeping only the dates that SPY traded on. side is of course a speed and the times we can download the login base down. Over the Ryanplate frame will drop it with VS SPY over trim. So that's nice! Portra S quella parte Ok. So that's why we have talked about video videos or episode content, includes collecting dropsosc boa casi. So save that list of tips for the present."
+}

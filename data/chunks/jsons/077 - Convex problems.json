@@ -1,0 +1,306 @@
+{
+    "chunks": [
+        {
+            "number": "077",
+            "title": "Convex problems",
+            "start": 0.7,
+            "end": 5.9,
+            "text": "While we're on the topic of problems that are easy or hard for optimizers to"
+        },
+        {
+            "number": "077",
+            "title": "Convex problems",
+            "start": 5.9,
+            "end": 11.6,
+            "text": "solve, let's talk for a moment about a particular class of problems that are"
+        },
+        {
+            "number": "077",
+            "title": "Convex problems",
+            "start": 11.6,
+            "end": 16.9,
+            "text": "indeed the most easy for these types of algorithms to solve."
+        },
+        {
+            "number": "077",
+            "title": "Convex problems",
+            "start": 16.9,
+            "end": 19.8,
+            "text": "And those are called convex problems."
+        },
+        {
+            "number": "077",
+            "title": "Convex problems",
+            "start": 19.8,
+            "end": 23.2,
+            "text": "Here's the formal definition of a convex function."
+        },
+        {
+            "number": "077",
+            "title": "Convex problems",
+            "start": 23.2,
+            "end": 26.1,
+            "text": "I'm going to read it to you from Wikipedia, and"
+        },
+        {
+            "number": "077",
+            "title": "Convex problems",
+            "start": 26.1,
+            "end": 30.5,
+            "text": "then I'll show you what it means on these graphs here."
+        },
+        {
+            "number": "077",
+            "title": "Convex problems",
+            "start": 30.5,
+            "end": 35.0,
+            "text": "A real valued function, f of x, defined on an interval,"
+        },
+        {
+            "number": "077",
+            "title": "Convex problems",
+            "start": 35.0,
+            "end": 40.7,
+            "text": "is called convex if the line segment between any two points on the graph of"
+        },
+        {
+            "number": "077",
+            "title": "Convex problems",
+            "start": 40.7,
+            "end": 44.4,
+            "text": "the function lies above the graph."
+        },
+        {
+            "number": "077",
+            "title": "Convex problems",
+            "start": 44.4,
+            "end": 46.6,
+            "text": "Okay, a lot of words there."
+        },
+        {
+            "number": "077",
+            "title": "Convex problems",
+            "start": 46.6,
+            "end": 50.0,
+            "text": "Let me show you what that means more easily."
+        },
+        {
+            "number": "077",
+            "title": "Convex problems",
+            "start": 50.0,
+            "end": 54.2,
+            "text": "First step, choose two points and draw a line between them."
+        },
+        {
+            "number": "077",
+            "title": "Convex problems",
+            "start": 54.2,
+            "end": 58.9,
+            "text": "Now for each of these lines, if the line is above the graph,"
+        },
+        {
+            "number": "077",
+            "title": "Convex problems",
+            "start": 58.9,
+            "end": 64.7,
+            "text": "everywhere between those two points, then the function is convex between those points."
+        },
+        {
+            "number": "077",
+            "title": "Convex problems",
+            "start": 64.7,
+            "end": 67.0,
+            "text": "So for this function, yes,"
+        },
+        {
+            "number": "077",
+            "title": "Convex problems",
+            "start": 67.0,
+            "end": 71.6,
+            "text": "it's convex because the line is above the graph everywhere."
+        },
+        {
+            "number": "077",
+            "title": "Convex problems",
+            "start": 71.6,
+            "end": 78.0,
+            "text": "In fact, any two points you choose on this graph will have that property."
+        },
+        {
+            "number": "077",
+            "title": "Convex problems",
+            "start": 78.0,
+            "end": 83.6,
+            "text": "So this function is convex everywhere, at least where we're looking at it."
+        },
+        {
+            "number": "077",
+            "title": "Convex problems",
+            "start": 83.6,
+            "end": 89.8,
+            "text": "Here, notice that this part of the graph lies above the line."
+        },
+        {
+            "number": "077",
+            "title": "Convex problems",
+            "start": 89.8,
+            "end": 93.4,
+            "text": "So this is non-convex."
+        },
+        {
+            "number": "077",
+            "title": "Convex problems",
+            "start": 93.4,
+            "end": 99.8,
+            "text": "Similarly, this one, we've got this region here that lies above the line."
+        },
+        {
+            "number": "077",
+            "title": "Convex problems",
+            "start": 99.8,
+            "end": 102.7,
+            "text": "So this one is also non-convex."
+        },
+        {
+            "number": "077",
+            "title": "Convex problems",
+            "start": 102.7,
+            "end": 105.0,
+            "text": "And this one is, of course, convex."
+        },
+        {
+            "number": "077",
+            "title": "Convex problems",
+            "start": 105.0,
+            "end": 109.7,
+            "text": "So a couple things to observe here, some properties that emerge."
+        },
+        {
+            "number": "077",
+            "title": "Convex problems",
+            "start": 109.7,
+            "end": 118.3,
+            "text": "One is, in order for the function to be convex, it has to have only one local minima."
+        },
+        {
+            "number": "077",
+            "title": "Convex problems",
+            "start": 118.3,
+            "end": 121.5,
+            "text": "And in other words, that local minima is the global minima."
+        },
+        {
+            "number": "077",
+            "title": "Convex problems",
+            "start": 121.5,
+            "end": 123.9,
+            "text": "This one fails for that reason."
+        },
+        {
+            "number": "077",
+            "title": "Convex problems",
+            "start": 123.9,
+            "end": 130.2,
+            "text": "But we also can't have any flat regions that essentially don't have any slope downward."
+        },
+        {
+            "number": "077",
+            "title": "Convex problems",
+            "start": 130.2,
+            "end": 135.9,
+            "text": "Now, if the function you're trying to find a minima for is convex,"
+        },
+        {
+            "number": "077",
+            "title": "Convex problems",
+            "start": 135.9,
+            "end": 141.6,
+            "text": "then these algorithms will find the minima quickly and easily."
+        },
+        {
+            "number": "077",
+            "title": "Convex problems",
+            "start": 141.6,
+            "end": 146.6,
+            "text": "But again, there are algorithms that can still find the minima for"
+        },
+        {
+            "number": "077",
+            "title": "Convex problems",
+            "start": 146.6,
+            "end": 149.3,
+            "text": "more complicated examples like these."
+        },
+        {
+            "number": "077",
+            "title": "Convex problems",
+            "start": 149.3,
+            "end": 151.6,
+            "text": "But they require a little bit of randomness and"
+        },
+        {
+            "number": "077",
+            "title": "Convex problems",
+            "start": 151.6,
+            "end": 157.2,
+            "text": "they aren't necessarily guaranteed to find the global minima."
+        },
+        {
+            "number": "077",
+            "title": "Convex problems",
+            "start": 157.2,
+            "end": 161.7,
+            "text": "So far, we've been looking at functions that just have one dimension in x."
+        },
+        {
+            "number": "077",
+            "title": "Convex problems",
+            "start": 161.7,
+            "end": 164.0,
+            "text": "So for instance, the parabola that we looked at."
+        },
+        {
+            "number": "077",
+            "title": "Convex problems",
+            "start": 165.3,
+            "end": 170.6,
+            "text": "It's just as easy for these optimizers to work in multiple dimensions."
+        },
+        {
+            "number": "077",
+            "title": "Convex problems",
+            "start": 170.6,
+            "end": 174.5,
+            "text": "Here's an example of a function that has two dimensions in x."
+        },
+        {
+            "number": "077",
+            "title": "Convex problems",
+            "start": 174.5,
+            "end": 177.3,
+            "text": "It still has its y result."
+        },
+        {
+            "number": "077",
+            "title": "Convex problems",
+            "start": 177.3,
+            "end": 182.4,
+            "text": "But the minimizers can solve these problems with gradient descent just as easily."
+        },
+        {
+            "number": "077",
+            "title": "Convex problems",
+            "start": 182.4,
+            "end": 188.3,
+            "text": "So instead of just one dimension, we can have one, two, three, four,"
+        },
+        {
+            "number": "077",
+            "title": "Convex problems",
+            "start": 188.3,
+            "end": 189.4,
+            "text": "as many as we'd like."
+        }
+    ],
+    "text": "While we're on the topic of problems that are easy or hard for optimizers to solve, let's talk for a moment about a particular class of problems that are indeed the most easy for these types of algorithms to solve. And those are called convex problems. Here's the formal definition of a convex function. I'm going to read it to you from Wikipedia, and then I'll show you what it means on these graphs here. A real valued function, f of x, defined on an interval, is called convex if the line segment between any two points on the graph of the function lies above the graph. Okay, a lot of words there. Let me show you what that means more easily. First step, choose two points and draw a line between them. Now for each of these lines, if the line is above the graph, everywhere between those two points, then the function is convex between those points. So for this function, yes, it's convex because the line is above the graph everywhere. In fact, any two points you choose on this graph will have that property. So this function is convex everywhere, at least where we're looking at it. Here, notice that this part of the graph lies above the line. So this is non-convex. Similarly, this one, we've got this region here that lies above the line. So this one is also non-convex. And this one is, of course, convex. So a couple things to observe here, some properties that emerge. One is, in order for the function to be convex, it has to have only one local minima. And in other words, that local minima is the global minima. This one fails for that reason. But we also can't have any flat regions that essentially don't have any slope downward. Now, if the function you're trying to find a minima for is convex, then these algorithms will find the minima quickly and easily. But again, there are algorithms that can still find the minima for more complicated examples like these. But they require a little bit of randomness and they aren't necessarily guaranteed to find the global minima. So far, we've been looking at functions that just have one dimension in x. So for instance, the parabola that we looked at. It's just as easy for these optimizers to work in multiple dimensions. Here's an example of a function that has two dimensions in x. It still has its y result. But the minimizers can solve these problems with gradient descent just as easily. So instead of just one dimension, we can have one, two, three, four, as many as we'd like."
+}

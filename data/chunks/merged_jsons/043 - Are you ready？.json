@@ -1,0 +1,20 @@
+{
+    "title": "Are you ready？",
+    "number": "043",
+    "chunks": [
+        {
+            "title": "Are you ready？",
+            "number": "043",
+            "start": 0.0,
+            "end": 12.1,
+            "text": "Are you ready Dave? Ready for what professor? We're going to start some serious number crunching now. What do you mean? Well, in this lesson, we're going to unleash the power of Python."
+        },
+        {
+            "title": "Are you ready？",
+            "number": "043",
+            "start": 12.1,
+            "end": 21.5,
+            "text": "We're going to show folks some tools that enable them to calculate all kinds of important statistics on time series data. Well, what are we waiting for? Let's go."
+        }
+    ]
+}

@@ -1,0 +1,61 @@
+{
+    "chunks": [
+        {
+            "number": "182",
+            "title": "Overview",
+            "start": 0.4,
+            "end": 3.8,
+            "text": "We've posed the general problem of supervised regression learning and"
+        },
+        {
+            "number": "182",
+            "title": "Overview",
+            "start": 3.8,
+            "end": 7.0,
+            "text": "introduced two algorithms that can solve it."
+        },
+        {
+            "number": "182",
+            "title": "Overview",
+            "start": 7.0,
+            "end": 10.2,
+            "text": "Linear regression creates parameterized models and"
+        },
+        {
+            "number": "182",
+            "title": "Overview",
+            "start": 10.2,
+            "end": 14.2,
+            "text": "KNN is a nonparametric instance based method."
+        },
+        {
+            "number": "182",
+            "title": "Overview",
+            "start": 14.2,
+            "end": 17.8,
+            "text": "There are in fact many algorithms that can solve this problem."
+        },
+        {
+            "number": "182",
+            "title": "Overview",
+            "start": 17.8,
+            "end": 20.8,
+            "text": "Each algorithm has its own pros and cons."
+        },
+        {
+            "number": "182",
+            "title": "Overview",
+            "start": 20.8,
+            "end": 23.0,
+            "text": "In this lesson, we'll look at various methods for"
+        },
+        {
+            "number": "182",
+            "title": "Overview",
+            "start": 23.0,
+            "end": 24.4,
+            "text": "assessing those algorithms."
+        }
+    ],
+    "text": "We've posed the general problem of supervised regression learning and introduced two algorithms that can solve it. Linear regression creates parameterized models and KNN is a nonparametric instance based method. There are in fact many algorithms that can solve this problem. Each algorithm has its own pros and cons. In this lesson, we'll look at various methods for assessing those algorithms."
+}

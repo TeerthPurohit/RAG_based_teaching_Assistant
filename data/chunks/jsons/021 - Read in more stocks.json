@@ -1,0 +1,173 @@
+{
+    "chunks": [
+        {
+            "number": "021",
+            "title": "Read in more stocks",
+            "start": 0.4,
+            "end": 3.8,
+            "text": "So we want to read in more stocks into a combined data frame."
+        },
+        {
+            "number": "021",
+            "title": "Read in more stocks",
+            "start": 4.7,
+            "end": 10.6,
+            "text": "Start with the code we used to build a data frame with the SPY data."
+        },
+        {
+            "number": "021",
+            "title": "Read in more stocks",
+            "start": 10.6,
+            "end": 14.1,
+            "text": "Then define a list with the required stock symbols."
+        },
+        {
+            "number": "021",
+            "title": "Read in more stocks",
+            "start": 14.1,
+            "end": 16.3,
+            "text": "Now we can write a for loop to read and"
+        },
+        {
+            "number": "021",
+            "title": "Read in more stocks",
+            "start": 16.3,
+            "end": 19.7,
+            "text": "join each stock into the data frame just like SPY."
+        },
+        {
+            "number": "021",
+            "title": "Read in more stocks",
+            "start": 21.2,
+            "end": 26.7,
+            "text": "So here's the for loop which takes each symbol in the symbols list and"
+        },
+        {
+            "number": "021",
+            "title": "Read in more stocks",
+            "start": 26.7,
+            "end": 29.3,
+            "text": "joins it to our main data frame."
+        },
+        {
+            "number": "021",
+            "title": "Read in more stocks",
+            "start": 29.3,
+            "end": 30.8,
+            "text": "Let's go ahead and print this."
+        },
+        {
+            "number": "021",
+            "title": "Read in more stocks",
+            "start": 31.9,
+            "end": 33.8,
+            "text": "Oops, there's an error."
+        },
+        {
+            "number": "021",
+            "title": "Read in more stocks",
+            "start": 33.8,
+            "end": 38.8,
+            "text": "Reading the error message carefully, we observe that index column"
+        },
+        {
+            "number": "021",
+            "title": "Read in more stocks",
+            "start": 38.8,
+            "end": 42.6,
+            "text": "adjacent close has an overlap."
+        },
+        {
+            "number": "021",
+            "title": "Read in more stocks",
+            "start": 42.6,
+            "end": 46.3,
+            "text": "What is happening here is that irrespective of the stock,"
+        },
+        {
+            "number": "021",
+            "title": "Read in more stocks",
+            "start": 46.3,
+            "end": 50.8,
+            "text": "the column we are extracting each time is named adjacent close."
+        },
+        {
+            "number": "021",
+            "title": "Read in more stocks",
+            "start": 50.8,
+            "end": 55.6,
+            "text": "So the join method is confused as to what to name it in the result."
+        },
+        {
+            "number": "021",
+            "title": "Read in more stocks",
+            "start": 55.6,
+            "end": 57.1,
+            "text": "Column names must be unique."
+        },
+        {
+            "number": "021",
+            "title": "Read in more stocks",
+            "start": 57.1,
+            "end": 63.9,
+            "text": "As professor described earlier, we would like each stock symbol as the corresponding"
+        },
+        {
+            "number": "021",
+            "title": "Read in more stocks",
+            "start": 63.9,
+            "end": 65.3,
+            "text": "column name or header."
+        },
+        {
+            "number": "021",
+            "title": "Read in more stocks",
+            "start": 66.4,
+            "end": 68.2,
+            "text": "So we add these two lines."
+        },
+        {
+            "number": "021",
+            "title": "Read in more stocks",
+            "start": 68.2,
+            "end": 73.0,
+            "text": "This renames the column adjusted close to the respective stock symbol."
+        },
+        {
+            "number": "021",
+            "title": "Read in more stocks",
+            "start": 73.0,
+            "end": 74.8,
+            "text": "Now let's see the output."
+        },
+        {
+            "number": "021",
+            "title": "Read in more stocks",
+            "start": 74.8,
+            "end": 75.6,
+            "text": "Here you go."
+        },
+        {
+            "number": "021",
+            "title": "Read in more stocks",
+            "start": 75.6,
+            "end": 77.2,
+            "text": "Everything is finally in place."
+        },
+        {
+            "number": "021",
+            "title": "Read in more stocks",
+            "start": 77.2,
+            "end": 92.4,
+            "text": "Doing ready for ready for Voilà."
+        },
+        {
+            "number": "021",
+            "title": "Read in more stocks",
+            "start": 92.5,
+            "end": 97.2,
+            "text": "When the darkness is Baghdad, you can use the earth as a point."
+        }
+    ],
+    "text": "So we want to read in more stocks into a combined data frame. Start with the code we used to build a data frame with the SPY data. Then define a list with the required stock symbols. Now we can write a for loop to read and join each stock into the data frame just like SPY. So here's the for loop which takes each symbol in the symbols list and joins it to our main data frame. Let's go ahead and print this. Oops, there's an error. Reading the error message carefully, we observe that index column adjacent close has an overlap. What is happening here is that irrespective of the stock, the column we are extracting each time is named adjacent close. So the join method is confused as to what to name it in the result. Column names must be unique. As professor described earlier, we would like each stock symbol as the corresponding column name or header. So we add these two lines. This renames the column adjusted close to the respective stock symbol. Now let's see the output. Here you go. Everything is finally in place. Doing ready for ready for Voilà. When the darkness is Baghdad, you can use the earth as a point."
+}

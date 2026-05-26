@@ -1,0 +1,41 @@
+{
+    "title": "Problems to Solve",
+    "number": "016",
+    "chunks": [
+        {
+            "title": "Problems to Solve",
+            "number": "016",
+            "start": 0.5,
+            "end": 20.0,
+            "text": "So, in order to get to a data frame like this, we've got a couple problems to solve, and we're going to solve them in this lesson. So one of the first issues is we want to be able to read in particular date ranges. So if you remember from the last lesson, we just read all of it in. But what if we just want to read in a certain part of it?"
+        },
+        {
+            "title": "Problems to Solve",
+            "number": "016",
+            "start": 20.0,
+            "end": 46.1,
+            "text": "You know, instead of from 1995 to 2012, what if we want, say, just 2010 to 2012? Well, we've got to figure out how to solve that. Something that's very special about Pandas, and one of the things that makes it very powerful, is that we can index the rows by dates. We don't have to just use a single number like zero, for instance."
+        },
+        {
+            "title": "Problems to Solve",
+            "number": "016",
+            "start": 46.1,
+            "end": 67.0,
+            "text": "We need to be able to read in multiple stocks. Instead of just, say, having one, we want to have SPY, IBM, Google, and Gold all at once. We need to be able to align dates. For instance, if GLD traded on particular days and SPY traded on particular days,"
+        },
+        {
+            "title": "Problems to Solve",
+            "number": "016",
+            "start": 67.0,
+            "end": 92.5,
+            "text": "we want to make sure that those line up so that for each row, we have the correct information for each equity on that particular date. Finally, we need to undo that problem that we discovered in the last lesson. Namely, that these dates and the files we read them from are in reverse order. So we want to be sure we have them in the right order when we're processing them."
+        },
+        {
+            "title": "Problems to Solve",
+            "number": "016",
+            "start": 92.5,
+            "end": 109.3,
+            "text": "So these are the tasks we're going to dig into in this lesson. . . ."
+        }
+    ]
+}

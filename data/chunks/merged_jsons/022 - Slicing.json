@@ -1,0 +1,55 @@
+{
+    "title": "Slicing",
+    "number": "022",
+    "chunks": [
+        {
+            "title": "Slicing",
+            "number": "022",
+            "start": 0.3,
+            "end": 19.2,
+            "text": "Okay, let's suppose we have our nice, big, beautiful pandas data frame. And we've, this time, read in a lot of data. We didn't just focus on a few days. We've got data all the way from the beginning of 2010 to 2012. And we've got data for SPY, IBM, Google, and GLD."
+        },
+        {
+            "title": "Slicing",
+            "number": "022",
+            "start": 19.2,
+            "end": 45.0,
+            "text": "Now, suppose we want to focus on just a subset of that data. In fact, we might call that a slice. For instance, what if we wanted to look at just the values for Google and GLD between these dates, February 13, 2010, through February 15, 2010? And we want to, again, just look at Google and GLD."
+        },
+        {
+            "title": "Slicing",
+            "number": "022",
+            "start": 45.0,
+            "end": 67.3,
+            "text": "Well, there's very beautiful syntax in pandas that allows you to do that. So we're going to be learning a lot more about this syntax in a later lesson. But this is sort of a preview of the very nice things you can do. To select these rows, we do a simple statement that Dave will show you later to create a date time object."
+        },
+        {
+            "title": "Slicing",
+            "number": "022",
+            "start": 67.3,
+            "end": 93.0,
+            "text": "And we just put the start date colon end date. And if we just write DF1 bracket SD colon ED, where this is start date and that's end date, then we end up with these three rows. But we want to be more selective. We want to focus on these three rows and these columns."
+        },
+        {
+            "title": "Slicing",
+            "number": "022",
+            "start": 93.0,
+            "end": 122.8,
+            "text": "And we need to add one more piece of syntax that indicates these columns. So this statement will extract these rows and these columns and leave you just with this sub portion or slice of DF1. So if we were to execute this statement, DF2 equals DF1, and then this additional syntax, we will end up with this little morsel of data right"
+        },
+        {
+            "title": "Slicing",
+            "number": "022",
+            "start": 122.8,
+            "end": 143.7,
+            "text": "here in our new data frame. Now there's lots of different ways you can slice the data. You don't have to take a group of pieces of data that are right next to each other. You can grab any different columns you want and any different rows you want. So you might build a new data frame by taking GLD and IBM, and"
+        },
+        {
+            "title": "Slicing",
+            "number": "022",
+            "start": 143.7,
+            "end": 156.3,
+            "text": "it'll just take those two columns and spot them into DF2. So that's slicing. This is just a brief introduction. We're going to go into some deeper examples when we get to the lesson on NumPy."
+        }
+    ]
+}

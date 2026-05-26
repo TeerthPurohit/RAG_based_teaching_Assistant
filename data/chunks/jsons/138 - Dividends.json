@@ -1,0 +1,180 @@
+{
+    "chunks": [
+        {
+            "number": "138",
+            "title": "Dividends",
+            "start": 0.3,
+            "end": 5.7,
+            "text": "Now, remember earlier when we were talking about stock value, or"
+        },
+        {
+            "number": "138",
+            "title": "Dividends",
+            "start": 5.7,
+            "end": 10.5,
+            "text": "I should say company value, and we looked at a way to compute company value based on"
+        },
+        {
+            "number": "138",
+            "title": "Dividends",
+            "start": 10.5,
+            "end": 12.2,
+            "text": "dividends."
+        },
+        {
+            "number": "138",
+            "title": "Dividends",
+            "start": 12.2,
+            "end": 17.1,
+            "text": "So companies pay regularly, many companies, not all,"
+        },
+        {
+            "number": "138",
+            "title": "Dividends",
+            "start": 17.1,
+            "end": 19.5,
+            "text": "dividends to their owners."
+        },
+        {
+            "number": "138",
+            "title": "Dividends",
+            "start": 19.5,
+            "end": 21.2,
+            "text": "And this can be worth a lot of money."
+        },
+        {
+            "number": "138",
+            "title": "Dividends",
+            "start": 21.2,
+            "end": 26.9,
+            "text": "So a stock that's priced at, say, around $100 can very often pay"
+        },
+        {
+            "number": "138",
+            "title": "Dividends",
+            "start": 26.9,
+            "end": 32.9,
+            "text": "up to $1 or $2 per year in dividends, or 1 or 2%."
+        },
+        {
+            "number": "138",
+            "title": "Dividends",
+            "start": 32.9,
+            "end": 35.5,
+            "text": "Some stocks pay even more than that."
+        },
+        {
+            "number": "138",
+            "title": "Dividends",
+            "start": 35.5,
+            "end": 40.6,
+            "text": "Now dividends can have a significant effect on what happens to the actual price"
+        },
+        {
+            "number": "138",
+            "title": "Dividends",
+            "start": 40.6,
+            "end": 43.2,
+            "text": "of a stock, and here's why."
+        },
+        {
+            "number": "138",
+            "title": "Dividends",
+            "start": 43.2,
+            "end": 46.8,
+            "text": "Suppose this stock is trading at about $100, and"
+        },
+        {
+            "number": "138",
+            "title": "Dividends",
+            "start": 46.8,
+            "end": 52.9,
+            "text": "they announce on this date, in the future, we're going to pay a $1 dividend."
+        },
+        {
+            "number": "138",
+            "title": "Dividends",
+            "start": 52.9,
+            "end": 56.6,
+            "text": "So for every share of stock that you own, you'll get $1."
+        },
+        {
+            "number": "138",
+            "title": "Dividends",
+            "start": 56.6,
+            "end": 60.8,
+            "text": "What do you think is going to happen to the price of this stock between now and"
+        },
+        {
+            "number": "138",
+            "title": "Dividends",
+            "start": 60.8,
+            "end": 62.9,
+            "text": "the date of that dividend?"
+        },
+        {
+            "number": "138",
+            "title": "Dividends",
+            "start": 62.9,
+            "end": 67.4,
+            "text": "Let me give you a little bit more information that might make things simpler."
+        },
+        {
+            "number": "138",
+            "title": "Dividends",
+            "start": 67.4,
+            "end": 71.9,
+            "text": "Let's suppose that the consensus on the value of the company,"
+        },
+        {
+            "number": "138",
+            "title": "Dividends",
+            "start": 71.9,
+            "end": 74.8,
+            "text": "by whatever means you've determined that consensus,"
+        },
+        {
+            "number": "138",
+            "title": "Dividends",
+            "start": 74.8,
+            "end": 78.2,
+            "text": "is that the company is worth $100 per share."
+        },
+        {
+            "number": "138",
+            "title": "Dividends",
+            "start": 78.2,
+            "end": 83.9,
+            "text": "So on this date, when we get that $1 dividend, we're going to have one share"
+        },
+        {
+            "number": "138",
+            "title": "Dividends",
+            "start": 83.9,
+            "end": 90.0,
+            "text": "of a company that people think is worth $100 per share, and we will have $1."
+        },
+        {
+            "number": "138",
+            "title": "Dividends",
+            "start": 90.0,
+            "end": 98.1,
+            "text": "So on this date, we'll have one share of a company supposedly worth $100 and $1."
+        },
+        {
+            "number": "138",
+            "title": "Dividends",
+            "start": 98.1,
+            "end": 105.1,
+            "text": "So think about it, what prices will we see this stock converge to on the day"
+        },
+        {
+            "number": "138",
+            "title": "Dividends",
+            "start": 105.1,
+            "end": 108.9,
+            "text": "before the dividend is paid and the day the dividend is paid?"
+        }
+    ],
+    "text": "Now, remember earlier when we were talking about stock value, or I should say company value, and we looked at a way to compute company value based on dividends. So companies pay regularly, many companies, not all, dividends to their owners. And this can be worth a lot of money. So a stock that's priced at, say, around $100 can very often pay up to $1 or $2 per year in dividends, or 1 or 2%. Some stocks pay even more than that. Now dividends can have a significant effect on what happens to the actual price of a stock, and here's why. Suppose this stock is trading at about $100, and they announce on this date, in the future, we're going to pay a $1 dividend. So for every share of stock that you own, you'll get $1. What do you think is going to happen to the price of this stock between now and the date of that dividend? Let me give you a little bit more information that might make things simpler. Let's suppose that the consensus on the value of the company, by whatever means you've determined that consensus, is that the company is worth $100 per share. So on this date, when we get that $1 dividend, we're going to have one share of a company that people think is worth $100 per share, and we will have $1. So on this date, we'll have one share of a company supposedly worth $100 and $1. So think about it, what prices will we see this stock converge to on the day before the dividend is paid and the day the dividend is paid?"
+}

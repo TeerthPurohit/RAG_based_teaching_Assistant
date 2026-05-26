@@ -1,0 +1,76 @@
+{
+    "title": "Minimizer finds coefficients in python",
+    "number": "081",
+    "chunks": [
+        {
+            "title": "Minimizer finds coefficients in python",
+            "number": "081",
+            "start": 0.5,
+            "end": 16.0,
+            "text": "We can fit even more complicated functions to data like this. I'm going to show you the code of how to do that in just a moment. But I wanted to start with sort of the result and then go back into the code and show you how we did it. So our original polynomial is a blue line."
+        },
+        {
+            "title": "Minimizer finds coefficients in python",
+            "number": "081",
+            "start": 16.0,
+            "end": 37.0,
+            "text": "It's under here, you can't quite see it. And the noisy data are the green dots there. This purple line is our initial guess. And the fitted polynomial, the red line here, fits the original pretty closely. So let me show you a little more detail."
+        },
+        {
+            "title": "Minimizer finds coefficients in python",
+            "number": "081",
+            "start": 38.2,
+            "end": 58.5,
+            "text": "Here is output from our program. This is our original polynomial. It prints it in kind of a weird way. Our original polynomial is 1.5x to the fourth minus 10x to the third minus 5x squared and so on."
+        },
+        {
+            "title": "Minimizer finds coefficients in python",
+            "number": "081",
+            "start": 60.3,
+            "end": 79.2,
+            "text": "And down here are the results of our optimization. So here's what we got. Instead of 1.5 for the fourth power, we got 1.6. Instead of negative 10 for the third power, we got negative 10.5. And so on."
+        },
+        {
+            "title": "Minimizer finds coefficients in python",
+            "number": "081",
+            "start": 79.2,
+            "end": 100.3,
+            "text": "But overall pretty close. And as you can see by that chart I just showed you, very nice fitting. Let's look now at how we did that in code. The code here for a higher degree polynomial is very similar to what we had for the line. Again, there's an error function we're trying to minimize."
+        },
+        {
+            "title": "Minimizer finds coefficients in python",
+            "number": "081",
+            "start": 100.3,
+            "end": 124.0,
+            "text": "And we take in the coefficients for the polynomial and the actual data. And our error function is computed here. Again, it's a sum of the difference between the actual data and the polynomial value squared. We take the sum of all those values and that's our error. So again, very similar to what we did for the line."
+        },
+        {
+            "title": "Minimizer finds coefficients in python",
+            "number": "081",
+            "start": 125.0,
+            "end": 139.2,
+            "text": "Here's our function that finds the coefficients of the polynomial. It has just a few parameters. The data that we're trying to fit. Our error function. In other words, how do we measure error and what are we trying to minimize?"
+        },
+        {
+            "title": "Minimizer finds coefficients in python",
+            "number": "081",
+            "start": 139.2,
+            "end": 153.1,
+            "text": "And the degree of the polynomial. We create an initial guess. In other words, what do we think the values of the coefficients are? And what we're doing here is we're just setting them all to be ones. We plot that."
+        },
+        {
+            "title": "Minimizer finds coefficients in python",
+            "number": "081",
+            "start": 154.6,
+            "end": 172.0,
+            "text": "And then we call our minimizer, just like before. We have to tell it what's the error function we're trying to minimize. What's our initial guess? We have to pass along the data, which then gets passed to the error function. And again, this method, SLS QP."
+        },
+        {
+            "title": "Minimizer finds coefficients in python",
+            "number": "081",
+            "start": 172.0,
+            "end": 186.8,
+            "text": "And finally, you can't see it, it's off to the side there. But same options, essentially the verbose options. And that's it. That's how we use Python to create a model based on data."
+        }
+    ]
+}

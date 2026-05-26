@@ -1,0 +1,201 @@
+{
+    "chunks": [
+        {
+            "number": "069",
+            "title": "Portfolio statistics",
+            "start": 0.4,
+            "end": 5.6,
+            "text": "We showed a moment ago how to go from prices to port val,"
+        },
+        {
+            "number": "069",
+            "title": "Portfolio statistics",
+            "start": 5.6,
+            "end": 9.0,
+            "text": "which is the daily total value of the portfolio."
+        },
+        {
+            "number": "069",
+            "title": "Portfolio statistics",
+            "start": 9.0,
+            "end": 14.1,
+            "text": "Now that we have port val, we can compute a number of important statistics on"
+        },
+        {
+            "number": "069",
+            "title": "Portfolio statistics",
+            "start": 14.1,
+            "end": 17.4,
+            "text": "the portfolio and thus assess the portfolio and"
+        },
+        {
+            "number": "069",
+            "title": "Portfolio statistics",
+            "start": 17.4,
+            "end": 20.1,
+            "text": "the investment style of whoever's managing that portfolio."
+        },
+        {
+            "number": "069",
+            "title": "Portfolio statistics",
+            "start": 21.2,
+            "end": 25.8,
+            "text": "An important first calculation is to compute daily returns."
+        },
+        {
+            "number": "069",
+            "title": "Portfolio statistics",
+            "start": 25.8,
+            "end": 29.2,
+            "text": "We've talked about how to do that before, so I won't go over it here."
+        },
+        {
+            "number": "069",
+            "title": "Portfolio statistics",
+            "start": 29.2,
+            "end": 34.9,
+            "text": "But an important observation is whenever you compute daily returns,"
+        },
+        {
+            "number": "069",
+            "title": "Portfolio statistics",
+            "start": 34.9,
+            "end": 37.8,
+            "text": "the first value is always going to be zero."
+        },
+        {
+            "number": "069",
+            "title": "Portfolio statistics",
+            "start": 37.8,
+            "end": 41.8,
+            "text": "And that's because on the first day, of course, there's no change."
+        },
+        {
+            "number": "069",
+            "title": "Portfolio statistics",
+            "start": 41.8,
+            "end": 50.5,
+            "text": "So we want to exclude that value from any calculations we do across all daily returns."
+        },
+        {
+            "number": "069",
+            "title": "Portfolio statistics",
+            "start": 50.5,
+            "end": 53.7,
+            "text": "It's easy to accomplish this with a simple Python statement,"
+        },
+        {
+            "number": "069",
+            "title": "Portfolio statistics",
+            "start": 53.7,
+            "end": 59.0,
+            "text": "which is just to replace daily returns with daily returns where we just"
+        },
+        {
+            "number": "069",
+            "title": "Portfolio statistics",
+            "start": 59.0,
+            "end": 62.0,
+            "text": "include the second row forward."
+        },
+        {
+            "number": "069",
+            "title": "Portfolio statistics",
+            "start": 62.0,
+            "end": 65.1,
+            "text": "And boom, we're rid of that first zero."
+        },
+        {
+            "number": "069",
+            "title": "Portfolio statistics",
+            "start": 65.1,
+            "end": 70.2,
+            "text": "Now that we have this information, we can compute four key statistics that everybody"
+        },
+        {
+            "number": "069",
+            "title": "Portfolio statistics",
+            "start": 70.2,
+            "end": 73.5,
+            "text": "wants to know about regarding the performance of a portfolio."
+        },
+        {
+            "number": "069",
+            "title": "Portfolio statistics",
+            "start": 73.5,
+            "end": 78.0,
+            "text": "They are cumulative return, average daily return,"
+        },
+        {
+            "number": "069",
+            "title": "Portfolio statistics",
+            "start": 78.0,
+            "end": 81.5,
+            "text": "standard deviation of daily return, and sharp ratio."
+        },
+        {
+            "number": "069",
+            "title": "Portfolio statistics",
+            "start": 81.5,
+            "end": 89.2,
+            "text": "Accumulative return is just a measure of how much the value of the portfolio has gone up from the beginning to the end."
+        },
+        {
+            "number": "069",
+            "title": "Portfolio statistics",
+            "start": 89.2,
+            "end": 94.3,
+            "text": "So to calculate that, we take the last val, which is port val of minus one,"
+        },
+        {
+            "number": "069",
+            "title": "Portfolio statistics",
+            "start": 94.3,
+            "end": 99.4,
+            "text": "which is this one, divide it by the beginning, and subtract one."
+        },
+        {
+            "number": "069",
+            "title": "Portfolio statistics",
+            "start": 99.4,
+            "end": 103.5,
+            "text": "Average daily return is just the average of these numbers."
+        },
+        {
+            "number": "069",
+            "title": "Portfolio statistics",
+            "start": 103.5,
+            "end": 107.1,
+            "text": "So we just take the mean, very simple."
+        },
+        {
+            "number": "069",
+            "title": "Portfolio statistics",
+            "start": 107.1,
+            "end": 111.3,
+            "text": "And standard deviation of daily return, again, simple."
+        },
+        {
+            "number": "069",
+            "title": "Portfolio statistics",
+            "start": 111.3,
+            "end": 115.0,
+            "text": "Just use the standard deviation function right there."
+        },
+        {
+            "number": "069",
+            "title": "Portfolio statistics",
+            "start": 115.0,
+            "end": 118.2,
+            "text": "Now, sharp ratio is a little bit more complex than these other ones."
+        },
+        {
+            "number": "069",
+            "title": "Portfolio statistics",
+            "start": 118.2,
+            "end": 122.3,
+            "text": "So we're going to spend a little bit more time diving into sharp ratio."
+        }
+    ],
+    "text": "We showed a moment ago how to go from prices to port val, which is the daily total value of the portfolio. Now that we have port val, we can compute a number of important statistics on the portfolio and thus assess the portfolio and the investment style of whoever's managing that portfolio. An important first calculation is to compute daily returns. We've talked about how to do that before, so I won't go over it here. But an important observation is whenever you compute daily returns, the first value is always going to be zero. And that's because on the first day, of course, there's no change. So we want to exclude that value from any calculations we do across all daily returns. It's easy to accomplish this with a simple Python statement, which is just to replace daily returns with daily returns where we just include the second row forward. And boom, we're rid of that first zero. Now that we have this information, we can compute four key statistics that everybody wants to know about regarding the performance of a portfolio. They are cumulative return, average daily return, standard deviation of daily return, and sharp ratio. Accumulative return is just a measure of how much the value of the portfolio has gone up from the beginning to the end. So to calculate that, we take the last val, which is port val of minus one, which is this one, divide it by the beginning, and subtract one. Average daily return is just the average of these numbers. So we just take the mean, very simple. And standard deviation of daily return, again, simple. Just use the standard deviation function right there. Now, sharp ratio is a little bit more complex than these other ones. So we're going to spend a little bit more time diving into sharp ratio."
+}

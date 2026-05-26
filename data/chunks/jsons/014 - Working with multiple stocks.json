@@ -1,0 +1,68 @@
+{
+    "chunks": [
+        {
+            "number": "014",
+            "title": "Working with multiple stocks",
+            "start": 0.0,
+            "end": 4.8,
+            "text": "So far in this course we've been just working with one stock at a time."
+        },
+        {
+            "number": "014",
+            "title": "Working with multiple stocks",
+            "start": 4.8,
+            "end": 5.8,
+            "text": "Yes, Professor."
+        },
+        {
+            "number": "014",
+            "title": "Working with multiple stocks",
+            "start": 5.8,
+            "end": 7.8,
+            "text": "Dave, are you a juggler?"
+        },
+        {
+            "number": "014",
+            "title": "Working with multiple stocks",
+            "start": 7.8,
+            "end": 8.8,
+            "text": "No."
+        },
+        {
+            "number": "014",
+            "title": "Working with multiple stocks",
+            "start": 8.8,
+            "end": 10.8,
+            "text": "Can you juggle lots of things at once?"
+        },
+        {
+            "number": "014",
+            "title": "Working with multiple stocks",
+            "start": 10.8,
+            "end": 11.8,
+            "text": "What?"
+        },
+        {
+            "number": "014",
+            "title": "Working with multiple stocks",
+            "start": 11.8,
+            "end": 17.8,
+            "text": "I can juggle two."
+        },
+        {
+            "number": "014",
+            "title": "Working with multiple stocks",
+            "start": 17.8,
+            "end": 21.8,
+            "text": "Sorry, I can't do this."
+        },
+        {
+            "number": "014",
+            "title": "Working with multiple stocks",
+            "start": 21.8,
+            "end": 23.1,
+            "text": "Alright, we're not jugglers."
+        }
+    ],
+    "text": "So far in this course we've been just working with one stock at a time. Yes, Professor. Dave, are you a juggler? No. Can you juggle lots of things at once? What? I can juggle two. Sorry, I can't do this. Alright, we're not jugglers."
+}

@@ -1,0 +1,236 @@
+{
+    "chunks": [
+        {
+            "number": "171",
+            "title": "Backtesting",
+            "start": 0.3,
+            "end": 5.2,
+            "text": "Of course, a natural question is, well, how accurate are these forecasts?"
+        },
+        {
+            "number": "171",
+            "title": "Backtesting",
+            "start": 5.2,
+            "end": 6.8,
+            "text": "Can you act on them?"
+        },
+        {
+            "number": "171",
+            "title": "Backtesting",
+            "start": 6.8,
+            "end": 9.0,
+            "text": "Do they really predict the future?"
+        },
+        {
+            "number": "171",
+            "title": "Backtesting",
+            "start": 9.0,
+            "end": 13.2,
+            "text": "Well, at least a first step towards answering that question can be found by"
+        },
+        {
+            "number": "171",
+            "title": "Backtesting",
+            "start": 13.2,
+            "end": 14.5,
+            "text": "back testing."
+        },
+        {
+            "number": "171",
+            "title": "Backtesting",
+            "start": 14.5,
+            "end": 19.6,
+            "text": "So that means you roll back time and you test your system."
+        },
+        {
+            "number": "171",
+            "title": "Backtesting",
+            "start": 19.6,
+            "end": 21.4,
+            "text": "So here's our historical data."
+        },
+        {
+            "number": "171",
+            "title": "Backtesting",
+            "start": 21.4,
+            "end": 24.6,
+            "text": "As usual, it's organized with time coming down."
+        },
+        {
+            "number": "171",
+            "title": "Backtesting",
+            "start": 24.6,
+            "end": 27.7,
+            "text": "Now, in order to test the capability of our approach,"
+        },
+        {
+            "number": "171",
+            "title": "Backtesting",
+            "start": 27.7,
+            "end": 32.3,
+            "text": "we have to limit the data it sees to a certain amount of time and"
+        },
+        {
+            "number": "171",
+            "title": "Backtesting",
+            "start": 32.3,
+            "end": 35.8,
+            "text": "then make predictions into the simulated future."
+        },
+        {
+            "number": "171",
+            "title": "Backtesting",
+            "start": 35.8,
+            "end": 40.3,
+            "text": "So we allow our system to only look at data up to a certain point."
+        },
+        {
+            "number": "171",
+            "title": "Backtesting",
+            "start": 40.3,
+            "end": 42.5,
+            "text": "It can use data before that all it likes."
+        },
+        {
+            "number": "171",
+            "title": "Backtesting",
+            "start": 42.5,
+            "end": 45.6,
+            "text": "It builds a model and then makes a forecast."
+        },
+        {
+            "number": "171",
+            "title": "Backtesting",
+            "start": 45.6,
+            "end": 50.7,
+            "text": "On the basis of that forecast, we can then now place orders anticipating that"
+        },
+        {
+            "number": "171",
+            "title": "Backtesting",
+            "start": 50.7,
+            "end": 52.1,
+            "text": "that forecast will be achieved."
+        },
+        {
+            "number": "171",
+            "title": "Backtesting",
+            "start": 52.1,
+            "end": 55.9,
+            "text": "So we might long some stocks or short them as appropriate."
+        },
+        {
+            "number": "171",
+            "title": "Backtesting",
+            "start": 55.9,
+            "end": 60.2,
+            "text": "We can take those orders now, put them into our trading simulator, and"
+        },
+        {
+            "number": "171",
+            "title": "Backtesting",
+            "start": 60.2,
+            "end": 62.7,
+            "text": "see how the portfolio works."
+        },
+        {
+            "number": "171",
+            "title": "Backtesting",
+            "start": 62.7,
+            "end": 69.2,
+            "text": "So this time right here is the same as this time here."
+        },
+        {
+            "number": "171",
+            "title": "Backtesting",
+            "start": 69.2,
+            "end": 74.6,
+            "text": "So we enter our positions on that date, which is the same as that date."
+        },
+        {
+            "number": "171",
+            "title": "Backtesting",
+            "start": 74.6,
+            "end": 78.7,
+            "text": "And then we roll it forward and see what happens with the portfolio."
+        },
+        {
+            "number": "171",
+            "title": "Backtesting",
+            "start": 78.7,
+            "end": 82.7,
+            "text": "Using software that we built in this class, you can measure things like sharp ratio,"
+        },
+        {
+            "number": "171",
+            "title": "Backtesting",
+            "start": 82.7,
+            "end": 86.5,
+            "text": "return, and so on for that portfolio."
+        },
+        {
+            "number": "171",
+            "title": "Backtesting",
+            "start": 86.5,
+            "end": 90.2,
+            "text": "Now we're training over new data, make a new forecast, and"
+        },
+        {
+            "number": "171",
+            "title": "Backtesting",
+            "start": 90.2,
+            "end": 92.9,
+            "text": "then make a new set of orders."
+        },
+        {
+            "number": "171",
+            "title": "Backtesting",
+            "start": 92.9,
+            "end": 95.6,
+            "text": "We enter these orders in our trading simulator and"
+        },
+        {
+            "number": "171",
+            "title": "Backtesting",
+            "start": 95.6,
+            "end": 98.6,
+            "text": "then go forward and see what happens."
+        },
+        {
+            "number": "171",
+            "title": "Backtesting",
+            "start": 98.6,
+            "end": 101.9,
+            "text": "I'm optimistic that it's always going to go up and to the right."
+        },
+        {
+            "number": "171",
+            "title": "Backtesting",
+            "start": 103.1,
+            "end": 105.7,
+            "text": "Anyways, this process can be repeated over and over and"
+        },
+        {
+            "number": "171",
+            "title": "Backtesting",
+            "start": 105.7,
+            "end": 112.3,
+            "text": "over again using historical data, and we can simulate our learning algorithm and"
+        },
+        {
+            "number": "171",
+            "title": "Backtesting",
+            "start": 112.3,
+            "end": 114.2,
+            "text": "how it would trade in this way."
+        },
+        {
+            "number": "171",
+            "title": "Backtesting",
+            "start": 114.2,
+            "end": 115.5,
+            "text": "And that's called backtesting."
+        }
+    ],
+    "text": "Of course, a natural question is, well, how accurate are these forecasts? Can you act on them? Do they really predict the future? Well, at least a first step towards answering that question can be found by back testing. So that means you roll back time and you test your system. So here's our historical data. As usual, it's organized with time coming down. Now, in order to test the capability of our approach, we have to limit the data it sees to a certain amount of time and then make predictions into the simulated future. So we allow our system to only look at data up to a certain point. It can use data before that all it likes. It builds a model and then makes a forecast. On the basis of that forecast, we can then now place orders anticipating that that forecast will be achieved. So we might long some stocks or short them as appropriate. We can take those orders now, put them into our trading simulator, and see how the portfolio works. So this time right here is the same as this time here. So we enter our positions on that date, which is the same as that date. And then we roll it forward and see what happens with the portfolio. Using software that we built in this class, you can measure things like sharp ratio, return, and so on for that portfolio. Now we're training over new data, make a new forecast, and then make a new set of orders. We enter these orders in our trading simulator and then go forward and see what happens. I'm optimistic that it's always going to go up and to the right. Anyways, this process can be repeated over and over and over again using historical data, and we can simulate our learning algorithm and how it would trade in this way. And that's called backtesting."
+}

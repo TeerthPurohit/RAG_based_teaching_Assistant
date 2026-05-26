@@ -1,0 +1,271 @@
+{
+    "chunks": [
+        {
+            "number": "123",
+            "title": "Two stock CAPM math",
+            "start": 0.4,
+            "end": 4.7,
+            "text": "Let's pull out the cap M and take a look at this portfolio."
+        },
+        {
+            "number": "123",
+            "title": "Two stock CAPM math",
+            "start": 4.7,
+            "end": 6.6,
+            "text": "Remember, for each individual stock,"
+        },
+        {
+            "number": "123",
+            "title": "Two stock CAPM math",
+            "start": 6.6,
+            "end": 11.7,
+            "text": "the expected return is beta times the return on the market plus alpha times the"
+        },
+        {
+            "number": "123",
+            "title": "Two stock CAPM math",
+            "start": 11.7,
+            "end": 13.5,
+            "text": "weight for that particular stock."
+        },
+        {
+            "number": "123",
+            "title": "Two stock CAPM math",
+            "start": 13.5,
+            "end": 16.4,
+            "text": "And when we short, the weight is negative."
+        },
+        {
+            "number": "123",
+            "title": "Two stock CAPM math",
+            "start": 16.4,
+            "end": 19.5,
+            "text": "And we do this across all the stocks in our portfolio, and"
+        },
+        {
+            "number": "123",
+            "title": "Two stock CAPM math",
+            "start": 19.5,
+            "end": 22.6,
+            "text": "then that's our expected return for the portfolio."
+        },
+        {
+            "number": "123",
+            "title": "Two stock CAPM math",
+            "start": 22.6,
+            "end": 25.0,
+            "text": "So I'm going to expand this sum."
+        },
+        {
+            "number": "123",
+            "title": "Two stock CAPM math",
+            "start": 25.0,
+            "end": 28.0,
+            "text": "First, I'm going to start with the beta component."
+        },
+        {
+            "number": "123",
+            "title": "Two stock CAPM math",
+            "start": 28.0,
+            "end": 34.6,
+            "text": "So we get weight A times beta A plus weight B times beta B times return on the market."
+        },
+        {
+            "number": "123",
+            "title": "Two stock CAPM math",
+            "start": 34.6,
+            "end": 37.1,
+            "text": "So recall the numbers from earlier."
+        },
+        {
+            "number": "123",
+            "title": "Two stock CAPM math",
+            "start": 37.1,
+            "end": 41.9,
+            "text": "Our weights for A and B were each 0.5 and negative 0.5."
+        },
+        {
+            "number": "123",
+            "title": "Two stock CAPM math",
+            "start": 41.9,
+            "end": 45.3,
+            "text": "We had a beta of 1 for A and a beta of 2 for B."
+        },
+        {
+            "number": "123",
+            "title": "Two stock CAPM math",
+            "start": 45.3,
+            "end": 51.4,
+            "text": "For our alphas, we had plus 1% for stock A and negative 1% for stock B."
+        },
+        {
+            "number": "123",
+            "title": "Two stock CAPM math",
+            "start": 52.5,
+            "end": 55.2,
+            "text": "We can plug all of these into our equation and work it out."
+        },
+        {
+            "number": "123",
+            "title": "Two stock CAPM math",
+            "start": 55.2,
+            "end": 62.4,
+            "text": "For our beta component, we end up with a beta for the portfolio of negative 0.5."
+        },
+        {
+            "number": "123",
+            "title": "Two stock CAPM math",
+            "start": 62.4,
+            "end": 67.8,
+            "text": "Our alpha component for stock A ends up just being 0.5."
+        },
+        {
+            "number": "123",
+            "title": "Two stock CAPM math",
+            "start": 67.8,
+            "end": 74.4,
+            "text": "And for stock B, negative 0.5 times negative 1, or 0.5."
+        },
+        {
+            "number": "123",
+            "title": "Two stock CAPM math",
+            "start": 74.4,
+            "end": 79.7,
+            "text": "So bringing it all together, under these assumptions, using the cap M,"
+        },
+        {
+            "number": "123",
+            "title": "Two stock CAPM math",
+            "start": 79.7,
+            "end": 88.9,
+            "text": "our expected return for this allocation is negative 0.5 times the market return plus 1%."
+        },
+        {
+            "number": "123",
+            "title": "Two stock CAPM math",
+            "start": 88.9,
+            "end": 92.1,
+            "text": "Let's double check this by plugging in one of our earlier examples."
+        },
+        {
+            "number": "123",
+            "title": "Two stock CAPM math",
+            "start": 92.1,
+            "end": 95.8,
+            "text": "Consider that example where the market went up 10%."
+        },
+        {
+            "number": "123",
+            "title": "Two stock CAPM math",
+            "start": 95.8,
+            "end": 100.5,
+            "text": "So we've got minus 0.5 times 10% plus 1%."
+        },
+        {
+            "number": "123",
+            "title": "Two stock CAPM math",
+            "start": 100.5,
+            "end": 107.2,
+            "text": "So in the case where the market goes up 10%, we expect a minus 4% return for our portfolio."
+        },
+        {
+            "number": "123",
+            "title": "Two stock CAPM math",
+            "start": 107.2,
+            "end": 113.5,
+            "text": "So if you step back a little bit, remember that we arrived at this 1% using information."
+        },
+        {
+            "number": "123",
+            "title": "Two stock CAPM math",
+            "start": 113.5,
+            "end": 118.1,
+            "text": "So we have some information about these stocks that led us to believe one would go up 1%"
+        },
+        {
+            "number": "123",
+            "title": "Two stock CAPM math",
+            "start": 118.1,
+            "end": 121.6,
+            "text": "over the market, another would go down 1% over the market."
+        },
+        {
+            "number": "123",
+            "title": "Two stock CAPM math",
+            "start": 121.6,
+            "end": 127.6,
+            "text": "On the other hand, we don't really have any knowledge about what's going to happen for the market overall."
+        },
+        {
+            "number": "123",
+            "title": "Two stock CAPM math",
+            "start": 127.6,
+            "end": 130.8,
+            "text": "So we have no control over this component."
+        },
+        {
+            "number": "123",
+            "title": "Two stock CAPM math",
+            "start": 130.8,
+            "end": 134.3,
+            "text": "Is there some way that we can remove this?"
+        },
+        {
+            "number": "123",
+            "title": "Two stock CAPM math",
+            "start": 134.3,
+            "end": 137.1,
+            "text": "Can we make this part equal to 0?"
+        },
+        {
+            "number": "123",
+            "title": "Two stock CAPM math",
+            "start": 137.1,
+            "end": 143.3,
+            "text": "If we can do that, then we essentially remove market risk from our portfolio,"
+        },
+        {
+            "number": "123",
+            "title": "Two stock CAPM math",
+            "start": 143.3,
+            "end": 146.0,
+            "text": "and we preserve this 1% over here."
+        },
+        {
+            "number": "123",
+            "title": "Two stock CAPM math",
+            "start": 146.0,
+            "end": 149.1,
+            "text": "Well, the way to do that is to focus on this part."
+        },
+        {
+            "number": "123",
+            "title": "Two stock CAPM math",
+            "start": 149.1,
+            "end": 151.7,
+            "text": "Remember, this is beta for the portfolio."
+        },
+        {
+            "number": "123",
+            "title": "Two stock CAPM math",
+            "start": 151.7,
+            "end": 154.9,
+            "text": "Can we make beta for the portfolio equal to 0?"
+        },
+        {
+            "number": "123",
+            "title": "Two stock CAPM math",
+            "start": 154.9,
+            "end": 161.1,
+            "text": "Or in other words, can we find weights for A and B such that their sum turns out to be 0?"
+        },
+        {
+            "number": "123",
+            "title": "Two stock CAPM math",
+            "start": 161.1,
+            "end": 165.4,
+            "text": "What are these two weights so that the overall portfolio beta is 0?"
+        }
+    ],
+    "text": "Let's pull out the cap M and take a look at this portfolio. Remember, for each individual stock, the expected return is beta times the return on the market plus alpha times the weight for that particular stock. And when we short, the weight is negative. And we do this across all the stocks in our portfolio, and then that's our expected return for the portfolio. So I'm going to expand this sum. First, I'm going to start with the beta component. So we get weight A times beta A plus weight B times beta B times return on the market. So recall the numbers from earlier. Our weights for A and B were each 0.5 and negative 0.5. We had a beta of 1 for A and a beta of 2 for B. For our alphas, we had plus 1% for stock A and negative 1% for stock B. We can plug all of these into our equation and work it out. For our beta component, we end up with a beta for the portfolio of negative 0.5. Our alpha component for stock A ends up just being 0.5. And for stock B, negative 0.5 times negative 1, or 0.5. So bringing it all together, under these assumptions, using the cap M, our expected return for this allocation is negative 0.5 times the market return plus 1%. Let's double check this by plugging in one of our earlier examples. Consider that example where the market went up 10%. So we've got minus 0.5 times 10% plus 1%. So in the case where the market goes up 10%, we expect a minus 4% return for our portfolio. So if you step back a little bit, remember that we arrived at this 1% using information. So we have some information about these stocks that led us to believe one would go up 1% over the market, another would go down 1% over the market. On the other hand, we don't really have any knowledge about what's going to happen for the market overall. So we have no control over this component. Is there some way that we can remove this? Can we make this part equal to 0? If we can do that, then we essentially remove market risk from our portfolio, and we preserve this 1% over here. Well, the way to do that is to focus on this part. Remember, this is beta for the portfolio. Can we make beta for the portfolio equal to 0? Or in other words, can we find weights for A and B such that their sum turns out to be 0? What are these two weights so that the overall portfolio beta is 0?"
+}

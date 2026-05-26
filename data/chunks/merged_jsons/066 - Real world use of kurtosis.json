@@ -1,0 +1,34 @@
+{
+    "title": "Real world use of kurtosis",
+    "number": "066",
+    "chunks": [
+        {
+            "title": "Real world use of kurtosis",
+            "number": "066",
+            "start": 0.0,
+            "end": 23.0,
+            "text": "As you have seen in this lesson, the distribution of daily returns for stocks and the market look very similar to a Gaussian. This property persists when we look at weekly, monthly, and annual returns as well. If they were really Gaussian, we'd say the returns were normally distributed. In many cases in financial research, we assume the returns are normally distributed."
+        },
+        {
+            "title": "Real world use of kurtosis",
+            "number": "066",
+            "start": 23.0,
+            "end": 46.0,
+            "text": "But this can be dangerous because it ignores kurtosis, or the probability in the tails. In the early 2000s, investment banks built bonds based on mortgages. They assumed that the distribution of returns for these mortgages was normally distributed. On that basis, they were able to show that these bonds had a very low probability of default. But they made two mistakes."
+        },
+        {
+            "title": "Real world use of kurtosis",
+            "number": "066",
+            "start": 46.0,
+            "end": 65.0,
+            "text": "First, they assumed that the return of each of these mortgages was independent. And two, that this return would be normally distributed. Both of these assumptions proved to be wrong as massive numbers of home loans defaulted on their mortgages. It was these defaults that precipitated the Great Recession of 2008."
+        },
+        {
+            "title": "Real world use of kurtosis",
+            "number": "066",
+            "start": 65.0,
+            "end": 93.3,
+            "text": "Ever since this was being originated by a"
+        }
+    ]
+}

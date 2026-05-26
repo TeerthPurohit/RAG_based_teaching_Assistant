@@ -1,0 +1,48 @@
+{
+    "title": "Framing the problem",
+    "number": "085",
+    "chunks": [
+        {
+            "title": "Framing the problem",
+            "number": "085",
+            "start": 0.7,
+            "end": 24.2,
+            "text": "We're going to focus here on optimizing for sharp ratio. So solving that problem is not trivial, but it's not too hard either. What we need to do is frame the portfolio optimization problem as a minimization problem, and then we can solve it using the tools you have already. As you recall, in order to use a optimizer that minimizes,"
+        },
+        {
+            "title": "Framing the problem",
+            "number": "085",
+            "start": 24.2,
+            "end": 47.0,
+            "text": "we have to do three things. First, we have to provide a function to minimize f of x that takes in x. Two, an initial guess for that x. And three, call the optimizer and let it run. Now, in this case, x are the allocations that we're looking for."
+        },
+        {
+            "title": "Framing the problem",
+            "number": "085",
+            "start": 47.0,
+            "end": 65.0,
+            "text": "And we want the optimizer to try different allocations in order to discover the best set of allocations that optimizes this function. Well, what is that function exactly? We said just a moment ago that we want to optimize for sharp ratio. So, is this just sharp ratio?"
+        },
+        {
+            "title": "Framing the problem",
+            "number": "085",
+            "start": 65.0,
+            "end": 83.3,
+            "text": "Well, not exactly, because what the minimizer will do in this case is try to find the smallest sharp ratio. So it'll find allocations that minimize that. And we want, of course, the largest sharp ratio, because larger sharp ratios are better. That's easy to fix."
+        },
+        {
+            "title": "Framing the problem",
+            "number": "085",
+            "start": 83.3,
+            "end": 108.3,
+            "text": "All we do is multiply this by negative 1. So, all that we want our optimizer to do is optimize for a negative sharp ratio. And that'll find the best allocation or the best value for x to solve this problem. And remember, x can have multiple dimensions. So each dimension of x here is an allocation to each of the stocks."
+        },
+        {
+            "title": "Framing the problem",
+            "number": "085",
+            "start": 108.3,
+            "end": 120.7,
+            "text": "So if we're trying to solve for a portfolio of four stocks, x will have four dimensions. And the value for each of those dimensions is the percentage of funds to allocate to each of those stocks."
+        }
+    ]
+}

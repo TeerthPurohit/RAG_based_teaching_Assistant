@@ -1,0 +1,215 @@
+{
+    "chunks": [
+        {
+            "number": "057",
+            "title": "A closer look at daily returns",
+            "start": 0.2,
+            "end": 4.1,
+            "text": "We're going to use daily returns as a basis for the analysis in this lesson."
+        },
+        {
+            "number": "057",
+            "title": "A closer look at daily returns",
+            "start": 4.1,
+            "end": 9.3,
+            "text": "And we build daily returns like we've seen before by starting with a price"
+        },
+        {
+            "number": "057",
+            "title": "A closer look at daily returns",
+            "start": 9.3,
+            "end": 11.0,
+            "text": "time series."
+        },
+        {
+            "number": "057",
+            "title": "A closer look at daily returns",
+            "start": 11.0,
+            "end": 15.7,
+            "text": "And each point in this daily return chart is related to how much"
+        },
+        {
+            "number": "057",
+            "title": "A closer look at daily returns",
+            "start": 15.7,
+            "end": 18.4,
+            "text": "prices changed on that corresponding day."
+        },
+        {
+            "number": "057",
+            "title": "A closer look at daily returns",
+            "start": 18.4,
+            "end": 23.6,
+            "text": "So for instance, this represents how much the price"
+        },
+        {
+            "number": "057",
+            "title": "A closer look at daily returns",
+            "start": 23.6,
+            "end": 28.4,
+            "text": "changed from this day to that day, about 1%."
+        },
+        {
+            "number": "057",
+            "title": "A closer look at daily returns",
+            "start": 28.4,
+            "end": 32.4,
+            "text": "And of course we have that for each of the days in our history."
+        },
+        {
+            "number": "057",
+            "title": "A closer look at daily returns",
+            "start": 32.4,
+            "end": 36.9,
+            "text": "Now looking at this data, this daily return data, it's not too revealing."
+        },
+        {
+            "number": "057",
+            "title": "A closer look at daily returns",
+            "start": 36.9,
+            "end": 42.1,
+            "text": "It, it, it, it's hard to draw any sorts of interesting conclusions just by"
+        },
+        {
+            "number": "057",
+            "title": "A closer look at daily returns",
+            "start": 42.1,
+            "end": 45.0,
+            "text": "visually looking at this data from day to day."
+        },
+        {
+            "number": "057",
+            "title": "A closer look at daily returns",
+            "start": 45.0,
+            "end": 49.6,
+            "text": "And so there's a number of interesting ways that we can look at that data."
+        },
+        {
+            "number": "057",
+            "title": "A closer look at daily returns",
+            "start": 49.6,
+            "end": 52.5,
+            "text": "And that's, that's what this lesson is all about."
+        },
+        {
+            "number": "057",
+            "title": "A closer look at daily returns",
+            "start": 52.5,
+            "end": 56.5,
+            "text": "Those two ways are histograms and scatter plots."
+        },
+        {
+            "number": "057",
+            "title": "A closer look at daily returns",
+            "start": 56.5,
+            "end": 59.1,
+            "text": "Let's start by taking a look at histograms."
+        },
+        {
+            "number": "057",
+            "title": "A closer look at daily returns",
+            "start": 59.1,
+            "end": 65.1,
+            "text": "A histogram is a kind of bar chart where we plot the number of occurrences of"
+        },
+        {
+            "number": "057",
+            "title": "A closer look at daily returns",
+            "start": 65.1,
+            "end": 68.7,
+            "text": "each item versus the value."
+        },
+        {
+            "number": "057",
+            "title": "A closer look at daily returns",
+            "start": 68.7,
+            "end": 75.3,
+            "text": "So the way we accomplish that is we split up the range of data into lots of"
+        },
+        {
+            "number": "057",
+            "title": "A closer look at daily returns",
+            "start": 75.3,
+            "end": 77.3,
+            "text": "little bins."
+        },
+        {
+            "number": "057",
+            "title": "A closer look at daily returns",
+            "start": 77.3,
+            "end": 83.3,
+            "text": "And we count up how many times the data matches the range across that bin."
+        },
+        {
+            "number": "057",
+            "title": "A closer look at daily returns",
+            "start": 83.3,
+            "end": 89.2,
+            "text": "So as an example, if you notice here, we've got several occurrences of this value,"
+        },
+        {
+            "number": "057",
+            "title": "A closer look at daily returns",
+            "start": 89.2,
+            "end": 90.9,
+            "text": "which is about the same."
+        },
+        {
+            "number": "057",
+            "title": "A closer look at daily returns",
+            "start": 90.9,
+            "end": 98.1,
+            "text": "And those three occurrences are probably in, say, this bin."
+        },
+        {
+            "number": "057",
+            "title": "A closer look at daily returns",
+            "start": 98.1,
+            "end": 103.6,
+            "text": "So when we go to plot the histogram overall, we would see a bar of the appropriate"
+        },
+        {
+            "number": "057",
+            "title": "A closer look at daily returns",
+            "start": 103.6,
+            "end": 110.5,
+            "text": "height here that represents how many values, how many times the data match that value."
+        },
+        {
+            "number": "057",
+            "title": "A closer look at daily returns",
+            "start": 110.5,
+            "end": 115.0,
+            "text": "And of course, we have values in other bins."
+        },
+        {
+            "number": "057",
+            "title": "A closer look at daily returns",
+            "start": 115.0,
+            "end": 119.6,
+            "text": "And so the bars in those bins would have various heights."
+        },
+        {
+            "number": "057",
+            "title": "A closer look at daily returns",
+            "start": 119.6,
+            "end": 126.7,
+            "text": "And as you gather that data across all of time, a shape emerges of this histogram."
+        },
+        {
+            "number": "057",
+            "title": "A closer look at daily returns",
+            "start": 126.7,
+            "end": 128.7,
+            "text": "And that provides a lot of information."
+        },
+        {
+            "number": "057",
+            "title": "A closer look at daily returns",
+            "start": 128.7,
+            "end": 131.2,
+            "text": "So let's consider what that shape might look like."
+        }
+    ],
+    "text": "We're going to use daily returns as a basis for the analysis in this lesson. And we build daily returns like we've seen before by starting with a price time series. And each point in this daily return chart is related to how much prices changed on that corresponding day. So for instance, this represents how much the price changed from this day to that day, about 1%. And of course we have that for each of the days in our history. Now looking at this data, this daily return data, it's not too revealing. It, it, it, it's hard to draw any sorts of interesting conclusions just by visually looking at this data from day to day. And so there's a number of interesting ways that we can look at that data. And that's, that's what this lesson is all about. Those two ways are histograms and scatter plots. Let's start by taking a look at histograms. A histogram is a kind of bar chart where we plot the number of occurrences of each item versus the value. So the way we accomplish that is we split up the range of data into lots of little bins. And we count up how many times the data matches the range across that bin. So as an example, if you notice here, we've got several occurrences of this value, which is about the same. And those three occurrences are probably in, say, this bin. So when we go to plot the histogram overall, we would see a bar of the appropriate height here that represents how many values, how many times the data match that value. And of course, we have values in other bins. And so the bars in those bins would have various heights. And as you gather that data across all of time, a shape emerges of this histogram. And that provides a lot of information. So let's consider what that shape might look like."
+}

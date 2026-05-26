@@ -1,0 +1,20 @@
+{
+    "title": "Market capitalization",
+    "number": "110",
+    "chunks": [
+        {
+            "title": "Market capitalization",
+            "number": "110",
+            "start": 0.4,
+            "end": 17.7,
+            "text": "The third way of estimating company value is simply to let the market decide. And that's called market capitalization. This is a simple calculation. Market capitalization is just equal to the number of shares that are outstanding times the price."
+        },
+        {
+            "title": "Market capitalization",
+            "number": "110",
+            "start": 17.7,
+            "end": 29.8,
+            "text": "So in other words, you can look at the stock market and see what the current price is and see how many shares are owned by people. And it's just one times the other and that's the value of the company in terms of market capitalization."
+        }
+    ]
+}

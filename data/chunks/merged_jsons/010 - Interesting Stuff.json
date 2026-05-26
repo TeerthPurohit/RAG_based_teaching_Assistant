@@ -1,0 +1,27 @@
+{
+    "title": "Interesting Stuff",
+    "number": "010",
+    "chunks": [
+        {
+            "title": "Interesting Stuff",
+            "number": "010",
+            "start": 0.0,
+            "end": 18.8,
+            "text": "So now let's do some interesting stuff. What if I want to view rows from the data frame in between some random values and not the head and the tail? We can do something of this kind. If you want data from index 10 to 20, just add this line."
+        },
+        {
+            "title": "Interesting Stuff",
+            "number": "010",
+            "start": 18.8,
+            "end": 38.3,
+            "text": "Let's see the output. Here it is. All the data between the index 10 and 20 are displayed. But you must also observe that if you want data between 10 and 20, you have to mention 10 colon 21 because 21 is not inclusive in the range."
+        },
+        {
+            "title": "Interesting Stuff",
+            "number": "010",
+            "start": 38.3,
+            "end": 45.9,
+            "text": "This operation is called slicing and it is a very important operation in Python pandas which you will encounter in the future lesson."
+        }
+    ]
+}

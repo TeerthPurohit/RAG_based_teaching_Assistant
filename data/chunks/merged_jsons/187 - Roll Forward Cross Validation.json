@@ -1,0 +1,27 @@
+{
+    "title": "Roll Forward Cross Validation",
+    "number": "187",
+    "chunks": [
+        {
+            "title": "Roll Forward Cross Validation",
+            "number": "187",
+            "start": 0.0,
+            "end": 19.6,
+            "text": "Cross validation is a great tool, but the typical usage of it doesn't fit financial data applications well. The reason is, is that it can permit peaking into the future. So for instance, if our training data is after our test data, that means we're seeing the future ahead of our test."
+        },
+        {
+            "title": "Roll Forward Cross Validation",
+            "number": "187",
+            "start": 19.6,
+            "end": 43.1,
+            "text": "Any sort of peaking like this can read to unrealistically optimistic results. So with this sort of data, we need to avoid it. One way to avoid this problem is with roll forward cross validation. That means our training data is always before our testing data. But we can still have multiple trials just by rolling our data forward."
+        },
+        {
+            "title": "Roll Forward Cross Validation",
+            "number": "187",
+            "start": 43.1,
+            "end": 46.6,
+            "text": "Like this, and this, and this, till we run out of data."
+        }
+    ]
+}

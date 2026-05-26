@@ -1,0 +1,159 @@
+{
+    "chunks": [
+        {
+            "number": "026",
+            "title": "Normalizing",
+            "start": 0.6,
+            "end": 4.5,
+            "text": "Let's analyze the graph that we had plotted for the four stocks."
+        },
+        {
+            "number": "026",
+            "title": "Normalizing",
+            "start": 5.6,
+            "end": 9.2,
+            "text": "You see, the four stocks are over multiple ranges."
+        },
+        {
+            "number": "026",
+            "title": "Normalizing",
+            "start": 9.2,
+            "end": 12.0,
+            "text": "But we need to observe the movement of the stock."
+        },
+        {
+            "number": "026",
+            "title": "Normalizing",
+            "start": 12.0,
+            "end": 17.6,
+            "text": "By movement, I mean how much the stock went up or down as compared to the others."
+        },
+        {
+            "number": "026",
+            "title": "Normalizing",
+            "start": 17.6,
+            "end": 21.4,
+            "text": "To do this, we need to normalize the prices of all the stock."
+        },
+        {
+            "number": "026",
+            "title": "Normalizing",
+            "start": 21.4,
+            "end": 25.7,
+            "text": "We do this by dividing the values of each column by day one."
+        },
+        {
+            "number": "026",
+            "title": "Normalizing",
+            "start": 25.7,
+            "end": 30.0,
+            "text": "This will ensure that all the stocks will start with $1."
+        },
+        {
+            "number": "026",
+            "title": "Normalizing",
+            "start": 30.0,
+            "end": 34.2,
+            "text": "Power of pandas and Python is that we can do this in one line."
+        },
+        {
+            "number": "026",
+            "title": "Normalizing",
+            "start": 34.2,
+            "end": 34.8,
+            "text": "Let's add it."
+        },
+        {
+            "number": "026",
+            "title": "Normalizing",
+            "start": 36.0,
+            "end": 40.2,
+            "text": "We define a function normalize data and pass the data frame to it."
+        },
+        {
+            "number": "026",
+            "title": "Normalizing",
+            "start": 40.2,
+            "end": 42.9,
+            "text": "First, we want all the values of the data frame."
+        },
+        {
+            "number": "026",
+            "title": "Normalizing",
+            "start": 42.9,
+            "end": 47.2,
+            "text": "Hence, we just type the name of the data frame, which is df."
+        },
+        {
+            "number": "026",
+            "title": "Normalizing",
+            "start": 47.2,
+            "end": 52.5,
+            "text": "Now we want to divide all the values of this data frame by the first row of it."
+        },
+        {
+            "number": "026",
+            "title": "Normalizing",
+            "start": 52.5,
+            "end": 55.0,
+            "text": "So we extract the first row using row slicing."
+        },
+        {
+            "number": "026",
+            "title": "Normalizing",
+            "start": 55.7,
+            "end": 58.3,
+            "text": "This will give us the first row."
+        },
+        {
+            "number": "026",
+            "title": "Normalizing",
+            "start": 58.3,
+            "end": 60.4,
+            "text": "Now we will just divide it."
+        },
+        {
+            "number": "026",
+            "title": "Normalizing",
+            "start": 60.4,
+            "end": 62.9,
+            "text": "Let's see how the graph changes."
+        },
+        {
+            "number": "026",
+            "title": "Normalizing",
+            "start": 62.9,
+            "end": 67.0,
+            "text": "Observe all the stocks start with price one."
+        },
+        {
+            "number": "026",
+            "title": "Normalizing",
+            "start": 67.0,
+            "end": 71.2,
+            "text": "And now you can see the changes, that is the stock movement."
+        },
+        {
+            "number": "026",
+            "title": "Normalizing",
+            "start": 71.2,
+            "end": 72.2,
+            "text": "That's it for now."
+        },
+        {
+            "number": "026",
+            "title": "Normalizing",
+            "start": 72.2,
+            "end": 75.0,
+            "text": "I will be back soon with more coding."
+        },
+        {
+            "number": "026",
+            "title": "Normalizing",
+            "start": 75.0,
+            "end": 78.6,
+            "text": "Till then, enjoy the power of the Python and happy coding."
+        }
+    ],
+    "text": "Let's analyze the graph that we had plotted for the four stocks. You see, the four stocks are over multiple ranges. But we need to observe the movement of the stock. By movement, I mean how much the stock went up or down as compared to the others. To do this, we need to normalize the prices of all the stock. We do this by dividing the values of each column by day one. This will ensure that all the stocks will start with $1. Power of pandas and Python is that we can do this in one line. Let's add it. We define a function normalize data and pass the data frame to it. First, we want all the values of the data frame. Hence, we just type the name of the data frame, which is df. Now we want to divide all the values of this data frame by the first row of it. So we extract the first row using row slicing. This will give us the first row. Now we will just divide it. Let's see how the graph changes. Observe all the stocks start with price one. And now you can see the changes, that is the stock movement. That's it for now. I will be back soon with more coding. Till then, enjoy the power of the Python and happy coding."
+}

@@ -1,0 +1,334 @@
+{
+    "chunks": [
+        {
+            "number": "200",
+            "title": "Unknown transitions and rewards",
+            "start": 0.6,
+            "end": 4.6,
+            "text": "Most of the time we don't have this transition function and"
+        },
+        {
+            "number": "200",
+            "title": "Unknown transitions and rewards",
+            "start": 4.6,
+            "end": 7.3,
+            "text": "we don't have the reward function either."
+        },
+        {
+            "number": "200",
+            "title": "Unknown transitions and rewards",
+            "start": 7.3,
+            "end": 13.3,
+            "text": "So the robot or the trader or whatever environment we're in has to interact with"
+        },
+        {
+            "number": "200",
+            "title": "Unknown transitions and rewards",
+            "start": 13.3,
+            "end": 19.2,
+            "text": "the world, observe what happens, and work with that data to try to build a policy."
+        },
+        {
+            "number": "200",
+            "title": "Unknown transitions and rewards",
+            "start": 19.2,
+            "end": 21.5,
+            "text": "So let me give you an example here."
+        },
+        {
+            "number": "200",
+            "title": "Unknown transitions and rewards",
+            "start": 21.5,
+            "end": 25.7,
+            "text": "Let's say we were in state S1, so that's what we observed there."
+        },
+        {
+            "number": "200",
+            "title": "Unknown transitions and rewards",
+            "start": 25.7,
+            "end": 32.4,
+            "text": "Our robot took action A1, I'm making this a little subscript to indicate"
+        },
+        {
+            "number": "200",
+            "title": "Unknown transitions and rewards",
+            "start": 32.4,
+            "end": 37.5,
+            "text": "that which step in this series of steps it's at."
+        },
+        {
+            "number": "200",
+            "title": "Unknown transitions and rewards",
+            "start": 37.5,
+            "end": 43.5,
+            "text": "We then find ourself in S prime and we get reward R."
+        },
+        {
+            "number": "200",
+            "title": "Unknown transitions and rewards",
+            "start": 43.5,
+            "end": 47.6,
+            "text": "Now this is an experience tuple."
+        },
+        {
+            "number": "200",
+            "title": "Unknown transitions and rewards",
+            "start": 47.6,
+            "end": 53.3,
+            "text": "This is very similar to experience tuples in regression learning where we have"
+        },
+        {
+            "number": "200",
+            "title": "Unknown transitions and rewards",
+            "start": 53.3,
+            "end": 55.8,
+            "text": "an X and a Y paired together."
+        },
+        {
+            "number": "200",
+            "title": "Unknown transitions and rewards",
+            "start": 55.8,
+            "end": 60.5,
+            "text": "That's an experience tuple of, you know, when you observe this X, you see this Y."
+        },
+        {
+            "number": "200",
+            "title": "Unknown transitions and rewards",
+            "start": 60.5,
+            "end": 65.4,
+            "text": "Here we're saying when you observe this state, S1, you take action A1."
+        },
+        {
+            "number": "200",
+            "title": "Unknown transitions and rewards",
+            "start": 65.4,
+            "end": 69.2,
+            "text": "You end up in this new state, at least it's an example of you ending up in this"
+        },
+        {
+            "number": "200",
+            "title": "Unknown transitions and rewards",
+            "start": 69.2,
+            "end": 73.7,
+            "text": "new state, S1 prime, and reward R1."
+        },
+        {
+            "number": "200",
+            "title": "Unknown transitions and rewards",
+            "start": 73.7,
+            "end": 78.8,
+            "text": "Now we find ourselves in a new state, S2, but that's really this state."
+        },
+        {
+            "number": "200",
+            "title": "Unknown transitions and rewards",
+            "start": 78.8,
+            "end": 80.5,
+            "text": "That's where we found ourself."
+        },
+        {
+            "number": "200",
+            "title": "Unknown transitions and rewards",
+            "start": 80.5,
+            "end": 83.9,
+            "text": "We take some new action, A2."
+        },
+        {
+            "number": "200",
+            "title": "Unknown transitions and rewards",
+            "start": 83.9,
+            "end": 91.2,
+            "text": "We end up in some new state, S2 prime, and we get a new reward, R2."
+        },
+        {
+            "number": "200",
+            "title": "Unknown transitions and rewards",
+            "start": 91.2,
+            "end": 94.7,
+            "text": "And we do this over and over and over and over and over again,"
+        },
+        {
+            "number": "200",
+            "title": "Unknown transitions and rewards",
+            "start": 94.7,
+            "end": 98.2,
+            "text": "gathering experience tuples all along the way."
+        },
+        {
+            "number": "200",
+            "title": "Unknown transitions and rewards",
+            "start": 98.2,
+            "end": 103.0,
+            "text": "Now, if we have this trail of experience tuples,"
+        },
+        {
+            "number": "200",
+            "title": "Unknown transitions and rewards",
+            "start": 103.0,
+            "end": 106.8,
+            "text": "there's two things we can do with them in order to find that policy pi."
+        },
+        {
+            "number": "200",
+            "title": "Unknown transitions and rewards",
+            "start": 106.8,
+            "end": 112.6,
+            "text": "The first set of approaches is called model-based reinforcement learning."
+        },
+        {
+            "number": "200",
+            "title": "Unknown transitions and rewards",
+            "start": 112.6,
+            "end": 115.7,
+            "text": "What we do is we look at this data over time and"
+        },
+        {
+            "number": "200",
+            "title": "Unknown transitions and rewards",
+            "start": 115.7,
+            "end": 121.3,
+            "text": "we build a model of T just by looking statistically at these transitions."
+        },
+        {
+            "number": "200",
+            "title": "Unknown transitions and rewards",
+            "start": 121.3,
+            "end": 125.4,
+            "text": "In other words, we can look at every time we were in a particular state and"
+        },
+        {
+            "number": "200",
+            "title": "Unknown transitions and rewards",
+            "start": 125.4,
+            "end": 129.9,
+            "text": "took a particular action and see which new states we ended up in."
+        },
+        {
+            "number": "200",
+            "title": "Unknown transitions and rewards",
+            "start": 129.9,
+            "end": 132.8,
+            "text": "And just build a tabular representation of that."
+        },
+        {
+            "number": "200",
+            "title": "Unknown transitions and rewards",
+            "start": 132.8,
+            "end": 134.6,
+            "text": "It's not hard."
+        },
+        {
+            "number": "200",
+            "title": "Unknown transitions and rewards",
+            "start": 134.6,
+            "end": 137.9,
+            "text": "Similarly, we can build a model of R."
+        },
+        {
+            "number": "200",
+            "title": "Unknown transitions and rewards",
+            "start": 137.9,
+            "end": 141.6,
+            "text": "We just look statistically when we're in a particular state and"
+        },
+        {
+            "number": "200",
+            "title": "Unknown transitions and rewards",
+            "start": 141.6,
+            "end": 144.5,
+            "text": "we take an action, what's the reward?"
+        },
+        {
+            "number": "200",
+            "title": "Unknown transitions and rewards",
+            "start": 144.5,
+            "end": 148.6,
+            "text": "And we can just average that over all these instances."
+        },
+        {
+            "number": "200",
+            "title": "Unknown transitions and rewards",
+            "start": 148.6,
+            "end": 153.3,
+            "text": "Once we have these models, we can then use value iteration or"
+        },
+        {
+            "number": "200",
+            "title": "Unknown transitions and rewards",
+            "start": 153.3,
+            "end": 156.1,
+            "text": "policy iteration to solve the problem."
+        },
+        {
+            "number": "200",
+            "title": "Unknown transitions and rewards",
+            "start": 156.1,
+            "end": 159.5,
+            "text": "There's another set of approaches called model-free."
+        },
+        {
+            "number": "200",
+            "title": "Unknown transitions and rewards",
+            "start": 159.5,
+            "end": 161.4,
+            "text": "And that's the type that we're going to focus on."
+        },
+        {
+            "number": "200",
+            "title": "Unknown transitions and rewards",
+            "start": 161.4,
+            "end": 165.5,
+            "text": "And in particular, we're going to learn about Q-learning."
+        },
+        {
+            "number": "200",
+            "title": "Unknown transitions and rewards",
+            "start": 165.5,
+            "end": 172.7,
+            "text": "And model-free methods develop a policy just directly by looking at the data."
+        },
+        {
+            "number": "200",
+            "title": "Unknown transitions and rewards",
+            "start": 172.7,
+            "end": 175.0,
+            "text": "And of course, we'll talk about those soon."
+        },
+        {
+            "number": "200",
+            "title": "Unknown transitions and rewards",
+            "start": 175.0,
+            "end": 176.0,
+            "text": "."
+        },
+        {
+            "number": "200",
+            "title": "Unknown transitions and rewards",
+            "start": 176.0,
+            "end": 178.0,
+            "text": "."
+        },
+        {
+            "number": "200",
+            "title": "Unknown transitions and rewards",
+            "start": 178.0,
+            "end": 182.0,
+            "text": "."
+        },
+        {
+            "number": "200",
+            "title": "Unknown transitions and rewards",
+            "start": 182.0,
+            "end": 186.0,
+            "text": "."
+        },
+        {
+            "number": "200",
+            "title": "Unknown transitions and rewards",
+            "start": 186.0,
+            "end": 190.0,
+            "text": "."
+        }
+    ],
+    "text": "Most of the time we don't have this transition function and we don't have the reward function either. So the robot or the trader or whatever environment we're in has to interact with the world, observe what happens, and work with that data to try to build a policy. So let me give you an example here. Let's say we were in state S1, so that's what we observed there. Our robot took action A1, I'm making this a little subscript to indicate that which step in this series of steps it's at. We then find ourself in S prime and we get reward R. Now this is an experience tuple. This is very similar to experience tuples in regression learning where we have an X and a Y paired together. That's an experience tuple of, you know, when you observe this X, you see this Y. Here we're saying when you observe this state, S1, you take action A1. You end up in this new state, at least it's an example of you ending up in this new state, S1 prime, and reward R1. Now we find ourselves in a new state, S2, but that's really this state. That's where we found ourself. We take some new action, A2. We end up in some new state, S2 prime, and we get a new reward, R2. And we do this over and over and over and over and over again, gathering experience tuples all along the way. Now, if we have this trail of experience tuples, there's two things we can do with them in order to find that policy pi. The first set of approaches is called model-based reinforcement learning. What we do is we look at this data over time and we build a model of T just by looking statistically at these transitions. In other words, we can look at every time we were in a particular state and took a particular action and see which new states we ended up in. And just build a tabular representation of that. It's not hard. Similarly, we can build a model of R. We just look statistically when we're in a particular state and we take an action, what's the reward? And we can just average that over all these instances. Once we have these models, we can then use value iteration or policy iteration to solve the problem. There's another set of approaches called model-free. And that's the type that we're going to focus on. And in particular, we're going to learn about Q-learning. And model-free methods develop a policy just directly by looking at the data. And of course, we'll talk about those soon. . . . . ."
+}

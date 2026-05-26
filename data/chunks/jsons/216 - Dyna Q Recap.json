@@ -1,0 +1,103 @@
+{
+    "chunks": [
+        {
+            "number": "216",
+            "title": "Dyna Q Recap",
+            "start": 0.5,
+            "end": 4.6,
+            "text": "Before we close, let's recap really quick how DynaQ works."
+        },
+        {
+            "number": "216",
+            "title": "Dyna Q Recap",
+            "start": 4.6,
+            "end": 9.5,
+            "text": "So we start with straight regular Q learning here, and"
+        },
+        {
+            "number": "216",
+            "title": "Dyna Q Recap",
+            "start": 9.5,
+            "end": 12.3,
+            "text": "then we add three new components."
+        },
+        {
+            "number": "216",
+            "title": "Dyna Q Recap",
+            "start": 12.3,
+            "end": 17.2,
+            "text": "The three components are, we update models of T and R,"
+        },
+        {
+            "number": "216",
+            "title": "Dyna Q Recap",
+            "start": 17.2,
+            "end": 23.4,
+            "text": "then we hallucinate an experience and update our Q table."
+        },
+        {
+            "number": "216",
+            "title": "Dyna Q Recap",
+            "start": 23.4,
+            "end": 28.1,
+            "text": "Now we may repeat this many times, in fact, maybe hundreds of times,"
+        },
+        {
+            "number": "216",
+            "title": "Dyna Q Recap",
+            "start": 28.1,
+            "end": 29.2,
+            "text": "until we're happy."
+        },
+        {
+            "number": "216",
+            "title": "Dyna Q Recap",
+            "start": 29.2,
+            "end": 31.7,
+            "text": "Usually it's one or two hundred here."
+        },
+        {
+            "number": "216",
+            "title": "Dyna Q Recap",
+            "start": 31.7,
+            "end": 36.5,
+            "text": "Once we've completed those, we then return back up to the top and"
+        },
+        {
+            "number": "216",
+            "title": "Dyna Q Recap",
+            "start": 36.5,
+            "end": 39.2,
+            "text": "continue our interaction with the real world."
+        },
+        {
+            "number": "216",
+            "title": "Dyna Q Recap",
+            "start": 39.2,
+            "end": 44.5,
+            "text": "The reason DynaQ is useful is that these experiences with the real world are"
+        },
+        {
+            "number": "216",
+            "title": "Dyna Q Recap",
+            "start": 44.5,
+            "end": 49.7,
+            "text": "potentially very expensive, and these hallucinations can be very cheap."
+        },
+        {
+            "number": "216",
+            "title": "Dyna Q Recap",
+            "start": 49.7,
+            "end": 53.5,
+            "text": "And when we iterate doing many of them,"
+        },
+        {
+            "number": "216",
+            "title": "Dyna Q Recap",
+            "start": 53.5,
+            "end": 56.3,
+            "text": "we update our Q table much more quickly."
+        }
+    ],
+    "text": "Before we close, let's recap really quick how DynaQ works. So we start with straight regular Q learning here, and then we add three new components. The three components are, we update models of T and R, then we hallucinate an experience and update our Q table. Now we may repeat this many times, in fact, maybe hundreds of times, until we're happy. Usually it's one or two hundred here. Once we've completed those, we then return back up to the top and continue our interaction with the real world. The reason DynaQ is useful is that these experiences with the real world are potentially very expensive, and these hallucinations can be very cheap. And when we iterate doing many of them, we update our Q table much more quickly."
+}

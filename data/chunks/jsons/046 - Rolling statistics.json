@@ -1,0 +1,257 @@
+{
+    "chunks": [
+        {
+            "number": "046",
+            "title": "Rolling statistics",
+            "start": 0.4,
+            "end": 5.3,
+            "text": "We're going to introduce a new kind of statistic now called rolling statistics."
+        },
+        {
+            "number": "046",
+            "title": "Rolling statistics",
+            "start": 5.3,
+            "end": 11.4,
+            "text": "And as opposed to, say, just taking the mean across a whole period of time,"
+        },
+        {
+            "number": "046",
+            "title": "Rolling statistics",
+            "start": 11.4,
+            "end": 14.6,
+            "text": "we take sort of a snapshot over Windows."
+        },
+        {
+            "number": "046",
+            "title": "Rolling statistics",
+            "start": 14.6,
+            "end": 17.3,
+            "text": "And I'm going to show you what that means in just a moment."
+        },
+        {
+            "number": "046",
+            "title": "Rolling statistics",
+            "start": 17.3,
+            "end": 22.1,
+            "text": "Now on that last slide, we computed a global mean,"
+        },
+        {
+            "number": "046",
+            "title": "Rolling statistics",
+            "start": 22.1,
+            "end": 26.7,
+            "text": "which would be something about like this on this data."
+        },
+        {
+            "number": "046",
+            "title": "Rolling statistics",
+            "start": 26.7,
+            "end": 31.6,
+            "text": "A rolling mean is a little bit different, and here's how it works."
+        },
+        {
+            "number": "046",
+            "title": "Rolling statistics",
+            "start": 31.6,
+            "end": 36.0,
+            "text": "Let's suppose we're going to take a 20-day rolling mean."
+        },
+        {
+            "number": "046",
+            "title": "Rolling statistics",
+            "start": 36.0,
+            "end": 42.7,
+            "text": "We go starting from here, 20 days, so right about here."
+        },
+        {
+            "number": "046",
+            "title": "Rolling statistics",
+            "start": 42.7,
+            "end": 46.9,
+            "text": "And then we take the mean of all that data behind us."
+        },
+        {
+            "number": "046",
+            "title": "Rolling statistics",
+            "start": 48.4,
+            "end": 49.8,
+            "text": "We can draw a little box around that."
+        },
+        {
+            "number": "046",
+            "title": "Rolling statistics",
+            "start": 51.8,
+            "end": 54.0,
+            "text": "This is called the window."
+        },
+        {
+            "number": "046",
+            "title": "Rolling statistics",
+            "start": 54.0,
+            "end": 56.5,
+            "text": "In our case, it's 20 days."
+        },
+        {
+            "number": "046",
+            "title": "Rolling statistics",
+            "start": 56.5,
+            "end": 62.0,
+            "text": "So we average all these values, and we get one mean, which is this point."
+        },
+        {
+            "number": "046",
+            "title": "Rolling statistics",
+            "start": 62.0,
+            "end": 66.8,
+            "text": "We then move the window forward one day, and we take another mean."
+        },
+        {
+            "number": "046",
+            "title": "Rolling statistics",
+            "start": 66.8,
+            "end": 69.2,
+            "text": "Here's our next mean, which is a little bit higher."
+        },
+        {
+            "number": "046",
+            "title": "Rolling statistics",
+            "start": 69.2,
+            "end": 72.7,
+            "text": "Now if we do that every day over this entire year, so"
+        },
+        {
+            "number": "046",
+            "title": "Rolling statistics",
+            "start": 72.7,
+            "end": 80.4,
+            "text": "this is S&P 500 over the year 2012, we get something that looks about like this."
+        },
+        {
+            "number": "046",
+            "title": "Rolling statistics",
+            "start": 80.4,
+            "end": 87.9,
+            "text": "You can see essentially that it's a line that follows the day-to-day values of whatever it is we're tracking,"
+        },
+        {
+            "number": "046",
+            "title": "Rolling statistics",
+            "start": 87.9,
+            "end": 89.7,
+            "text": "but it lags a little bit."
+        },
+        {
+            "number": "046",
+            "title": "Rolling statistics",
+            "start": 89.7,
+            "end": 92.2,
+            "text": "It's sort of a smoothed and lagged line."
+        },
+        {
+            "number": "046",
+            "title": "Rolling statistics",
+            "start": 92.2,
+            "end": 94.4,
+            "text": "And this is called the rolling mean."
+        },
+        {
+            "number": "046",
+            "title": "Rolling statistics",
+            "start": 94.4,
+            "end": 98.9,
+            "text": "We can compute statistics like this, just like the rolling mean."
+        },
+        {
+            "number": "046",
+            "title": "Rolling statistics",
+            "start": 98.9,
+            "end": 100.9,
+            "text": "We could do standard deviation."
+        },
+        {
+            "number": "046",
+            "title": "Rolling statistics",
+            "start": 100.9,
+            "end": 105.2,
+            "text": "We could do mode, median, and so on."
+        },
+        {
+            "number": "046",
+            "title": "Rolling statistics",
+            "start": 105.2,
+            "end": 111.7,
+            "text": "All of those statistics I showed you just a moment ago can also be used as rolling statistics."
+        },
+        {
+            "number": "046",
+            "title": "Rolling statistics",
+            "start": 111.7,
+            "end": 118.2,
+            "text": "In a lesson in the next mini-course, we're going to spend a lot of time talking about technical indicators."
+        },
+        {
+            "number": "046",
+            "title": "Rolling statistics",
+            "start": 118.2,
+            "end": 122.0,
+            "text": "And this is actually one of them, this rolling mean."
+        },
+        {
+            "number": "046",
+            "title": "Rolling statistics",
+            "start": 122.0,
+            "end": 127.0,
+            "text": "It's called by technical analysts a simple moving average."
+        },
+        {
+            "number": "046",
+            "title": "Rolling statistics",
+            "start": 127.0,
+            "end": 135.5,
+            "text": "And one thing they look at is places where the price crosses through the rolling average."
+        },
+        {
+            "number": "046",
+            "title": "Rolling statistics",
+            "start": 135.5,
+            "end": 141.5,
+            "text": "So in this case, the price is moving down through the 20-day mean."
+        },
+        {
+            "number": "046",
+            "title": "Rolling statistics",
+            "start": 141.5,
+            "end": 152.5,
+            "text": "Now a hypothesis that I'm not saying I support, but a hypothesis that many who conduct technical analysis,"
+        },
+        {
+            "number": "046",
+            "title": "Rolling statistics",
+            "start": 152.5,
+            "end": 161.5,
+            "text": "is that this rolling mean may be a good representation of sort of the true underlying price of a stock."
+        },
+        {
+            "number": "046",
+            "title": "Rolling statistics",
+            "start": 161.5,
+            "end": 168.5,
+            "text": "And that significant deviations from that, like this one here, eventually result in a return to the mean."
+        },
+        {
+            "number": "046",
+            "title": "Rolling statistics",
+            "start": 168.5,
+            "end": 177.5,
+            "text": "So if you can look for, say, significant deviations like this one, you might find, say, a buying opportunity here."
+        },
+        {
+            "number": "046",
+            "title": "Rolling statistics",
+            "start": 177.5,
+            "end": 185.5,
+            "text": "A challenge, though, is to know, hey, when is that deviation significant enough that you should pay attention to it?"
+        }
+    ],
+    "text": "We're going to introduce a new kind of statistic now called rolling statistics. And as opposed to, say, just taking the mean across a whole period of time, we take sort of a snapshot over Windows. And I'm going to show you what that means in just a moment. Now on that last slide, we computed a global mean, which would be something about like this on this data. A rolling mean is a little bit different, and here's how it works. Let's suppose we're going to take a 20-day rolling mean. We go starting from here, 20 days, so right about here. And then we take the mean of all that data behind us. We can draw a little box around that. This is called the window. In our case, it's 20 days. So we average all these values, and we get one mean, which is this point. We then move the window forward one day, and we take another mean. Here's our next mean, which is a little bit higher. Now if we do that every day over this entire year, so this is S&P 500 over the year 2012, we get something that looks about like this. You can see essentially that it's a line that follows the day-to-day values of whatever it is we're tracking, but it lags a little bit. It's sort of a smoothed and lagged line. And this is called the rolling mean. We can compute statistics like this, just like the rolling mean. We could do standard deviation. We could do mode, median, and so on. All of those statistics I showed you just a moment ago can also be used as rolling statistics. In a lesson in the next mini-course, we're going to spend a lot of time talking about technical indicators. And this is actually one of them, this rolling mean. It's called by technical analysts a simple moving average. And one thing they look at is places where the price crosses through the rolling average. So in this case, the price is moving down through the 20-day mean. Now a hypothesis that I'm not saying I support, but a hypothesis that many who conduct technical analysis, is that this rolling mean may be a good representation of sort of the true underlying price of a stock. And that significant deviations from that, like this one here, eventually result in a return to the mean. So if you can look for, say, significant deviations like this one, you might find, say, a buying opportunity here. A challenge, though, is to know, hey, when is that deviation significant enough that you should pay attention to it?"
+}

@@ -1,0 +1,34 @@
+{
+    "title": "Problems with Plotting",
+    "number": "024",
+    "chunks": [
+        {
+            "title": "Problems with Plotting",
+            "number": "024",
+            "start": 0.2,
+            "end": 16.1,
+            "text": "Suppose you've got a data frame. It's pretty easy from the data frame to make a plot. In fact, the syntax is as simple as this. Pandas will take this data and create a nice chart that looks about like this. It'll give an individual color to each time series and"
+        },
+        {
+            "title": "Problems with Plotting",
+            "number": "024",
+            "start": 16.1,
+            "end": 38.4,
+            "text": "give you a nice legend telling you which is which. Now, one problem with viewing data like this is, for instance, at this time, by the way, these numbers are made up. But it's often the case that stocks are priced at significantly different levels. So in this example, say Google had a very high price and the other stocks had low prices."
+        },
+        {
+            "title": "Problems with Plotting",
+            "number": "024",
+            "start": 38.4,
+            "end": 61.9,
+            "text": "And it's hard to look at them sort of in a good way comparatively when they have these widely varying prices. So what we'd like to do instead is be able, say, to have them all start at one single point here, say that's 1.0, and then go out from there. So we can compare them on an apples to apples comparison."
+        },
+        {
+            "title": "Problems with Plotting",
+            "number": "024",
+            "start": 61.9,
+            "end": 75.1,
+            "text": "So we'd like to end up with a chart that looks like this, where everything starts at 1.0, and we can compare them on an equal basis going forward. So this is gonna be a sub cutting early, but we can compare them on an equal basis going forward."
+        }
+    ]
+}

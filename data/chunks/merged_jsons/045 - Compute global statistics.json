@@ -1,0 +1,55 @@
+{
+    "title": "Compute global statistics",
+    "number": "045",
+    "chunks": [
+        {
+            "title": "Compute global statistics",
+            "number": "045",
+            "start": 0.3,
+            "end": 18.8,
+            "text": "Let's do some coding to get an idea of what professor just explained. Starting with defining our symbols list, having symbols like SPY, XOM, Google, and gold. We then move ahead to build our data frame, DF, just like we did in couple of lessons before."
+        },
+        {
+            "title": "Compute global statistics",
+            "number": "045",
+            "start": 18.8,
+            "end": 32.3,
+            "text": "So DF is a final data frame. Now let's start computing statistics. First we compute mean. We need mean of stock prices for each symbol. And data frame dot mean will do this for us."
+        },
+        {
+            "title": "Compute global statistics",
+            "number": "045",
+            "start": 32.3,
+            "end": 48.9,
+            "text": "As professor explained, it computes mean for each column, and our columns denote one stock each. So we get mean for all stocks in just one line of code. So to compute the mean, we just called the name of the data frame, DF dot mean. Let's check the output."
+        },
+        {
+            "title": "Compute global statistics",
+            "number": "045",
+            "start": 50.1,
+            "end": 69.2,
+            "text": "Note how pandas prints the mean for each symbol properly labeled. Also, here is the graph with all the symbols and their data. Similarly, we can compute median and standard deviation. Let's do it. We compute the median of the data frame by calling the median function."
+        },
+        {
+            "title": "Compute global statistics",
+            "number": "045",
+            "start": 69.2,
+            "end": 86.8,
+            "text": "Remember the difference between the mean and the median. Mean is the average of a set of values. That is, their total sum divided by number of values. Whereas median refers to the value in the middle when they are all sorted. Now let's try standard deviation."
+        },
+        {
+            "title": "Compute global statistics",
+            "number": "045",
+            "start": 86.8,
+            "end": 105.0,
+            "text": "We compute the standard deviation by calling the function STD over the data frame. Let's check the output. Mathematically, standard deviation is the square root of variance. But more intuitively, it is a measure of deviation from central value. Here the central value is the mean."
+        },
+        {
+            "title": "Compute global statistics",
+            "number": "045",
+            "start": 105.0,
+            "end": 112.5,
+            "text": "A higher standard of deviation, like here for Google, indicates that the stock prices has varied a lot over time."
+        }
+    ]
+}

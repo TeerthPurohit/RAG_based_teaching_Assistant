@@ -1,0 +1,48 @@
+{
+    "title": "ML tool in use",
+    "number": "172",
+    "chunks": [
+        {
+            "title": "ML tool in use",
+            "number": "172",
+            "start": 0.3,
+            "end": 21.2,
+            "text": "On the QuantDesk platform, we can backtest in exactly the same way. Go over here to the backtest tab and click on forecast. And again, we can configure which group of stocks are we going to work with, and what are the settings for our backtest. For instance, how much money do we start with?"
+        },
+        {
+            "title": "ML tool in use",
+            "number": "172",
+            "start": 21.2,
+            "end": 36.7,
+            "text": "How frequently do we want to trade? Over what period of time do we want to run the backtest? And so on. Anyways, we make those selections. We also need to choose parameters for the forecaster."
+        },
+        {
+            "title": "ML tool in use",
+            "number": "172",
+            "start": 36.7,
+            "end": 55.7,
+            "text": "Again, which model do we want to use? Which includes what are the factors that we're paying attention to? How far into the future do we want to make our forecast? And how much data looking back do we want to use? Once we make all those selections, we can click on backtest, and it'll start running."
+        },
+        {
+            "title": "ML tool in use",
+            "number": "172",
+            "start": 55.7,
+            "end": 70.2,
+            "text": "It takes quite a bit of time, so we're going to go ahead and go ahead and see what we're going to do in the background. And I'll show you what one of these backtests looks like. Here's an example report that our system generates. This is again for a forecast backtest."
+        },
+        {
+            "title": "ML tool in use",
+            "number": "172",
+            "start": 70.2,
+            "end": 94.2,
+            "text": "The orange line here represents the historical value of our portfolio. The blue is the benchmark that we're using, which is S&P 500. You can see here a number of metrics tabulated. Over this period of time, we saw 346% return. Our Sharpe ratio was 1.14, and so on."
+        },
+        {
+            "title": "ML tool in use",
+            "number": "172",
+            "start": 94.2,
+            "end": 103.5,
+            "text": "So this is just an example of the kinds of systems you can build using the sorts of things we teach you in this class. So that's the forecast backtest."
+        }
+    ]
+}
