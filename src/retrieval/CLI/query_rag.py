@@ -13,8 +13,7 @@ from google import genai
 # Load model and embeddings once at startup
 client = genai.Client(api_key=api_key)
 
-model_path = model_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "../../../models/local_bge_m3"))
-model = SentenceTransformer(model_path)
+model = SentenceTransformer("BAAI/bge-m3")
 
 embeddings_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "../../../data/embeddings/embeddings.joblib"))
 df = joblib.load(embeddings_path)
