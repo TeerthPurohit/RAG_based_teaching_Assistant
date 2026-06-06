@@ -30,8 +30,7 @@ demo = gr.ChatInterface(
         "What is the difference between shorting and holding a stock?",
         "How does reinforcement learning apply to trading?",
         "What is a Sharpe ratio?"
-    ],
-    theme=gr.themes.Soft()
+    ]
 )
 
 # Mount Gradio on FastAPI
