@@ -2,6 +2,7 @@ import uvicorn
 from fastapi import FastAPI
 from pydantic import BaseModel
 from src.retrieval.CLI.query_rag import QueryResponse, query_rag
+import gradio as gr
 
 app = FastAPI()
 
