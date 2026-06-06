@@ -1,11 +1,15 @@
-That's a great question! In trading, machine learning (ML) is becoming increasingly important, especially when we think about how complex financial decisions can be.
+That's a great question to start with! In the context of this course, machine learning in trading is primarily about using algorithms to make decisions in financial markets.
 
-One of the most direct ways ML comes into play is by allowing us to frame trading as a Reinforcement Learning (RL) problem. As Professor Balch explains in "Mapping trading to RL" (video 198, starting at 0:5), the market itself is our environment. The "state" of this environment includes all sorts of market features, prices, and even whether we're currently holding a stock. RL algorithms are then used to figure out the best actions to take in these states to maximize returns over time. The "RL summary" (video 202, starting at 0:2) reiterates that reinforcement learning is a powerful tool we can use for trading, particularly for solving Markov Decision Problems that represent these trading scenarios.
+Professor Balch explains in video 164, "Overview," starting around 0:0.0, that hedge funds and other financial institutions utilize machine learning to create models that can predict future prices for stocks or other assets. It's about building systems that can learn from data to make better trading decisions.
 
-Beyond that core framework, ML can help in several practical ways:
+More specifically, a significant part of how we approach ML in trading in this course is through Reinforcement Learning (RL). Think of it as teaching a computer agent to trade by letting it interact with the market. As discussed in "Mapping trading to RL" (video 198, around 0:5), we map the trading problem to an RL framework where:
+  The environment is the market itself.
+  The state includes market features, prices, and whether you're holding a stock.
+  Your actions are things like buying, selling, or holding.
+  The reward (or R) is the return you get for making good trades, as mentioned in "The RL problem" (video 197, around 214:5).
 
-For example, when placing very large orders, like trying to buy "10 million shares of Apple" as discussed in "The computing inside a hedgefund" (video 094, starting at 124.7), simply sending a massive order can detrimentally affect the price. ML algorithms can be designed to optimize how these large orders are executed over time, minimizing that market impact and ensuring better execution prices.
+So, in essence, ML in trading here means using these algorithms, especially reinforcement learning, to learn optimal trading strategies by observing the market and receiving feedback (returns) on actions taken.
 
-While the Capital Asset Pricing Model (CAPM) in "CAPM vs active management" (video 117, starting at 163.1) suggests that "alpha" (the excess return above what the market provides) is often random, active managers still believe they can find it. Machine learning can be a tool for these active managers to develop sophisticated strategies, identify complex patterns, or spot deviations in value, as mentioned generally in "Summary" (video 112, starting at 37.9), which might lead to finding that elusive alpha.
-
-In essence, ML provides the computational power and algorithmic flexibility to analyze vast amounts of market data, identify subtle patterns, optimize complex trading strategies, and make decisions in a dynamic and uncertain environment, moving beyond simpler rule-based systems.
+I recommend checking out:
+  "Overview" (video 164) for the general introduction to ML in trading.
+  "Mapping trading to RL" (video 198) and "The RL problem" (video 197) to understand how trading specifically fits into the Reinforcement Learning framework.

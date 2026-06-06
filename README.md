@@ -1,3 +1,11 @@
+---
+title: RAG Teaching Assistant
+emoji: 🎓
+colorFrom: blue
+colorTo: green
+sdk: docker
+app_port: 7860
+---
 # 🎓 RAG Based Teaching Assistant
 
 This RAG based teaching assistant aids students to quickly navigate course material by taking a natural language query and returning the contextual information with an exact video reference and timestamp.
