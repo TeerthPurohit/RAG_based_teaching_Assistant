@@ -9,4 +9,4 @@ RUN pip install -r requirements.txt
 
 COPY . .
 
-CMD ["uvicorn", "fastapi_app:app", "--host", "0.0.0.0", "--port", "7860"]
+CMD ["python", "app.py"]"]
