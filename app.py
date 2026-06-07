@@ -133,7 +133,6 @@ chatbot = gr.Chatbot(
         None,
         "https://api.dicebear.com/7.x/bottts/svg?seed=tutor&backgroundColor=4a6cf7",
     ),
-    bubble_full_width=False,
 )
 
 demo = gr.ChatInterface(
