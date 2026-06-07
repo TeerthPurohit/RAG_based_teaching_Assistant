@@ -6,7 +6,7 @@ from pydantic import BaseModel
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "../../..")))
 from src.config.config_env import api_key
 from google import genai
 
@@ -36,34 +36,32 @@ def query_rag(query_text: str) -> QueryResponse:
     new_df = df.iloc[max_indx]
 
     prompt = f'''
-You are a Teaching Assistant for the course "Machine Learning for Trading" by Professor Tucker Balch.
+You are a Teaching Assistant for "Machine Learning for Trading" by Professor Tucker Balch.
+
+IMPORTANT - YOU MUST FORMAT YOUR RESPONSE USING MARKDOWN:
+- Start with a ## header summarizing the topic
+- Use **bold** for every key term (e.g. **long position**, **short selling**)
+- Use bullet points (- ) for any list of steps, differences, or concepts
+- Use > blockquotes when quoting or paraphrasing what a lecture says
+- Use `backticks` for formulas or variable names
+- Never write long plain paragraphs — break everything into sections
+
 Relevant transcript chunks:
 {new_df[["title","number","start","end","text"]].to_json(orient="records")}
-----------------
+
 User Question:
 "{query_text}"
-Instructions:
-- Answer naturally like a human tutor.
-- DO NOT use markdown.
-- DO NOT use **, *, #, bullets.
-- Write in plain clean text.
-- Mention video number and timestamp naturally.
-- Mention only most relevant videos.
-- Maximum 3 recommendations.
-'''
 
+Additional rules:
+- Mention video number and timestamp naturally (e.g. "Video 196 at 22:00")
+- Reference at most 3 videos, only the most relevant
+- Be friendly and clear like a human tutor
+'''
     response = client.models.generate_content(
         model="gemini-2.5-flash",
         contents=prompt,
     )
 
-    answer = (
-        response.text
-        .replace("**", "")
-        .replace("* ", "")
-        .replace("###", "")
-        .replace("##", "")
-        .strip()
-    )
+    answer = response.text.strip()
 
     return QueryResponse(answer=answer)

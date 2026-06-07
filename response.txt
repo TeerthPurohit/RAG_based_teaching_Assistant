@@ -1,15 +1,7 @@
-That's a great question to start with! In the context of this course, machine learning in trading is primarily about using algorithms to make decisions in financial markets.
+Machine learning, often abbreviated as ML, is a powerful approach that gives us a suite of tools for building predictive models using data.
 
-Professor Balch explains in video 164, "Overview," starting around 0:0.0, that hedge funds and other financial institutions utilize machine learning to create models that can predict future prices for stocks or other assets. It's about building systems that can learn from data to make better trading decisions.
+As Professor Balch explains in video 164 (21.0-29.0), what makes machine learning different is its data-centric way of creating these models. Essentially, the goal is to build a "model" that can take in observations and then provide a prediction or output.
 
-More specifically, a significant part of how we approach ML in trading in this course is through Reinforcement Learning (RL). Think of it as teaching a computer agent to trade by letting it interact with the market. As discussed in "Mapping trading to RL" (video 198, around 0:5), we map the trading problem to an RL framework where:
-  The environment is the market itself.
-  The state includes market features, prices, and whether you're holding a stock.
-  Your actions are things like buying, selling, or holding.
-  The reward (or R) is the return you get for making good trades, as mentioned in "The RL problem" (video 197, around 214:5).
+To elaborate a bit, as discussed in video 165 (0.4-17.7), machine learning algorithms work by taking historical data and processing it to generate this model. Once the model is built, you can then feed new observations, like features of a stock, into it to get predictions, such as a future price (82.5-107.6).
 
-So, in essence, ML in trading here means using these algorithms, especially reinforcement learning, to learn optimal trading strategies by observing the market and receiving feedback (returns) on actions taken.
-
-I recommend checking out:
-  "Overview" (video 164) for the general introduction to ML in trading.
-  "Mapping trading to RL" (video 198) and "The RL problem" (video 197) to understand how trading specifically fits into the Reinforcement Learning framework.
+So, in short, it's about using data to intelligently build something that can make predictions.
