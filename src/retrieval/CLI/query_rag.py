@@ -56,6 +56,10 @@ Additional rules:
 - Mention video number and timestamp naturally (e.g. "Video 196 at 22:00")
 - Reference at most 3 videos, only the most relevant
 - Be friendly and clear like a human tutor
+- If the retrieved context does not contain information 
+to answer the question, respond ONLY with:
+"This topic isn't covered in the course materials I have access to."
+Do not use outside knowledge to supplement the answer.
 '''
     response = client.models.generate_content(
         model="gemini-2.5-flash-lite",
