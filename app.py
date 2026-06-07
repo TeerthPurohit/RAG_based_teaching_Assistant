@@ -80,15 +80,14 @@ body { font-family: 'Inter', system-ui, sans-serif; background: #0d1117; }
 footer { display: none !important; }
 """
 
+# ← back to tuples since HF's Gradio version doesn't support type="messages"
 def respond(message, history):
     history = history or []
     try:
         response = query_rag(message)
-        history.append({"role": "user", "content": message})
-        history.append({"role": "assistant", "content": response.answer})
+        history.append((message, response.answer))
     except Exception as e:
-        history.append({"role": "user", "content": message})
-        history.append({"role": "assistant", "content": "⚠️ Model is temporarily busy. Please try again in a moment."})
+        history.append((message, "⚠️ Model is temporarily busy. Please try again in a moment."))
     return "", history
 
 with gr.Blocks(
@@ -119,8 +118,7 @@ with gr.Blocks(
     chatbot = gr.Chatbot(
         elem_id="chatbot",
         show_label=False,
-        render_markdown=True,
-        type="messages"          # ← fixes the dict format error
+        render_markdown=True    # ← type="messages" removed
     )
     with gr.Row(elem_classes=["input-row"]):
         msg = gr.Textbox(
@@ -133,7 +131,7 @@ with gr.Blocks(
 
     msg.submit(respond, [msg, chatbot], [msg, chatbot])
     send.click(respond, [msg, chatbot], [msg, chatbot])
-    clear.click(fn=lambda: ([], ""), inputs=None, outputs=[chatbot, msg])
+    clear.click(lambda: ([], ""), outputs=[chatbot, msg])
 
 # ── Mount Gradio on FastAPI ───────────────────────────────────
 app = gr.mount_gradio_app(app, demo, path="/ui")
