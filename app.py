@@ -24,7 +24,6 @@ def submit_query_endpoint(request: SubmitQueryRequest) -> QueryResponse:
 
 # ── Custom CSS ────────────────────────────────────────────────────────────────
 CUSTOM_CSS = """
-/* ── Google Font ── */
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=DM+Mono&display=swap');
 
 body, .gradio-container {
@@ -32,7 +31,6 @@ body, .gradio-container {
     background: #0f1117 !important;
 }
 
-/* Header */
 .gradio-container h1 {
     font-size: 1.6rem !important;
     font-weight: 600 !important;
@@ -45,7 +43,6 @@ body, .gradio-container {
     font-size: 0.88rem !important;
 }
 
-/* Chat bubbles */
 .message.user {
     background: #1e2130 !important;
     border: 1px solid #2a2f45 !important;
@@ -63,7 +60,6 @@ body, .gradio-container {
     line-height: 1.65 !important;
 }
 
-/* Input row */
 .gr-textbox textarea, #component-0 textarea {
     font-family: 'DM Sans', sans-serif !important;
     background: #1a1e2e !important;
@@ -79,7 +75,6 @@ body, .gradio-container {
     box-shadow: 0 0 0 3px rgba(74, 108, 247, 0.15) !important;
 }
 
-/* Submit button */
 #submit-btn, button.primary {
     background: #4a6cf7 !important;
     border: none !important;
@@ -97,7 +92,6 @@ body, .gradio-container {
     transform: translateY(-1px) !important;
 }
 
-/* Example pills */
 .examples-holder button {
     background: #1a1e2e !important;
     border: 1px solid #2a2f45 !important;
@@ -113,11 +107,28 @@ body, .gradio-container {
     color: #c8d0e8 !important;
 }
 
-/* Scrollbar */
 ::-webkit-scrollbar { width: 5px; }
 ::-webkit-scrollbar-track { background: transparent; }
 ::-webkit-scrollbar-thumb { background: #2a2f45; border-radius: 4px; }
 """
+
+THEME = gr.themes.Base(
+    primary_hue=gr.themes.colors.blue,
+    neutral_hue=gr.themes.colors.slate,
+    font=[gr.themes.GoogleFont("DM Sans"), "sans-serif"],
+    font_mono=[gr.themes.GoogleFont("DM Mono"), "monospace"],
+).set(
+    body_background_fill="#0f1117",
+    body_text_color="#dde3f5",
+    block_background_fill="#141824",
+    block_border_color="#1f2538",
+    border_color_primary="#2a2f45",
+    input_background_fill="#1a1e2e",
+    button_primary_background_fill="#4a6cf7",
+    button_primary_background_fill_hover="#3a5ce5",
+    button_primary_text_color="#ffffff",
+)
+
 
 # ── Gradio UI ─────────────────────────────────────────────────────────────────
 def ask_question(message: str, history: list) -> str:
@@ -135,37 +146,21 @@ chatbot = gr.Chatbot(
     ),
 )
 
-demo = gr.ChatInterface(
-    fn=ask_question,
-    chatbot=chatbot,
-    title="🎓 ML for Trading — Teaching Assistant",
-    description=(
-        "Ask anything from the **Machine Learning for Trading** course "
-        "by Professor Tucker Balch."
-    ),
-    examples=[
-        "What is the difference between shorting and holding a stock?",
-        "How does reinforcement learning apply to trading?",
-        "What is a Sharpe ratio?",
-    ],
-    css=CUSTOM_CSS,
-    theme=gr.themes.Base(
-        primary_hue=gr.themes.colors.blue,
-        neutral_hue=gr.themes.colors.slate,
-        font=[gr.themes.GoogleFont("DM Sans"), "sans-serif"],
-        font_mono=[gr.themes.GoogleFont("DM Mono"), "monospace"],
-    ).set(
-        body_background_fill="#0f1117",
-        body_text_color="#dde3f5",
-        block_background_fill="#141824",
-        block_border_color="#1f2538",
-        border_color_primary="#2a2f45",
-        input_background_fill="#1a1e2e",
-        button_primary_background_fill="#4a6cf7",
-        button_primary_background_fill_hover="#3a5ce5",
-        button_primary_text_color="#ffffff",
-    ),
-)
+with gr.Blocks(css=CUSTOM_CSS, theme=THEME) as demo:
+    gr.ChatInterface(
+        fn=ask_question,
+        chatbot=chatbot,
+        title="🎓 ML for Trading — Teaching Assistant",
+        description=(
+            "Ask anything from the **Machine Learning for Trading** course "
+            "by Professor Tucker Balch."
+        ),
+        examples=[
+            "What is the difference between shorting and holding a stock?",
+            "How does reinforcement learning apply to trading?",
+            "What is a Sharpe ratio?",
+        ],
+    )
 
 # Mount Gradio on FastAPI
 app = gr.mount_gradio_app(app, demo, path="/ui")
