@@ -2,8 +2,8 @@ import os
 import sys
 import numpy as np
 import joblib
-from pydantic import BaseModel
-from sentence_transformers import SentenceTransformer
+from pydantic import BaseModel 
+from sentence_transformers import SentenceTransformer , CrossEncoder
 from sklearn.metrics.pairwise import cosine_similarity
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "../../..")))
@@ -12,28 +12,59 @@ from google import genai
 
 # Load model and embeddings once at startup
 client = genai.Client(api_key=api_key)
-
 model = SentenceTransformer("BAAI/bge-m3")
-
+reranker = CrossEncoder("cross-encoder/ms-marco-MiniLM-L-6-v2")
+#embeddings path files and folders
 embeddings_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "../../../data/embeddings/embeddings.joblib"))
 df = joblib.load(embeddings_path)
 
 
 class QueryResponse(BaseModel):
-    answer: str
+    answer: str\
 
+#query expansion 
+def expand_query(query_text: str) -> list[str]:
+    response = client.models.generate_content(
+        model="gemini-2.5-flash-lite",
+        contents=f'Generate 3 alternative search queries for this question in a Machine Learning for Trading course. Return ONLY the queries, one per line: "{query_text}"'
+    )
+    return [query_text] + response.text.strip().split("\n")[:3]
+
+
+def rerank(query_text: str, candidates: list, top_k: int = 6) -> list:
+    scores = reranker.predict([(query_text, r["text"]) for r in candidates])
+    return [c for _, c in sorted(zip(scores, candidates), reverse=True)[:top_k]]
+
+#main query
 
 def query_rag(query_text: str) -> QueryResponse:
-    question_embedding = model.encode([query_text])[0]
+    queries = expand_query(query_text)
+    embeddings_matrix = np.vstack(df["embedding"])
+    
+    seen, all_rows = set(), []
+    for q in queries:
+        sims = cosine_similarity(embeddings_matrix, [model.encode([q])[0]]).flatten()
+        for idx in sims.argsort()[::-1][:15]:
+            if idx not in seen:
+                seen.add(idx)
+                all_rows.append(df.iloc[idx].to_dict())
 
-    similarities = cosine_similarity(
-        np.vstack(df['embedding']),
-        [question_embedding]
-    ).flatten()
+    final_chunks = rerank(query_text, all_rows, top_k=8)
 
-    top_results = 30
-    max_indx = similarities.argsort()[::-1][0:top_results]
-    new_df = df.iloc[max_indx]
+    import json
+    context = json.dumps(
+        [
+            {
+                "title": r["title"],
+                "number": r["number"],
+                "start": r["start"],
+                "end": r["end"],
+                "text": r["text"],
+            }
+            for r in final_chunks
+        ],
+        indent=2,
+    )
 
     prompt = f'''
 You are a Teaching Assistant for "Machine Learning for Trading" by Professor Tucker Balch.
@@ -47,7 +78,7 @@ IMPORTANT - YOU MUST FORMAT YOUR RESPONSE USING MARKDOWN:
 - Never write long plain paragraphs — break everything into sections
 
 Relevant transcript chunks:
-{new_df[["title","number","start","end","text"]].to_json(orient="records")}
+{context}
 
 User Question:
 "{query_text}"
@@ -56,10 +87,9 @@ Additional rules:
 - Mention video number and timestamp naturally (e.g. "Video 196 at 22:00")
 - Reference at most 3 videos, only the most relevant
 - Be friendly and clear like a human tutor
-- If the retrieved context does not contain information 
-to answer the question, respond ONLY with:
-"This topic isn't covered in the course materials I have access to."
-Do not use outside knowledge to supplement the answer.
+- If the retrieved context does not contain enough information to answer the question,
+  respond ONLY with: "This topic isn't covered in the course materials I have access to."
+- Do NOT use outside knowledge to supplement the answer under any circumstances.
 '''
     response = client.models.generate_content(
         model="gemini-2.5-flash-lite",
