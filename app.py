@@ -63,9 +63,6 @@ THEME = gr.themes.Soft(
     button_secondary_border_color="#2a2f45",
     button_secondary_text_color="#8b93a8",
     button_large_radius="10px",
-    # Chatbot
-    chatbot_code_background_color="#0f1117",
-    chatbot_code_background_color_dark="#0f1117",
 )
 
 
