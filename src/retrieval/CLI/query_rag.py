@@ -8,10 +8,11 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "../../..")))
 from src.config.config_env import api_key
-from google import genai
+from openai import OpenAI
+
 
 # Load model and embeddings once at startup
-client = genai.Client(api_key=api_key)
+client = OpenAI(api_key=api_key)
 model = SentenceTransformer("BAAI/bge-m3")
 reranker = CrossEncoder("cross-encoder/ms-marco-MiniLM-L-6-v2")
 #embeddings path files and folders
@@ -24,11 +25,11 @@ class QueryResponse(BaseModel):
 
 #query expansion 
 def expand_query(query_text: str) -> list[str]:
-    response = client.models.generate_content(
-        model="gemini-2.5-flash-lite",
-        contents=f'Generate 3 alternative search queries for this question in a Machine Learning for Trading course. Return ONLY the queries, one per line: "{query_text}"'
-    )
-    return [query_text] + response.text.strip().split("\n")[:3]
+    response = client.chat.completions.create(
+    model="gpt-4o-mini",
+    messages=[{"role": "user", "content": f'Generate 3 alternative search queries for this question in a Machine Learning for Trading course. Return ONLY the queries, one per line: "{query_text}"'}]
+)
+    return [query_text] + response.choices[0].message.content.strip().split("\n")[:3]
 
 
 def rerank(query_text: str, candidates: list, top_k: int = 6) -> list:
@@ -91,11 +92,10 @@ Additional rules:
   respond ONLY with: "This topic isn't covered in the course materials I have access to."
 - Do NOT use outside knowledge to supplement the answer under any circumstances.
 '''
-    response = client.models.generate_content(
-        model="gemini-2.5-flash-lite",
-        contents=prompt,
-    )
-
-    answer = response.text.strip()
+    response = client.chat.completions.create(
+    model="gpt-4o-mini",
+    messages=[{"role": "user", "content": prompt}]
+)
+    answer = response.choices[0].message.content.strip() 
 
     return QueryResponse(answer=answer)

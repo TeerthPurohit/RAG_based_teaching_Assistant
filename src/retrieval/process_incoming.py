@@ -14,7 +14,7 @@ sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "../.
 from src.config.config_env import api_key
 from google import genai
 
-client = genai.Client(api_key=api_key)
+client = OpenAI(api_key=api_key)
 model_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "../../models/local_bge_m3"))
 model = SentenceTransformer(model_path)
 embeddings_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "../../data/embeddings/embeddings.joblib"))
@@ -22,11 +22,11 @@ df = joblib.load(embeddings_path)
 
 def inference_gemini(prompt):
     print("Thinking...")
-    response = client.models.generate_content(
-        model="gemini-2.5-flash-lite",
-        contents=prompt,
+    response = client.chat.completions.create(
+        model="gpt-4o-mini",
+        messages=[{"role": "user", "content": prompt}]
     )
-    return response.text
+    return response.choices[0].message.content
 
 
 output_path = os.path.abspath(
