@@ -6,109 +6,116 @@ colorTo: green
 sdk: docker
 app_port: 7860
 ---
+
 # 🎓 RAG Based Teaching Assistant
-This RAG based teaching assistant aids students to quickly navigate course material by taking a natural language query and returning the contextual information with an exact video reference and timestamp.
-Built for the 📈 Machine Learning for Trading class by Professor Tucker Balch
+
+A RAG-powered chatbot that helps students navigate the **Machine Learning for Trading** course by Professor Tucker Balch (Georgia Tech / Udacity / YouTube).
+
+Ask any question in natural language — get a clear answer with the exact video number and timestamp to watch.
 
 🚀 **Live Demo:** [Chat UI](https://teerthpurohit-rag-tradingwithml-teaching-assistant.hf.space/ui) | [API Docs](https://teerthpurohit-rag-tradingwithml-teaching-assistant.hf.space/docs)
 
 ---
+
 ## ✨ Features
-🎥 Convert lecture videos/audio to searchable knowledge  
-🔍 Semantic search using embeddings  
-📚 Retrieve relevant transcript chunks  
-🤖 Generate natural answers using Gemini  
-⏱️ Suggest precise video numbers and timestamps  
-🔁 Continuous Q&A loop (chat like experience)  
-💻 Support for local embedding models  
+
+🎥 Lecture videos converted to a searchable transcript database  
+🔍 Semantic search using BGE-M3 embeddings  
+🔀 Query expansion — rewrites your question 3 ways for broader retrieval  
+🏆 Cross-encoder reranking — scores and selects the most relevant chunks  
+🤖 Answer generation using GPT-4o Mini  
+⏱️ Returns exact video number and timestamp  
+⚡ FastAPI REST backend + Gradio chat UI  
 🐳 Deployed on Hugging Face Spaces via Docker  
 
 ---
-## 🏗️ Project Architecture
+
+## 🏗️ Architecture
+
 ```text
 User Query
  ↓
-Embeddings are generated
+Query Expansion (GPT-4o Mini generates 3 variants)
  ↓
-Similarity search on chunked lecture transcripts
+Embedding each variant (BGE-M3)
  ↓
-Top relevant chunks are identified
+Cosine similarity search → top 15 chunks per variant
  ↓
-Prompt is constructed and passed to Gemini
+Deduplicate → ~60 candidate chunks
  ↓
-Gemini generates a natural, helpful answer
+Cross-encoder reranking → top 8 most relevant chunks
  ↓
-Recommended video & exact timestamp are displayed
+Prompt constructed and sent to GPT-4o Mini
+ ↓
+Answer returned with video number and timestamp
 ```
+
 ---
+
 ## 📂 Project Structure
+
 ```text
 RAGBasedTeaching_Assistant/
  README.md
  requirements.txt
  Dockerfile
  app.py
- .gitignore
- .env
  .env.example
  data/
- audios/
- vids/
- transcripts/
- chunks/
- embeddings/
- embeddings.joblib
+   transcripts/
+   chunks/
+   embeddings/
+     embeddings.joblib
  models/
- localbgem3/
+   local_bge_m3/
  src/
- config/
- config_env.py
- ingestion/
- mp3totranscripts.py
- mp3tojsons.py
- merge_chunks.py
- embedding/
- embed_builder.py
- retrieval/
- CLI/
- query_rag.py
- process_incoming.py
- speech/
- stt.py
- prompts/
- outputs/
- docs/
+   config/
+     config_env.py
+   ingestion/
+     mp3totranscripts.py
+     mp3tojsons.py
+     merge_chunks.py
+   embedding/
+     embed_builder.py
+   retrieval/
+     CLI/
+       query_rag.py
+       process_incoming.py
 ```
+
 ---
+
 ## ⚙️ Tech Stack
+
 🐍 Python  
-🧠 Sentence Transformers  
-📌 BGE-M3 Embeddings  
-✨ Google Gemini API  
+🧠 Sentence Transformers (BGE-M3)  
+🏆 CrossEncoder (ms-marco-MiniLM-L-6-v2)  
+🤖 OpenAI GPT-4o Mini  
 📊 Scikit-learn  
-🐼 Pandas  
 💾 Joblib  
 ⚡ FastAPI  
 🎨 Gradio  
 🐳 Docker  
 
 ---
+
 ## 🛠️ Installation
-Clone repository:
+
 ```bash
-git clone YOURREPOLINK
+git clone YOUR_REPO_LINK
 cd RAGBasedTeaching_Assistant
-```
-Install dependencies:
-```bash
 pip install -r requirements.txt
 ```
-Set up .env:
+
+Set up `.env`:
 ```env
-GEMINIAPIKEY=yourapikey
+OPENAI_API_KEY=your_api_key
 ```
+
 ---
+
 ## ▶️ Run
+
 **CLI mode:**
 ```bash
 python src/retrieval/CLI/process_incoming.py
@@ -118,63 +125,54 @@ python src/retrieval/CLI/process_incoming.py
 ```bash
 python app.py
 ```
-Then open:
+
 - Chat UI: `http://localhost:7860/ui`
 - API docs: `http://localhost:7860/docs`
 
-Example:
-```text
-Enter your query:
-> How is reinforcement learning used in trading?
-Thinking...
-You'll find this in video 198 between 0:00 and 0:22.
-This section explains how trading can be modeled as a reinforcement learning problem where the market acts as the environment.
-Continue to video 197 from 3:34 onward for actions and rewards.
-```
 ---
+
 ## 🧠 How Retrieval Works
-1. ❓ User submits a question  
-2. 🔢 Query is embedded  
-3. 🔍 Similarity search is performed on lecture transcript database  
-4. 📄 Top N most similar chunks are retrieved  
-5. 🧩 Relevant chunks and query are passed to Gemini  
-6. 🤖 Gemini generates a natural language response  
+
+1. ❓ User submits a question
+2. 🔀 Query is expanded into 3 variants via GPT-4o Mini
+3. 🔢 Each variant is embedded with BGE-M3
+4. 🔍 Cosine similarity search retrieves top 15 chunks per variant
+5. 🧹 Duplicates removed → ~60 unique candidates
+6. 🏆 Cross-encoder reranker scores all candidates, keeps top 8
+7. 🤖 GPT-4o Mini generates a natural language answer from the best chunks
 
 ---
+
 ## 🚀 Future Improvements
+
 - 🧠 Conversation memory  
 - ⚡ Hybrid retrieval (BM25 + Vector Search)  
 - 📚 Multi-course support  
 - 🎙️ Voice assistant mode  
-- ⚛️ React frontend  
 
 ---
+
 ## 🔐 Environment Variables
+
 Do not upload:
 ```text
 .env
 models/
 data/embeddings/
 ```
+
 Upload:
 ```text
 .env.example
 ```
+
 ---
-## 💡 Example Query
-```text
-How does machine learning help in trading?
-```
-Output:
-```text
-Video 164 (0:00-0:21)
-This section introduces how hedge funds use machine learning models to predict prices and automate decision making.
-```
----
+
 ## 👨‍💻 Author
-This project was created to explore:
-- 🧠 Retrieval-Augmented Generation (RAG)  
-- 🔢 Embeddings  
-- 🔍 Semantic Search  
-- 🤖 LLM-powered tutoring systems  
-- 🚀 Cloud Deployment
+
+Built by **Teerth Purohit** to explore:
+- 🧠 Retrieval-Augmented Generation (RAG)
+- 🔀 Query expansion and reranking
+- 🔍 Semantic search with vector embeddings
+- 🤖 LLM-powered tutoring systems
+- 🚀 Cloud deployment on Hugging Face
